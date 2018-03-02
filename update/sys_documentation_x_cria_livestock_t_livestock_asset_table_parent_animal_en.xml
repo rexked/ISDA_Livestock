@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="parent_animal" label="Parent Animal" language="en" table="x_cria_livestock_t_livestock_asset_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>parent_animal</element>
+            <help/>
+            <hint/>
+            <label>Parent Animal</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_livestock_asset_table</name>
+            <plural>Parent Animals</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dmorden</sys_created_by>
+            <sys_created_on>2018-03-02 16:32:04</sys_created_on>
+            <sys_id>ffab6c66dba09700df68f2b6ae9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Parent Animal</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_livestock_asset_table_parent_animal_en</sys_update_name>
+            <sys_updated_by>dmorden</sys_updated_by>
+            <sys_updated_on>2018-03-02 16:32:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="Livestock Asset Table" max_length="40" name="x_cria_livestock_t_livestock_asset_table" type="collection">
+        <element label="Animal Identification Number (AIN)" mandatory="true" max_length="200" name="ain" type="string"/>
+        <element choice="1" label="Breed" mandatory="true" max_length="100" name="breed" type="choice">
+            <choice/>
+        </element>
+        <element label="Company" mandatory="true" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element label="Date of Birth (DOB)" mandatory="true" max_length="40" name="dob" type="glide_date"/>
+        <element label="Invoice Number" max_length="100" name="invoice_number" type="string"/>
+        <element label="Livestock Manager" mandatory="true" max_length="32" name="livestock_manager" reference="sys_user" type="reference"/>
+        <element label="Location" mandatory="true" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Owner" mandatory="true" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Parent Animal" max_length="32" name="parent_animal" reference="x_cria_livestock_t_livestock_asset_table" type="reference"/>
+        <element label="Purchase Cost" max_length="100" name="purchase_cost" type="currency"/>
+        <element choice="1" label="Species" mandatory="true" max_length="100" name="species" type="choice">
+            <choice/>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+        <index name="index2">
+            <element name="livestock_manager"/>
+        </index>
+        <index name="index3">
+            <element name="parent_animal"/>
+        </index>
+        <index name="index4">
+            <element name="company"/>
+        </index>
+        <index name="index5">
+            <element name="location"/>
+        </index>
+    </element>
+</database>
