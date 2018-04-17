@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_cria_livestock_t.AHL_User" name="x_cria_livestock_t.AHL_User">41a00b68dbc1d700c64e5eea4b961941</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-03-21 18:46:49</sys_created_on>
+        <sys_id>83b0c768dbc1d700c64e5eea4b961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>41a00b68dbc1d700c64e5eea4b961941</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_embedded_help_role_83b0c768dbc1d700c64e5eea4b961990</sys_update_name>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-03-21 18:46:49</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

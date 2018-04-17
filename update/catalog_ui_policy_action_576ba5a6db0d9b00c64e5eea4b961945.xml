@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:88182926db0d9b00c64e5eea4b9619e9</catalog_variable>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-03-27 17:42:05</sys_created_on>
+        <sys_id>576ba5a6db0d9b00c64e5eea4b961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CertifyBlood1</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_576ba5a6db0d9b00c64e5eea4b961945</sys_update_name>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-03-27 17:42:05</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Read only cert">343be1a6db0d9b00c64e5eea4b961986</ui_policy>
+        <variable>CertifyBlood1</variable>
+        <variable_set display_value="Certification for Payment">3dc76526db0d9b00c64e5eea4b96198f</variable_set>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

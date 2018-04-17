@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>x_cria_livestock_t_livestock_user</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden</sys_created_by>
+        <sys_created_on>2018-03-15 21:06:43</sys_created_on>
+        <sys_id>69276cfedb78d3009b2689584b9619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cria_livestock_t_livestock_user</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_69276cfedb78d3009b2689584b9619c8</sys_update_name>
+        <sys_updated_by>dmorden</sys_updated_by>
+        <sys_updated_on>2018-03-15 21:06:43</sys_updated_on>
+        <table>sys_user</table>
+        <ui_policy display_value="Hide livestock user field">d3e6e8fedb78d3009b2689584b9619dc</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>200</order>
+        <question display_value="BAPA">af1d515adb059b00c64e5eea4b9619d0</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>cervin</sys_created_by>
+        <sys_created_on>2018-03-26 22:22:37</sys_created_on>
+        <sys_id>eb0229dadb059b00c64e5eea4b9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Neg</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>question_choice_eb0229dadb059b00c64e5eea4b9619ad</sys_update_name>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2018-03-26 22:22:37</sys_updated_on>
+        <text>Neg</text>
+        <value>neg</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=eb0229dadb059b00c64e5eea4b9619ad"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>eb0229dadb059b00c64e5eea4b9619ad</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>cervin</sys_created_by>
+        <sys_created_on>2018-03-26 22:22:37</sys_created_on>
+        <sys_id>cd1225dadb059b00c64e5eea4b96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2018-03-26 22:22:37</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>eb0229dadb059b00c64e5eea4b9619ad</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>cervin</sys_created_by>
+        <sys_created_on>2018-03-26 22:22:37</sys_created_on>
+        <sys_id>851225dadb059b00c64e5eea4b96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2018-03-26 22:22:37</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

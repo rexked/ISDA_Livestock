@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <description/>
+        <display_title>true</display_title>
+        <layout>2across</layout>
+        <name>Herd Owner Information</name>
+        <order>100</order>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>cervin</sys_created_by>
+        <sys_created_on>2018-03-15 16:48:57</sys_created_on>
+        <sys_id>230c236adbb8d300c64e5eea4b96191d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Herd Owner Information</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>item_option_new_set_230c236adbb8d300c64e5eea4b96191d</sys_update_name>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2018-04-12 16:31:09</sys_updated_on>
+        <title/>
+    </item_option_new_set>
+</record_update>

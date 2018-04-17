@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="CVI" max_length="40" name="x_cria_livestock_t_cvi" type="collection">
+        <element label="Brand Inspection Number" max_length="40" name="brand_inspection_number" type="string"/>
+        <element label="Carrier Name and Address" max_length="80" name="carrier_name_and_address" type="string"/>
+        <element label="City state zip" max_length="40" name="city_state_zip" type="string"/>
+        <element label="City State Zip Cosignee" max_length="40" name="city_state_zip_cosignee" type="string"/>
+        <element label="Entry Permit Number" max_length="40" name="entry_permit_number" type="string"/>
+        <element label="epn Date" max_length="10" name="epn_date" type="glide_date"/>
+        <element label="Herd" max_length="32" name="herd" reference="x_cria_livestock_t_herds" type="reference"/>
+        <element label="Name of Cosignee" max_length="40" name="name_of_cosignee" type="string"/>
+        <element label="Name of Cosigner" max_length="40" name="name_of_cosigner" type="string"/>
+        <element label="Number of animals shipped" max_length="10" name="number_of_animals_shipped" type="string"/>
+        <element choice="1" label="oos Area" max_length="40" name="oos_area" type="choice">
+            <choice/>
+        </element>
+        <element label="oos County" max_length="40" name="oos_county" type="string"/>
+        <element label="oos Market" max_length="40" name="oos_market" type="string"/>
+        <element label="Physical Address" max_length="80" name="physical_address" type="string"/>
+        <element label="Physical Address Cosignee" max_length="80" name="physical_address_cosignee" type="string"/>
+        <element label="Species Options" max_length="40" name="species_options" type="glide_list"/>
+        <index name="index">
+            <element name="herd"/>
+        </index>
+    </element>
+</database>

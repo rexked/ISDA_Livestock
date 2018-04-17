@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Lab Results Tub" max_length="40" name="x_cria_livestock_t_lab_results_tub" type="collection">
+        <element label="Age" max_length="40" name="age" type="string"/>
+        <element label="Breed" max_length="40" name="breed" type="string"/>
+        <element label="Offical Identification" max_length="40" name="id" type="string"/>
+        <element choice="1" label="Interpretation" max_length="40" name="interpretation" type="choice">
+            <choice>
+                <element label="Negative" sequence="1" value="negative"/>
+                <element label="Suspect" sequence="2" value="suspect"/>
+                <element label="Reactor" sequence="3" value="reactor"/>
+            </choice>
+        </element>
+        <element label="Reactor Tag Number" max_length="40" name="reactor_tag_number" type="string"/>
+        <element default="javascript: gs.getSessionID()" label="Session ID" max_length="40" name="session_id" read_only="true" type="string"/>
+        <element choice="1" label="sex" max_length="10" name="sex" type="choice">
+            <choice>
+                <element label="Male" sequence="1" value="male"/>
+                <element label="Female" sequence="2" value="female"/>
+            </choice>
+        </element>
+        <element label="Size" max_length="40" name="size" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>200</order>
+        <question display_value="Does owner graze cattle on (please select)">ee04d3f8dbc5d7009b2689584b961944</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dmorden</sys_created_by>
+        <sys_created_on>2018-03-22 14:51:58</sys_created_on>
+        <sys_id>fc84dff8dbc5d7009b2689584b9619ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Forest Service</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>question_choice_fc84dff8dbc5d7009b2689584b9619ff</sys_update_name>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2018-04-13 18:34:20</sys_updated_on>
+        <text>Forest Service</text>
+        <value>forrest</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=fc84dff8dbc5d7009b2689584b9619ff"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>fc84dff8dbc5d7009b2689584b9619ff</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>dmorden</sys_created_by>
+        <sys_created_on>2018-03-22 14:51:58</sys_created_on>
+        <sys_id>a094133cdbc5d7009b2689584b96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden</sys_updated_by>
+        <sys_updated_on>2018-03-22 14:51:58</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>fc84dff8dbc5d7009b2689584b9619ff</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>dmorden</sys_created_by>
+        <sys_created_on>2018-03-22 14:51:58</sys_created_on>
+        <sys_id>6894133cdbc5d7009b2689584b961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden</sys_updated_by>
+        <sys_updated_on>2018-03-22 14:51:58</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

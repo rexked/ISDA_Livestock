@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_cria_livestock_t_livestock_user" label="Livestock User" language="en" table="sys_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_cria_livestock_t_livestock_user</element>
+            <help/>
+            <hint/>
+            <label>Livestock User</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <plural>Livestock Users</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dmorden</sys_created_by>
+            <sys_created_on>2018-03-13 22:55:17</sys_created_on>
+            <sys_id>a8ec2a4adb789300c64e5eea4b9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Livestock User</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_sys_user_x_cria_livestock_t_livestock_user_en</sys_update_name>
+            <sys_updated_by>dmorden</sys_updated_by>
+            <sys_updated_on>2018-03-13 22:55:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

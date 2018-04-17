@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Lab results Trich" max_length="40" name="x_cria_livestock_t_lab_results_trich" type="collection">
+        <element label="Age" max_length="40" name="age" type="string"/>
+        <element label="Alternate ID" max_length="40" name="alternate_id" type="string"/>
+        <element choice="1" label="Breed" max_length="40" name="breed" type="string">
+            <choice/>
+        </element>
+        <element label="Trich ID" max_length="80" name="id" type="string"/>
+        <element label="PCR Results Pool" max_length="40" name="pcr_results_pool" type="string"/>
+        <element label="PCR Result Ind" max_length="40" name="pcr_result_ind" type="string"/>
+        <element label="Reading 1" max_length="40" name="reading_1" type="string"/>
+        <element label="Reading 2" max_length="40" name="reading_2" type="string"/>
+        <element label="Reading 3" max_length="40" name="reading_3" type="string"/>
+        <element label="Reading 4" max_length="40" name="reading_4" type="string"/>
+        <element default="javascript: gs.getSessionID()" label="Session ID" max_length="40" name="session_id" read_only="true" type="string"/>
+        <element label="Sex" max_length="40" name="sex" type="string"/>
+        <element label="Test Interp" max_length="40" name="test_interp" type="string"/>
+    </element>
+</database>

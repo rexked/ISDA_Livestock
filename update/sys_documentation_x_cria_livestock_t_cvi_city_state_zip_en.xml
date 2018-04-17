@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="city_state_zip" label="City state zip" language="en" table="x_cria_livestock_t_cvi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>city_state_zip</element>
+            <help/>
+            <hint/>
+            <label>City state zip</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_cvi</name>
+            <plural>City state zips</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-20 14:56:52</sys_created_on>
+            <sys_id>458201d0db099700c64e5eea4b9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>City state zip</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_cvi_city_state_zip_en</sys_update_name>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-03-20 14:56:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

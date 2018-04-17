@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_cria_livestock_t.fromStuff</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>fromStuff</name>
+        <script><![CDATA[var fromStuff = Class.create();
+fromStuff.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getVariable : function(){
+		var result1 = this.variables.vet_email.toString();
+		
+		return result1;
+	},
+    type: 'fromStuff'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-03-30 20:33:02</sys_created_on>
+        <sys_id>88de6963dbc91f00c64e5eea4b961931</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>fromStuff</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_include_88de6963dbc91f00c64e5eea4b961931</sys_update_name>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-03-30 20:45:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

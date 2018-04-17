@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Vaccination Records" max_length="40" name="x_cria_livestock_t_vaccination_record" type="collection">
+        <element label="Date of Vaccination" max_length="40" name="date_of_vaccination" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Dosage" max_length="40" name="dosage" type="string">
+            <choice>
+                <element label="Full" sequence="0" value="Full"/>
+                <element label="Reduced" sequence="1" value="Reduced"/>
+            </choice>
+        </element>
+        <element label="Herd number" max_length="32" name="herd_number" reference="x_cria_livestock_t_herds" type="reference"/>
+        <element label="Herd Owner" max_length="32" name="herd_owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Herd Type" max_length="40" name="herd_type" type="string">
+            <choice>
+                <element label="Dairy" sequence="0" value="Dairy"/>
+                <element label="Beef" sequence="1" value="Beef"/>
+                <element label="Bison" sequence="2" value="Bison"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Premise ID number" max_length="32" name="premise_id_number" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial Number/Expiration date" max_length="100" name="serial_number_expiration_date" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Vaccination Tattoo" max_length="40" name="vaccination_tattoo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vaccine MFG and Strain" max_length="40" name="vaccine_mfg_and_strain" type="string"/>
+        <index name="index">
+            <element name="herd_number"/>
+        </index>
+        <index name="index2">
+            <element name="premise_id_number"/>
+        </index>
+        <index name="index3">
+            <element name="herd_owner"/>
+        </index>
+    </element>
+</database>

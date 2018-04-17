@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>700</order>
+        <sc_cat_item display_value="Trichomoniasis Test and Report Form">0461879adb70d300c64e5eea4b96199a</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>cervin</sys_created_by>
+        <sys_created_on>2018-03-14 20:54:13</sys_created_on>
+        <sys_id>41ca539adbb0d300c64e5eea4b96193c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Signature.Trichomoniasis test and report form</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>io_set_item_41ca539adbb0d300c64e5eea4b96193c</sys_update_name>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2018-03-14 20:58:20</sys_updated_on>
+        <variable_set display_value="Signature">b27adf9adbb0d300c64e5eea4b961982</variable_set>
+    </io_set_item>
+</record_update>

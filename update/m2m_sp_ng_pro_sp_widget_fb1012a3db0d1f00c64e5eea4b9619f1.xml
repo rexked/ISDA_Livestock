@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="scBindHtmlCompile">631d65a287300300e0ef0cf888cb0ba3</sp_angular_provider>
+        <sp_widget display_value="Livestock catalog item">af105a63db0d1f00c64e5eea4b961952</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-03-30 22:56:11</sys_created_on>
+        <sys_id>fb1012a3db0d1f00c64e5eea4b9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scBindHtmlCompile.Livestock catalog item</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_fb1012a3db0d1f00c64e5eea4b9619f1</sys_update_name>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-03-30 22:56:11</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+</record_update>

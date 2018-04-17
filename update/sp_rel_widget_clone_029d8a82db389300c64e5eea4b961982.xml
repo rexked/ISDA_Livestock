@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="livestock sc categories">0a9d8a82db389300c64e5eea4b96197f</child>
+        <cloned>2018-03-13 20:38:35</cloned>
+        <last_validated>2018-03-13 20:38:35</last_validated>
+        <parent display_value="SC Categories">4c03cba0cb11020000f8d856634c9ce1</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;sc&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope, $location, $timeout, $window, $document, $rootScope, spUtil) {
+	var c = this;
+	$scope.hideCategoryWidgetInXS = (c.options.hide_xs == 'true');
+	if (c.data.categoryId) {
+		if (!$scope.hideCategoryWidgetInXS)
+			$scope.hideCategoryWidgetInXS = true;
+	} else {
+		if ($scope.hideCategoryWidgetInXS)
+			$scope.hideCategoryWidgetInXS = false;
+	}
+	
+	spUtil.getPreference('glide.ui.accessibility', function(value) {
+		if (value == "true")
+			$scope.tabindex = 0;
+		else
+			$scope.tabindex = -1;
+	});
+
+	$scope.displayChildren = function($event, category) {
+		$event.stopPropagation();
+		category.showChildren = !category.showChildren;
+	};
+	
+	$scope.toggleSubCategories =  function(val) {
+		toggleSubCategories(c.data.categoriesList, val);
+	};
+	
+	
+	
+	function toggleSubCategories(categories, val) {
+		categories.forEach(function(category) {
+			category.showChildren = val;
+			if (category.subcategories &amp;&amp; category.subcategories.length &gt; 0) {
+				toggleSubCategories(category.subcategories, val);
+			}
+		});
+	}
+	
+	$scope.loadCompleteList =  function() {
+		c.data.getAll = true;
+		c.data.loadAllMsg = c.data.pleaseWait;
+		c.data.showAll = '';
+		c.server.update();
+	};
+	
+	$scope.categorySelected = function(category) {
+			$timeout(function() {
+				$location.search('sys_id', category.sys_id);
+				$location.search('id', c.options.page ||'sc_category');
+			});
+	};
+	var listenerForBrowseCategories = $scope.$on("$sp.service_catelog.show.categories_widget", function() {
+		$scope.hideCategoryWidgetInXS = false;
+	});
+	
+	$scope.hideBrowseCategory = function () {
+		$scope.hideCategoryWidgetInXS = true;
+		$rootScope.$broadcast("$sp.service_catelog.show.items_widget");
+	}
+	
+	$scope.$on("$destroy", function() {
+		listenerForBrowseCategories();
+	});
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.category-widget {
+	border: 1px solid $panel-inner-border;
+  
+  .category-list {
+    .fa {
+      cursor: pointer;
+      margin-right: 5px;
+    }
+    .l-h-1_6x {
+      line-height: 1.6em;
+    }
+    a:focus {
+    	outline-offset: 3px !important;
+		}
+  }
+  
+  .list-group-item {
+    &amp;amp;:hover {
+      background-color: lighten($panel-primary-heading-bg, 45%);
+    }
+    padding-right: 10px;
+  }
+  
+  .sub-category-list {
+    margin: 0 -15px;
+    padding: 0px 15px;
+    background-color: $gray-lighter;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    
+    .list-group-item {
+      background-color: $gray-lighter;
+      padding-right: 0px;
+    }
+  }
+  
+  .no-indent {
+   padding-left: 0px; 
+  }
+}
+.panel-primary .badge {
+  background-color: $panel-primary-heading-bg;
+  color: $panel-primary-text;
+}
+.panel-default .badge {
+  background-color: $panel-default-heading-bg;
+  color: $panel-default-text;
+}
+.panel-success .badge {
+  background-color: $panel-success-heading-bg;
+  color: $panel-success-text;
+}
+.panel-info .badge {
+  background-color: $panel-info-heading-bg;
+  color: $panel-info-text;
+}
+.panel-warning .badge {
+  background-color: $panel-warning-heading-bg;
+  color: $panel-warning-text;
+}
+.panel-danger .badge {
+  background-color: $panel-danger-heading-bg;
+  color: $panel-danger-text;
+}
+.category-list .badge {
+  text-align: right;
+}
+
+.text-default {
+    color: $text-muted;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data&gt;{"options" :&amp;#13;
+   {&amp;#13;
+      "hide_xs" : false&amp;#13;
+   }&amp;#13;
+}&lt;/demo_data&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;color&lt;/field_list&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;SC Categories&lt;/name&gt;&lt;option_schema&gt;[{"name":"hide_xs","default_value":false,"section":"Behavior","label":"Hide at XS","type":"boolean"},{"name":"omit_badges","section":"Behavior","label":"Omit badges","type":"boolean"},{"name":"check_can_view","default_value":"true","section":"Behavior","label":"Check canView per item (may impact performance for large catalogs)","type":"boolean"},{"hint":"Choose between a flattened and a nested category structure","name":"category_layout","section":"Presentation","label":"Category Layout","type":"choice","choices":[{"label":"Flat","value":"Flat"},{"label":"Nested","value":"Nested"}]},{"displayValue":"Page","name":"page","section":"Data","label":"page","type":"reference","value":"sp_page","ed":{"reference":"sp_page"}},{"hint":"Number of categories to load on page load","name":"number_of_categories_to_load","section":"Data","default_value":"15","label":"Number of categories to load","type":"integer"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	// implement resource here
+	data.categoriesList = [];
+	data.showAll = gs.getMessage("Show All");
+	data.pleaseWait = gs.getMessage("Please wait... fetching categories");
+	var categoryId = JSUtil.nil($sp.getParameter('sys_id')) ? "" : $sp.getParameter('sys_id') + "";
+	var catalogID = $sp.getValue('sc_catalog') + "";
+	var viewType = '';
+	var checkCanView = false;
+	var nestedLayout = (options.category_layout !== "Flat");
+	var dynamicCategory = false;
+	var catalog = new sn_sc.Catalog(catalogID);
+	if (!catalog.canView()) {
+		return;
+	}
+	
+	checkCanView = (options.check_can_view == 'true');
+	
+	var categoriesGr = new GlideRecord('sc_category');
+	categoriesGr.addQuery("sc_catalog", catalogID);
+	if (!dynamicCategory)
+		categoriesGr.addQuery("sys_class_name", "sc_category");
+	categoriesGr.addActiveQuery();
+	categoriesGr.orderBy('order');
+	categoriesGr.orderBy('title');
+	if (nestedLayout)
+		categoriesGr.addNullQuery("parent");
+	categoriesGr.query();
+	var totalCount = categoriesGr.getRowCount();
+
+	var startWindow = 0;
+	var windowSize = options.number_of_categories_to_load || 15;
+	
+	if (input &amp;&amp; input.getAll)
+		windowSize = -1 ;
+	data.total = totalCount;
+	windowSize = JSUtil.nil(windowSize) ? 10 : windowSize;
+	data.windowSize = windowSize;
+	var itemIndex = 0;
+	if (totalCount == 0) {
+		return;
+	}
+
+	if (startWindow &gt;= totalCount) {
+		return;
+	}
+	
+	while (categoriesGr.next() &amp;&amp; itemIndex != startWindow)
+		itemIndex += 1;
+
+	itemIndex = 0;
+	while ( (windowSize == -1 || itemIndex &lt; windowSize) &amp;&amp; categoriesGr.isValidRecord()) {
+		var categoryJS = new sn_sc.CatCategory(categoriesGr.getUniqueValue() + '');
+		if (!categoryJS.canView()) {
+            data.total = data.total - 1;
+			if(!categoriesGr.next())
+				break;
+			continue;
+		}
+		
+		var categoryDetails = getCategory(categoryJS, 0);
+		categoryDetails.sys_id = categoriesGr.getUniqueValue();
+		data.categoriesList.push(categoryDetails);
+		
+		itemIndex = itemIndex + 1;
+		if (!categoriesGr.next())
+			break;
+	}
+	
+	
+	data.loadAllMsg = gs.getMessage("Showing {0} of {1} categories", [data.categoriesList.length + "", data.total + ""]);
+	data.categoryId = categoryId;
+	
+	function getCategory(categoryJS, level) {
+		var categoryDetails = {};
+		var showChildren = false;
+		if (!categoryJS) {
+			return categoryDetails;
+		}
+		categoryDetails.title = categoryJS.getTitle();
+		categoryDetails.level = level;
+		categoryDetails.description = categoryJS.getDescription();
+		categoryDetails.full_description = categoryJS.getFullDescription();
+		categoryDetails.icon = categoryJS.getIconSRC();
+		categoryDetails.header_icon = categoryJS.getHeaderIconSRC();
+		categoryDetails.homepage_image = categoryJS.getHomepageImageSRC();
+		categoryDetails.sys_id = categoryJS.getID();
+		categoryDetails.showChildren = (categoryDetails.sys_id === categoryId);
+		
+		if (checkCanView)
+				categoryDetails.count = categoryDetails.totalCount = categoryJS.getViewableItemsCount(true);
+			else
+				categoryDetails.count = categoryDetails.totalCount = categoryJS.getItemsCount(true);
+		
+		
+		var subCategoryCounts = 0;
+		if (nestedLayout) {
+			var subcategories = categoryJS.getViewableSubCategories();
+			
+			if (subcategories.length == 0) {
+				categoryDetails.subcategories = [];
+			} 
+			else {
+					categoryDetails.subcategories = [];
+					subcategories.forEach(function(subCategory) {
+						var subCategoryJS = new sn_sc.CatCategory(subCategory.sys_id + '');
+						var category = getCategory(subCategoryJS, level + 1);
+						categoryDetails.totalCount = categoryDetails.totalCount + category.totalCount;
+						categoryDetails.subcategories.push(category);
+						categoryDetails.showChildren = categoryDetails.showChildren || category.showChildren;
+					});
+				}
+		}
+		return categoryDetails;
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-07-14 00:18:49&lt;/sys_created_on&gt;&lt;sys_id&gt;4c03cba0cb11020000f8d856634c9ce1&lt;/sys_id&gt;&lt;sys_mod_count&gt;327&lt;/sys_mod_count&gt;&lt;sys_name&gt;SC Categories&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Service Catalog" source="com.glide.service-portal.service-catalog"&gt;c2180a6adba01300fc805eea4b961951&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_4c03cba0cb11020000f8d856634c9ce1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-09-12 13:35:14&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div ng-class="{'hidden-xs' : hideCategoryWidgetInXS}" class="panel panel-{{::options.color}} category-widget no-border"&gt;
+  &lt;div class="panel-heading"&gt;
+    &lt;h1 class="h4 panel-title"&gt;
+      &lt;span class="pull-right visible-xs" &gt;
+      	&lt;i class="fa fa-times-circle" ng-click="hideBrowseCategory()" aria-label="${Show Items}" tabindex="0"/&gt;
+      &lt;/span&gt;
+      &lt;span ng-if="::options.glyph"&gt;
+        &lt;fa name="{{::options.glyph}}" /&gt;
+      &lt;/span&gt;{{::options.title}}&lt;/h1&gt;
+  &lt;/div&gt;
+  &lt;div class="list-group category-list" role="list"&gt;
+    &lt;span class="list-group-item text-overflow-ellipsis" ng-if="category.totalCount &gt; 0" ng-include="'category-template.html'" ng-repeat="category in data.categoriesList track by category.sys_id"&gt;
+    &lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class="panel-footer text-center" ng-if="data.windowSize !== -1 &amp;&amp; data.total &gt; data.categoriesList.length"&gt;
+    &lt;a href="javascript:void(0)" role="button" class="text-center" ng-click="loadCompleteList()" &gt;{{data.showAll}}&lt;/a&gt;
+    &lt;div class="text-muted text-center"&gt;
+      {{data.loadAllMsg}}
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type="text/ng-template" id="category-template.html"&gt;
+  	&lt;i ng-if="::category.subcategories.length &gt; 0 &amp;&amp; category.totalCount &gt; category.count" class="l-h-1_6x pull-left fa" ng-class="{true: 'fa-minus-square-o', false: 'fa-plus-square-o'}[category.showChildren]" aria-hidden="true" ng-click="displayChildren($event, category)"&gt;&lt;/i&gt;
+  	&lt;a href="#" class="block text-overflow-ellipsis category" 
+    		ng-enabled="category.totalCount &gt; 0" ng-class="{true: 'text-{{::options.color}}', false: ''}[category.sys_id == data.categoryId]" id="{{::category.sys_id}}" 
+        ng-click="categorySelected(category)" 
+        sn-focus="category.sys_id == data.categoryId"
+        title="{{::category.title}}"&gt;
+	    	{{::category.title}}
+    		&lt;span class="badge pull-right pointer" ng-if="options.omit_badges != 'true'"&gt;{{::category.totalCount}}&lt;/span&gt;
+      	&lt;span class="sr-only"&gt;${items}&lt;/span&gt;
+  	&lt;/a&gt;
+ 	 	&lt;div ng-if="category.showChildren"&gt;
+  		&lt;div class="list-group sub-category-list" role="list" ng-if="category.subcategories.length &gt; 0" ng-class="{true: 'no-indent', false: ''}[category.level &gt; 2]"&gt;
+    		&lt;span class="list-group-item no-border text-overflow-ellipsis" ng-include="'category-template.html'" ng-repeat="category in category.subcategories track by category.sys_id" ng-if="category.totalCount &gt; 0"&gt;
+      	&lt;/span&gt;
+    	&lt;/div&gt;
+  	&lt;/div&gt;
+&lt;/script&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>dmorden</sys_created_by>
+        <sys_created_on>2018-03-13 20:38:35</sys_created_on>
+        <sys_id>029d8a82db389300c64e5eea4b961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0a9d8a82db389300c64e5eea4b96197f</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_029d8a82db389300c64e5eea4b961982</sys_update_name>
+        <sys_updated_by>dmorden</sys_updated_by>
+        <sys_updated_on>2018-03-13 20:38:35</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

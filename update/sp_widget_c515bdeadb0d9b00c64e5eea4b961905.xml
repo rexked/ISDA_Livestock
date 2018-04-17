@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>standard</category>
+        <client_script><![CDATA[function($scope, $rootScope, $location, spUtil, $timeout, spAriaFocusManager) {
+	var canNavigate = false;
+	if ($scope.data.dataTableWidget)
+		angular.extend($scope.data.dataTableWidget.options, $scope.options);
+
+	$scope.$on('data_table.click', callDataClick);
+
+	$scope.$on('select2.ready', function(e, $el){
+		if ($scope.data.invalid_table){
+			e.stopPropagation();
+			$el.select2('open');
+		}
+	})
+
+	$scope.selectedTable = {
+		displayValue: $scope.data.table,
+		value: $scope.data.table
+	}
+
+	function resetParams(){
+		delete $scope.data.p;
+		delete $scope.data.o;
+		delete $scope.data.d;
+		delete $scope.data.q;
+		delete $scope.data.table;
+	}
+
+	/* $scope.onChange = function() {
+		resetParams();
+		$scope.data.table = $scope.selectedTable.value;
+		$scope.data.fields = "";  // reset
+		$scope.data.invalid_table = false;
+		getData(true);
+	} */
+	
+	function callDataClick(e, parms) {											
+			var oid = $location.search().id;
+			var p = $scope.data.page_id || 'form';
+			var s = {id: p, table: parms.table, sys_id: parms.sys_id, view: $scope.data.view};
+			if (oid == p) {
+				s.spa = 1;
+				var t = $location.search();
+				s = angular.extend(t, s);
+				$rootScope.$broadcast('$sp.list.click', s);
+			}
+
+			var newURL = $location.search(s);
+			navigateToLink(newURL.url());										
+	}
+
+	function getData(updateUrl) {
+		var f = $scope.data;
+		spUtil.update($scope).then(function(data) {
+				$scope.data.dataTableWidget = null;
+				$timeout(function(){
+					$scope.data.dataTableWidget = data.dataTableWidget;
+					angular.extend($scope.data.dataTableWidget.options, $scope.options);
+					if (updateUrl)
+						setPermalink(f.table);
+				});
+		});
+	}
+	
+
+	function setPermalink(table) {
+		$scope.ignoreLocationChange = true;
+		var searchParms = $location.search();
+		var search = {
+			spa: 1,
+			table: table,
+			id: searchParms.id
+		};
+		$location.search(search);
+	}
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.widget-data-table .clearfix{&#13;
+	display: none;&#13;
+}</css>
+        <data_table>sp_instance_table</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,table,glyph,color,sp_page,field_list,sp_widget.option_schema</field_list>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>Livestock Data Table from URL Definition</name>
+        <option_schema>[{"hint":"Show Instance option title instead of the table's plural label","name":"use_instance_title","default_value":"false","section":"Presentation","label":"Use Instance Title","type":"boolean"},{"hint":"If enabled, show the filter in the breadcrumb section of the table","name":"enable_filter","default_value":"false","section":"Presentation","label":"Enable Filter","type":"boolean"},{"name":"table","section":"Data","label":"Table","type":"string"}]</option_schema>
+        <public>true</public>
+        <roles>x_cria_livestock_t.AHL_User,x_cria_livestock_t.admin,x_cria_livestock_t.user</roles>
+        <script><![CDATA[(function() {
+	var test = true;
+	deleteOptions(['table','field_list','filter','order_by', 'order_direction','order','maximum_entries']);
+	if (test) {
+		data.table = "x_cria_livestock_t_lab_results_bruc";
+		//data.view = input.view;
+	}
+
+	if (!data.table) {
+		data.invalid_table = true;
+		data.table_label = "";
+		return;
+	}
+	
+
+	var gr = new GlideRecordSecure(data.table);
+	if (!gr.isValid()) {
+		data.invalid_table = true;
+		data.table_label = data.table;
+		return;
+	}
+	
+	
+
+	// page is where the record URLs go, URL parameter wins
+	data.page_id = $sp.getParameter("target_page_id");
+	if (!data.page_id) {
+		var sp_page = $sp.getValue('sp_page');
+		if (sp_page) {
+			var pageGR = new GlideRecord('sp_page');
+			pageGR.get(sp_page);
+			data.page_id = pageGR.id.getDisplayValue();
+		}
+	}
+
+	// widget parameters
+	data.table_label = gr.getLabel();
+	data.fields = $sp.getListColumns(data.table, data.view);
+	//data.title = gr.getPlural();
+	copyParameters(data, ['p', 'o', 'd', 'filter']);
+	copyParameters(data, ['relationship_id', 'apply_to', 'apply_to_sys_id']);
+	data.filterACLs = true;
+	data.show_new = true;
+	data.show_keywords  = true;
+	data.show_breadcrumbs = true;
+	data.fromUrl = true;
+	//data.enable_filter = input.enable_filter || options.enable_filter == true || options.enable_filter == "true";
+
+	data.dataTableWidget = $sp.getWidget('livestockdatatable', data);
+
+	function copyParameters(to, names) {
+		names.forEach(function(name) {
+			data[name] = $sp.getParameter(name);
+		})
+	}
+
+	// in case this widget is tied to the wrong instance type
+	function deleteOptions(names) {
+		names.forEach(function(name) {
+			delete options[name];
+		})
+	}
+})()]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-03-27 18:24:07</sys_created_on>
+        <sys_id>c515bdeadb0d9b00c64e5eea4b961905</sys_id>
+        <sys_mod_count>81</sys_mod_count>
+        <sys_name>Livestock Data Table from URL Definition</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_widget_c515bdeadb0d9b00c64e5eea4b961905</sys_update_name>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-03-29 19:54:24</sys_updated_on>
+        <template><![CDATA[<div>
+  <sp-widget widget="data.dataTableWidget"></sp-widget>
+</div>]]></template>
+    </sp_widget>
+</record_update>

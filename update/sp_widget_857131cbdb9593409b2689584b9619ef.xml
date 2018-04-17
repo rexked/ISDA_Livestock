@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.panel-heading {&#13;
+  padding-left: 8px;&#13;
+}&#13;
+&#13;
+thead {&#13;
+  border-bottom: 1px solid #ddd;&#13;
+}&#13;
+&#13;
+table {&#13;
+  margin-bottom: 0;&#13;
+}&#13;
+&#13;
+.table &gt; thead &gt; tr &gt; th {&#13;
+  border: 1px solid #ddd;&#13;
+  cursor: pointer;&#13;
+  vertical-align: middle;&#13;
+&#13;
+  &amp;:nth-child(2) {&#13;
+    border-left: none;&#13;
+  }&#13;
+&#13;
+&#13;
+&#13;
+  &amp;:last-child {&#13;
+    border-right: none;&#13;
+  }&#13;
+}&#13;
+&#13;
+th i {&#13;
+  display: inline-block;&#13;
+  margin-left: 5px;&#13;
+  color: #A0A0A0;&#13;
+}&#13;
+&#13;
+th .disabled{&#13;
+  color:#ddd;&#13;
+}&#13;
+&#13;
+.th-title {&#13;
+  display: inline-block;&#13;
+  color: $primary;&#13;
+}&#13;
+&#13;
+.panel-body {&#13;
+  overflow: auto;&#13;
+  padding: 0px;&#13;
+}&#13;
+&#13;
+&#13;
+.selected {&#13;
+  color: #fff;&#13;
+  background-color: #909090;&#13;
+  border-color: 1px solid #fff;&#13;
+}&#13;
+&#13;
+tbody tr:last-child {&#13;
+  border-bottom: none;&#13;
+}&#13;
+&#13;
+.pruned-msg {&#13;
+  padding-bottom: 10px;&#13;
+  padding-left: 4px;&#13;
+  text-align: center;&#13;
+}&#13;
+&#13;
+.pruned-msg-filter-pad {&#13;
+  padding-top:8px;&#13;
+}&#13;
+&#13;
+.filter-breadcrumbs {&#13;
+  border-bottom: 1px solid #ddd;&#13;
+  padding-top: 3px;&#13;
+}&#13;
+&#13;
+.dropdown-toggle {&#13;
+  background: none;&#13;
+  padding: 0 0 4px 0;&#13;
+}</css>
+        <data_table>sp_instance_table</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>testtimewidget</id>
+        <internal>false</internal>
+        <link/>
+        <name>Test Time Widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles>x_cria_livestock_t.user,x_cria_livestock_t.admin</roles>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>cervin</sys_created_by>
+        <sys_created_on>2018-04-10 17:52:29</sys_created_on>
+        <sys_id>857131cbdb9593409b2689584b9619ef</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Test Time Widget</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_widget_857131cbdb9593409b2689584b9619ef</sys_update_name>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2018-04-10 18:35:35</sys_updated_on>
+        <template><![CDATA[<input type= "text>]]></template>
+    </sp_widget>
+</record_update>

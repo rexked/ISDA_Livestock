@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cria_livestock_t_vaccination_record" label="Brucellosis" max_length="40" name="x_cria_livestock_t_brucellosis" type="collection">
+        <element label="City, State, Zip" max_length="32" name="city_state_zip" type="string"/>
+        <element label="Herd Owner Address" max_length="100" name="herd_owner_address" type="string"/>
+        <element label="Phone Number" max_length="32" name="phone_number" type="string"/>
+        <element label="Ranch Name" max_length="32" name="ranch_name" type="string"/>
+        <element label="Veteriarian" max_length="40" name="veteriarian" type="string"/>
+        <element label="Vet Address" max_length="100" name="vet_address" type="string"/>
+        <element label="Vet City, State, Zip" max_length="32" name="vet_city_state_zip" type="string"/>
+    </element>
+</database>

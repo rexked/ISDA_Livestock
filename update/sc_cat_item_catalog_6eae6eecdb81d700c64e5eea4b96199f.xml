@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Copy of Brucellosis Test Record">a6ae2aecdb81d700c64e5eea4b961938</sc_cat_item>
+        <sc_catalog display_value="ISDA Catalog">907d3946dbf49300c64e5eea4b9619a9</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-03-21 17:27:52</sys_created_on>
+        <sys_id>6eae6eecdb81d700c64e5eea4b96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ISDA Catalog.Copy of Brucellosis Test Record</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_6eae6eecdb81d700c64e5eea4b96199f</sys_update_name>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-03-21 17:27:52</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_cria_livestock_t.u_UserFields</api_name>
+        <client_callable>true</client_callable>
+        <description>Various callable functions to grab specific data from the user record for use with default values on fields.</description>
+        <name>u_UserFields</name>
+        <script><![CDATA[var u_UserFields = Class.create();
+u_UserFields.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	
+	getUserAddress : function() { //Returns the street of the currently logged in user.
+	var gr = new GlideRecord('sys_user');
+	
+	gr.get(gs.getUserID());
+	
+	return gr.street;
+},
+	
+	getCityStateZip : function() { // Returns the City, State and Zip of the currently logged in user
+		var gr = new GlideRecord('sys_user');
+		gr.get(gs.getUserID());
+		
+		return gr.city + ", " + gr.state + ", " + gr.zip;
+	},
+	
+	getPhone : function() {  //Returns the phone number of the currently logged in user
+		var gr = new GlideRecord('sys_user');
+		gr.get(gs.getUserID());
+		
+		return gr.phone;
+	},
+
+    type: 'u_UserFields'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-03-22 19:29:59</sys_created_on>
+        <sys_id>92f39041db8dd700c64e5eea4b961926</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>u_UserFields</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_include_92f39041db8dd700c64e5eea4b961926</sys_update_name>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-03-23 20:21:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

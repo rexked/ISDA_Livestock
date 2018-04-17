@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Certificate of Veterinary Inspection">44fe96cedb389300c64e5eea4b9619e6</catalog_item>
+        <catalog_variable>IO:bfe0cf3cdb51df00c64e5eea4b9619dd</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-04-04 00:11:13</sys_created_on>
+        <sys_id>c3974b30db91df00c64e5eea4b96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equine Infections Anemia</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c3974b30db91df00c64e5eea4b96194a</sys_update_name>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-04-04 00:11:13</sys_updated_on>
+        <table/>
+        <ui_policy display_value="hide Equine Section">17770730db91df00c64e5eea4b96190a</ui_policy>
+        <variable>Equine Infections Anemia</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

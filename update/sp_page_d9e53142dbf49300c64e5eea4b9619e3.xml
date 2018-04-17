@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>other</category>
+        <css>main.page, main.body {
+  height: 99vh;
+  min-height: 100%;
+  padding-top: 0px !important;
+}
+
+section.page {
+  background-image: url('open_range.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3A3F50;
+}
+
+section.page main.body:before {
+  display: block;
+  background-color: #3A3F50;
+  opacity: 0.75;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>livestock_landing</id>
+        <internal>false</internal>
+        <public>true</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>dmorden</sys_created_by>
+        <sys_created_on>2018-03-13 18:55:01</sys_created_on>
+        <sys_id>d9e53142dbf49300c64e5eea4b9619e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>livestock_landing</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_page_d9e53142dbf49300c64e5eea4b9619e3</sys_update_name>
+        <sys_updated_by>dmorden</sys_updated_by>
+        <sys_updated_on>2018-03-13 19:05:11</sys_updated_on>
+        <title>Livestock Service Portal</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=d9e53142dbf49300c64e5eea4b9619e3"/>
+</record_update>

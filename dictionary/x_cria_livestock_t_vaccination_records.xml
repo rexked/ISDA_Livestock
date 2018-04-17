@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="x_cria_livestock_t_livestock_asset_table" label="Vaccination Records" max_length="40" name="x_cria_livestock_t_vaccination_records" type="collection"/>
-</database>

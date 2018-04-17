@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>standard</category>
+        <client_script><![CDATA[function($scope , spModal, spNavStateManager, spUtil) {
+  /* widget controller */
+  var c = this;
+		
+	
+		$scope.newRecord = function(){
+		
+		var widgetId = 'widget-form';
+		var widgetInput = {
+			table: $scope.data.table,
+			view: $scope.data.view,
+			sys_id: '-1'
+		};
+			
+		spModal.open({
+			title: 'Test Results',
+			widget: widgetId,
+			size: 'lg',
+			widgetInput: widgetInput,
+			buttons: [
+				{
+					label: '${OK}',
+					primary: true
+				}
+			]
+		}).then(function () {
+			//console.log('it did something at least');
+			c.server.update();
+			
+		});
+	};
+	
+	
+	$scope.go = function(table , item){
+		var widgetId = 'widget-form';
+		var widgetInput = {
+			table: $scope.data.table,
+			view: $scope.data.view,
+			sys_id: item.sys_id
+			
+		};
+		
+		
+			
+		spModal.open({
+			title: "Lab Result",
+			widget: widgetId,
+			size: 'md',
+			widgetInput: widgetInput,
+			buttons: [
+				{
+					label: '${OK}',
+					primary: true
+				}
+			]
+			
+		}).then(function(){
+			spUtil.update($scope);
+			console.log('then function inside the go function');
+		});
+	
+	}
+	
+	c.update = function update() {
+			spUtil.update($scope);
+	}
+	
+	console.log(c.data.table);
+	
+	
+		spUtil.recordWatch($scope, c.data.table, c.data.filter, function(name, data){
+			spUtil.update($scope);
+		});
+		console.log("i'm watching you: " + c.data.table + " with a filter of: " + c.data.filter);
+
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.panel-heading {
+  padding-left: 8px;
+}
+
+thead {
+  border-bottom: 1px solid #ddd;
+}
+
+table {
+  margin-bottom: 0;
+}
+
+.table &gt; thead &gt; tr &gt; th {
+  border: 1px solid #ddd;
+  cursor: pointer;
+  vertical-align: middle;
+
+  &amp;:nth-child(2) {
+    border-left: none;
+  }
+
+
+
+  &amp;:last-child {
+    border-right: none;
+  }
+}
+
+th i {
+  display: inline-block;
+  margin-left: 5px;
+  color: #A0A0A0;
+}
+
+th .disabled{
+  color:#ddd;
+}
+
+.th-title {
+  display: inline-block;
+  color: $primary;
+}
+
+.panel-body {
+  overflow: auto;
+  padding: 0px;
+}
+
+
+.selected {
+  color: #fff;
+  background-color: #909090;
+  border-color: 1px solid #fff;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+.pruned-msg {
+  padding-bottom: 10px;
+  padding-left: 4px;
+  text-align: center;
+}
+
+.pruned-msg-filter-pad {
+  padding-top:8px;
+}
+
+.filter-breadcrumbs {
+  border-bottom: 1px solid #ddd;
+  padding-top: 3px;
+}
+
+.dropdown-toggle {
+  background: none;
+  padding: 0 0 4px 0;
+}</css>
+        <data_table>sp_instance_table</data_table>
+        <demo_data>{"data":
+	{
+		"table": "incident",
+		"view": "default",
+		"o": "opened_at",
+		"d": "desc",
+		"filter": "activeEQtrue",
+		"p": 1,
+		"fields": "number,short_description"
+	}
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>table,filter,field_list,maximum_entries,order,order_by,order_direction,title,color,glyph,sp_page</field_list>
+        <has_preview>true</has_preview>
+        <id>livestockdatatable</id>
+        <internal>false</internal>
+        <link><![CDATA[function($scope , spModal, spNavStateManager, spUtil) {
+  /* widget controller */
+  var c = this;
+		
+	
+		$scope.newRecord = function(){
+		
+		var widgetId = 'widget-form';
+		var widgetInput = {
+			table: $scope.data.table,
+			view: $scope.data.view,
+			sys_id: '-1'
+		};
+			
+		spModal.open({
+			title: 'Test Results',
+			widget: widgetId,
+			size: 'lg',
+			widgetInput: widgetInput,
+			buttons: [
+				{
+					label: '${OK}',
+					primary: true
+				}
+			]
+		}).then(function () {
+			//console.log('it did something at least');
+			c.server.update();
+			
+		});
+	};
+	
+	
+	$scope.go = function(table , item){
+		var widgetId = 'widget-form';
+		var widgetInput = {
+			table: $scope.data.table,
+			view: $scope.data.view,
+			sys_id: item.sys_id
+			
+		};
+		
+		
+			
+		spModal.open({
+			title: "Lab Result",
+			widget: widgetId,
+			size: 'md',
+			widgetInput: widgetInput,
+			buttons: [
+				{
+					label: '${OK}',
+					primary: true
+				}
+			]
+			
+		}).then(function(){
+			spUtil.update($scope);
+			console.log('then function inside the go function');
+		});
+	
+	}
+	
+	c.update = function update() {
+			spUtil.update($scope);
+	}
+	
+	console.log(c.data.table);
+	
+	
+		spUtil.recordWatch($scope, c.data.table, c.data.filter, function(name, data){
+			spUtil.update($scope);
+		});
+		console.log("i'm watching you: " + c.data.table + " with a filter of: " + c.data.filter);
+
+}
+]]></link>
+        <name>Livestock Data Table Bruc</name>
+        <option_schema>[{"hint":"If enabled, show the list filter in the breadcrumbs of the data table","name":"enable_filter","default_value":"false","section":"Behavior","label":"Enable Filter","type":"boolean"}]</option_schema>
+        <public>true</public>
+        <roles>snc_external,snc_internal</roles>
+        <script><![CDATA[(function() {
+	
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	data.title = 'Lab Results';
+	data.table = 'x_cria_livestock_t_lab_results_tub';
+	data.filter = 'session_id=' + gs.getSessionID();
+	data.table_label = 'Lab Results';
+	data.fields_array = [];
+	data.view = '';
+	data.action = undefined;
+	data.updated = '';
+	if(!data.title){
+		data.title = data.table;
+	}
+	
+	if (!data.fields) {
+		if (data.view)
+			data.fields = $sp.getListColumns(data.table, data.view);
+		else
+			data.fields = $sp.getListColumns(data.table);
+	}
+	
+	data.column_labels = {};
+	data.fields_array = data.fields.split(',');
+	
+	var gr = new GlideRecord(data.table);
+	gr.addEncodedQuery(data.filter);
+	gr.query();
+	
+		data.list = [];
+		while (gr._next()) {
+			var record = {};
+			$sp.getRecordElements(record, gr, data.fields);
+			record.sys_id = gr.getValue('sys_id');
+			data.list.push(record);
+		}
+	
+		// use GlideRecord to get field labels vs. GlideRecordSecure
+	var grForLabels = new GlideRecord(data.table);
+	for (var i in data.fields_array) {
+		var field = data.fields_array[i];
+		var ge = grForLabels.getElement(field);
+		if (ge == null)
+			continue;
+
+		data.column_labels[field] = ge.getLabel();
+	}
+	
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-03-28 22:21:53</sys_created_on>
+        <sys_id>3d15bbb2db09db00c64e5eea4b9619c4</sys_id>
+        <sys_mod_count>189</sys_mod_count>
+        <sys_name>Livestock Data Table Bruc</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_widget_3d15bbb2db09db00c64e5eea4b9619c4</sys_update_name>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-04-11 15:09:37</sys_updated_on>
+        <template><![CDATA[ <div>
+   <div class="panel-heading form-inline">
+      <span class="panel-title"><i ng-if="options.glyph" class="fa fa-{{options.glyph}} m-r"></i>{{data.title}}</span>
+   <button name="new" role="link" class="btn btn-primary btn-sm m-l-xs" ng-click="newRecord()" aria-label="${Create new record}">${New}</button>
+  </div>
+    <div class="alert alert-info" ng-if="!data.list.length && !data.num_pages && !data.invalid_table && !loadingData">
+        ${No records in {{data.table_label}} <span ng-if="data.filter">using that filter</span>}
+      </div>
+      <div class="alert alert-info" ng-if="loadingData">
+          <fa name="spinner" spin="true"></fa> ${Loading data}...
+       </div>
+      <table class="table table-striped table-responsive" ng-if="data.list.length">
+        <thead>
+          <tr>
+            <th class="sr-only"></th>
+            <th ng-repeat="field in data.fields_array track by $index" tabindex="0">
+              <div class="th-title" >{{data.column_labels[field]}}</div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="item in data.list">
+            <td class="sr-only" tabindex="0" role="link" ng-click="go(data.table, item)" aria-label="${Open record}"></td>
+            <td role="text" aria-label="{{item[field].display_value}}" class="pointer" ng-class="{selected: item.selected}" ng-click="go(data.table, item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}">{{::item[field].display_value}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

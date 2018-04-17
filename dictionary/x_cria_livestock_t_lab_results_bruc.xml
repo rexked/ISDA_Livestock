@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Lab Results Bruc" max_length="40" name="x_cria_livestock_t_lab_results_bruc" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Age" max_length="10" name="age" type="string"/>
+        <element label="Asset" max_length="32" name="asset" reference="x_cria_livestock_t_livestock_asset_table" type="reference"/>
+        <element label="Back Tag #" max_length="40" name="back_tag" type="string"/>
+        <element choice="1" label="Bapa" max_length="40" name="bapa" type="choice">
+            <choice>
+                <element label="Neg" value="neg"/>
+                <element label="Pos" value="pos"/>
+            </choice>
+        </element>
+        <element label="Breed" max_length="40" name="breed" type="string"/>
+        <element label="CF" max_length="40" name="cf" type="string"/>
+        <element label="Official Identification" max_length="40" name="ear_tag" type="string"/>
+        <element label="FPA" max_length="40" name="fpa" type="string"/>
+        <element label="Herd Owner Name" max_length="40" name="herd_owner_name" type="string"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element choice="1" label="Mark As" max_length="40" name="mark_as" type="choice">
+            <choice>
+                <element label="Retag" sequence="10" value="retag"/>
+                <element label="Natural Addition" sequence="20" value="natural addition"/>
+                <element label="Purchased Addition" sequence="30" value="purchased addition"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="other" max_length="40" name="other" type="string"/>
+        <element label="Parent" max_length="32" name="parent" reference="sc_req_item" type="reference"/>
+        <element label="P/B Grade" max_length="40" name="p_b_grade" type="string"/>
+        <element label="Rap" max_length="40" name="rap" type="string"/>
+        <element label="Reactor Tag #" max_length="40" name="reactor_tag" type="string"/>
+        <element label="Remarks" max_length="255" name="remarks" type="string"/>
+        <element choice="1" label="Result" max_length="40" name="result" type="choice">
+            <choice>
+                <element label="Negative" sequence="10" value="negative"/>
+                <element label="Positive" sequence="20" value="positive"/>
+                <element label="Reactor" sequence="30" value="reactor"/>
+            </choice>
+        </element>
+        <element label="Sale Tag or Brand" max_length="40" name="sale_tag_or_brand" type="string"/>
+        <element default="javascript: gs.getSessionID()" label="session id" max_length="80" name="session_id" read_only="true" type="string"/>
+        <element choice="1" default="female" label="Sex" max_length="10" name="sex" type="choice">
+            <choice>
+                <element label="Female" value="female"/>
+                <element label="Male" value="male"/>
+            </choice>
+        </element>
+        <element choice="1" label="Test interp" max_length="40" name="test_interp" type="choice">
+            <choice>
+                <element label="Neg" value="neg"/>
+                <element label="Pos" value="pos"/>
+            </choice>
+        </element>
+        <element label="Vaccination Tattoo" max_length="40" name="vaccination_tattoo" type="string"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="asset"/>
+        </index>
+    </element>
+</database>

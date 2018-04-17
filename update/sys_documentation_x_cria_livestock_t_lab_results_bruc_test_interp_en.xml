@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="test_interp" label="Test interp" language="en" table="x_cria_livestock_t_lab_results_bruc">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>test_interp</element>
+            <help/>
+            <hint/>
+            <label>Test interp</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <plural>Test interps</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-06 18:10:10</sys_created_on>
+            <sys_id>12c199f5db1d1340c64e5eea4b961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Test interp</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_lab_results_bruc_test_interp_en</sys_update_name>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-06 18:10:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
