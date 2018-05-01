@@ -38,10 +38,10 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>inj_date_read</name>
-        <order>50</order>
+        <order>60</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Date test was read</question_text>
+        <question_text>Date Test Was Read</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,22 +60,22 @@
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-03-21 21:25:16</sys_created_on>
         <sys_id>e3e42fa0db41d7009b2689584b961927</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Date test was read</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Date Test Was Read</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_e3e42fa0db41d7009b2689584b961927</sys_update_name>
-        <sys_updated_by>cervin</sys_updated_by>
-        <sys_updated_on>2018-04-11 15:50:35</sys_updated_on>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-04-25 14:37:18</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>10</type>
+        <type>9</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <variable_name/>
-        <variable_set display_value="Practitioner">f6ff1320db41d7009b2689584b96196f</variable_set>
+        <variable_set display_value="Injection Times">3ba34d52dbad1b40c64e5eea4b9619c2</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>

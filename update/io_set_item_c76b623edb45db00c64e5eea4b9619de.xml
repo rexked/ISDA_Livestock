@@ -2,7 +2,7 @@
 <record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>650</order>
-        <sc_cat_item display_value="Tuberculosis Test Form">87302a64db81d700c64e5eea4b961936</sc_cat_item>
+        <sc_cat_item display_value="Cooperative State/Federal Tuberculosis Test Record">87302a64db81d700c64e5eea4b961936</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-03-28 17:00:02</sys_created_on>
@@ -15,6 +15,6 @@
         <sys_update_name>io_set_item_c76b623edb45db00c64e5eea4b9619de</sys_update_name>
         <sys_updated_by>cervin</sys_updated_by>
         <sys_updated_on>2018-03-28 17:02:51</sys_updated_on>
-        <variable_set display_value="Animal Info">965b66fadb45db00c64e5eea4b9619cb</variable_set>
+        <variable_set display_value="Animal Information">965b66fadb45db00c64e5eea4b9619cb</variable_set>
     </io_set_item>
 </record_update>

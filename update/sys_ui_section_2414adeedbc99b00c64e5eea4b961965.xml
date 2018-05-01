@@ -295,6 +295,76 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rap</element>
+            <position>21</position>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-20 18:13:39</sys_created_on>
+            <sys_id>edd8191edb251b409b2689584b96197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccinations" sys_domain="global" view="Default view">2414adeedbc99b00c64e5eea4b961965</sys_ui_section>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-20 18:13:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bapa</element>
+            <position>22</position>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-20 18:16:14</sys_created_on>
+            <sys_id>a769591edb251b409b2689584b9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccinations" sys_domain="global" view="Default view">2414adeedbc99b00c64e5eea4b961965</sys_ui_section>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-20 18:16:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>card</element>
+            <position>23</position>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-20 18:17:16</sys_created_on>
+            <sys_id>e6a9515edb251b409b2689584b9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccinations" sys_domain="global" view="Default view">2414adeedbc99b00c64e5eea4b961965</sys_ui_section>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-20 18:17:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fpa</element>
+            <position>24</position>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-20 18:18:02</sys_created_on>
+            <sys_id>f5d9d15edb251b409b2689584b9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccinations" sys_domain="global" view="Default view">2414adeedbc99b00c64e5eea4b961965</sys_ui_section>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-20 18:18:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cf</element>
+            <position>25</position>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-20 18:19:20</sys_created_on>
+            <sys_id>7c2ad55edb251b409b2689584b961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccinations" sys_domain="global" view="Default view">2414adeedbc99b00c64e5eea4b961965</sys_ui_section>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-20 18:19:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

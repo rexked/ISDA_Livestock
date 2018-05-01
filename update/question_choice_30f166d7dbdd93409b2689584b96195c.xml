@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>200</order>
-        <question display_value="AM/PM">17c1e2d7dbdd93409b2689584b961906</question>
+        <question display_value="Time Test Was Read (indicate AM/PM)">17c1e2d7dbdd93409b2689584b961906</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>cervin</sys_created_by>

@@ -24,7 +24,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Brucellosis Test Record Market Cattle Testing Form</name>
+        <name>Brucellosis Market Cattle Testing Form</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -43,23 +43,24 @@
         <sc_catalogs>907d3946dbf49300c64e5eea4b9619a9</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <short_description>Brucellosis Test Record</short_description>
+        <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-03-13 15:36:04</sys_created_on>
         <sys_id>4a38890adb749300c64e5eea4b9619be</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>Brucellosis Test Record Market Cattle Testing Form</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Brucellosis Market Cattle Testing Form</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sc_cat_item_4a38890adb749300c64e5eea4b9619be</sys_update_name>
         <sys_updated_by>cervin</sys_updated_by>
-        <sys_updated_on>2018-03-26 20:09:13</sys_updated_on>
+        <sys_updated_on>2018-04-20 23:30:11</sys_updated_on>
         <template/>
         <type>item</type>
+        <u_omit_attachments_button>false</u_omit_attachments_button>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <visible_bundle>true</visible_bundle>

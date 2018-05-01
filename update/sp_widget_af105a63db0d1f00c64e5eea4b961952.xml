@@ -524,6 +524,7 @@
 	data.is_wishlist_item = edit_parm == 'wishlist';
 	data.show_wishlist_msg = false;
 	data.recordFound = true;
+	data.omitAttachments = false;
 
 	options.show_add_cart_button = (options.show_add_cart_button == "true");
 
@@ -571,21 +572,38 @@
 	var cartName = data.is_cart_item ? 'DEFAULT' : 'saved_items';
 	var cart = new sn_sc.CartJS(cartName);
 
-	data.showWishlist = new sn_sc.Catalog('' + $sp.getValue('sc_catalog')).isWishlistEnabled();
 	
+	var recordsysID = $sp.getParameter("sys_id");
+		var recsys = new GlideRecord("sc_cat_item");
+	recsys.get(recordsysID);
+
+	if(recsys.u_omit_attachments_button){
+		data.omitAttachments = true;
+	}
+	
+	
+	
+	
+	data.showWishlist = new sn_sc.Catalog('' + $sp.getValue('sc_catalog')).isWishlistEnabled();
+
 	if (edit_parm) {
 		var cart_item_id = $sp.getParameter("sys_id");
 		var gr = new GlideRecord("sc_cart_item");
 		if (!gr.get(cart_item_id) || gr.cart != cart.getCartID()) {
 			data.recordFound = false;
+			
 			return;
 		}
+		
+		
+		
 		var catItemData = {};
 		catItemData.sys_id = gr.getValue('cat_item');
 		catItemData.cart_item_id = gr.getUniqueValue();
 		catItemData.table = "sc_cart_item";
 		catItemData.is_ordering = !!options.isOrdering;
 
+		
 		data.sc_cat_item = $sp.getCatalogItem(catItemData);
 		data.sc_cat_item.isCartItem = true;
 		var values = getValues(cart_item_id);
@@ -683,6 +701,7 @@
 
 	$sp.logStat('Cat Item View', data.sc_cat_item.sys_class_name, data.sc_cat_item.sys_id, data.sc_cat_item.name);
 	
+		
 	function getValues(sys_id) {
 		var qs = new sn_sc.VariablePoolQuestionSetJS();
 		qs.setCartID(sys_id);
@@ -785,14 +804,14 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-03-30 22:56:11</sys_created_on>
         <sys_id>af105a63db0d1f00c64e5eea4b961952</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_name>Livestock catalog item</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_widget_af105a63db0d1f00c64e5eea4b961952</sys_update_name>
         <sys_updated_by>dyoung</sys_updated_by>
-        <sys_updated_on>2018-04-02 23:16:07</sys_updated_on>
+        <sys_updated_on>2018-04-23 22:18:45</sys_updated_on>
         <template><![CDATA[<div id="sc_cat_item" ng-if="::data.recordFound">
   <sp-widget widget="c.orderItemModal" ng-if="c.orderItemModal"></sp-widget>
   <div class="row" ng-if="::data.sc_cat_item" >
@@ -881,7 +900,7 @@
               </div>
             </div>
         </div>
-        <div class="wrapper-md row no-margin">
+        <div class="wrapper-md row no-margin" ng-if="!data.omitAttachments">
           <now-attachments-list template="sp_attachment_single_line" ></now-attachments-list>
           <label ng-if="!submitting" style="float:right;font-weight:normal;cursor:pointer;">
             <sp-attachment-button></sp-attachment-button>

@@ -24,7 +24,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Tuberculosis Test Form</name>
+        <name>Cooperative State/Federal Tuberculosis Test Record</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
@@ -43,23 +43,24 @@
         <sc_catalogs>907d3946dbf49300c64e5eea4b9619a9</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <short_description/>
+        <short_description>Livestock</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-03-21 16:28:44</sys_created_on>
         <sys_id>87302a64db81d700c64e5eea4b961936</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Tuberculosis Test Form</sys_name>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Cooperative State/Federal Tuberculosis Test Record</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sc_cat_item_87302a64db81d700c64e5eea4b961936</sys_update_name>
         <sys_updated_by>dyoung</sys_updated_by>
-        <sys_updated_on>2018-03-21 21:01:14</sys_updated_on>
+        <sys_updated_on>2018-04-24 16:11:25</sys_updated_on>
         <template/>
         <type>item</type>
+        <u_omit_attachments_button>false</u_omit_attachments_button>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <visible_bundle>true</visible_bundle>

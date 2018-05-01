@@ -7,15 +7,15 @@
         <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
-
+		var noZero = current.id.toString();
 	// Add your code here
-	return '';  // return the calculated value
+	return noZero;  // return the calculated value
 
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Trich ID</column_label>
+        <column_label>Trich Tag Number</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -35,7 +35,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>80</max_length>
+        <max_length>40</max_length>
         <name>x_cria_livestock_t_lab_results_trich</name>
         <next_element/>
         <primary>false</primary>
@@ -55,21 +55,21 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-05 16:10:28</sys_created_on>
         <sys_id>9bacafd5db511340c64e5eea4b961912</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Trich ID</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Trich Tag Number</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_dictionary_x_cria_livestock_t_lab_results_trich_id</sys_update_name>
         <sys_updated_by>dyoung</sys_updated_by>
-        <sys_updated_on>2018-04-16 18:24:14</sys_updated_on>
+        <sys_updated_on>2018-04-20 23:05:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

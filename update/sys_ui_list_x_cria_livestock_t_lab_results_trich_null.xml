@@ -4,92 +4,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>id</element>
-            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">99d43441dbed57409b2689584b9619fb</list_id>
+            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">af40991adbad1b40c64e5eea4b9619bd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 18:23:56</sys_created_on>
-            <sys_id>15d43441dbed57409b2689584b9619fc</sys_id>
+            <sys_created_on>2018-04-20 17:36:21</sys_created_on>
+            <sys_id>2b40991adbad1b40c64e5eea4b9619be</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 18:23:56</sys_updated_on>
+            <sys_updated_on>2018-04-20 17:36:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>alternate_id</element>
-            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">99d43441dbed57409b2689584b9619fb</list_id>
+            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">af40991adbad1b40c64e5eea4b9619bd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 18:23:56</sys_created_on>
-            <sys_id>99d43441dbed57409b2689584b9619fc</sys_id>
+            <sys_created_on>2018-04-20 17:36:21</sys_created_on>
+            <sys_id>af40991adbad1b40c64e5eea4b9619be</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 18:23:56</sys_updated_on>
+            <sys_updated_on>2018-04-20 17:36:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>age</element>
-            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">99d43441dbed57409b2689584b9619fb</list_id>
+            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">af40991adbad1b40c64e5eea4b9619bd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 18:23:56</sys_created_on>
-            <sys_id>1dd43441dbed57409b2689584b9619fc</sys_id>
+            <sys_created_on>2018-04-20 17:36:21</sys_created_on>
+            <sys_id>2340991adbad1b40c64e5eea4b9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 18:23:56</sys_updated_on>
+            <sys_updated_on>2018-04-20 17:36:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>breed</element>
-            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">99d43441dbed57409b2689584b9619fb</list_id>
+            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">af40991adbad1b40c64e5eea4b9619bd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 18:23:56</sys_created_on>
-            <sys_id>9dd43441dbed57409b2689584b9619fc</sys_id>
+            <sys_created_on>2018-04-20 17:36:21</sys_created_on>
+            <sys_id>a340991adbad1b40c64e5eea4b9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 18:23:56</sys_updated_on>
+            <sys_updated_on>2018-04-20 17:36:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sex</element>
-            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">99d43441dbed57409b2689584b9619fb</list_id>
+            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">af40991adbad1b40c64e5eea4b9619bd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 18:23:56</sys_created_on>
-            <sys_id>11d43441dbed57409b2689584b9619fd</sys_id>
+            <sys_created_on>2018-04-20 17:36:21</sys_created_on>
+            <sys_id>2740991adbad1b40c64e5eea4b9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 18:23:56</sys_updated_on>
+            <sys_updated_on>2018-04-20 17:36:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>test_interp</element>
-            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">99d43441dbed57409b2689584b9619fb</list_id>
+            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">af40991adbad1b40c64e5eea4b9619bd</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 18:23:56</sys_created_on>
-            <sys_id>91d43441dbed57409b2689584b9619fd</sys_id>
+            <sys_created_on>2018-04-20 17:36:21</sys_created_on>
+            <sys_id>a740991adbad1b40c64e5eea4b9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 18:23:56</sys_updated_on>
+            <sys_updated_on>2018-04-20 17:36:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -103,10 +103,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 18:23:56</sys_created_on>
+            <sys_created_on>2018-04-20 17:36:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>99d43441dbed57409b2689584b9619fb</sys_id>
+            <sys_id>af40991adbad1b40c64e5eea4b9619bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_cria_livestock_t_lab_results_trich</sys_name>
             <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
@@ -114,7 +114,7 @@
             <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
             <sys_update_name>sys_ui_list_x_cria_livestock_t_lab_results_trich_null</sys_update_name>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 18:23:56</sys_updated_on>
+            <sys_updated_on>2018-04-20 17:36:21</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

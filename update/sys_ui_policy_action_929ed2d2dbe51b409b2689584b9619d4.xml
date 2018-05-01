@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>vaccination_tattoo</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>cervin</sys_created_by>
+        <sys_created_on>2018-04-20 23:18:34</sys_created_on>
+        <sys_id>929ed2d2dbe51b409b2689584b9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vaccination_tattoo</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_929ed2d2dbe51b409b2689584b9619d4</sys_update_name>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2018-04-20 23:18:34</sys_updated_on>
+        <table>x_cria_livestock_t_lab_results_bruc</table>
+        <ui_policy display_value="Show/ Hide Vaccination Tattoos">477ed2d2dbe51b409b2689584b961902</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

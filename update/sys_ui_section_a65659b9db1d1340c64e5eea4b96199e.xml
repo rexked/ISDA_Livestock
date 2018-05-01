@@ -5,27 +5,27 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 22:55:30</sys_created_on>
-            <sys_id>dff2b501db6197409b2689584b961919</sys_id>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>33312563db25db40c64e5eea4b9619fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 22:55:30</sys_updated_on>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>id</element>
+            <element>ear_tag</element>
             <position>1</position>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 22:55:30</sys_created_on>
-            <sys_id>53f2b501db6197409b2689584b96191a</sys_id>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>b3312563db25db40c64e5eea4b9619fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 22:55:30</sys_updated_on>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>vaccination_tattoo</element>
             <position>2</position>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 22:55:30</sys_created_on>
-            <sys_id>d3f2b501db6197409b2689584b96191a</sys_id>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>37312563db25db40c64e5eea4b9619fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 22:55:30</sys_updated_on>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,127 +47,197 @@
             <element>back_tag</element>
             <position>3</position>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 22:55:30</sys_created_on>
-            <sys_id>57f2b501db6197409b2689584b96191a</sys_id>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>b7312563db25db40c64e5eea4b9619fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 22:55:30</sys_updated_on>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tube_number</element>
+            <position>4</position>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>3b312563db25db40c64e5eea4b9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>age</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 22:55:30</sys_created_on>
-            <sys_id>d7f2b501db6197409b2689584b96191a</sys_id>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>bb312563db25db40c64e5eea4b9619fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 22:55:30</sys_updated_on>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>breed</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 22:55:30</sys_created_on>
-            <sys_id>5bf2b501db6197409b2689584b96191a</sys_id>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>3f312563db25db40c64e5eea4b9619fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 22:55:30</sys_updated_on>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sex</element>
-            <position>6</position>
-            <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 22:55:30</sys_created_on>
-            <sys_id>dbf2b501db6197409b2689584b96191a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
-            <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 22:55:30</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
             <position>7</position>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 22:55:30</sys_created_on>
-            <sys_id>5ff2b501db6197409b2689584b96191a</sys_id>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>bf312563db25db40c64e5eea4b9619fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 22:55:30</sys_updated_on>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
             <sys_user/>
-            <type>.split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>bapa</element>
             <position>8</position>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 22:55:30</sys_created_on>
-            <sys_id>dff2b501db6197409b2689584b96191a</sys_id>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>33312563db25db40c64e5eea4b9619ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 22:55:30</sys_updated_on>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>herd_owner_name</element>
+            <element>.split</element>
             <position>9</position>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 22:55:30</sys_created_on>
-            <sys_id>53f2b501db6197409b2689584b96191b</sys_id>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>b3312563db25db40c64e5eea4b9619ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 22:55:30</sys_updated_on>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>herd_owner_name</element>
+            <position>10</position>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>37312563db25db40c64e5eea4b9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>address</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 22:55:30</sys_created_on>
-            <sys_id>d3f2b501db6197409b2689584b96191b</sys_id>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>b7312563db25db40c64e5eea4b9619ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 22:55:30</sys_updated_on>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>12</position>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>3b312563db25db40c64e5eea4b9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>13</position>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>bb312563db25db40c64e5eea4b9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>14</position>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>3f312563db25db40c64e5eea4b9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>11</position>
+            <position>15</position>
             <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-16 22:55:30</sys_created_on>
-            <sys_id>57f2b501db6197409b2689584b96191b</sys_id>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>bf312563db25db40c64e5eea4b9619ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 22:55:30</sys_updated_on>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remarks</element>
+            <position>16</position>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-24 16:02:48</sys_created_on>
+            <sys_id>33316563db25db40c64e5eea4b961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="265659b9db1d1340c64e5eea4b961998">a65659b9db1d1340c64e5eea4b96199e</sys_ui_section>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-24 16:02:48</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

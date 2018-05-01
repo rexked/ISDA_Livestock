@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_cria_livestock_t.ISDAScripts</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ISDAScripts</name>
+        <script><![CDATA[var ISDAScripts = Class.create();
+ISDAScripts.prototype = {
+    initialize: function() {
+    },
+	
+		generateID : function(prefix, table){
+		
+		var result = '';
+		var tablename = table;
+		var number = current.number.substring(3);
+		var sessionID = gs.getSessionID();
+		var uniqueformid =  prefix + number  + sessionID;
+		gs.addInfoMessage(uniqueformid);
+		var gr = new GlideRecord(tablename);
+		gr.addEncodedQuery("unique_form_id=" + uniqueformid);
+		gr.query();
+		 gs.addInfoMessage(gr.getRowCount());
+		if (gr.next()){
+			 
+			 return gr.unique_form_id;	
+		}
+		else
+			
+		return uniqueformid;
+},
+
+    type: 'ISDAScripts'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-04-26 02:16:39</sys_created_on>
+        <sys_id>c9e6740cdbb11f40c64e5eea4b9619f2</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>ISDAScripts</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_include_c9e6740cdbb11f40c64e5eea4b9619f2</sys_update_name>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-04-26 02:34:42</sys_updated_on>
+    </sys_script_include>
+</record_update>

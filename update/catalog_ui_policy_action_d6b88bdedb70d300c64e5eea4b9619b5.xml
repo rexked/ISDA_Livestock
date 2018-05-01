@@ -21,7 +21,7 @@
         <table/>
         <ui_policy display_value="Make Bulls/Cows Mandatory">dd980bdedb70d300c64e5eea4b9619e2</ui_policy>
         <variable>bulls</variable>
-        <variable_set display_value="Information">1a748b1edb70d300c64e5eea4b961990</variable_set>
+        <variable_set display_value="Veterinarian/Owner Information">1a748b1edb70d300c64e5eea4b961990</variable_set>
         <visible>ignore</visible>
     </catalog_ui_policy_action>
 </record_update>

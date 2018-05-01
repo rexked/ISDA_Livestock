@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Lab Results Tub" max_length="40" name="x_cria_livestock_t_lab_results_tub" type="collection">
-        <element label="Age" max_length="40" name="age" type="string"/>
+    <element label="Lab Results Tuberculosis" max_length="40" name="x_cria_livestock_t_lab_results_tub" type="collection">
+        <element label="Actual Sequence" max_length="40" name="actual_sequence" type="string"/>
+        <element label="Age (In Months)" max_length="40" name="age" type="string"/>
+        <element label="Alternate Identification" max_length="40" name="alt_id" type="string"/>
         <element label="Breed" max_length="40" name="breed" type="string"/>
-        <element label="Offical Identification" max_length="40" name="id" type="string"/>
-        <element choice="1" label="Interpretation" max_length="40" name="interpretation" type="choice">
+        <element label="Official Identification" max_length="40" name="id" type="string"/>
+        <element choice="1" label="Test Interpretation" max_length="40" name="interpretation" type="choice">
             <choice>
                 <element label="Negative" sequence="1" value="negative"/>
                 <element label="Suspect" sequence="2" value="suspect"/>
@@ -12,6 +14,7 @@
             </choice>
         </element>
         <element label="Reactor Tag Number" max_length="40" name="reactor_tag_number" type="string"/>
+        <element label="Remarks (please indicate if Re-tag, Natural Addition or Purchased Addition)" max_length="80" name="remarks" type="string"/>
         <element default="javascript: gs.getSessionID()" label="Session ID" max_length="40" name="session_id" read_only="true" type="string"/>
         <element choice="1" label="sex" max_length="10" name="sex" type="choice">
             <choice>

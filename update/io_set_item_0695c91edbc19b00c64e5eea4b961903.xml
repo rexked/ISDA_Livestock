@@ -15,6 +15,6 @@
         <sys_update_name>io_set_item_0695c91edbc19b00c64e5eea4b961903</sys_update_name>
         <sys_updated_by>cervin</sys_updated_by>
         <sys_updated_on>2018-03-26 20:18:11</sys_updated_on>
-        <variable_set display_value="Reason for Test">f27589dadbc19b00c64e5eea4b961939</variable_set>
+        <variable_set display_value="Herd Information">f27589dadbc19b00c64e5eea4b961939</variable_set>
     </io_set_item>
 </record_update>

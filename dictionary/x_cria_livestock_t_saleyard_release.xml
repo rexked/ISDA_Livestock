@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Saleyard Release" max_length="40" name="x_cria_livestock_t_saleyard_release" type="collection">
+        <element label="Age (In Months)" max_length="32" name="age_in_months" type="string"/>
+        <element label="Breed" max_length="32" name="breed" type="string"/>
+        <element label="Official Identification" max_length="32" name="official_identification" type="string"/>
+        <element choice="1" label="Sex" max_length="40" name="sex" type="choice">
+            <choice>
+                <element label="Female" value="female"/>
+                <element label="Male" value="male"/>
+            </choice>
+        </element>
+    </element>
+</database>

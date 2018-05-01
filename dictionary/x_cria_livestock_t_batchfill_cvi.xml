@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="BatchFill CVI" max_length="40" name="x_cria_livestock_t_batchfill_cvi" type="collection">
+        <element label="Actual Sequence" max_length="40" name="actual_sequence" type="string"/>
+        <element label="Age" max_length="40" name="age" type="string"/>
+        <element label="Breed" max_length="40" name="breed" type="string"/>
+        <element label="Official Identification" max_length="40" name="official_identification" type="string"/>
+        <element default="javascript: gs.getSessionID();" label="Session ID" max_length="40" name="session_id" type="string"/>
+        <element choice="1" label="Sex" max_length="40" name="sex" type="choice">
+            <choice>
+                <element label="Female" value="female"/>
+                <element label="Male" value="male"/>
+            </choice>
+        </element>
+    </element>
+</database>

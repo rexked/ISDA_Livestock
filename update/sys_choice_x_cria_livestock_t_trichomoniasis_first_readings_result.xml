@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="first_readings_result" table="x_cria_livestock_t_trichomoniasis" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>first_readings_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Negative</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-20 19:19:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ec72992db651b409b2689584b9619fe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-20 19:19:06</sys_updated_on>
+            <value>negative</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>first_readings_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Positive</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-20 19:18:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2dc7e116db651b409b2689584b9619b2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-20 19:19:00</sys_updated_on>
+            <value>positive</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>first_readings_result</element>
+            <name>x_cria_livestock_t_trichomoniasis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-20 19:18:57</sys_created_on>
+            <sys_id>d6c76992db651b409b2689584b9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>first_readings_result</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_trichomoniasis_first_readings_result</sys_update_name>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-20 19:18:57</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

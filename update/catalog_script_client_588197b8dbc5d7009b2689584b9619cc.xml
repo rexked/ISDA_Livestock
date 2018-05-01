@@ -48,7 +48,7 @@
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
-        <variable_set display_value="Information">1a748b1edb70d300c64e5eea4b961990</variable_set>
+        <variable_set display_value="Veterinarian/Owner Information">1a748b1edb70d300c64e5eea4b961990</variable_set>
         <view/>
     </catalog_script_client>
 </record_update>

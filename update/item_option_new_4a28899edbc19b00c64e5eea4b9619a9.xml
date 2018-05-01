@@ -38,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>pvt_sale</name>
-        <order>70</order>
+        <order>100</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Pvt. Sale</question_text>
@@ -60,14 +60,14 @@
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-03-26 20:31:02</sys_created_on>
         <sys_id>4a28899edbc19b00c64e5eea4b9619a9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Pvt. Sale</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_4a28899edbc19b00c64e5eea4b9619a9</sys_update_name>
         <sys_updated_by>cervin</sys_updated_by>
-        <sys_updated_on>2018-03-26 20:34:42</sys_updated_on>
+        <sys_updated_on>2018-04-20 22:31:45</sys_updated_on>
         <table/>
         <tooltip/>
         <type>7</type>
@@ -75,7 +75,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <variable_name/>
-        <variable_set display_value="Reason for Test">f27589dadbc19b00c64e5eea4b961939</variable_set>
+        <variable_set display_value="Herd Information">f27589dadbc19b00c64e5eea4b961939</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>

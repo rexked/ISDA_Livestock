@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="id" label="Trich ID" language="en" table="x_cria_livestock_t_lab_results_trich">
+    <sys_documentation element="id" label="Trich Tag Number" language="en" table="x_cria_livestock_t_lab_results_trich">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>id</element>
             <help/>
             <hint/>
-            <label>Trich ID</label>
+            <label>Trich Tag Number</label>
             <language>en</language>
             <name>x_cria_livestock_t_lab_results_trich</name>
-            <plural>Trich IDs</plural>
+            <plural>Trich Tag Numbers</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>dyoung</sys_created_by>
             <sys_created_on>2018-04-05 16:10:28</sys_created_on>
             <sys_id>87ccefd5db511340c64e5eea4b961956</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Trich ID</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Trich Tag Number</sys_name>
             <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
             <sys_policy/>
             <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
             <sys_update_name>sys_documentation_x_cria_livestock_t_lab_results_trich_id_en</sys_update_name>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-16 18:24:14</sys_updated_on>
+            <sys_updated_on>2018-04-20 23:05:43</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

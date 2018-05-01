@@ -75,7 +75,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <variable_name/>
-        <variable_set display_value="Equine Infections Anemia">bfe0cf3cdb51df00c64e5eea4b9619dd</variable_set>
+        <variable_set display_value="Equine Infectious Anemia">bfe0cf3cdb51df00c64e5eea4b9619dd</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>

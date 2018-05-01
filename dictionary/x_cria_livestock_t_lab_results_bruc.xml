@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Lab Results Bruc" max_length="40" name="x_cria_livestock_t_lab_results_bruc" type="collection">
+        <element label="Actual Sequence" max_length="40" name="actual_sequence" type="string"/>
         <element label="Address" max_length="40" name="address" type="string"/>
-        <element label="Age" max_length="10" name="age" type="string"/>
+        <element label="Age (In Months)" max_length="10" name="age" type="string"/>
         <element label="Asset" max_length="32" name="asset" reference="x_cria_livestock_t_livestock_asset_table" type="reference"/>
         <element label="Back Tag #" max_length="40" name="back_tag" type="string"/>
-        <element choice="1" label="Bapa" max_length="40" name="bapa" type="choice">
+        <element choice="1" label="Field BAPA Test Result" max_length="40" name="bapa" type="choice">
             <choice>
                 <element label="Neg" value="neg"/>
                 <element label="Pos" value="pos"/>
@@ -13,10 +14,11 @@
         </element>
         <element label="Breed" max_length="40" name="breed" type="string"/>
         <element label="CF" max_length="40" name="cf" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
         <element label="Official Identification" max_length="40" name="ear_tag" type="string"/>
         <element label="FPA" max_length="40" name="fpa" type="string"/>
         <element label="Herd Owner Name" max_length="40" name="herd_owner_name" type="string"/>
-        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Offical Identification" max_length="40" name="id" type="string"/>
         <element choice="1" label="Mark As" max_length="40" name="mark_as" type="choice">
             <choice>
                 <element label="Retag" sequence="10" value="retag"/>
@@ -27,9 +29,7 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="other" max_length="40" name="other" type="string"/>
         <element label="Parent" max_length="32" name="parent" reference="sc_req_item" type="reference"/>
-        <element label="P/B Grade" max_length="40" name="p_b_grade" type="string"/>
         <element label="Rap" max_length="40" name="rap" type="string"/>
-        <element label="Reactor Tag #" max_length="40" name="reactor_tag" type="string"/>
         <element label="Remarks" max_length="255" name="remarks" type="string"/>
         <element choice="1" label="Result" max_length="40" name="result" type="choice">
             <choice>
@@ -46,13 +46,16 @@
                 <element label="Male" value="male"/>
             </choice>
         </element>
+        <element label="State" max_length="40" name="state" type="string"/>
         <element choice="1" label="Test interp" max_length="40" name="test_interp" type="choice">
             <choice>
                 <element label="Neg" value="neg"/>
                 <element label="Pos" value="pos"/>
             </choice>
         </element>
+        <element label="Tube #" max_length="10" name="tube_number" type="string"/>
         <element label="Vaccination Tattoo" max_length="40" name="vaccination_tattoo" type="string"/>
+        <element label="Zip" max_length="40" name="zip" type="string"/>
         <index name="index">
             <element name="parent"/>
         </index>

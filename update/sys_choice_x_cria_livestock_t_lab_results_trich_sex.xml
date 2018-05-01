@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="sex" table="x_cria_livestock_t_lab_results_trich" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Female</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sequence/>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-20 23:15:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01dd5e1edb215b40c64e5eea4b961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-20 23:15:15</sys_updated_on>
+            <value>female</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Male</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sequence/>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-20 23:14:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40cd9a5edb215b40c64e5eea4b961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-20 23:14:52</sys_updated_on>
+            <value>male</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sex</element>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-20 23:14:52</sys_created_on>
+            <sys_id>06cdd25edb215b40c64e5eea4b9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sex</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_trich_sex</sys_update_name>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-20 23:14:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -2,7 +2,7 @@
 <record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>800</order>
-        <sc_cat_item display_value="Tuberculosis Test Form">87302a64db81d700c64e5eea4b961936</sc_cat_item>
+        <sc_cat_item display_value="Cooperative State/Federal Tuberculosis Test Record">87302a64db81d700c64e5eea4b961936</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-04-05 21:34:42</sys_created_on>

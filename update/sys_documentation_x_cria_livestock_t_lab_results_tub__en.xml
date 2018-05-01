@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="" label="Lab Results Tub" language="en" table="x_cria_livestock_t_lab_results_tub">
+    <sys_documentation element="" label="Lab Results Tuberculosis" language="en" table="x_cria_livestock_t_lab_results_tub">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Lab Results Tub</label>
+            <label>Lab Results Tuberculosis</label>
             <language>en</language>
             <name>x_cria_livestock_t_lab_results_tub</name>
-            <plural>Lab Results Tubs</plural>
+            <plural>Lab Results Tuberculosis</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>dyoung</sys_created_by>
             <sys_created_on>2018-04-05 16:41:29</sys_created_on>
             <sys_id>51e33f1ddb511340c64e5eea4b96198b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Lab Results Tub</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Lab Results Tuberculosis</sys_name>
             <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
             <sys_policy/>
             <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
             <sys_update_name>sys_documentation_x_cria_livestock_t_lab_results_tub__en</sys_update_name>
             <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-05 16:41:29</sys_updated_on>
+            <sys_updated_on>2018-04-21 00:22:22</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
