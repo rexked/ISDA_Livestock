@@ -6,7 +6,7 @@
         <alter_access>false</alter_access>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <extension_model/>
@@ -24,15 +24,15 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-03-13 16:28:24</sys_created_on>
         <sys_id>09149d8edb749300c64e5eea4b9619d8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Vaccination Records</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_db_object_09149d8edb749300c64e5eea4b9619d8</sys_update_name>
-        <sys_updated_by>dyoung</sys_updated_by>
-        <sys_updated_on>2018-03-27 16:44:11</sys_updated_on>
-        <update_access>false</update_access>
+        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-19 21:53:52</sys_updated_on>
+        <update_access>true</update_access>
         <user_role display_value="x_cria_livestock_t.user" name="x_cria_livestock_t.user">331aa826dba09700df68f2b6ae961963</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>

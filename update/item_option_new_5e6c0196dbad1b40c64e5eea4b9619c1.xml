@@ -15,7 +15,7 @@
         <delivery_plan/>
         <description/>
         <display_title>false</display_title>
-        <do_not_select_first>false</do_not_select_first>
+        <do_not_select_first>true</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <example_text/>
@@ -37,11 +37,11 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>species</name>
-        <order>50</order>
+        <name>speciesLabel</name>
+        <order>10</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Species</question_text>
+        <question_text>Species (select all that apply)</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,14 +60,14 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-20 17:19:50</sys_created_on>
         <sys_id>5e6c0196dbad1b40c64e5eea4b9619c1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Species</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>speciesLabel</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_5e6c0196dbad1b40c64e5eea4b9619c1</sys_update_name>
-        <sys_updated_by>dyoung</sys_updated_by>
-        <sys_updated_on>2018-04-20 17:19:50</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-25 18:32:56</sys_updated_on>
         <table/>
         <tooltip/>
         <type>11</type>

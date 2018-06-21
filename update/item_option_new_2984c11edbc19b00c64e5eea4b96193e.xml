@@ -38,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>gps_coordinates</name>
-        <order>40</order>
+        <order>20</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>GPS Coordinates</question_text>
@@ -60,14 +60,14 @@
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-03-26 20:16:19</sys_created_on>
         <sys_id>2984c11edbc19b00c64e5eea4b96193e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>GPS Coordinates</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_2984c11edbc19b00c64e5eea4b96193e</sys_update_name>
-        <sys_updated_by>cervin</sys_updated_by>
-        <sys_updated_on>2018-03-26 20:16:19</sys_updated_on>
+        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-21 21:07:14</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

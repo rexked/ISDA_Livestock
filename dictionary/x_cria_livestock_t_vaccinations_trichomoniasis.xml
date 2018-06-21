@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cria_livestock_t_vaccination_record" label="Trich Test &amp; Report" max_length="40" name="x_cria_livestock_t_vaccinations_trichomoniasis" text_index="true" type="collection">
+        <element label="Accession No" max_length="40" name="accession_no" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="BLM" max_length="40" name="blm" type="boolean"/>
+        <element choice="1" label="Cattle Grazing" max_length="40" name="cattle_grazing" type="choice">
+            <choice>
+                <element label="BLM" value="blm"/>
+                <element label="Forest Service" value="forest"/>
+                <element label="Private" value="private"/>
+                <element label="State Lands" value="state"/>
+            </choice>
+        </element>
+        <element label="Culture Date Collected" max_length="40" name="culture_date_collected" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Culture Time Collected" max_length="100" name="culture_time_collected" type="string"/>
+        <element choice="1" label="Email/Fax" max_length="40" name="email_fax" type="choice">
+            <choice>
+                <element label="Email" value="email"/>
+                <element label="Fax" value="fax"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Forest Service" max_length="40" name="forest_service" type="boolean"/>
+        <element choice="1" label="Grazed on" max_length="40" name="grazed_on" type="choice">
+            <choice/>
+        </element>
+        <element label="ISDA Lab Accession #" max_length="32" name="isda_accession" type="string"/>
+        <element label="Location of Animals for next 12 months" max_length="256" name="location_of_animals" type="string"/>
+        <element label="# Negative" max_length="40" name="num_negative" type="string"/>
+        <element label="# Positive" max_length="40" name="num_positive" type="string"/>
+        <element label="# Tag Only" max_length="40" name="num_tag_only" type="string"/>
+        <element label="PCR on positive culture" max_length="40" name="pcr_on_positive_culture" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Private" max_length="40" name="private_lands" type="boolean"/>
+        <element label="Sample_collected_date" max_length="40" name="sample_collected_date" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="State Lands" max_length="40" name="state_lands" type="boolean"/>
+        <element label="Temperature on arrival" max_length="40" name="temperature_on_arrival" type="string"/>
+        <element label="Total # Tested" max_length="40" name="total_num_tested" type="string"/>
+        <element label="Herd Location" max_length="32" name="trich_location" reference="cmn_location" reference_qual="u_livestock=true^EQ" reference_qual_condition="u_livestock=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="trich_ownercity" type="string"/>
+        <element label="Owner Name" max_length="32" name="trich_ownername" reference="sys_user" reference_qual="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" reference_qual_condition="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" type="reference"/>
+        <element label="State" max_length="32" name="trich_ownerstate" reference="u_states" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Street Address" max_length="40" name="trich_ownerstreet" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip" max_length="40" name="trich_ownerzip" type="string"/>
+        <element choice="1" label="Trich Tag Color" max_length="40" name="trich_tag_color" type="choice">
+            <choice>
+                <element label="Blue" value="blue"/>
+                <element label="Green" value="green"/>
+                <element label="Orange" value="orange"/>
+                <element label="White" value="white"/>
+                <element label="Yellow" value="yellow"/>
+            </choice>
+        </element>
+        <element label="Turnout Date(s)" max_length="32" name="turnout_date" type="string"/>
+        <element choice="1" label="Type of test" max_length="40" name="type_of_test" type="choice">
+            <choice>
+                <element label="Culture" value="culture"/>
+                <element label="Individual PCR" value="individual_pcr"/>
+                <element label="Pooled PCR" value="pooled_pcr"/>
+                <element label="Virgin Bulls Tag Only" value="tag_only"/>
+            </choice>
+        </element>
+        <element label="County" max_length="32" name="u_county" reference="u_counties" type="reference"/>
+        <element label="Date Signed" max_length="40" name="u_date_signed" type="glide_date"/>
+        <element label="Herd Owner Info" max_length="256" name="u_herd_owner_info" type="string"/>
+        <element label="Laboratory" max_length="100" name="u_laboratory" type="string"/>
+        <element label="Lab Tech Signature" max_length="32" name="u_lab_tech_signature" reference="sys_user" reference_qual="x_cria_livestock_t_livestock_user=true^EQ" reference_qual_condition="x_cria_livestock_t_livestock_user=true^EQ" type="reference"/>
+        <element label="Phone Number" max_length="32" name="u_phone_number" type="string"/>
+        <element label="Remarks" max_length="255" name="u_remarks" type="string"/>
+        <element label="Veterinarian" max_length="32" name="u_veterinarian" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="trich_ownerstate"/>
+        </index>
+        <index name="index2">
+            <element name="u_lab_tech_signature"/>
+        </index>
+        <index name="index3">
+            <element name="trich_location"/>
+        </index>
+        <index name="index4">
+            <element name="u_county"/>
+        </index>
+        <index name="index5">
+            <element name="trich_ownername"/>
+        </index>
+        <index name="index6">
+            <element name="u_veterinarian"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cria_livestock_t_vaccination_record" label="Brucellosis Vaccination Record" max_length="40" name="x_cria_livestock_t_brucellosis_vaccination_record" text_index="true" type="collection">
+        <element label="Address" max_length="255" name="herd_owner_address" type="string"/>
+        <element label="City" max_length="100" name="herd_owner_city" type="string"/>
+        <element label="Name" max_length="100" name="herd_owner_name" reference="sys_user" reference_qual="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" reference_qual_condition="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" type="reference"/>
+        <element label="State" max_length="32" name="herd_owner_state" reference="u_states" type="reference"/>
+        <element label="Zip" max_length="10" name="herd_owner_zip" type="string"/>
+        <element label="RB51 Vaccine Serial Number" max_length="32" name="rb51_vacc_serial_num" type="string"/>
+        <element label="County" max_length="32" name="u_county" reference="u_counties" type="reference"/>
+        <element label="Herd Owner Info" max_length="256" name="u_herd_owner_info" type="string"/>
+        <element label="Phone Number" max_length="32" name="u_phone_number" type="string"/>
+        <element label="Veterinarian" max_length="32" name="u_veterinarian" reference="sys_user" type="reference"/>
+        <element label="Vaccination Date" max_length="40" name="vacc_date" type="glide_date"/>
+        <element label="Vaccine Expiration Date" max_length="40" name="vacc_expire_date" type="glide_date"/>
+        <index name="index">
+            <element name="u_county"/>
+        </index>
+        <index name="index2">
+            <element name="u_veterinarian"/>
+        </index>
+        <index name="index3">
+            <element name="herd_owner_state"/>
+        </index>
+    </element>
+</database>

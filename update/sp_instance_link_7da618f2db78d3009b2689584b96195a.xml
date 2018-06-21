@@ -3,7 +3,7 @@
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>success</color>
+        <color>default</color>
         <css/>
         <glyph>medkit</glyph>
         <id/>
@@ -16,21 +16,21 @@
         <sc_category/>
         <short_description>Enter a new vaccination record for Brucellosis</short_description>
         <size>md</size>
-        <sp_column display_value="1">6a9be9cadbb49300c64e5eea4b961944</sp_column>
+        <sp_column display_value="3">5096ed74dbaad300c64e5eea4b961982</sp_column>
         <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>dmorden</sys_created_by>
         <sys_created_on>2018-03-15 19:54:22</sys_created_on>
         <sys_id>7da618f2db78d3009b2689584b96195a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Brucellosis Vaccination</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_instance_link_7da618f2db78d3009b2689584b96195a</sys_update_name>
-        <sys_updated_by>dmorden</sys_updated_by>
-        <sys_updated_on>2018-03-15 19:59:22</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-11 20:33:01</sys_updated_on>
         <title>Brucellosis Vaccination</title>
         <type>sc_cat_item</type>
         <url/>

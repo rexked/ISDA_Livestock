@@ -6,38 +6,57 @@
             <element>herd_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Dairy</label>
+            <label>Cattle</label>
             <language>en</language>
             <name>x_cria_livestock_t_vaccination_record</name>
-            <sequence>0</sequence>
+            <sequence>10</sequence>
             <sys_created_by>dyoung</sys_created_by>
             <sys_created_on>2018-03-14 14:50:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>608786d6dbfc9300c64e5eea4b9619dd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-03-14 14:50:28</sys_updated_on>
-            <value>Dairy</value>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:22:35</sys_updated_on>
+            <value>cattle</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>herd_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Beef</label>
+            <label>Elk</label>
             <language>en</language>
             <name>x_cria_livestock_t_vaccination_record</name>
-            <sequence>1</sequence>
-            <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-03-14 14:50:28</sys_created_on>
+            <sequence>20</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-11 20:21:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e08786d6dbfc9300c64e5eea4b9619de</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-03-14 14:50:28</sys_updated_on>
-            <value>Beef</value>
+            <sys_id>6f4fb10ddb0a57809b2689584b96195a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:22:53</sys_updated_on>
+            <value>elk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Goats</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>30</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-11 20:21:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>867f310ddb0a57809b2689584b961990</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:23:16</sys_updated_on>
+            <value>goats</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -47,16 +66,54 @@
             <label>Bison</label>
             <language>en</language>
             <name>x_cria_livestock_t_vaccination_record</name>
-            <sequence>2</sequence>
+            <sequence>40</sequence>
             <sys_created_by>dyoung</sys_created_by>
             <sys_created_on>2018-03-14 14:50:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a08786d6dbfc9300c64e5eea4b9619df</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-03-14 14:50:28</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:21:46</sys_updated_on>
             <value>Bison</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deer</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>50</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-11 20:21:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce6f350ddb0a57809b2689584b961909</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:21:55</sys_updated_on>
+            <value>deer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>60</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-11 20:21:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>047f350ddb0a57809b2689584b961975</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:23:23</sys_updated_on>
+            <value>other</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>herd_type</element>

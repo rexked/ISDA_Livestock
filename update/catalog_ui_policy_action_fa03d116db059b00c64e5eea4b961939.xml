@@ -21,7 +21,7 @@
         <table/>
         <ui_policy display_value="Show/Hide Specify Other">19b2ddd2db059b00c64e5eea4b96190a</ui_policy>
         <variable>specify_other</variable>
-        <variable_set display_value="Complete Herd Test of All Eligible Animals">075bc512db059b00c64e5eea4b9619c8</variable_set>
+        <variable_set/>
         <visible>true</visible>
     </catalog_ui_policy_action>
 </record_update>

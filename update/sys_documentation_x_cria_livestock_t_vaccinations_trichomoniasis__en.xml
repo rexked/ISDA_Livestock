@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Trich Test &amp; Report" language="en" table="x_cria_livestock_t_vaccinations_trichomoniasis">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Trich Test &amp; Report</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <plural>Trich Test &amp; Reports</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-05-03 20:44:26</sys_created_on>
+            <sys_id>81087c22db3913809b2689584b9619ce</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Trich Test &amp; Report</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_vaccinations_trichomoniasis__en</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-04 17:30:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

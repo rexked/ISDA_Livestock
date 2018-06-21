@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Trichomoniasis Test and Report Form">0461879adb70d300c64e5eea4b96199a</catalog_item>
+        <catalog_variable>IO:383c3c6bdb491f00c64e5eea4b961900</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-13 22:17:15</sys_created_on>
+        <sys_id>8f66d0ffdb2e1b009b2689584b9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cvi_vet_certification</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8f66d0ffdb2e1b009b2689584b9619a6</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-13 22:17:15</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show correct vet cert statement">859efed3db221b009b2689584b96192c</ui_policy>
+        <variable>cvi_vet_certification</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

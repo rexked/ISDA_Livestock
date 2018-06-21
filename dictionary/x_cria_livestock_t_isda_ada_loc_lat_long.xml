@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="ISDA Ada Loc-Lat-Long" max_length="40" name="x_cria_livestock_t_isda_ada_loc_lat_long" type="collection">
+        <element attributes="import_attribute_name=County,edge_encryption_enabled=true" label="County" max_length="40" name="u_county" type="string"/>
+        <element attributes="import_attribute_name=Lat" label="Lat" max_length="40" name="u_lat" type="float"/>
+        <element attributes="import_attribute_name=Lng,edge_encryption_enabled=true" label="Lng" max_length="40" name="u_lng" type="string"/>
+        <element attributes="import_attribute_name=Premises ID,edge_encryption_enabled=true" label="Premises ID" max_length="40" name="u_premises_id" type="string"/>
+    </element>
+</database>

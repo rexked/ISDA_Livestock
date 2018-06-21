@@ -10,7 +10,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>I certify, as an accredited Veterinarian, that the above animals have been inspected by me and that they are not showing signs of infectious, contagious, and/or communicable disease (except where noted). The Vaccinations and results tests are indicated on the certificate. To the best of my knowledge, the animals listed on this certificate, meet the state of destination and federal interstate requirements. No further warranty is made or implied. </default_value>
+        <default_value>I certify, as an accredited veterinarian, that the above-described animals have been inspected by me and that they are not showing signs of infectious, contagious, and/or communicable disease (except where noted). The vaccinations and results of tests are as indicated on this certificate. To the best of my knowledge, the animals listed on this certificate meet the state of destination and federal interstate requirements. No further warranty is made or implied.</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -37,11 +37,11 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>vet_certification</name>
+        <name>cvi_vet_certification</name>
         <order>900</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Veterinarian certification</question_text>
+        <question_text>Veterinarian Certification:</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,14 +60,14 @@
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-03-30 16:50:03</sys_created_on>
         <sys_id>383c3c6bdb491f00c64e5eea4b961900</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Veterinarian certification</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Veterinarian Certification:</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_383c3c6bdb491f00c64e5eea4b961900</sys_update_name>
-        <sys_updated_by>cervin</sys_updated_by>
-        <sys_updated_on>2018-03-30 16:53:01</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-13 22:00:37</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>

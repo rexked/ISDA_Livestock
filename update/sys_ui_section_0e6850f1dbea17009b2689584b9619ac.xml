@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Vet Info" section_id="0e6850f1dbea17009b2689584b9619ac" sys_domain="global" table="x_cria_livestock_t_vaccinations_market_cattle" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_veterinarian</element>
+            <position>0</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-07 17:17:58</sys_created_on>
+            <sys_id>926890f1dbea17009b2689584b961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Info" display_value="Vet Info" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">0e6850f1dbea17009b2689584b9619ac</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 17:17:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-07 17:17:58</sys_created_on>
+            <sys_id>166890f1dbea17009b2689584b961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Info" display_value="Vet Info" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">0e6850f1dbea17009b2689584b9619ac</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 17:17:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_date</element>
+            <position>2</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-07 17:17:58</sys_created_on>
+            <sys_id>966890f1dbea17009b2689584b961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Info" display_value="Vet Info" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">0e6850f1dbea17009b2689584b9619ac</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 17:17:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Vet Info</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_vaccinations_market_cattle</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-07 17:17:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e6850f1dbea17009b2689584b9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Vet Info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_0e6850f1dbea17009b2689584b9619ac</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 17:17:58</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

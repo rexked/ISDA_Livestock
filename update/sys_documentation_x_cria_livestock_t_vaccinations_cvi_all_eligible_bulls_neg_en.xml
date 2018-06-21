@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="all_eligible_bulls_neg" label="All Eligible bulls in this shipment tested negative" language="en" table="x_cria_livestock_t_vaccinations_cvi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>all_eligible_bulls_neg</element>
+            <help/>
+            <hint/>
+            <label>All Eligible bulls in this shipment tested negative</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <plural>All Eligible bulls in this shipment tested negatives</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:37:54</sys_created_on>
+            <sys_id>8708d4eddba217009b2689584b96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>All Eligible bulls in this shipment tested negative</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_vaccinations_cvi_all_eligible_bulls_neg_en</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-06 22:37:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

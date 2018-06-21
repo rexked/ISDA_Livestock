@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($rootScope, $scope) {
+  /* widget controller */
+  var c = this;
+	 c.shared = '';
+	$rootScope.$on('ISDAWidget', function(event,obj) {
+		c.shared = obj.table;
+		console.log(obj);
+});
+	console.log(c.data.list);
+	console.log('Shared is now: ' + c.data.rec_sys_id + ", " + c.data.rec_table_name + ", " + c.data.parent_table);
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>printable_form</id>
+        <internal>false</internal>
+        <link/>
+        <name>Printable Form</name>
+        <option_schema>[{"name":"table","section":"other","label":"Table","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[var t = data;
+data.fields_array = [];
+data.view = 'isda';
+data.sys_id = $sp.getParameter('sys_id');
+data.table = $sp.getParameter('table')
+var articleGR = new GlideRecord(data.table);
+articleGR.get(data.sys_id);
+//data.parent = articleGR.getRefRecord('parent');
+data.parent_table = articleGR.lab_result_table.getDisplayValue();
+var recordIsValid = articleGR.isValidRecord();
+var canReadArticle = articleGR.canRead();
+t.isvalid = recordIsValid && canReadArticle;
+
+if (!data.fields) {
+		if (data.view){
+			console.log("using the view");
+			data.fields = $sp.getListColumns(data.table, data.view);
+		}
+			else
+			data.fields = $sp.getListColumns(data.table);
+	}
+	
+	
+	data.column_labels = {};
+	data.fields_array = data.fields.split(',');
+
+	data.list = [];
+		var ge = new GlideRecord(data.table);
+		ge.get(data.sys_id);
+			var record = {};
+			$sp.getRecordElements(record, ge, data.fields);
+			record.sys_id = ge.getValue('sys_id');
+			data.list.push(record);
+		
+	
+		// use GlideRecord to get field labels vs. GlideRecordSecure
+	var grForLabels = new GlideRecord(data.table);
+	for (var i in data.fields_array) {
+		var field = data.fields_array[i];
+		var ge = grForLabels.getElement(field);
+		if (ge == null)
+			continue;
+
+		data.column_labels[field] = ge.getLabel();
+	}
+
+
+
+t.breadcrumbs = [{label: t.short_description, url: '#'}];
+
+
+var gr = new GlideRecord(data.table);
+data.rec_sys_id = data.sys_id;
+data.rec_table_name = gr.getRecordClassName(data.sys_id);
+
+
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-05-24 23:02:37</sys_created_on>
+        <sys_id>16012559db129f809b2689584b9619d1</sys_id>
+        <sys_mod_count>73</sys_mod_count>
+        <sys_name>Printable Form</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_widget_16012559db129f809b2689584b9619d1</sys_update_name>
+        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-25 02:26:46</sys_updated_on>
+        <template><![CDATA[<div ng-if="data.isvalid" class="panel panel-{{options.color}} b">
+  <div class="panel-heading">
+    <h4 class="panel-title" ng-repeat="field in data.list" tabindex="0">{{::data.list.record_id.value}}</h4>
+  </div>
+  <div class="boxed" align="centered">
+    <b><center>${COOPERATIVE STATE-FEDERAL BRUCELLOSIS ERADICATION PROGRAM}</center></b><br>
+    <b><center>${BRUCELLOSIS TEST RECORD}</center></b>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-body m-b-lg wrapper-lg">
+      <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.offercontent" style="overflow-x:auto;"></div>
+      <br>
+      <b>${Offer Extended}</b><br>
+      <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.offerextendeddate" style="overflow-x:auto;"></div>
+      <br>
+      <b>${Offer Expires}</b><br>
+      <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.offer_expiration_date" style="overflow-x:auto;"></div>
+      <br>
+      <b>${Expected Start Date/Time}</b><br>
+      <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.startdatetime" style="overflow-x:auto;"></div>
+      <br>
+      <b>${Salary}</b><br>
+      <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.salaryoffered" style="overflow-x:auto;"></div>
+      <br><br>
+      <div ng-if="data.signature != ''">
+        <b>${Electronically Signed By}</b>
+        <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.signature" style="overflow-x:auto;"></div>
+        <br>
+        <b>${Electronic Signature Date}</b>
+        <div ng-if="!data.direct" class="kb_article" ng-bind-html="::data.date_signed" style="overflow-x:auto;"></div>
+      </div>
+    </div>
+    <th ng-repeat="field in data.fields_array track by $index" tabindex="0">
+              <div class="th-title" >{{data.column_labels[field]}}</div>
+  </div>
+</div>
+
+
+<th ng-repeat="field in data.fields_array" tabindex="0">
+              <div class="th-title" >{{data.column_labels[field]}}</div>]]></template>
+    </sp_widget>
+</record_update>

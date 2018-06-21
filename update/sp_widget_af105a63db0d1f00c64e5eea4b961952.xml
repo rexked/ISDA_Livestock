@@ -4,9 +4,32 @@
         <category>custom</category>
         <client_script><![CDATA[function ($scope, $http, spScUtil, spUtil, nowAttachmentHandler, $rootScope, $sanitize, $window, $sce, i18n, $timeout, $log, spAriaUtil, $document, spModal) {
 	var c = this;
+	
+		
+	
+	c.widgetRecords = $scope.data.widgetRecords;
 	c.quantity = c.data.quantity ? parseInt(c.data.quantity) : 1;
 	c.mandatory = [];
 	$scope.stickyHeaderTop = '0px';
+	console.log('This is a log of the records: ' + $scope);
+	console.log('This is on the cat Item: ' + c.widgetRecords);
+	console.log($scope);
+/*test = findID('cvi_cert_id',c.data.sc_cat_item._fields);
+	
+	
+	function findID(variablename, field){
+			var test = $.map(field, function(value, index) {
+    return [value];
+});
+		
+	}
+	 //test = $scope.page.g_form.getValue('cvi_cert_id')
+	
+
+	//console.log(test)
+	
+	//for (i = 0 ; i < test.length; i++)
+	*/
 
 	c.widget._debugContextMenu = [
 		[ i18n.getMessage("Open") + " sc_cat_item", function(){
@@ -20,9 +43,7 @@
 	}
 	
 	c.showQuantitySelector = function() {
-		return c.data.sc_cat_item.sys_class_name !== "sc_cat_item_producer" &&
-			!c.data.sc_cat_item.no_quantity &&
-			(!c.data.sc_cat_item.no_order_now || !c.data.sc_cat_item.no_cart);
+		return false;
 	}
 
 	c.showOrderNowButton = function() {
@@ -149,7 +170,7 @@
 		
 	}
 	
-	console.log($scope.data);
+
 
 	function addLink(url, msg) {
 		return " <a href=" + url + ">" + msg + "</a>";
@@ -201,8 +222,13 @@
 	}
 
 	$scope.triggerOnSubmit = function(){
+		$scope.$on('widget cvi' ,function(event,obj){ 
+							 c.widgetRecords = obj.records;
+																								});
+		console.log(c.widgetRecords);
 		$scope.data.sc_cat_item.item_action = "order";
 		$scope.data.sc_cat_item.quantity = c.quantity;
+		$rootScope.$broadcast("Submited LST Button");
 		if (g_form)
 			g_form.submit();
 	}
@@ -355,6 +381,7 @@
             $scope.stickyHeaderTop = '-' + (titleHeight - 20 - $document[0].getElementsByClassName('sc-cat-item-short-description')[0].clientHeight) + 'px;';
         }
     });
+		
 }]]></client_script>
         <controller_as>c</controller_as>
         <css>.panel-button {
@@ -542,7 +569,7 @@
 	data.showPrices = $sp.showCatalogPrices();
 	var m = data.msgs = {};
 	m.submitMsg = gs.getMessage("Submit");
-	m.orderNowMsg = gs.getMessage("Order Now");
+	m.orderNowMsg = gs.getMessage("Submit");
 	m.submittedMsg = gs.getMessage("Submitted");
 	m.createdMsg = gs.getMessage("Created");
 	m.trackMsg = gs.getMessage("track using 'Requests' in the header or");
@@ -804,14 +831,14 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-03-30 22:56:11</sys_created_on>
         <sys_id>af105a63db0d1f00c64e5eea4b961952</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>110</sys_mod_count>
         <sys_name>Livestock catalog item</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_widget_af105a63db0d1f00c64e5eea4b961952</sys_update_name>
-        <sys_updated_by>dyoung</sys_updated_by>
-        <sys_updated_on>2018-04-23 22:18:45</sys_updated_on>
+        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-07 21:25:08</sys_updated_on>
         <template><![CDATA[<div id="sc_cat_item" ng-if="::data.recordFound">
   <sp-widget widget="c.orderItemModal" ng-if="c.orderItemModal"></sp-widget>
   <div class="row" ng-if="::data.sc_cat_item" >
@@ -866,13 +893,13 @@
                <b>${Price}:</b> {{data.sc_cat_item.price}}<em ng-if="data.sc_cat_item.recurring_price" class="cat_item_price"> + {{data.sc_cat_item.recurring_price}}</em>
               </div>
               <div ng-if="::c.allowOrder()" class="text-right">
-                <select ng-if="c.showQuantitySelector()"
+                <!--<select ng-if="c.showQuantitySelector()"
                         ng-disabled="submitting"
                         class="form-control quantity-selector m-r-xs"
                         ng-model="c.quantity"
                         aria-label="${Quantity}"
                         ng-options="num for num in [1,2,3,4,5,6,7,8,9,10]">
-                </select>
+                </select>-->
                 <button tabindex="0" ng-if="c.showAddCartBtn()" name="add_to_cart" ng-disabled="submitting" ng-click="triggerAddToCart()" class="btn btn-default m-r-xs">
                   <i class="fa fa fa-shopping-cart m-r-xs"></i>
                   ${Add to Cart}
@@ -922,14 +949,14 @@
       <div ng-class="{true:'sc-fixed', false:'' }[options.display_cart_on_right === 'true']">
       	<div ng-if="data.sc_cat_item.sys_class_name != 'sc_cat_item_content'" class="panel panel-{{::options.color}} b wrapper-md">
            <div class="form-group" ng-if="::c.allowOrder()">
-             <select ng-if="c.showQuantitySelector()"
+             <!--<select ng-if="c.showQuantitySelector()"
                      style="text-indent: 6px;"
                      ng-disabled="submitting"
                      class="form-control"
                      ng-model="c.quantity"
                      aria-label="${Quantity}"
                      ng-options="num for num in [1,2,3,4,5,6,7,8,9,10]">
-             </select>
+             </select>-->
            </div>
            <div class="form-group relative">
              <button tabindex="0" ng-if="c.showAddCartBtn()" name="add_to_cart" ng-disabled="submitting" ng-click="triggerAddToCart()" class="btn btn-default sc-btn form-control">

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>200</order>
+        <question display_value="Will this be a new location for an existing or new contact?">1d9b45f0db6ad300c64e5eea4b961989</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-04 18:30:52</sys_created_on>
+        <sys_id>4d4c45f0db6ad300c64e5eea4b9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Herd Owner</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>question_choice_4d4c45f0db6ad300c64e5eea4b9619b8</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-04 18:30:52</sys_updated_on>
+        <text>New Herd Owner</text>
+        <value>new</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=4d4c45f0db6ad300c64e5eea4b9619b8"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>4d4c45f0db6ad300c64e5eea4b9619b8</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-04 18:30:52</sys_created_on>
+        <sys_id>205cc134db6ad300c64e5eea4b96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-04 18:30:52</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>4d4c45f0db6ad300c64e5eea4b9619b8</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-04 18:30:52</sys_created_on>
+        <sys_id>e45cc134db6ad300c64e5eea4b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-04 18:30:52</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

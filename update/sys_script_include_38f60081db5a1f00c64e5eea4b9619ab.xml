@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_cria_livestock_t.MyDateTimeAjax</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MyDateTimeAjax</name>
+        <script><![CDATA[var MyDateTimeAjax = Class.create();
+
+
+MyDateTimeAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+
+       nowDateTime: function () {
+
+
+               return gs.now();
+
+
+       }
+
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-05-23 21:51:08</sys_created_on>
+        <sys_id>38f60081db5a1f00c64e5eea4b9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyDateTimeAjax</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_include_38f60081db5a1f00c64e5eea4b9619ab</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-23 21:51:08</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="slyd_goats" label="Goats" language="en" table="x_cria_livestock_t_saleyard_release">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>slyd_goats</element>
+            <help/>
+            <hint/>
+            <label>Goats</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_saleyard_release</name>
+            <plural>Goats</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-08 15:34:16</sys_created_on>
+            <sys_id>f44ac542db269700c64e5eea4b961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Goats</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_saleyard_release_slyd_goats_en</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-08 15:34:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

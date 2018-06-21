@@ -5,19 +5,19 @@
         <catalog_variable>IO:6573a507db9593409b2689584b961994</catalog_variable>
         <disabled>ignore</disabled>
         <field/>
-        <mandatory>ignore</mandatory>
+        <mandatory>true</mandatory>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-04-23 18:51:19</sys_created_on>
         <sys_id>e43e7457dbe99b40c64e5eea4b9619be</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>reason_other</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>catalog_ui_policy_action_e43e7457dbe99b40c64e5eea4b9619be</sys_update_name>
-        <sys_updated_by>cervin</sys_updated_by>
-        <sys_updated_on>2018-04-23 18:53:39</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-24 19:17:51</sys_updated_on>
         <table/>
         <ui_policy display_value="Show/Hide Other">a42e3457dbe99b40c64e5eea4b9619c1</ui_policy>
         <variable>reason_other</variable>

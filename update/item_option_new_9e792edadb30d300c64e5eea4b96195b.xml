@@ -60,14 +60,14 @@
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-03-14 17:19:09</sys_created_on>
         <sys_id>9e792edadb30d300c64e5eea4b96195b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Entry Permit Number</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_9e792edadb30d300c64e5eea4b96195b</sys_update_name>
-        <sys_updated_by>cervin</sys_updated_by>
-        <sys_updated_on>2018-04-13 20:29:17</sys_updated_on>
+        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-21 14:39:27</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -75,7 +75,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <variable_name/>
-        <variable_set display_value="Shipment Information">1349aedadb30d300c64e5eea4b961930</variable_set>
+        <variable_set display_value="Shipment Information:">49e01854dbdadb809b2689584b961989</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>

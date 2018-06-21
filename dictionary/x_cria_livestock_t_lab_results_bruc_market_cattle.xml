@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cria_livestock_t_lab_results_bruc" label="Batchfill Market Cattle" max_length="40" name="x_cria_livestock_t_lab_results_bruc_market_cattle" text_index="true" type="collection"/>
+</database>

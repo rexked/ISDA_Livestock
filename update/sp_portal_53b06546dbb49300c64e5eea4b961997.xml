@@ -35,20 +35,20 @@ $text-muted: #979797;
         <sc_catalog_page display_value="sc_landing">53261e3487100300e0ef0cf888cb0b7c</sc_catalog_page>
         <sc_category_page/>
         <sp_chat_queue/>
-        <sp_rectangle_menu/>
+        <sp_rectangle_menu display_value="ISDA Main Menu">7a780c37db2e1b009b2689584b9619d3</sp_rectangle_menu>
         <sqanda_knowledge_base/>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>dmorden</sys_created_by>
         <sys_created_on>2018-03-13 17:23:56</sys_created_on>
         <sys_id>53b06546dbb49300c64e5eea4b961997</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Livestock Tracking</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_portal_53b06546dbb49300c64e5eea4b961997</sys_update_name>
-        <sys_updated_by>dmorden</sys_updated_by>
-        <sys_updated_on>2018-03-14 18:06:37</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-13 21:19:13</sys_updated_on>
         <theme display_value="Livestock">e953c506db749300c64e5eea4b9619b0</theme>
         <title>Livestock Tracking</title>
         <url_suffix>isda</url_suffix>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="eia_accession" label="Accession #" language="en" table="x_cria_livestock_t_vaccinations_cvi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>eia_accession</element>
+            <help/>
+            <hint/>
+            <label>Accession #</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <plural>Accession #s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:40:26</sys_created_on>
+            <sys_id>00a89ceddba217009b2689584b961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Accession #</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_vaccinations_cvi_eia_accession_en</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-06 22:40:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

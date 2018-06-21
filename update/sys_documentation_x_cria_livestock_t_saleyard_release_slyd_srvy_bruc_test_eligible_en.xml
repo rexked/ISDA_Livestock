@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="slyd_srvy_bruc_test_eligible" label="Number of Test Eligible Cattle" language="en" table="x_cria_livestock_t_saleyard_release">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>slyd_srvy_bruc_test_eligible</element>
+            <help/>
+            <hint/>
+            <label>Number of Test Eligible Cattle</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_saleyard_release</name>
+            <plural>Number of Test Eligible Cattles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-08 15:55:52</sys_created_on>
+            <sys_id>453f4546db269700c64e5eea4b961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Number of Test Eligible Cattle</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_saleyard_release_slyd_srvy_bruc_test_eligible_en</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-08 15:55:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

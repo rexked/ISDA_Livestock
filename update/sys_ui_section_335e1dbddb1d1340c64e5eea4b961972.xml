@@ -4,70 +4,70 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>ear_tag</element>
             <position>0</position>
-            <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-17 21:33:11</sys_created_on>
-            <sys_id>5bb96211dba997409b2689584b961914</sys_id>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-17 21:34:47</sys_created_on>
+            <sys_id>9bc98d03db865b809b2689584b961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="f35e19bddb1d1340c64e5eea4b961970">335e1dbddb1d1340c64e5eea4b961972</sys_ui_section>
-            <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-17 21:33:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>vaccination_tattoo</element>
-            <position>1</position>
-            <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-17 21:33:11</sys_created_on>
-            <sys_id>dbb96211dba997409b2689584b961914</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="f35e19bddb1d1340c64e5eea4b961970">335e1dbddb1d1340c64e5eea4b961972</sys_ui_section>
-            <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-17 21:33:11</sys_updated_on>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-17 21:34:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>age</element>
-            <position>2</position>
-            <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-17 21:33:11</sys_created_on>
-            <sys_id>5fb96211dba997409b2689584b961914</sys_id>
+            <position>1</position>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-17 21:34:47</sys_created_on>
+            <sys_id>1fc98d03db865b809b2689584b961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="f35e19bddb1d1340c64e5eea4b961970">335e1dbddb1d1340c64e5eea4b961972</sys_ui_section>
-            <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-17 21:33:11</sys_updated_on>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-17 21:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vaccination_tattoo</element>
+            <position>2</position>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-17 21:34:47</sys_created_on>
+            <sys_id>9fc98d03db865b809b2689584b961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="f35e19bddb1d1340c64e5eea4b961970">335e1dbddb1d1340c64e5eea4b961972</sys_ui_section>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-17 21:34:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>breed</element>
             <position>3</position>
-            <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-17 21:33:11</sys_created_on>
-            <sys_id>dfb96211dba997409b2689584b961914</sys_id>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-17 21:34:47</sys_created_on>
+            <sys_id>13c98d03db865b809b2689584b961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="f35e19bddb1d1340c64e5eea4b961970">335e1dbddb1d1340c64e5eea4b961972</sys_ui_section>
-            <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-17 21:33:11</sys_updated_on>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-17 21:34:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sex</element>
             <position>4</position>
-            <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-17 21:33:11</sys_created_on>
-            <sys_id>53b96211dba997409b2689584b961915</sys_id>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-17 21:34:47</sys_created_on>
+            <sys_id>93c98d03db865b809b2689584b961962</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc" sys_domain="global" view="f35e19bddb1d1340c64e5eea4b961970">335e1dbddb1d1340c64e5eea4b961972</sys_ui_section>
-            <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-17 21:33:11</sys_updated_on>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-17 21:34:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

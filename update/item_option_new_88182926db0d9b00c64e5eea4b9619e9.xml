@@ -10,7 +10,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value><![CDATA[<p>That I have drawn blood samples from each animal identified above and have correctly listed each tube number with corresponding identification number, all numbers and letters of all eartags have been listed, Cattle with existing official eartags have not been retagged, and when payment is claimed at program expense in accordance with agreement number below, no payment has been or will be received from any other source.</p>]]></default_html_value>
-        <default_value>That I have drawn blood samples from each animal identifed above and have correctly listed each tube number with corresponding identification number, all numbers and letters of all eartags have been listed, Cattle with existing official eartags have not been retagged, and when payment is claimed at program expense in accordance with agreement number below, no payment has been or will be received from any other source.</default_value>
+        <default_value>I certify that I have drawn blood samples from each animal identified above and have correctly listed each tube number with the corresponding identification number, all numbers and letters of all eartags have been listed, cattle with existing official eartags have not been retagged, and when payment is claimed at program expense, no payment has been or will be received from any other source.</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -41,7 +41,7 @@
         <order>100</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>I Certify:</question_text>
+        <question_text>Veterinarian Certification:</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,14 +60,14 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-03-27 17:30:45</sys_created_on>
         <sys_id>88182926db0d9b00c64e5eea4b9619e9</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>I Certify:</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Veterinarian Certification:</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_88182926db0d9b00c64e5eea4b9619e9</sys_update_name>
-        <sys_updated_by>dyoung</sys_updated_by>
-        <sys_updated_on>2018-03-27 17:48:04</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-13 22:25:35</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:ddac31f4dbead300c64e5eea4b961920</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-04 22:02:02</sys_created_on>
+        <sys_id>f9ac71f4dbead300c64e5eea4b96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>contact</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_f9ac71f4dbead300c64e5eea4b96193c</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-04 22:02:02</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show new contact fields">fdac71f4dbead300c64e5eea4b961928</ui_policy>
+        <variable>contact</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

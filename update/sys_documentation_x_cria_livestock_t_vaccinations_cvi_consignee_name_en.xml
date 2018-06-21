@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="consignee_name" label="Consignee Name" language="en" table="x_cria_livestock_t_vaccinations_cvi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>consignee_name</element>
+            <help/>
+            <hint/>
+            <label>Consignee Name</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <plural>Consignee Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-01 17:13:08</sys_created_on>
+            <sys_id>fccd957fdb5a5300c64e5eea4b9619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Consignee Name</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_vaccinations_cvi_consignee_name_en</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-01 17:13:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cria_livestock_t_vaccination_record" label="CVI / Health Certificate" max_length="40" name="x_cria_livestock_t_vaccinations_cvi" text_index="true" type="collection">
+        <element label="Accession #" max_length="32" name="accession_num" type="string"/>
+        <element label="All Animals have tested negative for TB" max_length="40" name="all_animals_neg" type="boolean"/>
+        <element label="All Eligible bulls in this shipment tested negative" max_length="40" name="all_eligible_bulls_neg" type="boolean"/>
+        <element label="Brand Inspection Number" max_length="32" name="brand_inspection_number" type="string"/>
+        <element label="Brucellosis Free" max_length="40" name="brucellosis_free" type="boolean"/>
+        <element label="Brucellosis Laboratory" max_length="100" name="brucellosis_lab" type="string"/>
+        <element label="Carrier Name" max_length="255" name="carrier_name_and_address" type="string"/>
+        <element label="Cattle" max_length="40" name="cattle" type="boolean"/>
+        <element label="Conisgnee Street" max_length="255" name="conisgnee_street" type="string"/>
+        <element label="Consignee" max_length="256" name="consignee" type="string"/>
+        <element label="Consignee City" max_length="255" name="consignee_city" type="string"/>
+        <element label="Consignee Name" max_length="100" name="consignee_name" type="string"/>
+        <element label="Consignee Phone" max_length="40" name="consignee_phone" type="string"/>
+        <element label="Consignee State" max_length="32" name="consignee_state" reference="u_states" type="reference"/>
+        <element label="Consignee Zip" max_length="10" name="consignee_zip" type="string"/>
+        <element label="Consignor" max_length="256" name="consigner" type="string"/>
+        <element label="Consignor City" max_length="255" name="consignor_city" type="string"/>
+        <element label="Consignor Name" max_length="100" name="consignor_name" type="string"/>
+        <element label="Consignor Phone" max_length="40" name="consignor_phone" type="string"/>
+        <element label="Consignor State" max_length="32" name="consignor_state" reference="u_states" type="reference"/>
+        <element label="Consignor Street" max_length="255" name="consignor_street" type="string"/>
+        <element label="Consignor Zip" max_length="10" name="consignor_zip" type="string"/>
+        <element label="Brucellosis" max_length="40" name="cvi_brucellosis" type="boolean"/>
+        <element label="Equine Infectious Anemia" max_length="40" name="cvi_equine_infectious_anemia" type="boolean"/>
+        <element label="Other" max_length="40" name="cvi_other" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="255" name="cvi_remarks" type="string"/>
+        <element label="Trichomonisis" max_length="40" name="cvi_trichomonisis" type="boolean"/>
+        <element label="Tuberculosis" max_length="40" name="cvi_tuberculosis" type="boolean"/>
+        <element label="Date Bled" max_length="40" name="date_bled" type="glide_date"/>
+        <element label="Date of Negative Coggins Test" max_length="40" name="date_of_coggins" type="glide_date"/>
+        <element label="Date Sample Collected" max_length="40" name="date_sample_collected" type="glide_date"/>
+        <element label="Accession #" max_length="32" name="eia_accession" type="string"/>
+        <element label="Laboratory" max_length="100" name="eia_laboratory" type="string"/>
+        <element label="Entry Permit Number" max_length="32" name="entry_permit_number" type="string"/>
+        <element label="Goat" max_length="40" name="goat" type="boolean"/>
+        <element label="Health Certificate Number" max_length="32" name="health_certificate_number" type="string"/>
+        <element label="Horses" max_length="40" name="horses" type="boolean"/>
+        <element label="Description of Markings" max_length="255" name="identifying_marks" type="string"/>
+        <element label="Inspection Date" max_length="40" name="inspection_date" type="glide_date"/>
+        <element choice="1" label="Laboratory" max_length="40" name="laboratory" type="choice">
+            <choice>
+                <element label="ISDA Animal Health Lab" sequence="10" value="isda_animal_lab"/>
+                <element label="Washington Animal Disease Diagnostic Lab" sequence="20" value="wa_ani_dis_diag_lab"/>
+                <element label="Utah Veterinary Diagnostic Lab" sequence="30" value="ut_vet_diag_lab"/>
+                <element label="Montana Veterinary Diagnostic Lab" sequence="40" value="montana_vet_diag_lab"/>
+                <element label="Wyoming State Veterinary Laboratory" sequence="50" value="wy_state_vet_lab"/>
+                <element label="Other" sequence="60" value="other"/>
+            </choice>
+        </element>
+        <element label="Market" max_length="32" name="market" type="string"/>
+        <element label="Number of Animals Shipped" max_length="32" name="number_animals_shipped" type="string"/>
+        <element label="Number of Brucellosis negative Cattle" max_length="32" name="number_of_brucellosis_negative_cattle" type="string"/>
+        <element label="Number of Test Eligible Cattle" max_length="32" name="number_of_test_eligible_cattle" type="string"/>
+        <element label="Number of Bulls" max_length="100" name="num_of_bulls" type="string"/>
+        <element label="Number of Calves" max_length="100" name="num_of_calves" type="string"/>
+        <element label="Number of Cows" max_length="100" name="num_of_cows" type="string"/>
+        <element label="Number of Heifers" max_length="100" name="num_of_heifers" type="string"/>
+        <element label="Number of Steers" max_length="100" name="num_of_steers" type="string"/>
+        <element label="Origin County" max_length="32" name="origin_county" reference="u_counties" type="reference"/>
+        <element label="Other" max_length="40" name="other" type="boolean"/>
+        <element label="Lab" max_length="100" name="other_lab" type="string"/>
+        <element label="Results" max_length="32" name="other_results" type="string"/>
+        <element label="Test" max_length="100" name="other_test" type="string"/>
+        <element label="Poultry" max_length="40" name="poultry" type="boolean"/>
+        <element label="Sheep" max_length="40" name="sheep" type="boolean"/>
+        <element label="Shipment Date" max_length="40" name="shipment_date" type="glide_date"/>
+        <element label="Date" max_length="40" name="signature_date" type="glide_date"/>
+        <element label="Other" max_length="32" name="species_other" type="string"/>
+        <element label="Swine" max_length="40" name="swine" type="boolean"/>
+        <element label="TB Free" max_length="40" name="tb_free" type="boolean"/>
+        <element label="Culture" max_length="40" name="trich_culture" type="boolean"/>
+        <element label="Individual PCR" max_length="40" name="trich_individual_pcr" type="boolean"/>
+        <element label="Laboratory" max_length="32" name="trich_laboratory" type="string"/>
+        <element label="Pooled PCR" max_length="40" name="trich_pooled_pcr" type="boolean"/>
+        <element label="Date Test was Read" max_length="40" name="tub_date" type="glide_date"/>
+        <element label="Veterinarian" max_length="32" name="u_veterinarian" reference="sys_user" type="reference"/>
+        <element choice="1" label="Vaccination Status" max_length="40" name="vaccination_status" type="choice">
+            <choice>
+                <element label="All officially vaccinated with legible tattoos" value="all_vacc_legible_tattoos"/>
+                <element label="Mixed Vaccination Status" value="mixed_vacc_status"/>
+                <element label="Not vaccinated" value="not_vaccinated"/>
+                <element label="Unknown Vaccination Status" value="unknown_vacc_status"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="consignee_state"/>
+        </index>
+        <index name="index2">
+            <element name="consignor_state"/>
+        </index>
+        <index name="index3">
+            <element name="origin_county"/>
+        </index>
+        <index name="index4">
+            <element name="u_veterinarian"/>
+        </index>
+    </element>
+</database>

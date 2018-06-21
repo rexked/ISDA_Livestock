@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="number_of_brucellosis_negative_cattle" label="Number of Brucellosis negative Cattle" language="en" table="x_cria_livestock_t_vaccinations_cvi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number_of_brucellosis_negative_cattle</element>
+            <help/>
+            <hint/>
+            <label>Number of Brucellosis negative Cattle</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <plural>Number of Brucellosis negative Cattles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:34:33</sys_created_on>
+            <sys_id>b1471caddba217009b2689584b96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Number of Brucellosis negative Cattle</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_vaccinations_cvi_number_of_brucellosis_negative_cattle_en</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-06 22:34:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

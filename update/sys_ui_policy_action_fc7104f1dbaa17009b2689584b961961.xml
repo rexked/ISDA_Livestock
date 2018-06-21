@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>number_of_test_eligible_cattle</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-07 15:37:59</sys_created_on>
+        <sys_id>fc7104f1dbaa17009b2689584b961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number_of_test_eligible_cattle</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_fc7104f1dbaa17009b2689584b961961</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-07 15:37:59</sys_updated_on>
+        <table>x_cria_livestock_t_vaccinations_cvi</table>
+        <ui_policy display_value="Show bruc surveillance fields">6e01ccb1dbaa17009b2689584b9619d3</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

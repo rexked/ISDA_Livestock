@@ -225,6 +225,48 @@
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>record_id</element>
+            <position>16</position>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-22 02:30:36</sys_created_on>
+            <sys_id>17d33258db521f809b2689584b9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccination_record" sys_domain="global" view="Default view">dc5f7d96dbfc9300c64e5eea4b96194c</sys_ui_section>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-22 02:30:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lab_result_table</element>
+            <position>17</position>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-19 17:34:33</sys_created_on>
+            <sys_id>0e4f42e5db7a1f009b2689584b961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccination_record" sys_domain="global" view="Default view">dc5f7d96dbfc9300c64e5eea4b96194c</sys_ui_section>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-19 17:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent_ritm</element>
+            <position>18</position>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-20 22:02:29</sys_created_on>
+            <sys_id>7c36d886dbb65f009b2689584b96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccination_record" sys_domain="global" view="Default view">dc5f7d96dbfc9300c64e5eea4b96194c</sys_ui_section>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-20 22:02:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

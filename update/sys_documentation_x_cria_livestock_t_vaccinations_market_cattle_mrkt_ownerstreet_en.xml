@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="mrkt_ownerstreet" label="Street Address" language="en" table="x_cria_livestock_t_vaccinations_market_cattle">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>mrkt_ownerstreet</element>
+            <help/>
+            <hint/>
+            <label>Street Address</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_market_cattle</name>
+            <plural>Street Address</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-08 22:23:40</sys_created_on>
+            <sys_id>29f76e06db2a9700c64e5eea4b96197f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Street Address</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_vaccinations_market_cattle_mrkt_ownerstreet_en</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-08 22:23:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

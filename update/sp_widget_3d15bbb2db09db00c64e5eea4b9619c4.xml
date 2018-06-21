@@ -263,7 +263,7 @@ tbody tr:last-child {
   /* e.g., data.table = $sp.getValue('table'); */
 
 	data.title = 'Lab Results';
-	data.table = 'x_cria_livestock_t_lab_results_tub';
+	data.table = 'x_cria_livestock_t_lab_results_bruc';
 	data.filter = 'session_id=' + gs.getSessionID();
 	data.table_label = 'Lab Results';
 	data.fields_array = [];
@@ -314,14 +314,14 @@ tbody tr:last-child {
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-03-28 22:21:53</sys_created_on>
         <sys_id>3d15bbb2db09db00c64e5eea4b9619c4</sys_id>
-        <sys_mod_count>189</sys_mod_count>
+        <sys_mod_count>190</sys_mod_count>
         <sys_name>Livestock Data Table Bruc</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_widget_3d15bbb2db09db00c64e5eea4b9619c4</sys_update_name>
         <sys_updated_by>dyoung</sys_updated_by>
-        <sys_updated_on>2018-04-11 15:09:37</sys_updated_on>
+        <sys_updated_on>2018-05-01 22:55:35</sys_updated_on>
         <template><![CDATA[ <div>
    <div class="panel-heading form-inline">
       <span class="panel-title"><i ng-if="options.glyph" class="fa fa-{{options.glyph}} m-r"></i>{{data.title}}</span>

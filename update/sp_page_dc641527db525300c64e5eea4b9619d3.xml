@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>cvi_printable_form</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-05-31 21:53:40</sys_created_on>
+        <sys_id>dc641527db525300c64e5eea4b9619d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>cvi_printable_form</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_page_dc641527db525300c64e5eea4b9619d3</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-31 21:54:17</sys_updated_on>
+        <title>CVI Printable Form</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=dc641527db525300c64e5eea4b9619d3"/>
+</record_update>

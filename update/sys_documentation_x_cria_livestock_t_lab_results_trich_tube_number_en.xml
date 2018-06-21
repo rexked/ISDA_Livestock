@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="tube_number" label="Tube Number" language="en" table="x_cria_livestock_t_lab_results_trich">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tube_number</element>
+            <help/>
+            <hint/>
+            <label>Tube Number</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <plural>Tube Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-10 15:16:32</sys_created_on>
+            <sys_id>5e10bb2cdb0e17809b2689584b961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Tube Number</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_lab_results_trich_tube_number_en</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 15:16:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

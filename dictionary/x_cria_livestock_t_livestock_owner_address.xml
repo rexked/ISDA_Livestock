@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Livestock Owner Addresses" max_length="40" name="x_cria_livestock_t_livestock_owner_address" sizeclass="5576" type="collection">
+        <element attributes="import_attribute_name=Active/Inactive,edge_encryption_enabled=true" label="Active/Inactive" max_length="40" name="u_active_inactive" type="string"/>
+        <element attributes="import_attribute_name=Address1,edge_encryption_enabled=true" label="Address1" max_length="40" name="u_address1" type="string"/>
+        <element attributes="import_attribute_name=Address2,edge_encryption_enabled=true" label="Address2" max_length="40" name="u_address2" type="string"/>
+        <element attributes="import_attribute_name=Cell,edge_encryption_enabled=true" label="Cell" max_length="40" name="u_cell" type="string"/>
+        <element attributes="import_attribute_name=City,edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="import_attribute_name=City (Y),edge_encryption_enabled=true" label="City (Y)" max_length="40" name="u_city__y_" type="string"/>
+        <element attributes="import_attribute_name=County,edge_encryption_enabled=true" label="County" max_length="40" name="u_county" type="string"/>
+        <element attributes="import_attribute_name=County (Z),edge_encryption_enabled=true" label="County (Z)" max_length="40" name="u_county__z_" type="string"/>
+        <element attributes="import_attribute_name=Email,edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="import_attribute_name=Fax,edge_encryption_enabled=true" label="Fax" max_length="40" name="u_fax" type="string"/>
+        <element attributes="import_attribute_name=First Name,edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="import_attribute_name=Last Name,edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="import_attribute_name=Lat" label="Lat" max_length="40" name="u_lat" type="float"/>
+        <element attributes="import_attribute_name=Legacy number 1,edge_encryption_enabled=true" label="Legacy number 1" max_length="40" name="u_legacy_number_1" type="string"/>
+        <element attributes="import_attribute_name=Legacy number 2,edge_encryption_enabled=true" label="Legacy number 2" max_length="40" name="u_legacy_number_2" type="string"/>
+        <element attributes="import_attribute_name=Legacy number 3,edge_encryption_enabled=true" label="Legacy number 3" max_length="40" name="u_legacy_number_3" type="string"/>
+        <element attributes="import_attribute_name=Legacy number 4,edge_encryption_enabled=true" label="Legacy number 4" max_length="40" name="u_legacy_number_4" type="string"/>
+        <element attributes="import_attribute_name=Lng,edge_encryption_enabled=true" label="Lng" max_length="40" name="u_lng" type="string"/>
+        <element attributes="import_attribute_name=Owner Cell,edge_encryption_enabled=true" label="Owner Cell" max_length="40" name="u_owner_cell" type="string"/>
+        <element attributes="import_attribute_name=Owner email,edge_encryption_enabled=true" label="Owner email" max_length="40" name="u_owner_email" type="string"/>
+        <element attributes="import_attribute_name=Owner fax,edge_encryption_enabled=true" label="Owner fax" max_length="40" name="u_owner_fax" type="string"/>
+        <element attributes="import_attribute_name=Owner Phone,edge_encryption_enabled=true" label="Owner Phone" max_length="40" name="u_owner_phone" type="string"/>
+        <element attributes="import_attribute_name=Phone,edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element attributes="import_attribute_name=Premises Address1,edge_encryption_enabled=true" label="Premises Address1" max_length="40" name="u_premises_address1" type="string"/>
+        <element attributes="import_attribute_name=Premises Address2,edge_encryption_enabled=true" label="Premises Address2" max_length="40" name="u_premises_address2" type="string"/>
+        <element attributes="import_attribute_name=Premises ID,edge_encryption_enabled=true" label="Premises ID" max_length="40" name="u_premises_id" type="string"/>
+        <element attributes="import_attribute_name=Premises Name,edge_encryption_enabled=true" label="Premises Name" max_length="40" name="u_premises_name" type="string"/>
+        <element attributes="import_attribute_name=Premises Type,edge_encryption_enabled=true" label="Premises Type" max_length="40" name="u_premises_type" type="string"/>
+        <element attributes="import_attribute_name=State,edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="import_attribute_name=State (AA),edge_encryption_enabled=true" label="State (AA)" max_length="40" name="u_state__aa_" type="string"/>
+        <element attributes="import_attribute_name=Zip,edge_encryption_enabled=true" label="Zip" max_length="40" name="u_zip" type="string"/>
+        <element attributes="import_attribute_name=Zip (AB),edge_encryption_enabled=true" label="Zip (AB)" max_length="40" name="u_zip__ab_" type="string"/>
+    </element>
+</database>

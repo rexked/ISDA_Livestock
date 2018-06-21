@@ -11,7 +11,7 @@
         <name>Livestock</name>
         <no_tabs>false</no_tabs>
         <order/>
-        <owner display_value="Derek Young">fb9e3f1fdbe45300fc805eea4b961910</owner>
+        <owner display_value="Derek ">fb9e3f1fdbe45300fc805eea4b961910</owner>
         <restrict_to_roles>admin</restrict_to_roles>
         <role_override>true</role_override>
         <roles/>

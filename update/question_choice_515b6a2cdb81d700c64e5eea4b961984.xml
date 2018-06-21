@@ -2,22 +2,22 @@
 <record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
-        <order>200</order>
+        <order>100</order>
         <question display_value="Reason for Test">7d0b226cdb81d700c64e5eea4b961970</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-03-21 17:13:38</sys_created_on>
         <sys_id>515b6a2cdb81d700c64e5eea4b961984</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Herd (Re)accredit</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Herd Accreditation</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>question_choice_515b6a2cdb81d700c64e5eea4b961984</sys_update_name>
-        <sys_updated_by>cervin</sys_updated_by>
-        <sys_updated_on>2018-03-21 17:13:38</sys_updated_on>
-        <text>Herd (Re)accredit</text>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-29 21:25:11</sys_updated_on>
+        <text>Herd Accreditation</text>
         <value>herd_reaccredit</value>
     </question_choice>
     <fx_price action="delete_multiple" query="id=515b6a2cdb81d700c64e5eea4b961984"/>

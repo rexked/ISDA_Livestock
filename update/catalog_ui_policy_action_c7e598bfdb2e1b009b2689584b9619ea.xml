@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Cooperative State/Federal Tuberculosis Test Record">87302a64db81d700c64e5eea4b961936</catalog_item>
+        <catalog_variable>IO:8044183fdb2e1b009b2689584b96193f</catalog_variable>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-13 22:15:05</sys_created_on>
+        <sys_id>c7e598bfdb2e1b009b2689584b9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tb_vet_cert</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c7e598bfdb2e1b009b2689584b9619ea</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-13 22:15:05</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show correct vet cert">89d5d0bfdb2e1b009b2689584b9619e8</ui_policy>
+        <variable>tb_vet_cert</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

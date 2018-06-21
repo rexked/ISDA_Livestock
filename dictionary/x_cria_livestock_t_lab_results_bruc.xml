@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Lab Results Bruc" max_length="40" name="x_cria_livestock_t_lab_results_bruc" type="collection">
+    <element label="Batchfill Bruc" max_length="40" name="x_cria_livestock_t_lab_results_bruc" sizeclass="6312" text_index="true" type="collection">
         <element label="Actual Sequence" max_length="40" name="actual_sequence" type="string"/>
         <element label="Address" max_length="40" name="address" type="string"/>
         <element label="Age (In Months)" max_length="10" name="age" type="string"/>
-        <element label="Asset" max_length="32" name="asset" reference="x_cria_livestock_t_livestock_asset_table" type="reference"/>
         <element label="Back Tag #" max_length="40" name="back_tag" type="string"/>
-        <element choice="1" label="Field BAPA Test Result" max_length="40" name="bapa" type="choice">
+        <element choice="1" label="BAPA" max_length="40" name="bapa" type="choice">
             <choice>
-                <element label="Neg" value="neg"/>
-                <element label="Pos" value="pos"/>
+                <element label="Negative" sequence="10" value="negative"/>
+                <element label="Positive" sequence="20" value="positive"/>
+                <element label="Test Invalid" sequence="30" value="test_invalid"/>
+                <element label="No Test" sequence="40" value="no_test"/>
             </choice>
         </element>
         <element label="Breed" max_length="40" name="breed" type="string"/>
-        <element label="CF" max_length="40" name="cf" type="string"/>
+        <element choice="1" label="Card" max_length="40" name="card" type="choice">
+            <choice>
+                <element label="No Test" value="No Test"/>
+                <element label="Test Invalid" value="Test Invalid"/>
+                <element label="Negative" sequence="10" value="negative"/>
+                <element label="Positive" sequence="20" value="positive"/>
+            </choice>
+        </element>
         <element label="City" max_length="40" name="city" type="string"/>
+        <element label="commited" max_length="10" name="commited" read_only="true" type="boolean"/>
         <element label="Official Identification" max_length="40" name="ear_tag" type="string"/>
-        <element label="FPA" max_length="40" name="fpa" type="string"/>
         <element label="Herd Owner Name" max_length="40" name="herd_owner_name" type="string"/>
-        <element label="Offical Identification" max_length="40" name="id" type="string"/>
+        <element label="Official Identification" max_length="40" name="id" type="string"/>
+        <element choice="1" label="Lab Interpretation" max_length="40" name="lab_interpretation" type="choice">
+            <choice>
+                <element label="Negative" sequence="10" value="negative"/>
+                <element label="Needs Review" sequence="20" value="review"/>
+            </choice>
+        </element>
         <element choice="1" label="Mark As" max_length="40" name="mark_as" type="choice">
             <choice>
                 <element label="Retag" sequence="10" value="retag"/>
@@ -28,9 +42,30 @@
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="other" max_length="40" name="other" type="string"/>
-        <element label="Parent" max_length="32" name="parent" reference="sc_req_item" type="reference"/>
-        <element label="Rap" max_length="40" name="rap" type="string"/>
-        <element label="Remarks" max_length="255" name="remarks" type="string"/>
+        <element choice="1" label="Other Tests" max_length="40" name="other_tests" type="choice">
+            <choice>
+                <element label="RIV" sequence="20" value="rib"/>
+                <element label="SPT" sequence="30" value="spt"/>
+                <element label="STT" sequence="40" value="stt"/>
+            </choice>
+        </element>
+        <element label="parent" max_length="32" name="parent" reference="x_cria_livestock_t_vaccination_record" type="reference"/>
+        <element choice="1" label="Preliminary Test Interpretation" max_length="40" name="preliminary_test_interp" type="choice">
+            <choice>
+                <element label="Negative" value="negative"/>
+                <element label="Positive" value="positive"/>
+                <element label="Suspect" value="suspect"/>
+            </choice>
+        </element>
+        <element choice="1" label="Rap" max_length="40" name="rap" type="choice">
+            <choice>
+                <element label="Negative" sequence="10" value="negative"/>
+                <element label="Positive" sequence="20" value="positive"/>
+                <element label="Test Invalid" sequence="30" value="invalid"/>
+                <element label="No Test" sequence="40" value="no_test"/>
+            </choice>
+        </element>
+        <element label="Remarks" max_length="256" name="remarks" type="string"/>
         <element choice="1" label="Result" max_length="40" name="result" type="choice">
             <choice>
                 <element label="Negative" sequence="10" value="negative"/>
@@ -38,6 +73,7 @@
                 <element label="Reactor" sequence="30" value="reactor"/>
             </choice>
         </element>
+        <element label="Results" max_length="32" name="results" type="string"/>
         <element label="Sale Tag or Brand" max_length="40" name="sale_tag_or_brand" type="string"/>
         <element default="javascript: gs.getSessionID()" label="session id" max_length="80" name="session_id" read_only="true" type="string"/>
         <element choice="1" default="female" label="Sex" max_length="10" name="sex" type="choice">
@@ -47,10 +83,13 @@
             </choice>
         </element>
         <element label="State" max_length="40" name="state" type="string"/>
-        <element choice="1" label="Test interp" max_length="40" name="test_interp" type="choice">
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element choice="1" label="Final Test Interp" max_length="40" name="test_interp" type="choice">
             <choice>
                 <element label="Neg" value="neg"/>
                 <element label="Pos" value="pos"/>
+                <element label="Reactor" value="react"/>
+                <element label="Suspect" value="susp"/>
             </choice>
         </element>
         <element label="Tube #" max_length="10" name="tube_number" type="string"/>
@@ -58,9 +97,6 @@
         <element label="Zip" max_length="40" name="zip" type="string"/>
         <index name="index">
             <element name="parent"/>
-        </index>
-        <index name="index2">
-            <element name="asset"/>
         </index>
     </element>
 </database>

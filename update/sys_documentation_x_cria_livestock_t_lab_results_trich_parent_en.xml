@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="parent" label="Parent" language="en" table="x_cria_livestock_t_lab_results_trich">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <help/>
+            <hint/>
+            <label>Parent</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <plural>Parents</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 00:31:07</sys_created_on>
+            <sys_id>b442d2f7dbb1d3809b2689584b961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Parent</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_lab_results_trich_parent_en</sys_update_name>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 00:31:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

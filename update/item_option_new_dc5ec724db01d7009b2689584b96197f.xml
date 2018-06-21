@@ -41,7 +41,7 @@
         <order>20</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Other</question_text>
+        <question_text>Other Herd Species</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,14 +60,14 @@
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-03-21 19:46:22</sys_created_on>
         <sys_id>dc5ec724db01d7009b2689584b96197f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Other</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Other Herd Species</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_dc5ec724db01d7009b2689584b96197f</sys_update_name>
-        <sys_updated_by>cervin</sys_updated_by>
-        <sys_updated_on>2018-03-28 17:14:56</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-24 19:18:27</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

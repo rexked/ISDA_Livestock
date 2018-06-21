@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Test CVI">295f584edbb69f00c64e5eea4b961991</catalog_item>
+        <catalog_variable>IO:dd7b8d0adb3a5f009b2689584b9619bd</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-21 02:00:47</sys_created_on>
+        <sys_id>0dbc0d4adb3a5f009b2689584b96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cvi_tb_containerStart</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_0dbc0d4adb3a5f009b2689584b96192a</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-21 02:00:47</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Surveillance - tb fields">1c9c894adb3a5f009b2689584b961905</ui_policy>
+        <variable>cvi_tb_containerStart</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

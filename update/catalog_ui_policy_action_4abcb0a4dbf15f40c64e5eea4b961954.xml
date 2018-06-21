@@ -10,18 +10,18 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-27 15:57:18</sys_created_on>
         <sys_id>4abcb0a4dbf15f40c64e5eea4b961954</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>widget_records</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>catalog_ui_policy_action_4abcb0a4dbf15f40c64e5eea4b961954</sys_update_name>
-        <sys_updated_by>dyoung</sys_updated_by>
-        <sys_updated_on>2018-04-27 21:29:49</sys_updated_on>
+        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-25 02:11:08</sys_updated_on>
         <table/>
         <ui_policy display_value="Hide table widget results">248cfc64dbf15f40c64e5eea4b961991</ui_policy>
         <variable>widget_records</variable>
         <variable_set display_value="Hidden Data Fields">cc2cf464dbf15f40c64e5eea4b961953</variable_set>
-        <visible>false</visible>
+        <visible>ignore</visible>
     </catalog_ui_policy_action>
 </record_update>

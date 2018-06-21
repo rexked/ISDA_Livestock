@@ -41,7 +41,7 @@
         <order>40</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Trichomonisis</question_text>
+        <question_text>Trichomoniasis</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,14 +60,14 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-03 23:56:32</sys_created_on>
         <sys_id>8124c7bcdb51df00c64e5eea4b96197b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Trichomonisis</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Trichomoniasis</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_8124c7bcdb51df00c64e5eea4b96197b</sys_update_name>
-        <sys_updated_by>dyoung</sys_updated_by>
-        <sys_updated_on>2018-04-03 23:56:32</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-12 20:22:27</sys_updated_on>
         <table/>
         <tooltip/>
         <type>7</type>

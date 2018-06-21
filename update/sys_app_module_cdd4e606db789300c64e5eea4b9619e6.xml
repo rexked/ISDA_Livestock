@@ -15,7 +15,7 @@
         <mobile_title>Livestock Portal</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>1000</order>
+        <order>1</order>
         <override_menu_roles>false</override_menu_roles>
         <query>/isda</query>
         <report/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cdd4e606db789300c64e5eea4b9619e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Livestock Portal</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_app_module_cdd4e606db789300c64e5eea4b9619e6</sys_update_name>
-        <sys_updated_by>dmorden</sys_updated_by>
-        <sys_updated_on>2018-03-13 22:20:46</sys_updated_on>
+        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-22 18:27:18</sys_updated_on>
         <timeline_page/>
         <title>Livestock Portal</title>
         <uncancelable>false</uncancelable>

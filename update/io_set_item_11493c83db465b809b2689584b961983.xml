@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>1840</order>
+        <sc_cat_item display_value="Saleyard Release Form">8deb84d0db791f40c64e5eea4b9619c4</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>cervin@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-05-17 20:22:34</sys_created_on>
+        <sys_id>11493c83db465b809b2689584b961983</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Equine Infectious Anemia.Saleyard Release Form</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>io_set_item_11493c83db465b809b2689584b961983</sys_update_name>
+        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-17 20:23:33</sys_updated_on>
+        <variable_set display_value="Equine Infectious Anemia">bfe0cf3cdb51df00c64e5eea4b9619dd</variable_set>
+    </io_set_item>
+</record_update>

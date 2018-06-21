@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Shipment Info" section_id="8b6489fcdb2ad300c64e5eea4b96199d" sys_domain="global" table="x_cria_livestock_t_vaccinations_cvi" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entry_permit_number</element>
+            <position>0</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-04 18:05:13</sys_created_on>
+            <sys_id>30760d30db6ad300c64e5eea4b961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">8b6489fcdb2ad300c64e5eea4b96199d</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:05:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-04 18:05:13</sys_created_on>
+            <sys_id>b0760d30db6ad300c64e5eea4b961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">8b6489fcdb2ad300c64e5eea4b96199d</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:05:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inspection_date</element>
+            <position>2</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-04 18:05:13</sys_created_on>
+            <sys_id>34760d30db6ad300c64e5eea4b961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">8b6489fcdb2ad300c64e5eea4b96199d</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:05:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shipment_date</element>
+            <position>3</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-04 18:05:13</sys_created_on>
+            <sys_id>b4760d30db6ad300c64e5eea4b961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">8b6489fcdb2ad300c64e5eea4b96199d</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:05:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-04 18:05:13</sys_created_on>
+            <sys_id>38760d30db6ad300c64e5eea4b961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">8b6489fcdb2ad300c64e5eea4b96199d</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:05:13</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>5</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-04 18:05:13</sys_created_on>
+            <sys_id>b8760d30db6ad300c64e5eea4b961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">8b6489fcdb2ad300c64e5eea4b96199d</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:05:13</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>brand_inspection_number</element>
+            <position>6</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-04 18:05:13</sys_created_on>
+            <sys_id>3c760d30db6ad300c64e5eea4b961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">8b6489fcdb2ad300c64e5eea4b96199d</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:05:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>carrier_name_and_address</element>
+            <position>7</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-04 18:05:13</sys_created_on>
+            <sys_id>bc760d30db6ad300c64e5eea4b961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">8b6489fcdb2ad300c64e5eea4b96199d</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:05:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-04 18:05:13</sys_created_on>
+            <sys_id>30760d30db6ad300c64e5eea4b961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">8b6489fcdb2ad300c64e5eea4b96199d</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:05:13</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_animals_shipped</element>
+            <position>9</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-04 18:05:13</sys_created_on>
+            <sys_id>b0760d30db6ad300c64e5eea4b961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">8b6489fcdb2ad300c64e5eea4b96199d</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-04 18:05:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Shipment Info</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-04 17:56:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b6489fcdb2ad300c64e5eea4b96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Shipment Info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_8b6489fcdb2ad300c64e5eea4b96199d</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-04 17:56:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Livestock Data Transform</name>
+        <order>500</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	//GlideSysAttachment.copy('source table_name', 'source record sys id', 'destination table_name', 'destination record sys id');
+
+	var gr = new GlideRecord();
+	var session = gs.getSessionID();
+	var recordID_type = [ "C", "M", "TB", "SR", "T", "B", "BT" ]; // CVI | Market Cattle | TB | Saleyard | Trich | Bruc Vac | Bruc Test
+	var lab_results = new GlideRecord();
+	var widget_records = current.variables.widget_records.toString();
+	var widget_records_count = widget_records.split(',');
+	//widget_records_count = current.variables.widget_records.split(',');
+	//gs.addInfoMessage(widget_records_count.toString());
+	var recordID = new ISDAScripts();
+	var attachments = new global.Global_ISDAScripts();
+
+
+	if(current.cat_item.getDisplayValue() == 'Brucellosis Test Form'){
+		// Add your code here
+		lab_results = new GlideRecord('x_cria_livestock_t_lab_results_bruc');
+		gr = new GlideRecord('x_cria_livestock_t_vaccinations_brucellosis_test');
+		gr.initialize();
+		gr.parent_ritm = current.sys_id;
+		gr.u_veterinarian = current.variables.livestock_vet;
+		gr.u_herd_owner_info = current.variables.livestock_owner_address + '\n' + current.variables.livestock_owner_city + ", " + current.variables.livestock_owner_state.getDisplayValue() + " " + current.variables.livestock_owner_zip;
+		gr.name_herd_owner = current.variables.livestock_owner.getDisplayValue();
+		gr.herd_owner_name  = current.variables.livestock_owner;
+		gr.herd_owner_street = current.variables.livestock_owner_address;
+		gr.herd_owner_city = current.variables.livestock_owner_city;
+		gr.herd_owner_state = current.variables.livestock_owner_state;
+		gr.herd_owner_zip = current.variables.livestock_owner_zip;
+		gr.u_phone_number = current.variables.livestock_owner_phone;
+		gr.premise_id_number = current.variables.premises_id_number;
+		gr.u_county = current.variables.county;
+		gr.u_remarks = current.variables.remarks;
+		gr.number_in_herd = current.variables.number_in_herd;
+		gr.kind_of_herd = current.variables.kind_of_herd;
+		gr.species_other = current.variables.specify_other;
+		gr.date_bled = current.variables.date_bled;
+		gr.testing_expense = current.variables.bruce_test_expenses;
+		gr.reason_for_test = current.variables.reason_for_test;
+		gr.reason_other = current.variables.reason_other;
+		gr.u_type_of_test = current.variables.livestock_bruce_test_type_of_test;
+		gr.dsa_herd = current.variables.dsa_herd;
+		if(current.variables.complete_test_of_animals == "Yes"){
+			gr.bruc_comptest = true;
+		}else{
+			gr.bruc_comptest = false;
+		}
+		//gs.addInfoMessage("Your record ID is pre ID line: " + gr.getTableName() + ", " + recordID_type[6] );
+		gr.lab_result_table = 'x_cria_livestock_t_lab_results_bruc';
+		gr.record_id = recordID.generateID( recordID_type[6] );
+		gs.addInfoMessage("Your record ID is: " + gr.record_id);
+		gr.insert();
+		recordID.transferAttachments(current.sys_class_name, current.sys_id, gr.sys_class_name , gr.sys_id);
+		
+		
+		widget_records_count = widget_records.split(',');
+		lab_results.initialize();
+		lab_results.addQuery('session_id' , session );
+		lab_results.addQuery('parent' , 'NULL');
+		lab_results.query();
+		
+		//gs.addInfoMessage('widget records count: ' + widget_records_count.length);
+		if(widget_records_count.length > lab_results.getRowCount()){
+			lab_results.initialize();
+			lab_results.addEncodedQuery('sys_idIN' + widget_records);
+			lab_results.query();
+		}
+		//gs.addInfoMessage("records in the field is: " + widget_records);
+		//gs.addInfoMessage('the amount of records that were found is: ' + lab_results.getRowCount());
+		gr.lab_result_table = lab_results.sys_class_name;
+		while (lab_results.next()){
+			lab_results.parent = gr.sys_id;
+			lab_results.commited = true;
+			lab_results.update();
+		}
+		
+	}
+
+	if(current.cat_item.getDisplayValue() == 'Trichomoniasis Test and Report Form'){
+		//gs.addInfoMessage('we have entered the first stage');
+		// Add your code here
+
+		gr = new GlideRecord('x_cria_livestock_t_vaccinations_trichomoniasis');
+		gr.initialize();
+		lab_results = new GlideRecord('x_cria_livestock_t_lab_results_trich');
+		// 	gs.addInfoMessage(gr);
+		gr.u_veterinarian = current.variables.livestock_vet;
+		gr.trich_ownername = current.variables.livestock_owner;
+		gr.trich_ownerstreet = current.variables.livestock_owner_address;
+		gr.trich_ownercity = current.variables.livestock_owner_city;
+		gr.trich_ownerstate = current.variables.livestock_owner_state;
+		gr.trich_ownerzip = current.variables.livestock_owner_zip;
+		gr.u_herd_owner_info  = current.variables.livestock_owner + '\n' + current.variables.livestock_owner_address + '\n' + current.variables.livestock_owner_city + ", " + current.variables.livestock_owner_state.getDisplayValue() + " " + current.variables.livestock_owner_zip;
+		gr.u_phone_number = current.variables.livestock_owner_phone;
+		gr.trich_location = current.variables.trich_herdLoc;
+		gr.premise_id_number = current.variables.livestock_owner_premises;
+		gr.u_county = current.variables.county;
+		gr.culture_date_collected = current.variables.date_collected;
+		gr.culture_time_collected = current.variables.culture_collected;
+		gr.type_of_test = current.variables.type_pcr;
+		gr.accession_no = current.variables.trichomoniasis_accession_number;
+		gr.location_of_animals = current.variables.location_of_animals;
+		gr.turnout_date = current.variables.turnout_dates;
+		gr.grazed_on = current.variables.grazed_on;
+		gr.trich_tag_color = current.variables.trichColor;
+		gr.num_negative = current.variables.num_negative;
+		gr.num_positive = current.variables.num_positive;
+		gr.temperature_on_arrival = current.variables.temp_on_arrival;
+		gr.total_num_tested = current.variables.total_num_test;
+		gr.num_tag_only = current.variables.num_tag_only;
+		gr.email_fax = current.variables.delivery_info;
+		gr.blm = current.variables.blm;
+		gr.forest_service = current.variables.forest;
+		gr.state_lands = current.variables.state;
+		gr.private_lands = current.variables.private_lands;
+		gr.record_id = recordID.generateID(recordID_type[4] );
+		gs.addInfoMessage("Your record ID is: " + gr.record_id);
+
+		gr.insert();
+		recordID.transferAttachments(current.sys_class_name, current.sys_id, gr.sys_class_name , gr.sys_id);
+		//gs.addInfoMessage('got past the gr insert');
+		widget_records_count = widget_records.split(',');
+		lab_results.initialize();
+		lab_results.addQuery('session_id' , session );
+		lab_results.addQuery('parent' , 'NULL');
+		lab_results.query();
+		
+		//gs.addInfoMessage('widget records count: ' + widget_records_count.length);
+		if(widget_records_count.length > lab_results.getRowCount()){
+			lab_results.initialize();
+			lab_results.addEncodedQuery('sys_idIN' + widget_records);
+			lab_results.query();
+		}
+		//gs.addInfoMessage("records in the field is: " + widget_records);
+		//gs.addInfoMessage('the amount of records that were found is: ' + lab_results.getRowCount());
+
+		while (lab_results.next()){
+			lab_results.parent = gr.sys_id.toString();
+			lab_results.commited = true;
+			lab_results.update();
+		}
+	}
+	
+	if (current.cat_item.getDisplayValue() == 'Cooperative State/Federal Tuberculosis Test Record') {
+		gr = new GlideRecord('x_cria_livestock_t_vaccinations_tuberculosis');
+		gr.initialize();
+		gr.u_veterinarian = current.variables.livestock_vet;
+		gr.vet_cert_date = current.variables.vet_cert_date;
+		gr.herd_owner = current.variables.livestock_owner.getDisplayValue() + '\n' + current.variables.livestock_owner_address + '\n' + current.variables.livestock_owner_city + ", " + current.variables.livestock_owner_state.getDisplayValue() + " " + current.variables.livestock_owner_zip;
+		gr.premise_id_number = current.variables.prem_id;
+		gr.u_county = current.variables.county;
+		gr.test_type = current.variables.tub_test_type.getDisplayValue();
+		gr.num_of_animals_tested = current.variables.num_animals_tested;
+		gr.reason_for_test = current.variables.reason_for_test.getDisplayValue();
+		gr.reason_other = current.variables.reason_other;
+		gr.test_method = current.variables.method_of_test.getDisplayValue();
+		gr.whole_herd_test = current.variables.yes_no_box;
+		gr.kind_of_herd = current.variables.kind_of_herd;
+		gr.injection_date = current.variables.inj_date;
+		gr.date_test_read = current.variables.inj_date_read;
+		gr.time_test_read = current.variables.inj_time;
+		gr.injection_time = current.variables.am_pm;
+		gr.negative = current.variables.negative;
+		gr.total = current.variables.total;
+		gr.suspect = current.variables.suspect;
+		gr.reactor = current.variables.reactor;
+		gr.expense = current.variables.summary_expType.getDisplayValue();
+		gr.tb_owner = current.variables.livestock_owner;
+		gr.tb_owner_street = current.variables.livestock_owner_address;
+		gr.tb_owner_city = current.variables.livestock_owner_city;
+		gr.tb_owner_state = current.variables.livestock_owner_state;
+		gr.tb_owner_zip = current.variables.livestock_owner_zip;
+		gr.tb_owner_phone = current.variables.livestock_owner_phone;
+		gr.record_id = recordID.generateID( recordID_type[2] );
+		gs.addInfoMessage("Your record ID is: " + gr.record_id);
+		gr.insert();
+		recordID.transferAttachments(current.sys_class_name, current.sys_id, gr.sys_class_name , gr.sys_id);
+		
+		lab_results.initialize();
+		widget_records_count = widget_records.split(',');
+		lab_results = new GlideRecord('x_cria_livestock_t_lab_results_tub');
+		//gs.addInfoMessage(lab_results);
+		lab_results.addEncodedQuery('session_id='+gs.getSessionID() + '^commited=false^parentISEMPTY');
+		lab_results.query();
+		
+		//gs.addInfoMessage('widget records count: ' + widget_records_count.length);
+		if(widget_records_count.length > lab_results.getRowCount()){
+			lab_results.initialize();
+			lab_results.addQuery('session_id' , session );
+		lab_results.addQuery('parent' , 'NULL');
+		lab_results.query();
+		}
+		//gs.addInfoMessage("records in the field is: " + widget_records);
+		//gs.addInfoMessage('the amount of records that were found is: ' + lab_results.getRowCount());
+
+		while (lab_results.next()){
+			lab_results.parent = gr.sys_id.toString();
+			lab_results.commited = true;
+			lab_results.update();
+		}
+		
+	}
+	
+	if (current.cat_item.getDisplayValue() == 'Certificate of Veterinary Inspection') {
+		gr = new GlideRecord('x_cria_livestock_t_vaccinations_cvi');
+		gr.initialize();
+		gr.parent_ritm = current.sys_id;
+		gr.consigner = current.variables.name_of_consignor + '\n' + current.variables.consignor_physical_address + '\n' + current.variables.consignor_city+ ", " + current.variables.consignor_state.getDisplayValue() + " " + current.variables.consignor_zip;
+		gr.consignor_name = current.variables.name_of_consignor;
+		gr.consignor_street = current.variables.consignor_physical_address;
+		gr.consignor_city = current.variables.consignor_city;
+		gr.consignor_state = current.variables.consignor_state;
+		gr.consignor_zip = current.variables.consignor_zip;
+		gr.consignor_phone = current.variables.consignor_phone_number;
+		gr.consignee = current.variables.name_of_consignee + '\n' + current.variables.consignee_physical_address + '\n' + current.variables.consignee_city + ", " + current.variables.consignee_state.getDisplayValue() + " " + current.variables.consignee_zip;
+		gr.consignee_name = current.variables.name_of_consignee;
+		gr.conisgnee_street = current.variables.consignee_physical_address;
+		gr.consignee_city = current.variables.consignee_city;
+		gr.consignee_state = current.variables.consignee_state;
+		gr.consignee_zip = current.variables.consignee_zip;
+		gr.consignee_phone = current.variables.consignee_phone_number;
+		gr.market = current.variables.market_option;
+		gr.origin_county = current.variables.origin_county;
+		gr.health_certificate_number = current.variables.health_certificate_number;
+		gr.inspection_date = current.variables.epn_date;
+		gr.brand_inspection_number = current.variables.	brand_inspection_date;
+		gr.entry_permit_number = current.variables.entry_permit_number;
+		gr.shipment_date = current.variables.ship_date;
+		gr.carrier_name_and_address = current.variables.carrier_name;
+		gr.cattle = current.variables.species_check_cattle;
+		gr.goat = current.variables.species_check_goat;
+		gr.horses = current.variables.species_check_horses;
+		gr.sheep = current.variables.species_check_sheep;
+		gr.swine = current.variables.species_check_swine;
+		gr.poultry = current.variables.species_check_poultry;
+		gr.other = current.variables.species_check_other;
+		gr.species_other = current.variables.species_other;
+		gr.number_animals_shipped = current.variables.number_of_animals;
+		gr.u_veterinarian = current.variables.vet_name_cert;
+		gr.signature_date = current.variables.vet_cert_date;
+		gr.vaccination_status = current.variables.vaccination_status;
+		gr.identifying_marks = current.variables.horse_identifying_marks;
+		gr.num_of_bulls = current.variables.num_of_bulls;
+		gr.num_of_cows = current.variables.num_of_cows;
+		gr.num_of_heifers = current.variables.num_of_heifers;
+		gr.num_of_calves = current.variables.num_of_calves;
+		gr.num_of_steers = current.variables.num_of_steers;
+		gr.cvi_remarks = current.variables.remarks_additional_comments;
+		
+		if (current.variables.tb_free == 'true')
+			gr.tb_free = true;
+		if(current.variables.brucellosis_free == 'true')
+			gr.brucellosis_free = true;
+		if (current.variables.cvi_dst_brucellosis == 'true') {
+			gr.cvi_brucellosis = true;
+			gr.laboratory = current.variables.brucellosis_lab;
+			gr.date_bled = current.variables.brucellosis_date;
+			gr.number_of_test_eligible_cattle = current.variables.number_eligible_animals;
+			gr.number_of_brucellosis_negative_cattle = current.variables.number_brucellosis_cattle;
+		}
+		
+		if (current.variables.cvi_dst_trich == 'true') {
+			gr.trich_laboratory = current.variables.trich_lab;
+			gr.accession_num = current.variables.accession_num;
+			gr.date_sample_collected = current.variables.cvi_trich_date_collected;
+			gr.cvi_trichomonisis = true;
+			
+			if (current.variables.trich_lab_in_pcr == 'true') {
+				gr.trich_individual_pcr = true;
+			}
+			if (current.variables.trich_lab_pooled_pcr == 'true') {
+				gr.trich_pooled_pcr = true;
+			}
+			if (current.variables.cvi_trich_lab_culture == 'true') {
+				gr.trich_culture = true;
+			}
+			if (current.variables.cvi_trich_eligible == 'true')
+				gr.all_eligible_bulls_neg = true;
+		}
+		
+		if (current.variables.cvi_dst_tuberculosis == 'true') {
+			gr.cvi_tuberculosis = true;
+			if (current.variables.cvi_tub_all_animals)
+				gr.all_animals_neg = true;
+			gr.tub_date = current.variables.cvi_tub_date;
+		}
+		
+		if (current.variables.cvi_dst_equine == 'true') {
+			gr.cvi_equine_infectious_anemia = true;
+			gr.eia_laboratory = current.variables.cvi_equine_lab;
+			gr.eia_accession = current.variables.cvi_equine_accession;
+			gr.date_of_coggins = current.variables.cvi_equine_date;
+			
+		}
+		
+		if (current.variables.cvi_dst_other == 'true') {
+			gr.cvi_other = true;
+			gr.other_test = current.variables.cvi_other_test;
+			gr.other_results = current.variables.cvi_other_results;
+			gr.other_lab = current.variables.cvi_other_lab;
+		}
+		
+		gr.record_id = current.variables.cvi_cert_id;
+		gs.addInfoMessage("Your record ID is: " + gr.record_id);
+		gr.insert();
+		//GlideSysAttachment.copy('sp_portal', current.sys_id, gr.sys_class_name, gr.sys_id);
+		//attachments.transferAttachments(current.sys_id, gr.sys_class_name , gr.sys_id);
+		//gs.addInfoMessage(current.sys_class_name +', '+current.sys_id +', ' +gr.sys_class_name + ', ' + gr.sys_id);
+		
+		
+		
+		lab_results.initialize();
+		lab_results = new GlideRecord('x_cria_livestock_t_batchfill_cvi');
+		//gs.addInfoMessage(lab_results);
+		//gs.addInfoMessage('The session ID is: ' + session);
+		//lab_results.addEncodedQuery('session_id='+session + '^commited=false^parentISEMPTY');
+		lab_results.addQuery('session_id' , session );
+		lab_results.addQuery('parent' , 'NULL');
+		lab_results.query();
+		
+		//gs.addInfoMessage('the row count of the records based off of the session ID: ' + lab_results.getRowCount());
+		
+		if(widget_records_count.length > lab_results.getRowCount()){
+			//gs.addInfoMessage("inside the if statement");
+			lab_results.initialize();
+			lab_results.addEncodedQuery('sys_idIN' + widget_records);
+			lab_results.query();
+		}
+		//gs.addInfoMessage("records in the field is: " + widget_records);
+		//gs.addInfoMessage('the amount of records that were found is: ' + lab_results.getRowCount());
+
+		while (lab_results.next()){
+			lab_results.parent = gr.sys_id.toString();
+			lab_results.committed = true;
+			lab_results.update();
+		}
+	}
+	
+	if(current.cat_item.getDisplayValue() == 'Brucellosis Market Cattle Testing Form'){
+		// Add your code here
+		gr = new GlideRecord('x_cria_livestock_t_vaccinations_market_cattle');
+		gr.initialize();
+		gr.u_veterinarian = current.variables.bruce_market_vet;
+		gr.animal_info  = current.variables.bruce_market_address + '\n' + current.variables.bruce_market_city + '\n' + current.variables.bruce_market_state.getDisplayValue() + ", " + current.variables.bruce_market_zip;
+		gr.u_phone_number = current.variables.bruce_market_phone;
+		gr.u_email = current.variables.bruce_market_email;
+		gr.slaughter_estab_num = current.variables.estab_number;
+		gr.u_livestock_market = current.variables.bruce_market_market;
+		gr.u_testing_lab = current.variables.test_lab;
+		gr.u_date = current.variables.certified_date;
+		gr.u_signature = current.variables.signature;
+		gr.record_id = recordID.generateID( recordID_type[1] );
+		gs.addInfoMessage("Your record ID is: " + gr.record_id);
+		gr.insert();
+		recordID.transferAttachments(current.sys_class_name, current.sys_id, gr.sys_class_name , gr.sys_id);
+		
+		widget_records_count = widget_records.split(',');
+		lab_results = new GlideRecord('x_cria_livestock_t_lab_results_bruc_market_cattle');
+		lab_results.addQuery('session_id' , session );
+		lab_results.addQuery('parent' , 'NULL');
+		lab_results.query();
+		
+		//gs.addInfoMessage('widget records count: ' + widget_records_count.length);
+		if(widget_records_count.length > lab_results.getRowCount()){
+			lab_results.initialize();
+			lab_results.addEncodedQuery('sys_idIN' + widget_records);
+			lab_results.query();
+		}
+		//gs.addInfoMessage("records in the field is: " + widget_records);
+		//gs.addInfoMessage('the amount of records that were found is: ' + lab_results.getRowCount());
+
+		while (lab_results.next()){
+			lab_results.parent = gr.sys_id;
+			lab_results.commited = true;
+			lab_results.update();
+		}
+	}
+	
+	if(current.cat_item.getDisplayValue() == 'Brucellosis Vaccination Record'){
+		// Add your code here
+		gr = new GlideRecord('x_cria_livestock_t_brucellosis_vaccination_record');
+		gr.initialize();
+		gr.u_veterinarian = current.variables.livestock_vet;
+		gr.herd_owner  = current.variables.getDisplayValue('livestock_owner') + '\n' + current.variables.livestock_owner_address + '\n' + current.variables.livestock_owner_city + ", " + current.variables.getDisplayValue('livestock_owner_state') + " " + current.variables.livestock_owner_zip;
+		gr.herd_owner_name = current.variables.livestock_owner;
+		gr.herd_owner_street = current.variables.livestock_owner_address;
+		gr.herd_owner_city = current.variables.livestock_owner_city;
+		gr.herd_owner_state = current.variables.livestock_owner_state;
+		gr.herd_owner_zip = current.variables.livestock_owner_zip;
+		gr.u_phone_number = current.variables.livestock_owner_phone;
+		gr.u_county = current.variables.county;
+		gr.premise_id_number = current.variables.livestock_owner_premise;
+		gr.rb51_vacc_serial_num = current.variables.serial_number;
+		//gs.addInfoMessage(current.variables.expire_date);
+		gr.vacc_expire_date = current.variables.expire_date;
+		gr.vacc_date = current.variables.date_of_vacc;
+		gr.record_id = recordID.generateID(recordID_type[5] );
+		gs.addInfoMessage("Your record ID is: " + gr.record_id);
+		gr.insert();
+
+		recordID.transferAttachments(current.sys_class_name, current.sys_id, gr.sys_class_name , gr.sys_id);
+		
+		lab_results = new GlideRecord('x_cria_livestock_t_lab_results_bruc');
+		lab_results.addQuery('session_id' , session );
+		lab_results.addQuery('parent' , 'NULL');
+		lab_results.query();
+		
+		//gs.addInfoMessage('widget records count: ' + widget_records_count.length);
+		if(widget_records_count.length > lab_results.getRowCount()){
+			lab_results.initialize();
+			lab_results.addEncodedQuery('sys_idIN' + widget_records);
+			lab_results.query();
+		}
+		//gs.addInfoMessage("records in the field is: " + widget_records);
+		//gs.addInfoMessage('the amount of records that were found is: ' + lab_results.getRowCount());
+
+		while (lab_results.next()){
+			lab_results.parent = gr.sys_id;
+			lab_results.commited = true;
+			lab_results.update();
+		}
+	}
+	
+	if (current.cat_item.getDisplayValue() == 'Saleyard Release Form') {
+		gr = new GlideRecord('x_cria_livestock_t_saleyard_release');
+		gr.initialize();
+		gr.u_saleyard = current.variables.saleyard;
+		gr.u_consignor = current.variables.name_of_consignor + '\n' + current.variables.consignor_physical_address + '\n' + current.variables.consignor_city+ ", " + current.variables.consignor_state.getDisplayValue() + " " + current.variables.consignor_zip;
+		gr.consignor_phone = current.variables.consignor_phone_number;
+		gr.u_consignee = current.variables.name_of_consignee.getDisplayValue() + '\n' + current.variables.consignee_physical_address + '\n' + current.variables.consignee_city + ", " + current.variables.consignee_state.getDisplayValue() + " " + current.variables.consignee_zip;
+		gr.consignee_phone = current.variables.consignee_phone_number;
+		gr.u_county = current.variables.origin_county;
+		gr.u_saleyard_release_number = current.variables.saleyard_release_num;
+		gr.entry_permit_number = current.variables.slyd_entry_permit;
+		gr.brand_inspection = current.variables.slyd_brand_insp;
+		gr.inspection_date = current.variables.epn_date;
+		gr.reason_for_release = current.variables.slyd_reason;
+		gr.u_number_of_animals_shipped = current.variables.number_of_animals;
+		gr.u_species = current.variables.species;
+		gr.bruce_vacc_status = current.variables.vaccination_status;
+		gr.u_veterinarian = current.variables.vet_name;
+		gr.signature_date = current.variables.vet_cert_date;
+		gr.vaccination_status = current.variables.vaccination_status;
+		gr.identifying_marks = current.variables.horse_identifying_marks;
+		gr.record_id = current.variables.sale_yard_cert_id;
+		gr.slyd_consignor_name = current.variables.name_of_consignor;
+		gr.slyd_consignor_street = current.variables.consignor_physical_address;
+		gr.slyd_consignor_city = current.variables.consignor_city;
+		gr.slyd_consignor_state = current.variables.consignor_state;
+		gr.slyd_consignor_zip = current.variables.consignor_zip;
+		gr.slyd_consignee_name = current.variables.name_of_consignee;
+		gr.slyd_consignee_street = current.variables.consignee_physical_address;
+		gr.slyd_consignee_city = current.variables.consignee_city;
+		gr.slyd_consignee_state = current.variables.consignee_state;
+		gr.slyd_consignee_zip = current.variables.consignee_zip;
+		gr.slyd_release_date = current.variables.saleyard_date;
+		gr.slyd_cattle = current.variables.species_check_cattle;
+		gr.slyd_goats = current.variables.species_check_goat;
+		gr.slyd_horses = current.variables.species_check_horses;
+		gr.slyd_sheep = current.variables.species_check_sheep;
+		gr.slyd_swine = current.variables.species_check_swine;
+		gr.slyd_poultry = current.variables.species_check_poultry;
+		gr.slyd_other = current.variables.species_check_other;
+		gr.slyd_tb_free = current.variables.tb_free;
+		gr.slyd_brucellosis_free = current.variables.brucellosis_free;
+		gr.slyd_brucellosis = current.variables.cvi_dst_brucellosis;
+		gr.slyd_trich = current.variables.cvi_dst_trich;
+		gr.slyd_tb = current.variables.cvi_dst_tuberculosis;
+		gr.slyd_eia = current.variables.cvi_dst_equine;
+		gr.slyd_srvy_other = current.variables.cvi_dst_other;
+		gr.slyd_srvy_bruc_laboratory = current.variables.brucellosis_lab;
+		gr.slyd_srvy_bruc_date_bled = current.variables.brucellosis_date;
+		gr.slyd_srvy_bruc_test_eligible = current.variables.number_eligible_animals;
+		gr.slyd_srvy_bruc_negative_cattle = current.variables.number_brucellosis_cattle;
+		gr.slyd_srvy_trich_lab = current.variables.trich_lab;
+		gr.slyd_srvy_trich_date_collected = current.variables.cvi_trich_date_collected;
+		gr.slyd_srvy_trich_accession = current.variables.accession_num;
+		gr.slyd_srvy_trich_tested_negative = current.variables.cvi_trich_eligible;
+		gr.slyd_srvy_tb_tested_negative = current.variables.cvi_tub_all_animals;
+		gr.slyd_srvy_tb_date_read = current.variables.cvi_tub_date;
+		gr.slyd_srvy_eia_lab = current.variables.cvi_equine_lab;
+		gr.slyd_srvy_eia_accession = current.variables.cvi_equine_accession;
+		gr.slyd_srvy_eia_date_coggins_test = current.variables.cvi_equine_date;
+		gr.slyd_srvy_other_test = current.variables.cvi_other_test;
+		gr.slyd_srvy_other_results = current.variables.cvi_other_results;
+		gr.slyd_srvy_other_lab = current.variables.cvi_other_lab;
+		gr.slyd_area_remarks = current.variables.remarks_additional_comments;
+		gr.num_of_bulls = current.variables.num_of_bulls;
+		gr.num_of_steers = current.variables.num_of_steers;
+		gr.num_of_cows = current.variables.num_of_cows;
+		gr.num_of_heifers = current.variables.num_of_heifers;
+		gr.num_of_calves = current.variables.num_of_calves;
+		gr.slyd_destination = current.variables.destination_state;
+		gr.species_other = current.variables.species_other;
+		gs.addInfoMessage("Your record ID is: " + gr.record_id);
+		gr.insert();
+		recordID.transferAttachments(current.sys_class_name, current.sys_id, gr.sys_class_name , gr.sys_id);
+		
+		lab_results.initialize();
+		lab_results = new GlideRecord('x_cria_livestock_t_batchfill_saleyard_release');
+		//gs.addInfoMessage(lab_results);
+		lab_results.addQuery('session_id' , session );
+		lab_results.addQuery('parent' , 'NULL');
+		lab_results.query();
+		
+		//gs.addInfoMessage('widget records count: ' + widget_records_count.length);
+		if(widget_records_count.length > lab_results.getRowCount()){
+			lab_results.initialize();
+			lab_results.addEncodedQuery('sys_idIN' + widget_records);
+			lab_results.query();
+		}
+		//gs.addInfoMessage("records in the field is: " + widget_records);
+		//gs.addInfoMessage('the amount of records that were found is: ' + lab_results.getRowCount());
+
+		while (lab_results.next()){
+			lab_results.parent = gr.sys_id.toString();
+			lab_results.committed = true;
+			lab_results.update();
+		}
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-05-03 02:41:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>42efb0dedbfddf409b2689584b9619cd</sys_id>
+        <sys_mod_count>243</sys_mod_count>
+        <sys_name>Livestock Data Transform</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_42efb0dedbfddf409b2689584b9619cd</sys_update_name>
+        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-21 00:44:44</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=42efb0dedbfddf409b2689584b9619cd"/>
+</record_update>

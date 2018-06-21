@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>reason_other</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-13 18:45:17</sys_created_on>
+        <sys_id>78e5a32bdbaa1b009b2689584b9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reason_other</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_78e5a32bdbaa1b009b2689584b9619e2</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-13 18:45:17</sys_updated_on>
+        <table>x_cria_livestock_t_vaccinations_tuberculosis</table>
+        <ui_policy display_value="Show reason_other field for other value">f8c5632bdbaa1b009b2689584b961966</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

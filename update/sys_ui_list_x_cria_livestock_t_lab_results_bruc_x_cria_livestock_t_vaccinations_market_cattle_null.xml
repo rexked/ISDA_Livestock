@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="" sys_domain="global" table="x_cria_livestock_t_lab_results_bruc" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>id</element>
+            <list_id display_value="x_cria_livestock_t_lab_results_bruc" element="NULL" name="x_cria_livestock_t_lab_results_bruc" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">685937cadbcad7809b2689584b9619b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-15 07:47:43</sys_created_on>
+            <sys_id>ec5937cadbcad7809b2689584b9619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-15 07:47:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rap</element>
+            <list_id display_value="x_cria_livestock_t_lab_results_bruc" element="NULL" name="x_cria_livestock_t_lab_results_bruc" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">685937cadbcad7809b2689584b9619b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-15 07:47:43</sys_created_on>
+            <sys_id>605937cadbcad7809b2689584b9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-15 07:47:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bapa</element>
+            <list_id display_value="x_cria_livestock_t_lab_results_bruc" element="NULL" name="x_cria_livestock_t_lab_results_bruc" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">685937cadbcad7809b2689584b9619b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-15 07:47:43</sys_created_on>
+            <sys_id>e05937cadbcad7809b2689584b9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-15 07:47:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fpa</element>
+            <list_id display_value="x_cria_livestock_t_lab_results_bruc" element="NULL" name="x_cria_livestock_t_lab_results_bruc" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">685937cadbcad7809b2689584b9619b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-15 07:47:43</sys_created_on>
+            <sys_id>645937cadbcad7809b2689584b9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-15 07:47:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>second_fpa</element>
+            <list_id display_value="x_cria_livestock_t_lab_results_bruc" element="NULL" name="x_cria_livestock_t_lab_results_bruc" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">685937cadbcad7809b2689584b9619b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-15 07:47:43</sys_created_on>
+            <sys_id>e45937cadbcad7809b2689584b9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-15 07:47:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>third_fpa</element>
+            <list_id display_value="x_cria_livestock_t_lab_results_bruc" element="NULL" name="x_cria_livestock_t_lab_results_bruc" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">685937cadbcad7809b2689584b9619b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-15 07:47:43</sys_created_on>
+            <sys_id>685937cadbcad7809b2689584b9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-15 07:47:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>card</element>
+            <list_id display_value="x_cria_livestock_t_lab_results_bruc" element="NULL" name="x_cria_livestock_t_lab_results_bruc" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">685937cadbcad7809b2689584b9619b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-15 07:47:43</sys_created_on>
+            <sys_id>e85937cadbcad7809b2689584b9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-15 07:47:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>remarks</element>
+            <list_id display_value="x_cria_livestock_t_lab_results_bruc" element="NULL" name="x_cria_livestock_t_lab_results_bruc" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">685937cadbcad7809b2689584b9619b1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-15 07:47:43</sys_created_on>
+            <sys_id>6c5937cadbcad7809b2689584b9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-15 07:47:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <parent>x_cria_livestock_t_vaccinations_market_cattle</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-15 07:47:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>685937cadbcad7809b2689584b9619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cria_livestock_t_lab_results_bruc</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_list_x_cria_livestock_t_lab_results_bruc_x_cria_livestock_t_vaccinations_market_cattle_null</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-15 07:47:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

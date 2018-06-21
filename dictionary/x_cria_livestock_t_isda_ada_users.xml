@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="ISDA Ada Users" max_length="40" name="x_cria_livestock_t_isda_ada_users" type="collection">
+        <element attributes="import_attribute_name=Address1,edge_encryption_enabled=true" label="Address1" max_length="40" name="u_address1" type="string"/>
+        <element attributes="import_attribute_name=Address2,edge_encryption_enabled=true" label="Address2" max_length="40" name="u_address2" type="string"/>
+        <element attributes="import_attribute_name=City,edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="import_attribute_name=County,edge_encryption_enabled=true" label="County" max_length="40" name="u_county" type="string"/>
+        <element attributes="import_attribute_name=First Name,edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="import_attribute_name=Herd Owner,edge_encryption_enabled=true" label="Herd Owner" max_length="40" name="u_herd_owner" type="string"/>
+        <element attributes="import_attribute_name=Last Name,edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="import_attribute_name=Livestock,edge_encryption_enabled=true" label="Livestock" max_length="40" name="u_livestock" type="string"/>
+        <element attributes="import_attribute_name=Owner Cell,edge_encryption_enabled=true" label="Owner Cell" max_length="40" name="u_owner_cell" type="string"/>
+        <element attributes="import_attribute_name=Owner email,edge_encryption_enabled=true" label="Owner email" max_length="40" name="u_owner_email" type="string"/>
+        <element attributes="import_attribute_name=Owner fax,edge_encryption_enabled=true" label="Owner fax" max_length="40" name="u_owner_fax" type="string"/>
+        <element attributes="import_attribute_name=Owner Phone,edge_encryption_enabled=true" label="Owner Phone" max_length="40" name="u_owner_phone" type="string"/>
+        <element attributes="import_attribute_name=State,edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="import_attribute_name=Zip,edge_encryption_enabled=true" label="Zip" max_length="40" name="u_zip" type="string"/>
+    </element>
+</database>

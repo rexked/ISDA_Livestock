@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>gif</format>
+        <height>70</height>
+        <image/>
+        <name>ISDA_Logo.gif</name>
+        <size_bytes>3768</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-05-30 16:57:20</sys_created_on>
+        <sys_id>9ee60f0bdb161300c64e5eea4b9619c4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ISDA_Logo.gif</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>db_image_9ee60f0bdb161300c64e5eea4b9619c4</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-30 18:54:02</sys_updated_on>
+        <thumbnail/>
+        <width>103</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#7b7c7b</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/gif</content_type>
+        <file_name>image</file_name>
+        <image_height>70</image_height>
+        <image_width>103</image_width>
+        <size_bytes>3768</size_bytes>
+        <size_compressed>3765</size_compressed>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-05-30 18:54:02</sys_created_on>
+        <sys_id>57a1ebc7db561300c64e5eea4b9619fb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-30 18:54:03</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>9ee60f0bdb161300c64e5eea4b9619c4</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="57a1ebc7db561300c64e5eea4b9619fb">57a1ebc7db561300c64e5eea4b9619fb</sys_attachment>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-05-30 18:54:02</sys_created_on>
+        <sys_id>97a1ebc7db561300c64e5eea4b9619fb</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5008</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="57a1ebc7db561300c64e5eea4b9619fb">57a1ebc7db561300c64e5eea4b9619fb</sys_attachment>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-05-30 18:54:02</sys_created_on>
+        <sys_id>1ba1ebc7db561300c64e5eea4b9619fb</sys_id>
+    </sys_attachment_doc>
+</record_update>

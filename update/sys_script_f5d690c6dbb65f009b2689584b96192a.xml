@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cria_livestock_t_vaccination_record</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Copy attachments</name>
+        <order>99999</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var results = [];
+	
+	
+	var at = new GlideRecord('sys_attachment');
+			at.addQuery('table_name', 'sc_cart_item');
+			at.query();
+			//gs.addInfoMessage('row count of sc_cart_items: ' + at.getRowCount());
+			//gs.log();
+			while(at.next()){
+				
+				at.table_name = current.sys_class_name;
+				at.table_sys_id = current.sys_id;
+				at.update();
+				results.push(at.table_name + ', ' + at.table_sys_id + ', ' + at.file_name);
+				
+			}
+	
+	at.initialize();
+     at.addQuery('table_sys_id' , current.sys_id);
+      at.orderByDesc('created_on');
+			at.query();
+       
+       var limit = at.getRowCount()/2;
+   
+			//at.addQuery('table_name', '');
+      at.initialize();
+      at.addQuery('table_sys_id' , current.sys_id);
+      at.orderByDesc('sys_created_on');
+      at.setLimit(limit);
+	at.query();
+while(at.next()){
+	 
+	at.deleteRecord();
+
+}
+
+	
+	
+	//gs.addInfoMessage('row count of sc_cart_items: ' + at.getRowCount() );
+	//GlideSysAttachment.copy('sc_req_item', current.parent_ritm, current.sys_class_name, current.sys_id);
+	//var attachments = new global.Global_ISDAScripts();
+	//gs.addInfoMessage(current.parent_ritm.getDisplayValue());
+	
+	//attachments.transferAttachments(current.parent_ritm.getDisplayValue(), current.sys_class_name , current.sys_id);
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-20 22:06:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f5d690c6dbb65f009b2689584b96192a</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Copy attachments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_f5d690c6dbb65f009b2689584b96192a</sys_update_name>
+        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-21 02:29:42</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f5d690c6dbb65f009b2689584b96192a"/>
+</record_update>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_cria_livestock_t_vaccination_record" label="Brucellosis Test" max_length="40" name="x_cria_livestock_t_vaccinations_brucellosis_test" text_index="true" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Complete Herd Test" max_length="40" name="bruc_comptest" type="boolean"/>
+        <element label="Date Bled" max_length="40" name="date_bled" type="glide_date"/>
+        <element choice="1" label="DSA Herd" max_length="40" name="dsa_herd" type="choice">
+            <choice>
+                <element label="No" value="no"/>
+                <element label="Yes" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="In Progress" label="Form Status" max_length="40" name="form_status" type="string">
+            <choice>
+                <element label="In Progress" sequence="1" value="in progress"/>
+                <element label="Complete" sequence="2" value="complete"/>
+            </choice>
+        </element>
+        <element label="City" max_length="100" name="herd_owner_city" type="string"/>
+        <element label="Name" max_length="100" name="herd_owner_name" type="string"/>
+        <element label="State" max_length="32" name="herd_owner_state" reference="u_states" type="reference"/>
+        <element label="Street Address" max_length="255" name="herd_owner_street" type="string"/>
+        <element label="Zip" max_length="10" name="herd_owner_zip" type="string"/>
+        <element choice="1" label="Kind of Herd" max_length="40" name="kind_of_herd" type="choice">
+            <choice>
+                <element label="Beef" value="beef"/>
+                <element label="Dairy" value="dairy"/>
+                <element label="Mixed" value="mixed"/>
+                <element label="Other (Specify Below)" value="other"/>
+                <element label="Swine" value="swine"/>
+            </choice>
+        </element>
+        <element label="Herd Owner" max_length="32" name="name_herd_owner" reference="sys_user" reference_qual="x_cria_livestock_t_livestock_user=true^EQ" reference_qual_condition="x_cria_livestock_t_livestock_user=true^EQ" type="reference"/>
+        <element label="Number In Herd" max_length="32" name="number_in_herd" type="string"/>
+        <element label="# Negative" max_length="32" name="num_negative" read_only="true" type="string"/>
+        <element label="# Positive" max_length="32" name="num_positive" read_only="true" type="string"/>
+        <element label="# Tag Only" max_length="32" name="num_tag_only" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="# Reactor" max_length="40" name="reactor" read_only="true" type="string"/>
+        <element choice="1" label="Reason for Test" max_length="40" name="reason_for_test" type="choice">
+            <choice>
+                <element label="Area Test" value="area_test"/>
+                <element label="Diagnostic" value="diagnostic"/>
+                <element label="Epidemiology" value="epidemiology"/>
+                <element label="HD Cert/ Validation" value="hd_cert_validation"/>
+                <element label="Idaho Raw Milk Program" value="id_raw_milk"/>
+                <element label="LVST MKT" value="lvst_mkt"/>
+                <element label="Other" value="other"/>
+                <element label="Post Move Qur. Test" value="pst_move_qur_test"/>
+                <element label="Pvt. Sale" value="pvt_sale"/>
+                <element label="Slaughter Rea" value="slaughter_rea"/>
+                <element label="Susp. Ring" value="susp_ring"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Other Reason for Test" max_length="255" name="reason_other" type="string"/>
+        <element label="Species Other" max_length="32" name="species_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="# Suspect" max_length="40" name="suspect" read_only="true" type="string"/>
+        <element choice="1" label="Testing Expense" max_length="40" name="testing_expense" type="choice">
+            <choice>
+                <element label="Owners Expense" value="owner"/>
+                <element label="State/Federal Expense" value="federal"/>
+            </choice>
+        </element>
+        <element label="Total # Test" max_length="32" name="total_num_test" read_only="true" type="string"/>
+        <element label="County" max_length="32" name="u_county" reference="u_counties" type="reference"/>
+        <element label="Date Signed" max_length="40" name="u_date_signed" type="glide_date"/>
+        <element label="Herd Owner Info" max_length="256" name="u_herd_owner_info" type="string"/>
+        <element label="Laboratory" max_length="100" name="u_laboratory" type="string"/>
+        <element label="Lab Tech Signature" max_length="32" name="u_lab_tech_signature" reference="sys_user" reference_qual="x_cria_livestock_t_livestock_user=true^EQ" reference_qual_condition="x_cria_livestock_t_livestock_user=true^EQ" type="reference"/>
+        <element label="Phone Number" max_length="32" name="u_phone_number" type="string"/>
+        <element label="Veterinarian" max_length="32" name="u_veterinarian" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_lab_tech_signature"/>
+        </index>
+        <index name="index2">
+            <element name="u_county"/>
+        </index>
+        <index name="index3">
+            <element name="name_herd_owner"/>
+        </index>
+        <index name="index4">
+            <element name="u_veterinarian"/>
+        </index>
+        <index name="index5">
+            <element name="herd_owner_state"/>
+        </index>
+    </element>
+</database>

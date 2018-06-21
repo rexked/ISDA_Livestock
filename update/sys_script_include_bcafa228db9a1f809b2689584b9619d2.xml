@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_cria_livestock_t.AjaxFunctions</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>AjaxFunctions</name>
+        <script><![CDATA[var AjaxFunctions = Class.create();
+
+AjaxFunctions.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+
+   getRequestorDetails: function() {
+
+           var sys_id = this.getParameter('sysparm_sys_id');
+
+
+           var user = new GlideRecord('sys_user');
+
+           if (user.get(sys_id)) {
+
+                   var phone = !user.mobile_phone.nil() ? user.mobile_phone : user.phone;
+
+                   return '{"email":"'+user.email+'","phone":"'+phone+'"}';
+
+           }
+
+           return '';
+
+   },
+
+
+   type: 'AjaxFunctions'
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-05-22 20:51:02</sys_created_on>
+        <sys_id>bcafa228db9a1f809b2689584b9619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AjaxFunctions</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_include_bcafa228db9a1f809b2689584b9619d2</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-05-22 20:51:02</sys_updated_on>
+    </sys_script_include>
+</record_update>

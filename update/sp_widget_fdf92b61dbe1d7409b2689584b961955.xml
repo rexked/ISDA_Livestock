@@ -2,17 +2,17 @@
 <record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[function($scope,$timeout, spModal) {
+        <client_script><![CDATA[function($scope,$timeout, spModal, $rootScope) {
   /* widget controller */
   var c = this;
 	
-	console.log("shared from the other widgets: " + c.widget.options.shared);
-	console.log(c.widget.options.shared);
+	
+
 	
 	c.submit = function(){
 		c.server.update().then(function(response){
 			c.data = {};
-			c.closeModal();
+			//c.closeModal();
 			
 			$timeout(function(){
 							 angular.element('[ng-click*="buttonClicked"]').triggerHandler('click');
@@ -21,20 +21,25 @@
 		});
 		
 	}
-	angular.element('[ng-click*="buttonClicked"]').css({visibility: 'hidden'});
+	angular.element('.modal-footer').css({display:'none'});
 }
 
 
 		]]></client_script>
         <controller_as>c</controller_as>
-        <css/>
+        <css>btn-default {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+    visibility: hidden;
+}</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
         <docs/>
         <field_list/>
         <has_preview>true</has_preview>
-        <id>batchfill_cvi</id>
+        <id>batchfill-cvi</id>
         <internal>false</internal>
         <link/>
         <name>Batchfill CVI</name>
@@ -48,17 +53,19 @@
 		return;
 	
 	for (i = 0 ; i < input.record_amount ; i++){
-	input.start_number++
  var gr = new GlideRecord('x_cria_livestock_t_batchfill_cvi');
+	console.log(input.cert);
 	gr.initialize();
 	gr.actual_sequence = "" + input.start_number;
 	gr.official_identification = input.prefix + input.start_number;
 	gr.sex = input.sex;
 	gr.interpretation = input.interpretation;
-	gr.age = input.age + " Months";
+	gr.age = input.age;
 	gr.breed = input.breed;	
 	gr.session_id = gs.getSessionID();
+	
 	gr.insert();
+	input.start_number++;
 	
 	
 	}
@@ -69,14 +76,14 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-18 20:52:17</sys_created_on>
         <sys_id>fdf92b61dbe1d7409b2689584b961955</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Batchfill CVI</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_widget_fdf92b61dbe1d7409b2689584b961955</sys_update_name>
-        <sys_updated_by>dyoung</sys_updated_by>
-        <sys_updated_on>2018-04-18 21:05:58</sys_updated_on>
+        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-07 20:42:57</sys_updated_on>
         <template><![CDATA[<div class="panel panel-default">
   <div class="panel-body">
 <div>

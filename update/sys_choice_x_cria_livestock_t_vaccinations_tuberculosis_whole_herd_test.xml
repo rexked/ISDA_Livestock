@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="whole_herd_test" table="x_cria_livestock_t_vaccinations_tuberculosis" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>whole_herd_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:11:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c270e28cdb8ad3809b2689584b961927</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 20:11:46</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>whole_herd_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:11:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d70268cdb8ad3809b2689584b96199a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 20:11:42</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>whole_herd_test</element>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:11:41</sys_created_on>
+            <sys_id>ca70ae4cdb8ad3809b2689584b961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>whole_herd_test</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_tuberculosis_whole_herd_test</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 20:11:41</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
