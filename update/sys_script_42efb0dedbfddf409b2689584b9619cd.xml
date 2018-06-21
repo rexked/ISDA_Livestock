@@ -186,6 +186,7 @@
 		gr.test_method = current.variables.method_of_test.getDisplayValue();
 		gr.whole_herd_test = current.variables.yes_no_box;
 		gr.kind_of_herd = current.variables.kind_of_herd;
+		gr.species_other = current.variables.other;
 		gr.injection_date = current.variables.inj_date;
 		gr.date_test_read = current.variables.inj_date_read;
 		gr.time_test_read = current.variables.inj_time;
@@ -556,15 +557,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42efb0dedbfddf409b2689584b9619cd</sys_id>
-        <sys_mod_count>243</sys_mod_count>
+        <sys_mod_count>244</sys_mod_count>
         <sys_name>Livestock Data Transform</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_script_42efb0dedbfddf409b2689584b9619cd</sys_update_name>
-        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-21 00:44:44</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-21 20:17:32</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

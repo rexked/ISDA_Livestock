@@ -97,6 +97,13 @@ t.rFields = '';
 t.rFields_array = [];
 t.view = 'print';
 t.table = $sp.getParameter('table');
+t.test_interp = {
+	pos: 0,
+	neg: 0,
+	susp: 0,
+	react: 0,
+	total: 0
+}
 
 // Lookup information for selected record
 var articleGR = new GlideRecord(t.table);
@@ -123,6 +130,11 @@ if (articleGR.getValue('article_type') == 'wiki'){
 	t.lab_tech = articleGR.getDisplayValue('u_lab_tech_signature');
 	t.lab_signed = articleGR.getDisplayValue('u_date_signed');
 	t.lab_loc = articleGR.getDisplayValue('u_laboratory');
+	t.neg = articleGR.getDisplayValue('negative');
+	t.pos = articleGR.getDisplayValue('positive');
+	t.susp = articleGR.getDisplayValue('suspect');
+	t.react = articleGR.getDisplayValue('reactor');
+	console.log("neg = "+t.neg+"  pos = "+t.pos+"  susp = "+t.susp+"  react = "+t.react);
 	
 	// Collect Sample Location information
 	t.loc = articleGR.getDisplayValue('u_livestock_market');
@@ -181,6 +193,7 @@ if (articleGR.getValue('article_type') == 'wiki'){
 	}
 	
 	
+	
 
 	t.column_labels =[];
 	t.rFields_array = t.rFields.split(',');
@@ -201,7 +214,20 @@ if (articleGR.getValue('article_type') == 'wiki'){
 while (gr.next()){
 	var y= [];
 
-
+if (gr.test_interp.getDisplayValue() == 'Suspect'){
+	t.test_interp.susp++;
+}
+if (gr.test_interp.getDisplayValue() == 'Reactor'){
+	t.test_interp.react++;
+}
+if (gr.test_interp.getDisplayValue() == 'Neg'){
+	t.test_interp.neg++;
+}
+if (gr.test_interp.getDisplayValue() == 'Pos'){
+	t.test_interp.pos++;
+}
+	t.test_interp.total++;
+	
 for(var i = 0; i < arr_length ; i++){
 		var objKeys = Object.keys(t.column_labels);
 		var field = objKeys[i];
@@ -228,14 +254,14 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-07 16:34:28</sys_created_on>
         <sys_id>f87e083ddbaa17009b2689584b96193a</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>59</sys_mod_count>
         <sys_name>ISDA Market Cattle Printable Form</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_widget_f87e083ddbaa17009b2689584b96193a</sys_update_name>
-        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-18 14:47:28</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:30:37</sys_updated_on>
         <template><![CDATA[<style type="text/css" media="print">
     @page 
     {
@@ -259,6 +285,7 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
               <tr style="background-color: #cccccc;">
                 <th width="35%" style="padding:5px; text-align:center;"><b>${Livestock Market Information}</b></th>
                 <th width="35%" style="padding:5px; text-align:center;"><b>${Test Information}</b></th>
+                <th width="10%" style="padding:5px; text-align:center;"><b>${Summary}</b></th>
               </tr>
               <tr>
                 <td valign="top" style="text-align:left; padding:5px;">
@@ -266,6 +293,9 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
                 </td>
                 <td valign="top" style="text-align:left; padding:5px;">
                   <label><strong>Testing Laboratory: </strong>{{::data.lab}}</label>
+                </td>
+                <td valign="top" style="text-align:left; padding:5px;">
+                  <label><strong>Negative: </strong>{{::data.test_interp.neg}}<br><strong>Suspect: </strong>{{::data.test_interp.susp}}<br><strong>Reactor: </strong>{{::data.test_interp.react}}<br><strong>Positive: </strong>{{::data.test_interp.pos}}<br><strong>Total Tested: </strong>{{::data.test_interp.total}}</label>
                 </td>
               </tr>
         </table>

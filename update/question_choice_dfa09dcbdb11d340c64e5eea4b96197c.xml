@@ -9,16 +9,16 @@
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-04-10 15:18:12</sys_created_on>
         <sys_id>dfa09dcbdb11d340c64e5eea4b96197c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Goats</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>question_choice_dfa09dcbdb11d340c64e5eea4b96197c</sys_update_name>
-        <sys_updated_by>cervin</sys_updated_by>
-        <sys_updated_on>2018-04-10 15:18:12</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-21 20:22:06</sys_updated_on>
         <text>Goats</text>
-        <value>goats</value>
+        <value>Goats</value>
     </question_choice>
     <fx_price action="delete_multiple" query="id=dfa09dcbdb11d340c64e5eea4b96197c"/>
     <fx_price action="INSERT_OR_UPDATE">

@@ -5,13 +5,13 @@
             <element>num_of_animals_tested</element>
             <position>0</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 18:44:22</sys_created_on>
-            <sys_id>c6b5232bdbaa1b009b2689584b961982</sys_id>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>2718455edb32df00c64e5eea4b96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 18:44:22</sys_updated_on>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>reason_for_test</element>
             <position>1</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 18:44:22</sys_created_on>
-            <sys_id>4ab5232bdbaa1b009b2689584b961982</sys_id>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>2f18455edb32df00c64e5eea4b96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 18:44:22</sys_updated_on>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>reason_other</element>
             <position>2</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 18:44:22</sys_created_on>
-            <sys_id>cab5232bdbaa1b009b2689584b961982</sys_id>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>af18455edb32df00c64e5eea4b96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 18:44:22</sys_updated_on>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>test_method</element>
             <position>3</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 18:44:22</sys_created_on>
-            <sys_id>4eb5232bdbaa1b009b2689584b961982</sys_id>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>2318455edb32df00c64e5eea4b96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 18:44:22</sys_updated_on>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,111 +61,125 @@
             <element>kind_of_herd</element>
             <position>4</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 18:44:22</sys_created_on>
-            <sys_id>ceb5232bdbaa1b009b2689584b961982</sys_id>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>a318455edb32df00c64e5eea4b96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 18:44:22</sys_updated_on>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>species_other</element>
+            <position>5</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>2718455edb32df00c64e5eea4b96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 18:44:22</sys_created_on>
-            <sys_id>42b5232bdbaa1b009b2689584b961983</sys_id>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>a718455edb32df00c64e5eea4b96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 18:44:22</sys_updated_on>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>test_type</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 18:44:22</sys_created_on>
-            <sys_id>c2b5232bdbaa1b009b2689584b961983</sys_id>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>2b18455edb32df00c64e5eea4b96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 18:44:22</sys_updated_on>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>whole_herd_test</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 18:44:22</sys_created_on>
-            <sys_id>46b5232bdbaa1b009b2689584b961983</sys_id>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>ab18455edb32df00c64e5eea4b96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 18:44:22</sys_updated_on>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>injection_date</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 18:44:22</sys_created_on>
-            <sys_id>c6b5232bdbaa1b009b2689584b961983</sys_id>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>2f18455edb32df00c64e5eea4b96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 18:44:22</sys_updated_on>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>injection_time</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 18:44:22</sys_created_on>
-            <sys_id>4ab5232bdbaa1b009b2689584b961983</sys_id>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>af18455edb32df00c64e5eea4b96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 18:44:22</sys_updated_on>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_test_read</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 18:44:22</sys_created_on>
-            <sys_id>cab5232bdbaa1b009b2689584b961983</sys_id>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>2318455edb32df00c64e5eea4b96199f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 18:44:22</sys_updated_on>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>time_test_read</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 18:44:22</sys_created_on>
-            <sys_id>4eb5232bdbaa1b009b2689584b961983</sys_id>
+            <sys_created_on>2018-06-21 20:19:05</sys_created_on>
+            <sys_id>a318455edb32df00c64e5eea4b96199f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Test Information" display_value="Test Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">33f706cedba69700c64e5eea4b9619b2</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 18:44:22</sys_updated_on>
+            <sys_updated_on>2018-06-21 20:19:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
