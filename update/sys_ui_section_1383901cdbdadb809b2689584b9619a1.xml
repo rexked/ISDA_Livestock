@@ -4,98 +4,112 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>
-            <sys_created_by>cervin@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-21 14:50:11</sys_created_on>
-            <sys_id>1f83901cdbdadb809b2689584b9619a1</sys_id>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
+            <sys_id>b5007e98db13934066015d104b961905</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-21 14:50:11</sys_updated_on>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>official_identification</element>
             <position>1</position>
-            <sys_created_by>cervin@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-21 14:50:11</sys_created_on>
-            <sys_id>9f83901cdbdadb809b2689584b9619a1</sys_id>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
+            <sys_id>39007e98db13934066015d104b961905</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-21 14:50:11</sys_updated_on>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alt_id</element>
+            <position>2</position>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
+            <sys_id>b9007e98db13934066015d104b961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>breed</element>
-            <position>2</position>
-            <sys_created_by>cervin@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-21 14:50:11</sys_created_on>
-            <sys_id>1383901cdbdadb809b2689584b9619a2</sys_id>
+            <position>3</position>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
+            <sys_id>3d007e98db13934066015d104b961905</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-21 14:50:11</sys_updated_on>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
-            <sys_created_by>cervin@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-21 14:50:11</sys_created_on>
-            <sys_id>9383901cdbdadb809b2689584b9619a2</sys_id>
+            <position>4</position>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
+            <sys_id>bd007e98db13934066015d104b961905</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-21 14:50:11</sys_updated_on>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sex</element>
-            <position>4</position>
-            <sys_created_by>cervin@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-21 14:50:11</sys_created_on>
-            <sys_id>1783901cdbdadb809b2689584b9619a2</sys_id>
+            <position>5</position>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
+            <sys_id>31007e98db13934066015d104b961906</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-21 14:50:11</sys_updated_on>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>age</element>
-            <position>5</position>
-            <sys_created_by>cervin@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-21 14:50:11</sys_created_on>
-            <sys_id>9783901cdbdadb809b2689584b9619a2</sys_id>
+            <position>6</position>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
+            <sys_id>b1007e98db13934066015d104b961906</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-21 14:50:11</sys_updated_on>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>6</position>
-            <sys_created_by>cervin@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-21 14:50:11</sys_created_on>
-            <sys_id>1b83901cdbdadb809b2689584b9619a2</sys_id>
+            <position>7</position>
+            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
+            <sys_id>35007e98db13934066015d104b961906</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-21 14:50:11</sys_updated_on>
+            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>

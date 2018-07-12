@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>cervin@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-13 16:40:50</sys_created_on>
-        <sys_id>8a394323db6a1b009b2689584b961912</sys_id>
+        <sys_id>c28d9516db7a570066015d104b96194a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Species Other</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_dictionary_x_cria_livestock_t_vaccinations_brucellosis_test_species_other</sys_update_name>
-        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-13 16:40:50</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:53:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

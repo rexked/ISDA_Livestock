@@ -32,6 +32,8 @@
 	//GlideSysAttachment.copy('source table_name', 'source record sys id', 'destination table_name', 'destination record sys id');
 
 	var gr = new GlideRecord();
+	var arr = [];
+	var idsArr = [];
 	var session = gs.getSessionID();
 	var recordID_type = [ "C", "M", "TB", "SR", "T", "B", "BT" ]; // CVI | Market Cattle | TB | Saleyard | Trich | Bruc Vac | Bruc Test
 	var lab_results = new GlideRecord();
@@ -68,7 +70,7 @@
 		gr.testing_expense = current.variables.bruce_test_expenses;
 		gr.reason_for_test = current.variables.reason_for_test;
 		gr.reason_other = current.variables.reason_other;
-		gr.u_type_of_test = current.variables.livestock_bruce_test_type_of_test;
+		gr.u_type_of_test = current.variables.type_of_test;
 		gr.dsa_herd = current.variables.dsa_herd;
 		if(current.variables.complete_test_of_animals == "Yes"){
 			gr.bruc_comptest = true;
@@ -101,6 +103,7 @@
 		while (lab_results.next()){
 			lab_results.parent = gr.sys_id;
 			lab_results.commited = true;
+			lab_results.record_id = gr.record_id;
 			lab_results.update();
 		}
 		
@@ -143,6 +146,7 @@
 		gr.forest_service = current.variables.forest;
 		gr.state_lands = current.variables.state;
 		gr.private_lands = current.variables.private_lands;
+		gr.vet_cert_date = current.variables.vet_cert_date;
 		gr.record_id = recordID.generateID(recordID_type[4] );
 		gs.addInfoMessage("Your record ID is: " + gr.record_id);
 
@@ -167,6 +171,7 @@
 		while (lab_results.next()){
 			lab_results.parent = gr.sys_id.toString();
 			lab_results.commited = true;
+			lab_results.record_id = gr.record_id;
 			lab_results.update();
 		}
 	}
@@ -227,6 +232,7 @@
 		while (lab_results.next()){
 			lab_results.parent = gr.sys_id.toString();
 			lab_results.commited = true;
+			lab_results.record_id = gr.record_id;
 			lab_results.update();
 		}
 		
@@ -235,6 +241,7 @@
 	if (current.cat_item.getDisplayValue() == 'Certificate of Veterinary Inspection') {
 		gr = new GlideRecord('x_cria_livestock_t_vaccinations_cvi');
 		gr.initialize();
+		gr.setWorkflow(true);
 		gr.parent_ritm = current.sys_id;
 		gr.consigner = current.variables.name_of_consignor + '\n' + current.variables.consignor_physical_address + '\n' + current.variables.consignor_city+ ", " + current.variables.consignor_state.getDisplayValue() + " " + current.variables.consignor_zip;
 		gr.consignor_name = current.variables.name_of_consignor;
@@ -363,8 +370,14 @@
 		while (lab_results.next()){
 			lab_results.parent = gr.sys_id.toString();
 			lab_results.committed = true;
+			lab_results.record_id = gr.record_id;
+			//arr.push( ' ' + lab_results.official_identification.getDisplayValue());
 			lab_results.update();
 		}
+		//gs.addInfoMessage(arr.toString());
+		//gr.remarks = arr.toString();
+		
+		
 	}
 	
 	if(current.cat_item.getDisplayValue() == 'Brucellosis Market Cattle Testing Form'){
@@ -403,8 +416,11 @@
 		while (lab_results.next()){
 			lab_results.parent = gr.sys_id;
 			lab_results.commited = true;
+			lab_results.record_id = gr.record_id;
+			
 			lab_results.update();
 		}
+		
 	}
 	
 	if(current.cat_item.getDisplayValue() == 'Brucellosis Vaccination Record'){
@@ -414,7 +430,7 @@
 		gr.u_veterinarian = current.variables.livestock_vet;
 		gr.herd_owner  = current.variables.getDisplayValue('livestock_owner') + '\n' + current.variables.livestock_owner_address + '\n' + current.variables.livestock_owner_city + ", " + current.variables.getDisplayValue('livestock_owner_state') + " " + current.variables.livestock_owner_zip;
 		gr.herd_owner_name = current.variables.livestock_owner;
-		gr.herd_owner_street = current.variables.livestock_owner_address;
+		gr.herd_owner_address = current.variables.livestock_owner_address;
 		gr.herd_owner_city = current.variables.livestock_owner_city;
 		gr.herd_owner_state = current.variables.livestock_owner_state;
 		gr.herd_owner_zip = current.variables.livestock_owner_zip;
@@ -425,6 +441,7 @@
 		//gs.addInfoMessage(current.variables.expire_date);
 		gr.vacc_expire_date = current.variables.expire_date;
 		gr.vacc_date = current.variables.date_of_vacc;
+		gr.date_of_vaccination = current.variables.date_of_vacc;
 		gr.record_id = recordID.generateID(recordID_type[5] );
 		gs.addInfoMessage("Your record ID is: " + gr.record_id);
 		gr.insert();
@@ -448,6 +465,7 @@
 		while (lab_results.next()){
 			lab_results.parent = gr.sys_id;
 			lab_results.commited = true;
+			lab_results.record_id = gr.record_id;
 			lab_results.update();
 		}
 	}
@@ -546,10 +564,11 @@
 		while (lab_results.next()){
 			lab_results.parent = gr.sys_id.toString();
 			lab_results.committed = true;
+			lab_results.record_id = gr.record_id;
 			lab_results.update();
 		}
 	}
-
+gr.update();
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>dyoung</sys_created_by>
@@ -557,7 +576,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42efb0dedbfddf409b2689584b9619cd</sys_id>
-        <sys_mod_count>244</sys_mod_count>
+        <sys_mod_count>260</sys_mod_count>
         <sys_name>Livestock Data Transform</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
@@ -565,7 +584,7 @@
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_script_42efb0dedbfddf409b2689584b9619cd</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-21 20:17:32</sys_updated_on>
+        <sys_updated_on>2018-07-11 21:07:44</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

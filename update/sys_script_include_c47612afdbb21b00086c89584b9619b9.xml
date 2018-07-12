@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_cria_livestock_t.ISDA_contacts</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ISDA_contacts</name>
+        <script><![CDATA[var ISDA_contacts = Class.create();
+ISDA_contacts.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+
+	
+	
+	addContacts : function(){
+		
+	var userVal = this.getParameter('sysparm_contactType');
+	var fName = this.getParameter('sysparm_fName');
+	var lName = this.getParameter('sysparm_lName');
+	var email = this.getParameter('sysparm_email');
+	var phone = this.getParameter('sysparm_phone');
+	var street = this.getParameter('sysparm_street');
+	var city = this.getParameter('sysparm_city');
+	var state = this.getParameter('sysparm_state');
+    var zip = this.getParameter('sysparm_zip');
+	var locName = this.getParameter('sysparm_locName');
+	var locRefName = this.getParameter('sysparm_locRecName');
+	var locRefName_sys_id;
+	gs.addInfoMessage('New Location Name: ' + locName);
+	var loc_sys_id = '';
+	current.insert();
+	/*
+	var loc = new GlideRecord('cmn_location');
+	loc.addQuery('name', locName);
+	//loc.setLimit(1);
+	loc.query();
+	gs.addInfoMessage(locName + ": was found: " + loc.getRowCount() + " times.");
+	*/
+	 loc_sys_id = current.sys_id;
+	
+		
+	if(locRefName !== ''){
+		var x = new GlideRecord('sys_user');
+		x.addQuery('first_name', fName);
+		x.addQuery('last_name', lName);
+		x.query();
+		locRefName_sys_id = x.sys_id;
+	}
+		
+		
+	
+		
+	//gs.addInfoMessage(userVal);
+		
+if(userVal == 'New Contact'){
+		//gs.addInfoMessage("I'm a new contact");
+		var gr = new GlideRecord('sys_user');
+		gr.initialize();
+		
+		//gs.addInfoMessage('Contact first name: ' + fName);
+		gr.first_name = fName;
+		gr.last_name = lName;
+		gr.email = email;
+		gr.phone = phone;
+		gr.street = street;
+		gr.city = city;
+		gr.state = state;
+		gr.zip = zip;
+		
+		gr.insert();
+		var gl = new GlideRecord('x_cria_livestock_t_m2m_users_locations');
+		gl.initialize();
+		gl.location = loc_sys_id;
+		gl.user = gr.sys_id;
+		gl.insert();
+	}else{
+		gs.addInfoMessage("I'm an existing contact");
+		var cont = new GlideRecord('x_cria_livestock_t_m2m_users_locations');
+		cont.initialize();
+		cont.location = loc_sys_id;
+		cont.user = locRefName_sys_id;
+		cont.insert();
+	}
+	},
+    type: 'ISDA_contacts'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dyoung@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-25 23:15:06</sys_created_on>
+        <sys_id>c47612afdbb21b00086c89584b9619b9</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>ISDA_contacts</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_include_c47612afdbb21b00086c89584b9619b9</sys_update_name>
+        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-28 18:55:31</sys_updated_on>
+    </sys_script_include>
+</record_update>

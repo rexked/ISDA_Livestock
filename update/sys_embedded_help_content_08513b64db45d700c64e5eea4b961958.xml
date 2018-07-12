@@ -4,7 +4,7 @@
         <active>true</active>
         <category>service-catalog</category>
         <content><![CDATA[ <h1 class="title topictitle1">Catalog client scripts</h1>  <div class="body conbody">  <p class="p">Use catalog client scripts to control the behavior of the catalog                    items when presented to your users. Catalog client scripts can be applied to a                    catalog item or a variable set. These scripts run on the browser instead of the                    server, allowing you to better control the information that the user                    submits.</p> </div> <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Service-Catalog-Variable-Sets&amp;version&#61;kingston" target="_blank">Service catalog variable sets</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Service-Catalog-Items&amp;version&#61;kingston" target="_blank">Introduction to catalog items</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Service-Catalog-Client-Script&amp;version&#61;kingston" target="_blank">Service catalog client script</a></div></div></div></div>]]></content>
-        <last_sync>2018-06-19 22:22:07</last_sync>
+        <last_sync>2018-07-04 22:22:08</last_sync>
         <modifier>normal</modifier>
         <name>catalog_script_client_list-normal</name>
         <page>catalog_script_client_list</page>
@@ -19,14 +19,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>08513b64db45d700c64e5eea4b961958</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>catalog_script_client_list-normal</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_embedded_help_content_08513b64db45d700c64e5eea4b961958</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-06-19 22:22:07</sys_updated_on>
+        <sys_updated_on>2018-07-04 22:22:08</sys_updated_on>
         <version>k</version>
     </sys_embedded_help_content>
     <sys_translated_text action="delete_multiple" query="documentkey=08513b64db45d700c64e5eea4b961958"/>

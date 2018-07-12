@@ -12,7 +12,7 @@
                 <element label="Positive" sequence="20" value="positive"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#9;var noZero = current.id.toString();&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return noZero;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Trich Tag Number" max_length="40" name="id" type="string" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#9;&#9;var noZero = current.id.toString();&#10;&#9;// Add your code here&#10;&#9;return noZero;  // return the calculated value&#10;&#10;})(current);" label="Trich Tag Number" max_length="40" name="id" type="string" virtual="true"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Parent" max_length="32" name="parent" reference="x_cria_livestock_t_vaccinations_trichomoniasis" type="reference"/>
         <element label="PCR Result Pool" max_length="40" name="pcr_results_pool" type="string"/>

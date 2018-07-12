@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_cria_livestock_t_vaccinations_cvi</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<table style="width: 100%; height: auto; background-color: #f0f0f0; margin-left: auto; margin-right: auto;" cellpadding="5">
+<tbody>
+<tr>
+<td style="text-align: right;"><span style="font-size: 12pt;"><strong>Certificate Number:</strong> <span style="color: #ff0000;"><strong>${record_id}</strong></span></span></td>
+</tr>
+</tbody>
+</table>
+<table style="width: 100%; height: auto; margin-left: auto; margin-right: auto;" cellpadding="5">
+<tbody>
+<tr>
+<td><span class="ng-scope">Idaho State Department of Agriculture<br />Division of Animal Industries<br />2270 Old Penitentiary Road, Boise, ID 83712<br />(208) 332-8540</span></td>
+<td style="text-align: center;">&nbsp;<span class="ng-scope"><strong><span style="font-size: 24pt;">IDAHO CERTIFICATE OF VETERINARY INSPECTION</span></strong></span></td>
+<td style="text-align: right;">
+<p><img style="align: baseline;" title="" src="ISDA_Logo.gifx" alt="" align="bottom" border="" hspace="" vspace="" /></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="width: 100%; height: auto; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="5">
+<thead>
+<tr style="background-color: #cccccc; text-align: center;">
+<td style="width: 33%; height: auto; vertical-align: top;">&nbsp;<span class="ng-scope"><strong>Consignor - Contact Person at Origin</strong></span></td>
+<td style="width: 33%; height: auto; vertical-align: top;"><span class="ng-scope"><strong>Consignee - Contact Person at Destination</strong></span>&nbsp;</td>
+<td style="width: 33%; height: auto; vertical-align: top;">&nbsp;<span class="ng-scope"><strong>Shipment Information</strong></span></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 33%; height: auto; text-align: left; vertical-align: top;">
+<p><strong>Name:</strong> ${consignor_name}<br /><strong>Physical Address:</strong> ${consignor_street}<br /><strong>City, State, Zip: </strong>${consignor_city}, ${consignor_state.name} ${consignor_zip}<br /><strong>Phone: </strong>${consignor_phone}<br /><strong>County: </strong>${origin_county.u_name}</p>
+</td>
+<td style="width: 33%; height: auto; vertical-align: top;">
+<p><strong>Consignee Name:</strong> ${consignee_name}<br /><strong>Physical Address: </strong>${conisgnee_street}<br /><strong>City, State, Zip: </strong>${consignee_city}, ${consignee_state.name} ${consignee_zip}<br /><strong>Phone:</strong> ${consignee_phone}</p>
+</td>
+<td style="width: 33%; height: auto; vertical-align: top;">
+<p><strong>Carrier: </strong>${carrier_name_and_address}<br /><strong>Entry Permit #:</strong> ${entry_permit_number}<br /><strong>Brand Inspection #: </strong>${brand_inspection_number}<br /><strong>Inspection Date: </strong>${inspection_date}<br /><strong>Shipment Date: </strong>${shipment_date}<br /><strong>Total # of Animals: </strong>${number_animals_shipped}<br /><strong>Species: </strong><br />Cattle: ${cattle}</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>CVI Printable Template</name>
+        <sms_alternate/>
+        <subject>Idaho CVI Number ${record_id}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-28 18:37:33</sys_created_on>
+        <sys_id>f8782ce8dbc39b00086c89584b9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CVI Printable Template</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sysevent_email_template_f8782ce8dbc39b00086c89584b9619bc</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-28 18:37:33</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

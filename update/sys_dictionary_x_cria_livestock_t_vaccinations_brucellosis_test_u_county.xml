@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-05-03 02:55:40</sys_created_on>
-        <sys_id>37438152db3113809b2689584b9619f4</sys_id>
+        <sys_id>ce8d9516db7a570066015d104b96194d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>County</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_dictionary_x_cria_livestock_t_vaccinations_brucellosis_test_u_county</sys_update_name>
-        <sys_updated_by>cervin</sys_updated_by>
-        <sys_updated_on>2018-05-03 02:55:40</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:53:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

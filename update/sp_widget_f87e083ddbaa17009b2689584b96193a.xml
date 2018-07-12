@@ -84,7 +84,7 @@ th .disabled{
         <docs/>
         <field_list/>
         <has_preview>true</has_preview>
-        <id>isda_market_cattle_printable_form</id>
+        <id>isda-market-cattle-printable-form</id>
         <internal>false</internal>
         <link/>
         <name>ISDA Market Cattle Printable Form</name>
@@ -254,20 +254,20 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-07 16:34:28</sys_created_on>
         <sys_id>f87e083ddbaa17009b2689584b96193a</sys_id>
-        <sys_mod_count>59</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name>ISDA Market Cattle Printable Form</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_widget_f87e083ddbaa17009b2689584b96193a</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-21 21:30:37</sys_updated_on>
+        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-07-11 20:19:47</sys_updated_on>
         <template><![CDATA[<style type="text/css" media="print">
-    @page 
-    {
-        size: landscape;   /* auto is the initial value */
-        margin: 3.5mm;  /* this affects the margin in the printer settings */
-    }
+  @page 
+  {
+    size: landscape;   /* auto is the initial value */
+    margin: 3.5mm;  /* this affects the margin in the printer settings */
+  }
 </style>
 <div ng-if="data.isvalid" class="panel panel-{{options.color}} b">
   <div class="panel-heading">
@@ -280,25 +280,25 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
   </table>
   <br>
   <!--<hr class="style1">-->
-	<div>
-      <table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
-              <tr style="background-color: #cccccc;">
-                <th width="35%" style="padding:5px; text-align:center;"><b>${Livestock Market Information}</b></th>
-                <th width="35%" style="padding:5px; text-align:center;"><b>${Test Information}</b></th>
-                <th width="10%" style="padding:5px; text-align:center;"><b>${Summary}</b></th>
-              </tr>
-              <tr>
-                <td valign="top" style="text-align:left; padding:5px;">
-                  <label><strong>Name: </strong>{{::data.loc}}<br><strong>Physical Address: </strong>{{::data.loc_street}}<br><strong>City, State, Zip: </strong>{{::data.loc_city}}<br><strong>Slaughter Establishment Number: </strong>{{::data.slaughter}}</label>
-                </td>
-                <td valign="top" style="text-align:left; padding:5px;">
-                  <label><strong>Testing Laboratory: </strong>{{::data.lab}}</label>
-                </td>
-                <td valign="top" style="text-align:left; padding:5px;">
-                  <label><strong>Negative: </strong>{{::data.test_interp.neg}}<br><strong>Suspect: </strong>{{::data.test_interp.susp}}<br><strong>Reactor: </strong>{{::data.test_interp.react}}<br><strong>Positive: </strong>{{::data.test_interp.pos}}<br><strong>Total Tested: </strong>{{::data.test_interp.total}}</label>
-                </td>
-              </tr>
-        </table>
+  <div>
+    <table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
+      <tr style="background-color: #cccccc;">
+        <th width="35%" style="padding:5px; text-align:center;"><b>${Livestock Market Information}</b></th>
+        <th width="35%" style="padding:5px; text-align:center;"><b>${Test Information}</b></th>
+        <th width="10%" style="padding:5px; text-align:center;"><b>${Summary}</b></th>
+      </tr>
+      <tr>
+        <td valign="top" style="text-align:left; padding:5px;">
+          <label><strong>Name: </strong>{{::data.loc}}<br><strong>Physical Address: </strong>{{::data.loc_street}}<br><strong>City, State, Zip: </strong>{{::data.loc_city}}<br><strong>Slaughter Establishment Number: </strong>{{::data.slaughter}}</label>
+        </td>
+        <td valign="top" style="text-align:left; padding:5px;">
+          <label><strong>Testing Laboratory: </strong>{{::data.lab}}</label>
+        </td>
+        <td valign="top" style="text-align:left; padding:5px;">
+          <label><strong>Negative: </strong>{{::data.test_interp.neg}}<br><strong>Suspect: </strong>{{::data.test_interp.susp}}<br><strong>Reactor: </strong>{{::data.test_interp.react}}<br><strong>Positive: </strong>{{::data.test_interp.pos}}<br><strong>Total Tested: </strong>{{::data.test_interp.total}}</label>
+        </td>
+      </tr>
+    </table>
     <br>
   </div>
   <div>
@@ -367,13 +367,16 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
     </table>
     <br>
   </div>
-    <!----- Determin if there are attachments if so display them ---->
+  <!----- Determin if there are attachments if so display them ---->
   <div class="table" align="center" style="width: 99%;" ng-if='data.attachments.length'>
     <h4 style="margin-left:25px;"><strong>Attachments</strong></h4>
-    <div  class="row" ng-repeat='attach in data.attachments')>
-     <div col-md-4 >
-        <img ng-src="{{attach}}" height='150px'>
-    </div>
+    <div  class="row">
+      <div ng-repeat='attach in data.attachments'>
+        <div class="clearfix" ng-if="$index % 3 == 0"></div>
+        <div class="col-sm-4">
+          <img ng-src="{{attach}}" height='150px' style='padding-top: 15px'>
+        </div>
+      </div>
     </div>
   </div>
   <div class="table" align="center" style="width: 99%;" >
@@ -382,7 +385,7 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
     <table class="table table-striped table-bordered table-condensed" align="center" width="99%" style="margin-left: 5px;">
       <thead>
         <tr>
-          <th style="background-color: #cccccc;" ng-repeat="keys in data.column_labels track by $index" tabindex="0">
+          <th style="background-color: #cccccc; width: 9%;" ng-repeat="keys in data.column_labels track by $index" tabindex="0">
             <div class="th-title" >{{keys}}</div>
           </th>
         </tr>
@@ -393,12 +396,12 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
 
         </tr>
       </tbody>
-   </table>
+    </table>
   </div>
   <br>
 
-<div ng-if="!data.isvalid">
-  ${Record not found}
-</div>]]></template>
+  <div ng-if="!data.isvalid">
+    ${Record not found}
+  </div>]]></template>
     </sp_widget>
 </record_update>

@@ -59,6 +59,7 @@
         <element label="Number of Cows" max_length="100" name="num_of_cows" type="string"/>
         <element label="Number of Heifers" max_length="100" name="num_of_heifers" type="string"/>
         <element label="Number of Steers" max_length="100" name="num_of_steers" type="string"/>
+        <element label="Official IDs" max_length="10000" name="official_ids" type="string"/>
         <element label="Origin County" max_length="32" name="origin_county" reference="u_counties" type="reference"/>
         <element label="Other" max_length="40" name="other" type="boolean"/>
         <element label="Lab" max_length="100" name="other_lab" type="string"/>

@@ -10,8 +10,8 @@
                 <element label="Unknown Vaccination Status" sequence="40" value="unknown_vacc_status"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Phone" max_length="15" name="consignee_phone" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Phone" max_length="15" name="consignor_phone" type="string"/>
+        <element label="Phone" max_length="15" name="consignee_phone" type="string"/>
+        <element label="Phone" max_length="15" name="consignor_phone" type="string"/>
         <element choice="1" label="DSA Herd" max_length="40" name="dsa_herd" type="choice">
             <choice>
                 <element label="Yes" sequence="10" value="yes"/>
@@ -26,6 +26,7 @@
         <element label="# of Cows" max_length="32" name="num_of_cows" type="string"/>
         <element label="# of Heifers" max_length="32" name="num_of_heifers" type="string"/>
         <element label="# of Steers" max_length="32" name="num_of_steers" type="string"/>
+        <element label="Official IDs" max_length="10000" name="official_ids" type="string"/>
         <element choice="1" label="Reason for Release" max_length="40" name="reason_for_release" type="choice">
             <choice>
                 <element label="Breeding" sequence="10" value="breeding"/>
@@ -34,49 +35,49 @@
             </choice>
         </element>
         <element label="Date" max_length="40" name="signature_date" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Remarks" max_length="255" name="slyd_area_remarks" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Brucellosis" max_length="40" name="slyd_brucellosis" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Brucellosis Free" max_length="40" name="slyd_brucellosis_free" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Cattle" max_length="40" name="slyd_cattle" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="City" max_length="255" name="slyd_consignee_city" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Consignee Name" max_length="255" name="slyd_consignee_name" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="State" max_length="32" name="slyd_consignee_state" reference="u_states" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Street Address" max_length="255" name="slyd_consignee_street" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Zip Code" max_length="10" name="slyd_consignee_zip" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="City" max_length="255" name="slyd_consignor_city" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Consignor Name" max_length="32" name="slyd_consignor_name" reference="sys_user" reference_qual="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" reference_qual_condition="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="State" max_length="32" name="slyd_consignor_state" reference="u_states" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Street Address" max_length="255" name="slyd_consignor_street" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Zip Code" max_length="10" name="slyd_consignor_zip" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Destination State" max_length="32" name="slyd_destination" reference="u_states" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Equine Infectious Anemia" max_length="40" name="slyd_eia" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Goats" max_length="40" name="slyd_goats" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Horses" max_length="40" name="slyd_horses" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Other" max_length="40" name="slyd_other" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Poultry" max_length="40" name="slyd_poultry" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Saleyard Release Date" max_length="40" name="slyd_release_date" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Sheep" max_length="40" name="slyd_sheep" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Date Bled" max_length="40" name="slyd_srvy_bruc_date_bled" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Laboratory" max_length="255" name="slyd_srvy_bruc_laboratory" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Number of Brucellosis Negative Cattle" max_length="100" name="slyd_srvy_bruc_negative_cattle" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Number of Test Eligible Cattle" max_length="255" name="slyd_srvy_bruc_test_eligible" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Accession #" max_length="255" name="slyd_srvy_eia_accession" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Date of negative Coggins Test" max_length="40" name="slyd_srvy_eia_date_coggins_test" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Laboratory" max_length="255" name="slyd_srvy_eia_lab" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Other" max_length="40" name="slyd_srvy_other" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Laboratory" max_length="255" name="slyd_srvy_other_lab" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Results" max_length="255" name="slyd_srvy_other_results" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Test" max_length="255" name="slyd_srvy_other_test" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Date the test was read" max_length="40" name="slyd_srvy_tb_date_read" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="All animals have tested negative for TB" max_length="40" name="slyd_srvy_tb_tested_negative" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Accession #" max_length="255" name="slyd_srvy_trich_accession" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Date Sample Collected" max_length="40" name="slyd_srvy_trich_date_collected" type="glide_date"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Laboratory" max_length="255" name="slyd_srvy_trich_lab" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="All eligible bulls in this shipment tested negative" max_length="40" name="slyd_srvy_trich_tested_negative" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Swine" max_length="40" name="slyd_swine" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Tuberculosis" max_length="40" name="slyd_tb" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="TB Free" max_length="40" name="slyd_tb_free" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Trichomoniasis" max_length="40" name="slyd_trich" type="boolean"/>
+        <element label="Remarks" max_length="255" name="slyd_area_remarks" type="string"/>
+        <element label="Brucellosis" max_length="40" name="slyd_brucellosis" type="boolean"/>
+        <element label="Brucellosis Free" max_length="40" name="slyd_brucellosis_free" type="boolean"/>
+        <element label="Cattle" max_length="40" name="slyd_cattle" type="boolean"/>
+        <element label="City" max_length="255" name="slyd_consignee_city" type="string"/>
+        <element label="Consignee Name" max_length="255" name="slyd_consignee_name" type="string"/>
+        <element label="State" max_length="32" name="slyd_consignee_state" reference="u_states" type="reference"/>
+        <element label="Street Address" max_length="255" name="slyd_consignee_street" type="string"/>
+        <element label="Zip Code" max_length="10" name="slyd_consignee_zip" type="string"/>
+        <element label="City" max_length="255" name="slyd_consignor_city" type="string"/>
+        <element label="Consignor Name" max_length="32" name="slyd_consignor_name" reference="sys_user" reference_qual="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" reference_qual_condition="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" type="reference"/>
+        <element label="State" max_length="32" name="slyd_consignor_state" reference="u_states" type="reference"/>
+        <element label="Street Address" max_length="255" name="slyd_consignor_street" type="string"/>
+        <element label="Zip Code" max_length="10" name="slyd_consignor_zip" type="string"/>
+        <element label="Destination State" max_length="32" name="slyd_destination" reference="u_states" type="reference"/>
+        <element label="Equine Infectious Anemia" max_length="40" name="slyd_eia" type="boolean"/>
+        <element label="Goats" max_length="40" name="slyd_goats" type="boolean"/>
+        <element label="Horses" max_length="40" name="slyd_horses" type="boolean"/>
+        <element label="Other" max_length="40" name="slyd_other" type="boolean"/>
+        <element label="Poultry" max_length="40" name="slyd_poultry" type="boolean"/>
+        <element label="Saleyard Release Date" max_length="40" name="slyd_release_date" type="glide_date"/>
+        <element label="Sheep" max_length="40" name="slyd_sheep" type="boolean"/>
+        <element label="Date Bled" max_length="40" name="slyd_srvy_bruc_date_bled" type="glide_date"/>
+        <element label="Laboratory" max_length="255" name="slyd_srvy_bruc_laboratory" type="string"/>
+        <element label="Number of Brucellosis Negative Cattle" max_length="100" name="slyd_srvy_bruc_negative_cattle" type="string"/>
+        <element label="Number of Test Eligible Cattle" max_length="255" name="slyd_srvy_bruc_test_eligible" type="string"/>
+        <element label="Accession #" max_length="255" name="slyd_srvy_eia_accession" type="string"/>
+        <element label="Date of negative Coggins Test" max_length="40" name="slyd_srvy_eia_date_coggins_test" type="glide_date"/>
+        <element label="Laboratory" max_length="255" name="slyd_srvy_eia_lab" type="string"/>
+        <element label="Other" max_length="40" name="slyd_srvy_other" type="boolean"/>
+        <element label="Laboratory" max_length="255" name="slyd_srvy_other_lab" type="string"/>
+        <element label="Results" max_length="255" name="slyd_srvy_other_results" type="string"/>
+        <element label="Test" max_length="255" name="slyd_srvy_other_test" type="string"/>
+        <element label="Date the test was read" max_length="40" name="slyd_srvy_tb_date_read" type="glide_date"/>
+        <element label="All animals have tested negative for TB" max_length="40" name="slyd_srvy_tb_tested_negative" type="boolean"/>
+        <element label="Accession #" max_length="255" name="slyd_srvy_trich_accession" type="string"/>
+        <element label="Date Sample Collected" max_length="40" name="slyd_srvy_trich_date_collected" type="glide_date"/>
+        <element label="Laboratory" max_length="255" name="slyd_srvy_trich_lab" type="string"/>
+        <element label="All eligible bulls in this shipment tested negative" max_length="40" name="slyd_srvy_trich_tested_negative" type="boolean"/>
+        <element label="Swine" max_length="40" name="slyd_swine" type="boolean"/>
+        <element label="Tuberculosis" max_length="40" name="slyd_tb" type="boolean"/>
+        <element label="TB Free" max_length="40" name="slyd_tb_free" type="boolean"/>
+        <element label="Trichomoniasis" max_length="40" name="slyd_trich" type="boolean"/>
         <element label="Other" max_length="32" name="species_other" type="string"/>
         <element label="Consignee" max_length="256" name="u_consignee" type="string"/>
         <element label="Consignor" max_length="256" name="u_consignor" type="string"/>

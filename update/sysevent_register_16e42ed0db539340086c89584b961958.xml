@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_cria_livestock_t.saleyard_attach</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>saleyard_attach</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-07-10 18:28:22</sys_created_on>
+        <sys_id>16e42ed0db539340086c89584b961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cria_livestock_t.saleyard_attach</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sysevent_register_16e42ed0db539340086c89584b961958</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-07-10 18:28:22</sys_updated_on>
+        <table>x_cria_livestock_t_saleyard_release</table>
+    </sysevent_register>
+</record_update>

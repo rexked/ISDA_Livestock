@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="x_cria_livestock_t_lab_results_bruc" label="Batchfill Bruc Test" max_length="40" name="x_cria_livestock_t_lab_results_bruc_test" sizeclass="5182" text_index="true" type="collection">
+    <element extends="x_cria_livestock_t_lab_results_bruc" label="Batchfill Bruc Test" max_length="40" name="x_cria_livestock_t_lab_results_bruc_test" text_index="true" type="collection">
         <element label="FPA" max_length="40" name="fpa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Accession" max_length="40" name="u_accession" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Certificate Number" max_length="40" name="u_cert_num" read_only="true" type="string"/>
     </element>
 </database>

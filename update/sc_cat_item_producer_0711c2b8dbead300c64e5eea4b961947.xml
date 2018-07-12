@@ -11,7 +11,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description/>
+        <description><![CDATA[<p>Please enter all names in all capital letters</p>]]></description>
         <entitlement_script/>
         <group/>
         <hide_sp>false</hide_sp>
@@ -40,12 +40,13 @@
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
-        <redirect_url>generated_record</redirect_url>
+        <redirect_url>catalog_home</redirect_url>
         <roles/>
         <sc_catalogs>907d3946dbf49300c64e5eea4b9619a9</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <script/>
+        <script><![CDATA[producer.url_redirect = "isda?id=livestock_index";
+gs.addInfoMessage("Your new location has been added to the system.");]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -53,14 +54,14 @@
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-04 22:21:46</sys_created_on>
         <sys_id>0711c2b8dbead300c64e5eea4b961947</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Add Location</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sc_cat_item_producer_0711c2b8dbead300c64e5eea4b961947</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-11 18:03:37</sys_updated_on>
+        <sys_updated_on>2018-07-05 20:08:19</sys_updated_on>
         <table_name>cmn_location</table_name>
         <template/>
         <type>item</type>
@@ -71,7 +72,7 @@
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow/>
+        <workflow display_value="Locations associations">1525bce8db879b0066015d104b961959</workflow>
     </sc_cat_item_producer>
     <sys_translated_text action="delete_multiple" query="documentkey=0711c2b8dbead300c64e5eea4b961947"/>
     <fx_price action="delete_multiple" query="id=0711c2b8dbead300c64e5eea4b961947"/>

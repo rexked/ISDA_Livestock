@@ -60,14 +60,14 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-18 20:03:04</sys_created_on>
         <sys_id>8e9edfa9dba1d7409b2689584b96195e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>State</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_8e9edfa9dba1d7409b2689584b96195e</sys_update_name>
-        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-05-22 18:46:08</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-21 23:50:17</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

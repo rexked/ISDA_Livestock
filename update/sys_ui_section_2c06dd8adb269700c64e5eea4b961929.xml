@@ -5,13 +5,13 @@
             <element>u_laboratory</element>
             <position>0</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-08 17:10:19</sys_created_on>
-            <sys_id>a33021c2db669700c64e5eea4b961978</sys_id>
+            <sys_created_on>2018-07-09 18:00:10</sys_created_on>
+            <sys_id>d8f49188db17534066015d104b96191f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lab Information Results" display_value="Lab Information Results" name="x_cria_livestock_t_vaccinations_brucellosis_test" sys_domain="global" view="Default view">2c06dd8adb269700c64e5eea4b961929</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-08 17:10:19</sys_updated_on>
+            <sys_updated_on>2018-07-09 18:00:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>u_lab_tech_signature</element>
             <position>1</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-08 17:10:19</sys_created_on>
-            <sys_id>2b3021c2db669700c64e5eea4b961978</sys_id>
+            <sys_created_on>2018-07-09 18:00:10</sys_created_on>
+            <sys_id>5cf49188db17534066015d104b96191f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lab Information Results" display_value="Lab Information Results" name="x_cria_livestock_t_vaccinations_brucellosis_test" sys_domain="global" view="Default view">2c06dd8adb269700c64e5eea4b961929</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-08 17:10:19</sys_updated_on>
+            <sys_updated_on>2018-07-09 18:00:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-08 17:10:19</sys_created_on>
-            <sys_id>ab3021c2db669700c64e5eea4b961978</sys_id>
+            <sys_created_on>2018-07-09 18:00:10</sys_created_on>
+            <sys_id>dcf49188db17534066015d104b96191f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lab Information Results" display_value="Lab Information Results" name="x_cria_livestock_t_vaccinations_brucellosis_test" sys_domain="global" view="Default view">2c06dd8adb269700c64e5eea4b961929</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-08 17:10:19</sys_updated_on>
+            <sys_updated_on>2018-07-09 18:00:10</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -47,13 +47,27 @@
             <element>u_date_signed</element>
             <position>3</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-08 17:10:19</sys_created_on>
-            <sys_id>2f3021c2db669700c64e5eea4b961978</sys_id>
+            <sys_created_on>2018-07-09 18:00:10</sys_created_on>
+            <sys_id>50f49188db17534066015d104b961920</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lab Information Results" display_value="Lab Information Results" name="x_cria_livestock_t_vaccinations_brucellosis_test" sys_domain="global" view="Default view">2c06dd8adb269700c64e5eea4b961929</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-08 17:10:19</sys_updated_on>
+            <sys_updated_on>2018-07-09 18:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_accession</element>
+            <position>4</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-09 18:00:10</sys_created_on>
+            <sys_id>d0f49188db17534066015d104b961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lab Information Results" display_value="Lab Information Results" name="x_cria_livestock_t_vaccinations_brucellosis_test" sys_domain="global" view="Default view">2c06dd8adb269700c64e5eea4b961929</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-09 18:00:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

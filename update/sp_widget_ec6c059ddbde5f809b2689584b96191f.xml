@@ -265,14 +265,14 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-05-24 21:32:24</sys_created_on>
         <sys_id>ec6c059ddbde5f809b2689584b96191f</sys_id>
-        <sys_mod_count>370</sys_mod_count>
+        <sys_mod_count>381</sys_mod_count>
         <sys_name>ISDA Bruc Test Printable Form</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_widget_ec6c059ddbde5f809b2689584b96191f</sys_update_name>
-        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-18 14:44:56</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-07-09 18:43:30</sys_updated_on>
         <template><![CDATA[<style type="text/css" media="print">
     @page 
     {
@@ -385,19 +385,22 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
     <!----- Determin if there are attachments if so display them ---->
   <div class="table" align="center" style="width: 99%;" ng-if='data.attachments.length'>
     <h4 style="margin-left:25px;"><strong>Attachments</strong></h4>
-    <div  class="row" ng-repeat='attach in data.attachments')>
-     <div col-md-4 >
-        <img ng-src="{{attach}}" height='150px'>
-    </div>
+    <div  class="row">
+      <div ng-repeat='attach in data.attachments'>
+        <div class="clearfix" ng-if="$index % 3 == 0"></div>
+        <div class="col-sm-4">
+          <img ng-src="{{attach}}" height='150px' style='padding-top: 15px'>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="table" id="TDTable" align="center" style="width: 99%;" >
+    <div class="table" id="TDTable" align="center" style="width: 99%;" >
     <h4 style="margin-left:25px;"><strong>Animal Information</strong></h4>
     <!-- PLACE HOLDER FOR ANIMAL ARRAY INFORMATION -->
     <table class="table table-striped table-bordered table-condensed" align="center" width="99%" style="margin-left: 5px;">
       <thead>
         <tr>
-          <th style="background-color: #cccccc;" ng-repeat="keys in data.column_labels track by $index" tabindex="0">
+          <th style="background-color: #cccccc; width: 9%;" ng-repeat="keys in data.column_labels">
             <div class="th-title" >{{keys}}</div>
           </th>
         </tr>

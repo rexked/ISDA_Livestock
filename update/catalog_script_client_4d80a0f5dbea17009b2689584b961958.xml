@@ -34,6 +34,7 @@
 			g_form.setValue('livestock_owner_address',gr.street);
 			g_form.setValue('livestock_owner_city',gr.city);
 			g_form.setValue('livestock_owner_zip',gr.zip);
+			g_form.setValue('livestock_owner_phone',gr.phone);
 			g_form.setValue('county',gr.u_county);
 			
 			// Update form fields from u_states table
@@ -55,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4d80a0f5dbea17009b2689584b961958</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Autofill location address information</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
@@ -63,7 +64,7 @@
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>catalog_script_client_4d80a0f5dbea17009b2689584b961958</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-07 17:57:52</sys_updated_on>
+        <sys_updated_on>2018-06-22 23:22:35</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

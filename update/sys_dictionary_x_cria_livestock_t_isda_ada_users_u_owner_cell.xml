@@ -49,15 +49,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-11 14:46:53</sys_created_on>
-        <sys_id>083c184bdbe21b00c64e5eea4b9619ab</sys_id>
+        <sys_id>ed8d5516db7a570066015d104b961917</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Owner Cell</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_dictionary_x_cria_livestock_t_isda_ada_users_u_owner_cell</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-11 14:46:53</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:53:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

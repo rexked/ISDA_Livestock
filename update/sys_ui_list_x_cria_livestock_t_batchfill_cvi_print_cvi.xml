@@ -18,18 +18,33 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>age</element>
+            <element>alt_id</element>
             <list_id display_value="x_cria_livestock_t_batchfill_cvi" element="NULL" name="x_cria_livestock_t_batchfill_cvi" parent="NULL" relationship="NULL" sys_domain="global" view="e2396df3db9a5300c64e5eea4b9619ab">49492537db9a5300c64e5eea4b961912</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-01 18:07:39</sys_created_on>
-            <sys_id>353a2d37db9a5300c64e5eea4b9619bc</sys_id>
+            <sys_created_on>2018-07-10 19:04:52</sys_created_on>
+            <sys_id>234d2258db539340086c89584b96191f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-01 18:07:39</sys_updated_on>
+            <sys_updated_on>2018-07-10 19:04:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>age</element>
+            <list_id display_value="x_cria_livestock_t_batchfill_cvi" element="NULL" name="x_cria_livestock_t_batchfill_cvi" parent="NULL" relationship="NULL" sys_domain="global" view="e2396df3db9a5300c64e5eea4b9619ab">49492537db9a5300c64e5eea4b961912</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-01 18:07:39</sys_created_on>
+            <sys_id>353a2d37db9a5300c64e5eea4b9619bc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-10 19:04:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -37,14 +52,14 @@
             <list_id display_value="x_cria_livestock_t_batchfill_cvi" element="NULL" name="x_cria_livestock_t_batchfill_cvi" parent="NULL" relationship="NULL" sys_domain="global" view="e2396df3db9a5300c64e5eea4b9619ab">49492537db9a5300c64e5eea4b961912</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>2</position>
+            <position>3</position>
             <sum>false</sum>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
             <sys_created_on>2018-06-01 18:08:17</sys_created_on>
             <sys_id>ab5a2937db9a5300c64e5eea4b96192b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-01 18:08:17</sys_updated_on>
+            <sys_updated_on>2018-07-10 19:05:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -52,14 +67,14 @@
             <list_id display_value="x_cria_livestock_t_batchfill_cvi" element="NULL" name="x_cria_livestock_t_batchfill_cvi" parent="NULL" relationship="NULL" sys_domain="global" view="e2396df3db9a5300c64e5eea4b9619ab">49492537db9a5300c64e5eea4b961912</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>3</position>
+            <position>4</position>
             <sum>false</sum>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
             <sys_created_on>2018-06-01 18:08:49</sys_created_on>
             <sys_id>716ae537db9a5300c64e5eea4b961921</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-01 18:08:49</sys_updated_on>
+            <sys_updated_on>2018-07-10 19:05:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

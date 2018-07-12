@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="sys_import_set_row" label="Livestock Owner Addresses" max_length="40" name="x_cria_livestock_t_livestock_owner_address" sizeclass="5576" type="collection">
+    <element extends="sys_import_set_row" label="Livestock Owner Addresses" max_length="40" name="x_cria_livestock_t_livestock_owner_address" type="collection">
         <element attributes="import_attribute_name=Active/Inactive,edge_encryption_enabled=true" label="Active/Inactive" max_length="40" name="u_active_inactive" type="string"/>
         <element attributes="import_attribute_name=Address1,edge_encryption_enabled=true" label="Address1" max_length="40" name="u_address1" type="string"/>
         <element attributes="import_attribute_name=Address2,edge_encryption_enabled=true" label="Address2" max_length="40" name="u_address2" type="string"/>

@@ -48,9 +48,9 @@
         <record/>
         <record_producer_table/>
         <reference>cmn_location</reference>
-        <reference_qual>u_prem_type=exhibition/show/fair^ORu_prem_type=slaughter plant^EQ</reference_qual>
-        <reference_qual_condition table="cmn_location">u_prem_type=exhibition/show/fair^ORu_prem_type=slaughter plant^EQ<item endquery="false" field="u_prem_type" goto="false" newquery="false" operator="=" or="false" value="exhibition/show/fair"/>
-            <item endquery="false" field="u_prem_type" goto="false" newquery="false" operator="=" or="true" value="slaughter plant"/>
+        <reference_qual>u_prem_type=Saleyard^ORu_prem_type=Slaughter plant^EQ</reference_qual>
+        <reference_qual_condition table="cmn_location">u_prem_type=Saleyard^ORu_prem_type=Slaughter plant^EQ<item endquery="false" field="u_prem_type" goto="false" newquery="false" operator="=" or="false" value="Saleyard"/>
+            <item endquery="false" field="u_prem_type" goto="false" newquery="false" operator="=" or="true" value="Slaughter plant"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <scale_max>5</scale_max>
@@ -63,14 +63,14 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-20 17:50:34</sys_created_on>
         <sys_id>1823d19adbad1b40c64e5eea4b961989</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Livestock Market</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_1823d19adbad1b40c64e5eea4b961989</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-12 21:46:36</sys_updated_on>
+        <sys_updated_on>2018-06-22 00:40:01</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

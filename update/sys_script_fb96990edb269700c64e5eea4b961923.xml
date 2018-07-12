@@ -61,6 +61,7 @@ if (gr.test_interp.getDisplayValue() == 'Pos'){
 	current.reactor = test_interp.react+'';
 	current.suspect = test_interp.susp+'';
 	current.total_num_test = test_interp.total+'';
+	current.update();
 	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -69,15 +70,15 @@ if (gr.test_interp.getDisplayValue() == 'Pos'){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb96990edb269700c64e5eea4b961923</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Update Test Summarys</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_script_fb96990edb269700c64e5eea4b961923</sys_update_name>
-        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-08 16:50:00</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-26 17:16:10</sys_updated_on>
         <template/>
         <when>before_display</when>
     </sys_script>

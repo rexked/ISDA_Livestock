@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Livestock T M2m Users Locations" max_length="40" name="x_cria_livestock_t_m2m_users_locations" type="collection">
+    <element label="Livestock T M2m Users Locations" max_length="40" name="x_cria_livestock_t_m2m_users_locations" sizeclass="25133" type="collection">
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
         <index name="index">

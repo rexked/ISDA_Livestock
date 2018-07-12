@@ -84,7 +84,7 @@ th .disabled{
         <docs/>
         <field_list/>
         <has_preview>true</has_preview>
-        <id>isda_saleyard_printable_form</id>
+        <id>isda-saleyard-printable-form</id>
         <internal>false</internal>
         <link/>
         <name>ISDA Saleyard Printable Form</name>
@@ -183,7 +183,7 @@ if (articleGR.getValue('article_type') == 'wiki'){
 		t.num_of_calves = articleGR.getDisplayValue('num_of_calves');
 		t.num_of_steers = articleGR.getDisplayValue('num_of_steers');
 	}
-	t.goat = articleGR.getValue('slyd_goat');
+	t.goat = articleGR.getValue('slyd_goats');
 	if(t.goat == true){
 		if(t.species_field == null){
 			t.species_field = "Goats";
@@ -329,20 +329,20 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-06 23:17:33</sys_created_on>
         <sys_id>af11a8e5dba25700c64e5eea4b9619fe</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name>ISDA Saleyard Printable Form</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_widget_af11a8e5dba25700c64e5eea4b9619fe</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-21 20:25:37</sys_updated_on>
+        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-07-11 20:20:14</sys_updated_on>
         <template><![CDATA[<style type="text/css" media="print">
-    @page 
-    {
-        size: landscape;   /* auto is the initial value */
-        margin: 3.5mm;  /* this affects the margin in the printer settings */
-    }
+  @page 
+  {
+    size: landscape;   /* auto is the initial value */
+    margin: 3.5mm;  /* this affects the margin in the printer settings */
+  }
 </style>
 <div ng-if="data.isvalid" class="panel panel-{{options.color}} b">
   <div class="panel-heading">
@@ -355,25 +355,25 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
   </table>
   <br>
   <!--<hr class="style1">-->
-	<div>
-      <table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
-              <tr style="background-color: #cccccc;">
-                <th width="33%" style="padding:5px; text-align:center;"><b>${Consignor - Contact Person at Origin}</b></th>
-                <th width="33%" style="padding:5px; text-align:center;"><b>${Consignee - Contact Person at Destination}</b></th>
-              	<th width="33%" style="padding:5px; text-align:center;"><b>${Shipment Information}</b></th>
-              </tr>
-              <tr>
-                <td valign="top" style="text-align:left; padding:5px;">
-                  <label><strong>Name: </strong>{{::data.consignor}}<br><strong>Physical Address: </strong>{{::data.consignor_street}}<br><strong>City, State, Zip: </strong>{{::data.consignor_city}}<br><strong>Phone: </strong>{{::data.consignor_phone}}<br><strong>County: </strong>{{::data.consignor_county}}</label>
-                </td>
-                <td valign="top" style="text-align:left; padding:5px;">
-                  <label><strong>Name: </strong>{{::data.consignee}}<br><strong>Physical Address: </strong>{{::data.consignee_street}}<br><strong>City, State, Zip: </strong>{{::data.consignee_city}}<br><strong>Phone: </strong>{{::data.consignee_phone}}</label>
-                </td>
-              	<td valign="top" style="text-align:left; padding:5px;">
-                  <label><strong>Saleyard Name: </strong>{{::data.saleyrd}}<br><strong>Saleyard Release Date: </strong>{{::data.release}}<br><strong>Entry Permit Number: </strong>{{::data.entry_permit}}<br><strong>Brand Inspection Number: </strong>{{::data.brand_insp}}<br><strong>Reason for Release: </strong>{{::data.release_reason}}<br><strong>Number of Animals Shipped: </strong>{{::data.num_animals}}<br><strong>Species: </strong>{{::data.species_field}}</label>
-                </td>
-              </tr>
-        </table>
+  <div>
+    <table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
+      <tr style="background-color: #cccccc;">
+        <th width="33%" style="padding:5px; text-align:center;"><b>${Consignor - Contact Person at Origin}</b></th>
+        <th width="33%" style="padding:5px; text-align:center;"><b>${Consignee - Contact Person at Destination}</b></th>
+        <th width="33%" style="padding:5px; text-align:center;"><b>${Shipment Information}</b></th>
+      </tr>
+      <tr>
+        <td valign="top" style="text-align:left; padding:5px;">
+          <label><strong>Name: </strong>{{::data.consignor}}<br><strong>Physical Address: </strong>{{::data.consignor_street}}<br><strong>City, State, Zip: </strong>{{::data.consignor_city}}<br><strong>Phone: </strong>{{::data.consignor_phone}}<br><strong>County: </strong>{{::data.consignor_county}}</label>
+        </td>
+        <td valign="top" style="text-align:left; padding:5px;">
+          <label><strong>Name: </strong>{{::data.consignee}}<br><strong>Physical Address: </strong>{{::data.consignee_street}}<br><strong>City, State, Zip: </strong>{{::data.consignee_city}}<br><strong>Phone: </strong>{{::data.consignee_phone}}</label>
+        </td>
+        <td valign="top" style="text-align:left; padding:5px;">
+          <label><strong>Saleyard Name: </strong>{{::data.saleyrd}}<br><strong>Saleyard Release Date: </strong>{{::data.release}}<br><strong>Entry Permit Number: </strong>{{::data.entry_permit}}<br><strong>Brand Inspection Number: </strong>{{::data.brand_insp}}<br><strong>Reason for Release: </strong>{{::data.release_reason}}<br><strong>Number of Animals Shipped: </strong>{{::data.num_animals}}<br><strong>Species: </strong>{{::data.species_field}}</label>
+        </td>
+      </tr>
+    </table>
     <br>
   </div>
   <div>
@@ -496,17 +496,20 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
         <th style="padding:5px; text-align:center;"><b>${Description of Markings}</b></th>
       </tr>
       <tr>
-      	<td style="padding:5px; text-align:center;">{{::data.id_marks}}</td>
+        <td style="padding:5px; text-align:center;">{{::data.id_marks}}</td>
       </tr>
     </table>
   </div>
-    <!----- Determin if there are attachments if so display them ---->
+  <!----- Determin if there are attachments if so display them ---->
   <div class="table" align="center" style="width: 99%;" ng-if='data.attachments.length'>
     <h4 style="margin-left:25px;"><strong>Attachments</strong></h4>
-    <div  class="row" ng-repeat='attach in data.attachments')>
-     <div col-md-4 >
-        <img ng-src="{{attach}}" height='150px'>
-    </div>
+    <div  class="row">
+      <div ng-repeat='attach in data.attachments'>
+        <div class="clearfix" ng-if="$index % 3 == 0"></div>
+        <div class="col-sm-4">
+          <img ng-src="{{attach}}" height='150px' style='padding-top: 15px'>
+        </div>
+      </div>
     </div>
   </div>
   <div class="table" align="center" style="width: 99%;" >
@@ -515,7 +518,7 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
     <table class="table table-striped table-bordered table-condensed" align="center" width="99%" style="margin-left: 5px;">
       <thead>
         <tr>
-          <th style="background-color: #cccccc;" ng-repeat="keys in data.column_labels track by $index" tabindex="0">
+          <th style="background-color: #cccccc; width: 19%;" ng-repeat="keys in data.column_labels track by $index" tabindex="0">
             <div class="th-title" >{{keys}}</div>
           </th>
         </tr>
@@ -526,12 +529,12 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
 
         </tr>
       </tbody>
-   </table>
+    </table>
   </div>
   <br>
 
-<div ng-if="!data.isvalid">
-  ${Record not found}
-</div>]]></template>
+  <div ng-if="!data.isvalid">
+    ${Record not found}
+  </div>]]></template>
     </sp_widget>
 </record_update>

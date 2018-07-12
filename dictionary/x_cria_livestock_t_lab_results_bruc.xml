@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Batchfill Bruc" max_length="40" name="x_cria_livestock_t_lab_results_bruc" sizeclass="6312" text_index="true" type="collection">
+    <element label="Batchfill Bruc" max_length="40" name="x_cria_livestock_t_lab_results_bruc" sizeclass="6143" text_index="true" type="collection">
         <element label="Actual Sequence" max_length="40" name="actual_sequence" type="string"/>
         <element label="Address" max_length="40" name="address" type="string"/>
         <element label="Age (In Months)" max_length="10" name="age" type="string"/>
+        <element label="Alternate ID" max_length="40" name="alt_id" type="string"/>
         <element label="Back Tag #" max_length="40" name="back_tag" type="string"/>
         <element choice="1" label="BAPA" max_length="40" name="bapa" type="choice">
             <choice>
@@ -83,7 +84,6 @@
             </choice>
         </element>
         <element label="State" max_length="40" name="state" type="string"/>
-        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element choice="1" label="Final Test Interp" max_length="40" name="test_interp" type="choice">
             <choice>
                 <element label="Neg" value="neg"/>

@@ -5,21 +5,21 @@
         <description>table searches for Livestock app</description>
         <group/>
         <name>Livestock</name>
-        <order>100</order>
-        <roles>x_cria_livestock_t.admin,admin</roles>
+        <order>1</order>
+        <roles>x_cria_livestock_t.admin,x_cria_livestock_t.read_only</roles>
         <searched>true</searched>
         <sys_class_name>ts_group</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-15 20:27:51</sys_created_on>
         <sys_id>90709618db32db00c64e5eea4b9619d8</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Livestock</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>ts_group_90709618db32db00c64e5eea4b9619d8</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-15 20:34:08</sys_updated_on>
-        <tables>BatchFill CVIs, Batchfill Saleyard Releases, Brucellosis Vaccination Records, Batchfill Brucs, Batchfill Market Cattles, Batchfill Bruc Tests, Batchfill Bruc Vaccs, Batchfill Triches, Batchfill Tuberculosis, Saleyard Releases, Brucellosis Tests, CVI / Hea</tables>
+        <sys_updated_on>2018-07-05 20:11:41</sys_updated_on>
+        <tables>Brucellosis Vaccination Records, Saleyard Releases, Brucellosis Tests, CVI / Health Certificates, Brucellosis Market Cattle Testings, Trich Test &amp; Reports, Tuberculosis Tests</tables>
     </ts_group>
 </record_update>

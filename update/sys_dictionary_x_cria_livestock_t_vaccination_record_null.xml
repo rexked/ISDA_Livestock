@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-03-13 16:28:25</sys_created_on>
-        <sys_id>755451cedb749300c64e5eea4b9619b1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>f18d5516db7a570066015d104b961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_cria_livestock_t_vaccination_record</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
-        <sys_update_name>sys_dictionary_x_cria_livestock_t_vaccination_record_null</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-15 20:28:48</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_cria_livestock_t_vaccination_record_NULL</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:53:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>true</text_index>
         <unique>false</unique>

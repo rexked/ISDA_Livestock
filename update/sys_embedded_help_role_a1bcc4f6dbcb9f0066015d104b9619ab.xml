@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_cria_livestock_t.read_only" name="x_cria_livestock_t.read_only">728c84f6dbcb9f0066015d104b961963</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-07-05 15:32:11</sys_created_on>
+        <sys_id>a1bcc4f6dbcb9f0066015d104b9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>728c84f6dbcb9f0066015d104b961963</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_embedded_help_role_a1bcc4f6dbcb9f0066015d104b9619ab</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-07-05 15:32:11</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

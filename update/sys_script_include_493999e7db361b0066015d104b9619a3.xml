@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_cria_livestock_t.ISDA_addContact</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ISDA_addContact</name>
+        <script><![CDATA[var ISDA_addContact = Class.create();
+ISDA_addContact.prototype = {
+    initialize: function() {
+		
+    },
+	
+	createContacts : function(){
+		
+		if(g_form.getValue('isda_locContact_type') == 'New Contact'){
+		console.log("I'm a new contact");
+		var gr = new GlideRecord('sys_user');
+		gr.initialize();
+		gr.first_name = g_form.getDisplayValue('isda_locContact_fname');
+		gr.last_name = g_form.getDisplayValue('isda_locContact_lname');
+		gr.email = g_form.getDisplayValue('isda_locContact_email');
+		gr.phone = g_form.getDisplayValue('isda_locContact_phone');
+		gr.street = g_form.getDisplayValue('isda_locContact_street');
+		gr.city = g_form.getDisplayValue('isda_locContact_city');
+		gr.state = g_form.getDisplayValue('isda_locContact_state');
+		gr.zip = g_form.getDisplayValue('isda_locContact_zip');
+		gr.insert();
+		var gl = new GlideRecord('x_cria_livestock_t_m2m_users_locations');
+		gl.initialize();
+		gl.location = g_form.getDisplayValue('name');
+		gl.user = gr.sys_id;
+		gl.insert();
+	}else{
+		console.log("I'm an existing contact");
+		var cont = new GlideRecord('x_cria_livestock_t_m2m_users_locations');
+		cont.initialize();
+		cont.location = g_form.getDisplayValue('name');
+		cont.user = g_form.getDisplayValue('isda_locContact_reference');
+		cont.insert();
+	}
+	},
+
+    type: 'ISDA_addContact'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-25 19:55:31</sys_created_on>
+        <sys_id>493999e7db361b0066015d104b9619a3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ISDA_addContact</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_include_493999e7db361b0066015d104b9619a3</sys_update_name>
+        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-25 22:33:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

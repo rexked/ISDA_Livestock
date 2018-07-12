@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_type_of_test" table="x_cria_livestock_t_vaccinations_brucellosis_test" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Initial</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_brucellosis_test</name>
+            <sequence/>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-22 01:37:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06d0d656dbbe570066015d104b961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-22 01:37:15</sys_updated_on>
+            <value>Initial</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retest</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_brucellosis_test</name>
+            <sequence/>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-22 01:37:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9f01a56dbbe570066015d104b961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-22 01:37:31</sys_updated_on>
+            <value>Retest</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_type_of_test</element>
+            <name>x_cria_livestock_t_vaccinations_brucellosis_test</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-22 01:37:15</sys_created_on>
+            <sys_id>58f01a56dbbe570066015d104b961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_type_of_test</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_brucellosis_test_u_type_of_test</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-22 01:37:15</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

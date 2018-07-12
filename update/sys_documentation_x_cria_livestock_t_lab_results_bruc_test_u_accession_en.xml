@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_accession" label="Accession" language="en" table="x_cria_livestock_t_lab_results_bruc_test">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_accession</element>
+            <help/>
+            <hint/>
+            <label>Accession</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc_test</name>
+            <plural>Accessions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-09 17:58:19</sys_created_on>
+            <sys_id>cd849d08db17534066015d104b9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Accession</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_lab_results_bruc_test_u_accession_en</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-09 17:58:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
