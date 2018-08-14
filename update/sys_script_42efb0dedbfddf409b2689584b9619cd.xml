@@ -6,7 +6,7 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>true</action_update>
+        <action_update>false</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -393,6 +393,7 @@
 		gr.u_testing_lab = current.variables.test_lab;
 		gr.u_date = current.variables.certified_date;
 		gr.u_signature = current.variables.signature;
+		gr.dsa_herd = current.variables.dsa_herd;
 		gr.record_id = recordID.generateID( recordID_type[1] );
 		gs.addInfoMessage("Your record ID is: " + gr.record_id);
 		gr.insert();
@@ -474,7 +475,7 @@
 		gr = new GlideRecord('x_cria_livestock_t_saleyard_release');
 		gr.initialize();
 		gr.u_saleyard = current.variables.saleyard;
-		gr.u_consignor = current.variables.name_of_consignor + '\n' + current.variables.consignor_physical_address + '\n' + current.variables.consignor_city+ ", " + current.variables.consignor_state.getDisplayValue() + " " + current.variables.consignor_zip;
+		gr.u_consignor = current.variables.consignor_name + '\n' + current.variables.consignor_physical_address + '\n' + current.variables.consignor_city+ ", " + current.variables.consignor_state.getDisplayValue() + " " + current.variables.consignor_zip;
 		gr.consignor_phone = current.variables.consignor_phone_number;
 		gr.u_consignee = current.variables.name_of_consignee.getDisplayValue() + '\n' + current.variables.consignee_physical_address + '\n' + current.variables.consignee_city + ", " + current.variables.consignee_state.getDisplayValue() + " " + current.variables.consignee_zip;
 		gr.consignee_phone = current.variables.consignee_phone_number;
@@ -492,7 +493,7 @@
 		gr.vaccination_status = current.variables.vaccination_status;
 		gr.identifying_marks = current.variables.horse_identifying_marks;
 		gr.record_id = current.variables.sale_yard_cert_id;
-		gr.slyd_consignor_name = current.variables.name_of_consignor;
+		gr.slyd_consignor_name = current.variables.consignor_name;
 		gr.slyd_consignor_street = current.variables.consignor_physical_address;
 		gr.slyd_consignor_city = current.variables.consignor_city;
 		gr.slyd_consignor_state = current.variables.consignor_state;
@@ -576,7 +577,7 @@ gr.update();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42efb0dedbfddf409b2689584b9619cd</sys_id>
-        <sys_mod_count>260</sys_mod_count>
+        <sys_mod_count>263</sys_mod_count>
         <sys_name>Livestock Data Transform</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
@@ -584,7 +585,7 @@ gr.update();
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_script_42efb0dedbfddf409b2689584b9619cd</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-11 21:07:44</sys_updated_on>
+        <sys_updated_on>2018-07-25 17:07:32</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

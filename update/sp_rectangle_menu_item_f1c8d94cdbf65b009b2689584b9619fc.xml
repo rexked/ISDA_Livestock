@@ -16,7 +16,7 @@
         <label>Brucellosis Vaccination</label>
         <order>300</order>
         <record_script/>
-        <sc_cat_item display_value="Brucellosis Vaccination Record">ca37af2adbb8d300c64e5eea4b9619a9</sc_cat_item>
+        <sc_cat_item display_value="Brucellosis Vaccination Record - OLD">ca37af2adbb8d300c64e5eea4b9619a9</sc_cat_item>
         <sc_category/>
         <short_description/>
         <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>

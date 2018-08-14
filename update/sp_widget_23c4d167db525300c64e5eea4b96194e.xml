@@ -368,22 +368,23 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-05-31 21:55:31</sys_created_on>
         <sys_id>23c4d167db525300c64e5eea4b96194e</sys_id>
-        <sys_mod_count>375</sys_mod_count>
+        <sys_mod_count>386</sys_mod_count>
         <sys_name>ISDA CVI Printable Form</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_widget_23c4d167db525300c64e5eea4b96194e</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-10 19:05:52</sys_updated_on>
+        <sys_updated_on>2018-08-13 22:16:22</sys_updated_on>
         <template><![CDATA[<style type="text/css" media="print">
+  #Header, #Footer { display: none !important; }
   @page 
   {
     size: landscape;   /* auto is the initial value */
-    margin: 3.5mm;  /* this affects the margin in the printer settings */
   }
 </style>
-<div ng-if="data.isvalid" class="panel panel-{{options.color}} b">
+<!--<div ng-if="data.isvalid" class="panel panel-{{options.color}} b">-->
+<div ng-if="data.isvalid">
   <div class="panel-heading">
     <h4 class="panel-title" align="right">Certificate Number: <font color="red" style="font-weight: bold;">{{::data.number}}</font></h4>
   </div>
@@ -394,6 +395,8 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
   </table>
   <br>
   <!--<hr class="style1">-->
+  <img src="ISDA_Background.png" style="display:block; margin-left:auto; margin-right:auto; width:80%;"/>
+  <div align="center" style="position: absolute; top:175px; left:30px; width:95%;">
   <div>
     <table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
       <tr style="background-color: #cccccc;">
@@ -479,7 +482,7 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
             <input type="checkbox" ng-checked="{{::data.tb}} == true" disabled="disabled"> Tuberculosis<br>
           </div>
         </td>
-        <td style="padding:5px; text-align:left; font-size: 8pt;">{{::data.remarks}}
+        <td style="padding:5px; text-align:left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">{{::data.remarks}}
           <div ng-if="::data.cattle == true">
             <hr>
             <label style="font-size:8pt;"><strong>Brucellosis Vaccination Status (females only): </strong>{{::data.vaccination_status}}</label><br>
@@ -568,6 +571,7 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
         </tr>
       </tbody>
     </table>
+  </div>
   </div>
   <br>
 

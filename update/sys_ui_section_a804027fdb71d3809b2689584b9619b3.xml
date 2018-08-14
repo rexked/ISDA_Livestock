@@ -5,13 +5,13 @@
             <element>record_id</element>
             <position>0</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 23:01:26</sys_created_on>
-            <sys_id>8773a7dcdbd39340086c89584b961923</sys_id>
+            <sys_created_on>2018-08-03 22:50:27</sys_created_on>
+            <sys_id>98274744dbb7db00c64e5eea4b9619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_trichomoniasis" sys_domain="global" view="Default view">a804027fdb71d3809b2689584b9619b3</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 23:01:26</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:50:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>isda_accession</element>
             <position>1</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 23:01:26</sys_created_on>
-            <sys_id>0b73a7dcdbd39340086c89584b961923</sys_id>
+            <sys_created_on>2018-08-03 22:50:27</sys_created_on>
+            <sys_id>1c274744dbb7db00c64e5eea4b9619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_trichomoniasis" sys_domain="global" view="Default view">a804027fdb71d3809b2689584b9619b3</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 23:01:26</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:50:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,69 +33,83 @@
             <element>status</element>
             <position>2</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 23:01:26</sys_created_on>
-            <sys_id>8b73a7dcdbd39340086c89584b961923</sys_id>
+            <sys_created_on>2018-08-03 22:50:27</sys_created_on>
+            <sys_id>9c274744dbb7db00c64e5eea4b9619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_trichomoniasis" sys_domain="global" view="Default view">a804027fdb71d3809b2689584b9619b3</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 23:01:26</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:50:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>official_ids</element>
+            <position>3</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-08-03 22:50:27</sys_created_on>
+            <sys_id>10274744dbb7db00c64e5eea4b9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_trichomoniasis" sys_domain="global" view="Default view">a804027fdb71d3809b2689584b9619b3</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-08-03 22:50:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 23:01:26</sys_created_on>
-            <sys_id>0f73a7dcdbd39340086c89584b961923</sys_id>
+            <sys_created_on>2018-08-03 22:50:27</sys_created_on>
+            <sys_id>90274744dbb7db00c64e5eea4b9619d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_trichomoniasis" sys_domain="global" view="Default view">a804027fdb71d3809b2689584b9619b3</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 23:01:26</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:50:27</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>trich_location</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 23:01:26</sys_created_on>
-            <sys_id>8f73a7dcdbd39340086c89584b961923</sys_id>
+            <sys_created_on>2018-08-03 22:50:27</sys_created_on>
+            <sys_id>14274744dbb7db00c64e5eea4b9619d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_trichomoniasis" sys_domain="global" view="Default view">a804027fdb71d3809b2689584b9619b3</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 23:01:26</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:50:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_remarks</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 23:01:26</sys_created_on>
-            <sys_id>0373a7dcdbd39340086c89584b961924</sys_id>
+            <sys_created_on>2018-08-03 22:50:27</sys_created_on>
+            <sys_id>94274744dbb7db00c64e5eea4b9619d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_trichomoniasis" sys_domain="global" view="Default view">a804027fdb71d3809b2689584b9619b3</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 23:01:26</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:50:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>culture_time_collected</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 23:01:26</sys_created_on>
-            <sys_id>8373a7dcdbd39340086c89584b961924</sys_id>
+            <sys_created_on>2018-08-03 22:50:27</sys_created_on>
+            <sys_id>18274744dbb7db00c64e5eea4b9619d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_trichomoniasis" sys_domain="global" view="Default view">a804027fdb71d3809b2689584b9619b3</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 23:01:26</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:50:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

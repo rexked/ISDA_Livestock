@@ -69,7 +69,7 @@
         <element label="Date Signed" max_length="40" name="u_date_signed" type="glide_date"/>
         <element label="Herd Owner Info" max_length="256" name="u_herd_owner_info" type="string"/>
         <element label="Laboratory" max_length="100" name="u_laboratory" type="string"/>
-        <element label="Lab Tech Signature" max_length="32" name="u_lab_tech_signature" reference="sys_user" reference_qual="x_cria_livestock_t_livestock_user=true^EQ" reference_qual_condition="x_cria_livestock_t_livestock_user=true^EQ" type="reference"/>
+        <element label="Lab Tech Signature" max_length="32" name="u_lab_tech_signature" reference="sys_user" reference_qual="x_cria_livestock_t_livestock_user=true^x_cria_livestock_t_u_usertype=lab tech^EQ" reference_qual_condition="x_cria_livestock_t_livestock_user=true^x_cria_livestock_t_u_usertype=lab tech^EQ" type="reference"/>
         <element label="Phone Number" max_length="32" name="u_phone_number" type="string"/>
         <element label="Remarks" max_length="255" name="u_remarks" type="string"/>
         <element label="Veterinarian" max_length="32" name="u_veterinarian" reference="sys_user" type="reference"/>

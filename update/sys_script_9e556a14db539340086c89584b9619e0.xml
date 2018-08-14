@@ -4,9 +4,9 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>false</action_insert>
+        <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -44,7 +44,7 @@
 	var urlCSV = gs.getProperty("glide.servlet.uri") + 'x_cria_livestock_t_saleyard_release.do?CSV&sysparm_view=export&sys_id=' + current.sys_id;
 	CSVrm.setEndpoint(urlCSV);
 	CSVrm.setBasicAuth(gs.getProperty('glide.user.userid'), gs.getProperty('glide.user.password'));
-	CSVrm.saveResponseBodyAsAttachment(current.getTableName(), current.sys_id, "Idaho CVI Form " + current.getDisplayValue('slyd_consignor_name') + " " + current.signature_date + ".csv");
+	CSVrm.saveResponseBodyAsAttachment(current.getTableName(), current.sys_id, "Idaho Saleyard Form " + current.getDisplayValue('slyd_consignor_name') + " " + current.signature_date + ".csv");
 	var CSVresponse = CSVrm.execute();
 	
 	// Generate CSV of animals attachment
@@ -53,7 +53,7 @@
 	var urlCSVA = gs.getProperty("glide.servlet.uri") + 'x_cria_livestock_t_batchfill_saleyard_release.do?CSV&sysparm_query=parent=' + current.sys_id;
 	CSVArm.setEndpoint(urlCSVA);
 	CSVArm.setBasicAuth(gs.getProperty('glide.user.userid'), gs.getProperty('glide.user.password'));
-	CSVArm.saveResponseBodyAsAttachment(current.getTableName(), current.sys_id, "Idaho CVI Animals " + current.getDisplayValue('slyd_consignor_name') + " " + current.signature_date + ".csv");
+	CSVArm.saveResponseBodyAsAttachment(current.getTableName(), current.sys_id, "Idaho Saleyard Animals " + current.getDisplayValue('slyd_consignor_name') + " " + current.signature_date + ".csv");
 	var CSVAresponse = CSVArm.execute();
 	
 	// Generate XML of form attachment
@@ -81,7 +81,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9e556a14db539340086c89584b9619e0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Create attachments for email</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
@@ -89,7 +89,7 @@
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_script_9e556a14db539340086c89584b9619e0</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-10 18:39:02</sys_updated_on>
+        <sys_updated_on>2018-08-06 18:50:44</sys_updated_on>
         <template/>
         <when>async</when>
     </sys_script>

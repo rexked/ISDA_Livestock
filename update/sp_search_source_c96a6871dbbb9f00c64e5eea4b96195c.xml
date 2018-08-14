@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_search_source">
+    <sp_search_source action="INSERT_OR_UPDATE">
+        <advanced_typeahead_config>false</advanced_typeahead_config>
+        <condition/>
+        <data_fetch_script><![CDATA[(function(query) {
+  var results = [];
+  /* Calculate your results here. */
+  
+  return results;
+})(query);]]></data_fetch_script>
+        <display_fields>name_herd_owner,sys_created_on</display_fields>
+        <enable_typeahead>true</enable_typeahead>
+        <id>bruc_test</id>
+        <is_scripted_source>false</is_scripted_source>
+        <name>Brucellosis Test</name>
+        <page display_value="isda_records_list">9ea17b23dbea1b009b2689584b96194d</page>
+        <primary_display_field>record_id</primary_display_field>
+        <roles>x_cria_livestock_t.AHL_User,x_cria_livestock_t.admin,x_cria_livestock_t.general_users,x_cria_livestock_t.read_only,x_cria_livestock_t.user</roles>
+        <search_page_template><![CDATA[<div>
+  <a href="?id=isda_bruc_test_printable_form&sys_id={{item.sys_id}}&table=x_cria_livestock_t_vaccinations_brucellosis_test" class="h4 text-primary m-b-sm block">
+    <span ng-bind-html="highlight(item.primary, data.q)"></span>
+  </a>
+  <span class="text-muted" ng-repeat="f in item.fields | limitTo: 4">
+    <span class="m-l-xs m-r-xs" ng-if="!$first"> &middot; </span>
+    {{f.label}}: <span ng-bind-html="highlight(f.display_value, data.q)"></span>
+  </span>
+</div>]]></search_page_template>
+        <source_table>x_cria_livestock_t_vaccinations_brucellosis_test</source_table>
+        <sys_class_name>sp_search_source</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-08-08 22:05:00</sys_created_on>
+        <sys_id>c96a6871dbbb9f00c64e5eea4b96195c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Brucellosis Test</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_search_source_c96a6871dbbb9f00c64e5eea4b96195c</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-08-08 22:55:16</sys_updated_on>
+        <typeahead_glyph>flask</typeahead_glyph>
+        <typeahead_template/>
+    </sp_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=c96a6871dbbb9f00c64e5eea4b96195c"/>
+</record_update>

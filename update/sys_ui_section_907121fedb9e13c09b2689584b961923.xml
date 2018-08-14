@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_section caption="" section_id="907121fedb9e13c09b2689584b961923" sys_domain="global" table="x_cria_livestock_t_lab_results_bruc_test" version="3" view="">
+    <sys_ui_section caption="Individual Animal Entry" section_id="907121fedb9e13c09b2689584b961923" sys_domain="global" table="x_cria_livestock_t_lab_results_bruc_test" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>id</element>
             <position>0</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>27ed2298db539340086c89584b961909</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>aa5acfe6db9b974066015d104b9619ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>alt_id</element>
             <position>1</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>a7ed2298db539340086c89584b961909</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>2e5acfe6db9b974066015d104b9619ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>fpa</element>
             <position>2</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>2bed2298db539340086c89584b961909</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>ae5acfe6db9b974066015d104b9619ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>remarks</element>
             <position>3</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>abed2298db539340086c89584b961909</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>225acfe6db9b974066015d104b9619ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>2fed2298db539340086c89584b961909</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>a25acfe6db9b974066015d104b9619ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>u_cert_num</element>
             <position>5</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>afed2298db539340086c89584b961909</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>265acfe6db9b974066015d104b9619ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>vaccination_tattoo</element>
             <position>6</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>23ed2298db539340086c89584b96190a</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>a65acfe6db9b974066015d104b9619ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>age</element>
             <position>7</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>a3ed2298db539340086c89584b96190a</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>2a5acfe6db9b974066015d104b9619ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>breed</element>
             <position>8</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>27ed2298db539340086c89584b96190a</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>aa5acfe6db9b974066015d104b9619ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,13 +131,13 @@
             <element>sex</element>
             <position>9</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>a7ed2298db539340086c89584b96190a</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>2e5acfe6db9b974066015d104b9619ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -145,13 +145,13 @@
             <element>.end_split</element>
             <position>10</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>2bed2298db539340086c89584b96190a</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>ae5acfe6db9b974066015d104b9619ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -159,13 +159,13 @@
             <element>other</element>
             <position>11</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>abed2298db539340086c89584b96190a</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>225acfe6db9b974066015d104b9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -173,13 +173,13 @@
             <element>test_interp</element>
             <position>12</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>2fed2298db539340086c89584b96190a</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>a25acfe6db9b974066015d104b9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -187,13 +187,13 @@
             <element>rap</element>
             <position>13</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>afed2298db539340086c89584b96190a</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>265acfe6db9b974066015d104b9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -201,13 +201,13 @@
             <element>bapa</element>
             <position>14</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>23ed2298db539340086c89584b96190b</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>a65acfe6db9b974066015d104b9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -215,13 +215,13 @@
             <element>sale_tag_or_brand</element>
             <position>15</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>a3ed2298db539340086c89584b96190b</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>2a5acfe6db9b974066015d104b9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -229,13 +229,13 @@
             <element>back_tag</element>
             <position>16</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>27ed2298db539340086c89584b96190b</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>aa5acfe6db9b974066015d104b9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -243,13 +243,13 @@
             <element>ear_tag</element>
             <position>17</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>a7ed2298db539340086c89584b96190b</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>2e5acfe6db9b974066015d104b9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -257,13 +257,13 @@
             <element>herd_owner_name</element>
             <position>18</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>2bed2298db539340086c89584b96190b</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>ae5acfe6db9b974066015d104b9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -271,13 +271,13 @@
             <element>address</element>
             <position>19</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>abed2298db539340086c89584b96190b</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>225acfe6db9b974066015d104b9619b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -285,13 +285,13 @@
             <element>mark_as</element>
             <position>20</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>2fed2298db539340086c89584b96190b</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>a25acfe6db9b974066015d104b9619b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -299,13 +299,13 @@
             <element>result</element>
             <position>21</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>afed2298db539340086c89584b96190b</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>265acfe6db9b974066015d104b9619b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -313,13 +313,13 @@
             <element>number</element>
             <position>22</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>23ed2298db539340086c89584b96190c</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>a65acfe6db9b974066015d104b9619b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -327,13 +327,13 @@
             <element>sys_created_on</element>
             <position>23</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>a3ed2298db539340086c89584b96190c</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>2a5acfe6db9b974066015d104b9619b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -341,13 +341,13 @@
             <element>actual_sequence</element>
             <position>24</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>27ed2298db539340086c89584b96190c</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>aa5acfe6db9b974066015d104b9619b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -355,13 +355,13 @@
             <element>city</element>
             <position>25</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>a7ed2298db539340086c89584b96190c</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>2e5acfe6db9b974066015d104b9619b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -369,13 +369,13 @@
             <element>state</element>
             <position>26</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>2bed2298db539340086c89584b96190c</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>ae5acfe6db9b974066015d104b9619b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -383,13 +383,13 @@
             <element>zip</element>
             <position>27</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>abed2298db539340086c89584b96190c</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>225acfe6db9b974066015d104b9619b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -397,13 +397,13 @@
             <element>tube_number</element>
             <position>28</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>2fed2298db539340086c89584b96190c</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>a25acfe6db9b974066015d104b9619b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -411,13 +411,13 @@
             <element>commited</element>
             <position>29</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>afed2298db539340086c89584b96190c</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>265acfe6db9b974066015d104b9619b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -425,13 +425,13 @@
             <element>preliminary_test_interp</element>
             <position>30</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>23ed2298db539340086c89584b96190d</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>a65acfe6db9b974066015d104b9619b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -439,13 +439,13 @@
             <element>other_tests</element>
             <position>31</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>a3ed2298db539340086c89584b96190d</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>2a5acfe6db9b974066015d104b9619b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -453,13 +453,13 @@
             <element>results</element>
             <position>32</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>27ed2298db539340086c89584b96190d</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>aa5acfe6db9b974066015d104b9619b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -467,13 +467,13 @@
             <element>card</element>
             <position>33</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>a7ed2298db539340086c89584b96190d</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>2e5acfe6db9b974066015d104b9619b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -481,13 +481,13 @@
             <element>lab_interpretation</element>
             <position>34</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>2bed2298db539340086c89584b96190d</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>ae5acfe6db9b974066015d104b9619b1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -495,18 +495,18 @@
             <element>parent</element>
             <position>35</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:07:27</sys_created_on>
-            <sys_id>abed2298db539340086c89584b96190d</sys_id>
+            <sys_created_on>2018-07-17 20:57:57</sys_created_on>
+            <sys_id>225acfe6db9b974066015d104b9619b2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_lab_results_bruc_test" sys_domain="global" view="Default view">907121fedb9e13c09b2689584b961923</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:07:27</sys_updated_on>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>Individual Animal Entry</caption>
             <header>false</header>
             <name>x_cria_livestock_t_lab_results_bruc_test</name>
             <roles/>
@@ -516,15 +516,15 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>907121fedb9e13c09b2689584b961923</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_cria_livestock_t_lab_results_bruc_test</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Individual Animal Entry</sys_name>
             <sys_overrides/>
             <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
             <sys_policy/>
             <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
             <sys_update_name>sys_ui_section_907121fedb9e13c09b2689584b961923</sys_update_name>
-            <sys_updated_by>sleibsle</sys_updated_by>
-            <sys_updated_on>2018-05-29 14:55:18</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 20:57:57</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

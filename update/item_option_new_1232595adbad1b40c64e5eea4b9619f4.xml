@@ -10,7 +10,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>javascript: var user = new GlideRecord('sys_user'); user.get(gs.getUserID()); user.state;</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -60,14 +60,14 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-20 17:45:12</sys_created_on>
         <sys_id>1232595adbad1b40c64e5eea4b9619f4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>State</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_1232595adbad1b40c64e5eea4b9619f4</sys_update_name>
-        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-05-22 17:25:29</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-08-08 22:22:28</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

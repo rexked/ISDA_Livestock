@@ -36,8 +36,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span style="font-size: 11pt; font-family: Cambria, serif; color: windowtext;">The attached Idaho interstate Saleyard Release was issued for animals destined for your state. To access the printable document, click on the following - </span>${mail_script:printable_cvi}</p>
-<p>&nbsp;</p>
+        <message_html><![CDATA[<p><span style="font-size: 11pt; font-family: Cambria, serif; color: windowtext;">The attached Idaho interstate Saleyard Release was issued for animals destined for your state. To access the printable document, click on the following - </span>${mail_script:printable_saleyard}</p>
 <p><span style="font-size: 11pt; font-family: Cambria, serif; color: windowtext;">Please reply to this email if you have problems accessing the files, or need to change/add email addresses for CVI notifications.<br /><br />Thank you,<br /><br />Division of Animal Industries<br />Idaho State Department of Agriculture<br />(208) 332-8540</span></p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -60,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b882e94db539340086c89584b9619a8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Saleyard Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
@@ -68,7 +67,7 @@
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sysevent_email_action_5b882e94db539340086c89584b9619a8</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-10 18:48:39</sys_updated_on>
+        <sys_updated_on>2018-07-27 16:36:56</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

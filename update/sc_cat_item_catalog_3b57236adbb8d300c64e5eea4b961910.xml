@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Brucellosis Vaccination Record">ca37af2adbb8d300c64e5eea4b9619a9</sc_cat_item>
+        <sc_cat_item display_value="Brucellosis Vaccination Record - OLD">ca37af2adbb8d300c64e5eea4b9619a9</sc_cat_item>
         <sc_catalog display_value="ISDA Catalog">907d3946dbf49300c64e5eea4b9619a9</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>cervin</sys_created_by>

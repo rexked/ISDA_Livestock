@@ -34,12 +34,12 @@
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-07-10 18:40:16</sys_created_on>
         <sys_id>a9b7a254db539340086c89584b961929</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-10 18:41:51</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>rthonney</sys_updated_by>
+        <sys_updated_on>2018-07-12 22:08:38</sys_updated_on>
         <table>x_cria_livestock_t_saleyard_release</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Saleyard notification trigger">6db7a254db539340086c89584b961928</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

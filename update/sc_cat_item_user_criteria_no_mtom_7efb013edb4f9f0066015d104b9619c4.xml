@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sc_cat_item_user_criteria_no_mtom">
     <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Brucellosis Vaccination Record">ca37af2adbb8d300c64e5eea4b9619a9</sc_cat_item>
+        <sc_cat_item display_value="Brucellosis Vaccination Record - OLD">ca37af2adbb8d300c64e5eea4b9619a9</sc_cat_item>
         <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-07-05 20:08:37</sys_created_on>

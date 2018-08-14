@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cria_livestock_t_lab_results_tub</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_cria_livestock_t_lab_results_tub">idVALCHANGES^EQ<item endquery="false" field="id" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update official_ids on parent record</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var updval = "";
+	var gr = new GlideRecord('x_cria_livestock_t_vaccinations_tuberculosis');
+	gr.addQuery('sys_id', current.parent);
+	gr.query();
+	if(gr.next()){
+		var idstring = gr.getValue('official_ids').toString();
+		var array = idstring.split(", ");
+		var i = 0;
+		for(i=0;i<array.length;i++){
+			if(array[i] == previous.id){
+				array[i] = current.id;
+			}
+		}
+		for(i=0;i<array.length;i++){
+			if(updval == ""){
+				updval = array[i];
+			}else{
+				updval = updval+", "+array[i];
+			}
+		}
+		gr.setValue('official_ids', updval);
+		gr.update();
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-08-03 22:57:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5e580784dbb7db00c64e5eea4b9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update official_ids on parent record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_5e580784dbb7db00c64e5eea4b9619af</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-08-03 22:57:05</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=5e580784dbb7db00c64e5eea4b9619af"/>
+</record_update>

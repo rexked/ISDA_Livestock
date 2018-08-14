@@ -79,8 +79,8 @@
         <element default="javascript: gs.getSessionID()" label="session id" max_length="80" name="session_id" read_only="true" type="string"/>
         <element choice="1" default="female" label="Sex" max_length="10" name="sex" type="choice">
             <choice>
-                <element label="Female" value="female"/>
-                <element label="Male" value="male"/>
+                <element label="Male" sequence="1" value="male"/>
+                <element label="Female" sequence="3" value="female"/>
             </choice>
         </element>
         <element label="State" max_length="40" name="state" type="string"/>

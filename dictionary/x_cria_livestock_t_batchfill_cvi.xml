@@ -12,8 +12,11 @@
         <element default="javascript: gs.getSessionID();" label="Session ID" max_length="40" name="session_id" type="string"/>
         <element choice="1" label="Sex" max_length="40" name="sex" type="choice">
             <choice>
-                <element label="Female" value="female"/>
-                <element label="Male" value="male"/>
+                <element label="Male" sequence="1" value="male"/>
+                <element label="Neutered Male" sequence="2" value="neutered male"/>
+                <element label="Female" sequence="3" value="female"/>
+                <element label="Spayed Female" sequence="4" value="spayed female"/>
+                <element label="Other" sequence="5" value="other"/>
             </choice>
         </element>
         <index name="index">

@@ -6,18 +6,56 @@
             <element>sex</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Male</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>1</sequence>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-18 21:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22ccebe1dbe1d7409b2689584b9619ae</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-23 21:40:28</sys_updated_on>
+            <value>male</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Neutered Male</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>2</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-23 21:39:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a4d06e8dbe31700c64e5eea4b961924</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-23 21:40:32</sys_updated_on>
+            <value>neutered male</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Female</label>
             <language>en</language>
             <name>x_cria_livestock_t_batchfill_cvi</name>
-            <sequence/>
+            <sequence>3</sequence>
             <sys_created_by>dyoung</sys_created_by>
             <sys_created_on>2018-04-18 21:04:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>05dce7e1dbe1d7409b2689584b961990</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-18 21:04:55</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-23 21:40:36</sys_updated_on>
             <value>female</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -25,19 +63,38 @@
             <element>sex</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Male</label>
+            <label>Spayed Female</label>
             <language>en</language>
             <name>x_cria_livestock_t_batchfill_cvi</name>
-            <sequence/>
-            <sys_created_by>dyoung</sys_created_by>
-            <sys_created_on>2018-04-18 21:04:44</sys_created_on>
+            <sequence>4</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-23 21:39:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>22ccebe1dbe1d7409b2689584b9619ae</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung</sys_updated_by>
-            <sys_updated_on>2018-04-18 21:04:44</sys_updated_on>
-            <value>male</value>
+            <sys_id>907d06e8dbe31700c64e5eea4b961925</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-23 21:40:39</sys_updated_on>
+            <value>spayed female</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>5</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-23 21:40:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e88d06e8dbe31700c64e5eea4b961925</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-23 21:40:41</sys_updated_on>
+            <value>other</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>sex</element>
@@ -45,7 +102,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>dyoung</sys_created_by>
             <sys_created_on>2018-04-18 21:04:44</sys_created_on>
-            <sys_id>b00edd96db7a570066015d104b96190d</sys_id>
+            <sys_id>6840eaa0dbab9b4066015d104b96199a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>sex</sys_name>
             <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>

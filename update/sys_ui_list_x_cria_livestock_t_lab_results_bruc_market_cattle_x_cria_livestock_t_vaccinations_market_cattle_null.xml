@@ -3,18 +3,18 @@
     <sys_ui_list parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="" sys_domain="global" table="x_cria_livestock_t_lab_results_bruc_market_cattle" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>ear_tag</element>
+            <element>id</element>
             <list_id display_value="x_cria_livestock_t_lab_results_bruc_market_cattle" element="NULL" name="x_cria_livestock_t_lab_results_bruc_market_cattle" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">a7f57e7adb9253c09b2689584b96198c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-29 21:04:42</sys_created_on>
-            <sys_id>2ff57e7adb9253c09b2689584b96198c</sys_id>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 18:05:41</sys_created_on>
+            <sys_id>4be2a22adbd31300c64e5eea4b9619c1</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-29 21:04:42</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 18:05:41</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -24,12 +24,12 @@
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-29 21:04:42</sys_created_on>
-            <sys_id>aff57e7adb9253c09b2689584b96198c</sys_id>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 18:05:41</sys_created_on>
+            <sys_id>03e2a22adbd31300c64e5eea4b9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-29 21:04:42</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 18:05:41</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -39,12 +39,12 @@
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-29 21:04:42</sys_created_on>
-            <sys_id>23f57e7adb9253c09b2689584b96198d</sys_id>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 18:05:41</sys_created_on>
+            <sys_id>83e2a22adbd31300c64e5eea4b9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-29 21:04:42</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 18:05:41</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -54,12 +54,27 @@
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-29 21:04:42</sys_created_on>
-            <sys_id>a3f57e7adb9253c09b2689584b96198d</sys_id>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 18:05:41</sys_created_on>
+            <sys_id>07e2a22adbd31300c64e5eea4b9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-29 21:04:42</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 18:05:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fpa</element>
+            <list_id display_value="x_cria_livestock_t_lab_results_bruc_market_cattle" element="NULL" name="x_cria_livestock_t_lab_results_bruc_market_cattle" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">a7f57e7adb9253c09b2689584b96198c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 18:05:41</sys_created_on>
+            <sys_id>87e2a22adbd31300c64e5eea4b9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 18:05:41</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -67,44 +82,14 @@
             <list_id display_value="x_cria_livestock_t_lab_results_bruc_market_cattle" element="NULL" name="x_cria_livestock_t_lab_results_bruc_market_cattle" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">a7f57e7adb9253c09b2689584b96198c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-29 21:04:42</sys_created_on>
-            <sys_id>27f57e7adb9253c09b2689584b96198d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-29 21:04:42</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>second_fpa</element>
-            <list_id display_value="x_cria_livestock_t_lab_results_bruc_market_cattle" element="NULL" name="x_cria_livestock_t_lab_results_bruc_market_cattle" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">a7f57e7adb9253c09b2689584b96198c</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-29 21:04:42</sys_created_on>
-            <sys_id>a7f57e7adb9253c09b2689584b96198d</sys_id>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 18:05:41</sys_created_on>
+            <sys_id>0be2a22adbd31300c64e5eea4b9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-29 21:04:42</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>third_fpa</element>
-            <list_id display_value="x_cria_livestock_t_lab_results_bruc_market_cattle" element="NULL" name="x_cria_livestock_t_lab_results_bruc_market_cattle" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">a7f57e7adb9253c09b2689584b96198c</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-29 21:04:42</sys_created_on>
-            <sys_id>2bf57e7adb9253c09b2689584b96198d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-29 21:04:42</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 18:05:41</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -112,14 +97,14 @@
             <list_id display_value="x_cria_livestock_t_lab_results_bruc_market_cattle" element="NULL" name="x_cria_livestock_t_lab_results_bruc_market_cattle" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">a7f57e7adb9253c09b2689584b96198c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>7</position>
+            <position>6</position>
             <sum>false</sum>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-29 21:04:42</sys_created_on>
-            <sys_id>abf57e7adb9253c09b2689584b96198d</sys_id>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 18:05:41</sys_created_on>
+            <sys_id>8be2a22adbd31300c64e5eea4b9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-29 21:04:42</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 18:05:41</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -127,14 +112,14 @@
             <list_id display_value="x_cria_livestock_t_lab_results_bruc_market_cattle" element="NULL" name="x_cria_livestock_t_lab_results_bruc_market_cattle" parent="x_cria_livestock_t_vaccinations_market_cattle" relationship="NULL" sys_domain="global" view="Default view">a7f57e7adb9253c09b2689584b96198c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <position>8</position>
+            <position>7</position>
             <sum>false</sum>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-29 21:04:42</sys_created_on>
-            <sys_id>2ff57e7adb9253c09b2689584b96198d</sys_id>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 18:05:41</sys_created_on>
+            <sys_id>0fe2a22adbd31300c64e5eea4b9619c2</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-29 21:04:42</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 18:05:41</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -147,8 +132,8 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-05-29 21:04:42</sys_created_on>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 18:05:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a7f57e7adb9253c09b2689584b96198c</sys_id>
@@ -158,8 +143,8 @@
             <sys_policy/>
             <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
             <sys_update_name>sys_ui_list_x_cria_livestock_t_lab_results_bruc_market_cattle_x_cria_livestock_t_vaccinations_market_cattle_null</sys_update_name>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-29 21:04:42</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 18:05:41</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

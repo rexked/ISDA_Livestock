@@ -5,13 +5,13 @@
             <element>record_id</element>
             <position>0</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:27:34</sys_created_on>
-            <sys_id>5e827e9cdb539340086c89584b9619bc</sys_id>
+            <sys_created_on>2018-08-03 22:31:49</sys_created_on>
+            <sys_id>dbd20780dbb7db00c64e5eea4b961925</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_brucellosis_test" sys_domain="global" view="Default view">439f059adb3113809b2689584b9619ab</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:27:34</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:31:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>form_status</element>
             <position>1</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:27:34</sys_created_on>
-            <sys_id>de827e9cdb539340086c89584b9619bc</sys_id>
+            <sys_created_on>2018-08-03 22:31:49</sys_created_on>
+            <sys_id>5fd20780dbb7db00c64e5eea4b961925</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_brucellosis_test" sys_domain="global" view="Default view">439f059adb3113809b2689584b9619ab</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:27:34</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:31:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:27:34</sys_created_on>
-            <sys_id>52827e9cdb539340086c89584b9619bd</sys_id>
+            <sys_created_on>2018-08-03 22:31:49</sys_created_on>
+            <sys_id>dfd20780dbb7db00c64e5eea4b961925</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_brucellosis_test" sys_domain="global" view="Default view">439f059adb3113809b2689584b9619ab</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:27:34</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:31:49</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>u_veterinarian</element>
             <position>3</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:27:34</sys_created_on>
-            <sys_id>d2827e9cdb539340086c89584b9619bd</sys_id>
+            <sys_created_on>2018-08-03 22:31:49</sys_created_on>
+            <sys_id>53d20780dbb7db00c64e5eea4b961926</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_brucellosis_test" sys_domain="global" view="Default view">439f059adb3113809b2689584b9619ab</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:27:34</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:31:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>u_phone_number</element>
             <position>4</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:27:34</sys_created_on>
-            <sys_id>56827e9cdb539340086c89584b9619bd</sys_id>
+            <sys_created_on>2018-08-03 22:31:49</sys_created_on>
+            <sys_id>d3d20780dbb7db00c64e5eea4b961926</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_brucellosis_test" sys_domain="global" view="Default view">439f059adb3113809b2689584b9619ab</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:27:34</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:31:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>u_county</element>
             <position>5</position>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:27:34</sys_created_on>
-            <sys_id>d6827e9cdb539340086c89584b9619bd</sys_id>
+            <sys_created_on>2018-08-03 22:31:49</sys_created_on>
+            <sys_id>57d20780dbb7db00c64e5eea4b961926</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_brucellosis_test" sys_domain="global" view="Default view">439f059adb3113809b2689584b9619ab</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:27:34</sys_updated_on>
+            <sys_updated_on>2018-08-03 22:31:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

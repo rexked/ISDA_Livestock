@@ -2,7 +2,7 @@
 <record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>350</order>
-        <sc_cat_item display_value="Brucellosis Vaccination Record">ca37af2adbb8d300c64e5eea4b9619a9</sc_cat_item>
+        <sc_cat_item display_value="Brucellosis Vaccination Record - OLD">ca37af2adbb8d300c64e5eea4b9619a9</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-06 19:15:30</sys_created_on>

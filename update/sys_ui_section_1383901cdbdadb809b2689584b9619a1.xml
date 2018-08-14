@@ -1,120 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_section caption="" section_id="1383901cdbdadb809b2689584b9619a1" sys_domain="global" table="x_cria_livestock_t_batchfill_cvi" version="3" view="default">
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>0</position>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
-            <sys_id>b5007e98db13934066015d104b961905</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
+    <sys_ui_section caption="Individual Animal Entry" section_id="1383901cdbdadb809b2689584b9619a1" sys_domain="global" table="x_cria_livestock_t_batchfill_cvi" version="3" view="default">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>official_identification</element>
-            <position>1</position>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
-            <sys_id>39007e98db13934066015d104b961905</sys_id>
+            <position>0</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 20:50:13</sys_created_on>
+            <sys_id>5d98cba6db9b974066015d104b961968</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 20:50:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>alt_id</element>
-            <position>2</position>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
-            <sys_id>b9007e98db13934066015d104b961905</sys_id>
+            <position>1</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 20:50:13</sys_created_on>
+            <sys_id>1598cba6db9b974066015d104b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 20:50:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>breed</element>
-            <position>3</position>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
-            <sys_id>3d007e98db13934066015d104b961905</sys_id>
+            <position>2</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 20:50:13</sys_created_on>
+            <sys_id>9598cba6db9b974066015d104b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 20:50:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
-            <sys_id>bd007e98db13934066015d104b961905</sys_id>
+            <position>3</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 20:50:13</sys_created_on>
+            <sys_id>1998cba6db9b974066015d104b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 20:50:13</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sex</element>
-            <position>5</position>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
-            <sys_id>31007e98db13934066015d104b961906</sys_id>
+            <position>4</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 20:50:13</sys_created_on>
+            <sys_id>9998cba6db9b974066015d104b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 20:50:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>age</element>
-            <position>6</position>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
-            <sys_id>b1007e98db13934066015d104b961906</sys_id>
+            <position>5</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 20:50:13</sys_created_on>
+            <sys_id>1d98cba6db9b974066015d104b961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 20:50:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>7</position>
-            <sys_created_by>dyoung@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-07-10 19:16:37</sys_created_on>
-            <sys_id>35007e98db13934066015d104b961906</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">1383901cdbdadb809b2689584b9619a1</sys_ui_section>
-            <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-07-10 19:16:37</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>Individual Animal Entry</caption>
             <header>false</header>
             <name>x_cria_livestock_t_batchfill_cvi</name>
             <roles/>
@@ -124,15 +96,15 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1383901cdbdadb809b2689584b9619a1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_cria_livestock_t_batchfill_cvi</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Individual Animal Entry</sys_name>
             <sys_overrides/>
             <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
             <sys_policy/>
             <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
             <sys_update_name>sys_ui_section_1383901cdbdadb809b2689584b9619a1</sys_update_name>
-            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-05-21 14:50:11</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 20:50:13</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default" name="default">30174876cb811200aa871831794c9cc4</view>

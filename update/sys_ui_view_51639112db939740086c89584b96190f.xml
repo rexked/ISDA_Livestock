@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>survey_new_overview</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-07-16 17:39:45</sys_created_on>
+        <sys_id>51639112db939740086c89584b96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Survey_new_overview</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_ui_view_51639112db939740086c89584b96190f</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-07-16 17:39:45</sys_updated_on>
+        <title>Survey_new_overview</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

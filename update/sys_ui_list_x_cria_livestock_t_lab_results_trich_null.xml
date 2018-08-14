@@ -10,11 +10,11 @@
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-25 20:43:36</sys_created_on>
-            <sys_id>3514b52bdb761b0066015d104b961961</sys_id>
+            <sys_created_on>2018-08-08 20:59:35</sys_created_on>
+            <sys_id>81bd9479db7b9f00c64e5eea4b961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-25 20:43:36</sys_updated_on>
+            <sys_updated_on>2018-08-08 20:59:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -25,11 +25,11 @@
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-25 20:43:36</sys_created_on>
-            <sys_id>b514b52bdb761b0066015d104b961961</sys_id>
+            <sys_created_on>2018-08-08 20:59:35</sys_created_on>
+            <sys_id>05bd9479db7b9f00c64e5eea4b961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-25 20:43:36</sys_updated_on>
+            <sys_updated_on>2018-08-08 20:59:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -40,11 +40,11 @@
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-25 20:43:36</sys_created_on>
-            <sys_id>3914b52bdb761b0066015d104b961961</sys_id>
+            <sys_created_on>2018-08-08 20:59:35</sys_created_on>
+            <sys_id>85bd9479db7b9f00c64e5eea4b961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-25 20:43:36</sys_updated_on>
+            <sys_updated_on>2018-08-08 20:59:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -55,11 +55,11 @@
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-25 20:43:36</sys_created_on>
-            <sys_id>b914b52bdb761b0066015d104b961961</sys_id>
+            <sys_created_on>2018-08-08 20:59:35</sys_created_on>
+            <sys_id>09bd9479db7b9f00c64e5eea4b961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-25 20:43:36</sys_updated_on>
+            <sys_updated_on>2018-08-08 20:59:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -70,11 +70,11 @@
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-25 20:43:36</sys_created_on>
-            <sys_id>3d14b52bdb761b0066015d104b961961</sys_id>
+            <sys_created_on>2018-08-08 20:59:35</sys_created_on>
+            <sys_id>89bd9479db7b9f00c64e5eea4b961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-25 20:43:36</sys_updated_on>
+            <sys_updated_on>2018-08-08 20:59:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -85,11 +85,26 @@
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-25 20:43:36</sys_created_on>
-            <sys_id>bd14b52bdb761b0066015d104b961961</sys_id>
+            <sys_created_on>2018-08-08 20:59:35</sys_created_on>
+            <sys_id>0dbd9479db7b9f00c64e5eea4b961961</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-25 20:43:36</sys_updated_on>
+            <sys_updated_on>2018-08-08 20:59:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>remarks</element>
+            <list_id display_value="x_cria_livestock_t_lab_results_trich" element="NULL" name="x_cria_livestock_t_lab_results_trich" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7d14b12bdb761b0066015d104b9619ed</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-08-08 20:59:35</sys_created_on>
+            <sys_id>8dbd9479db7b9f00c64e5eea4b961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-08-08 20:59:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -103,7 +118,7 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-25 20:43:36</sys_created_on>
+            <sys_created_on>2018-08-08 20:59:35</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7d14b12bdb761b0066015d104b9619ed</sys_id>
@@ -114,7 +129,7 @@
             <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
             <sys_update_name>sys_ui_list_x_cria_livestock_t_lab_results_trich_null</sys_update_name>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-25 20:43:36</sys_updated_on>
+            <sys_updated_on>2018-08-08 20:59:35</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

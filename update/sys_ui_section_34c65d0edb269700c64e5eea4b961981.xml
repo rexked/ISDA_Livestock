@@ -4,56 +4,70 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_laboratory</element>
             <position>0</position>
-            <sys_created_by>cervin@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-08 16:28:54</sys_created_on>
-            <sys_id>c5c69d0edb269700c64e5eea4b9619de</sys_id>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 17:31:49</sys_created_on>
+            <sys_id>832b1ae2dbd31300c64e5eea4b9619d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lab Information" display_value="Lab Information" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">34c65d0edb269700c64e5eea4b961981</sys_ui_section>
-            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-08 16:28:54</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 17:31:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_lab_tech_signature</element>
             <position>1</position>
-            <sys_created_by>cervin@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-08 16:28:54</sys_created_on>
-            <sys_id>49c69d0edb269700c64e5eea4b9619de</sys_id>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 17:31:49</sys_created_on>
+            <sys_id>072b1ae2dbd31300c64e5eea4b9619d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lab Information" display_value="Lab Information" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">34c65d0edb269700c64e5eea4b961981</sys_ui_section>
-            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-08 16:28:54</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 17:31:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>2</position>
-            <sys_created_by>cervin@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-08 16:28:54</sys_created_on>
-            <sys_id>c9c69d0edb269700c64e5eea4b9619de</sys_id>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 17:31:49</sys_created_on>
+            <sys_id>872b1ae2dbd31300c64e5eea4b9619d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lab Information" display_value="Lab Information" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">34c65d0edb269700c64e5eea4b961981</sys_ui_section>
-            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-08 16:28:54</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 17:31:49</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_date_signed</element>
             <position>3</position>
-            <sys_created_by>cervin@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-08 16:28:54</sys_created_on>
-            <sys_id>4dc69d0edb269700c64e5eea4b9619de</sys_id>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 17:31:49</sys_created_on>
+            <sys_id>0b2b1ae2dbd31300c64e5eea4b9619d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Lab Information" display_value="Lab Information" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">34c65d0edb269700c64e5eea4b961981</sys_ui_section>
-            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-08 16:28:54</sys_updated_on>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 17:31:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>accession</element>
+            <position>4</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 17:31:49</sys_created_on>
+            <sys_id>8b2b1ae2dbd31300c64e5eea4b9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lab Information" display_value="Lab Information" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">34c65d0edb269700c64e5eea4b961981</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 17:31:49</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

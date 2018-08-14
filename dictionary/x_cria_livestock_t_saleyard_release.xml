@@ -45,7 +45,7 @@
         <element label="Street Address" max_length="255" name="slyd_consignee_street" type="string"/>
         <element label="Zip Code" max_length="10" name="slyd_consignee_zip" type="string"/>
         <element label="City" max_length="255" name="slyd_consignor_city" type="string"/>
-        <element label="Consignor Name" max_length="32" name="slyd_consignor_name" reference="sys_user" reference_qual="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" reference_qual_condition="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" type="reference"/>
+        <element label="Consignor Name" max_length="32" name="slyd_consignor_name" reference_qual="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" reference_qual_condition="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" type="string"/>
         <element label="State" max_length="32" name="slyd_consignor_state" reference="u_states" type="reference"/>
         <element label="Street Address" max_length="255" name="slyd_consignor_street" type="string"/>
         <element label="Zip Code" max_length="10" name="slyd_consignor_zip" type="string"/>

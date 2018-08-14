@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Test CVI">295f584edbb69f00c64e5eea4b961991</catalog_item>
+        <catalog_item/>
         <catalog_variable>IO:94d21d8edb3a5f009b2689584b96198b</catalog_variable>
         <disabled>true</disabled>
         <field/>

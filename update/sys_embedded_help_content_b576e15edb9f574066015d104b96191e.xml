@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>assessment</category>
+        <content><![CDATA[    <h1 class="title topictitle1">Assessment Metric form</h1>        <div class="body taskbody">        <div class="section context" id="asmt_metric-normal__context_ckx_dpv_zz"><span class="ph">In the Assessments application, a metric is a      trait or value used to evaluate assessable records.</span>            <span class="ph">After you create a category, create metrics you            can use to evaluate the assessable records for that category.</span><div class="p">Depending on the metric method, a metric can be used as either of      the following:<ul class="ul" id="asmt_metric-normal__d44182e44"><li class="li">A question on assessment questionnaires, to obtain a subjective value such as how much          people enjoy using each cell phone offered in the service catalog.</li><li class="li">A script that queries the database, to obtain an objective value such as the number of          incidents related to each cell phone.</li></ul></div></div>        <div class="li step p">                <span class="ph cmd">Complete the fields in the form.</span>                <div class="itemgroup info"><span class="ph">When you create metrics, consider the focus of the                    category and what characteristics you want to measure for the items you will                    assess.</span></div>            </div>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:AssessmentMetric&amp;version&#61;kingston" target="_blank">Create a metric for a category</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:AssessmentMetrics&amp;version&#61;kingston" target="_blank">Assessment metrics</a></div></div></div></div>]]></content>
+        <last_sync>2018-07-31 19:03:09</last_sync>
+        <modifier>normal</modifier>
+        <name>asmt_metric-normal</name>
+        <page>asmt_metric</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-07-16 19:03:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b576e15edb9f574066015d104b96191e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>asmt_metric-normal</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_embedded_help_content_b576e15edb9f574066015d104b96191e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-31 19:03:09</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=b576e15edb9f574066015d104b96191e"/>
+</record_update>

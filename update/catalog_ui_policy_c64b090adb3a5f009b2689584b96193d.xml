@@ -8,7 +8,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <catalog_conditions>IO:6c5fecc6dbf69f00c64e5eea4b9619b9=true^EQ</catalog_conditions>
-        <catalog_item display_value="Test CVI">295f584edbb69f00c64e5eea4b961991</catalog_item>
+        <catalog_item/>
         <conditions/>
         <description/>
         <global>true</global>

@@ -18,7 +18,7 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <example_text/>
+        <example_text>mm/dd/yyyy</example_text>
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
@@ -60,16 +60,16 @@
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-03-15 18:27:26</sys_created_on>
         <sys_id>c5a2ccb6dbf8d300c64e5eea4b96194c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Date of Vaccination</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_c5a2ccb6dbf8d300c64e5eea4b96194c</sys_update_name>
-        <sys_updated_by>dyoung</sys_updated_by>
-        <sys_updated_on>2018-04-17 20:34:45</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-07-12 22:44:33</sys_updated_on>
         <table/>
-        <tooltip/>
+        <tooltip>Enter the date in mm/dd/yyyy format</tooltip>
         <type>9</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
