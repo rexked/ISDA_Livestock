@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="db_image">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
     <db_image action="INSERT_OR_UPDATE">
         <active>true</active>
         <category/>
@@ -29,18 +28,21 @@
         <compressed>true</compressed>
         <content_type>image/gif</content_type>
         <file_name>image</file_name>
+        <hash/>
         <image_height>70</image_height>
         <image_width>103</image_width>
         <size_bytes>3768</size_bytes>
         <size_compressed>3765</size_compressed>
+        <state>available</state>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-05-30 18:54:02</sys_created_on>
         <sys_id>57a1ebc7db561300c64e5eea4b9619fb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-05-30 18:54:03</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-09-09 20:21:37</sys_updated_on>
         <table_name>ZZ_YYdb_image</table_name>
         <table_sys_id>9ee60f0bdb161300c64e5eea4b9619c4</table_sys_id>
+        <u_sync_integration>false</u_sync_integration>
     </sys_attachment>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAA==</data>

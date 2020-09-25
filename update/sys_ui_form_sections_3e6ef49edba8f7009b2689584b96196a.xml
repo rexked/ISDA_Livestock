@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3e6ef49edba8f7009b2689584b96196a" sys_domain="57615f4cdb33e300c64e5eea4b9619be" table="x_cria_livestock_t_saleyard_release" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-03 15:37:44</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path/>
+            <sys_id>726ef49edba8f7009b2689584b961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cria_livestock_t_saleyard_release" name="x_cria_livestock_t_saleyard_release" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">3e6ef49edba8f7009b2689584b96196a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">e26ef49edba8f7009b2689584b961969</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-03 15:37:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-03 15:37:44</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path/>
+            <sys_id>f66ef49edba8f7009b2689584b961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cria_livestock_t_saleyard_release" name="x_cria_livestock_t_saleyard_release" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">3e6ef49edba8f7009b2689584b96196a</sys_ui_form>
+            <sys_ui_section caption="Consignor Information" display_value="Consignor Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">3f851f2bdb6a1b009b2689584b961977</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-03 15:37:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-03 15:37:44</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path/>
+            <sys_id>be6ef49edba8f7009b2689584b96196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cria_livestock_t_saleyard_release" name="x_cria_livestock_t_saleyard_release" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">3e6ef49edba8f7009b2689584b96196a</sys_ui_form>
+            <sys_ui_section caption="Consignee Information" display_value="Consignee Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">7b851f2bdb6a1b009b2689584b961978</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-03 15:37:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-03 15:37:44</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path/>
+            <sys_id>f26ef49edba8f7009b2689584b96196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cria_livestock_t_saleyard_release" name="x_cria_livestock_t_saleyard_release" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">3e6ef49edba8f7009b2689584b96196a</sys_ui_form>
+            <sys_ui_section caption="Shipment Information" display_value="Shipment Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">c0ceae72db561340c64e5eea4b9619b2</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-03 15:37:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-03 15:37:44</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path/>
+            <sys_id>366ef49edba8f7009b2689584b961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cria_livestock_t_saleyard_release" name="x_cria_livestock_t_saleyard_release" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">3e6ef49edba8f7009b2689584b96196a</sys_ui_form>
+            <sys_ui_section caption="Species Information" display_value="Species Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">8e6857ebdb6a1b009b2689584b9619d2</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-03 15:37:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-03 15:37:44</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path/>
+            <sys_id>ba6ef49edba8f7009b2689584b961970</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cria_livestock_t_saleyard_release" name="x_cria_livestock_t_saleyard_release" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">3e6ef49edba8f7009b2689584b96196a</sys_ui_form>
+            <sys_ui_section caption="State / Area Status" display_value="State / Area Status" name="x_cria_livestock_t_saleyard_release" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">076ef49edba8f7009b2689584b9619aa</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-03 15:37:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-03 15:37:44</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path/>
+            <sys_id>7e6ef49edba8f7009b2689584b961970</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cria_livestock_t_saleyard_release" name="x_cria_livestock_t_saleyard_release" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">3e6ef49edba8f7009b2689584b96196a</sys_ui_form>
+            <sys_ui_section caption="Vet Information" display_value="Vet Information" name="x_cria_livestock_t_saleyard_release" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">2b1c6552db6cf7009b2689584b9619e8</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-05 21:19:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_cria_livestock_t_saleyard_release</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-03 15:37:43</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path/>
+            <sys_id>3e6ef49edba8f7009b2689584b96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cria_livestock_t_saleyard_release</sys_name>
+            <sys_overrides display_value="x_cria_livestock_t_saleyard_release" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">04ceae72db561340c64e5eea4b9619b3</sys_overrides>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3e6ef49edba8f7009b2689584b96196a</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-03 15:37:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

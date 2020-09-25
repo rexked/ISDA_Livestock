@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="item_option_new">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>false</active>
         <attributes>ref_qual_elements=herd_loc</attributes>
@@ -76,6 +75,7 @@
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>advanced</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set display_value="Consignor/Consignee Information ">5d4f78bcdb3013009b2689584b9619aa</variable_set>
         <variable_width/>

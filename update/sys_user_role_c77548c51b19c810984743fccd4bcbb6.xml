@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by display_value="x_cria_livestock_t.admin" name="x_cria_livestock_t.admin">a3db761adbbc93009b2689584b9619f9</assignable_by>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_cria_livestock_t.labUser</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>labUser</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-11-21 17:15:26</sys_created_on>
+        <sys_id>c77548c51b19c810984743fccd4bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cria_livestock_t.labUser</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_user_role_c77548c51b19c810984743fccd4bcbb6</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-11-21 17:15:26</sys_updated_on>
+    </sys_user_role>
+</record_update>

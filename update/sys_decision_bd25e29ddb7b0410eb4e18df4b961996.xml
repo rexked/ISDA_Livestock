@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision">
+    <sys_decision action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <answer_table>sys_attachment</answer_table>
+        <answer_type>reference</answer_type>
+        <label/>
+        <name>Found attachment template</name>
+        <reference_qualifier/>
+        <sys_class_name>sys_decision</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-26 06:08:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bd25e29ddb7b0410eb4e18df4b961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Found attachment template</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_decision_bd25e29ddb7b0410eb4e18df4b961996</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-26 06:08:59</sys_updated_on>
+    </sys_decision>
+</record_update>

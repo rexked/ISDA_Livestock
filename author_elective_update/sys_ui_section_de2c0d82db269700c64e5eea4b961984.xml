@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Vet Information" section_id="de2c0d82db269700c64e5eea4b961984" sys_domain="global" table="x_cria_livestock_t_saleyard_release" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_veterinarian</element>
+            <position>0</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-08 15:42:34</sys_created_on>
+            <sys_id>d22c8d82db269700c64e5eea4b9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Information" display_value="Vet Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">de2c0d82db269700c64e5eea4b961984</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-08 15:42:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-08 15:42:34</sys_created_on>
+            <sys_id>562c8d82db269700c64e5eea4b9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Information" display_value="Vet Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">de2c0d82db269700c64e5eea4b961984</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-08 15:42:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signature_date</element>
+            <position>2</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-08 15:42:34</sys_created_on>
+            <sys_id>d62c8d82db269700c64e5eea4b9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Information" display_value="Vet Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">de2c0d82db269700c64e5eea4b961984</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-08 15:42:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Vet Information</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_saleyard_release</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-08 15:42:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de2c0d82db269700c64e5eea4b961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Vet Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_de2c0d82db269700c64e5eea4b961984</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-08 15:42:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_ui_section_de2c0d82db269700c64e5eea4b961984</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Vet Information" section_id="de2c0d82db269700c64e5eea4b961984" sys_domain="global" table="x_cria_livestock_t_saleyard_release" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_veterinarian</element>
+            <position>0</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-08 15:42:34</sys_created_on>
+            <sys_id>d22c8d82db269700c64e5eea4b9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Information" display_value="Vet Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">de2c0d82db269700c64e5eea4b961984</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-08 15:42:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-08 15:42:34</sys_created_on>
+            <sys_id>562c8d82db269700c64e5eea4b9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Information" display_value="Vet Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">de2c0d82db269700c64e5eea4b961984</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-08 15:42:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signature_date</element>
+            <position>2</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-08 15:42:34</sys_created_on>
+            <sys_id>d62c8d82db269700c64e5eea4b9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Information" display_value="Vet Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">de2c0d82db269700c64e5eea4b961984</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-08 15:42:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Vet Information</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_saleyard_release</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-08 15:42:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de2c0d82db269700c64e5eea4b961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Vet Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_de2c0d82db269700c64e5eea4b961984</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-08 15:42:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>2016842589</payload_hash>
+        <record_name>Saleyard Release</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:55:04</sys_created_on>
+        <sys_id>6d1ed5d6db7a570066015d104b961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1642457ff3f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:55:04</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>a91ed5d68f7a570004f172824d1f5f22</update_guid>
+        <update_guid_history>a91ed5d68f7a570004f172824d1f5f22:0,6de32412c7f65700b05636906ff2be69:-375483280,9a2c8d82dc269700f03bf9886ef671d2:191704109</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-02 16:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>02b4c1fe3a4a46ac80da0e21c334e4a9</sys_id>
+        <sys_metadata>de2c0d82db269700c64e5eea4b961984</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vet Information</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent display_value="Saleyard Release">01916854db1edb809b2689584b961972</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_ui_section_de2c0d82db269700c64e5eea4b961984</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_de2c0d82db269700c64e5eea4b961984">6d1ed5d6db7a570066015d104b961922</sys_update_version>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-02 16:14:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,26 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="catalog_ui_policy_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Saleyard Release Form">8deb84d0db791f40c64e5eea4b9619c4</catalog_item>
+        <catalog_item display_value="Saleyard Release Form - OLD">8deb84d0db791f40c64e5eea4b9619c4</catalog_item>
         <catalog_variable>IO:44f84b70db91df00c64e5eea4b96191f</catalog_variable>
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <mandatory>ignore</mandatory>
+        <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>cervin@criadvantage.com</sys_created_by>
         <sys_created_on>2018-05-17 20:35:58</sys_created_on>
         <sys_id>845cf047db465b809b2689584b961951</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Tuberculosis</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>tuberculosis</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>catalog_ui_policy_action_845cf047db465b809b2689584b961951</sys_update_name>
-        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-05-17 20:35:58</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-19 02:34:50</sys_updated_on>
         <table/>
         <ui_policy display_value="Hide Tuberculosis">08e974c3db8a1b00c64e5eea4b961927</ui_policy>
-        <variable>Tuberculosis</variable>
+        <variable>tuberculosis</variable>
         <variable_set/>
         <visible>true</visible>
     </catalog_ui_policy_action>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="item_option_new">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
@@ -38,7 +37,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>consignee_phone_number</name>
-        <order>125</order>
+        <order>1800</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Phone Number</question_text>
@@ -60,20 +59,21 @@
         <sys_created_by>cervin@criadvantage.com</sys_created_by>
         <sys_created_on>2018-05-21 19:58:31</sys_created_on>
         <sys_id>a60a959cdb92db00c64e5eea4b9619fd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Phone Number</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_a60a959cdb92db00c64e5eea4b9619fd</sys_update_name>
-        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-05-21 20:13:56</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-08-16 22:29:53</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set display_value="Consignor/ Consginee Information CVI">e8b32e13db429b809b2689584b961975</variable_set>
         <variable_width/>

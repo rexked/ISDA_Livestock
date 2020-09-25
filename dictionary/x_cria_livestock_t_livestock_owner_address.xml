@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="sys_import_set_row" label="Livestock Owner Addresses" max_length="40" name="x_cria_livestock_t_livestock_owner_address" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Livestock Owner Addresses" max_length="40" name="x_cria_livestock_t_livestock_owner_address" sizeclass="0" type="collection">
         <element attributes="import_attribute_name=Active/Inactive,edge_encryption_enabled=true" label="Active/Inactive" max_length="40" name="u_active_inactive" type="string"/>
         <element attributes="import_attribute_name=Address1,edge_encryption_enabled=true" label="Address1" max_length="40" name="u_address1" type="string"/>
         <element attributes="import_attribute_name=Address2,edge_encryption_enabled=true" label="Address2" max_length="40" name="u_address2" type="string"/>
@@ -13,7 +12,7 @@
         <element attributes="import_attribute_name=Fax,edge_encryption_enabled=true" label="Fax" max_length="40" name="u_fax" type="string"/>
         <element attributes="import_attribute_name=First Name,edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" type="string"/>
         <element attributes="import_attribute_name=Last Name,edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" type="string"/>
-        <element attributes="import_attribute_name=Lat" label="Lat" max_length="40" name="u_lat" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Lat" label="Lat" max_length="40" name="u_lat" type="float"/>
         <element attributes="import_attribute_name=Legacy number 1,edge_encryption_enabled=true" label="Legacy number 1" max_length="40" name="u_legacy_number_1" type="string"/>
         <element attributes="import_attribute_name=Legacy number 2,edge_encryption_enabled=true" label="Legacy number 2" max_length="40" name="u_legacy_number_2" type="string"/>
         <element attributes="import_attribute_name=Legacy number 3,edge_encryption_enabled=true" label="Legacy number 3" max_length="40" name="u_legacy_number_3" type="string"/>

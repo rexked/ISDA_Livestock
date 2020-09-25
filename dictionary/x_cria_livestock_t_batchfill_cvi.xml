@@ -1,22 +1,166 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="BatchFill CVI" max_length="40" name="x_cria_livestock_t_batchfill_cvi" text_index="true" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="detail_row=u_disease_surveillance" label="CVI Livestock Shipment" max_length="40" name="x_cria_livestock_t_batchfill_cvi" sizeclass="178663" text_index="true" type="collection">
         <element label="Actual Sequence" max_length="40" name="actual_sequence" type="string"/>
         <element hint="in months" label="Age (In Months)" max_length="40" name="age" type="string"/>
         <element label="Alternate ID" max_length="40" name="alt_id" type="string"/>
         <element label="Breed" max_length="40" name="breed" type="string"/>
-        <element label="Committed" max_length="40" name="committed" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Committed" max_length="40" name="committed" type="boolean"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Official Identification" max_length="40" name="official_identification" type="string"/>
-        <element label="Parent" max_length="32" name="parent" reference="x_cria_livestock_t_vaccinations_cvi" type="reference"/>
+        <element label="Official Identification" max_length="100" name="official_identification" type="string"/>
+        <element label="Other Species" max_length="40" name="other_species" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Parent" max_length="32" name="parent" reference="x_cria_livestock_t_import_cvi" type="reference"/>
         <element default="javascript: gs.getSessionID();" label="Session ID" max_length="40" name="session_id" type="string"/>
-        <element choice="1" label="Sex" max_length="40" name="sex" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sex" max_length="40" name="sex" type="choice">
             <choice>
-                <element label="Male" sequence="1" value="male"/>
-                <element label="Neutered Male" sequence="2" value="neutered male"/>
-                <element label="Female" sequence="3" value="female"/>
-                <element label="Spayed Female" sequence="4" value="spayed female"/>
-                <element label="Other" sequence="5" value="other"/>
+                <element inactive="true" inactive_on_update="true" label="m" sequence="0" value="m"/>
+                <element inactive_on_update="false" label="Male" sequence="1" value="Male"/>
+                <element inactive_on_update="false" label="Neutered Male" sequence="2" value="Neutered Male"/>
+                <element inactive_on_update="false" label="Female" sequence="3" value="Female"/>
+                <element inactive_on_update="false" label="Spayed Female" sequence="4" value="Spayed Female"/>
+                <element inactive_on_update="false" label="Mixed Group" sequence="5" value="Mixed Group"/>
+                <element inactive_on_update="false" label="Other" sequence="6" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Species" max_length="40" name="species" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Aquaculture" value="AQU"/>
+                <element inactive="true" inactive_on_update="true" label="Canine" value="CAN"/>
+                <element inactive="true" inactive_on_update="true" label="Feline" value="FEL"/>
+                <element inactive_on_update="false" label="Beef" sequence="10" value="BEF"/>
+                <element inactive_on_update="false" label="Dairy" sequence="20" value="DAI"/>
+                <element inactive_on_update="false" label="Equine (Horses, Mules, Donkeys, Burros)" sequence="30" value="EQU"/>
+                <element inactive_on_update="false" label="Caprine (Goats)" sequence="40" value="CAP"/>
+                <element inactive_on_update="false" label="Ovine (Sheep)" sequence="50" value="OVI"/>
+                <element inactive_on_update="false" label="Bison" sequence="60" value="BIS"/>
+                <element inactive_on_update="false" label="Cervids" sequence="70" value="CER"/>
+                <element inactive_on_update="false" label="Porcine (Swine)" sequence="80" value="POR"/>
+                <element inactive_on_update="false" label="Turkeys" sequence="90" value="TUR"/>
+                <element inactive_on_update="false" label="Chickens" sequence="100" value="CHI"/>
+                <element inactive_on_update="false" label="Camelid (Alpacas, Llamas, etc.)" sequence="110" value="CAM"/>
+                <element inactive_on_update="false" label="Other" sequence="120" value="OTH"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element choice="3" default="No" label="Brucellosis" max_length="40" name="u_brucellosis" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="ISDA Animal Health Lab" label="Laboratory" max_length="40" name="u_bruc_lab" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ISDA Animal Health Lab" sequence="10" value="ISDA Animal Health Lab"/>
+                <element inactive_on_update="false" label="Washington Animal Disease Diagnostic Lab" sequence="20" value="Washington Animal Disease Diagnostic Lab"/>
+                <element inactive_on_update="false" label="Utah Veterinary Diagnostic Lab" sequence="30" value="Utah Veterinary Diagnostic Lab"/>
+                <element inactive_on_update="false" label="Montana Veterinary Diagnostic Lab" sequence="40" value="Montana Veterinary Diagnostic Lab"/>
+                <element inactive_on_update="false" label="Wyoming State Veterinary Laboratory" sequence="50" value="Wyoming State Veterinary Laboratory"/>
+                <element inactive_on_update="false" label="Other" sequence="60" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Results" max_length="40" name="u_bruc_results" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Negative" sequence="10" value="negative"/>
+                <element inactive_on_update="false" label="Positive" sequence="20" value="positive"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Date Bled" max_length="40" name="u_date_bled" type="glide_date"/>
+        <element attributes="no_truncate" label="Disease Surveillance" max_length="500" name="u_disease_surveillance" type="string"/>
+        <element choice="3" default="No" label="Equine Infectious Anemia" max_length="40" name="u_eia" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element label="Accession #" max_length="40" name="u_eia_acc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Negative Coggins Test" max_length="40" name="u_eia_date" type="glide_date"/>
+        <element label="Laboratory" max_length="40" name="u_eia_lab" type="string"/>
+        <element label="EIA Results" max_length="40" name="u_eia_results" type="string"/>
+        <element choice="1" label="ID Type" max_length="40" name="u_idtype" type="string">
+            <choice>
+                <element inactive_on_update="false" label="840 RFID / Microchip" sequence="0" value="AIN"/>
+                <element inactive_on_update="false" label="USDA Silver Brite/Orange Bang's Tag (82ABC1234)" sequence="1" value="NUES9"/>
+                <element inactive_on_update="false" label="Equine Description" sequence="2" value="EquineDescription"/>
+                <element inactive_on_update="false" label="Canada/Mexico (124 or 484 tag)" sequence="3" value="MfrRFID"/>
+                <element inactive_on_update="false" label="USDA Pig Tag (82AB1234)" sequence="4" value="NUES8"/>
+                <element inactive_on_update="false" label="Other Official ID" sequence="6" value="OtherOfficialID"/>
+            </choice>
+        </element>
+        <element label="Laboratory" max_length="40" name="u_other_lab" type="string"/>
+        <element label="Results" max_length="40" name="u_other_results" type="string"/>
+        <element label="Test" max_length="40" name="u_other_test" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Test Date" max_length="40" name="u_other_test_date" type="glide_date"/>
+        <element choice="1" label="Other Tag Type" max_length="40" name="u_othtagtype" type="string">
+            <choice>
+                <element inactive_on_update="false" label="NAME" sequence="10" value="NAME"/>
+                <element inactive_on_update="false" label="Backtag" sequence="20" value="BT"/>
+                <element inactive_on_update="false" label="Tattoo" sequence="30" value="TAT"/>
+                <element inactive_on_update="false" label="Scrapie group flock ID" sequence="40" value="SGFLID"/>
+                <element dependent_value="NPIN" inactive_on_update="false" label="Swine PIN Tag" sequence="50" value="NPIN"/>
+                <element inactive_on_update="false" label="Swine PIN plus Management Tag" sequence="60" value="PINPLUS"/>
+                <element inactive_on_update="false" label="IMP" sequence="75" value="IMP"/>
+                <element inactive_on_update="false" label="Other" sequence="80" value="OTHER"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="Other" max_length="40" name="u_srvy_other" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="Tuberculosis" max_length="40" name="u_tb" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Date Test was Read" max_length="40" name="u_tb_date" type="glide_date"/>
+        <element choice="3" default="Yes" label="TB Results" max_length="40" name="u_tb_result" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Positive" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Negative" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="Trichomoniasis" max_length="40" name="u_trich" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element label="Accession #" max_length="40" name="u_trich_acc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Sample Collected" max_length="40" name="u_trich_date" type="glide_date"/>
+        <element label="Laboratory" max_length="40" name="u_trich_lab" type="string"/>
+        <element choice="3" default="No" label="Culture" max_length="40" name="u_trich_lab_culture" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="Individual PCR" max_length="40" name="u_trich_lab_in_pcr" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="Pooled PCR" max_length="40" name="u_trich_lab_pooled_pcr" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="Yes" label="Trich Results" max_length="40" name="u_trich_result" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Positive" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Negative" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Vaccination Status (If Female/Mixed Group)" max_length="40" name="u_vacc_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="All officially vaccinated with legible t" sequence="0" value="All officially vaccinated with legible t"/>
+                <element inactive_on_update="false" label="All officially vaccinated with legible tattoos" sequence="10" value="all_vacc_legible_tattoos"/>
+                <element inactive_on_update="false" label="Not Vaccinated" sequence="20" value="not_vaccinated"/>
+                <element inactive_on_update="false" label="Mixed vaccination status" sequence="30" value="mixed_vacc_status"/>
+                <element inactive_on_update="false" label="Unknown vaccination status" sequence="40" value="unknown_vacc_status"/>
+                <element inactive_on_update="false" label="All officially vaccinated with legible t" sequence="41" value="All officially vaccinated with legible t"/>
             </choice>
         </element>
         <index name="index">

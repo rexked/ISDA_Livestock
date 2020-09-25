@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">275e0a9cdbcc40509b2689584b96190a</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-09-18 15:59:41</sys_created_on>
+        <sys_id>9a8e8a9cdbcc40509b2689584b961923</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_instance_9a8e8a9cdbcc40509b2689584b961923</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-09-18 16:00:21</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p style=\"color: white;\" data-mce-style=\"color: white;\">LEGAL NOTICE: The Log-in credentials for the Idaho Livestock Trace Database (ILTP) are to be used strictly at the discretion and on the order of the accredited veterinarian who has been issued the log-in credentials and granted access to the system. Delegating authority to clinic staff, non-accredited employees, any other contractors or agents to submit official documents on the veterinarian’s behalf is at the sole discretion of the accredited veterinarian. The user agrees to comply with all state and federal requirements regarding access to and use of animal health records. By using ILTP, the user warrants that all information submitted is true, accurate, reliable and complete. All documents submitted through the ILTP are considered official animal health documents and any intentional misrepresentations of information may result in either state or federal enforcement action that will be directed solely towards the accredited veterinarian who digitally signed the document, regardless of who submitted the document.</p>",
+		"displayValue": "<p style=\"color: white;\">LEGAL NOTICE: The Log-in credentials for the Idaho Livestock Trace Database (ILTP) are to be used strictly at the discretion and on the order of the accredited veterinarian who has been issued the log-in credentials and granted access to the system. Delegating authority to clinic staff, non-accredited employees, any other contractors or agents to submit official documents on the veterinarian&rsquo;s behalf is at the sole discretion of the accredited veterinarian. The user agrees to comply with all state and federal requirements regarding access to and use of animal health records. By using ILTP, the user warrants that all information submitted is true, accurate, reliable and complete. All documents submitted through the ILTP are considered official animal health documents and any intentional misrepresentations of information may result in either state or federal enforcement action that will be directed solely towards the accredited veterinarian who digitally signed the document, regardless of who submitted the document.</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=9a8e8a9cdbcc40509b2689584b961923"/>
+</record_update>

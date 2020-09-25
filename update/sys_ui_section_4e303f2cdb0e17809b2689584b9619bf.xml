@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="4e303f2cdb0e17809b2689584b9619bf" sys_domain="global" table="x_cria_livestock_t_lab_results_trich" version="3" view="bruce_test">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>

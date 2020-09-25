@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="cattle_grazing" table="x_cria_livestock_t_vaccinations_trichomoniasis" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cattle_grazing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BLM</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 17:36:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b76d1b2db7153809b2689584b96190d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 17:36:16</sys_updated_on>
+            <value>blm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cattle_grazing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Forest Service</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 17:36:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9869d3edb3153809b2689584b9619fd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 17:36:27</sys_updated_on>
+            <value>forest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cattle_grazing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 17:36:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a89691b2db7153809b2689584b9619e9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 17:36:41</sys_updated_on>
+            <value>private</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cattle_grazing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>State Lands</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 17:36:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88a6d1b2db7153809b2689584b9619e8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 17:36:53</sys_updated_on>
+            <value>state</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>cattle_grazing</element>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 17:36:12</sys_created_on>
+            <sys_id>2986d1b2db7153809b2689584b961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cattle_grazing</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_trichomoniasis_cattle_grazing</sys_update_name>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 17:36:12</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_vaccinations_trichomoniasis_cattle_grazing</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="cattle_grazing" table="x_cria_livestock_t_vaccinations_trichomoniasis" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cattle_grazing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BLM</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 17:36:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b76d1b2db7153809b2689584b96190d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 17:36:16</sys_updated_on>
+            <value>blm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cattle_grazing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Forest Service</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 17:36:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9869d3edb3153809b2689584b9619fd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 17:36:27</sys_updated_on>
+            <value>forest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cattle_grazing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 17:36:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a89691b2db7153809b2689584b9619e9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 17:36:41</sys_updated_on>
+            <value>private</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>cattle_grazing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>State Lands</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 17:36:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88a6d1b2db7153809b2689584b9619e8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 17:36:53</sys_updated_on>
+            <value>state</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>cattle_grazing</element>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 17:36:12</sys_created_on>
+            <sys_id>2986d1b2db7153809b2689584b961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cattle_grazing</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_trichomoniasis_cattle_grazing</sys_update_name>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 17:36:12</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>-950578489</payload_hash>
+        <record_name>Trich Test &amp; Report.Cattle Grazing</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:54:46</sys_created_on>
+        <sys_id>9d0e11d6db7a570066015d104b96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1642457bb650000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:54:46</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>d90e11d6017a5700cc1faa2ef06b457d</update_guid>
+        <update_guid_history>d90e11d6017a5700cc1faa2ef06b457d:0,0c63e01e9db657008d56af6805cc5f43:1025980686,c863e01efbb65700186e6a53fc0bff40:1979290493,0463e01e1eb6570083969aca88964c3e:341582766,4463e01e05b65700409539616fcad92f:-1244057160,27a6d1b2767153809f01a7b3e9f0894f:-1889690199,bda69d7252715380b863a7887842ac90:-677810943,eda651b281715380ad16a9d066690a54:-405526153,b4a615b28271538029dabcfce112959d:-1507677346,b3969d721b7153801bbfa9c7659bbab5:697504318,1d96d1b22d715380062b9f6fd30c73f9:341301765,6096d1b245715380172531ac437836e2:-851723921,a68611b2c571538025930da57d4fb981:-478123271,a586d1b263715380d3ba7ea4c1eb752a:701240611</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cervin</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>510e11d6db7a570066015d104b96197a</sys_id>
+        <sys_metadata>510e11d6db7a570066015d104b96197a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cattle_grazing</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_trichomoniasis_cattle_grazing</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_vaccinations_trichomoniasis_cattle_grazing">9d0e11d6db7a570066015d104b96197d</sys_update_version>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_db_object">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
         <actions_access>true</actions_access>
         <alter_access>true</alter_access>
+        <caller_access/>
         <client_scripts_access>true</client_scripts_access>
         <configuration_access>true</configuration_access>
         <create_access>true</create_access>
@@ -17,6 +17,7 @@
         <number_ref display_value="LABMC">a5c8b9a9db5a9f809b2689584b96193e</number_ref>
         <provider_class/>
         <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
         <super_class display_value="Batchfill Bruc" name="x_cria_livestock_t_lab_results_bruc">c2edbbf6db09db00c64e5eea4b96197f</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>

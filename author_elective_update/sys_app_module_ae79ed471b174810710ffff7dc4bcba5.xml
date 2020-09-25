@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Livestock Tracking">731aa826dba09700df68f2b6ae961960</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Paper CVIs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cria_livestock_t_paper_cvi</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_cria_livestock_t.user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>imckirdy@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-03-06 15:45:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae79ed471b174810710ffff7dc4bcba5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Paper CVIs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_app_module_ae79ed471b174810710ffff7dc4bcba5</sys_update_name>
+        <sys_updated_by>imckirdy@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-03-12 23:34:05</sys_updated_on>
+        <timeline_page/>
+        <title>Paper CVIs</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_app_module_ae79ed471b174810710ffff7dc4bcba5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Livestock Tracking">731aa826dba09700df68f2b6ae961960</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Paper CVIs</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_cria_livestock_t_paper_cvi</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_cria_livestock_t.user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>imckirdy@criadvantage.com</sys_created_by><sys_created_on>2020-03-06 15:45:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ae79ed471b174810710ffff7dc4bcba5</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Paper CVIs</sys_name><sys_overrides/><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_app_module_ae79ed471b174810710ffff7dc4bcba5</sys_update_name><sys_updated_by>imckirdy@criadvantage.com</sys_updated_by><sys_updated_on>2020-03-12 23:34:05</sys_updated_on><timeline_page/><title>Paper CVIs</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>155532725</payload_hash>
+        <record_name>Paper CVIs</record_name>
+        <reverted_from/>
+        <source>2da15e85dbe34050447b4b8b0b961942</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Imckirdy</sys_created_by>
+        <sys_created_on>2020-03-12 23:48:32</sys_created_on>
+        <sys_id>dea19e85dbe34050447b4b8b0b961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170d1264b580000001</sys_recorded_at>
+        <sys_updated_by>Imckirdy</sys_updated_by>
+        <sys_updated_on>2020-03-12 23:48:32</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2a5e4a091bef44101595b881eb0a99ac</update_guid>
+        <update_guid_history>2a5e4a091bef44101595b881eb0a99ac:155532725,1a51f2cb5ed748100100c15a90b86d60:2106987165,e679ed47ec17481000824a14784c89a7:155532725</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 03/12/2020 05:50:53 PM">bc325ac5dbe34050447b4b8b0b961947</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Imckirdy</sys_created_by>
+        <sys_created_on>2020-03-12 23:50:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>02a514d481054f7c81889ec2dd534eb9</sys_id>
+        <sys_metadata>ae79ed471b174810710ffff7dc4bcba5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Paper CVIs</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_app_module_ae79ed471b174810710ffff7dc4bcba5</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ae79ed471b174810710ffff7dc4bcba5">dea19e85dbe34050447b4b8b0b961916</sys_update_version>
+        <sys_updated_by>Imckirdy</sys_updated_by>
+        <sys_updated_on>2020-03-12 23:50:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

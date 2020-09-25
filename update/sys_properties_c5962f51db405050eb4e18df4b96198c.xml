@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Brucellosis Test activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_cria_livestock_t_vaccinations_brucellosis_test_activity.fields</name>
+        <read_roles/>
+        <suffix>x_cria_livestock_t</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-04-07 21:09:25</sys_created_on>
+        <sys_id>c5962f51db405050eb4e18df4b96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_cria_livestock_t_vaccinations_brucellosis_test_activity.fields</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_properties_c5962f51db405050eb4e18df4b96198c</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-04-07 21:09:25</sys_updated_on>
+        <type>string</type>
+        <value>record_id,name_herd_owner,u_accession,u_veterinarian,sys_created_on,draft,herd_owner_name,number,official_ids,parent_ritm,premise_id_number,num_negative,num_positive,reactor,suspect,num_tag_only,herd_owner_city,sys_class_name,bruc_comptest,u_county,sys_created_by,dsa_herd,date_bled,u_date_signed,date_of_vaccination,dosage,form_status,herd_loc,herd_owner,u_herd_owner_info,herd_type,kind_of_herd,lab_result_table,u_lab_tech_signature,u_laboratory,number_in_herd,reason_other,u_phone_number,reason_for_test,serial_number_expiration_date,u_vet_signature,species_other,herd_owner_state,herd_owner_street,sys_tags,testing_expense,total_num_test,u_type_of_test,sys_updated_on,sys_updated_by,sys_mod_count,vaccination_tattoo,vaccine_mfg_and_strain,widget_records,herd_owner_zip,*Email*,*Relations*,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=c5962f51db405050eb4e18df4b96198c"/>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="1070930cdb33e300c64e5eea4b961918" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cria_livestock_t_batchfill_import_cvi</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_cria_livestock_t_batchfill_import_cvi">official_identificationISNOTEMPTY^EQ<item endquery="false" field="official_identification" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Add ids to parent record (import)</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var gr = new GlideRecord('x_cria_livestock_t_import_cvi');
+	gr.addQuery('sys_id', current.parent);
+	gr.query();
+	if(gr.next()){
+		if(gr.official_ids == null || gr.official_ids == ''){
+			gr.official_ids = current.official_identification;
+			if(current.alt_id !== null && current.alt_id !== ''){
+				gr.official_ids = gr.official_ids + ", " + current.alt_id;
+			}
+			gr.update();
+			return;
+		}else{
+			gr.official_ids = gr.official_ids + ", " + current.official_identification;
+			if(current.alt_id !== null && current.alt_id !== ''){
+				gr.official_ids = gr.official_ids + ", " + current.alt_id;
+			}
+			gr.update();
+			return;
+		}
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-04-12 19:46:45</sys_created_on>
+        <sys_domain>1070930cdb33e300c64e5eea4b961918</sys_domain>
+        <sys_domain_path/>
+        <sys_id>96bdccd5dbf837009b2689584b9619d6</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Add ids to parent record (import)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_96bdccd5dbf837009b2689584b9619d6</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-04-12 20:18:16</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=96bdccd5dbf837009b2689584b9619d6"/>
+</record_update>

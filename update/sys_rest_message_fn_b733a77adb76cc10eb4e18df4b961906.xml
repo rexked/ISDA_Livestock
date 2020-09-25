@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user>Tsears</basic_auth_user>
+        <content/>
+        <function_name>post</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Add External Message [ post ]</qualified_name>
+        <rest_endpoint>https://test.tnatc.org/usaherds.api/ks/api/AddExternalMessages</rest_endpoint>
+        <rest_message display_value="Add External Message">a0e157f9dbb60c10eb4e18df4b96198c</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-10 09:28:27</sys_created_on>
+        <sys_id>b733a77adb76cc10eb4e18df4b961906</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>post</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_b733a77adb76cc10eb4e18df4b961906</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-27 15:59:20</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

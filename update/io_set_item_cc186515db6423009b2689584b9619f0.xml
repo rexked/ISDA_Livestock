@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>99999</order>
+        <sc_cat_item display_value="Cooperative State/Federal Tuberculosis Test Record">1112cd5ddbe023009b2689584b961976</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-13 19:54:36</sys_created_on>
+        <sys_id>cc186515db6423009b2689584b9619f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Hidden Data Fields.Cooperative State/Federal Tuberculosis Test Record</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>io_set_item_cc186515db6423009b2689584b9619f0</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-13 19:54:36</sys_updated_on>
+        <variable_set display_value="Hidden Data Fields">cc2cf464dbf15f40c64e5eea4b961953</variable_set>
+    </io_set_item>
+</record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="m2m_sp_widget_dependency">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
     <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
         <sp_dependency display_value="HeisenbergRetinaIcons">f7fdd25e87c50300e0ef0cf888cb0b7b</sp_dependency>
         <sp_widget display_value="Livestock catalog item">af105a63db0d1f00c64e5eea4b961952</sp_widget>

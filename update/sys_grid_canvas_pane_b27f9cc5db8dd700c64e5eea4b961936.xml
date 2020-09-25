@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_grid_canvas_pane">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA New Tab">e27f9cc5db8dd700c64e5eea4b96190e</grid_canvas>
         <height>4</height>
-        <portal_widget display_value="Created 03/22/2018 14:19:14">6a7f9cc5db8dd700c64e5eea4b96192e</portal_widget>
+        <portal_widget display_value="Created 03/22/2018 02:19:14 PM">6a7f9cc5db8dd700c64e5eea4b96192e</portal_widget>
         <posx>0</posx>
         <posy>8</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>

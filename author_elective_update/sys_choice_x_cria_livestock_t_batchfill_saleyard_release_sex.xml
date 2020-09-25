@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="sex" table="x_cria_livestock_t_batchfill_saleyard_release" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Male</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_saleyard_release</name>
+            <sequence>1</sequence>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-30 19:15:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46e64929dbf59f409b2689584b96194f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-18 19:58:06</sys_updated_on>
+            <value>Male</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Neutered Male</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_saleyard_release</name>
+            <sequence>2</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-23 21:44:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b7ec6e8dbe31700c64e5eea4b9619fc</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-18 19:59:44</sys_updated_on>
+            <value>Neutered Male</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Female</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_saleyard_release</name>
+            <sequence>3</sequence>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-30 19:15:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7e6c129dbf59f409b2689584b9619ef</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-18 19:57:12</sys_updated_on>
+            <value>Female</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spayed Female</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_saleyard_release</name>
+            <sequence>4</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-23 21:44:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>958e8ae8dbe31700c64e5eea4b9619f6</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-18 20:00:21</sys_updated_on>
+            <value>Spayed Female</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_saleyard_release</name>
+            <sequence>5</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-23 21:44:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d9ecae8dbe31700c64e5eea4b961939</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-18 20:00:25</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sex</element>
+            <name>x_cria_livestock_t_batchfill_saleyard_release</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-30 19:15:39</sys_created_on>
+            <sys_id>a440eaa0dbab9b4066015d104b9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sex</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_batchfill_saleyard_release_sex</sys_update_name>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-30 19:15:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_batchfill_saleyard_release_sex</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="sex" table="x_cria_livestock_t_batchfill_saleyard_release" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>false</inactive><label>Male</label><language>en</language><name>x_cria_livestock_t_batchfill_saleyard_release</name><sequence>1</sequence><sys_created_by>cervin</sys_created_by><sys_created_on>2018-04-30 19:15:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>46e64929dbf59f409b2689584b96194f</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-07-18 19:58:06</sys_updated_on><value>Male</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>false</inactive><label>Neutered Male</label><language>en</language><name>x_cria_livestock_t_batchfill_saleyard_release</name><sequence>2</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-07-23 21:44:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8b7ec6e8dbe31700c64e5eea4b9619fc</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-07-18 19:59:44</sys_updated_on><value>Neutered Male</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>false</inactive><label>Female</label><language>en</language><name>x_cria_livestock_t_batchfill_saleyard_release</name><sequence>3</sequence><sys_created_by>cervin</sys_created_by><sys_created_on>2018-04-30 19:15:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d7e6c129dbf59f409b2689584b9619ef</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-07-18 19:57:12</sys_updated_on><value>Female</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>false</inactive><label>Spayed Female</label><language>en</language><name>x_cria_livestock_t_batchfill_saleyard_release</name><sequence>4</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-07-23 21:44:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>958e8ae8dbe31700c64e5eea4b9619f6</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-07-18 20:00:21</sys_updated_on><value>Spayed Female</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>false</inactive><label>Other</label><language>en</language><name>x_cria_livestock_t_batchfill_saleyard_release</name><sequence>5</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-07-23 21:44:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5d9ecae8dbe31700c64e5eea4b961939</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-07-18 20:00:25</sys_updated_on><value>Other</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>sex</element><name>x_cria_livestock_t_batchfill_saleyard_release</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>cervin</sys_created_by><sys_created_on>2018-04-30 19:15:39</sys_created_on><sys_id>a440eaa0dbab9b4066015d104b9619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sex</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_choice_x_cria_livestock_t_batchfill_saleyard_release_sex</sys_update_name><sys_updated_by>cervin</sys_updated_by><sys_updated_on>2018-04-30 19:15:39</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-964832469</payload_hash>
+        <record_name>Batchfill Saleyard Release.Sex</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-18 20:00:25</sys_created_on>
+        <sys_id>48137350db367340086c89584b9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16c06abe9eb0000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-18 20:00:25</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>001373501a36734092c43b729d02bfc1</update_guid>
+        <update_guid_history>001373501a36734092c43b729d02bfc1:-964832469,d703fb501736734008a40d79e92186df:1489440523,4ee27710d7367340affce529f5a2d95a:-368858357,0a827350573673402ff74fa62c071ac8:-1817915637,41527350e5367340cd5b515d2366c13e:1969729323,b3ee422ce7e317000ab893d8f911fbe3:374619979,9fee062c07e317005b1a487adbe7fcf5:-1520490946,2eeec22c81e31700d38b4ebe32da6c9b:-1350839560,46ee822c77e31700c278fca9e0ae0d5c:238095023,78ee422c70e31700f41d45e011bf9fdd:-1655006913,379e022caee31700231ed14f0da57d28:799009689,9b9e422c19e31700d6e3f61fe7e49d15:-674742024,669e0ae810e31700cc5e13d00874ba05:1794716064,599e8ae847e31700c26d818578ff90f9:-503463623,d38e0ae861e317006b69da54d5680e00:-1671629607,918e4ee810e31700f0b8e026572d181c:1511359571,380edd96c37a57008d4ea13d157ec114:0,187bd1de1f3a57001084be0597aa048d:1122936702,d47bd1de573a570064a0d4af75aa318a:1973275495,6b170d29edf59f408db83cf5eb96e78d:-355485152,68f681299af59f4004d52457e4487cc4:2093003037,3fe649292bf59f404bfdd7cac93de652:1973275495,5be6c52938f59f401f652c2cbbe05854:835126221</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cervin</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>a440eaa0dbab9b4066015d104b9619b0</sys_id>
+        <sys_metadata>a440eaa0dbab9b4066015d104b9619b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sex</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_batchfill_saleyard_release_sex</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_batchfill_saleyard_release_sex">48137350db367340086c89584b9619c1</sys_update_version>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

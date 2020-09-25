@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Annual Reset of ISDA Cert Numbers (Exclude Trich)</name>
+        <run_as display_value="David Morden">5e8a7737db65db409b2689584b9619df</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1971-01-01 00:00:00</run_period>
+        <run_start>2019-01-01 07:00:01</run_start>
+        <run_time>1970-01-01 07:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[var gr = new GlideRecord('x_cria_livestock_t_numbers');
+//added comment to update record for push to production
+gr.addQuery('type', '!=', 'T');
+gr.query();
+while(gr.next()){
+	gr.number = 0;
+	gr.update();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-11-27 17:21:12</sys_created_on>
+        <sys_id>f3f3d795db02e340447b4b8b0b961964</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Annual Reset of ISDA Cert Numbers (Exclude Trich)</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sysauto_script_f3f3d795db02e340447b4b8b0b961964</sys_update_name>
+        <sys_updated_by>tsears@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-01-03 05:44:32</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

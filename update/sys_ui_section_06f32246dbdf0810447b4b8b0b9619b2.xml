@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="06f32246dbdf0810447b4b8b0b9619b2" sys_domain="global" table="x_cria_livestock_t_batchfill_cvi" version="3" view="support">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>official_identification</element>
+            <position>0</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_id>82f32246dbdf0810447b4b8b0b9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">06f32246dbdf0810447b4b8b0b9619b2</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alt_id</element>
+            <position>1</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_id>0af32246dbdf0810447b4b8b0b9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">06f32246dbdf0810447b4b8b0b9619b2</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>species</element>
+            <position>2</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_id>8ef32246dbdf0810447b4b8b0b9619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">06f32246dbdf0810447b4b8b0b9619b2</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_species</element>
+            <position>3</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_id>06f32246dbdf0810447b4b8b0b9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">06f32246dbdf0810447b4b8b0b9619b2</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>breed</element>
+            <position>4</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_id>8af32246dbdf0810447b4b8b0b9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">06f32246dbdf0810447b4b8b0b9619b2</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_id>02f32246dbdf0810447b4b8b0b9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">06f32246dbdf0810447b4b8b0b9619b2</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_idtype</element>
+            <position>6</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_id>86f32246dbdf0810447b4b8b0b9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">06f32246dbdf0810447b4b8b0b9619b2</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_othtagtype</element>
+            <position>7</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_id>0ef32246dbdf0810447b4b8b0b9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">06f32246dbdf0810447b4b8b0b9619b2</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sex</element>
+            <position>8</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_id>82f32246dbdf0810447b4b8b0b9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">06f32246dbdf0810447b4b8b0b9619b2</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>age</element>
+            <position>9</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_id>0af32246dbdf0810447b4b8b0b9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">06f32246dbdf0810447b4b8b0b9619b2</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vacc_status</element>
+            <position>10</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_id>8ef32246dbdf0810447b4b8b0b9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">06f32246dbdf0810447b4b8b0b9619b2</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>11</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_id>06f32246dbdf0810447b4b8b0b9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">06f32246dbdf0810447b4b8b0b9619b2</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:26:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06f32246dbdf0810447b4b8b0b9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cria_livestock_t_batchfill_cvi</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_06f32246dbdf0810447b4b8b0b9619b2</sys_update_name>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:26:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="support" name="support">8852e2c2dbdf0810447b4b8b0b96194a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

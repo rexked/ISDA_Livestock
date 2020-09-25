@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="other_tests" table="x_cria_livestock_t_lab_results_bruc" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>other_tests</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Negative</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>0</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-16 21:59:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7110044db55e740447b4b8b0b961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-16 21:59:29</sys_updated_on>
+            <value>Negative</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>other_tests</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RIV</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>20</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-10 21:16:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c982c174dbc21700c64e5eea4b9619d7</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-08 22:38:45</sys_updated_on>
+            <value>rib</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>other_tests</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPT</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>30</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-10 21:16:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e82c974dbc21700c64e5eea4b9619e7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 21:17:06</sys_updated_on>
+            <value>spt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>other_tests</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>STT</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>40</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-10 21:16:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b820d74dbc21700c64e5eea4b96191c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 21:17:08</sys_updated_on>
+            <value>stt</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>other_tests</element>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-10 21:16:38</sys_created_on>
+            <sys_id>fc0edd96db7a570066015d104b961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>other_tests</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_bruc_other_tests</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-10 21:16:38</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_lab_results_bruc_other_tests</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="other_tests" table="x_cria_livestock_t_lab_results_bruc" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>other_tests</element><hint/><inactive>false</inactive><label>Negative</label><language>en</language><name>x_cria_livestock_t_lab_results_bruc</name><sequence>0</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2018-10-16 21:59:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c7110044db55e740447b4b8b0b961907</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2018-10-16 21:59:29</sys_updated_on><value>Negative</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>other_tests</element><hint/><inactive>false</inactive><label>RIV</label><language>en</language><name>x_cria_livestock_t_lab_results_bruc</name><sequence>20</sequence><sys_created_by>cervin@criadvantage.com</sys_created_by><sys_created_on>2018-05-10 21:16:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c982c174dbc21700c64e5eea4b9619d7</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-06-08 22:38:45</sys_updated_on><value>rib</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>other_tests</element><hint/><inactive>false</inactive><label>SPT</label><language>en</language><name>x_cria_livestock_t_lab_results_bruc</name><sequence>30</sequence><sys_created_by>cervin@criadvantage.com</sys_created_by><sys_created_on>2018-05-10 21:16:48</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1e82c974dbc21700c64e5eea4b9619e7</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>cervin@criadvantage.com</sys_updated_by><sys_updated_on>2018-05-10 21:17:06</sys_updated_on><value>spt</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>other_tests</element><hint/><inactive>false</inactive><label>STT</label><language>en</language><name>x_cria_livestock_t_lab_results_bruc</name><sequence>40</sequence><sys_created_by>cervin@criadvantage.com</sys_created_by><sys_created_on>2018-05-10 21:16:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7b820d74dbc21700c64e5eea4b96191c</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>cervin@criadvantage.com</sys_updated_by><sys_updated_on>2018-05-10 21:17:08</sys_updated_on><value>stt</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>other_tests</element><name>x_cria_livestock_t_lab_results_bruc</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>cervin@criadvantage.com</sys_created_by><sys_created_on>2018-05-10 21:16:38</sys_created_on><sys_id>fc0edd96db7a570066015d104b961955</sys_id><sys_mod_count>0</sys_mod_count><sys_name>other_tests</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_choice_x_cria_livestock_t_lab_results_bruc_other_tests</sys_update_name><sys_updated_by>cervin@criadvantage.com</sys_updated_by><sys_updated_on>2018-05-10 21:16:38</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>864541497</payload_hash>
+        <record_name>Batchfill Bruc.Other Tests</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-16 21:59:29</sys_created_on>
+        <sys_id>0b110044db55e740447b4b8b0b96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1667ee418040000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-16 21:59:29</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>031100443855e74058ced1202dcc010b</update_guid>
+        <update_guid_history>031100443855e74058ced1202dcc010b:864541497,700edd963d7a5700cac3b3098dcf6c59:0,93c3a4dee8b657004eeadec355ce58b5:1557708450,d7c3a4de09b65700809f2e36075ec9b1:935323018,93c3a4de26b65700c9e10a952dd140ae:1132357703,7a6beac6e52a9700d6be0d9c172f3a0b:-1672149187,4a73cd7426c217001a0a199939a33cfd:1603116585,60a24d74d5c21700c577b4067432e55f:1680295222,8ca28974b3c2170095ead15ad6fde5e1:-1375029161,ef92c5744cc21700fbca1c2bb9f448ae:-2013015627,07924d745ac217000dc33faf76012424:559995958,a6920d740dc21700b30faf0d424f0491:1418847672,2d92897462c217001ba47228f16a12dc:80079288,64920d74fec2170027f8d16c9fae4915:1538806638,04920d747ac2170026a10a08d8395f8c:1764901687,67820d743cc21700274d037b1b202f81:1507939525,7e82457410c21700e8d69c3a5114b5dc:-1139714600,5282c9742bc217009b45698e80f41801:-1292499658,1182c17419c21700a758b967d4cfa143:-1411948009,0d8249742ec21700147be8de2602f9c3:-1336313618</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cervin@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>fc0edd96db7a570066015d104b961955</sys_id>
+        <sys_metadata>fc0edd96db7a570066015d104b961955</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>other_tests</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_bruc_other_tests</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_lab_results_bruc_other_tests">0b110044db55e740447b4b8b0b96190b</sys_update_version>
+        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

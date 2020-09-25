@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_widget">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
         <client_script><![CDATA[function() {  /* widget controller */  var c = this;
@@ -31,9 +30,13 @@ th.{
   
 }
 
+th.disease_headers:nth-child(6){
+  width: 50%;
+}
+
 td{
  
-  white-space: nowrap;
+  //white-space: nowrap;
   
 }
 
@@ -43,7 +46,7 @@ td{
   vertical-align: middle;
   padding: 10px;
   
-    width: 80%;
+   // width: 80%;
     max-width:80%;
     margin-bottom: 20px;
 
@@ -51,6 +54,7 @@ td{
   &amp;:nth-child(2) {
     border-left: none;
   }
+  
 
 .glyphicon-remove{
   
@@ -77,6 +81,36 @@ th .disabled{
   color: $primary;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+ 
+  padding: 10px;
+}
+.grid-container&gt;div {
+ 
+  text-align: center;
+  padding:20px 0;
+  font-size: 30px;
+}
+
+
+
+.wrapper &gt; div {
+    
+    border-radius: 5px;
+    
+    padding: 1em;
+    
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
 </css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -117,15 +151,19 @@ if (articleGR.getValue('article_type') == 'wiki'){
 
 	// Collect information from form
 	t.number = articleGR.getDisplayValue('record_id');
+	t.different_origin = articleGR.getDisplayValue('u_origin_address_different');
+	t.different_dest = articleGR.getDisplayValue('u_dest_address_different');
 	t.consignor = articleGR.getDisplayValue('slyd_consignor_name');
 	t.consignor_street = articleGR.getDisplayValue('slyd_consignor_street');
 	t.consignor_city = articleGR.getDisplayValue('slyd_consignor_city') + ", " + articleGR.getDisplayValue('slyd_consignor_state') + " " + articleGR.getDisplayValue('slyd_consignor_zip');
 	t.consignor_phone = articleGR.getDisplayValue('consignor_phone');
 	t.consignor_county = articleGR.getDisplayValue('u_county');
+	t.origin_address = articleGR.getDisplayValue('u_origin_address') + ", " + articleGR.getDisplayValue('origin_state') + " " + articleGR.getDisplayValue('u_origin_zip');
 	t.consignee = articleGR.getDisplayValue('slyd_consignee_name');
 	t.consignee_street = articleGR.getDisplayValue('slyd_consignee_street');
 	t.consignee_city = articleGR.getDisplayValue('slyd_consignee_city') + ", " + articleGR.getDisplayValue('slyd_consignee_state') + " " + articleGR.getDisplayValue('slyd_consignee_zip');
 	t.consignee_phone = articleGR.getDisplayValue('consignee_phone');
+	t.dest_address = articleGR.getDisplayValue('u_dest_address') + ", " + articleGR.getDisplayValue('u_dest_state') + " " + articleGR.getDisplayValue('u_destination_zip');
 	t.entry_permit = articleGR.getDisplayValue('entry_permit_number');
 	t.inspection_date = articleGR.getDisplayValue('inspection_date');
 	t.ship_date = articleGR.getDisplayValue('shipment_date');
@@ -141,25 +179,31 @@ if (articleGR.getValue('article_type') == 'wiki'){
 	t.remarks = articleGR.getDisplayValue('slyd_area_remarks');
 	t.saleyrd = articleGR.getDisplayValue('u_saleyard');
 	t.id_marks = articleGR.getDisplayValue('identifying_marks');
-	
-			//Check to see if attachments are present.
+	t.dsa_herd = articleGR.getDisplayValue('dsa_herd')
+
+	//Check to see if attachments are present.
 	t.attachments = [];
- var rows = 0;
-	
+	var rows = 0;
+
 	var atta = new GlideRecord('sys_attachment');
 	atta.addQuery('table_sys_id' , $sp.getParameter('sys_id'));
-	atta.query()
+	atta.query();
 	rows = atta.getRowCount()/3;
-	console.log(rows)
+	console.log(rows);
 	rows = Math.ceil(rows);
-	 while(atta.next()){
-		 t.attachments.push('sys_attachment.do?sys_id='+ atta.sys_id);
-			
-	 }
-	
-	
+	while(atta.next()){
+		if(atta.content_type.indexOf("image") > -1 && atta.sys_created_by != "system"){
+			t.attachments.push('sys_attachment.do?sys_id='+ atta.sys_id);
+		}
+		/*if(atta.content_type == "application/pdf" && atta.file_name != "Idaho " + t.consignor + " " + t.signed_date + ".pdf"){
+			t.attachments.push('pdf_icon.png');
+		}*/
+	}
+
+
 	// Query for Vet information
 	t.vet = articleGR.getDisplayValue('u_veterinarian');
+	t.vet_sig = articleGR.getValue('u_vet_sig')
 	var grvet = new GlideRecord('sys_user');
 	grvet.addQuery('sys_id', articleGR.getValue('u_veterinarian'));
 	grvet.query();
@@ -171,11 +215,24 @@ if (articleGR.getValue('article_type') == 'wiki'){
 		t.vet_usda = grvet.getDisplayValue('x_cria_livestock_t_u_usda_accred');
 		t.vet_lic = grvet.getDisplayValue('x_cria_livestock_t_u_state_lic');
 	}
-	
+
 	// check species check boxes and populate data
-	t.cattle = articleGR.getValue('slyd_cattle');
-	if(t.cattle == true){
-		t.species_field = "Cattle";
+	t.num_of_beef = articleGR.getDisplayValue('num_beef_cattle');
+	t.num_of_dairy = articleGR.getDisplayValue('num_dairy_cattle');
+	t.num_of_goats = articleGR.getDisplayValue('num_goats');
+	t.num_of_horses = articleGR.getDisplayValue('num_horses');
+	t.num_of_sheep = articleGR.getDisplayValue('num_sheep');
+	t.num_of_swine = articleGR.getDisplayValue('num_swine');
+	t.num_of_poultry = articleGR.getDisplayValue('num_poultry');
+	t.num_of_other = articleGR.getDisplayValue('num_other');
+	t.beef = articleGR.getValue('num_beef_cattle');
+	if(t.beef > 0){
+		if(t.species_field == null){
+			t.species_field = "Beef Cattle";
+		}else{
+			t.species_field = t.species_field + ", Beef Cattle";
+		}
+		t.cattle = true;
 		t.vaccination_status = articleGR.getDisplayValue('bruce_vacc_status');
 		t.num_of_bulls = articleGR.getDisplayValue('num_of_bulls');
 		t.num_of_cows = articleGR.getDisplayValue('num_of_cows');
@@ -183,55 +240,70 @@ if (articleGR.getValue('article_type') == 'wiki'){
 		t.num_of_calves = articleGR.getDisplayValue('num_of_calves');
 		t.num_of_steers = articleGR.getDisplayValue('num_of_steers');
 	}
-	t.goat = articleGR.getValue('slyd_goats');
-	if(t.goat == true){
+	t.dairy = articleGR.getValue('num_dairy_cattle');
+	if(t.dairy > 0){
+		if(t.species_field == null){
+			t.species_field = "Dairy Cattle";
+		}else{
+			t.species_field = t.species_field + ", Dairy Cattle";
+		}
+		t.cattle = true;
+		t.vaccination_status = articleGR.getDisplayValue('bruce_vacc_status');
+		t.num_of_bulls = articleGR.getDisplayValue('num_of_bulls');
+		t.num_of_cows = articleGR.getDisplayValue('num_of_cows');
+		t.num_of_heifers = articleGR.getDisplayValue('num_of_heifers');
+		t.num_of_calves = articleGR.getDisplayValue('num_of_calves');
+		t.num_of_steers = articleGR.getDisplayValue('num_of_steers');
+	}
+	t.goat = articleGR.getValue('num_goats');
+	if(t.goat > 0){
 		if(t.species_field == null){
 			t.species_field = "Goats";
 		}else{
 			t.species_field = t.species_field + ", Goats";
 		}
 	}
-	t.horses = articleGR.getValue('slyd_horses');
-	if(t.horses == true){
+	t.horses = articleGR.getValue('num_horses');
+	if(t.horses > 0){
 		if(t.species_field == null){
 			t.species_field = "Horses";
 		}else{
 			t.species_field = t.species_field + ", Horses";
 		}
 	}
-	t.sheep = articleGR.getValue('slyd_sheep');
-	if(t.sheep == true){
+	t.sheep = articleGR.getValue('num_sheep');
+	if(t.sheep > 0){
 		if(t.species_field == null){
 			t.species_field = "Sheep";
 		}else{
 			t.species_field = t.species_field + ", Sheep";
 		}
 	}
-	t.swine = articleGR.getValue('slyd_swine');
-	if(t.swine == true){
+	t.swine = articleGR.getValue('num_swine');
+	if(t.swine > 0){
 		if(t.species_field == null){
 			t.species_field = "Swine";
 		}else{
 			t.species_field = t.species_field + ", Swine";
 		}
 	}
-	t.poultry = articleGR.getValue('slyd_poultry');
-	if(t.poultry == true){
+	t.poultry = articleGR.getValue('num_poultry');
+	if(t.poultry > 0){
 		if(t.species_field == null){
 			t.species_field = "Poultry";
 		}else{
 			t.species_field = t.species_field + ", Poultry";
 		}
 	}
-	t.other_spec = articleGR.getValue('slyd_other');
-	if(t.other_spec == true){
+	t.other_spec = articleGR.getValue('num_other');
+	if(t.other_spec > 0){
 		if(t.species_field == null){
 			t.species_field = "Other - " + articleGR.getDisplayValue('species_other');
 		}else{
 			t.species_field = t.species_field + ", Other - " + articleGR.getDisplayValue('species_other');
 		}
 	}
-	
+	/*
 	// check disease surveillance and populate data
 	t.bruc = articleGR.getValue('slyd_brucellosis');
 	if(t.bruc == true){
@@ -264,7 +336,7 @@ if (articleGR.getValue('article_type') == 'wiki'){
 		t.tb_neg = articleGR.getDisplayValue('slyd_srvy_tb_tested_negative');
 		t.tb_date = articleGR.getDisplayValue('slyd_srvy_tb_date_read');
 	}
-		
+	*/
 	// Query for related animal records
 	var gr = new GlideRecord('x_cria_livestock_t_batchfill_saleyard_release');
 	gr.addQuery('parent', t.sys_id);
@@ -280,38 +352,39 @@ if (articleGR.getValue('article_type') == 'wiki'){
 		else
 			t.rFields = $sp.getListColumns(t.rTable);
 	}
-	
-	
 
+
+	t.column_headers = [];
 	t.column_labels =[];
 	t.rFields_array = t.rFields.split(',');
 	arr_length = t.rFields_array.length;
 
-		for(var i = 0; i < arr_length ; i++){
+	for(var i = 0; i < arr_length ; i++){
 		var field = t.rFields_array[i];
 		var ge = gr.getElement(field);
-			
+
 		if (ge == null)
-            continue;
+			continue;
 		t.column_labels[field] = ge.getLabel();
+		t.column_headers.push(ge.getLabel(field));
 
 	}
 }
 
-	
+
 while (gr.next()){
 	var y= [];
 
 
-for(var i = 0; i < arr_length ; i++){
+	for(var i = 0; i < arr_length ; i++){
 		var objKeys = Object.keys(t.column_labels);
 		var field = objKeys[i];
 		var col = t.column_labels.field;
 		y.push({label: t.column_labels[field],  value: gr.getDisplayValue(field)});
-}
-	
+	}
+
 	t.related.push(y);
-	
+
 }
 
 for(var i = 0; i < arr_length ; i++){
@@ -329,14 +402,14 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-06 23:17:33</sys_created_on>
         <sys_id>af11a8e5dba25700c64e5eea4b9619fe</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>123</sys_mod_count>
         <sys_name>ISDA Saleyard Printable Form</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_widget_af11a8e5dba25700c64e5eea4b9619fe</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-08-09 19:55:51</sys_updated_on>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-16 09:20:45</sys_updated_on>
         <template><![CDATA[<style type="text/css" media="print">
   #Header, #Footer { display: none !important; }
   @page 
@@ -358,182 +431,213 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
   <!--<hr class="style1">-->
   <img src="ISDA_Background.png" style="display:block; margin-left:auto; margin-right:auto; width:80%;"/>
   <div align="center" style="position: absolute; top:175px; left:30px; width:95%;">
-  <div>
-    <table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
-      <tr style="background-color: #cccccc;">
-        <th width="33%" style="padding:5px; text-align:center;"><b>${Consignor - Contact Person at Origin}</b></th>
-        <th width="33%" style="padding:5px; text-align:center;"><b>${Consignee - Contact Person at Destination}</b></th>
-        <th width="33%" style="padding:5px; text-align:center;"><b>${Shipment Information}</b></th>
-      </tr>
-      <tr>
-        <td valign="top" style="text-align:left; padding:5px;">
-          <label><strong>Name: </strong>{{::data.consignor}}<br><strong>Physical Address: </strong>{{::data.consignor_street}}<br><strong>City, State, Zip: </strong>{{::data.consignor_city}}<br><strong>Phone: </strong>{{::data.consignor_phone}}<br><strong>County: </strong>{{::data.consignor_county}}</label>
-        </td>
-        <td valign="top" style="text-align:left; padding:5px;">
-          <label><strong>Name: </strong>{{::data.consignee}}<br><strong>Physical Address: </strong>{{::data.consignee_street}}<br><strong>City, State, Zip: </strong>{{::data.consignee_city}}<br><strong>Phone: </strong>{{::data.consignee_phone}}</label>
-        </td>
-        <td valign="top" style="text-align:left; padding:5px;">
-          <label><strong>Saleyard Name: </strong>{{::data.saleyrd}}<br><strong>Saleyard Release Date: </strong>{{::data.release}}<br><strong>Entry Permit Number: </strong>{{::data.entry_permit}}<br><strong>Brand Inspection Number: </strong>{{::data.brand_insp}}<br><strong>Reason for Release: </strong>{{::data.release_reason}}<br><strong>Number of Animals Shipped: </strong>{{::data.num_animals}}<br><strong>Species: </strong>{{::data.species_field}}</label>
-        </td>
-      </tr>
-    </table>
+    <div>
+      <table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
+        <tr style="background-color: #cccccc;">
+          <th width="33%" style="padding:5px; text-align:center;"><b>${Consignor - Contact Person at Origin}</b></th>
+          <th width="33%" style="padding:5px; text-align:center;"><b>${Consignee - Contact Person at Destination}</b></th>
+          <th width="33%" style="padding:5px; text-align:center;"><b>${Shipment Information}</b></th>
+        </tr>
+        <tr>
+          <td valign="top" style="text-align:left; padding:5px;">
+            <label><strong>Name: </strong>{{::data.consignor}}<br><strong>Physical Address: </strong>{{::data.consignor_street}}<br><strong>City, State, Zip: </strong>{{::data.consignor_city}}<br><strong>Phone: </strong>{{::data.consignor_phone}}<br><strong>County: </strong>{{::data.consignor_county}}</label><label ng-if="::data.different_origin == 'true'"><strong>Mailing Address: </strong>{{::data.origin_address}}</label>
+          </td>
+          <td valign="top" style="text-align:left; padding:5px;">
+            <label><strong>Name: </strong>{{::data.consignee}}<br><strong>Physical Address: </strong>{{::data.consignee_street}}<br><strong>City, State, Zip: </strong>{{::data.consignee_city}}<br><strong>Phone: </strong>{{::data.consignee_phone}}</label><label ng-if="::data.different_dest == 'true'"><strong>Mailing Address: </strong>{{::data.dest_address}}</label>
+          </td>
+          <td valign="top" style="text-align:left; padding:5px;">
+            <label><strong>Saleyard Name: </strong>{{::data.saleyrd}}<br><strong>Saleyard Release Date: </strong>{{::data.release}}<br><strong>Entry Permit Number: </strong>{{::data.entry_permit}}<br><strong>Brand Inspection Number: </strong>{{::data.brand_insp}}<br><strong>Reason for Release: </strong>{{::data.release_reason}}<br><strong>Number of Animals Shipped: </strong>{{::data.num_animals}}<br><strong>Species: </strong>{{::data.species_field}}</label>
+          </td>
+        </tr>
+      </table>
+      <br>
+    </div>
+    <!--<div>
+      <label style="margin-left: 15px;"><b>Owner/Agent Statement</b></label><br>
+      <label style="margin-left: 15px;">The animals in the shipment are those certified to and listed on this certificate.</label><label style="margin-left: 10px;">Signature: </label><input type="text" size="45" readonly style="border:0; border-bottom: 1px solid #000;"><label style="margin-left: 10px;">Date: </label><input type="text" readonly style="border:0; border-bottom: 1px solid #000;">
+    </div>-->
     <br>
-  </div>
-  <div>
-    <label style="margin-left: 15px;"><b>Owner/Agent Statement</b></label><br>
-    <label style="margin-left: 15px;">The animals in the shipment are those certified to and listed on this certificate.</label><label style="margin-left: 10px;">Signature: </label><input type="text" size="45" readonly style="border:0; border-bottom: 1px solid #000;"><label style="margin-left: 10px;">Date: </label><input type="text" readonly style="border:0; border-bottom: 1px solid #000;">
-  </div>
-  <br>
-  <div>
-    <table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
-      <tr align="center" style="background-color: #cccccc;">
-        <th align="center" style="text-align:center; padding:5px;"><b>${Veterinary Certification}</b></th>
-      </tr>
-      <tr>
-        <td style="text-align: center; padding: 5px; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">I certify, as an accredited veterinarian, that the below-described animals have been inspected by me and that they are not showing signs of infectious, contagious, and/or communicable disease (except where noted). The vaccinations and results of tests are as indicated on this certificate. To the best of my knowledge, the animals listed on this certificate meet the state of destination and federal interstate requirements. No further warranty is made or implied.</td>
-      </tr>
-      <tr>
-        <table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" rules="box" border="1" cellspacing="1" cellpadding="10" font-size="8pt">
-          <tr>
-            <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Digitally Signed By: </strong>{{::data.vet}}</label>
-            </td>
-            <td width="25%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Address: </strong>{{::data.vet_street}}</label>
-            </td>
-            <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>City, State, Zip: </strong>{{::data.vet_city}}</label>
-            </td>
-            <td width="14%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Phone: </strong>{{::data.vet_phone}}</label>
-            </td>
-            <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Email: </strong>{{::data.vet_email}}</label>
-            </td>
-          </tr>
-          <tr>
-            <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Date: </strong>{{::data.signed_date}}</label>
-            </td>
-            <td width="25%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>USDA Accreditation #: </strong>{{::data.vet_usda}}</label>
-            </td>
-            <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>State License #: </strong>{{::data.vet_lic}}</label>
-            </td>
-          </tr>
-        </table>
-      </tr>
-    </table>
+    <div>
+      <table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
+        <tr align="center" style="background-color: #cccccc;">
+          <th align="center" style="text-align:center; padding:5px;"><b>${Veterinary Certification}</b></th>
+        </tr>
+        <tr>
+          <td style="text-align: center; padding: 5px; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">I certify, as an accredited veterinarian, that the below-described animals have been inspected by me and that they are not showing signs of infectious, contagious, and/or communicable disease (except where noted). The vaccinations and results of tests are as indicated on this certificate. To the best of my knowledge, the animals listed on this certificate meet the state of destination and federal interstate requirements. No further warranty is made or implied.</td>
+        </tr>
+        <tr>
+          <table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" rules="box" border="1" cellspacing="1" cellpadding="10" font-size="8pt">
+            <tr>
+              <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>Veterinarian: </strong>{{::data.vet}}</label>
+              </td>
+              <td width="25%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>Address: </strong>{{::data.vet_street}}</label>
+              </td>
+              <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>City, State, Zip: </strong>{{::data.vet_city}}</label>
+              </td>
+              <td width="14%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>Phone: </strong>{{::data.vet_phone}}</label>
+              </td>
+              <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>Email: </strong>{{::data.vet_email}}</label>
+              </td>
+            </tr>
+            <tr>
+              <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>Date: </strong>{{::data.signed_date}}</label>
+              </td>
+              <td width="25%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>USDA Accreditation #: </strong>{{::data.vet_usda}}</label>
+              </td>
+              <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>State License #: </strong>{{::data.vet_lic}}</label>
+              </td>
+              <td width="35%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>Signature: </strong>{{::data.vet_sig}}</label>
+              </td>
+            </tr>
+          </table>
+        </tr>
+      </table>
+      <br>
+    </div>
+    <div>
+      <table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
+        <tr style="background-color: #cccccc;">
+          <th width="33%" style="padding:5px; text-align:center;"><b>${Summary of Shipment}</b></th>
+          <th width="33%" style="padding:5px; text-align:center;"><b>${State / Area Status}</b></th>
+          <th width="33%" style="padding:5px; text-align:center;"><b>${Remarks}</b></th>
+        </tr>
+        <tr>
+          <td style="text-align:left; padding:5px;">
+            <div>
+              <table width="99%">
+                <td style="width:50%">
+                  <label ng-if="::data.num_of_beef > 0" style="font-size:8pt;"><strong>Number of Beef Cattle: </strong>{{::data.num_of_beef}}</label><br ng-if="::data.num_of_beef > 0">
+                  <label ng-if="::data.num_of_dairy > 0" style="font-size:8pt;"><strong>Number of Dairy Cattle: </strong>{{::data.num_of_dairy}}</label><br ng-if="::data.num_of_dairy > 0">
+                  <label ng-if="::data.num_of_goats > 0" style="font-size:8pt;"><strong>Number of Goats: </strong>{{::data.num_of_goats}}</label><br ng-if="::data.num_of_goats > 0">
+                  <label ng-if="::data.num_of_horses > 0" style="font-size:8pt;"><strong>Number of Horses: </strong>{{::data.num_of_horses}}</label><br ng-if="::data.num_of_horses > 0">
+                  <label ng-if="::data.num_of_sheep > 0" style="font-size:8pt;"><strong>Number of Sheep: </strong>{{::data.num_of_sheep}}</label><br ng-if="::data.num_of_sheep > 0">
+                  <label ng-if="::data.num_of_swine > 0" style="font-size:8pt;"><strong>Number of Swine: </strong>{{::data.num_of_swine}}</label><br ng-if="::data.num_of_swine > 0">
+                  <label ng-if="::data.num_of_poultry > 0" style="font-size:8pt;"><strong>Number of Poultry: </strong>{{::data.num_of_poultry}}</label><br ng-if="::data.num_of_poultry > 0">
+                  <label ng-if="::data.num_of_other > 0" style="font-size:8pt;"><strong>Number of Other: </strong>{{::data.num_of_other}}</label><br ng-if="::data.num_of_other > 0">
+                </td>
+                <td style="vertical-align:top" ng-if="::data.cattle == true">
+                  <label style="font-size:8pt;"><strong>Summary of Cattle</strong></label><br>
+                  <label ng-if="::data.num_of_bulls > 0" style="font-size:8pt;"><strong>Number of Bulls: </strong>{{::data.num_of_bulls}}</label><br ng-if="::data.num_of_bulls > 0">
+                  <label ng-if="::data.num_of_steers > 0" style="font-size:8pt;"><strong>Number of Steers: </strong>{{::data.num_of_steers}}</label><br ng-if="::data.num_of_steers > 0">
+                  <label ng-if="::data.num_of_cows > 0" style="font-size:8pt;"><strong>Number of Cows: </strong>{{::data.num_of_cows}}</label><br ng-if="::data.num_of_cows > 0">
+                  <label ng-if="::data.num_of_heifers > 0" style="font-size:8pt;"><strong>Number of Heifers: </strong>{{::data.num_of_heifers}}</label><br ng-if="::data.num_of_heifers > 0">
+                  <label ng-if="::data.num_of_calves > 0" style="font-size:8pt;"><strong>Number of Calves: </strong>{{::data.num_of_calves}}</label>
+                </td>
+              </table>
+            </div>
+          </td>
+          <td style="text-align:left; padding:5px;">
+            <div>
+              <input type="checkbox" ng-checked="true" disabled="disabled"> TB Free<br>
+              <input type="checkbox" ng-checked="true" disabled="disabled"> Brucellosis Free<br>
+              <div ng-if="::data.dsa_herd == 'Yes'">
+                <input type="checkbox" ng-checked="true" disabled="disabled"> Animals originated from Designated Surveillance Area<br>
+              </div>
+            </div>
+          </td>
+          <!--<td style="text-align:left; padding:5px;">
+<div>
+<input type="checkbox" ng-checked="{{::data.bruc_ck}} == true" disabled="disabled"> Brucellosis<input type="checkbox" ng-checked="{{::data.equine_ck}} == true" disabled="disabled" style="margin-left:75px;"> Equine Infectious Anemia<br>
+<input type="checkbox" ng-checked="{{::data.trich_ck}} == true" disabled="disabled"> Trichomoniasis<input type="checkbox" ng-checked="{{::data.other_ck}} == true" disabled="disabled" style="margin-left:49px;"> Other<br>
+<input type="checkbox" ng-checked="{{::data.tb_ck}} == true" disabled="disabled"> Tuberculosis<br>
+</div>
+</td>-->
+          <td style="padding:1px; text-align:left; font-size: 8pt; overflow-wrap: break-all; white-space: pre-wrap;"> {{::data.remarks}}
+            <!--<div ng-if="::data.cattle == true">
+<hr>
+<label style="font-size:8pt;"><strong>Brucellosis Vaccination Status (females only): </strong>{{::data.vaccination_status}}</label><br>
+<label ng-if="::data.num_of_bulls" style="font-size:8pt;"><strong>Number of Bulls: </strong>{{::data.num_of_bulls}}</label><br ng-if="::data.num_of_bulls">
+<label ng-if="::data.num_of_steers" style="font-size:8pt;"><strong>Number of Steers: </strong>{{::data.num_of_steers}}</label><br ng-if="::data.num_of_steers">
+<label ng-if="::data.num_of_cows" style="font-size:8pt;"><strong>Number of Cows: </strong>{{::data.num_of_cows}}</label><br ng-if="::data.num_of_cows">
+<label ng-if="::data.num_of_heifers" style="font-size:8pt;"><strong>Number of Heifers: </strong>{{::data.num_of_heifers}}</label><br ng-if="::data.num_of_heifers">
+<label ng-if="::data.num_of_calves" style="font-size:8pt;"><strong>Number of Calves: </strong>{{::data.num_of_calves}}</label>
+</div>
+<div ng-if="::data.bruc_ck == true">
+<hr>
+<label ng-if="::data.bruc_lab" style="font-size:8pt;"><strong>Brucellosis Laboratory: </strong>{{::data.bruc_lab}}</label><br ng-if="::data.bruc_lab">
+<label ng-if="::data.bruc_bled" style="font-size:8pt;"><strong>Date Bled: </strong>{{::data.bruc_bled}}</label><br ng-if="::data.bruc_bled">
+<label ng-if="::data.bruc_elig" style="font-size:8pt;"><strong>Number of test eligible cattle: </strong>{{::data.bruc_elig}}</label><br ng-if="::data.bruc_elig">
+<label ng-if="::data.bruc_neg" style="font-size:8pt;"><strong>Number of brucellosis negative cattle: </strong>{{::data.bruc_neg}}</label>
+</div>
+<div ng-if="::data.trich_ck == true">
+<hr>
+<label ng-if="::data.trich_lab" style="font-size:8pt;"><strong>Trichomoniasis Laboratory: </strong>{{::data.trich_lab}}</label><br ng-if="::data.trich_lab">
+<label ng-if="::data.trich_date" style="font-size:8pt;"><strong>Date Sample Collected: </strong>{{::data.trich_date}}</label><br ng-if="::data.trich_date">
+<label ng-if="::data.trich_acc" style="font-size:8pt;"><strong>Accession #: </strong>{{::data.trich_acc}}</label><br ng-if="::data.trich_acc">
+<label ng-if="::data.trich_result" style="font-size:8pt;"><strong>All eligible bulls in this shipment tested negative: </strong>{{::data.trich_result}}</label>
+</div>
+<div ng-if="::data.tb_ck == true">
+<hr>
+<label ng-if="::data.tb_neg" style="font-size:8pt;"><strong>All animals have tested negative for TB: </strong>{{::data.tb_neg}}</label><br ng-if="::data.tb_neg">
+<label ng-if="::data.tb_date" style="font-size:8pt;"><strong>Date the test was read: </strong>{{::data.tb_date}}</label>
+</div>
+<div ng-if="::data.equine_ck == true">
+<hr>
+<label ng-if="::data.equine_lab" style="font-size:8pt;"><strong>Equine Laboratory: </strong>{{::data.equine_lab}}</label><br ng-if="::data.equine_lab">
+<label ng-if="::data.equine_acc" style="font-size:8pt;"><strong>Accession #: </strong>{{::data.equine_acc}}</label><br ng-if="::data.equine_acc">
+<label ng-if="::data.equine_date" style="font-size:8pt;"><strong>Date of Negative Coggins Test: </strong>{{::data.equine_date}}</label>
+</div>
+<div ng-if="::data.other_ck == true">
+<hr>
+<label ng-if="::data.other_test" style="font-size:8pt;"><strong>Test: </strong>{{::data.other_test}}</label><br ng-if="::data.other_test">
+<label ng-if="::data.other_results" style="font-size:8pt;"><strong>Results: </strong>{{::data.other_results}}</label><br ng-if="::data.other_results">
+<label ng-if="::data.other_lab" style="font-size:8pt;"><strong>Other Laboratory: </strong>{{::data.other_lab}}</label>
+</div>-->
+          </td>
+        </tr>
+      </table>
+    </div>
     <br>
-  </div>
-  <div>
-    <table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
-      <tr style="background-color: #cccccc;">
-        <th width="33%" style="padding:5px; text-align:center;"><b>${State / Area Status}</b></th>
-        <th width="33%" style="padding:5px; text-align:center;"><b>${Required Disease Surveillance Tests}</b></th>
-        <th width="33%" style="padding:5px; text-align:center;"><b>${Remarks}</b></th>
-      </tr>
-      <tr>
-        <td style="text-align:left; padding:5px;">
-          <div>
-            <input type="checkbox" ng-checked="{{::data.tb_free}} == true" disabled="disabled"> TB Free<br>
-            <input type="checkbox" ng-checked="{{::data.bruc_free}} == true" disabled="disabled"> Brucellosis Free<br>
+    <!-- <div ng-if="::data.horses > 0">
+<table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
+<tr style="background-color: #cccccc;">
+<th style="padding:5px; text-align:center;"><b>${Description of Markings}</b></th>
+</tr>
+<tr>
+<td style="padding:5px; text-align:center;">{{::data.id_marks}}</td>
+</tr>
+</table>
+</div>-->
+    <!----- Determin if there are attachments if so display them ---->
+    <div class="table" align="center" style="width: 99%;" ng-if='data.attachments.length'>
+      <h4 style="margin-left:25px;"><strong>Attachments</strong></h4>
+      <div class="row">
+        <div ng-repeat='attach in data.attachments track by $index'>
+          <div class="clearfix" ng-if="$index % 3 == 0"></div>
+          <div class="col-sm-4">
+            <img ng-src="{{attach}}" height='150px' style='padding-top: 15px'>
           </div>
-        </td>
-        <td style="text-align:left; padding:5px;">
-          <div>
-            <input type="checkbox" ng-checked="{{::data.bruc}} == true" disabled="disabled"> Brucellosis<input type="checkbox" ng-checked="{{::data.equine}} == true" disabled="disabled" style="margin-left:75px;"> Equine Infectious Anemia<br>
-            <input type="checkbox" ng-checked="{{::data.trich}} == true" disabled="disabled"> Trichomoniasis<input type="checkbox" ng-checked="{{::data.other}} == true" disabled="disabled" style="margin-left:49px;"> Other<br>
-            <input type="checkbox" ng-checked="{{::data.tb}} == true" disabled="disabled"> Tuberculosis<br>
-          </div>
-        </td>
-        <td style="padding:5px; text-align:left; font-size: 8pt;">{{::data.remarks}}
-          <div ng-if="::data.cattle == true">
-            <hr>
-            <label style="font-size:8pt;"><strong>Brucellosis Vaccination Status (females only): </strong>{{::data.vaccination_status}}</label><br>
-            <label ng-if="::data.num_of_bulls" style="font-size:8pt;"><strong>Number of Bulls: </strong>{{::data.num_of_bulls}}</label><br ng-if="::data.num_of_bulls">
-            <label ng-if="::data.num_of_steers" style="font-size:8pt;"><strong>Number of Steers: </strong>{{::data.num_of_steers}}</label><br ng-if="::data.num_of_steers">
-            <label ng-if="::data.num_of_cows" style="font-size:8pt;"><strong>Number of Cows: </strong>{{::data.num_of_cows}}</label><br ng-if="::data.num_of_cows">
-            <label ng-if="::data.num_of_heifers" style="font-size:8pt;"><strong>Number of Heifers: </strong>{{::data.num_of_heifers}}</label><br ng-if="::data.num_of_heifers">
-            <label ng-if="::data.num_of_calves" style="font-size:8pt;"><strong>Number of Calves: </strong>{{::data.num_of_calves}}</label>
-          </div>
-          <div ng-if="::data.bruc == true">
-            <hr>
-            <label ng-if="::data.bruc_lab" style="font-size:8pt;"><strong>Brucellosis Laboratory: </strong>{{::data.bruc_lab}}</label><br ng-if="::data.bruc_lab">
-            <label ng-if="::data.bruc_bled" style="font-size:8pt;"><strong>Date Bled: </strong>{{::data.bruc_bled}}</label><br ng-if="::data.bruc_bled">
-            <label ng-if="::data.bruc_elig" style="font-size:8pt;"><strong>Number of test eligible cattle: </strong>{{::data.bruc_elig}}</label><br ng-if="::data.bruc_elig">
-            <label ng-if="::data.bruc_neg" style="font-size:8pt;"><strong>Number of brucellosis negative cattle: </strong>{{::data.bruc_neg}}</label>
-          </div>
-          <div ng-if="::data.trich == true">
-            <hr>
-            <label ng-if="::data.trich_lab" style="font-size:8pt;"><strong>Trichomoniasis Laboratory: </strong>{{::data.trich_lab}}</label><br ng-if="::data.trich_lab">
-            <label ng-if="::data.trich_date" style="font-size:8pt;"><strong>Date Sample Collected: </strong>{{::data.trich_date}}</label><br ng-if="::data.trich_date">
-            <label ng-if="::data.trich_acc" style="font-size:8pt;"><strong>Accession #: </strong>{{::data.trich_acc}}</label><br ng-if="::data.trich_acc">
-            <label ng-if="::data.trich_result" style="font-size:8pt;"><strong>All eligible bulls in this shipment tested negative: </strong>{{::data.trich_result}}</label>
-          </div>
-          <div ng-if="::data.tb == true">
-            <hr>
-            <label ng-if="::data.tb_neg" style="font-size:8pt;"><strong>All animals have tested negative for TB: </strong>{{::data.tb_neg}}</label><br ng-if="::data.tb_neg">
-            <label ng-if="::data.tb_date" style="font-size:8pt;"><strong>Date the test was read: </strong>{{::data.tb_date}}</label>
-          </div>
-          <div ng-if="::data.equine == true">
-            <hr>
-            <label ng-if="::data.equine_lab" style="font-size:8pt;"><strong>Equine Laboratory: </strong>{{::data.equine_lab}}</label><br ng-if="::data.equine_lab">
-            <label ng-if="::data.equine_acc" style="font-size:8pt;"><strong>Accession #: </strong>{{::data.equine_acc}}</label><br ng-if="::data.equine_acc">
-            <label ng-if="::data.equine_date" style="font-size:8pt;"><strong>Date of Negative Coggins Test: </strong>{{::data.equine_date}}</label>
-          </div>
-          <div ng-if="::data.other == true">
-            <hr>
-            <label ng-if="::data.other_test" style="font-size:8pt;"><strong>Test: </strong>{{::data.other_test}}</label><br ng-if="::data.other_test">
-            <label ng-if="::data.other_results" style="font-size:8pt;"><strong>Results: </strong>{{::data.other_results}}</label><br ng-if="::data.other_results">
-            <label ng-if="::data.other_lab" style="font-size:8pt;"><strong>Other Laboratory: </strong>{{::data.other_lab}}</label>
-          </div>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <div ng-if="::data.horses == true">
-    <table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
-      <tr style="background-color: #cccccc;">
-        <th style="padding:5px; text-align:center;"><b>${Description of Markings}</b></th>
-      </tr>
-      <tr>
-        <td style="padding:5px; text-align:center;">{{::data.id_marks}}</td>
-      </tr>
-    </table>
-  </div>
-  <!----- Determin if there are attachments if so display them ---->
-  <div class="table" align="center" style="width: 99%;" ng-if='data.attachments.length'>
-    <h4 style="margin-left:25px;"><strong>Attachments</strong></h4>
-    <div  class="row">
-      <div ng-repeat='attach in data.attachments'>
-        <div class="clearfix" ng-if="$index % 3 == 0"></div>
-        <div class="col-sm-4">
-          <img ng-src="{{attach}}" height='150px' style='padding-top: 15px'>
         </div>
       </div>
     </div>
-  </div>
-  <div class="table" align="center" style="width: 99%;" >
-    <h4 style="margin-left:25px;"><strong>Animal Information</strong></h4>
-    <!-- PLACE HOLDER FOR ANIMAL ARRAY INFORMATION -->
-    <table class="table table-striped table-bordered table-condensed" align="center" width="99%" style="margin-left: 5px;">
-      <thead>
-        <tr>
-          <th style="background-color: #cccccc; width: 19%;" ng-repeat="keys in data.column_labels track by $index" tabindex="0">
-            <div class="th-title" >{{keys}}</div>
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr ng-repeat="item in data.related">
-          <td role="text" ng-repeat="field in item" aria-label="{{item[field].value}}" class="pointer" data-field="{{::keys}}"  data-th="{{data.column_labels[field]}}">{{field.value}}</td>
+    <div class="table" align="center" style="width: 99%;" >
+      <h4 style="margin-left:19px;"><strong>Animal Information</strong></h4>
+      <!-- PLACE HOLDER FOR ANIMAL ARRAY INFORMATION -->
+      <table class="table table-striped table-bordered table-condensed" align="center" width="99%">
+        <thead>
+          <tr>
+            <th class="disease_headers" style="background-color: #cccccc;" ng-repeat="keys in data.column_headers track by $index" tabindex="0">
+              <div class="th-title" >{{keys}}</div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="item in data.related">
+            <td role="text" ng-repeat="field in item" aria-label="{{item[field].value}}" class="pointer" data-field="{{::keys}}"  data-th="{{data.column_labels[field]}}">{{field.value}}</td>
 
-        </tr>
-      </tbody>
-    </table>
-  </div>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
   <br>
 

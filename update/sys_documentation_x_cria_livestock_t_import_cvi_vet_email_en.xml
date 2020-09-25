@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="vet_email" label="Veterinarian Email" language="en" table="x_cria_livestock_t_import_cvi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>vet_email</element>
+            <help/>
+            <hint/>
+            <label>Veterinarian Email</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_import_cvi</name>
+            <plural>Veterinarian Emails</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-01 20:29:16</sys_created_on>
+            <sys_id>21fdaf29db243340c64e5eea4b961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Veterinarian Email</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_import_cvi_vet_email_en</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-01 20:29:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

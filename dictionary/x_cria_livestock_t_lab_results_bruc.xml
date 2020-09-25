@@ -1,95 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Batchfill Bruc" max_length="40" name="x_cria_livestock_t_lab_results_bruc" sizeclass="6143" text_index="true" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Batchfill Bruc" max_length="40" name="x_cria_livestock_t_lab_results_bruc" sizeclass="1525543" text_index="true" type="collection">
         <element label="Actual Sequence" max_length="40" name="actual_sequence" type="string"/>
         <element label="Address" max_length="40" name="address" type="string"/>
         <element label="Age (In Months)" max_length="10" name="age" type="string"/>
         <element label="Alternate ID" max_length="40" name="alt_id" type="string"/>
         <element label="Back Tag #" max_length="40" name="back_tag" type="string"/>
-        <element choice="1" label="BAPA" max_length="40" name="bapa" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="BAPA" max_length="40" name="bapa" type="choice">
             <choice>
-                <element label="Negative" sequence="10" value="negative"/>
-                <element label="Positive" sequence="20" value="positive"/>
-                <element label="Test Invalid" sequence="30" value="test_invalid"/>
-                <element label="No Test" sequence="40" value="no_test"/>
+                <element inactive_on_update="false" label="Negative" sequence="10" value="negative"/>
+                <element inactive_on_update="false" label="Positive" sequence="20" value="positive"/>
+                <element inactive_on_update="false" label="Test Invalid" sequence="30" value="test_invalid"/>
+                <element inactive_on_update="false" label="No Test" sequence="40" value="no_test"/>
             </choice>
         </element>
         <element label="Breed" max_length="40" name="breed" type="string"/>
-        <element choice="1" label="Card" max_length="40" name="card" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Card" max_length="40" name="card" type="choice">
             <choice>
-                <element label="No Test" value="No Test"/>
-                <element label="Test Invalid" value="Test Invalid"/>
-                <element label="Negative" sequence="10" value="negative"/>
-                <element label="Positive" sequence="20" value="positive"/>
+                <element inactive_on_update="false" label="No Test" value="No Test"/>
+                <element inactive_on_update="false" label="Test Invalid" value="Test Invalid"/>
+                <element inactive_on_update="false" label="Negative" sequence="10" value="negative"/>
+                <element inactive_on_update="false" label="Positive" sequence="20" value="positive"/>
             </choice>
         </element>
         <element label="City" max_length="40" name="city" type="string"/>
-        <element label="commited" max_length="10" name="commited" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="commited" max_length="10" name="commited" read_only="true" type="boolean"/>
         <element label="Official Identification" max_length="40" name="ear_tag" type="string"/>
         <element label="Herd Owner Name" max_length="40" name="herd_owner_name" type="string"/>
         <element label="Official Identification" max_length="40" name="id" type="string"/>
-        <element choice="1" label="Lab Interpretation" max_length="40" name="lab_interpretation" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Lab Interpretation" max_length="40" name="lab_interpretation" type="choice">
             <choice>
-                <element label="Negative" sequence="10" value="negative"/>
-                <element label="Needs Review" sequence="20" value="review"/>
+                <element inactive_on_update="false" label="Negative" sequence="10" value="negative"/>
+                <element inactive_on_update="false" label="Needs Review" sequence="20" value="review"/>
             </choice>
         </element>
-        <element choice="1" label="Mark As" max_length="40" name="mark_as" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Mark As" max_length="40" name="mark_as" type="choice">
             <choice>
-                <element label="Retag" sequence="10" value="retag"/>
-                <element label="Natural Addition" sequence="20" value="natural addition"/>
-                <element label="Purchased Addition" sequence="30" value="purchased addition"/>
+                <element inactive_on_update="false" label="Retag" sequence="10" value="retag"/>
+                <element inactive_on_update="false" label="Natural Addition" sequence="20" value="natural addition"/>
+                <element inactive_on_update="false" label="Purchased Addition" sequence="30" value="purchased addition"/>
             </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="other" max_length="40" name="other" type="string"/>
-        <element choice="1" label="Other Tests" max_length="40" name="other_tests" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Other Tests" max_length="40" name="other_tests" type="choice">
             <choice>
-                <element label="RIV" sequence="20" value="rib"/>
-                <element label="SPT" sequence="30" value="spt"/>
-                <element label="STT" sequence="40" value="stt"/>
+                <element inactive_on_update="false" label="Negative" sequence="0" value="Negative"/>
+                <element inactive_on_update="false" label="RIV" sequence="20" value="rib"/>
+                <element inactive_on_update="false" label="SPT" sequence="30" value="spt"/>
+                <element inactive_on_update="false" label="STT" sequence="40" value="stt"/>
             </choice>
         </element>
-        <element label="parent" max_length="32" name="parent" reference="x_cria_livestock_t_vaccination_record" type="reference"/>
-        <element choice="1" label="Preliminary Test Interpretation" max_length="40" name="preliminary_test_interp" type="choice">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent" max_length="32" name="parent" reference="x_cria_livestock_t_vaccination_record" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Preliminary Test Interpretation" max_length="40" name="preliminary_test_interp" type="choice">
             <choice>
-                <element label="Negative" value="negative"/>
-                <element label="Positive" value="positive"/>
-                <element label="Suspect" value="suspect"/>
+                <element inactive_on_update="false" label="Negative" value="negative"/>
+                <element inactive_on_update="false" label="Positive" value="positive"/>
+                <element inactive_on_update="false" label="Suspect" value="suspect"/>
             </choice>
         </element>
-        <element choice="1" label="Rap" max_length="40" name="rap" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Rap" max_length="40" name="rap" type="choice">
             <choice>
-                <element label="Negative" sequence="10" value="negative"/>
-                <element label="Positive" sequence="20" value="positive"/>
-                <element label="Test Invalid" sequence="30" value="invalid"/>
-                <element label="No Test" sequence="40" value="no_test"/>
+                <element inactive_on_update="false" label="Negative" sequence="10" value="negative"/>
+                <element inactive_on_update="false" label="Positive" sequence="20" value="positive"/>
+                <element inactive_on_update="false" label="Test Invalid" sequence="30" value="invalid"/>
+                <element inactive_on_update="false" label="No Test" sequence="40" value="no_test"/>
             </choice>
         </element>
         <element label="Remarks" max_length="256" name="remarks" type="string"/>
-        <element choice="1" label="Result" max_length="40" name="result" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Result" max_length="40" name="result" type="choice">
             <choice>
-                <element label="Negative" sequence="10" value="negative"/>
-                <element label="Positive" sequence="20" value="positive"/>
-                <element label="Reactor" sequence="30" value="reactor"/>
+                <element inactive_on_update="false" label="Negative" sequence="10" value="negative"/>
+                <element inactive_on_update="false" label="Positive" sequence="20" value="positive"/>
+                <element inactive_on_update="false" label="Reactor" sequence="30" value="reactor"/>
             </choice>
         </element>
         <element label="Results" max_length="32" name="results" type="string"/>
         <element label="Sale Tag or Brand" max_length="40" name="sale_tag_or_brand" type="string"/>
         <element default="javascript: gs.getSessionID()" label="session id" max_length="80" name="session_id" read_only="true" type="string"/>
-        <element choice="1" default="female" label="Sex" max_length="10" name="sex" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="female" label="Sex" max_length="10" name="sex" type="choice">
             <choice>
-                <element label="Male" sequence="1" value="male"/>
-                <element label="Female" sequence="3" value="female"/>
+                <element inactive_on_update="false" label="7" sequence="0" value="7"/>
+                <element inactive="true" inactive_on_update="true" label="F" sequence="0" value="F"/>
+                <element inactive="true" inactive_on_update="true" label="H" sequence="0" value="H"/>
+                <element inactive="true" inactive_on_update="true" label="S" sequence="0" value="S"/>
+                <element inactive_on_update="false" label="Male" sequence="1" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="3" value="female"/>
             </choice>
         </element>
         <element label="State" max_length="40" name="state" type="string"/>
-        <element choice="1" label="Final Test Interp" max_length="40" name="test_interp" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Final Test Interp" max_length="40" name="test_interp" type="choice">
             <choice>
-                <element label="Neg" value="neg"/>
-                <element label="Pos" value="pos"/>
-                <element label="Reactor" value="react"/>
-                <element label="Suspect" value="susp"/>
+                <element inactive_on_update="false" label="Neg" value="neg"/>
+                <element inactive_on_update="false" label="Pos" value="pos"/>
+                <element inactive_on_update="false" label="Reactor" value="react"/>
+                <element inactive_on_update="false" label="Suspect" value="susp"/>
+                <element inactive_on_update="false" label="Negative" sequence="0" value="Negative"/>
             </choice>
         </element>
         <element label="Tube #" max_length="10" name="tube_number" type="string"/>

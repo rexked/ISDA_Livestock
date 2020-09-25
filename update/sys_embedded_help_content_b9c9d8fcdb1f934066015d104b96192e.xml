@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_embedded_help_content">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
     <sys_embedded_help_content action="INSERT_OR_UPDATE">
         <active>true</active>
         <category>sys-help-tours</category>
@@ -30,7 +29,7 @@
   </div> 
  </div>
 </div>]]></content>
-        <last_sync>2018-08-10 21:38:07</last_sync>
+        <last_sync>2019-08-20 21:52:07</last_sync>
         <modifier>normal</modifier>
         <name>sys_embedded_tour_guide_list-normal</name>
         <page>sys_embedded_tour_guide_list</page>
@@ -45,14 +44,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b9c9d8fcdb1f934066015d104b96192e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>sys_embedded_tour_guide_list-normal</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_embedded_help_content_b9c9d8fcdb1f934066015d104b96192e</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-10 21:38:07</sys_updated_on>
+        <sys_updated_on>2019-08-20 21:52:07</sys_updated_on>
         <version>k</version>
     </sys_embedded_help_content>
     <sys_translated_text action="delete_multiple" query="documentkey=b9c9d8fcdb1f934066015d104b96192e"/>

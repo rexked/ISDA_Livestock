@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="catalog_ui_policy_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Saleyard Release Form">8deb84d0db791f40c64e5eea4b9619c4</catalog_item>
+        <catalog_item display_value="Saleyard Release Form - OLD">8deb84d0db791f40c64e5eea4b9619c4</catalog_item>
         <catalog_variable>IO:8044183fdb2e1b009b2689584b96193f</catalog_variable>
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <mandatory>ignore</mandatory>
+        <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-14 14:45:56</sys_created_on>

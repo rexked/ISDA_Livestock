@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="1e7622dadb168c50eb4e18df4b9619c7" sys_domain="global" table="x_cria_livestock_t_brucellosis_vaccination_record" version="3" view="text_search">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_id>527622dadb168c50eb4e18df4b9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <text>Herd Owner Information</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>record_id</element>
+            <position>0</position>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_id>da7622dadb168c50eb4e18df4b9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccination_record" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">1e7622dadb168c50eb4e18df4b9619c7</sys_ui_section>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_id>d67622dadb168c50eb4e18df4b9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccination_record" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">1e7622dadb168c50eb4e18df4b9619c7</sys_ui_section>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>527622dadb168c50eb4e18df4b9619c9</element>
+            <position>2</position>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_id>5e7622dadb168c50eb4e18df4b9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccination_record" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">1e7622dadb168c50eb4e18df4b9619c7</sys_ui_section>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>herd_owner_name</element>
+            <position>3</position>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_id>d27622dadb168c50eb4e18df4b9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccination_record" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">1e7622dadb168c50eb4e18df4b9619c7</sys_ui_section>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>herd_owner_address</element>
+            <position>4</position>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_id>5a7622dadb168c50eb4e18df4b9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccination_record" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">1e7622dadb168c50eb4e18df4b9619c7</sys_ui_section>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>herd_owner_city</element>
+            <position>5</position>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_id>de7622dadb168c50eb4e18df4b9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccination_record" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">1e7622dadb168c50eb4e18df4b9619c7</sys_ui_section>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>herd_owner_state</element>
+            <position>6</position>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_id>567622dadb168c50eb4e18df4b9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccination_record" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">1e7622dadb168c50eb4e18df4b9619c7</sys_ui_section>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>herd_owner_zip</element>
+            <position>7</position>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_id>da7622dadb168c50eb4e18df4b9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccination_record" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">1e7622dadb168c50eb4e18df4b9619c7</sys_ui_section>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phone_number</element>
+            <position>8</position>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_id>527622dadb168c50eb4e18df4b9619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccination_record" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">1e7622dadb168c50eb4e18df4b9619c7</sys_ui_section>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>herd_loc</element>
+            <position>9</position>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_id>d67622dadb168c50eb4e18df4b9619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccination_record" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">1e7622dadb168c50eb4e18df4b9619c7</sys_ui_section>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>official_ids</element>
+            <position>10</position>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_id>5e7622dadb168c50eb4e18df4b9619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_brucellosis_vaccination_record" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">1e7622dadb168c50eb4e18df4b9619c7</sys_ui_section>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_cria_livestock_t_brucellosis_vaccination_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sleibsle</sys_created_by>
+            <sys_created_on>2020-01-14 19:13:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e7622dadb168c50eb4e18df4b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cria_livestock_t_brucellosis_vaccination_record</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_1e7622dadb168c50eb4e18df4b9619c7</sys_update_name>
+            <sys_updated_by>sleibsle</sys_updated_by>
+            <sys_updated_on>2020-01-14 19:13:23</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Text_search" name="text_search">0c029fc00a0a0b2c001aa3d4ed9f69e8</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Brucellosis Vaccination Record">762797dddbb35f009b2689584b961955</catalog_item>
+        <catalog_variable>IO:b54b5351dbf35f009b2689584b961958</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 19:12:13</sys_created_on>
+        <sys_id>5f8425fddbb06b009b2689584b96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>herd_loc</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_5f8425fddbb06b009b2689584b96192c</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 19:12:13</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Draft removes required fields">926461fddbb06b009b2689584b9619f5</ui_policy>
+        <variable>herd_loc</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

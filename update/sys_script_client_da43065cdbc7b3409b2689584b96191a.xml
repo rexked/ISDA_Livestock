@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>num_beef_cattle</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Validations</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	if(g_form.getValue('u_draft') != 'true'){
+		//Phone Validation Script
+		var phoneRegex = new RegExp(/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/);
+		var consignorString = g_form.getValue('consignor_phone');
+		var consigneeString = g_form.getValue('consignee_phone');
+		if (phoneRegex.test(consignorString) != true) {
+
+			confirm('The phone numbers must be in either of these formats: 1234567890 or (123) 456-7890.');
+			return false; 
+		}
+		else if(phoneRegex.test(consigneeString) != true) {
+			confirm('The phone number must be in either of these formats: 1234567890 or (123) 456-7890.');
+			return false; 
+		}
+	}
+		function sanitizer(str){
+			// remove everything forbidden by XML 1.0 specifications, plus the unicode replacement character U+FFFD
+			var regex = new RegExp(/(?:\u0022|\u003C|\u003D|\u003E|"|<|>|=)/g);
+
+			// ensure we have a string
+			if (str != null || str != undefined || str != ''){
+				str = str.replace(regex, '');
+			}
+
+			return str;
+		}
+		var regTest = new RegExp(/(?:\u0022|\u003C|\u003D|\u003E|"|<|>|=)/g);
+		var FieldVal = ['carrier_name_and_address', 'entry_permit_number', 'brand_inspection_number', 'consignor_name', 'consignor_street', 'consignor_city', 'consignor_zip', 'consignee_name', 'conisgnee_street', 'consignee_city', 'consignee_zip', 'cvi_remarks'];
+		var i;
+		for (i = 0; i < FieldVal.length; i++) { 
+			var strval = g_form.getValue(FieldVal[i]);
+			if(regTest.test(strval)){
+				g_form.setValue(FieldVal[i], sanitizer(strval));
+			}
+		
+	}
+	
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-30 22:48:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da43065cdbc7b3409b2689584b96191a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Validations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_client_da43065cdbc7b3409b2689584b96191a</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-30 23:27:50</sys_updated_on>
+        <table>x_cria_livestock_t_vaccinations_cvi</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

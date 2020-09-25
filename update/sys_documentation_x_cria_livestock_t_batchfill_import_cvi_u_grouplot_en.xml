@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_grouplot" label="GroupLot" language="en" table="x_cria_livestock_t_batchfill_import_cvi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_grouplot</element>
+            <help/>
+            <hint/>
+            <label>GroupLot</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_import_cvi</name>
+            <plural>GroupLots</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-11-06 18:44:35</sys_created_on>
+            <sys_id>232a030c1bc14410984743fccd4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>GroupLot</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_batchfill_import_cvi_u_grouplot_en</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-11-06 18:44:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

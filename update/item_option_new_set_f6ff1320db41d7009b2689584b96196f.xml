@@ -1,23 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="item_option_new_set">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
     <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
         <description/>
         <display_title>true</display_title>
+        <internal_name>practitioner</internal_name>
         <layout>normal</layout>
         <name>Practitioner</name>
         <order>9999</order>
+        <read_roles/>
+        <set_attributes/>
         <sys_class_name>item_option_new_set</sys_class_name>
         <sys_created_by>cervin</sys_created_by>
         <sys_created_on>2018-03-21 21:03:47</sys_created_on>
         <sys_id>f6ff1320db41d7009b2689584b96196f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Practitioner</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_set_f6ff1320db41d7009b2689584b96196f</sys_update_name>
-        <sys_updated_by>cervin</sys_updated_by>
-        <sys_updated_on>2018-04-10 16:41:19</sys_updated_on>
-        <title/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-08-28 00:08:46</sys_updated_on>
+        <title>Practitioner</title>
+        <type>one_to_one</type>
+        <write_roles/>
     </item_option_new_set>
 </record_update>

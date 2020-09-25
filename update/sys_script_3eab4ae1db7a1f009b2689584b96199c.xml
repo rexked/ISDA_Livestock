@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_script">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
     <sys_script action="INSERT_OR_UPDATE">
         <abort_action>false</abort_action>
         <access>package_private</access>
@@ -61,7 +60,7 @@ if (gr.test_interp.getDisplayValue() == 'Pos'){
 	current.reactor = test_interp.react+'';
 	current.suspect = test_interp.susp+'';
 	current.total_tested = test_interp.total+'';
-	
+	current.update();
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>dyoung@criadvantage.com</sys_created_by>
@@ -69,15 +68,15 @@ if (gr.test_interp.getDisplayValue() == 'Pos'){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3eab4ae1db7a1f009b2689584b96199c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Update Summaries Brucellosis Market</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_script_3eab4ae1db7a1f009b2689584b96199c</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-19 15:08:49</sys_updated_on>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-11 21:14:30</sys_updated_on>
         <template/>
         <when>before_display</when>
     </sys_script>

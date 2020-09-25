@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="kind_of_herd" table="x_cria_livestock_t_vaccinations_tuberculosis" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kind_of_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bison</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6b06e8cdb8ad3809b2689584b9619bb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-15 21:06:49</sys_updated_on>
+            <value>Bison</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kind_of_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cattle</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63a06a8cdb8ad3809b2689584b9619f8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-15 21:06:52</sys_updated_on>
+            <value>Cattle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kind_of_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deer</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07b0268cdb8ad3809b2689584b96199e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-15 21:06:55</sys_updated_on>
+            <value>Deer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kind_of_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Elk</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20b0e68cdb8ad3809b2689584b96196e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-15 21:06:58</sys_updated_on>
+            <value>Elk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kind_of_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Goats</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99b02e8cdb8ad3809b2689584b9619d3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-15 21:07:01</sys_updated_on>
+            <value>Goats</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kind_of_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccc06e8cdb8ad3809b2689584b9619e1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-15 21:07:04</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>kind_of_herd</element>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:40</sys_created_on>
+            <sys_id>a4b02e8cdb8ad3809b2689584b9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>kind_of_herd</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_tuberculosis_kind_of_herd</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 20:12:40</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_vaccinations_tuberculosis_kind_of_herd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="kind_of_herd" table="x_cria_livestock_t_vaccinations_tuberculosis" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kind_of_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bison</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6b06e8cdb8ad3809b2689584b9619bb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-15 21:06:49</sys_updated_on>
+            <value>Bison</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kind_of_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cattle</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63a06a8cdb8ad3809b2689584b9619f8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-15 21:06:52</sys_updated_on>
+            <value>Cattle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kind_of_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deer</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07b0268cdb8ad3809b2689584b96199e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-15 21:06:55</sys_updated_on>
+            <value>Deer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kind_of_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Elk</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20b0e68cdb8ad3809b2689584b96196e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-15 21:06:58</sys_updated_on>
+            <value>Elk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kind_of_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Goats</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99b02e8cdb8ad3809b2689584b9619d3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-15 21:07:01</sys_updated_on>
+            <value>Goats</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kind_of_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccc06e8cdb8ad3809b2689584b9619e1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-15 21:07:04</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>kind_of_herd</element>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:12:40</sys_created_on>
+            <sys_id>a4b02e8cdb8ad3809b2689584b9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>kind_of_herd</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_tuberculosis_kind_of_herd</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 20:12:40</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>-1547877700</payload_hash>
+        <record_name>Tuberculosis Test.Kind of herd</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:54:47</sys_created_on>
+        <sys_id>210e11d6db7a570066015d104b9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1642457bd040000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:54:47</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>6d0e11d6f17a5700842b3431c6c138af</update_guid>
+        <update_guid_history>6d0e11d6f17a5700842b3431c6c138af:0,9763281e5cb65700fdf7de388042a933:1030837648,5b63281e1fb6570016f30b85ec88d130:-447847627,9363281e25b6570025999734498d2b2e:1050055068,9b63281e19b6570057e1b518d748c62b:-557407251,5363281e1fb657007a1bcae89dc2ec29:719202410,c763281e36b6570013f36a78b5434226:-1270501459,ff891a58f172db00a634e4c823432df6:946409134,0b895a58f272db00db60df18c1a0a979:200398,1289da584372db00c9d555e797cf6ff7:-1982678354,f98992589172db00ecb1a49b736f6c08:-2082379058,018956581d72db00f53968c55486e5cf:-1376191762,1089da587e72db006212ad18e0ca6dba:-659482930,6ed0aa8c5d8ad3804eb7e2bcd481e0b3:-97295698,95d0ee8cc68ad380d597245c469fc0c5:-327217779,acd06e8cd48ad380925d8c0123c60c3a:-1594144540,57c06e8cca8ad38044d208d267e6a4c0:-1785324276,d2c0aa8c108ad38002be051d67442704:1461246445,61c0ea8c6c8ad3806bb2cdaec2496b01:230572760,f0c0ea8c988ad380d58428eb91e8dacf:-1034328128,f3b02e8c748ad38005ec75113234d8d7:-1474765154,c7b06e8ca58ad380a0e7308de26133ce:1143542116,86b0ae8cd08ad380c8d5bb959eb6f66a:189275971,15b06a8c288ad38081b9e689dc9da1fb:412247587,24b02e8c398ad380e0b0765b2c31d3bb:347893551</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cervin@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>d10e11d6db7a570066015d104b9619aa</sys_id>
+        <sys_metadata>d10e11d6db7a570066015d104b9619aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kind_of_herd</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_tuberculosis_kind_of_herd</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_vaccinations_tuberculosis_kind_of_herd">210e11d6db7a570066015d104b9619b0</sys_update_version>
+        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

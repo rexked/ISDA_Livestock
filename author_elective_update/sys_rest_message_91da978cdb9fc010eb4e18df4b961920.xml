@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="DELETE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <name>Get Token</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://test.tnatc.org/usaherds.api/ks/authenticate</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-26 16:40:55</sys_created_on>
+        <sys_id>91da978cdb9fc010eb4e18df4b961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Token</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_rest_message_91da978cdb9fc010eb4e18df4b961920</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-26 16:40:55</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_rest_message_91da978cdb9fc010eb4e18df4b961920</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>Get Token</name><oauth2_profile/><protocol_name/><rest_endpoint>https://test.tnatc.org/usaherds.api/ks/authenticate</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>tsears</sys_created_by><sys_created_on>2020-02-26 16:40:55</sys_created_on><sys_id>91da978cdb9fc010eb4e18df4b961920</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Get Token</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_rest_message_91da978cdb9fc010eb4e18df4b961920</sys_update_name><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-02-26 16:40:55</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+        <payload_hash>1558585530</payload_hash>
+        <record_name>Get Token</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-26 16:40:55</sys_created_on>
+        <sys_id>48ffdfc0dbdfc010eb4e18df4b961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170825f66d10000001</sys_recorded_at>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-26 16:40:55</sys_updated_on>
+        <type>REST Message</type>
+        <update_guid>8cff9bc052dfc01021e284f1b2e160a0</update_guid>
+        <update_guid_history>8cff9bc052dfc01021e284f1b2e160a0:1558585530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-26 17:35:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message">sys_rest_message</sys_db_object>
+        <sys_id>41e25c128ace48009a40d777f55dff79</sys_id>
+        <sys_metadata>91da978cdb9fc010eb4e18df4b961920</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Token</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_rest_message_91da978cdb9fc010eb4e18df4b961920</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_91da978cdb9fc010eb4e18df4b961920">48ffdfc0dbdfc010eb4e18df4b961989</sys_update_version>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-26 17:35:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

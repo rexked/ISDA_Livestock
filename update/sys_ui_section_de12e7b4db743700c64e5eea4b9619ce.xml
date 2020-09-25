@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Consignor/Consignee Information" section_id="de12e7b4db743700c64e5eea4b9619ce" sys_domain="1070930cdb33e300c64e5eea4b961918" table="x_cria_livestock_t_import_cvi" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignor_name</element>
+            <position>0</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>4400059d1b708450984743fccd4bcb70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignor_street</element>
+            <position>1</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>cc00059d1b708450984743fccd4bcb70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignor_city</element>
+            <position>2</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>4400059d1b708450984743fccd4bcb71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_consignor_state</element>
+            <position>3</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>c800059d1b708450984743fccd4bcb71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignor_zip</element>
+            <position>4</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>4000059d1b708450984743fccd4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignor_phone</element>
+            <position>5</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>c400059d1b708450984743fccd4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_origin_address_different</element>
+            <position>6</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>4c00059d1b708450984743fccd4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_origin_address</element>
+            <position>7</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>c000059d1b708450984743fccd4bcb73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>origin_state</element>
+            <position>8</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>4800059d1b708450984743fccd4bcb73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_origin_zip</element>
+            <position>9</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>cc00059d1b708450984743fccd4bcb73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>4400059d1b708450984743fccd4bcb74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignee_name</element>
+            <position>11</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>c800059d1b708450984743fccd4bcb74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>conisgnee_street</element>
+            <position>12</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>4000059d1b708450984743fccd4bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignee_city</element>
+            <position>13</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>c400059d1b708450984743fccd4bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_consignee_state</element>
+            <position>14</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>4c00059d1b708450984743fccd4bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignee_zip</element>
+            <position>15</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>c000059d1b708450984743fccd4bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignee_phone</element>
+            <position>16</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>4800059d1b708450984743fccd4bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dest_address_different</element>
+            <position>17</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>cc00059d1b708450984743fccd4bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dest_address</element>
+            <position>18</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>4400059d1b708450984743fccd4bcb77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dest_state</element>
+            <position>19</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>c800059d1b708450984743fccd4bcb77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_destination_zip</element>
+            <position>20</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-28 19:37:34</sys_created_on>
+            <sys_id>4000059d1b708450984743fccd4bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignor/Consignee Information" display_value="Consignor/Consignee Information" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">de12e7b4db743700c64e5eea4b9619ce</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-28 19:37:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Consignor/Consignee Information</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_import_cvi</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-11 21:57:40</sys_created_on>
+            <sys_domain>1070930cdb33e300c64e5eea4b961918</sys_domain>
+            <sys_domain_path/>
+            <sys_id>de12e7b4db743700c64e5eea4b9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Consignor/Consignee Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_de12e7b4db743700c64e5eea4b9619ce</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-11 21:57:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

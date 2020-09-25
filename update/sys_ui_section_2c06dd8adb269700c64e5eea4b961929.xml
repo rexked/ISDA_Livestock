@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Lab Information Results" section_id="2c06dd8adb269700c64e5eea4b961929" sys_domain="global" table="x_cria_livestock_t_vaccinations_brucellosis_test" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_laboratory</element>

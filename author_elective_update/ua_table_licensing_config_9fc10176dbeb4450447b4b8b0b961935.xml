@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_cria_livestock_t_import_cvi_temp_batch</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-18 04:29:00</sys_created_on>
+        <sys_id>9fc10176dbeb4450447b4b8b0b961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cria_livestock_t_import_cvi_temp_batch</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>ua_table_licensing_config_9fc10176dbeb4450447b4b8b0b961935</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-18 04:29:00</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>ua_table_licensing_config_9fc10176dbeb4450447b4b8b0b961935</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_cria_livestock_t_import_cvi_temp_batch</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-18 04:29:00</sys_created_on><sys_id>9fc10176dbeb4450447b4b8b0b961935</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cria_livestock_t_import_cvi_temp_batch</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>ua_table_licensing_config_9fc10176dbeb4450447b4b8b0b961935</sys_update_name><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-18 04:29:00</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>1214513307</payload_hash>
+        <record_name>x_cria_livestock_t_import_cvi_temp_batch</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-18 04:29:00</sys_created_on>
+        <sys_id>dbc10176dbeb4450447b4b8b0b961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170ebe6db840000001</sys_recorded_at>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-18 04:29:00</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>d3c1017658eb44508d4f833364631737</update_guid>
+        <update_guid_history>d3c1017658eb44508d4f833364631737:1214513307</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 03/25/2020 06:46:39 PM">48ab19dddb330410447b4b8b0b961910</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-26 00:46:39</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>0cc518a4afd14e6c811f57669d8f80b9</sys_id>
+        <sys_metadata>9fc10176dbeb4450447b4b8b0b961935</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cria_livestock_t_import_cvi_temp_batch</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_9fc10176dbeb4450447b4b8b0b961935</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_9fc10176dbeb4450447b4b8b0b961935">dbc10176dbeb4450447b4b8b0b961937</sys_update_version>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-26 00:46:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

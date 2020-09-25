@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_catalog">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Brucellosis Vaccination Record">762797dddbb35f009b2689584b961955</sc_cat_item>
         <sc_catalog display_value="ISDA Catalog">907d3946dbf49300c64e5eea4b9619a9</sc_catalog>

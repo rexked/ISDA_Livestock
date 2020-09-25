@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="cmn_location" version="2" view="isda">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Location - ISDA" name="cmn_location" related_list="NULL" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">62e3587adb256700447b4b8b0b9619d7</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_cria_livestock_t_vaccinations_brucellosis_test.herd_loc</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-11-06 22:40:39</sys_created_on>
+            <sys_id>2ae3587adb256700447b4b8b0b9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:40:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Location - ISDA" name="cmn_location" related_list="NULL" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">62e3587adb256700447b4b8b0b9619d7</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_cria_livestock_t_brucellosis_vaccination_record.herd_loc</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-11-06 22:40:39</sys_created_on>
+            <sys_id>2ee3587adb256700447b4b8b0b9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:40:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Location - ISDA" name="cmn_location" related_list="NULL" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">62e3587adb256700447b4b8b0b9619d7</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_cria_livestock_t_vaccinations_market_cattle.u_livestock_market</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-11-06 22:40:39</sys_created_on>
+            <sys_id>22e3587adb256700447b4b8b0b9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:40:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Location - ISDA" name="cmn_location" related_list="NULL" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">62e3587adb256700447b4b8b0b9619d7</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_cria_livestock_t_vaccinations_trichomoniasis.trich_location</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-11-06 22:40:39</sys_created_on>
+            <sys_id>26e3587adb256700447b4b8b0b9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:40:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Location - ISDA" name="cmn_location" related_list="NULL" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">62e3587adb256700447b4b8b0b9619d7</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>x_cria_livestock_t_vaccinations_tuberculosis.herd_loc</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-11-06 22:40:39</sys_created_on>
+            <sys_id>2ae3587adb256700447b4b8b0b9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:40:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Location - ISDA" name="cmn_location" related_list="NULL" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">62e3587adb256700447b4b8b0b9619d7</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>x_cria_livestock_t_saleyard_release.u_saleyard</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-11-06 22:40:39</sys_created_on>
+            <sys_id>2ee3587adb256700447b4b8b0b9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:40:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Location - ISDA" name="cmn_location" related_list="NULL" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">62e3587adb256700447b4b8b0b9619d7</list_id>
+            <order_by/>
+            <position>6</position>
+            <related_list>x_cria_livestock_t_tagging_station_records.herd_loc</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-11-06 22:40:39</sys_created_on>
+            <sys_id>22e3587adb256700447b4b8b0b9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:40:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Location - ISDA" name="cmn_location" related_list="NULL" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">62e3587adb256700447b4b8b0b9619d7</list_id>
+            <order_by/>
+            <position>7</position>
+            <related_list>x_cria_livestock_t_m2m_users_locations.location</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-11-06 22:40:39</sys_created_on>
+            <sys_id>26e3587adb256700447b4b8b0b9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:40:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Location - ISDA</calculated_name>
+            <filter/>
+            <name>cmn_location</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-11-06 22:40:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62e3587adb256700447b4b8b0b9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Location - ISDA</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_related_cmn_location_isda</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:40:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="ISDA" name="isda">b83926c6db789300c64e5eea4b961912</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

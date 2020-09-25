@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="type_of_test" table="x_cria_livestock_t_vaccinations_trichomoniasis" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Culture</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 16:13:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38734df6db3153809b2689584b9619ab</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 16:13:04</sys_updated_on>
+            <value>culture</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Individual PCR</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 16:12:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e334df6db3153809b2689584b961952</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 16:12:45</sys_updated_on>
+            <value>individual_pcr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pooled PCR</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 16:12:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0430df6db3153809b2689584b96198e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 16:12:56</sys_updated_on>
+            <value>pooled_pcr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Virgin Bulls Tag Only</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 16:13:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9773c5f6db3153809b2689584b9619ff</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 16:13:22</sys_updated_on>
+            <value>tag_only</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_test</element>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 16:12:02</sys_created_on>
+            <sys_id>6c438df6db3153809b2689584b961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_test</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_trichomoniasis_type_of_test</sys_update_name>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 16:12:02</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_vaccinations_trichomoniasis_type_of_test</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_test" table="x_cria_livestock_t_vaccinations_trichomoniasis" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Culture</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 16:13:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38734df6db3153809b2689584b9619ab</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 16:13:04</sys_updated_on>
+            <value>culture</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Individual PCR</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 16:12:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e334df6db3153809b2689584b961952</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 16:12:45</sys_updated_on>
+            <value>individual_pcr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pooled PCR</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 16:12:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0430df6db3153809b2689584b96198e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 16:12:56</sys_updated_on>
+            <value>pooled_pcr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Virgin Bulls Tag Only</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 16:13:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9773c5f6db3153809b2689584b9619ff</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 16:13:22</sys_updated_on>
+            <value>tag_only</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_test</element>
+            <name>x_cria_livestock_t_vaccinations_trichomoniasis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-04 16:12:02</sys_created_on>
+            <sys_id>6c438df6db3153809b2689584b961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_test</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_trichomoniasis_type_of_test</sys_update_name>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-04 16:12:02</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>218418891</payload_hash>
+        <record_name>Trich Test &amp; Report.Type of test</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:54:47</sys_created_on>
+        <sys_id>910e11d6db7a570066015d104b96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1642457bc560000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:54:47</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>dd0e11d6497a57002e10d5c02ce5519a</update_guid>
+        <update_guid_history>dd0e11d6497a57002e10d5c02ce5519a:0,1463e01e7ab657004ab979f52950d860:52967019,d463e01ef7b65700769efb05ae841b5d:-622924045,1063e01efab65700a4f3122417a5935b:-296904170,1863e01ea5b657004ca90305c77ada58:917861459,d4938df68031538064d29166ff2a4257:393186619,2f8309f608315380c9c59e66f61a3f02:1786688177,f3738df6d33153803ece1e9f3defa952:1357443439,c7730df6a7315380affa6bf8a4793b7b:-1158208882,bd73413a1531538096ee713910b84208:-1817642873,a473013a8c315380ebf2349d34b7ead5:-1075301127,db638df6c031538073c41a8ccb88762d:408802698,ac438df685315380bcbe160c67d37d74:948034934</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cervin</sys_created_by>
+        <sys_created_on>2018-11-01 21:30:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>550e11d6db7a570066015d104b961997</sys_id>
+        <sys_metadata>550e11d6db7a570066015d104b961997</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>type_of_test</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_trichomoniasis_type_of_test</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_vaccinations_trichomoniasis_type_of_test">910e11d6db7a570066015d104b96199b</sys_update_version>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2018-11-01 21:30:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

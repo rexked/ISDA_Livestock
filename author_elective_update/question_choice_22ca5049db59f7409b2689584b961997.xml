@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <misc>0</misc>
+        <order>600</order>
+        <question display_value="Reason for Release">1874bd4bdb9c63009b2689584b961999</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-05-06 22:37:01</sys_created_on>
+        <sys_id>22ca5049db59f7409b2689584b961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Exhibition/Show/Rodeo</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>question_choice_22ca5049db59f7409b2689584b961997</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-05-06 22:37:01</sys_updated_on>
+        <text>Exhibition/Show/Rodeo</text>
+        <value>Exhibition/Show/Rodeo</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=22ca5049db59f7409b2689584b961997"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>22ca5049db59f7409b2689584b961997</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-05-06 22:37:01</sys_created_on>
+        <sys_id>eadad049db59f7409b2689584b961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-05-06 22:37:01</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>22ca5049db59f7409b2689584b961997</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-05-06 22:37:01</sys_created_on>
+        <sys_id>a2dad049db59f7409b2689584b961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-05-06 22:37:01</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>question_choice_22ca5049db59f7409b2689584b961997</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>600</order><question display_value="Reason for Release">1874bd4bdb9c63009b2689584b961999</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-05-06 22:37:01</sys_created_on><sys_id>22ca5049db59f7409b2689584b961997</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Exhibition/Show/Rodeo</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>question_choice_22ca5049db59f7409b2689584b961997</sys_update_name><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-06 22:37:01</sys_updated_on><text>Exhibition/Show/Rodeo</text><value>Exhibition/Show/Rodeo</value></question_choice><fx_price action="delete_multiple" query="id=22ca5049db59f7409b2689584b961997"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>22ca5049db59f7409b2689584b961997</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-05-06 22:37:01</sys_created_on><sys_id>eadad049db59f7409b2689584b961997</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-06 22:37:01</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>22ca5049db59f7409b2689584b961997</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-05-06 22:37:01</sys_created_on><sys_id>a2dad049db59f7409b2689584b961997</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-06 22:37:01</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>1522339492</payload_hash>
+        <record_name>Exhibition/Show/Rodeo</record_name>
+        <reverted_from/>
+        <source>a415a093db52b700086c89584b9619c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-02 16:12:19</sys_created_on>
+        <sys_id>3a656cd3db52b700086c89584b961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bb37555a50000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-02 16:12:19</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>eedad0491159f74095c1fd36dca13198</update_guid>
+        <update_guid_history>eedad0491159f74095c1fd36dca13198:1522339492</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 06/14/2020 12:39:51 AM">0eaba2c71bd59c10f2456576bc4bcbeb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-06-14 06:39:51</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>593e9ebb94484c27a0820372ee12a079</sys_id>
+        <sys_metadata>22ca5049db59f7409b2689584b961997</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Exhibition/Show/Rodeo</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent display_value="Reason for Release">1874bd4bdb9c63009b2689584b961999</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>question_choice_22ca5049db59f7409b2689584b961997</sys_update_name>
+        <sys_update_version display_value="question_choice_22ca5049db59f7409b2689584b961997">3a656cd3db52b700086c89584b961983</sys_update_version>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-06-14 06:39:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

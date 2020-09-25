@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="im_idea_core" label="Idea" max_length="40" name="idea" sizeclass="15" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Enhancement" max_length="40" name="x_cria_livestock_t_enhancement" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Enhancement Reason" max_length="255" name="x_cria_livestock_t_enhancement_reason" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="In Scope" max_length="40" name="x_cria_livestock_t_in_scope" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="In Scope Reason" max_length="255" name="x_cria_livestock_t_in_scope_reason" type="string_full_utf8"/>
+    </element>
+</database>

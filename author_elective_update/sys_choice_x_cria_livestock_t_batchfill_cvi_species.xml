@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="species" table="x_cria_livestock_t_batchfill_cvi" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Aquaculture</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence/>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:11:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08ea45dedb566b00c64e5eea4b96197a</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:44:45</sys_updated_on>
+            <value>AQU</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Canine</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence/>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:12:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>930b49dedb566b00c64e5eea4b961911</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:44:53</sys_updated_on>
+            <value>CAN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Feline</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence/>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:19:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fbc49dedb566b00c64e5eea4b96197c</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:44:49</sys_updated_on>
+            <value>FEL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Beef</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>10</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:11:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0fa05dedb566b00c64e5eea4b9619d0</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:45:19</sys_updated_on>
+            <value>BEF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dairy</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>20</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:18:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc6b89dedb566b00c64e5eea4b9619dd</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:45:22</sys_updated_on>
+            <value>DAI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Equine (Horses, Mules, Donkeys, Burros)</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>30</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:19:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26ac0ddedb566b00c64e5eea4b9619b4</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:45:30</sys_updated_on>
+            <value>EQU</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Caprine (Goats)</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>40</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:12:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>884b891edb566b00c64e5eea4b9619e2</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:45:37</sys_updated_on>
+            <value>CAP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ovine (Sheep)</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>50</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:19:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82ccc9dedb566b00c64e5eea4b961999</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:45:40</sys_updated_on>
+            <value>OVI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bison</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>60</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:11:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bfa059edb566b00c64e5eea4b961910</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:45:44</sys_updated_on>
+            <value>BIS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cervids</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>70</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:12:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>524b85dedb566b00c64e5eea4b9619ac</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:45:56</sys_updated_on>
+            <value>CER</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Porcine (Swine)</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>80</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:19:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0dc0912db966b00c64e5eea4b961906</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:46:08</sys_updated_on>
+            <value>POR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Turkeys</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>90</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:19:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41ec0ddedb566b00c64e5eea4b96193e</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:46:16</sys_updated_on>
+            <value>TUR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chickens</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>100</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:13:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>925b09dedb566b00c64e5eea4b9619af</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:46:24</sys_updated_on>
+            <value>CHI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Camelid (Alpacas, Llamas, etc.)</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>110</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:11:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>590bcd1adb566b00c64e5eea4b961914</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:46:34</sys_updated_on>
+            <value>CAM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>species</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>120</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:20:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fec0912db966b00c64e5eea4b9619b7</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-16 15:46:42</sys_updated_on>
+            <value>OTH</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>species</element>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-12 20:11:12</sys_created_on>
+            <sys_id>41b7516fdb8cf3409b2689584b9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>species</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_batchfill_cvi_species</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-12 20:11:12</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_batchfill_cvi_species</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="species" table="x_cria_livestock_t_batchfill_cvi" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>true</inactive><label>Aquaculture</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence/><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:11:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>08ea45dedb566b00c64e5eea4b96197a</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:44:45</sys_updated_on><value>AQU</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>true</inactive><label>Canine</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence/><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:12:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>930b49dedb566b00c64e5eea4b961911</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:44:53</sys_updated_on><value>CAN</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>true</inactive><label>Feline</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence/><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:19:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6fbc49dedb566b00c64e5eea4b96197c</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:44:49</sys_updated_on><value>FEL</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>false</inactive><label>Beef</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>10</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:11:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e0fa05dedb566b00c64e5eea4b9619d0</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:45:19</sys_updated_on><value>BEF</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>false</inactive><label>Dairy</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>20</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:18:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fc6b89dedb566b00c64e5eea4b9619dd</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:45:22</sys_updated_on><value>DAI</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>false</inactive><label>Equine (Horses, Mules, Donkeys, Burros)</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>30</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:19:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>26ac0ddedb566b00c64e5eea4b9619b4</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:45:30</sys_updated_on><value>EQU</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>false</inactive><label>Caprine (Goats)</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>40</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:12:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>884b891edb566b00c64e5eea4b9619e2</sys_id><sys_mod_count>6</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:45:37</sys_updated_on><value>CAP</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>false</inactive><label>Ovine (Sheep)</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>50</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:19:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>82ccc9dedb566b00c64e5eea4b961999</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:45:40</sys_updated_on><value>OVI</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>false</inactive><label>Bison</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>60</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:11:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8bfa059edb566b00c64e5eea4b961910</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:45:44</sys_updated_on><value>BIS</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>false</inactive><label>Cervids</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>70</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:12:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>524b85dedb566b00c64e5eea4b9619ac</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:45:56</sys_updated_on><value>CER</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>false</inactive><label>Porcine (Swine)</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>80</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:19:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e0dc0912db966b00c64e5eea4b961906</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:46:08</sys_updated_on><value>POR</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>false</inactive><label>Turkeys</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>90</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:19:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>41ec0ddedb566b00c64e5eea4b96193e</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:46:16</sys_updated_on><value>TUR</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>false</inactive><label>Chickens</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>100</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:13:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>925b09dedb566b00c64e5eea4b9619af</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:46:24</sys_updated_on><value>CHI</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>false</inactive><label>Camelid (Alpacas, Llamas, etc.)</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>110</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:11:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>590bcd1adb566b00c64e5eea4b961914</sys_id><sys_mod_count>7</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:46:34</sys_updated_on><value>CAM</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>species</element><hint/><inactive>false</inactive><label>Other</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>120</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:20:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4fec0912db966b00c64e5eea4b9619b7</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-05-16 15:46:42</sys_updated_on><value>OTH</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>species</element><name>x_cria_livestock_t_batchfill_cvi</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-12 20:11:12</sys_created_on><sys_id>41b7516fdb8cf3409b2689584b9619a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>species</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_choice_x_cria_livestock_t_batchfill_cvi_species</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-12-12 20:11:12</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1266392012</payload_hash>
+        <record_name>CVI Livestock Shipment.Species</record_name>
+        <reverted_from/>
+        <source>a415a093db52b700086c89584b9619c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-02 16:12:30</sys_created_on>
+        <sys_id>1d75acd3db52b700086c89584b9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bb3757de10000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-02 16:12:30</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>21dc960c4de13700069e1de34491116f</update_guid>
+        <update_guid_history>21dc960c4de13700069e1de34491116f:1266392012,ebcc968805e137008bd94847a1398455:2029976664,81cc920c58e13700dafce4d82314eef0:-1944743251,9fbc560c69e137002fe91ca4018e59f8:-1921033009,d9bc560cabe137008a44a0ca8c7bc549:-681540351,d2ac560c83e137007d41c8edfd255df1:1381410318,979c160c7fe13700ff1c20d6d505e3a4:-1762144398,1a9cd20c1ce137009425cbc4ebbdffe9:2019690293,219c560caee13700592e08e593aa7342:-268130803,bf8c520c89e13700747d4e9f6f8c2b96:-1378726322,f98c160c32e13700b84475e39730e29c:-453090388,c58c12c837e13700497852afafb55a0e:999657989,f26c920c48e13700100953d21ca1a929:-726369011,b16c928807e13700c684c419832d79e1:1846729610,bc6c520c8fe13700c0c1e33062edb531:116770699,2a16c1f2d9383b0028fbf904d9346b03:-1002006656,2e1681f2cd383b00ac147eaf35a07dfc:-315757043,221681f230383b008ae1a9f3073abbf6:1935686200,261681f29b383b00211dcfd778cd37ef:-776767101,1a1681f29f383b000fbab46b9b2426e8:1403021068,1e1681f2cf383b00c3169ffa7816c0e1:-231290697,121681f230383b003830a279fcdaa9db:151833970,161681f2ad383b00a67593a607aec5d4:1373999495,1a1681f2a9383b0052572373a82f44cd:491408778,1e1681f298383b0000ab75925a2386c6:-1576410793,121681f2ab383b008d90d966e4f0f7c0:171508860,161681f225383b000e3b7e02f7179ab9:691742619,1a1681f285383b0003429d8feb7b2eb2:1847814404,1e1681f2c1383b00fbe7acc3c0db16ab:-1226114945,ce1681f2f7383b00fce02b26b15b19a4:-127360052,658476e669e4b34096e990169fd6d39e:-1731857641,1d8476e6cee4b340a385db3174b8bc97:-686281027,1d8476e674e4b340cd4af1e78e8b5584:1627608056,d18476e607e4b34091e6d8b7592ce77e:-5745508,998476e69ee4b3402ab0be1e64602277:-1266810983,518476e641e4b340b8a7f15425f4bc71:-1863043525,198476e6c3e4b340cc4249accdfab36a:-1688449471,598436e6eee4b3400c839bc0c7ddaee7:-730453484,3f7476e63ae4b340fe33dafb358d1005:1461393546,af74f2e69ee4b3401041d4647fa43808:-1420003913,437436e6dbe4b340e9cf224b77e14ce0:-1093865049,1a74bea601e4b3406f11656eb0035494:-1172874232,bd7436e695e4b340cd397f54bc5a1fae:-1563009978,a974f6e289e4b340410d7e11911894a0:763103147,89743ea69de4b340ecd62c2fa7469be2:-1657494095,92db377e5ddaab0090137b6b01ab9200:442077944,f3fc0dde39566b004e0542aa4d3ea2c6:-1002006656,f5fc491212966b0004c54ddd3ee01fd1:451109770,48fc4912f5966b00bbc7ae6b07e71541:-1687731159,47ec491299966b00ca1552a2b257ea70:-1273365115,11ec09127c966b00b9780c883982170b:649729775,b8ec4912c6966b00ee50d9182aadb230:883551497,4ddc0912eb966b0031a20a5cf20d69b5:459092019,20dcc9ded9566b00f94ef25153e6fba6:-873043906,52cc0912fb966b00ad8fd965b5376b21:1820359998,4acc49dee1566b00c8396886a87842b8:1011723046,d0ccc51220966b00a8d47bd7759a44bd:-1081713550,67bc09deed566b005d5e190e5ddfcab4:172532556,07ac89deb7566b0079e3185262a83ce2:1718706657,6aac4dde12566b0012d38a86acc8b071:-2007577094,d56b0dde38566b00a341a0712c57d83b:-1814705058,ac6bc9de3f566b005ed9842a7d75e5ff:-1732570677,f25b49de40566b0095277c25fd8c8d7a:-1149460140,da5bc9deb1566b00cb1b73424e41d606:-1777391631,2c5bc9ded0566b0092d82799bb6c8ffa:186294990,474bc9debe566b002c6d803ed3821961:1204869749,d24b011ee5566b00539dea4e52b1d359:-1528523120,204bc5de28566b00b3811c8d03129d70:330297471,444bc9de42566b00dd84cc59b3bf7357:-2053916696,523bc9deff566b004864b287b7873201:2122595505,d13b89de1d566b00c21703ec9dd30edb:-923017429,c51b49de77566b00edeace0b14179056:1995052651,530b8d1a8f566b0063c90c32e7c58136:-108815205,ca0b49de2d566b00c8c3cb2eefbb0874:-447859147,d90b49de09566b00f0c0517092c2b24c:-420621666,400b49dedd566b00821b67bdfa66ff0f:1380749338,cbfa4d1e64566b0090dcfe112b16985e:48950874,61fa45dee3566b0077bea4037ff38e7e:1482006621,68fa09de14566b008a9d28cbfb799818:-552423547</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>9d75acd3db52b700086c89584b9619c7</sys_id>
+        <sys_metadata>9d75acd3db52b700086c89584b9619c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>species</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_batchfill_cvi_species</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_batchfill_cvi_species">1d75acd3db52b700086c89584b9619d6</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

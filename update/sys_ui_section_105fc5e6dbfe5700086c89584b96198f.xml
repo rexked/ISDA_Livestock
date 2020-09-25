@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Livestock Management" section_id="105fc5e6dbfe5700086c89584b96198f" sys_domain="global" table="sys_user" version="3" view="isda">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>x_cria_livestock_t_u_usertype</element>

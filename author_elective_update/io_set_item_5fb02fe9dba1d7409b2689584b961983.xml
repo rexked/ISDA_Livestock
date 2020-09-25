@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Brucellosis Vaccination Record">ca37af2adbb8d300c64e5eea4b9619a9</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-04-18 20:11:58</sys_created_on>
+        <sys_id>5fb02fe9dba1d7409b2689584b961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Veterinarian/Herd Owner.Brucellosis Vaccination Record</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>io_set_item_5fb02fe9dba1d7409b2689584b961983</sys_update_name>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-04-18 20:11:58</sys_updated_on>
+        <variable_set display_value="Veterinarian/Herd Owner">966c13a9dba1d7409b2689584b961912</variable_set>
+    </io_set_item>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>io_set_item_5fb02fe9dba1d7409b2689584b961983</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Brucellosis Vaccination Record">ca37af2adbb8d300c64e5eea4b9619a9</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-04-18 20:11:58</sys_created_on>
+        <sys_id>5fb02fe9dba1d7409b2689584b961983</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Veterinarian/Herd Owner.Brucellosis Vaccination Record</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>io_set_item_5fb02fe9dba1d7409b2689584b961983</sys_update_name>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2018-04-18 20:11:58</sys_updated_on>
+        <variable_set display_value="Veterinarian/Herd Owner">966c13a9dba1d7409b2689584b961912</variable_set>
+    </io_set_item>
+</record_update>]]></payload>
+        <payload_hash>276942612</payload_hash>
+        <record_name>Veterinarian/Herd Owner.Brucellosis Vaccination Record</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:54:15</sys_created_on>
+        <sys_id>25ed1596db7a570066015d104b961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>164245740790000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:54:15</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>61ed1596687a5700cf1933e613ed5676</update_guid>
+        <update_guid_history>61ed1596687a5700cf1933e613ed5676:0,97eb9152e97a5700b90e031622d14113:947085984,13b02b2d21a1d740f83fadd964e41a86:-1569291604</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 09/05/2018 09:12:35 AM">f6cad3eedbd86b00eb4e18df4b9619ea</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-05 15:12:35</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>664feac6452a4cb0bd7fb4f7f484a040</sys_id>
+        <sys_metadata>5fb02fe9dba1d7409b2689584b961983</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Veterinarian/Herd Owner.Brucellosis Vaccination Record</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>io_set_item_5fb02fe9dba1d7409b2689584b961983</sys_update_name>
+        <sys_update_version display_value="io_set_item_5fb02fe9dba1d7409b2689584b961983">25ed1596db7a570066015d104b961976</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-05 15:12:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

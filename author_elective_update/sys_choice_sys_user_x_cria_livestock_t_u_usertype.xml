@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="x_cria_livestock_t_u_usertype" table="sys_user" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_cria_livestock_t_u_usertype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Admin</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <sequence/>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-22 16:45:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18d069e2db329700086c89584b961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-22 16:45:39</sys_updated_on>
+            <value>admin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_cria_livestock_t_u_usertype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lab Tech</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <sequence/>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-22 16:45:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77d0a5a2db329700086c89584b9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-22 16:45:52</sys_updated_on>
+            <value>lab tech</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_cria_livestock_t_u_usertype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Read Only</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <sequence/>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-05 15:14:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3980076dbcb9f0066015d104b96198a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-05 15:53:25</sys_updated_on>
+            <value>Read Only</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_cria_livestock_t_u_usertype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Veterinarian / General</label>
+            <language>en</language>
+            <name>sys_user</name>
+            <sequence/>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-22 16:46:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83e0a9e2db329700086c89584b961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-22 16:46:10</sys_updated_on>
+            <value>vet</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_cria_livestock_t_u_usertype</element>
+            <name>sys_user</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-22 16:45:39</sys_created_on>
+            <sys_id>fed0a9e2db329700086c89584b961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cria_livestock_t_u_usertype</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_sys_user_x_cria_livestock_t_u_usertype</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-22 16:45:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_sys_user_x_cria_livestock_t_u_usertype</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="x_cria_livestock_t_u_usertype" table="sys_user" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>x_cria_livestock_t_u_usertype</element><hint/><inactive>false</inactive><label>Admin</label><language>en</language><name>sys_user</name><sequence/><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-06-22 16:45:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>18d069e2db329700086c89584b961998</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-06-22 16:45:39</sys_updated_on><value>admin</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>x_cria_livestock_t_u_usertype</element><hint/><inactive>false</inactive><label>Lab Tech</label><language>en</language><name>sys_user</name><sequence/><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-06-22 16:45:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>77d0a5a2db329700086c89584b9619c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-06-22 16:45:52</sys_updated_on><value>lab tech</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>x_cria_livestock_t_u_usertype</element><hint/><inactive>false</inactive><label>Read Only</label><language>en</language><name>sys_user</name><sequence/><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-07-05 15:14:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a3980076dbcb9f0066015d104b96198a</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-07-05 15:53:25</sys_updated_on><value>Read Only</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>x_cria_livestock_t_u_usertype</element><hint/><inactive>false</inactive><label>Veterinarian / General</label><language>en</language><name>sys_user</name><sequence/><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-06-22 16:46:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>83e0a9e2db329700086c89584b961946</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-06-22 16:46:10</sys_updated_on><value>vet</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>x_cria_livestock_t_u_usertype</element><name>sys_user</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-06-22 16:45:39</sys_created_on><sys_id>fed0a9e2db329700086c89584b961913</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cria_livestock_t_u_usertype</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_choice_sys_user_x_cria_livestock_t_u_usertype</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-06-22 16:45:39</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>22346498</payload_hash>
+        <record_name>User.Type of User</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-07-05 15:53:25</sys_created_on>
+        <sys_id>a091d8badbcb9f0066015d104b961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1646b25ed840000001</sys_recorded_at>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-07-05 15:53:25</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>6891d8ba86cb9f006fa1d29909a4c367</update_guid>
+        <update_guid_history>6891d8ba86cb9f006fa1d29909a4c367:22346498,502b48b692cb9f005eab88ecb85c80b1:-1007107401,22a80076a0cb9f00b3ebab8204320de3:22346498,e6f0e9e26e3297004f780343b702ddaa:-947108716,4ae0a9e2b5329700e1c498be451cfae1:-809131940,72d0a9e212329700c0fd626cd484f915:-1967021610</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-04 18:10:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>fed0a9e2db329700086c89584b961913</sys_id>
+        <sys_metadata>fed0a9e2db329700086c89584b961913</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cria_livestock_t_u_usertype</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_sys_user_x_cria_livestock_t_u_usertype</sys_update_name>
+        <sys_update_version display_value="sys_choice_sys_user_x_cria_livestock_t_u_usertype">a091d8badbcb9f0066015d104b961968</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-04 18:10:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

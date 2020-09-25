@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="herd_type" table="x_cria_livestock_t_vaccination_record" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cattle</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>10</sequence>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-14 14:50:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>608786d6dbfc9300c64e5eea4b9619dd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:22:35</sys_updated_on>
+            <value>cattle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Elk</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>20</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-11 20:21:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f4fb10ddb0a57809b2689584b96195a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:22:53</sys_updated_on>
+            <value>elk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Goats</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>30</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-11 20:21:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>867f310ddb0a57809b2689584b961990</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:23:16</sys_updated_on>
+            <value>goats</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bison</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>40</sequence>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-14 14:50:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a08786d6dbfc9300c64e5eea4b9619df</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:21:46</sys_updated_on>
+            <value>Bison</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deer</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>50</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-11 20:21:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce6f350ddb0a57809b2689584b961909</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:21:55</sys_updated_on>
+            <value>deer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>60</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-11 20:21:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>047f350ddb0a57809b2689584b961975</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:23:23</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>herd_type</element>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-14 14:50:28</sys_created_on>
+            <sys_id>ac8786d6dbfc9300c64e5eea4b9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>herd_type</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccination_record_herd_type</sys_update_name>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-03-14 14:50:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_vaccination_record_herd_type</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="herd_type" table="x_cria_livestock_t_vaccination_record" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cattle</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>10</sequence>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-14 14:50:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>608786d6dbfc9300c64e5eea4b9619dd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:22:35</sys_updated_on>
+            <value>cattle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Elk</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>20</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-11 20:21:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f4fb10ddb0a57809b2689584b96195a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:22:53</sys_updated_on>
+            <value>elk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Goats</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>30</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-11 20:21:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>867f310ddb0a57809b2689584b961990</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:23:16</sys_updated_on>
+            <value>goats</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bison</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>40</sequence>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-14 14:50:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a08786d6dbfc9300c64e5eea4b9619df</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:21:46</sys_updated_on>
+            <value>Bison</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deer</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>50</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-11 20:21:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce6f350ddb0a57809b2689584b961909</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:21:55</sys_updated_on>
+            <value>deer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>herd_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sequence>60</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-11 20:21:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>047f350ddb0a57809b2689584b961975</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-11 20:23:23</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>herd_type</element>
+            <name>x_cria_livestock_t_vaccination_record</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-14 14:50:28</sys_created_on>
+            <sys_id>ac8786d6dbfc9300c64e5eea4b9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>herd_type</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccination_record_herd_type</sys_update_name>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-03-14 14:50:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>-927391223</payload_hash>
+        <record_name>Vaccination Records.Herd Type</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:54:45</sys_created_on>
+        <sys_id>890e11d6db7a570066015d104b961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1642457b8180000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:54:45</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>c50e11d6507a5700c00d4b65244eb803</update_guid>
+        <update_guid_history>c50e11d6507a5700c00d4b65244eb803:0,b16b51de803a570028ecafe7c382d2bc:-639614614,756b51de533a5700214acfcccc2550b9:583016592,bd6b51de193a57006266027a4dc37db6:-1734040609,08d328de4bb657006a0a938747c83556:76609907,7eefb50d990a5780c5413c16214f7f81:-1277699833,0def790de20a5780372af6dfa8581d10:-42019896,ebcff50df80a5780b52d3d893cf80faa:-2038276453,0fbf750d370a5780951a215644eab54b:1766314844,eebf750d340a57807b307d25f0f12330:-1413299278,09bf350d3b0a5780d63627dd4462817b:412791548,a69fb50d820a578008df08248e53288b:-33724034,c69fb50d7d0a57800e5d8faeee495f7b:-1916919052,159f310d640a5780ae4cc47bda881496:-1470307107,349fb10d1d0a57803a1a46d9fd73e661:-238610101,978fb10da40a578013e2f8496d00059f:-664901119,028f350d640a578011b34712a35b6ea1:-146715897,b08ff10d350a5780593cd823bbb2f138:-486417038,848f350d140a5780d942a925341a2be0:2038299333,577f350d240a578047042f6eea9bc982:1241612662,6e7f3dc99a0a57806dcd9f1400eb52fc:125268490,067f350dda0a5780c34f244272abf0d5:1479620753,287f350d350a5780ae9e096de309c69a:-1681682651,c87f7989040a578031be7998d6d93c39:1117638188,aa6f310d500a5780bb4dbb10f776bf4a:1309459516,066f350d590a5780d8fdd086f60dae03:1027411379,ec8786d6a0fc9300db3a9d9c531d64e0:76609907</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>410edd96db7a570066015d104b9619fa</sys_id>
+        <sys_metadata>410edd96db7a570066015d104b9619fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>herd_type</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_vaccination_record_herd_type</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_vaccination_record_herd_type">890e11d6db7a570066015d104b961903</sys_update_version>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

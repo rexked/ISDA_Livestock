@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="x_cria_livestock_t_lab_results_bruc_market_cattle">sys_created_by=javascript:gs.getUserName()^parent.ref_x_cria_livestock_t_vaccinations_market_cattle.draft=true^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName()"/>
+            <item endquery="false" field="parent.ref_x_cria_livestock_t_vaccinations_market_cattle.draft" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow write for records in x_cria_livestock_t_lab_results_bruc_market_cattle, if the ACL condition (sys_created_by=javascript:gs.getUserName()^parent.ref_x_cria_livestock_t_vaccinations_market_cattle.draft=true^EQ) evaluates to true.</description>
+        <name>x_cria_livestock_t_lab_results_bruc_market_cattle</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-09-16 21:40:12</sys_created_on>
+        <sys_id>fa4905fbdb7733409b2689584b961929</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>x_cria_livestock_t_lab_results_bruc_market_cattle</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_security_acl_fa4905fbdb7733409b2689584b961929</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-09-19 16:04:41</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

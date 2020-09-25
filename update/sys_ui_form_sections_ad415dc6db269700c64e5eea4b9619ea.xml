@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_form_sections form_id="ad415dc6db269700c64e5eea4b9619ea" sys_domain="global" table="x_cria_livestock_t_vaccinations_tuberculosis" version="3">
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
@@ -70,6 +69,20 @@
             <sys_ui_section caption="Lab Information" display_value="Lab Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">61415dc6db269700c64e5eea4b9619ea</sys_ui_section>
             <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
             <sys_updated_on>2018-06-13 19:08:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-04-07 21:38:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec3daf19db405050eb4e18df4b96193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cria_livestock_t_vaccinations_tuberculosis" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">ad415dc6db269700c64e5eea4b9619ea</sys_ui_form>
+            <sys_ui_section caption="Form History" display_value="Form History" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="Default view">5c3daf19db405050eb4e18df4b96193c</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-04-07 21:38:20</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_cria_livestock_t_vaccinations_tuberculosis</name>

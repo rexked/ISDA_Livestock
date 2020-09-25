@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_report_users_groups">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id display_value="ISDA Admins" name="ISDA Admins">971d3321dbf853009b2689584b96198e</group_id>
         <report_id display_value="Trich by neg this month">bc887d58dbfe9b00c64e5eea4b9619a5</report_id>

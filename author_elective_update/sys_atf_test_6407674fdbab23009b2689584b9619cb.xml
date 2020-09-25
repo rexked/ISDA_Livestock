@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <description>Test generated from template. To complete this test do the following:
+1. Pick a correct user to impersonate, a user with the right roles.
+2. Opens a new form for a table.
+3. Edit the Set Field Values step to supply values for all fields that need them.
+4. Submits the current form.
+</description>
+        <name>ISDA - Export CVI (Backend)</name>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-02-15 18:47:27</sys_created_on>
+        <sys_id>6407674fdbab23009b2689584b9619cb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ISDA - Export CVI (Backend)</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_atf_test_6407674fdbab23009b2689584b9619cb</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-06-11 20:53:21</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=6407674fdbab23009b2689584b9619cb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_atf_test_6407674fdbab23009b2689584b9619cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><description>Test generated from template. To complete this test do the following:
+1. Pick a correct user to impersonate, a user with the right roles.
+2. Opens a new form for a table.
+3. Edit the Set Field Values step to supply values for all fields that need them.
+4. Submits the current form.
+</description><name>ISDA - Export CVI (Backend)</name><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2019-02-15 18:47:27</sys_created_on><sys_id>6407674fdbab23009b2689584b9619cb</sys_id><sys_mod_count>2</sys_mod_count><sys_name>ISDA - Export CVI (Backend)</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_atf_test_6407674fdbab23009b2689584b9619cb</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-11 20:53:21</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=6407674fdbab23009b2689584b9619cb"/></record_update>]]></payload>
+        <payload_hash>-2015839480</payload_hash>
+        <record_name>ISDA - Export CVI (Backend)</record_name>
+        <reverted_from/>
+        <source>a415a093db52b700086c89584b9619c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-02 16:12:29</sys_created_on>
+        <sys_id>d175acd3db52b700086c89584b9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bb3757ba20000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-02 16:12:29</sys_updated_on>
+        <type>Test</type>
+        <update_guid>ba5c1de0b5463b0095edd5df6474dfa5</update_guid>
+        <update_guid_history>ba5c1de0b5463b0095edd5df6474dfa5:-2015839480,6a37230f94ab23003ea4a4b2264364cf:1960580418,2317a30f37ab2300826d007919c38937:-2029793363</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-08-29 20:34:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>52e4e50844d94f8a9833e8335a61f5c4</sys_id>
+        <sys_metadata>6407674fdbab23009b2689584b9619cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ISDA - Export CVI (Backend)</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_atf_test_6407674fdbab23009b2689584b9619cb</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_6407674fdbab23009b2689584b9619cb">d175acd3db52b700086c89584b9619a7</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-08-29 20:34:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

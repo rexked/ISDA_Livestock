@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Financials" section_id="25a6e0e0dbc30450eb4e18df4b961970" sys_domain="global" table="pm_project" version="3" view="isda">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rate_model</element>
+            <position>0</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>e1a6e0e0dbc30450eb4e18df4b961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>69a6e0e0dbc30450eb4e18df4b961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost</element>
+            <position>2</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>eda6e0e0dbc30450eb4e18df4b961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>capex_cost</element>
+            <position>3</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>65a6e0e0dbc30450eb4e18df4b961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opex_cost</element>
+            <position>4</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>e9a6e0e0dbc30450eb4e18df4b961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_cost</element>
+            <position>5</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>61a6e0e0dbc30450eb4e18df4b961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_cost</element>
+            <position>6</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>e5a6e0e0dbc30450eb4e18df4b961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>forecast_cost</element>
+            <position>7</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>6da6e0e0dbc30450eb4e18df4b961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>e1a6e0e0dbc30450eb4e18df4b961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>benefits</element>
+            <position>9</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>69a6e0e0dbc30450eb4e18df4b961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value</element>
+            <position>10</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>eda6e0e0dbc30450eb4e18df4b961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>roi</element>
+            <position>11</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>65a6e0e0dbc30450eb4e18df4b961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>discount_rate</element>
+            <position>12</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>e9a6e0e0dbc30450eb4e18df4b961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>npv_value</element>
+            <position>13</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>61a6e0e0dbc30450eb4e18df4b961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>irr_value</element>
+            <position>14</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>e5a6e0e0dbc30450eb4e18df4b961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>estimate_to_completion</element>
+            <position>15</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>6da6e0e0dbc30450eb4e18df4b961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_id>e1a6e0e0dbc30450eb4e18df4b961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Financials</caption>
+            <header>false</header>
+            <name>pm_project</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25a6e0e0dbc30450eb4e18df4b961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Financials</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_25a6e0e0dbc30450eb4e18df4b961970</sys_update_name>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="ISDA" name="isda">b83926c6db789300c64e5eea4b961912</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,28 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Batchfill Tuberculosis" max_length="40" name="x_cria_livestock_t_lab_results_tub" text_index="true" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Batchfill Tuberculosis" max_length="40" name="x_cria_livestock_t_lab_results_tub" sizeclass="69895" text_index="true" type="collection">
         <element label="Actual Sequence" max_length="40" name="actual_sequence" type="string"/>
         <element label="Age (In Months)" max_length="40" name="age" type="string"/>
         <element label="Alternate Identification" max_length="40" name="alt_id" type="string"/>
         <element label="Breed" max_length="40" name="breed" type="string"/>
         <element label="Official Identification" max_length="40" name="id" type="string"/>
-        <element choice="1" label="Test Interpretation" max_length="40" name="interpretation" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test Interpretation" max_length="40" name="interpretation" type="choice">
             <choice>
-                <element label="Negative" sequence="1" value="negative"/>
-                <element label="Suspect" sequence="2" value="suspect"/>
-                <element label="Reactor" sequence="3" value="reactor"/>
+                <element inactive_on_update="false" label="N" sequence="0" value="N"/>
+                <element inactive_on_update="false" label="S" sequence="0" value="S"/>
+                <element inactive_on_update="false" label="Negative" sequence="1" value="negative"/>
+                <element inactive_on_update="false" label="Suspect" sequence="2" value="suspect"/>
+                <element inactive_on_update="false" label="Reactor" sequence="3" value="reactor"/>
             </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Official IDs" max_length="10000" name="official_ids" type="string"/>
-        <element label="Parent" max_length="32" name="parent" reference="x_cria_livestock_t_vaccinations_tuberculosis" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent" max_length="32" name="parent" reference="x_cria_livestock_t_vaccinations_tuberculosis" type="reference"/>
         <element label="Reactor Tag Number" max_length="40" name="reactor_tag_number" type="string"/>
         <element label="Remarks (please indicate if Re-tag, Natural Addition or Purchased Addition)" max_length="80" name="remarks" type="string"/>
         <element default="javascript: gs.getSessionID()" label="Session ID" max_length="40" name="session_id" read_only="true" type="string"/>
-        <element choice="1" label="sex" max_length="10" name="sex" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="sex" max_length="10" name="sex" type="choice">
             <choice>
-                <element label="Male" sequence="1" value="male"/>
-                <element label="Female" sequence="2" value="female"/>
+                <element inactive_on_update="false" label="Castrated Male" sequence="0" value="Castrated Male"/>
+                <element inactive="true" inactive_on_update="true" label="F" sequence="0" value="F"/>
+                <element inactive_on_update="false" label="Male" sequence="1" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="2" value="female"/>
             </choice>
         </element>
         <element label="Size" max_length="40" name="size" type="string"/>

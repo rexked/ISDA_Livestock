@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="x_cria_livestock_t_lab_results_bruc" label="Batchfill Market Cattle" max_length="40" name="x_cria_livestock_t_lab_results_bruc_market_cattle" text_index="true" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_cria_livestock_t_lab_results_bruc" label="Batchfill Market Cattle" max_length="40" name="x_cria_livestock_t_lab_results_bruc_market_cattle" sizeclass="4771" text_index="true" type="collection">
         <element label="FPA" max_length="40" name="fpa" type="string"/>
     </element>
 </database>

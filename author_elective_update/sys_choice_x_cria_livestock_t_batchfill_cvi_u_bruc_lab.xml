@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_bruc_lab" table="x_cria_livestock_t_batchfill_cvi" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bruc_lab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ISDA Animal Health Lab</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>10</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-15 15:28:20</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>493f26cadbbcb7009b2689584b9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-15 15:28:20</sys_updated_on>
+            <value>ISDA Animal Health Lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bruc_lab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Washington Animal Disease Diagnostic Lab</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>20</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-15 15:28:44</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>fb6f22cadbbcb7009b2689584b961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-15 15:28:44</sys_updated_on>
+            <value>Washington Animal Disease Diagnostic Lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bruc_lab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utah Veterinary Diagnostic Lab</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>30</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-15 15:29:53</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>74bfaacadbbcb7009b2689584b961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-15 15:29:53</sys_updated_on>
+            <value>Utah Veterinary Diagnostic Lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bruc_lab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Montana Veterinary Diagnostic Lab</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>40</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-15 15:30:08</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>e4cfaacadbbcb7009b2689584b961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-15 15:30:08</sys_updated_on>
+            <value>Montana Veterinary Diagnostic Lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bruc_lab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wyoming State Veterinary Laboratory</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>50</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-15 15:32:04</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>4920fecadbbcb7009b2689584b96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-15 15:32:04</sys_updated_on>
+            <value>Wyoming State Veterinary Laboratory</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bruc_lab</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>60</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-15 15:30:42</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>e4efea8adbbcb7009b2689584b9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-15 15:30:42</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_bruc_lab</element>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-15 15:28:20</sys_created_on>
+            <sys_id>0a5f62cadbbcb7009b2689584b961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_bruc_lab</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_batchfill_cvi_u_bruc_lab</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-15 15:28:20</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_batchfill_cvi_u_bruc_lab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_bruc_lab" table="x_cria_livestock_t_batchfill_cvi" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_bruc_lab</element><hint/><inactive>false</inactive><label>ISDA Animal Health Lab</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>10</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-15 15:28:20</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>493f26cadbbcb7009b2689584b9619da</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-04-15 15:28:20</sys_updated_on><value>ISDA Animal Health Lab</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_bruc_lab</element><hint/><inactive>false</inactive><label>Washington Animal Disease Diagnostic Lab</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>20</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-15 15:28:44</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>fb6f22cadbbcb7009b2689584b961963</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-04-15 15:28:44</sys_updated_on><value>Washington Animal Disease Diagnostic Lab</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_bruc_lab</element><hint/><inactive>false</inactive><label>Utah Veterinary Diagnostic Lab</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>30</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-15 15:29:53</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>74bfaacadbbcb7009b2689584b961992</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-04-15 15:29:53</sys_updated_on><value>Utah Veterinary Diagnostic Lab</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_bruc_lab</element><hint/><inactive>false</inactive><label>Montana Veterinary Diagnostic Lab</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>40</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-15 15:30:08</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>e4cfaacadbbcb7009b2689584b961997</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-04-15 15:30:08</sys_updated_on><value>Montana Veterinary Diagnostic Lab</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_bruc_lab</element><hint/><inactive>false</inactive><label>Wyoming State Veterinary Laboratory</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>50</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-15 15:32:04</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>4920fecadbbcb7009b2689584b96192f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-04-15 15:32:04</sys_updated_on><value>Wyoming State Veterinary Laboratory</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_bruc_lab</element><hint/><inactive>false</inactive><label>Other</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>60</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-15 15:30:42</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>e4efea8adbbcb7009b2689584b9619de</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-04-15 15:30:42</sys_updated_on><value>Other</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_bruc_lab</element><name>x_cria_livestock_t_batchfill_cvi</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-15 15:28:20</sys_created_on><sys_id>0a5f62cadbbcb7009b2689584b961903</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_bruc_lab</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_choice_x_cria_livestock_t_batchfill_cvi_u_bruc_lab</sys_update_name><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-04-15 15:28:20</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>166007657</payload_hash>
+        <record_name>CVI Livestock Shipment.Laboratory</record_name>
+        <reverted_from/>
+        <source>a415a093db52b700086c89584b9619c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-02 16:12:30</sys_created_on>
+        <sys_id>2175acd3db52b700086c89584b9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bb3757e580000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-02 16:12:30</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>b03076ca1dbcb700bd01c8016ed3a820</update_guid>
+        <update_guid_history>b03076ca1dbcb700bd01c8016ed3a820:166007657,a4efea8aa4bcb7007ee5493de96fd9e1:1121106911,24cfaacaf5bcb7001ee6662952fd699a:1136783476,30bfaaca88bcb700c777e5229a9c8295:704241451,376f22ca82bcb700a5e4d92cf2cc1f66:-279817675,025f62cad8bcb70089406b2c94e9e605:-1727363688,33ce22ca82bcb7009f83f03af5e3895e:-1461720754,b7ceee8a79bcb7001e5d1914d6860015:-1869044466,999e6e8ae8bcb700d8f301d671f3458f:233912963,bb8eea8a30bcb7009dbcddedf104a470:118991655,6e6ee68ab4bcb70020a4409a8e9fb4bc:-1561262185,e96e228a12bcb700c2aaf25009769dce:-1979629244</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>d575acd3db52b700086c89584b9619dc</sys_id>
+        <sys_metadata>d575acd3db52b700086c89584b9619dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_bruc_lab</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_batchfill_cvi_u_bruc_lab</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_batchfill_cvi_u_bruc_lab">2175acd3db52b700086c89584b9619ef</sys_update_version>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

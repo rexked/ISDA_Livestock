@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-25 18:48:46</sys_created_on>
+        <sys_id>6c1c0f45db706b00447b4b8b0b96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cria_livestock_t_lab_results_trich.id.x_cria_livestock_t.admin</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_security_acl display_value="x_cria_livestock_t_lab_results_trich.id">e81c8745db706b00447b4b8b0b961981</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6c1c0f45db706b00447b4b8b0b96192f</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-25 18:48:46</sys_updated_on>
+        <sys_user_role display_value="x_cria_livestock_t.admin" name="x_cria_livestock_t.admin">a3db761adbbc93009b2689584b9619f9</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_security_acl_role_6c1c0f45db706b00447b4b8b0b96192f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2018-09-25 18:48:46</sys_created_on><sys_id>6c1c0f45db706b00447b4b8b0b96192f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cria_livestock_t_lab_results_trich.id.x_cria_livestock_t.admin</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_security_acl display_value="x_cria_livestock_t_lab_results_trich.id">e81c8745db706b00447b4b8b0b961981</sys_security_acl><sys_update_name>sys_security_acl_role_6c1c0f45db706b00447b4b8b0b96192f</sys_update_name><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2018-09-25 18:48:46</sys_updated_on><sys_user_role display_value="x_cria_livestock_t.admin" name="x_cria_livestock_t.admin">a3db761adbbc93009b2689584b9619f9</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>427101838</payload_hash>
+        <record_name>x_cria_livestock_t_lab_results_trich.id.x_cria_livestock_t.admin</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-25 18:48:46</sys_created_on>
+        <sys_id>a01c0f45db706b00447b4b8b0b961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>166120ff25e0000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-25 18:48:46</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a81c0f45de706b003419c49eb080a031</update_guid>
+        <update_guid_history>a81c0f45de706b003419c49eb080a031:427101838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 09/25/2018 12:48:48 PM">c51c0f45db706b00447b4b8b0b961943</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-25 18:48:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1b63596da2f64ea98eca061dc6feffb1</sys_id>
+        <sys_metadata>6c1c0f45db706b00447b4b8b0b96192f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cria_livestock_t_lab_results_trich.id.x_cria_livestock_t.admin</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent display_value="x_cria_livestock_t_lab_results_trich.id">e81c8745db706b00447b4b8b0b961981</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_6c1c0f45db706b00447b4b8b0b96192f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_6c1c0f45db706b00447b4b8b0b96192f">a01c0f45db706b00447b4b8b0b961932</sys_update_version>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-25 18:48:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="State / Area Status" section_id="bcb0353bdb9a5300c64e5eea4b9619d4" sys_domain="global" table="x_cria_livestock_t_vaccinations_cvi" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tb_free</element>
+            <position>0</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-23 17:20:09</sys_created_on>
+            <sys_id>eb448f02dbddeb40447b4b8b0b9619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="State / Area Status" display_value="State / Area Status" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">bcb0353bdb9a5300c64e5eea4b9619d4</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-23 17:20:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>brucellosis_free</element>
+            <position>1</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-23 17:20:09</sys_created_on>
+            <sys_id>6f448f02dbddeb40447b4b8b0b9619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="State / Area Status" display_value="State / Area Status" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">bcb0353bdb9a5300c64e5eea4b9619d4</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-23 17:20:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-23 17:20:09</sys_created_on>
+            <sys_id>ef448f02dbddeb40447b4b8b0b9619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="State / Area Status" display_value="State / Area Status" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">bcb0353bdb9a5300c64e5eea4b9619d4</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-23 17:20:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cvi_remarks</element>
+            <position>3</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-23 17:20:09</sys_created_on>
+            <sys_id>63448f02dbddeb40447b4b8b0b9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="State / Area Status" display_value="State / Area Status" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">bcb0353bdb9a5300c64e5eea4b9619d4</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-23 17:20:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>State / Area Status</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-01 18:35:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcb0353bdb9a5300c64e5eea4b9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>State / Area Status</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_bcb0353bdb9a5300c64e5eea4b9619d4</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-01 18:35:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_ui_section_bcb0353bdb9a5300c64e5eea4b9619d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="State / Area Status" section_id="bcb0353bdb9a5300c64e5eea4b9619d4" sys_domain="global" table="x_cria_livestock_t_vaccinations_cvi" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>tb_free</element><position>0</position><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-10-23 17:20:09</sys_created_on><sys_id>eb448f02dbddeb40447b4b8b0b9619e3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="State / Area Status" display_value="State / Area Status" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">bcb0353bdb9a5300c64e5eea4b9619d4</sys_ui_section><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-10-23 17:20:09</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>brucellosis_free</element><position>1</position><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-10-23 17:20:09</sys_created_on><sys_id>6f448f02dbddeb40447b4b8b0b9619e3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="State / Area Status" display_value="State / Area Status" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">bcb0353bdb9a5300c64e5eea4b9619d4</sys_ui_section><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-10-23 17:20:09</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-10-23 17:20:09</sys_created_on><sys_id>ef448f02dbddeb40447b4b8b0b9619e3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="State / Area Status" display_value="State / Area Status" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">bcb0353bdb9a5300c64e5eea4b9619d4</sys_ui_section><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-10-23 17:20:09</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cvi_remarks</element><position>3</position><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-10-23 17:20:09</sys_created_on><sys_id>63448f02dbddeb40447b4b8b0b9619e4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="State / Area Status" display_value="State / Area Status" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="Default view">bcb0353bdb9a5300c64e5eea4b9619d4</sys_ui_section><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-10-23 17:20:09</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>State / Area Status</caption><header>false</header><name>x_cria_livestock_t_vaccinations_cvi</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-06-01 18:35:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bcb0353bdb9a5300c64e5eea4b9619d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>State / Area Status</sys_name><sys_overrides/><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_ui_section_bcb0353bdb9a5300c64e5eea4b9619d4</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-06-01 18:35:53</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>570124260</payload_hash>
+        <record_name>CVI / Health Certificate</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-23 17:20:09</sys_created_on>
+        <sys_id>af448f02dbddeb40447b4b8b0b9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>166a1f0df640000001</sys_recorded_at>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-23 17:20:09</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>a7448f0255ddeb40a6be6d95e46567e5</update_guid>
+        <update_guid_history>a7448f0255ddeb40a6be6d95e46567e5:570124260,591e95d6417a5700df81ba9ba769e3e9:0,6d63641e6cb6570029b7cc7c312bf9cf:-274211248,8811b17b639a5300b7d7ce1dcfb3024e:-244308987,30b07d3bd79a53008a70124a61b1e48f:-609489277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-02 16:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>c0bbc1c74eda479685d363760c4797a4</sys_id>
+        <sys_metadata>bcb0353bdb9a5300c64e5eea4b9619d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>State / Area Status</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent display_value="Export CVI">5655c4f0db421700c64e5eea4b961998</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_ui_section_bcb0353bdb9a5300c64e5eea4b9619d4</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_bcb0353bdb9a5300c64e5eea4b9619d4">af448f02dbddeb40447b4b8b0b9619e5</sys_update_version>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-02 16:14:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

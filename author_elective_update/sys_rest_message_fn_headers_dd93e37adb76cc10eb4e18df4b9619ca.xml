@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="DELETE">
+        <name>Authorization:</name>
+        <rest_message_function display_value="PostApiOutbound">b733a77adb76cc10eb4e18df4b961906</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-10 09:29:56</sys_created_on>
+        <sys_id>dd93e37adb76cc10eb4e18df4b9619ca</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Authorization:</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_dd93e37adb76cc10eb4e18df4b9619ca</sys_update_name>
+        <sys_updated_by>tsears@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-02-10 19:06:05</sys_updated_on>
+        <value>bearer w2bAou-NWpdXEW3-BnDnJC4SOirlx5vVgoLnrICdZ8c24Yd1Zgp9MtPDVyumIQRZtbkwtIBMfqLRtNCvW70hGqtNMxBqK3AShziaB3q7IEvDhdNJfXeDKG6AaeTZMNLaqsKes4-SX1dlGT-zXnsfDKOOmogJwfu4dldy9tgDGs5Rz6A1UofqkUPVA-F9ZEv4EbO096_gDBGrzyAkfBeT-Yck27Iva83soI8baXgaYQ0IJLJWk2Gh8sNnRuhrZY7oFGsitR5_HBOGbW5G7HPeEcs6bYKi8W1Lg3mJ5P1Y8c31irJGgwlwUTop7oFRu_VZHZUEBXacw5U_6I9brFEMaA</value>
+    </sys_rest_message_fn_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_rest_message_fn_headers_dd93e37adb76cc10eb4e18df4b9619ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Authorization:</name><rest_message_function display_value="PostApiOutbound">b733a77adb76cc10eb4e18df4b961906</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>tsears</sys_created_by><sys_created_on>2020-02-10 09:29:56</sys_created_on><sys_id>dd93e37adb76cc10eb4e18df4b9619ca</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Authorization:</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_rest_message_fn_headers_dd93e37adb76cc10eb4e18df4b9619ca</sys_update_name><sys_updated_by>tsears@criadvantage.com</sys_updated_by><sys_updated_on>2020-02-10 19:06:05</sys_updated_on><value>bearer w2bAou-NWpdXEW3-BnDnJC4SOirlx5vVgoLnrICdZ8c24Yd1Zgp9MtPDVyumIQRZtbkwtIBMfqLRtNCvW70hGqtNMxBqK3AShziaB3q7IEvDhdNJfXeDKG6AaeTZMNLaqsKes4-SX1dlGT-zXnsfDKOOmogJwfu4dldy9tgDGs5Rz6A1UofqkUPVA-F9ZEv4EbO096_gDBGrzyAkfBeT-Yck27Iva83soI8baXgaYQ0IJLJWk2Gh8sNnRuhrZY7oFGsitR5_HBOGbW5G7HPeEcs6bYKi8W1Lg3mJ5P1Y8c31irJGgwlwUTop7oFRu_VZHZUEBXacw5U_6I9brFEMaA</value></sys_rest_message_fn_headers></record_update>]]></payload>
+        <payload_hash>-2072658858</payload_hash>
+        <record_name>Authorization:</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tsears@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-02-10 19:06:05</sys_created_on>
+        <sys_id>dab7adcbdbfacc10eb4e18df4b96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170307e8f700000001</sys_recorded_at>
+        <sys_updated_by>tsears@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-02-10 19:06:05</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>92b7adcb4efacc1056622ed6de640a1d</update_guid>
+        <update_guid_history>92b7adcb4efacc1056622ed6de640a1d:-2072658858,2294250b75facc10431b5dc0040eb1d0:-2132042515,6ad3abba5776cc103827f42f14ce3207:-1654811798</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-27 16:05:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_headers">sys_rest_message_fn_headers</sys_db_object>
+        <sys_id>09d46eae2d2b44deabef16a04a671544</sys_id>
+        <sys_metadata>dd93e37adb76cc10eb4e18df4b9619ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authorization:</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent display_value="post">b733a77adb76cc10eb4e18df4b961906</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_headers_dd93e37adb76cc10eb4e18df4b9619ca</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_headers_dd93e37adb76cc10eb4e18df4b9619ca">dab7adcbdbfacc10eb4e18df4b96191d</sys_update_version>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-27 16:05:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

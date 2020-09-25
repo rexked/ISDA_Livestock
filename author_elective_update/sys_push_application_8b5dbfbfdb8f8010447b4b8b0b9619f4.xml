@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_application">
+    <sys_push_application action="DELETE">
+        <adm_client_id/>
+        <adm_client_secret/>
+        <certificate_id/>
+        <display_name>push</display_name>
+        <feedback>REST API</feedback>
+        <feedback_last_updated/>
+        <feedback_rest_message_id/>
+        <gcm_api_key/>
+        <name>push</name>
+        <parent_app/>
+        <push>REST API</push>
+        <push_rest_message_id display_value="Rest key test">53ac9bf5dbf60c10eb4e18df4b9619ba</push_rest_message_id>
+        <sandbox_certificate_id/>
+        <sys_class_name>sys_push_application</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-26 00:11:25</sys_created_on>
+        <sys_id>8b5dbfbfdb8f8010447b4b8b0b9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>push</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_push_application_8b5dbfbfdb8f8010447b4b8b0b9619f4</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-26 00:11:25</sys_updated_on>
+    </sys_push_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_push_application_8b5dbfbfdb8f8010447b4b8b0b9619f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_application"><sys_push_application action="INSERT_OR_UPDATE"><adm_client_id/><adm_client_secret/><certificate_id/><display_name>push</display_name><feedback>REST API</feedback><feedback_last_updated/><feedback_rest_message_id/><gcm_api_key/><name>push</name><parent_app/><push>REST API</push><push_rest_message_id display_value="Rest key test">53ac9bf5dbf60c10eb4e18df4b9619ba</push_rest_message_id><sandbox_certificate_id/><sys_class_name>sys_push_application</sys_class_name><sys_created_by>tsears</sys_created_by><sys_created_on>2020-02-26 00:11:25</sys_created_on><sys_id>8b5dbfbfdb8f8010447b4b8b0b9619f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>push</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_push_application_8b5dbfbfdb8f8010447b4b8b0b9619f4</sys_update_name><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-02-26 00:11:25</sys_updated_on></sys_push_application></record_update>]]></payload>
+        <payload_hash>-1095316405</payload_hash>
+        <record_name>push</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-26 00:11:25</sys_created_on>
+        <sys_id>ad7d7fbfdb8f8010447b4b8b0b96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1707ed57dfe0000001</sys_recorded_at>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-26 00:11:25</sys_updated_on>
+        <type>Push Application</type>
+        <update_guid>a57d7fbf958f80102b36ecb85cc3856d</update_guid>
+        <update_guid_history>a57d7fbf958f80102b36ecb85cc3856d:-1095316405</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-26 00:12:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_push_application">sys_push_application</sys_db_object>
+        <sys_id>09f62e9eac134ce288aa134ce68a8429</sys_id>
+        <sys_metadata>8b5dbfbfdb8f8010447b4b8b0b9619f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>push</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_push_application_8b5dbfbfdb8f8010447b4b8b0b9619f4</sys_update_name>
+        <sys_update_version display_value="sys_push_application_8b5dbfbfdb8f8010447b4b8b0b9619f4">ad7d7fbfdb8f8010447b4b8b0b96196d</sys_update_version>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-26 00:12:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="DELETE">
+        <dashboard display_value="Livestock">3d9f1049db8dd700c64e5eea4b96192c</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>2</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-03-22 20:20:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2afd8c5db8dd700c64e5eea4b961951</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>3d9f1049db8dd700c64e5eea4b96192c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_b2afd8c5db8dd700c64e5eea4b961951</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-01-29 17:38:40</sys_updated_on>
+        <tab display_value="New Tab">baafd8c5db8dd700c64e5eea4b96194f</tab>
+    </pa_m2m_dashboard_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>pa_m2m_dashboard_tabs_b2afd8c5db8dd700c64e5eea4b961951</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs"><pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE"><dashboard display_value="Livestock">3d9f1049db8dd700c64e5eea4b96192c</dashboard><home>false</home><homepage/><order>2</order><sys_class_name>pa_m2m_dashboard_tabs</sys_class_name><sys_created_by>dyoung</sys_created_by><sys_created_on>2018-03-22 20:20:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b2afd8c5db8dd700c64e5eea4b961951</sys_id><sys_mod_count>1</sys_mod_count><sys_name>3d9f1049db8dd700c64e5eea4b96192c</sys_name><sys_overrides/><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>pa_m2m_dashboard_tabs_b2afd8c5db8dd700c64e5eea4b961951</sys_update_name><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-01-29 17:38:40</sys_updated_on><tab display_value="New Tab">baafd8c5db8dd700c64e5eea4b96194f</tab></pa_m2m_dashboard_tabs></record_update>]]></payload>
+        <payload_hash>-2044390341</payload_hash>
+        <record_name>3d9f1049db8dd700c64e5eea4b96192c</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-01-29 17:38:40</sys_created_on>
+        <sys_id>7ca0eb0bdbeec010eb4e18df4b9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ff26235c00000001</sys_recorded_at>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-01-29 17:38:40</sys_updated_on>
+        <type>Dashboard Tab</type>
+        <update_guid>74a0eb0b2deec0102cb3263b7a4134fa</update_guid>
+        <update_guid_history>74a0eb0b2deec0102cb3263b7a4134fa:-2044390341,5afdd996137a57001247c547dedd40a1:0,55eb9d122f7a5700196511f2b9faf9f8:-737803856,beafd8c5cd8dd70088937e5678868451:-1456998598</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 01/29/2020 10:39:18 AM">1ec0eb0bdbeec010eb4e18df4b9619ee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-01-29 17:39:18</sys_created_on>
+        <sys_db_object display_value="" name="pa_m2m_dashboard_tabs">pa_m2m_dashboard_tabs</sys_db_object>
+        <sys_id>6d5234d689a240f0b31a6669ee68d744</sys_id>
+        <sys_metadata>b2afd8c5db8dd700c64e5eea4b961951</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3d9f1049db8dd700c64e5eea4b96192c</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent display_value="Livestock">3d9f1049db8dd700c64e5eea4b96192c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>pa_m2m_dashboard_tabs_b2afd8c5db8dd700c64e5eea4b961951</sys_update_name>
+        <sys_update_version display_value="pa_m2m_dashboard_tabs_b2afd8c5db8dd700c64e5eea4b961951">7ca0eb0bdbeec010eb4e18df4b9619fa</sys_update_version>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-01-29 17:39:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

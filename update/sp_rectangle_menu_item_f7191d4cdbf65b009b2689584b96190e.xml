@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_rectangle_menu_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
     <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
         <active>true</active>
         <color>default</color>
@@ -16,7 +15,7 @@
         <label>Trich Test and Report</label>
         <order>600</order>
         <record_script/>
-        <sc_cat_item display_value="Trichomoniasis Test and Report Form">0461879adb70d300c64e5eea4b96199a</sc_cat_item>
+        <sc_cat_item display_value="Trichomoniasis Test and Report Form">30578a26dba02b00c64e5eea4b961907</sc_cat_item>
         <sc_category/>
         <short_description/>
         <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
@@ -26,14 +25,14 @@
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-14 21:47:22</sys_created_on>
         <sys_id>f7191d4cdbf65b009b2689584b96190e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Trich Test and Report</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_f7191d4cdbf65b009b2689584b96190e</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-14 21:53:52</sys_updated_on>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-26 17:31:04</sys_updated_on>
         <table/>
         <type>sc_cat_item</type>
         <url/>

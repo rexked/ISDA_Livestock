@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Export CVI Draft Form - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="export_cvi_draft_form">eb242cc4db8b73409b2689584b961961</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-29 20:33:44</sys_created_on>
+        <sys_id>e7242c08db8b73409b2689584b96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Export CVI Draft Form - Container 1</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_container_e7242c08db8b73409b2689584b96192e</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-29 20:33:44</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" audit="true" extends="x_cria_livestock_t_vaccinations_cvi" label="Import CVI" max_length="40" name="x_cria_livestock_t_import_cvi" sizeclass="12283" text_index="true" type="collection">
+        <element label="Consignee County" max_length="100" name="consignee_county" type="string"/>
+        <element label="Consignee Email" max_length="100" name="consignee_email" type="string"/>
+        <element label="Consignee Latitude" max_length="40" name="consignee_lat" type="string"/>
+        <element label="Consignee Longitude" max_length="40" name="consignee_long" type="string"/>
+        <element label="Consignee Premises ID" max_length="40" name="consignee_premid" type="string"/>
+        <element label="Consignor County" max_length="100" name="consignor_county" type="string"/>
+        <element label="Consignor Email" max_length="100" name="consignor_email" type="string"/>
+        <element label="Consignor Latitude" max_length="40" name="consignor_lat" type="string"/>
+        <element label="Consignor Longitude" max_length="40" name="consignor_long" type="string"/>
+        <element label="Consignor Premises ID" max_length="40" name="consignor_premid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CVI Approved" max_length="40" name="cvi_approved" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="CVI Non-compliant" max_length="40" name="flagged_for_review" read_only="true" type="boolean"/>
+        <element label="Movement Purpose" max_length="40" name="move_purpose" type="string"/>
+        <element label="Remarks for Reviewer" max_length="2500" name="remarks_for_reviewer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Consignee State" max_length="40" name="u_consignee_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Consignor State" max_length="40" name="u_consignor_state" type="string"/>
+        <element label="Veterinarian Address" max_length="255" name="vet_address" type="string"/>
+        <element label="Veterinarian Email" max_length="100" name="vet_email" type="string"/>
+        <element label="Veterinarian License Number" max_length="40" name="vet_lic_num" type="string"/>
+        <element label="Veterinarian Licensing State" max_length="40" name="vet_lic_state" type="string"/>
+        <element label="Veterinarian National Accreditation" max_length="40" name="vet_nat_accred" type="string"/>
+        <element label="Veterinarian Phone" max_length="40" name="vet_phone" type="string"/>
+    </element>
+</database>

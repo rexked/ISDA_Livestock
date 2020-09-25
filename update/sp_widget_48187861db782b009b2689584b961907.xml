@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope,$timeout, spModal) {
+  /* widget controller */
+  var c = this;
+	
+	console.log("shared from the other widgets: " + c.widget.options.shared);
+	console.log(c.widget.options.shared);
+	
+	c.submit = function(){
+		c.server.update().then(function(response){
+			c.data = {};
+			
+			
+			$timeout(function(){
+							 angular.element('[ng-click*="buttonClicked"]').triggerHandler('click');
+							 });									 
+ 
+		});
+		
+	}
+	angular.element('.modal-footer').css({display:'none'});
+}
+
+
+		]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>individual_bruc_test_draft</id>
+        <internal>false</internal>
+        <link/>
+        <name>Individual bruc test - Draft</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	if (!input)
+		return;
+
+	var gr = new GlideRecord('x_cria_livestock_t_lab_results_bruc_test');
+	//gs.info("log of the logs: " + gr.sys_class_name);
+	gr.initialize();
+	//gr.actual_sequence = "" + input.start_number;
+	gr.id = input.id;
+	gr.sex = input.sex;
+	gr.vaccination_tattoo = input.vac_tattoo;
+	gr.age = input.age;
+	gr.breed = input.breed;
+	gr.parent = $sp.getParameter("sys_id");
+	gr.tube_number = input.tube;
+	gr.remarks = input.remarks;
+	gr.alt_id = input.alt_id;
+	gr.insert();
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-26 21:19:04</sys_created_on>
+        <sys_id>48187861db782b009b2689584b961907</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Individual bruc test - Draft</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_widget_48187861db782b009b2689584b961907</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-26 21:30:55</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+  <div class="panel-body">
+
+    <div>
+
+      <div class="input-group2 col-sm-6">
+        <label>Vaccination Tattoo</label>
+        <input type="text" ng-model="c.data.vac_tattoo" class="form-control" aria-describedby="basic-addon2" tabindex="2">
+      </div>
+
+      <div class="input-group3 col-sm-6">
+        <label>Age (In Months)</label>
+        <input type="text" placeholder="In months" ng-model="c.data.age" class="form-control" aria-label="Age" tabindex="3">
+      </div>
+
+      <div class="form-group4 col-sm-6">
+        <label>Sex</label>
+        <select class="form-control col-sm-6" ng-model="c.data.sex" tabindex="4">
+          <option value="female" selected="Female" >Female</option>
+          <option value="male">Male</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="input-group2 col-sm-6 col-sm-6 clearfix visible-sm-block">
+    	<break></break>
+	  </div>
+	
+    <div>
+    	<div class="input-group2 clearfix visible-sm-block">
+      	<break></break>
+    	</div>
+
+    	<div class="input-group2 col-sm-6">
+      	<label>Breed</label>
+      	<input type="text" ng-model="c.data.breed" class="form-control" aria-describedby="basic-addon2" tabindex="5">
+    	</div>
+    </div>
+</div>
+
+  <div class="panel-footer col-sm-12">
+  
+    <div class="input-group2 col-sm-6">
+    	<label>Official Identification(id)</label>
+    	<input type="text" placeholder="82VAC1234" ng-model="c.data.id" class="form-control" aria-describedby="basic-addon2" tabindex="11">
+  	</div>
+  
+    <div class="input-group2 col-sm-6">
+    	<label>Alternate ID</label>
+    	<input type="text" placeholder="82VAC1234" ng-model="c.data.alt_id" class="form-control" aria-describedby="basic-addon2" tabindex="11">
+  	</div>
+  
+    <div class="input-group2 col-sm-6">
+    	<label>Tube #</label>
+    	<input type="text" ng-model="c.data.tube" class="form-control" aria-describedby="basic-addon2" tabindex="12">
+  	</div>
+  
+    <div class="input-group2 col-sm-6">
+    	<label>Remarks</label>
+    	<input type="text" ng-model="c.data.remarks" class="form-control" pattern="[0-9]*" aria-describedby="basic-addon2" tabindex="13">
+  	</div>
+</div>
+<!-----
+<script id="sp_form_field.xml" type="text/ng-template">
+
+
+</script>
+---->
+
+
+
+<footer>
+  <div class="submit-button">
+    <button type="submit" ng-click="c.submit()" class="btn btn-info btn-md btn-block" value="add" role="button" tabindex="14">Submit</button>
+  </div>
+</footer>
+</div>]]></template>
+    </sp_widget>
+</record_update>

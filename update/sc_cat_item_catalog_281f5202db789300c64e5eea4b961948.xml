@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_catalog">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Certificate of Veterinary Inspection">44fe96cedb389300c64e5eea4b9619e6</sc_cat_item>
+        <sc_cat_item display_value="Certificate of Veterinary Inspection - OLD">44fe96cedb389300c64e5eea4b9619e6</sc_cat_item>
         <sc_catalog display_value="ISDA Catalog">907d3946dbf49300c64e5eea4b9619a9</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>dmorden</sys_created_by>

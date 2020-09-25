@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cria_livestock_t_saleyard_release</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_cria_livestock_t_saleyard_release">draftCHANGESFROMtrue^EQ<item endquery="false" field="draft" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create xml attachments for email - Draft</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	//BEGIN XML Generation
+
+	// Generate PDF attachment
+	//var PDFrm = new sn_ws.RESTMessageV2();
+	//PDFrm.setHttpMethod('GET');
+	//var urlPDF = gs.getProperty("glide.servlet.uri") + 'x_cria_livestock_t_saleyard_release.do?PDF&sys_id=' + current.sys_id;
+	//PDFrm.setEndpoint(urlPDF);
+	//PDFrm.setBasicAuth(gs.getProperty('glide.user.userid'), gs.getProperty('glide.user.password'));
+	//PDFrm.saveResponseBodyAsAttachment(current.getTableName(), current.sys_id, "Idaho " + sanitizer(current.getDisplayValue('slyd_consignor_name')) + " " + current.signature_date + ".pdf");
+	//var PDFresponse = PDFrm.execute();
+	//BEGIN XML Generation
+	function sanitizer(str){
+		// remove everything forbidden by XML 1.0 specifications, plus the unicode replacement character U+FFFD
+		var regexSanitizer = new RegExp(/(?:\u0022|\u003C|\u003D|\u003E|"|<|>|=)/g);
+
+		// ensure we have a string
+		if (str != null || str != undefined || str != ''){
+			str = str.toString();
+			str = str.replace(regexSanitizer, '');
+		}
+
+		return str;
+	}
+	// Begin processing data standard XML version
+	var issuer = 'Idaho State Department of Agriculture';
+	var vetString;
+	// Collect vet information and populate the vetString portion of the XML
+	var vet = new GlideRecord('sys_user');
+	vet.addQuery('sys_id', current.u_veterinarian);
+	vet.query();
+	if(vet.next()){
+		var vphone = '';
+		var licNum = vet.x_cria_livestock_t_u_state_lic;
+		var natAcc = vet.x_cria_livestock_t_u_usda_accred;
+		var vfname = vet.first_name;
+		var vlname = vet.last_name;
+		if(vet.phone != null || vet.phone != undefined || vet.phone != ''){
+			vphone = vet.phone.replace(/\D/g, '').slice(-10);
+		}
+		var vemail = vet.email;
+		var vaddress = vet.street + ", " + vet.city + ", " + vet.state + " " + vet.zip;
+		var vname = vet.name;
+		vetString = '\n   	<Veterinarian LicenseState="' + issuer + '" LicenseNumber="' + licNum + '" NationalAccreditationNumber="' + natAcc + '">' +
+			'		<Person>' +
+			'			<NameParts>' +
+			'				<FirstName>' + vfname + '</FirstName>' +
+			'				<LastName>' + vlname + '</LastName>' +
+			'			</NameParts>' +
+			'			<!--<Name>' + vname + '</Name>-->' +
+			'			<Phone Number="' + vphone + '" Type="Unknown"/>' +
+			'			<Email Address="' + vemail + '"/>' +
+			'		</Person>' +
+			'		<Address>' +
+			'			<Line1>' + vet.street + '</Line1>' +
+			'			<Town>' + vet.city + '</Town>' +
+			'			<State>' + vet.state + '</State>' +
+			'			<ZIP>' + vet.zip + '</ZIP>' +
+			'       </Address>' +
+			'	</Veterinarian>';
+	}
+
+	// Collect consignor information and populate the consignorString portion of the XML
+	var consign_flname = '';
+	var consign_name = '';
+	var consign_fname_raw;
+	var consign_fname = '';
+	var consign_lname_raw;
+	var consign_lname = '';
+	var consign_phone = '';
+	var consign_address = '';
+	var consign_lat = '';
+	var consign_long = '';
+	var consign_coordstr = '			<!--<GeoPoint Latitude="" Longitude=""/>-->';
+	var consignorString = '';
+	var origin_nm_string = '';
+	consign_flname = sanitizer(current.slyd_consignor_name);
+	if(current.consignor_phone != null || current.consignor_phone != undefined || current.consignor_phone != ''){
+		consign_phone = current.consignor_phone.replace(/\D/g, '').slice(-10);
+	}
+	if (current.u_origin_address_different == true){
+		consign_address ='<Address>' +
+			'			<Line1>' + sanitizer(current.u_origin_address) + '</Line1>' +
+			'			<State>' + current.origin_state.getDisplayValue() + '</State>' +
+			'			<ZIP>' + sanitizer(current.u_origin_zip) + '</ZIP>' +
+			'		</Address>';
+	}
+	else{
+		consign_address = '		<Address>' +
+			'			<Line1>' + sanitizer(current.slyd_consignor_street) + '</Line1>' +
+			'			<Town>' + sanitizer(current.slyd_consignor_city) + '</Town>' +
+			'			<State>' + current.slyd_consignor_state.getDisplayValue() + '</State>' +
+			'			<ZIP>' + sanitizer(current.slyd_consignor_zip) + '</ZIP>' +
+			'       </Address>';
+	}
+	consignorString = '\n	<Consignor>' +
+		consign_address +
+		'		<Person>' +
+		'		<!--	<NameParts>' +
+		'				<BusinessName></BusinessName>' +
+		'				<FirstName></FirstName>' +
+		'				<MiddleName></MiddleName>' +
+		'				<LastName></LastName>' +
+		'				<OtherName></OtherName>' +
+		'			</NameParts> -->' +
+		'			<Name>' + consign_flname + '</Name>' +
+		'			<Phone Number="' + consign_phone + '" Comment="" Type="Unknown"/>' +
+		'		</Person>' +
+		'	</Consignor>';
+	origin_nm_string ='		<!--	<NameParts>' +
+		'				<BusinessName></BusinessName>' +
+		'				<FirstName></FirstName>' +
+		'				<MiddleName></MiddleName>' +
+		'				<LastName></LastName>' +
+		'				<OtherName></OtherName>' +
+		'			</NameParts> -->' +
+		'			<Name>' + consign_flname + '</Name>';
+
+	// Collect consignee information and and populate the consigneeString portion of the XML
+	var conee_flname = '';
+	var conee_name = '';
+	var conee_fname_raw;
+	var conee_fname = '';
+	var conee_lname_raw;
+	var conee_lname = '';
+	var conee_phone = '';
+	var conee_address = '';
+	var conee_lat = 0;
+	var conee_long = 0;
+	var conee_coordstr = '			<!--<GeoPoint Latitude="" Longitude=""/>-->';
+	var consigneeString = '';
+	var dest_nm_string = '';
+	conee_flname = sanitizer(current.slyd_consignee_name);
+	if(current.consignee_phone != null || current.consignee_phone != undefined || current.consignee_phone != ''){
+		conee_phone = current.consignee_phone.replace(/\D/g, '').slice(-10);
+	}
+	if (current.u_dest_address_different == true){
+		conee_address ='<Address>' +
+			'			<Line1>' + sanitizer(current.u_dest_address) + '</Line1>' +
+			'			<State>' + current.u_dest_state.getDisplayValue() + '</State>' +
+			'			<ZIP>' + sanitizer(current.u_destination_zip) + '</ZIP>' +
+			'		</Address>';
+	}
+	else{
+		conee_address = '<Address>' +
+			'			<Line1>' + sanitizer(current.slyd_consignee_street) + '</Line1>' +
+			'			<Line2></Line2>' +
+			'			<Town>' + sanitizer(current.slyd_consignee_city) + '</Town>' +
+			'			<County></County>' +
+			'			<State>' + current.slyd_consignee_state.getDisplayValue() + '</State>' +
+			'			<ZIP>' + sanitizer(current.slyd_consignee_zip) + '</ZIP>' +
+			'			<Country>USA</Country>' +
+			conee_coordstr +
+			'		</Address>';
+	}
+
+	consigneeString = '	<Consignee>' +
+		conee_address +
+		'		<Person>' +
+		'			<!-- <NameParts>' +
+		'				<BusinessName></BusinessName>' +
+		'				<FirstName></FirstName>' +
+		'				<MiddleName></MiddleName>' +
+		'				<LastName></LastName>' +
+		'				<OtherName></OtherName>' +
+		'			</NameParts> -->' +
+		'			<Name>' + conee_flname + '</Name>' +
+		'			<Phone Number="' + conee_phone + '" Comment="" Type="Unknown"/>' +
+		'		</Person>' +
+		'	</Consignee>';
+	dest_nm_string = '			<!-- <NameParts>' +
+		'				<BusinessName></BusinessName>' +
+		'				<FirstName></FirstName>' +
+		'				<MiddleName></MiddleName>' +
+		'				<LastName></LastName>' +
+		'				<OtherName></OtherName>' +
+		'			</NameParts> -->' +
+		'			<Name>' + conee_flname + '</Name>' ;
+
+
+	// Collect test type and disease info
+	var AccID = 1;
+	var i = 1;
+	var tbfree = 'Free';
+	var brucfree = 'Free';
+	var offID;
+	var sex;
+	var altID;
+	var aAge;
+	var breed;
+	var species;
+	var speciescd;
+	var specOther;
+	var animalString = '';
+	var testCd;
+	var testResult;
+	var testLab;
+	var testDate;
+	accString = '';
+	var testString = '';
+	trich_acc = '';
+	var gr = new GlideRecord('x_cria_livestock_t_batchfill_saleyard_release');
+	gr.addQuery('parent', current.sys_id);
+	gr.query();
+	while(gr.next()){
+		testString = '';
+		offID = sanitizer(gr.official_identification);
+		sex = gr.sex;
+		altID = sanitizer(gr.alternate_identification);
+		aAge = gr.age_in_months;
+		breed = sanitizer(gr.breed);
+		speciescd = gr.u_species;
+		species = gr.u_species.getDisplayValue();
+		specOther = sanitizer(gr.other_species);
+		var specstring = '';
+		if(speciescd == 'OTH'){
+			specstring = '        <SpeciesOther Code="OTH" Text="' + specOther + '"/>';
+		}
+		else{
+			specstring = '        <SpeciesCode Code="' + speciescd + '" Text="' + species + '"/>';
+		}
+		if(gr.u_slyd_brucellosis == 'Yes'){
+			testCd = 'Brucellosis';
+			testResult = gr.u_slyd_srvy_bruc_results;
+			testLab = gr.u_slyd_srvy_bruc_laboratory;
+			testDate = gr.u_slyd_srvy_bruc_date_bled;
+			if (accString == ''){
+				accString = '		<Accession InfieldTest="false" id="ID' + i + '">' + 
+					'			<Laboratory AccessionDate="' + testDate + '" AccessionNumber="Not Applicable">' + 
+					'				<LabName>' + testLab + '</LabName>' + 
+					'			</Laboratory>' + 
+					'		</Accession>';
+				testString = testString + 
+					'        <Test AccessionRef="ID' + i + '" TestCode="' + testCd + '">' + 
+					'            <Result ResultName="RESULT">' + 
+					'                <ResultString>' + testResult + '</ResultString>' + 
+					'            </Result>' + 
+					'        </Test>';
+			}
+			else{
+				accString = accString + 
+					'		<Accession InfieldTest="false" id="ID' + i + '">' + 
+					'			<Laboratory AccessionDate="' + testDate + '" AccessionNumber="Not Applicable">' + 
+					'				<LabName>' + testLab + '</LabName>' + 
+					'			</Laboratory>' + 
+					'		</Accession>';
+				testString = testString + 
+					'        <Test AccessionRef="ID' + i + '" TestCode="' + testCd + '">' + 
+					'            <Result ResultName="RESULT">' + 
+					'                <ResultString>' + testResult + '</ResultString>' + 
+					'            </Result>' + 
+					'        </Test>';
+			}
+			i++;
+
+		}
+
+		if(gr.u_slyd_trich == 'Yes'){
+			var test_type = [];
+			if(gr.bull_tested_negative_for_trich == 'No'){
+				testResult = 'positive';
+			}
+			else{
+				testResult = 'negative';
+			}
+			if(gr.u_slyd_trich_lab_culture == 'Yes'){
+				test_type.push('Culture');
+			}
+			if(gr.u_trich_lab_in_pcr == 'Yes'){
+				test_type.push('Individual PCR');
+			}
+			if(gr.trich_lab_pooled_pcr == 'Yes'){
+				test_type.push('Pooled PCR');
+			}
+			testCd = 'Trichomoniasis';
+			testLab = sanitizer(gr.u_slyd_srvy_trich_lab);
+			testDate = gr.u_slyd_srvy_trich_date_collected;
+			trich_acc = gr.trich_accession;
+
+			if (accString == ''){
+				accString = '		<Accession InfieldTest="false" id="ID' + i + '">' + 
+					'			<Laboratory AccessionDate="' + testDate + '" AccessionNumber="' + trich_acc + '">' + 
+					'				<LabName>' + testLab + '</LabName>' + 
+					'			</Laboratory>' + 
+					'		</Accession>';
+				testString = testString + 
+					'        <Test AccessionRef="ID' + i + '" TestCode="' + testCd + '">' + 
+					'            <Result ResultName="RESULT">' + 
+					'                <ResultString>' + testResult + '</ResultString>' + 
+					'            </Result>' + 
+					'        </Test>';
+			}
+			else{
+				accString = accString + 
+					'		<Accession InfieldTest="false" id="ID' + i + '">' + 
+					'			<Laboratory AccessionDate="' + testDate + '" AccessionNumber="' + trich_acc + '">' + 
+					'				<LabName>' + testLab + '</LabName>' + 
+					'			</Laboratory>' + 
+					'		</Accession>';
+				testString = testString + 
+					'        <Test AccessionRef="ID' + i + '" TestCode="' + testCd + '">' + 
+					'            <Result ResultName="RESULT">' + 
+					'                <ResultString>' + testResult + '</ResultString>' + 
+					'            </Result>' + 
+					'        </Test>';
+			}
+			i++;
+		}
+
+		if(gr.u_slyd_tb == 'Yes'){
+			testCd = 'Tuberculosis';
+			testResult = gr.u_slyd_srvy_tb_tested_negative;
+			testLab = '';
+			testDate = gr.u_slyd_srvy_tb_date_read;
+			if(gr.u_slyd_srvy_tb_tested_negative == 'No'){
+				testResult = 'positive';
+			}
+			else{
+				testResult = 'negative';
+			}
+			if (accString == ''){
+				accString = '		<Accession InfieldTest="true" id="ID' + i + '">' +
+					'			<Laboratory AccessionDate="' + testDate + '" AccessionNumber="Not Applicable">' +
+					'				<LabName></LabName>' +
+					'			</Laboratory>' +
+					'		</Accession>';
+				testString = testString + 
+					'        <Test AccessionRef="ID' + i + '" TestCode="' + testCd + '">' +
+					'            <Result ResultName="RESULT">' +
+					'                <ResultString>' + testResult + '</ResultString>' +
+					'            </Result>' +
+					'        </Test>';
+			}
+			else{
+				accString = accString + 
+					'		<Accession InfieldTest="true" id="ID' + i + '">' +
+					'			<Laboratory AccessionDate="' + testDate + '" AccessionNumber="Not Applicable">' +
+					'				<LabName>' + testLab + '</LabName>' +
+					'			</Laboratory>' +
+					'		</Accession>';
+				testString = testString + 
+					'        <Test AccessionRef="ID' + i + '" TestCode="' + testCd + '">' +
+					'            <Result ResultName="RESULT">' +
+					'                <ResultString>' + testResult + '</ResultString>' +
+					'            </Result>' +
+					'        </Test>';
+			}
+			i++;
+		}
+
+		if(gr.u_slyd_eia == 'Yes'){
+			eia_acc = gr.eia_accession;
+			testCd = 'Equine Infectious Anemia';
+			testLab = sanitizer(gr.u_slyd_srvy_eia_lab);
+			testDate = gr.u_slyd_srvy_eia_date_coggins_test;
+			if (accString == ''){
+				accString = '		<Accession InfieldTest="false" id="ID' + i + '">' + 
+					'			<Laboratory AccessionDate="' + testDate + '" AccessionNumber="' + eia_acc + '">' + 
+					'				<LabName>' + testLab + '</LabName>' + 
+					'			</Laboratory>' + 
+					'		</Accession>';
+				testString = testString + 
+					'        <Test AccessionRef="ID' + i + '" TestCode="' + testCd + '">' + 
+					'            <Result ResultName="RESULT">' + 
+					'                <ResultString></ResultString>' + 
+					'            </Result>' + 
+					'        </Test>';
+			}
+			else{
+				accString = accString + 
+					'		<Accession InfieldTest="false" id="ID' + i + '">' + 
+					'			<Laboratory AccessionDate="' + testDate + '" AccessionNumber="' + eia_acc + '">' + 
+					'				<LabName>' + testLab + '</LabName>' + 
+					'			</Laboratory>' + 
+					'		</Accession>';
+				testString = testString + 
+					'        <Test AccessionRef="ID' + i + '" TestCode="' + testCd + '">' + 
+					'            <Result ResultName="RESULT">' + 
+					'                <ResultString></ResultString>' + 
+					'            </Result>' + 
+					'        </Test>';
+			}
+			i++;
+
+		}
+
+		if(gr.u_slyd_srvy_other == 'Yes'){
+			testCd = sanitizer(gr.u_slyd_srvy_other_test);
+			testResult = sanitizer(gr.u_slyd_srvy_other_results);
+			testLab = sanitizer(gr.u_slyd_srvy_other_lab);
+			testDate = gr.u_other_test_date;
+			if (accString == ''){
+				accString = 	'		<Accession InfieldTest="false" id="ID' + i + '">' +
+					'			<Laboratory AccessionDate="' + testDate + '" AccessionNumber="Not Applicable">' +
+					'				<LabName>' + testLab + '</LabName>' +
+					'			</Laboratory>' +
+					'		</Accession>';
+				testString = testString + 
+					'        <Test AccessionRef="ID' + i + '" TestCode="' + testCd + '">' + 
+					'            <Result ResultName="RESULT">' + 
+					'                <ResultString>' + testResult + '</ResultString>' + 
+					'            </Result>' + 
+					'        </Test>';
+			}
+			else{
+				accString = accString + 
+					'		<Accession InfieldTest="false" id="ID' + i + '">' +
+					'			<Laboratory AccessionDate="' + testDate + '" AccessionNumber="Not Applicable">' +
+					'				<LabName>' + testLab + '</LabName>' +
+					'			</Laboratory>' +
+					'		</Accession>';
+				testString = testString + 
+					'        <Test AccessionRef="ID' + i + '" TestCode="' + testCd + '">' + 
+					'            <Result ResultName="RESULT">' + 
+					'                <ResultString>' + testResult + '</ResultString>' + 
+					'            </Result>' + 
+					'        </Test>';
+			}
+			i++;
+
+		}
+
+		var AidString = '';
+		var oid = sanitizer(gr.official_identification);
+		var altid = '';
+		var altIdArray = [];
+		var ttype = 'OTHER';
+		var regex = '';
+		var tagtype = gr.u_idtype.toString();
+		var result = false;
+		var EqName = '';
+		var insp_date = current.inspection_date;
+		if(current.inspection_date == ''){
+			insp_date = current.slyd_release_date;
+		}
+		switch(tagtype){
+			case 'AIN':
+				regex = new RegExp(/(840)\d{12}/);
+				result = regex.test(oid);
+				break;
+			case 'MfrRFID':
+				regex = new RegExp(/((9[0-8]\d)|(9\d[0-8])|(124)|(484))\d{12}/);
+				result = regex.test(oid);
+				break;
+			case 'NUES9':
+				regex = new RegExp(/(\d{2}|MD|MN|NM|NY|US|WY)[A-Z]{3}\d{4}/);
+				result = regex.test(oid);
+				break;
+			case 'NUES8':
+				regex = new RegExp(/\d{2}[A-Z]{2}\d{4}/);
+				result = regex.test(oid);
+				break;
+			case 'EquineDescription':
+				if (gr.alternate_identification != ''){
+					EqName = ' Name="' + gr.alternate_identification + '"';
+					AidString = '	         <EquineDescription' + EqName + ' Description="' + oid + '"/>';
+				}
+				else{
+					AidString = '	         <EquineDescription Description="' + oid + '"/>';
+				}
+				result = 'EQD';
+				break;
+			case 'OtherOfficialID':
+				if(oid == ''){
+					oid = altID;
+				}
+				if(gr.u_othtagtype != ''){
+					ttype = gr.u_othtagtype;
+				}
+				AidString = '	         <OtherOfficialID Type="' + ttype + '" Number="' + oid + '"/>';
+		}
+		if(result == 'EQD'){
+			AidString = '	         <EquineDescription' + EqName + ' Description="' + oid + '"/>';
+		}
+		if(result == false){
+			AidString = '	         <OtherOfficialID Type="' + ttype + '" Number="' + oid + '"/>';	
+		}
+		if(result == true){
+			AidString = '            <' + tagtype + ' Number="' + offID + '"/>';
+		}
+
+		if(gr.alternate_identification !== null && gr.alternate_identification != undefined && gr.alternate_identification != '' && tagtype != 'EquineDescription'){
+			var reg_AIN = new RegExp(/(840)\d{12}/);
+			var reg_MRF = new RegExp(/((9[0-8]\d)|(9\d[0-8])|(124)|(484))\d{12}/);
+			var reg_NU9 = new RegExp(/(\d{2}|MD|MN|NM|NY|US|WY)[A-Z]{3}\d{4}/);
+			var reg_NU8 = new RegExp(/\d{2}[A-Z]{2}\d{4}/);
+			altid = sanitizer(gr.alternate_identification.toUpperCase());
+			if(altid.indexOf(',') != -1){
+				altIdArray = altid.split(",");
+				gs.info('*****Alt ID array is: ' + altIdArray);
+			}
+			else if(altid.indexOf(';') != -1){
+				altIdArray = altid.split(";");
+				gs.info('*****Alt ID array is: ' + altIdArray);
+			}
+			if(altIdArray.length >= 0){
+				for (var ia = 0 ; ia <= altIdArray.length ; ia++){
+					if(altIdArray[ia] != null && altIdArray[ia] != undefined && altIdArray[ia] != ''){
+						gs.info('*****Regex test result for ' + altIdArray[ia] + ': ' + reg_NU9.test(altIdArray[ia]));
+						if(reg_AIN.test(altIdArray[ia]) == true){
+							AidString = AidString + '<AIN Number="' + altIdArray[ia].trim() + '"/>';
+						}
+						else if(reg_MRF.test(altIdArray[ia]) == true){
+							AidString = AidString + '<MfrRFID Number="' + altIdArray[ia].trim() + '"/>';
+						}
+						else if(reg_NU9.test(altIdArray[ia]) == true){
+							AidString = AidString + '<NUES9 Number="' + altIdArray[ia].trim() + '"/>';
+						}
+						else if(reg_NU8.test(altIdArray[ia]) == true){
+							AidString = AidString + '<NUES8 Number="' + altIdArray[ia].trim() + '"/>';
+						}
+						else{
+							AidString = AidString + '<ManagementID Number="' + altIdArray[ia].trim() + '"/>';
+						}
+					}
+				}
+			}
+			else{
+				if(reg_AIN.test(altid) == true){
+					AidString = AidString + '<AIN Number="' + altid + '"/>';
+				}
+				else if(reg_MRF.test(altid) == true){
+					AidString = AidString + '<MfrRFID Number="' + altid + '"/>';
+				}
+				else if(reg_NU9.test(altid) == true){
+					AidString = AidString + '<NUES9 Number="' + altid + '"/>';
+				}
+				else if(reg_NU8.test(altid) == true){
+					AidString = AidString + '<NUES8 Number="' + altid + '"/>';
+				}
+				else{
+					AidString = AidString + '<ManagementID Number="' + altid + '"/>';
+				}
+			}
+		}
+		if (animalString == ''){animalString=
+			'    <Animal Age="' + aAge + 'mo" Breed="' + breed + '" Sex="' + sex + '" SexDetail="" InspectionDate="' + current.inspection_date + '">' +
+			specstring +
+			'        <AnimalTags>' +
+			AidString +
+			'        </AnimalTags>' +
+			testString +
+			'    </Animal>';
+							   }
+		else{
+			animalString = animalString +
+				'    <Animal Age="' + aAge + 'mo" Breed="' + breed + '" Sex="' + sex + '" SexDetail="" InspectionDate="' + current.inspection_date + '">' +
+				specstring + 
+				'        <AnimalTags>' +
+				AidString +
+				'        </AnimalTags>' +
+				testString +
+				'    </Animal>';
+
+		}
+	}
+	// Compose the entire new XML string
+	var orig_string = '';
+	orig_string = '<Address>' +
+		'			<Line1>' + sanitizer(current.slyd_consignor_street) + '</Line1>' +
+		'			<Line2></Line2>' +
+		'			<Town>' + sanitizer(current.slyd_consignor_city) + '</Town>' +
+		'			<County>' + current.u_county.getDisplayValue() + '</County>' +
+		'			<State>' + current.slyd_consignor_state.getDisplayValue() + '</State>' +
+		'			<ZIP>' + sanitizer(current.slyd_consignor_zip) + '</ZIP>' +
+		'			<Country>USA</Country>' +
+		consign_coordstr +
+		'		</Address>';
+	var dest_string = '';
+	dest_string = '<Address>' +
+		'			<Line1>' + sanitizer(current.slyd_consignee_street) + '</Line1>' +
+		'			<Line2></Line2>' +
+		'			<Town>' + sanitizer(current.slyd_consignee_city) + '</Town>' +
+		'			<County></County>' +
+		'			<State>' + current.slyd_consignee_state.getDisplayValue() + '</State>' +
+		'			<ZIP>' + sanitizer(current.slyd_consignee_zip) + '</ZIP>' +
+		'			<Country>USA</Country>' +
+		conee_coordstr +
+		'		</Address>';
+	var premID = '				<!--<PremId></PremId>-->';
+	if(current.premise_id_number != ''){
+		premID = '		<PremId>' + sanitizer(current.premise_id_number) + '</PremId>';
+	}
+	var mddate = new GlideDateTime(current.sys_created_on);
+	var issdate = mddate.getDate();
+	var crdate = new GlideDateTime();
+	var expdate = crdate.getDate();
+	expdate.addYearsLocalTime(1);
+	var xmlString = '<?xml version="1.0" encoding="UTF-8"?>\n' +
+		'<eCVI xmlns="http://www.usaha.org/xmlns/ecvi2" ' +
+		'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ' +
+		' CviNumber="' + current.record_id + '" CviNumberIssuedBy="' + issuer + '" IssueDate="' + issdate + '" ExpirationDate="' + expdate + '" ShipmentDate="' + current.slyd_release_date + '" EntryPermitNumber="' + sanitizer(current.entry_permit_number) + '">' +
+		vetString +
+		'	<MovementPurposes><MovementPurpose>' + current.reason_for_release + '</MovementPurpose></MovementPurposes>' +
+		'	<Origin>' +
+		premID +
+		'		<PremName></PremName>' +
+		orig_string + 
+		'		<StateZoneOrAreaStatus>' +
+		'			<BrucellosisStateOrAreaStatus Status="' + brucfree + '"/>' +
+		'		</StateZoneOrAreaStatus>' +
+		'		<StateZoneOrAreaStatus>' +
+		'			<TuberculosisStateOrZoneStatus Status="' + tbfree + '"/>' +
+		'		</StateZoneOrAreaStatus>' +
+		'	<!--	<StateZoneOrAreaStatus>' +
+		'           <OtherStateOrZoneStatus Status=""/>' +
+		'		</StateZoneOrAreaStatus> -->' +
+		'		<Person>' +
+		origin_nm_string +
+		'				<Phone Number="' + current.consignor_phone.replace(/\D/g, '').slice(-10) + '" Comment="" Type="Unknown"/>' +
+		'		</Person>' +
+		'	</Origin>' +
+		'	<Destination>' +
+		'		<PremName></PremName>' +
+		dest_string +
+		'		<Person>' +
+		dest_nm_string +
+		'			<Phone Number="' + current.consignee_phone.replace(/\D/g, '').slice(-10) + '" Comment="" Type="Unknown"/>' +
+		'		</Person>' +
+		'	</Destination>' +
+		consignorString +
+		consigneeString +
+		'	<!--<Carrier>' +
+		'		<Person>' +
+		'<Name></Name>' +
+		'		</Person>' +
+		'	</Carrier>-->' +
+		//'	<TransportMode></TransportMode>' +
+		'	<Accessions>' +
+		accString +
+		'	</Accessions>' +
+		animalString +
+		'    <Statements></Statements>' +
+		'    <MiscAttribute Name="Remarks" Value="' + sanitizer(current.slyd_area_remarks) + '"/>' +
+		'    <!--<Binary ID="" MimeType="">' +
+		'        <Payload></Payload>' +
+		'    </Binary>-->' +
+		'</eCVI>';
+
+	
+	
+	// New XML attachment generator
+	var gsa = new GlideSysAttachment();
+	gsa.write(current, "Idaho XML Form " + sanitizer(current.getDisplayValue('slyd_consignor_name')) + " " + current.signature_date + ".xml", 'text/xml', xmlString);
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-10-29 22:23:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e68fe6211bf0c450984743fccd4bcb59</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Create xml attachments for email - Draft</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_e68fe6211bf0c450984743fccd4bcb59</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-06-14 08:28:11</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e68fe6211bf0c450984743fccd4bcb59"/>
+</record_update>

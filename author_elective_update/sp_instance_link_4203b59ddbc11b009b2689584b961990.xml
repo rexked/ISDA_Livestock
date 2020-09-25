@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <glyph>flask</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>6</order>
+        <roles/>
+        <sc_cat_item display_value="Cooperative State/Federal Tuberculosis Test Record">87302a64db81d700c64e5eea4b961936</sc_cat_item>
+        <sc_category/>
+        <short_description>Enter information relating to a Tuberculosis test</short_description>
+        <size>md</size>
+        <sp_column display_value="1">2d3c5ca0db1823009b2689584b961996</sp_column>
+        <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>dmorden</sys_created_by>
+        <sys_created_on>2018-03-23 21:02:46</sys_created_on>
+        <sys_id>4203b59ddbc11b009b2689584b961990</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Tuberculosis Test Form</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_instance_link_4203b59ddbc11b009b2689584b961990</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-12 22:15:50</sys_updated_on>
+        <title>Tuberculosis Test Form</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=4203b59ddbc11b009b2689584b961990"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sp_instance_link_4203b59ddbc11b009b2689584b961990</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;success&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;flask&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;6&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item display_value="Cooperative State/Federal Tuberculosis Test Record"&gt;87302a64db81d700c64e5eea4b961936&lt;/sc_cat_item&gt;&lt;sc_category/&gt;&lt;short_description&gt;Enter information relating to a Tuberculosis test&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;2d3c5ca0db1823009b2689584b961996&lt;/sp_column&gt;&lt;sp_page display_value="sc_cat_item"&gt;9f12251147132100ba13a5554ee490f4&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dmorden&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-03-23 21:02:46&lt;/sys_created_on&gt;&lt;sys_id&gt;4203b59ddbc11b009b2689584b961990&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Tuberculosis Test Form&lt;/sys_name&gt;&lt;sys_package display_value="Livestock Tracking" source="x_cria_livestock_t"&gt;7b1a2026dba09700df68f2b6ae96198c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Livestock Tracking"&gt;7b1a2026dba09700df68f2b6ae96198c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_4203b59ddbc11b009b2689584b961990&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dmorden@criadvantage.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-12 22:15:50&lt;/sys_updated_on&gt;&lt;title&gt;Tuberculosis Test Form&lt;/title&gt;&lt;type&gt;sc_cat_item&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4203b59ddbc11b009b2689584b961990"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1558884402</payload_hash>
+        <record_name>Tuberculosis Test Form</record_name>
+        <reverted_from/>
+        <source>d2a396c5dbad6300447b4b8b0b96199c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-11-01 21:30:18</sys_created_on>
+        <sys_id>23d3d209dbad6300447b4b8b0b96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>166d12f20d50000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-11-01 21:30:18</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>becef0c934ec27006cbe6098ff08d301</update_guid>
+        <update_guid_history>becef0c934ec27006cbe6098ff08d301:-1558884402,8bee6d1972642300598d5c1884c46a0c:1800995255,347c6d959c64230017b0be7f0ba31d5c:-1634885821,dc5c2d957d642300dbbe17f6edb3de15:-872004157,becef0c934ec27006cbe6098ff08d301:-1558884402,e5ceb0c9ddec2700980e73293ec4ec89:673563727,46c72c2864182300485926277a43f42c:-1558884402,3e4c9ca03b1823001818c1a93a219ed0:503634765,1a4c9ca0e61823005f64a7590e7ad0bb:1838332746,a54c9ca03d18230012b293d8595aeb87:-224186421,4c4c9ca0b51823005b235a8230e8ea3d:1838332746,a23c5ca0451823006bb6955e93641ad5:-224186421,baeb98a02f182300316ecb7f808adf25:2008261708,610b5c60f4182300af3d2d65df2c9a25:-1555776356,d0ba9860e1182300c82b7399db2cba97:1031056931,bbfd5d962d7a5700ae916961e3c704e2:0,72dbd912397a5700545d67891fb04a89:-720775585,34c3a0dedbb65700e73e17a4341db9a1:-1891925728,5deca1cb04a61b000ab8f40b9a2d2a51:-1555776356,6a43f59d60c11b003ea51ed5132274c7:-1891925728,0603b59da6c11b003331562d5389b692:-807024101</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 11/01/2018 03:31:50 PM">8634da09dbad6300447b4b8b0b96193a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-11-01 21:31:50</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>5a1e8ae9c6d24000a6e157f5d9000000</sys_id>
+        <sys_metadata>4203b59ddbc11b009b2689584b961990</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tuberculosis Test Form</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sp_instance_link_4203b59ddbc11b009b2689584b961990</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_4203b59ddbc11b009b2689584b961990">23d3d209dbad6300447b4b8b0b96190b</sys_update_version>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-11-01 21:31:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Batchfill Trich" max_length="40" name="x_cria_livestock_t_lab_results_trich" text_index="true" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Batchfill Trich" max_length="40" name="x_cria_livestock_t_lab_results_trich" sizeclass="397031" text_index="true" type="collection">
         <element label="Actual sequence" max_length="40" name="actual_sequence" type="string"/>
-        <element label="Age (In Months)" max_length="40" name="age" type="string"/>
-        <element label="Alternate ID" max_length="40" name="alternate_id" type="string"/>
+        <element label="Age (Months)" max_length="40" name="age" type="string"/>
+        <element label="Alt ID" max_length="40" name="alternate_id" type="string"/>
         <element label="Breed" max_length="40" name="breed" type="string"/>
-        <element label="Commited" max_length="10" name="commited" type="boolean"/>
-        <element choice="1" label="Culture Result" max_length="40" name="culture_result" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Commited" max_length="10" name="commited" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Culture Result" max_length="40" name="culture_result" type="choice">
             <choice>
-                <element label="Negative" sequence="10" value="negative"/>
-                <element label="Positive" sequence="20" value="positive"/>
+                <element inactive="true" inactive_on_update="true" label="-- None --" sequence="0" value="-- None --"/>
+                <element inactive_on_update="false" label="Negative" sequence="0" value="negative"/>
+                <element inactive_on_update="false" label="Positive" sequence="1" value="positive"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#10;&#9;&#9;var noZero = current.id.toString();&#10;&#9;// Add your code here&#10;&#9;return noZero;  // return the calculated value&#10;&#10;})(current);" label="Trich Tag Number" max_length="40" name="id" type="string" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#9;&#9;var noZero = current.id.toString();&#10;&#9;// Add your code here&#10;&#9;return noZero;  // return the calculated value&#10;&#10;})(current);" default="javascript: current.id.toString()" label="Trich Tag #" max_length="40" name="id" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Parent" max_length="32" name="parent" reference="x_cria_livestock_t_vaccinations_trichomoniasis" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Parent" max_length="32" name="parent" reference="x_cria_livestock_t_vaccinations_trichomoniasis" type="reference"/>
         <element label="PCR Result Pool" max_length="40" name="pcr_results_pool" type="string"/>
         <element label="PCR Result Individual" max_length="40" name="pcr_result_ind" type="string"/>
         <element label="Reading 1" max_length="40" name="reading_1" type="string"/>
@@ -23,20 +23,24 @@
         <element label="Reading 4" max_length="40" name="reading_4" type="string"/>
         <element label="Remarks" max_length="256" name="remarks" type="string"/>
         <element default="javascript: gs.getSessionID()" label="Session ID" max_length="40" name="session_id" read_only="true" type="string"/>
-        <element choice="1" default="male" label="Sex" max_length="40" name="sex" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="male" label="Sex" max_length="40" name="sex" type="choice">
             <choice>
-                <element label="Female" value="female"/>
-                <element label="Male" value="male"/>
+                <element inactive_on_update="false" label="Female" value="female"/>
+                <element inactive_on_update="false" label="Male" value="male"/>
+                <element inactive="true" inactive_on_update="true" label="B" sequence="0" value="B"/>
+                <element inactive_on_update="false" label="Bull" sequence="0" value="Bull"/>
+                <element inactive="true" inactive_on_update="true" label="M" sequence="0" value="M"/>
             </choice>
         </element>
-        <element choice="1" label="Final Test Interpetation" max_length="40" name="test_interp" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Final Test Interpetation" max_length="40" name="test_interp" type="choice">
             <choice>
-                <element label="Negative" value="neg"/>
-                <element label="Positive" value="pos"/>
+                <element inactive_on_update="false" label="Negative" value="neg"/>
+                <element inactive_on_update="false" label="Positive" value="pos"/>
             </choice>
         </element>
-        <element label="Tube Number" max_length="32" name="tube_number" type="string"/>
+        <element label="Tube #" max_length="32" name="tube_number" type="string"/>
         <element label="Unique Form ID" max_length="80" name="unique_form_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tag Only" max_length="40" name="u_tag_only" type="boolean"/>
         <index name="index">
             <element name="parent"/>
         </index>

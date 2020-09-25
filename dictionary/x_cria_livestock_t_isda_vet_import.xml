@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="sys_import_set_row" label="ISDA Vet Import" max_length="40" name="x_cria_livestock_t_isda_vet_import" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="ISDA Vet Import" max_length="40" name="x_cria_livestock_t_isda_vet_import" sizeclass="0" type="collection">
         <element attributes="import_attribute_name=Accred Cat I/II,edge_encryption_enabled=true" label="Accred Cat I/II" max_length="40" name="u_accred_cat_i_ii" type="string"/>
         <element attributes="import_attribute_name=Business Address,edge_encryption_enabled=true" label="Business Address" max_length="92" name="u_business_address" type="string"/>
         <element attributes="import_attribute_name=Business County,edge_encryption_enabled=true" label="Business County" max_length="40" name="u_business_county" type="string"/>
@@ -20,7 +19,7 @@
         <element attributes="import_attribute_name=Password,edge_encryption_enabled=true" label="Password" max_length="40" name="u_password" type="string"/>
         <element attributes="import_attribute_name=PW Reset,edge_encryption_enabled=true" label="PW Reset" max_length="40" name="u_pw_reset" type="string"/>
         <element attributes="import_attribute_name=Renewal Date" label="Renewal Date" max_length="40" name="u_renewal_date" type="glide_date"/>
-        <element attributes="import_attribute_name=Row Number" label="Row Number" max_length="40" name="u_row_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Row Number" label="Row Number" max_length="40" name="u_row_number" type="integer"/>
         <element attributes="import_attribute_name=State,edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
         <element attributes="import_attribute_name=Strret Address,edge_encryption_enabled=true" label="Strret Address" max_length="67" name="u_strret_address" type="string"/>
         <element attributes="import_attribute_name=User ID,edge_encryption_enabled=true" label="User ID" max_length="40" name="u_user_id" type="string"/>

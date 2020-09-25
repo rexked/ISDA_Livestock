@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_cria_livestock_t_saleyard_release" version="2" view="animals_shipped">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>slyd_release_date</element>
+            <list_id display_value="x_cria_livestock_t_saleyard_release" element="NULL" name="x_cria_livestock_t_saleyard_release" parent="NULL" relationship="NULL" sys_domain="global" view="1aeff6a1dbc5a340eb4e18df4b9619d1">24140fa5dbc5a340eb4e18df4b961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-09 17:46:28</sys_created_on>
+            <sys_id>a8140fa5dbc5a340eb4e18df4b961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-09 17:46:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>num_beef_cattle</element>
+            <list_id display_value="x_cria_livestock_t_saleyard_release" element="NULL" name="x_cria_livestock_t_saleyard_release" parent="NULL" relationship="NULL" sys_domain="global" view="1aeff6a1dbc5a340eb4e18df4b9619d1">24140fa5dbc5a340eb4e18df4b961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>true</sum>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-09 17:46:28</sys_created_on>
+            <sys_id>2c140fa5dbc5a340eb4e18df4b961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-09 17:46:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>num_dairy_cattle</element>
+            <list_id display_value="x_cria_livestock_t_saleyard_release" element="NULL" name="x_cria_livestock_t_saleyard_release" parent="NULL" relationship="NULL" sys_domain="global" view="1aeff6a1dbc5a340eb4e18df4b9619d1">24140fa5dbc5a340eb4e18df4b961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>true</sum>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-09 17:46:28</sys_created_on>
+            <sys_id>ac140fa5dbc5a340eb4e18df4b961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-09 17:46:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>num_goats</element>
+            <list_id display_value="x_cria_livestock_t_saleyard_release" element="NULL" name="x_cria_livestock_t_saleyard_release" parent="NULL" relationship="NULL" sys_domain="global" view="1aeff6a1dbc5a340eb4e18df4b9619d1">24140fa5dbc5a340eb4e18df4b961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>true</sum>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-09 17:46:28</sys_created_on>
+            <sys_id>20140fa5dbc5a340eb4e18df4b961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-09 17:46:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>num_horses</element>
+            <list_id display_value="x_cria_livestock_t_saleyard_release" element="NULL" name="x_cria_livestock_t_saleyard_release" parent="NULL" relationship="NULL" sys_domain="global" view="1aeff6a1dbc5a340eb4e18df4b9619d1">24140fa5dbc5a340eb4e18df4b961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>true</sum>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-09 17:46:28</sys_created_on>
+            <sys_id>a0140fa5dbc5a340eb4e18df4b961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-09 17:46:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>num_other</element>
+            <list_id display_value="x_cria_livestock_t_saleyard_release" element="NULL" name="x_cria_livestock_t_saleyard_release" parent="NULL" relationship="NULL" sys_domain="global" view="1aeff6a1dbc5a340eb4e18df4b9619d1">24140fa5dbc5a340eb4e18df4b961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>true</sum>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-09 17:46:28</sys_created_on>
+            <sys_id>24140fa5dbc5a340eb4e18df4b961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-09 17:46:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>num_poultry</element>
+            <list_id display_value="x_cria_livestock_t_saleyard_release" element="NULL" name="x_cria_livestock_t_saleyard_release" parent="NULL" relationship="NULL" sys_domain="global" view="1aeff6a1dbc5a340eb4e18df4b9619d1">24140fa5dbc5a340eb4e18df4b961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>true</sum>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-09 17:46:28</sys_created_on>
+            <sys_id>a4140fa5dbc5a340eb4e18df4b961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-09 17:46:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>num_sheep</element>
+            <list_id display_value="x_cria_livestock_t_saleyard_release" element="NULL" name="x_cria_livestock_t_saleyard_release" parent="NULL" relationship="NULL" sys_domain="global" view="1aeff6a1dbc5a340eb4e18df4b9619d1">24140fa5dbc5a340eb4e18df4b961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>true</sum>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-09 17:46:28</sys_created_on>
+            <sys_id>28140fa5dbc5a340eb4e18df4b961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-09 17:46:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>num_swine</element>
+            <list_id display_value="x_cria_livestock_t_saleyard_release" element="NULL" name="x_cria_livestock_t_saleyard_release" parent="NULL" relationship="NULL" sys_domain="global" view="1aeff6a1dbc5a340eb4e18df4b9619d1">24140fa5dbc5a340eb4e18df4b961990</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>true</sum>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-09 17:46:28</sys_created_on>
+            <sys_id>a8140fa5dbc5a340eb4e18df4b961991</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-09 17:46:28</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_cria_livestock_t_saleyard_release</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-09 17:46:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24140fa5dbc5a340eb4e18df4b961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cria_livestock_t_saleyard_release</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_list_x_cria_livestock_t_saleyard_release_animals_shipped</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-09 17:46:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Animals Shipped" name="animals_shipped">1aeff6a1dbc5a340eb4e18df4b9619d1</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

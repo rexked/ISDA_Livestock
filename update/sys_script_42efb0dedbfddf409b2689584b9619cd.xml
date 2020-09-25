@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_script">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
     <sys_script action="INSERT_OR_UPDATE">
         <abort_action>false</abort_action>
         <access>package_private</access>
@@ -53,12 +52,13 @@
 		gr.parent_ritm = current.sys_id;
 		gr.u_veterinarian = current.variables.livestock_vet;
 		gr.u_herd_owner_info = current.variables.livestock_owner_address + '\n' + current.variables.livestock_owner_city + ", " + current.variables.livestock_owner_state.getDisplayValue() + " " + current.variables.livestock_owner_zip;
-		gr.name_herd_owner = current.variables.livestock_owner.getDisplayValue();
+		gr.name_herd_owner = current.variables.livestock_owner;
 		gr.herd_owner_name  = current.variables.livestock_owner;
 		gr.herd_owner_street = current.variables.livestock_owner_address;
 		gr.herd_owner_city = current.variables.livestock_owner_city;
 		gr.herd_owner_state = current.variables.livestock_owner_state;
 		gr.herd_owner_zip = current.variables.livestock_owner_zip;
+		gr.herd_loc = current.variables.trich_herdLoc;
 		gr.u_phone_number = current.variables.livestock_owner_phone;
 		gr.premise_id_number = current.variables.premises_id_number;
 		gr.u_county = current.variables.county;
@@ -72,6 +72,7 @@
 		gr.reason_other = current.variables.reason_other;
 		gr.u_type_of_test = current.variables.type_of_test;
 		gr.dsa_herd = current.variables.dsa_herd;
+		gr.draft = current.variables.draft;
 		if(current.variables.complete_test_of_animals == "Yes"){
 			gr.bruc_comptest = true;
 		}else{
@@ -146,6 +147,7 @@
 		gr.forest_service = current.variables.forest;
 		gr.state_lands = current.variables.state;
 		gr.private_lands = current.variables.private_lands;
+		gr.draft = current.variables.draft;
 		gr.vet_cert_date = current.variables.vet_cert_date;
 		gr.record_id = recordID.generateID(recordID_type[4] );
 		gs.addInfoMessage("Your record ID is: " + gr.record_id);
@@ -183,6 +185,7 @@
 		gr.vet_cert_date = current.variables.vet_cert_date;
 		gr.herd_owner = current.variables.livestock_owner.getDisplayValue() + '\n' + current.variables.livestock_owner_address + '\n' + current.variables.livestock_owner_city + ", " + current.variables.livestock_owner_state.getDisplayValue() + " " + current.variables.livestock_owner_zip;
 		gr.premise_id_number = current.variables.prem_id;
+		gr.herd_loc = current.variables.trich_herdLoc;
 		gr.u_county = current.variables.county;
 		gr.test_type = current.variables.tub_test_type.getDisplayValue();
 		gr.num_of_animals_tested = current.variables.num_animals_tested;
@@ -243,20 +246,63 @@
 		gr.initialize();
 		gr.setWorkflow(true);
 		gr.parent_ritm = current.sys_id;
-		gr.consigner = current.variables.name_of_consignor + '\n' + current.variables.consignor_physical_address + '\n' + current.variables.consignor_city+ ", " + current.variables.consignor_state.getDisplayValue() + " " + current.variables.consignor_zip;
-		gr.consignor_name = current.variables.name_of_consignor;
-		gr.consignor_street = current.variables.consignor_physical_address;
-		gr.consignor_city = current.variables.consignor_city;
-		gr.consignor_state = current.variables.consignor_state;
-		gr.consignor_zip = current.variables.consignor_zip;
-		gr.consignor_phone = current.variables.consignor_phone_number;
-		gr.consignee = current.variables.name_of_consignee + '\n' + current.variables.consignee_physical_address + '\n' + current.variables.consignee_city + ", " + current.variables.consignee_state.getDisplayValue() + " " + current.variables.consignee_zip;
-		gr.consignee_name = current.variables.name_of_consignee;
-		gr.conisgnee_street = current.variables.consignee_physical_address;
-		gr.consignee_city = current.variables.consignee_city;
-		gr.consignee_state = current.variables.consignee_state;
-		gr.consignee_zip = current.variables.consignee_zip;
-		gr.consignee_phone = current.variables.consignee_phone_number;
+		//gs.info("*********** The new consignor box says ... "+current.variables.new_consignor);
+		if(current.variables.new_consignor == 'true'){
+			gr.consigner = current.variables.new_consignor_name + '\n' + current.variables.consignor_physical_address + '\n' + current.variables.consignor_city+ ", " + current.variables.consignor_state.getDisplayValue() + " " + current.variables.consignor_zip;
+			gr.consignor_name = current.variables.new_consignor_name;
+			gr.consignor_street = current.variables.consignor_physical_address;
+			gr.consignor_city = current.variables.consignor_city;
+			gr.consignor_state = current.variables.consignor_state;
+			gr.consignor_zip = current.variables.consignor_zip;
+			gr.consignor_phone = current.variables.consignor_phone_number;
+			var gemp = new GlideRecord('x_cria_livestock_t_frequent_destinations');
+			gemp.initialize();
+			gemp.setValue('name', current.variables.new_consignor_name);
+			gemp.setValue('street', current.variables.consignor_physical_address);
+			gemp.setValue('city', current.variables.consignor_city);
+			gemp.setValue('state', current.variables.consignor_state.getDisplayValue());
+			gemp.setValue('zip', current.variables.consignor_zip);
+			gemp.setValue('phone', current.variables.consignor_phone_number);
+			gemp.setValue('u_county', current.variables.origin_county);
+			gemp.setValue('assoc_vet', gs.getUserID());
+			gemp.insert();
+		}else{
+			gr.consigner = current.variables.name_of_consignor.getDisplayValue() + '\n' + current.variables.consignor_physical_address + '\n' + current.variables.consignor_city+ ", " + current.variables.consignor_state.getDisplayValue() + " " + current.variables.consignor_zip;
+			gr.consignor_name = current.variables.name_of_consignor.getDisplayValue();
+			gr.consignor_street = current.variables.consignor_physical_address;
+			gr.consignor_city = current.variables.consignor_city;
+			gr.consignor_state = current.variables.consignor_state;
+			gr.consignor_zip = current.variables.consignor_zip;
+			gr.consignor_phone = current.variables.consignor_phone_number;
+		}
+		//gs.info("***************** The new consignee box says ... "+current.variables.new_consignee);
+		if(current.variables.new_consignee == 'true'){
+			gr.consignee = current.variables.new_consignee_name + '\n' + current.variables.consignee_physical_address + '\n' + current.variables.consignee_city + ", " + current.variables.consignee_state.getDisplayValue() + " " + current.variables.consignee_zip;
+			gr.consignee_name = current.variables.new_consignee_name;
+			gr.conisgnee_street = current.variables.consignee_physical_address;
+			gr.consignee_city = current.variables.consignee_city;
+			gr.consignee_state = current.variables.consignee_state;
+			gr.consignee_zip = current.variables.consignee_zip;
+			gr.consignee_phone = current.variables.consignee_phone_number;
+			var gee = new GlideRecord('x_cria_livestock_t_frequent_destinations');
+			gee.initialize();
+			gee.setValue('name', current.variables.new_consignee_name);
+			gee.setValue('street', current.variables.consignee_physical_address);
+			gee.setValue('city', current.variables.consignee_city);
+			gee.setValue('state', current.variables.consignee_state.getDisplayValue());
+			gee.setValue('zip', current.variables.consignee_zip);
+			gee.setValue('phone', current.variables.consignee_phone_number);
+			gee.setValue('assoc_vet', gs.getUserID());
+			gee.insert();
+		}else{
+			gr.consignee = current.variables.name_of_consignee.getDisplayValue() + '\n' + current.variables.consignee_physical_address + '\n' + current.variables.consignee_city + ", " + current.variables.consignee_state.getDisplayValue() + " " + current.variables.consignee_zip;
+			gr.consignee_name = current.variables.name_of_consignee.getDisplayValue();
+			gr.conisgnee_street = current.variables.consignee_physical_address;
+			gr.consignee_city = current.variables.consignee_city;
+			gr.consignee_state = current.variables.consignee_state;
+			gr.consignee_zip = current.variables.consignee_zip;
+			gr.consignee_phone = current.variables.consignee_phone_number;
+		}
 		gr.market = current.variables.market_option;
 		gr.origin_county = current.variables.origin_county;
 		gr.health_certificate_number = current.variables.health_certificate_number;
@@ -443,7 +489,7 @@
 		gr.vacc_expire_date = current.variables.expire_date;
 		gr.vacc_date = current.variables.date_of_vacc;
 		gr.date_of_vaccination = current.variables.date_of_vacc;
-		gr.record_id = recordID.generateID(recordID_type[5] );
+		//gr.record_id = recordID.generateID(recordID_type[5] );
 		gs.addInfoMessage("Your record ID is: " + gr.record_id);
 		gr.insert();
 
@@ -475,11 +521,68 @@
 		gr = new GlideRecord('x_cria_livestock_t_saleyard_release');
 		gr.initialize();
 		gr.u_saleyard = current.variables.saleyard;
-		gr.u_consignor = current.variables.consignor_name + '\n' + current.variables.consignor_physical_address + '\n' + current.variables.consignor_city+ ", " + current.variables.consignor_state.getDisplayValue() + " " + current.variables.consignor_zip;
+		//gs.info("*********** The new consignor box says ... "+current.variables.new_consignor);
+		if(current.variables.new_consignor == 'true'){
+			gr.u_consignor = current.variables.new_consignor_name + '\n' + current.variables.consignor_physical_address + '\n' + current.variables.consignor_city+ ", " + current.variables.consignor_state.getDisplayValue() + " " + current.variables.consignor_zip;
+			gr.slyd_consignor_name = current.variables.new_consignor_name;
+			gr.slyd_consignor_street = current.variables.consignor_physical_address;
+			gr.slyd_consignor_city = current.variables.consignor_city;
+			gr.slyd_consignor_state = current.variables.consignor_state;
+			gr.slyd_consignor_zip = current.variables.consignor_zip;
+			gr.consignor_phone = current.variables.consignor_phone_number;
+			var gemp = new GlideRecord('x_cria_livestock_t_frequent_destinations');
+			gemp.initialize();
+			gemp.setValue('name', current.variables.new_consignor_name);
+			gemp.setValue('street', current.variables.consignor_physical_address);
+			gemp.setValue('city', current.variables.consignor_city);
+			gemp.setValue('state', current.variables.consignor_state.getDisplayValue());
+			gemp.setValue('zip', current.variables.consignor_zip);
+			gemp.setValue('phone', current.variables.consignor_phone_number);
+			gemp.setValue('u_county', current.variables.origin_county);
+			gemp.setValue('assoc_vet', gs.getUserID());
+			gemp.insert();
+		}else{
+			gr.u_consignor = current.variables.name_of_consignor.getDisplayValue() + '\n' + current.variables.consignor_physical_address + '\n' + current.variables.consignor_city+ ", " + current.variables.consignor_state.getDisplayValue() + " " + current.variables.consignor_zip;
+			gr.slyd_consignor_name = current.variables.name_of_consignor.getDisplayValue();
+			gr.slyd_consignor_street = current.variables.consignor_physical_address;
+			gr.slyd_consignor_city = current.variables.consignor_city;
+			gr.slyd_consignor_state = current.variables.consignor_state;
+			gr.slyd_consignor_zip = current.variables.consignor_zip;
+			gr.consignor_phone = current.variables.consignor_phone_number;
+		}
+		//gs.info("***************** The new consignee box says ... "+current.variables.new_consignee);
+		if(current.variables.new_consignee == 'true'){
+			gr.u_consignee = current.variables.new_consignee_name + '\n' + current.variables.consignee_physical_address + '\n' + current.variables.consignee_city + ", " + current.variables.consignee_state.getDisplayValue() + " " + current.variables.consignee_zip;
+			gr.slyd_consignee_name = current.variables.new_consignee_name;
+			gr.slyd_consignee_street = current.variables.consignee_physical_address;
+			gr.slyd_consignee_city = current.variables.consignee_city;
+			gr.slyd_consignee_state = current.variables.consignee_state;
+			gr.slyd_consignee_zip = current.variables.consignee_zip;
+			gr.consignee_phone = current.variables.consignee_phone_number;
+			var gee = new GlideRecord('x_cria_livestock_t_frequent_destinations');
+			gee.initialize();
+			gee.setValue('name', current.variables.new_consignee_name);
+			gee.setValue('street', current.variables.consignee_physical_address);
+			gee.setValue('city', current.variables.consignee_city);
+			gee.setValue('state', current.variables.consignee_state.getDisplayValue());
+			gee.setValue('zip', current.variables.consignee_zip);
+			gee.setValue('phone', current.variables.consignee_phone_number);
+			gee.setValue('assoc_vet', gs.getUserID());
+			gee.insert();
+		}else{
+			gr.u_consignee = current.variables.name_of_consignee.getDisplayValue() + '\n' + current.variables.consignee_physical_address + '\n' + current.variables.consignee_city + ", " + current.variables.consignee_state.getDisplayValue() + " " + current.variables.consignee_zip;
+			gr.slyd_consignee_name = current.variables.name_of_consignee.getDisplayValue();
+			gr.slyd_consignee_street = current.variables.consignee_physical_address;
+			gr.slyd_consignee_city = current.variables.consignee_city;
+			gr.slyd_consignee_state = current.variables.consignee_state;
+			gr.slyd_consignee_zip = current.variables.consignee_zip;
+			gr.consignee_phone = current.variables.consignee_phone_number;
+		}
+		/*gr.u_consignor = current.variables.name_of_consignor + '\n' + current.variables.consignor_physical_address + '\n' + current.variables.consignor_city+ ", " + current.variables.consignor_state.getDisplayValue() + " " + current.variables.consignor_zip;
 		gr.consignor_phone = current.variables.consignor_phone_number;
 		gr.u_consignee = current.variables.name_of_consignee.getDisplayValue() + '\n' + current.variables.consignee_physical_address + '\n' + current.variables.consignee_city + ", " + current.variables.consignee_state.getDisplayValue() + " " + current.variables.consignee_zip;
 		gr.consignee_phone = current.variables.consignee_phone_number;
-		gr.u_county = current.variables.origin_county;
+		gr.u_county = current.variables.origin_county;*/
 		gr.u_saleyard_release_number = current.variables.saleyard_release_num;
 		gr.entry_permit_number = current.variables.slyd_entry_permit;
 		gr.brand_inspection = current.variables.slyd_brand_insp;
@@ -493,7 +596,7 @@
 		gr.vaccination_status = current.variables.vaccination_status;
 		gr.identifying_marks = current.variables.horse_identifying_marks;
 		gr.record_id = current.variables.sale_yard_cert_id;
-		gr.slyd_consignor_name = current.variables.consignor_name;
+		/*gr.slyd_consignor_name = current.variables.name_of_consignor;
 		gr.slyd_consignor_street = current.variables.consignor_physical_address;
 		gr.slyd_consignor_city = current.variables.consignor_city;
 		gr.slyd_consignor_state = current.variables.consignor_state;
@@ -502,7 +605,7 @@
 		gr.slyd_consignee_street = current.variables.consignee_physical_address;
 		gr.slyd_consignee_city = current.variables.consignee_city;
 		gr.slyd_consignee_state = current.variables.consignee_state;
-		gr.slyd_consignee_zip = current.variables.consignee_zip;
+		gr.slyd_consignee_zip = current.variables.consignee_zip;*/
 		gr.slyd_release_date = current.variables.saleyard_date;
 		gr.slyd_cattle = current.variables.species_check_cattle;
 		gr.slyd_goats = current.variables.species_check_goat;
@@ -577,7 +680,7 @@ gr.update();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42efb0dedbfddf409b2689584b9619cd</sys_id>
-        <sys_mod_count>263</sys_mod_count>
+        <sys_mod_count>283</sys_mod_count>
         <sys_name>Livestock Data Transform</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
@@ -585,7 +688,7 @@ gr.update();
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_script_42efb0dedbfddf409b2689584b9619cd</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-25 17:07:32</sys_updated_on>
+        <sys_updated_on>2018-10-01 20:36:46</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Individual Animal Entry" section_id="1fe33f85dbb837009b2689584b96196e" sys_domain="1070930cdb33e300c64e5eea4b961918" table="x_cria_livestock_t_batchfill_import_cvi" version="3" view="default">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>official_identification</element>
+            <position>0</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-03 17:35:08</sys_created_on>
+            <sys_id>45426779db7d73009b2689584b9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-03 17:35:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alt_id</element>
+            <position>1</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-03 17:35:08</sys_created_on>
+            <sys_id>49426779db7d73009b2689584b9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-03 17:35:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>breed</element>
+            <position>2</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-03 17:35:08</sys_created_on>
+            <sys_id>c9426779db7d73009b2689584b9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-03 17:35:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-03 17:35:08</sys_created_on>
+            <sys_id>4d426779db7d73009b2689584b9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-03 17:35:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sex</element>
+            <position>4</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-03 17:35:08</sys_created_on>
+            <sys_id>cd426779db7d73009b2689584b9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-03 17:35:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>age</element>
+            <position>5</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-03 17:35:08</sys_created_on>
+            <sys_id>4142a779db7d73009b2689584b961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-03 17:35:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>species</element>
+            <position>6</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-03 17:35:08</sys_created_on>
+            <sys_id>c142a779db7d73009b2689584b961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-03 17:35:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_species</element>
+            <position>7</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-03 17:35:08</sys_created_on>
+            <sys_id>4542a779db7d73009b2689584b961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-03 17:35:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Individual Animal Entry</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_batchfill_import_cvi</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-12 17:54:03</sys_created_on>
+            <sys_domain>1070930cdb33e300c64e5eea4b961918</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/</sys_domain_path>
+            <sys_id>1fe33f85dbb837009b2689584b96196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Individual Animal Entry</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_1fe33f85dbb837009b2689584b96196e</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-12 17:54:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default" name="default">30174876cb811200aa871831794c9cc4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_ui_section_1fe33f85dbb837009b2689584b96196e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Individual Animal Entry" section_id="1fe33f85dbb837009b2689584b96196e" sys_domain="1070930cdb33e300c64e5eea4b961918" table="x_cria_livestock_t_batchfill_import_cvi" version="3" view="default"><sys_ui_element action="INSERT_OR_UPDATE"><element>official_identification</element><position>0</position><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-06-03 17:35:08</sys_created_on><sys_id>45426779db7d73009b2689584b9619ff</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-03 17:35:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>alt_id</element><position>1</position><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-06-03 17:35:08</sys_created_on><sys_id>49426779db7d73009b2689584b9619ff</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-03 17:35:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>breed</element><position>2</position><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-06-03 17:35:08</sys_created_on><sys_id>c9426779db7d73009b2689584b9619ff</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-03 17:35:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-06-03 17:35:08</sys_created_on><sys_id>4d426779db7d73009b2689584b9619ff</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-03 17:35:08</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sex</element><position>4</position><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-06-03 17:35:08</sys_created_on><sys_id>cd426779db7d73009b2689584b9619ff</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-03 17:35:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>age</element><position>5</position><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-06-03 17:35:08</sys_created_on><sys_id>4142a779db7d73009b2689584b961900</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-03 17:35:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>species</element><position>6</position><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-06-03 17:35:08</sys_created_on><sys_id>c142a779db7d73009b2689584b961900</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-03 17:35:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>other_species</element><position>7</position><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-06-03 17:35:08</sys_created_on><sys_id>4542a779db7d73009b2689584b961900</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Individual Animal Entry" display_value="Individual Animal Entry" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="30174876cb811200aa871831794c9cc4">1fe33f85dbb837009b2689584b96196e</sys_ui_section><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-03 17:35:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Individual Animal Entry</caption><header>false</header><name>x_cria_livestock_t_batchfill_import_cvi</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2019-04-12 17:54:03</sys_created_on><sys_domain>1070930cdb33e300c64e5eea4b961918</sys_domain><sys_domain_path>!!!/!!#/!!*/</sys_domain_path><sys_id>1fe33f85dbb837009b2689584b96196e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Individual Animal Entry</sys_name><sys_overrides/><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_ui_section_1fe33f85dbb837009b2689584b96196e</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2019-04-12 17:54:03</sys_updated_on><sys_user/><title>false</title><view display_value="Default" name="default">30174876cb811200aa871831794c9cc4</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-558723446</payload_hash>
+        <record_name>Batchfill Import CVI</record_name>
+        <reverted_from/>
+        <source>a415a093db52b700086c89584b9619c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-02 16:12:44</sys_created_on>
+        <sys_id>4d85e017db52b700086c89584b96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bb375b77c0000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-02 16:12:44</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>1d42a7799c7d730042ad55a906bca902</update_guid>
+        <update_guid_history>1d42a7799c7d730042ad55a906bca902:-558723446,964c9bb1d97d730042ee4e5dd90f1879:-558723446</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-02 16:14:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>5f783517fb934fce9e800ce46ca23479</sys_id>
+        <sys_metadata>1fe33f85dbb837009b2689584b96196e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Individual Animal Entry</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent display_value="Batchfill Import CVI">fe49522bdb4037409b2689584b961934</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_ui_section_1fe33f85dbb837009b2689584b96196e</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_1fe33f85dbb837009b2689584b96196e">4d85e017db52b700086c89584b96198a</sys_update_version>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-02 16:14:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

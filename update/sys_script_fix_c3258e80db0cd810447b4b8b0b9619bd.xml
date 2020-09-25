@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Delete contents PAPER cvis</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[doit('x_cria_livestock_t_paper_cvi');
+
+
+//for example doit("cmdb_ci");
+
+
+
+function doit(table) {
+
+
+  var gr = new GlideRecord(table);
+
+
+  gr.query();
+
+
+  gr.deleteMultiple();
+
+
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>Imckirdy</sys_created_by>
+        <sys_created_on>2020-04-03 16:51:46</sys_created_on>
+        <sys_id>c3258e80db0cd810447b4b8b0b9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete contents PAPER cvis</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_fix_c3258e80db0cd810447b4b8b0b9619bd</sys_update_name>
+        <sys_updated_by>Imckirdy</sys_updated_by>
+        <sys_updated_on>2020-04-03 16:51:46</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

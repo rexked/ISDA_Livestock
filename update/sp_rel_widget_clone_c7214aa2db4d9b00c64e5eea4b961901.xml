@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_rel_widget_clone">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
     <sp_rel_widget_clone action="INSERT_OR_UPDATE">
         <child display_value="Copy of Data Table from Instance Definit">c7214222db4d9b00c64e5eea4b961959</child>
         <cloned>2018-03-27 19:16:57</cloned>

@@ -1,22 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Vaccination Records" max_length="40" name="x_cria_livestock_t_vaccination_record" text_index="true" type="collection">
-        <element label="Date of Vaccination" max_length="40" name="date_of_vaccination" type="glide_date"/>
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Vaccination Records" max_length="40" name="x_cria_livestock_t_vaccination_record" sizeclass="45722" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date of Vaccination" max_length="40" name="date_of_vaccination" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Dosage" max_length="40" name="dosage" type="string">
             <choice>
-                <element label="Full" sequence="0" value="Full"/>
-                <element label="Reduced" sequence="1" value="Reduced"/>
+                <element inactive_on_update="false" label="Full" sequence="0" value="Full"/>
+                <element inactive_on_update="false" label="Reduced" sequence="1" value="Reduced"/>
             </choice>
         </element>
         <element label="Herd Owner Info" max_length="256" name="herd_owner" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Herd Type" max_length="40" name="herd_type" type="string">
             <choice>
-                <element label="Cattle" sequence="10" value="cattle"/>
-                <element label="Elk" sequence="20" value="elk"/>
-                <element label="Goats" sequence="30" value="goats"/>
-                <element label="Bison" sequence="40" value="Bison"/>
-                <element label="Deer" sequence="50" value="deer"/>
-                <element label="Other" sequence="60" value="other"/>
+                <element inactive_on_update="false" label="Cattle" sequence="10" value="cattle"/>
+                <element inactive_on_update="false" label="Elk" sequence="20" value="elk"/>
+                <element inactive_on_update="false" label="Goats" sequence="30" value="goats"/>
+                <element inactive_on_update="false" label="Bison" sequence="40" value="Bison"/>
+                <element inactive_on_update="false" label="Deer" sequence="50" value="deer"/>
+                <element inactive_on_update="false" label="Other" sequence="60" value="other"/>
             </choice>
         </element>
         <element label="Lab Result Table" max_length="80" name="lab_result_table" type="string"/>

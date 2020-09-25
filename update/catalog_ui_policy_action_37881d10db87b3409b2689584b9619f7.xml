@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Saleyard Release Form">8d7a6d07db9c63009b2689584b9619d4</catalog_item>
+        <catalog_variable>IO:6770f10bdb9c63009b2689584b9619fd</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-30 19:01:41</sys_created_on>
+        <sys_id>37881d10db87b3409b2689584b9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_county</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_37881d10db87b3409b2689584b9619f7</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-30 19:01:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Draft removes requirement from fields">fab9a286db34ef00c64e5eea4b9619ca</ui_policy>
+        <variable>u_county</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

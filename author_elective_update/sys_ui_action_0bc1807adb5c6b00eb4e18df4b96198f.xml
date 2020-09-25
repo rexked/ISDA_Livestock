@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>View Printable Document</action_name>
+        <active>true</active>
+        <client>true</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>View Printable Document</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var url = 'https://criadvantage.service-now.com/isda?sys_id=' + current.sys_id + '&view=sp&id=isda_bruc_test_printable_form&table=x_cria_livestock_t_vaccinations_brucellosis_test';
+var win = window.open(url, '_blank');
+//win.focus();
+window.open(url, '_blank');]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-05 18:08:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0bc1807adb5c6b00eb4e18df4b96198f</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>View Printable Document</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_ui_action_0bc1807adb5c6b00eb4e18df4b96198f</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-05 18:28:25</sys_updated_on>
+        <table>x_cria_livestock_t_vaccinations_brucellosis_test</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_ui_action_0bc1807adb5c6b00eb4e18df4b96198f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;View Printable Document&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_context_menu&gt;true&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;View Printable Document&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var url = 'https://criadvantage.service-now.com/isda?sys_id=' + current.sys_id + '&amp;view=sp&amp;id=isda_bruc_test_printable_form&amp;table=x_cria_livestock_t_vaccinations_brucellosis_test';
+var win = window.open(url, '_blank');
+//win.focus();
+window.open(url, '_blank');]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dmorden@criadvantage.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-09-05 18:08:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0bc1807adb5c6b00eb4e18df4b96198f&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;View Printable Document&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Livestock Tracking" source="x_cria_livestock_t"&gt;7b1a2026dba09700df68f2b6ae96198c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Livestock Tracking"&gt;7b1a2026dba09700df68f2b6ae96198c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_0bc1807adb5c6b00eb4e18df4b96198f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dmorden@criadvantage.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-09-05 18:28:25&lt;/sys_updated_on&gt;&lt;table&gt;x_cria_livestock_t_vaccinations_brucellosis_test&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;true&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1189974337</payload_hash>
+        <record_name>View Printable Document</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-05 18:28:25</sys_created_on>
+        <sys_id>1f97407edb5c6b00eb4e18df4b9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>165aafe1d460000001</sys_recorded_at>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-05 18:28:25</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>d397407e2f5c6b00422c3cc493f20ec6</update_guid>
+        <update_guid_history>d397407e2f5c6b00422c3cc493f20ec6:1189974337,6467843e785c6b00823be56894745ff7:2082282445,56e6c43e615c6b0096645b473d623412:1271953320,ff66043e9f5c6b00d73a9bdf7774746c:365174316,bd3608ba305c6b009ceaca7ec9e1c437:290069548,dfc588faa35c6b00520f3974f706145d:-558349769,e1d440baf85c6b008563664718026968:1496577809,b6648cba075c6b0058a23638cb46017d:-1938364032,a53488ba0d5c6b0073f4559e1b5c51dc:1938807327,fd2488ba425c6b00cd52f51a04097ad8:234316269,dc1404bad95c6b00bdf2a600ba084133:720426762,1fc304bac05c6b005e550116bef13810:652112206,af234c7abd5c6b0017e0ab81aa12d99d:-2100044528,7703c47a455c6b00249292ea847015b8:647300156</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-05 18:29:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>1456e038b78a449ba224e9ca11c970e9</sys_id>
+        <sys_metadata>0bc1807adb5c6b00eb4e18df4b96198f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Printable Document</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent display_value="Brucellosis Test">6a7ab49adbfddf409b2689584b961962</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_ui_action_0bc1807adb5c6b00eb4e18df4b96198f</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_0bc1807adb5c6b00eb4e18df4b96198f">1f97407edb5c6b00eb4e18df4b9619c6</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-05 18:29:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

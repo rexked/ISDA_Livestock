@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Brucellosis Market Cattle Testing Form">c1d0e409dbac2700c64e5eea4b961924</catalog_item>
+        <catalog_variable>IO:fa5ae84ddbac2700c64e5eea4b961913</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-14 19:30:24</sys_created_on>
+        <sys_id>b41ca6e5dbe0a700c64e5eea4b9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dsa_herd</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b41ca6e5dbe0a700c64e5eea4b9619d7</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-14 19:30:24</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Remove mandatory flags from fields for draft">55bae6a5dbe0a700c64e5eea4b9619ff</ui_policy>
+        <variable>dsa_herd</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_cria_livestock_t_in_scope" label="In Scope" language="en" table="idea">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_cria_livestock_t_in_scope</element>
+            <help/>
+            <hint/>
+            <label>In Scope</label>
+            <language>en</language>
+            <name>idea</name>
+            <plural>In Scopes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-10 21:55:45</sys_created_on>
+            <sys_id>b78e0ecfdb7ecc10eb4e18df4b961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>In Scope</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_idea_x_cria_livestock_t_in_scope_en</sys_update_name>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-10 21:55:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

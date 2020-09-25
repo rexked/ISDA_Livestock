@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope,$timeout, spModal) {
+  /* widget controller */
+  var c = this;
+	
+	$scope.isEnter=function(evt){
+		var tagName = evt.target.tagName.toLowerCase();
+		if(evt.keyCode==13){
+			if(tagName == 'textarea'){
+		//		console.log("Event cancelable is: " + evt.cancelable);
+				stopEvent(evt);
+				return false;
+			}
+			else{
+					c.submit()
+			}
+		}
+	}
+	
+	c.submit = function(){
+		c.data.submit = true;
+		c.server.update().then(function(response){
+			c.data = {};
+			
+			
+			$timeout(function(){
+							 angular.element('[ng-click*="buttonClicked"]').triggerHandler('click');
+							 });									 
+ 
+		});
+		
+	}
+	angular.element('.modal-footer').css({display:'none'});
+}
+
+
+		]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>Batchfill Bruc Test - Draft</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+
+	/* e.g., data.table = $sp.getValue('table'); */
+
+	if (!input){
+		data.sex = "female";
+
+		return;
+	}
+	var submit = false;
+	var idlist = '';
+	var idarray = [];
+  var nonSeq = 'false';
+	var m = input.start_number;
+	var d = '';
+	var y = '';
+	var ns = '';
+	var len = ''
+  if (input.nonSeq != true){
+	m = input.start_number;
+	len = m.length;
+	
+	if (m.match(/^0+/)){
+		y = m.match(/^0+/);
+		d = m.substring(y[0].length);
+	}else{
+		d = m;
+	}
+
+	if(/^0*$/.test(y[0])) {
+
+		for(i = 0; i < len ; i++){
+			ns += '0'; 
+		}
+	}
+	}
+  if(input.idlist != '' && input.idlist != null && input.idlist !== undefined){
+		if(input.idlist.indexOf(",") != -1){
+		idarray = input.idlist.split(",");
+		}
+		else if(input.idlist.indexOf(";") != -1){
+		idarray = input.idlist.split(";");
+		}
+		else if(input.idlist.indexOf('\n') != -1){
+			idarray = input.idlist.split('\n');
+		}
+		else if(input.idlist.indexOf('\r') != -1){
+			idarray = input.idlist.split('\r');
+		}
+		else{
+			return;
+		}
+	}
+	
+	
+	if(input.nonSeq != true){
+	for (i = 0 ; i < input.record_amount ; i++){
+		var gr = new GlideRecord('x_cria_livestock_t_lab_results_bruc_test');
+		gr.initialize();
+		//gr.actual_sequence = "" + input.start_number;
+		if(i == 0){
+			result = ns.substring(d.length) + d;
+			gr.id = input.prefix + result;
+			//console.log(result)
+			d++;
+		}else{
+			d = d+'';
+			result = ns.substring(d.length) + d;
+			gr.id = input.prefix + result;
+
+			d++;
+			//console.log(result)
+		}
+
+		gr.sex = input.sex;
+		gr.vaccination_tattoo = input.vac_tattoo;
+		//gr.rap = input.rap;
+		//gr.bapa = input.bapa;
+		gr.age = input.age;
+		gr.breed = input.breed;
+		//gr.fpa = input.fpa;
+		//gr.cf = input.cf;
+		//gr.other = input.other;
+		//	gr.test_interp = input.test_interp;
+		//gr.remarks = input.remarks;
+		//gr.reactor_tag = input.reactor_tag;
+		gr.parent = $sp.getParameter("sys_id");
+		gr.insert();
+		//input.start_number++;
+
+	}
+	}
+	else{
+	for (i = 0 ; i <= idarray.length ; i++){
+		if(idarray[i] != '' && idarray[i] != null && idarray[i] != undefined){
+		var gb = new GlideRecord('x_cria_livestock_t_lab_results_bruc_test');
+		gb.initialize();
+		//gr.actual_sequence = "" + input.start_number;
+		gb.id = idarray[i].trim();
+		gb.sex = input.sex;
+		gb.vaccination_tattoo = input.vac_tattoo;
+		//gr.rap = input.rap;
+		//gr.bapa = input.bapa;
+		gb.age = input.age;
+		gb.breed = input.breed;
+		//gr.fpa = input.fpa;
+		//gr.cf = input.cf;
+		//gr.other = input.other;
+		//	gr.test_interp = input.test_interp;
+		//gr.remarks = input.remarks;
+		//gr.reactor_tag = input.reactor_tag;
+		gb.parent = $sp.getParameter("sys_id");
+		gb.insert();
+		//input.start_number++;
+
+	}
+	}
+	}
+	
+})();
+/*
+	for (i = 0 ; i < input.record_amount ; i++){
+		var gr = new GlideRecord('x_cria_livestock_t_lab_results_bruc_test');
+		gs.info("log of the logs: " + gr.sys_class_name);
+		gr.initialize();
+		//gr.actual_sequence = "" + input.start_number;
+		if(i == 0){
+			result = ns.substring(d.length) + d;
+			gr.id = input.prefix + result;
+			//console.log(result)
+			d++;
+		}else{
+			d = d+'';
+			result = ns.substring(d.length) + d;
+			gr.id = input.prefix + result;
+
+			d++;
+			//console.log(result)
+		}
+		gr.sex = input.sex;
+		gr.vaccination_tattoo = input.vac_tattoo;
+		gr.age = input.age;
+		gr.breed = input.breed;
+		gr.parent = $sp.getParameter("sys_id");
+		gr.insert();
+		input.start_number++;
+
+	}
+
+})();
+*/]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-26 17:48:41</sys_created_on>
+        <sys_id>1ee700e5dbf42b009b2689584b9619f3</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Batchfill Bruc Test - Draft</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_widget_1ee700e5dbf42b009b2689584b9619f3</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-11-02 07:03:58</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default" ng-keypress="isEnter($event)">
+  <div class="panel-body">
+    <div>
+      <div class="input-group2 col-sm-6" tabindex="1">
+        <label>Vaccination Tattoo</label>
+        <input type="text" ng-model="c.data.vac_tattoo" class="form-control" aria-describedby="basic-addon2" tabindex="1">
+      </div>
+
+      <div class="input-group3 col-sm-6" >
+        <label>Age</label>
+        <input type="text" placeholder="In months" ng-model="c.data.age" class="form-control" aria-label="Age" tabindex="3"  >
+      </div>
+
+      <div class="input-group2 col-sm-6">
+        <label>Breed</label>
+        <input type="text" ng-model="c.data.breed" class="form-control"  aria-describedby="basic-addon2"  tabindex="2">
+      </div>
+
+      <div class="form-group4 col-sm-6" >
+        <label>Sex</label>
+        <select class="form-control" id="inlineFormCustomSelect" ng-model="c.data.sex" tabindex="4">	
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+      </div>
+
+    </div>
+  </div>
+  <div class="panel-footer col-sm-12">
+    <div class="checkbox">
+      <label style="line-height: 3"><input type="checkbox" ng-model="c.data.nonSeq" class="form-control" aria-describedby="basic-addon2" tabindex="15" style="line-height: 3">Animals are in non-sequential order
+        <div class="toggle-button"></div>
+      </label>
+    </div>
+    <div ng-if="c.data.nonSeq == true">
+      <div class="col-lg-12">
+        <label>Please list the animal IDs below, separated by a comma or semi-colon</label>
+        <textarea class="span6" rows="3" ng-model="c.data.idlist" class="form-control" aria-describedby="basic-addon2" tabindex="14">
+        </textarea>
+      </div>
+    </div>
+    <div ng-if="c.data.nonSeq != true">
+      <div class="input-group2 col-sm-6">
+        <label>ID Prefix</label>
+        <input type="text" placeholder="82VAC" ng-model="c.data.prefix" class="form-control" aria-describedby="basic-addon2" tabindex="5">
+      </div>
+      <div class="input-group2 col-sm-6">
+        <label>How many Records</label>
+        <input type="text" ng-model="c.data.record_amount" class="form-control" aria-describedby="basic-addon2" tabindex="7">
+      </div>
+      <div class="input-group2 col-sm-6">
+        <label>Start From</label>
+        <input type="text" ng-model="c.data.start_number" class="form-control" aria-describedby="basic-addon2" tabindex="6" pattern="[0-9]*">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <footer>
+    <div ng-if="c.data.submit != true" class="submit-button">
+      <button type="submit" ng-click="c.submit()" class="btn btn-info btn-md btn-block" value="add" role="button" tabindex="14">Submit</button>
+    </div>
+    <div ng-if="c.data.submit == true" align="center" style="color: red;">
+      <button type="button" class="btn btn-info btn-md btn-block disabled" value="add" role="button" tabindex="41">Please Wait...</button>
+    </div>
+  </footer>
+</div>]]></template>
+    </sp_widget>
+</record_update>

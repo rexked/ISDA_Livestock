@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="mark_as" table="x_cria_livestock_t_lab_results_bruc" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mark_as</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retag</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>10</sequence>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-11 21:18:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9bca39fdb51d3409b2689584b9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-11 21:18:08</sys_updated_on>
+            <value>retag</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mark_as</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Natural Addition</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>20</sequence>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-11 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99cce39fdb51d3409b2689584b96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-11 21:18:23</sys_updated_on>
+            <value>natural addition</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mark_as</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Purchased Addition</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>30</sequence>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-11 21:18:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cdce39fdb51d3409b2689584b961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-11 21:18:41</sys_updated_on>
+            <value>purchased addition</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>mark_as</element>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-11 21:18:08</sys_created_on>
+            <sys_id>90cca39fdb51d3409b2689584b9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>mark_as</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_bruc_mark_as</sys_update_name>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-11 21:18:08</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_lab_results_bruc_mark_as</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="mark_as" table="x_cria_livestock_t_lab_results_bruc" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mark_as</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retag</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>10</sequence>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-11 21:18:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9bca39fdb51d3409b2689584b9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-11 21:18:08</sys_updated_on>
+            <value>retag</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mark_as</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Natural Addition</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>20</sequence>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-11 21:18:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99cce39fdb51d3409b2689584b96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-11 21:18:23</sys_updated_on>
+            <value>natural addition</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mark_as</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Purchased Addition</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>30</sequence>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-11 21:18:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cdce39fdb51d3409b2689584b961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-11 21:18:41</sys_updated_on>
+            <value>purchased addition</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>mark_as</element>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-04-11 21:18:08</sys_created_on>
+            <sys_id>90cca39fdb51d3409b2689584b9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>mark_as</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_bruc_mark_as</sys_update_name>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-04-11 21:18:08</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>1016058608</payload_hash>
+        <record_name>Batchfill Bruc.Mark As</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:54:44</sys_created_on>
+        <sys_id>b40edd96db7a570066015d104b96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1642457b3160000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:54:44</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>f00edd96ee7a5700c2eb385f80a1ab4f</update_guid>
+        <update_guid_history>f00edd96ee7a5700c2eb385f80a1ab4f:0,a3ab11129f7a5700f815d6ee76c7e74a:-18017736,67ab11126b7a5700dfbe76d9c518bb47:348429765,afab11121d7a570057d32ef23fc18644:-769276529,dcec279f1651d340dea82bef37fd5f1d:-1693937318,4cdcef5fc351d3401a559b6e1e760191:1902496583,50cca39f9851d340814a46e020188ddf:858486087</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cervin</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>700edd96db7a570066015d104b96194c</sys_id>
+        <sys_metadata>700edd96db7a570066015d104b96194c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mark_as</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_bruc_mark_as</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_lab_results_bruc_mark_as">b40edd96db7a570066015d104b96194f</sys_update_version>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

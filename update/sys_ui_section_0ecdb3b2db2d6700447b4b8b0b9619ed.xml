@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0ecdb3b2db2d6700447b4b8b0b9619ed" sys_domain="global" table="x_cria_livestock_t_frequent_destinations" version="3" view="isda">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>0ecdb3b2db2d6700447b4b8b0b9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>1</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>06cdb3b2db2d6700447b4b8b0b9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>2</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>86cdb3b2db2d6700447b4b8b0b9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>0acdb3b2db2d6700447b4b8b0b9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>4</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>8acdb3b2db2d6700447b4b8b0b9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_county</element>
+            <position>5</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>0ecdb3b2db2d6700447b4b8b0b9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>8ecdb3b2db2d6700447b4b8b0b9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact</element>
+            <position>7</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>02cdb3b2db2d6700447b4b8b0b9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>8</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>82cdb3b2db2d6700447b4b8b0b9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fax_phone</element>
+            <position>9</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>06cdb3b2db2d6700447b4b8b0b9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>10</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>86cdb3b2db2d6700447b4b8b0b9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>latitude</element>
+            <position>11</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>0acdb3b2db2d6700447b4b8b0b9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>longitude</element>
+            <position>12</position>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_id>8acdb3b2db2d6700447b4b8b0b9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_frequent_destinations" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">0ecdb3b2db2d6700447b4b8b0b9619ed</sys_ui_section>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_cria_livestock_t_frequent_destinations</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dlawrence</sys_created_by>
+            <sys_created_on>2018-11-07 15:42:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ecdb3b2db2d6700447b4b8b0b9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cria_livestock_t_frequent_destinations</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_0ecdb3b2db2d6700447b4b8b0b9619ed</sys_update_name>
+            <sys_updated_by>dlawrence</sys_updated_by>
+            <sys_updated_on>2018-11-07 15:42:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="ISDA" name="isda">b83926c6db789300c64e5eea4b961912</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="dsa_herd" table="x_cria_livestock_t_vaccinations_market_cattle" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dsa_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_market_cattle</name>
+            <sequence/>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 17:19:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2685eeedb931300c64e5eea4b96193e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 17:19:52</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dsa_herd</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_market_cattle</name>
+            <sequence/>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 17:19:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8689eeedb931300c64e5eea4b961906</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 17:19:47</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>dsa_herd</element>
+            <name>x_cria_livestock_t_vaccinations_market_cattle</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-07-17 17:19:45</sys_created_on>
+            <sys_id>0e685eeedb931300c64e5eea4b961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>dsa_herd</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_market_cattle_dsa_herd</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-17 17:19:45</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_vaccinations_market_cattle_dsa_herd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="dsa_herd" table="x_cria_livestock_t_vaccinations_market_cattle" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>dsa_herd</element><hint/><inactive>false</inactive><label>No</label><language>en</language><name>x_cria_livestock_t_vaccinations_market_cattle</name><sequence/><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-07-17 17:19:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d2685eeedb931300c64e5eea4b96193e</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-07-17 17:19:52</sys_updated_on><value>No</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>dsa_herd</element><hint/><inactive>false</inactive><label>Yes</label><language>en</language><name>x_cria_livestock_t_vaccinations_market_cattle</name><sequence/><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-07-17 17:19:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f8689eeedb931300c64e5eea4b961906</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-07-17 17:19:47</sys_updated_on><value>Yes</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>dsa_herd</element><name>x_cria_livestock_t_vaccinations_market_cattle</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-07-17 17:19:45</sys_created_on><sys_id>0e685eeedb931300c64e5eea4b961936</sys_id><sys_mod_count>0</sys_mod_count><sys_name>dsa_herd</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_market_cattle_dsa_herd</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-07-17 17:19:45</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1901775442</payload_hash>
+        <record_name>Brucellosis Market Cattle Testing. Is this a Designated Surveillance Area (DSA) Herd?</record_name>
+        <reverted_from/>
+        <source>d5f78f66db9b974066015d104b96193b</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-07-17 20:47:32</sys_created_on>
+        <sys_id>b9f7cf66db9b974066015d104b961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>164a9ff83de0000001</sys_recorded_at>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-07-17 20:47:32</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>b3685eeef6931300f917f5d2b9d91f06</update_guid>
+        <update_guid_history>b3685eeef6931300f917f5d2b9d91f06:1901775442,6f689eee039313002648da4f84566778:-360352244,a668daeee993130071d5100472c6eff5:507113225,4e685eeead931300cc2576a26d5be537:1220110595</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>f9f7cf66db9b974066015d104b961992</sys_id>
+        <sys_metadata>f9f7cf66db9b974066015d104b961992</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dsa_herd</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_market_cattle_dsa_herd</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_vaccinations_market_cattle_dsa_herd">b9f7cf66db9b974066015d104b961994</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

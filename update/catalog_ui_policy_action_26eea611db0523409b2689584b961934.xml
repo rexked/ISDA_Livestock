@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Certificate of Veterinary Inspection">295f584edbb69f00c64e5eea4b961991</catalog_item>
+        <catalog_variable>IO:e556c584db496f009b2689584b961973</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-08 21:35:33</sys_created_on>
+        <sys_id>26eea611db0523409b2689584b961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>identifying_marks</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_26eea611db0523409b2689584b961934</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-08 21:35:33</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show/Hide Horse Identifying Marks">964ee29ddbc123409b2689584b961939</ui_policy>
+        <variable>identifying_marks</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

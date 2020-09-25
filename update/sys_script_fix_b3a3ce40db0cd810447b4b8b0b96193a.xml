@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description>Do not use in production</description>
+        <flush_cache>false</flush_cache>
+        <name>Add Vet name script</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[gs.info("Debug");
+var count = 0;
+var inner_count = 0;
+var veterinarian;
+var certificate_number;
+var remainder;
+var vets_name;
+var stay_in_loop;
+var gr = new GlideRecord('x_cria_livestock_t_paper_cvi');
+
+
+
+
+gr.addQuery('veterinarian', 'JENNIFER WILSON');
+
+gr.query();
+while (gr.next()) 
+{
+		
+   count = count + 1;
+   
+
+   //remainder = (count % 1000);
+   //if (remainder == 0)
+   //{
+     // Multiple of 1000
+     //gs.info('count = ' + count);
+   //}
+   
+   // Get the VET name for this record
+   veterinarian = gr.veterinarian;
+   // Get its Cert number
+   certificate_number = gr.certificate_number;
+   
+   gs.info('veterinarian = ' + veterinarian + ' certificate_number = ' + certificate_number +  ' count = ' + count);
+   
+   // Record has a VET name
+   if (veterinarian != '')
+   {
+      // Find a record with a Vet name
+      gs.info('Found another record with VET name ' + veterinarian);            
+      
+       
+      // If certificate number not empty
+      if ( certificate_number != '')
+      {
+
+         // Find a record with a Vet name
+         gs.info('Found another record with a cert number ' + certificate_number);  
+          inner_count = 0;
+          // Loop on cert number and assign VET name to all certs with no VET name
+          var gr_inner = new GlideRecord('x_cria_livestock_t_paper_cvi');
+          gr_inner.addQuery('certificate_number', certificate_number);
+          gr_inner.query();
+          while (gr_inner.next()) 
+          {
+             gs.info('Loop with a cert number ' + certificate_number); 
+             inner_count = inner_count + 1;
+             
+             if (gr_inner.veterinarian == '')
+             {
+                 gs.info('Assigning VET name = ' + veterinarian + 'to cert number = ' + certificate_number + ' ID = ' + gr_inner.id);
+                 // Set the VETS name to the records
+                 //gr_inner.veterinarian = veterinarian;
+                  //gr_inner.update();
+            
+             }
+           } // end while
+           gs.info('inner_count = ' + inner_count);
+        }   
+   }
+}	]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>Imckirdy</sys_created_by>
+        <sys_created_on>2020-04-03 16:47:04</sys_created_on>
+        <sys_id>b3a3ce40db0cd810447b4b8b0b96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Vet name script</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_fix_b3a3ce40db0cd810447b4b8b0b96193a</sys_update_name>
+        <sys_updated_by>Imckirdy</sys_updated_by>
+        <sys_updated_on>2020-04-03 16:47:04</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

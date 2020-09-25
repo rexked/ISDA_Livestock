@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="laboratory" table="x_cria_livestock_t_vaccinations_cvi" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>laboratory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ISDA Animal Health Lab</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence>10</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:30:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27461069dba217009b2689584b96199f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 15:50:16</sys_updated_on>
+            <value>isda_animal_lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>laboratory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Washington Animal Disease Diagnostic Lab</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence>20</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:30:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be56586ddba217009b2689584b9619f4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 15:50:21</sys_updated_on>
+            <value>wa_ani_dis_diag_lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>laboratory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utah Veterinary Diagnostic Lab</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence>30</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:31:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8576586ddba217009b2689584b961929</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 15:50:27</sys_updated_on>
+            <value>ut_vet_diag_lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>laboratory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Montana Veterinary Diagnostic Lab</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence>40</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:31:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0886186ddba217009b2689584b961948</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 15:50:32</sys_updated_on>
+            <value>montana_vet_diag_lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>laboratory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wyoming State Veterinary Laboratory</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence>50</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:31:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9896d0addba217009b2689584b9619fa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 15:50:36</sys_updated_on>
+            <value>wy_state_vet_lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>laboratory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence>60</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:31:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>baa6586ddba217009b2689584b96192a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 15:50:39</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>laboratory</element>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:30:31</sys_created_on>
+            <sys_id>3e56946ddba217009b2689584b96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>laboratory</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_cvi_laboratory</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-06 22:30:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_vaccinations_cvi_laboratory</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="laboratory" table="x_cria_livestock_t_vaccinations_cvi" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>laboratory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ISDA Animal Health Lab</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence>10</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:30:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27461069dba217009b2689584b96199f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 15:50:16</sys_updated_on>
+            <value>isda_animal_lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>laboratory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Washington Animal Disease Diagnostic Lab</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence>20</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:30:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be56586ddba217009b2689584b9619f4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 15:50:21</sys_updated_on>
+            <value>wa_ani_dis_diag_lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>laboratory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utah Veterinary Diagnostic Lab</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence>30</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:31:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8576586ddba217009b2689584b961929</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 15:50:27</sys_updated_on>
+            <value>ut_vet_diag_lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>laboratory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Montana Veterinary Diagnostic Lab</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence>40</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:31:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0886186ddba217009b2689584b961948</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 15:50:32</sys_updated_on>
+            <value>montana_vet_diag_lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>laboratory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wyoming State Veterinary Laboratory</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence>50</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:31:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9896d0addba217009b2689584b9619fa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 15:50:36</sys_updated_on>
+            <value>wy_state_vet_lab</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>laboratory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence>60</sequence>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:31:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>baa6586ddba217009b2689584b96192a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-07 15:50:39</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>laboratory</element>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-06-06 22:30:31</sys_created_on>
+            <sys_id>3e56946ddba217009b2689584b96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>laboratory</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_cvi_laboratory</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-06-06 22:30:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>-604377308</payload_hash>
+        <record_name>CVI / Health Certificate.Laboratory</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:54:46</sys_created_on>
+        <sys_id>550e11d6db7a570066015d104b961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1642457ba890000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:54:46</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>910e11d6707a5700540057e117746f60</update_guid>
+        <update_guid_history>910e11d6707a5700540057e117746f60:0,9d63641e9cb657008ccef55c8489b022:1335307383,5d63641e30b6570001b6b15a9c2e8c1f:1083912896,9563641e40b65700bb6dd78ba2451d1d:1183461139,9d63641ee6b65700f50cea486584311a:-1936897289,5563641e7fb657005b0c41bf3bac0318:590641577,d963641e9db65700d7b08b9c8de1e915:343064932,47640c758eaa170007f3e037cc5b4a75:-1901913680,16640c75b8aa1700114d3b63ecc735f5:905916937,dd6444756eaa1700ec18154ffafdddda:-1281088431,50640c7539aa1700d9450260a9038a6f:-1927624994,3e540c7553aa1700a859f70e1286cc30:-292315338,a1540875e0aa17003ed8773fe59016c0:-1568095067,2cf618ad7ba217005803ee88f7867fba:1179717707,2fe6d0ad28a217005949af0ee8b48dfe:-1182148920,c9e618ad32a21700be21ef377c5f6255:854944237,0fd610adb5a21700110840ea2043f901:-774588502,74d65c69b0a217000861908209169aa7:6574060,e3a6d0ad2ba217007f5df9f569997635:1214592339,36a654adb1a21700d16f344d7c694194:-1532747240,d09654ada6a21700d10f457397e61c47:515771938,b376586df1a217009ab0064ac1b9a4f8:363335910,8d7614ad8fa21700090b9ec1301ede65:-1903980306,0566546ddaa21700a99a69a018bc2c9f:-241801655,7e56946de8a217000e075da880d89930:547762942</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cervin@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>190e11d6db7a570066015d104b96195a</sys_id>
+        <sys_metadata>190e11d6db7a570066015d104b96195a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>laboratory</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_cvi_laboratory</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_vaccinations_cvi_laboratory">550e11d6db7a570066015d104b961960</sys_update_version>
+        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

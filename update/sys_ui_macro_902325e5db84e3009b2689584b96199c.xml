@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>Bruc Vacc Excel Template</name>
+        <scoped_name>x_cria_livestock_t_Bruc Vacc Excel Template</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-08-20 17:40:47</sys_created_on>
+        <sys_id>902325e5db84e3009b2689584b96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bruc Vacc Excel Template</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_ui_macro_902325e5db84e3009b2689584b96199c</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-08-20 17:40:47</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>   
+
+
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">   
+
+
+<p> <b><font color="red">If you prefer to upload a list of animals, please download this template and attach the updated template, </font> <a href="https://criadvantage1dev.service-now.com/sys_attachment.do?sys_id=3822a165db84e3009b2689584b9619de" target ="_blank"><font color="blue">Click Here</font></a><font color="red"> to download the template.</font> </b></p>   
+
+
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

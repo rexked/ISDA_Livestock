@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_cria_livestock_t_batchfill_cvi" label="Batchfill Import CVI" max_length="40" name="x_cria_livestock_t_batchfill_import_cvi" sizeclass="142216" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Accession Date #5" max_length="40" name="acc_date_five" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Accession Date #4" max_length="40" name="acc_date_four" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Accession Date #1" max_length="40" name="acc_date_one" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Accession Date #3" max_length="40" name="acc_date_three" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Accession Date #2" max_length="40" name="acc_date_two" type="glide_date"/>
+        <element label="Laboratory #5" max_length="100" name="acc_lab_five" type="string"/>
+        <element label="Laboratory #4" max_length="100" name="acc_lab_four" type="string"/>
+        <element label="Laboratory #1" max_length="100" name="acc_lab_one" type="string"/>
+        <element label="Laboratory #3" max_length="100" name="acc_lab_three" type="string"/>
+        <element label="Laboratory #2" max_length="100" name="acc_lab_two" type="string"/>
+        <element label="Accession #5" max_length="40" name="acc_num_five" type="string"/>
+        <element label="Accession #4" max_length="40" name="acc_num_four" type="string"/>
+        <element label="Accession #1" max_length="40" name="acc_num_one" type="string"/>
+        <element label="Accession #3" max_length="40" name="acc_num_three" type="string"/>
+        <element label="Accession #2" max_length="40" name="acc_num_two" type="string"/>
+        <element label="Result #5" max_length="40" name="acc_result_five" type="string"/>
+        <element label="Result #4" max_length="40" name="acc_result_four" type="string"/>
+        <element label="Result #1" max_length="40" name="acc_result_one" type="string"/>
+        <element label="Result #3" max_length="40" name="acc_result_three" type="string"/>
+        <element label="Result #2" max_length="40" name="acc_result_two" type="string"/>
+        <element label="Test #5" max_length="100" name="acc_test_five" type="string"/>
+        <element label="Test #4" max_length="100" name="acc_test_four" type="string"/>
+        <element label="Result/Comment #5" max_length="40" name="acc_test_name_five" type="string"/>
+        <element label="Result/Comment #4" max_length="40" name="acc_test_name_four" type="string"/>
+        <element label="Result/Comment #1" max_length="40" name="acc_test_name_one" type="string"/>
+        <element label="Result/Comment #3" max_length="40" name="acc_test_name_three" type="string"/>
+        <element label="Result/Comment #2" max_length="40" name="acc_test_name_two" type="string"/>
+        <element label="Test #1" max_length="100" name="acc_test_one" type="string"/>
+        <element label="Test #3" max_length="100" name="acc_test_three" type="string"/>
+        <element label="Test #2" max_length="100" name="acc_test_two" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Grouplot Quantity" max_length="40" name="u_gl_quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="GroupLot" max_length="40" name="u_grouplot" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Inspection Date" max_length="40" name="u_inspection_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Vaccination Date #5" max_length="40" name="vacc_date_five" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Vaccination Date #4" max_length="40" name="vacc_date_four" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Vaccination Date #1" max_length="40" name="vacc_date_one" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Vaccination Date #3" max_length="40" name="vacc_date_three" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Vaccination Date #2" max_length="40" name="vacc_date_two" type="glide_date"/>
+        <element label="Vaccination Type #5" max_length="100" name="vacc_type_five" type="string"/>
+        <element label="Vaccination Type #4" max_length="100" name="vacc_type_four" type="string"/>
+        <element label="Vaccination Type #1" max_length="100" name="vacc_type_one" type="string"/>
+        <element label="Vaccination Type #3" max_length="100" name="vacc_type_three" type="string"/>
+        <element label="Vaccination Type #2" max_length="100" name="vacc_type_two" type="string"/>
+    </element>
+</database>

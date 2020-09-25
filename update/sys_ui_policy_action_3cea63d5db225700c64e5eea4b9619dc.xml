@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_policy_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>num_of_bulls</field>
         <mandatory>ignore</mandatory>
@@ -17,7 +17,7 @@
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
         <sys_updated_on>2018-06-06 19:20:54</sys_updated_on>
         <table>x_cria_livestock_t_vaccinations_cvi</table>
-        <ui_policy display_value="Show fields for cattle species">10baaf95db225700c64e5eea4b9619c8</ui_policy>
+        <ui_policy display_value="Show Cattle Fields">10baaf95db225700c64e5eea4b9619c8</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

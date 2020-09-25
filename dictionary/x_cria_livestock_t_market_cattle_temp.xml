@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Market Cattle Temp" max_length="40" name="x_cria_livestock_t_market_cattle_temp" sizeclass="0" type="collection">
+        <element label="Parent" max_length="100" name="parent" type="string"/>
+        <element attributes="import_attribute_name=Address,edge_encryption_enabled=true" label="Address" max_length="40" name="u_address" type="string"/>
+        <element attributes="import_attribute_name=Age (In Months),edge_encryption_enabled=true" label="Age (In Months)" max_length="40" name="u_age__in_months_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Alternate ID" max_length="40" name="u_alternate_id" type="string"/>
+        <element attributes="import_attribute_name=Back Tag #,edge_encryption_enabled=true" label="Back Tag #" max_length="40" name="u_back_tag__" type="string"/>
+        <element attributes="import_attribute_name=BAPA,edge_encryption_enabled=true" label="BAPA" max_length="40" name="u_bapa" type="string"/>
+        <element attributes="import_attribute_name=Breed,edge_encryption_enabled=true" label="Breed" max_length="40" name="u_breed" type="string"/>
+        <element attributes="import_attribute_name=City,edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Final Test Interp" max_length="40" name="u_final_test_interp" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="FPA" max_length="40" name="u_fpa" type="string"/>
+        <element attributes="import_attribute_name=Herd Owner Name,edge_encryption_enabled=true" label="Herd Owner Name" max_length="40" name="u_herd_owner_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="M" max_length="40" name="u_m" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="N" max_length="40" name="u_n" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="O" max_length="40" name="u_o" type="string"/>
+        <element attributes="import_attribute_name=Official Identification(id),edge_encryption_enabled=true" label="Official Identification(id)" max_length="40" name="u_official_identification_id_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Tests" max_length="40" name="u_other_tests" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="P" max_length="40" name="u_p" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Q" max_length="40" name="u_q" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="R" max_length="40" name="u_r" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rap" max_length="40" name="u_rap" type="string"/>
+        <element attributes="import_attribute_name=Remarks,edge_encryption_enabled=true" label="Remarks" max_length="40" name="u_remarks" type="string"/>
+        <element attributes="import_attribute_name=Sex,edge_encryption_enabled=true" label="Sex" max_length="40" name="u_sex" type="string"/>
+        <element attributes="import_attribute_name=State,edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="import_attribute_name=Tube #,edge_encryption_enabled=true" label="Tube #" max_length="40" name="u_tube__" type="string"/>
+        <element attributes="import_attribute_name=Vaccination Tattoo,edge_encryption_enabled=true" label="Vaccination Tattoo" max_length="40" name="u_vaccination_tattoo" type="string"/>
+        <element attributes="import_attribute_name=Zip,edge_encryption_enabled=true" label="Zip" max_length="40" name="u_zip" type="string"/>
+    </element>
+</database>

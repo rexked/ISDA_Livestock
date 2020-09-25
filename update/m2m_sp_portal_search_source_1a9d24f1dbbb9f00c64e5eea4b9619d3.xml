@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="m2m_sp_portal_search_source">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
     <m2m_sp_portal_search_source action="INSERT_OR_UPDATE">
         <order>100</order>
         <sp_portal display_value="Livestock Tracking">53b06546dbb49300c64e5eea4b961997</sp_portal>

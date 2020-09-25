@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>x_cria_livestock_t_vaccination_record</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>record_id</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_cria_livestock_t_vaccinations_cvi</name>
+        <read_only>false</read_only>
+        <read_only_override>true</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-26 19:06:16</sys_created_on>
+        <sys_id>71375561db3f0410447b4b8b0b961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>record_id</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_dictionary_override_71375561db3f0410447b4b8b0b961994</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:06:16</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_dictionary_override_71375561db3f0410447b4b8b0b961994</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>x_cria_livestock_t_vaccination_record</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>record_id</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_cria_livestock_t_vaccinations_cvi</name><read_only>false</read_only><read_only_override>true</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 19:06:16</sys_created_on><sys_id>71375561db3f0410447b4b8b0b961994</sys_id><sys_mod_count>0</sys_mod_count><sys_name>record_id</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_dictionary_override_71375561db3f0410447b4b8b0b961994</sys_update_name><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 19:06:16</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>1324990964</payload_hash>
+        <record_name>record_id</record_name>
+        <reverted_from/>
+        <source>c15b92d5db7b0410eb4e18df4b96193e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-26 19:06:16</sys_created_on>
+        <sys_id>73471561db3f0410447b4b8b0b9619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171183ce5f80000001</sys_recorded_at>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-26 19:06:16</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>7b471561093f04102518d7bf0bb9bddc</update_guid>
+        <update_guid_history>7b471561093f04102518d7bf0bb9bddc:1324990964</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-04-24 20:19:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>6e34210bac2a453abed73157a4f61944</sys_id>
+        <sys_metadata>71375561db3f0410447b4b8b0b961994</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>record_id</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent display_value="x_cria_livestock_t_vaccinations_cvi">1e8d9516db7a570066015d104b96198e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_71375561db3f0410447b4b8b0b961994</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_71375561db3f0410447b4b8b0b961994">73471561db3f0410447b4b8b0b9619dd</sys_update_version>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-04-24 20:19:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

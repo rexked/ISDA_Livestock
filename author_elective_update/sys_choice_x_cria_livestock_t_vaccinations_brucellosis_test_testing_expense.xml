@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="testing_expense" table="x_cria_livestock_t_vaccinations_brucellosis_test" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>testing_expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>State/Federal Expense</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_brucellosis_test</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-03 02:28:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c3d3c1edbfddf409b2689584b961924</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-03 04:04:21</sys_updated_on>
+            <value>federal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>testing_expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Owners Expense</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_brucellosis_test</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-03 02:28:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f91d705edbfddf409b2689584b9619f1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-03 04:04:11</sys_updated_on>
+            <value>owner</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>testing_expense</element>
+            <name>x_cria_livestock_t_vaccinations_brucellosis_test</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-03 02:28:33</sys_created_on>
+            <sys_id>5c3d305edbfddf409b2689584b961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>testing_expense</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_brucellosis_test_testing_expense</sys_update_name>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-03 02:28:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_vaccinations_brucellosis_test_testing_expense</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="testing_expense" table="x_cria_livestock_t_vaccinations_brucellosis_test" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>testing_expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>State/Federal Expense</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_brucellosis_test</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-03 02:28:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c3d3c1edbfddf409b2689584b961924</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-03 04:04:21</sys_updated_on>
+            <value>federal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>testing_expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Owners Expense</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_brucellosis_test</name>
+            <sequence/>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-03 02:28:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f91d705edbfddf409b2689584b9619f1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-03 04:04:11</sys_updated_on>
+            <value>owner</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>testing_expense</element>
+            <name>x_cria_livestock_t_vaccinations_brucellosis_test</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin</sys_created_by>
+            <sys_created_on>2018-05-03 02:28:33</sys_created_on>
+            <sys_id>5c3d305edbfddf409b2689584b961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>testing_expense</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_brucellosis_test_testing_expense</sys_update_name>
+            <sys_updated_by>cervin</sys_updated_by>
+            <sys_updated_on>2018-05-03 02:28:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>1651493018</payload_hash>
+        <record_name>Brucellosis Test.Testing Expense</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:54:46</sys_created_on>
+        <sys_id>1d0e11d6db7a570066015d104b961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1642457ba170000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:54:46</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>590e11d68d7a57009db4d29f9308d451</update_guid>
+        <update_guid_history>590e11d68d7a57009db4d29f9308d451:0,9a63e41e4eb657009b57d77781161f05:533153857,5e63e41e0db65700ca5e41c1016ebb02:-1531834193,ab13d51ed731138055b768dddce5549c:446054574,4113951e58311380063e64d6551f6f44:790471485,e94dfc1ec6fddf40f52370895c706de8:422025879,5b3dbc1e16fddf4025bfe4192afb5d24:199441884,993dfc1e9ffddf4081dc24a4c12003e3:1136879450,d83d305e15fddf40205e7e7266dc2a14:-1729666662</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cervin</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>dd0e11d6db7a570066015d104b96194f</sys_id>
+        <sys_metadata>dd0e11d6db7a570066015d104b96194f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testing_expense</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_brucellosis_test_testing_expense</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_vaccinations_brucellosis_test_testing_expense">1d0e11d6db7a570066015d104b961951</sys_update_version>
+        <sys_updated_by>cervin</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope , spModal, spNavStateManager, spUtil) {
+  /* widget controller */
+  var c = this;
+		
+	var widgetId = 'form-widget-copy';
+	
+	$scope.batchFill = function(){
+		
+		var shared = {};
+		
+		
+		spModal.open({
+			size: "lg",
+			title: "Batch Fill Livestock Identification",
+			widget: 'f351fd6adb086700c64e5eea4b961975',
+			shared: c.data,
+			buttons: [
+					{label: "Submit",
+					primary: true}
+			]
+			
+		}).then(function(){
+			
+			c.server.update();
+			$scope.page.g_form.setValue('widget_records', c.data.sys_ids.toString());
+		});
+			$scope.page.g_form.setValue('widget_records', c.data.sys_ids.toString());
+		}
+	
+	$scope.deleteTheLine = function(table , item) {
+			
+			c.data.toBeDeleted = item.sys_id;
+			
+			console.log("button was pressed" + " " +table + " " + item.sys_id);
+			c.data.deleteLine = true;
+			c.server.update();
+			$scope.page.g_form.setValue('widget_records', c.data.sys_ids.toString());
+			
+			
+		}
+	
+	
+	
+		$scope.newRecord = function(){
+		
+		
+		var widgetInput = {
+			table: $scope.data.table,
+			view: $scope.data.view,
+			sys_id: '-1'
+		};
+			
+		spModal.open({
+			title: 'Individual Animal Entry',
+			widget: widgetId,
+			size: 'lg',
+			widgetInput: widgetInput,
+			buttons: [
+				{
+					label: '${OK}',
+					primary: true
+				}
+			]
+		}).then(function () {
+			//console.log('it did something at least');
+			c.server.update();
+			$scope.page.g_form.setValue('widget_records', c.data.sys_ids.toString());
+		});
+	};
+	
+	
+	$scope.go = function(table , item){
+		
+		var widgetInput = {
+			table: $scope.data.table,
+			view: $scope.data.view,
+			sys_id: item.sys_id
+			
+		};
+		
+		
+			
+		spModal.open({
+			title: "Lab Result",
+			widget: widgetId,
+			size: 'md',
+			widgetInput: widgetInput,
+			buttons: [
+				{
+					label: '${OK}',
+					primary: true
+				}
+			]
+			
+		}).then(function(){
+			spUtil.update($scope);
+			
+		});
+	
+	}
+	
+	c.update = function update() {
+			spUtil.update($scope);
+	}
+	
+	console.log(c.data.table);
+	
+	
+		spUtil.recordWatch($scope, c.data.table, c.data.filter, function(name, data){
+			spUtil.update($scope);
+			$scope.page.g_form.setValue('widget_records', c.data.sys_ids.toString());
+		});
+		console.log("i'm watching you: " + c.data.table + " with a filter of: " + c.data.filter);
+
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.panel-heading {&#13;
+  padding-left: 8px;&#13;
+}&#13;
+&#13;
+thead.th.span {&#13;
+  border-bottom: 1px solid #ddd;&#13;
+}&#13;
+&#13;
+thead {&#13;
+  border-bottom: 1px solid #ddd;&#13;
+}&#13;
+&#13;
+table {&#13;
+  margin-bottom: 0;&#13;
+}&#13;
+&#13;
+.table &gt; thead &gt; tr &gt; th {&#13;
+  border: 1px solid #ddd;&#13;
+  cursor: pointer;&#13;
+  vertical-align: middle;&#13;
+&#13;
+  &amp;:nth-child(2) {&#13;
+    border-left: none;&#13;
+  }&#13;
+&#13;
+.glyphicon-remove{&#13;
+  &#13;
+  color: #538ac5;&#13;
+}&#13;
+&#13;
+  &amp;:last-child {&#13;
+    border-right: none;&#13;
+  }&#13;
+}&#13;
+&#13;
+th i {&#13;
+  display: inline-block;&#13;
+  margin-left: 5px;&#13;
+  color: #A0A0A0;&#13;
+}&#13;
+&#13;
+th .disabled{&#13;
+  color:#ddd;&#13;
+}&#13;
+&#13;
+.th-title {&#13;
+  display: inline-block;&#13;
+  color: $primary;&#13;
+}&#13;
+&#13;
+.panel-body {&#13;
+  overflow: auto;&#13;
+  padding: 0px;&#13;
+}&#13;
+&#13;
+&#13;
+.selected {&#13;
+  color: #fff;&#13;
+  background-color: #909090;&#13;
+  border-color: 1px solid #fff;&#13;
+}&#13;
+&#13;
+tbody tr:last-child {&#13;
+  border-bottom: none;&#13;
+}&#13;
+&#13;
+.pruned-msg {&#13;
+  padding-bottom: 10px;&#13;
+  padding-left: 4px;&#13;
+  text-align: center;&#13;
+}&#13;
+&#13;
+.pruned-msg-filter-pad {&#13;
+  padding-top:8px;&#13;
+}&#13;
+&#13;
+.filter-breadcrumbs {&#13;
+  border-bottom: 1px solid #ddd;&#13;
+  padding-top: 3px;&#13;
+}&#13;
+&#13;
+.dropdown-toggle {&#13;
+  background: none;&#13;
+  padding: 0 0 4px 0;&#13;
+}</css>
+        <data_table>sp_instance_table</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>table,filter,field_list,maximum_entries,order,order_by,order_direction,title,color,glyph,sp_page</field_list>
+        <has_preview>true</has_preview>
+        <id>livestock-data-tag-station</id>
+        <internal>false</internal>
+        <link><![CDATA[function(scope, element, attrs, ctrl){
+	var $ul, $contextMenu;
+
+	scope.focusOnTableHeader = function() {
+		element.find(".data-table-title").attr("tabindex", "-1").focus();
+	}
+
+	element.on('contextmenu', function(e){
+		if (e.ctrlKey)
+			return; // ctrlKey is for the debug menu, not this menu
+
+		var rowScope = angular.element(e.target).scope();
+		var field, item, fieldVal;
+
+		// Context Menu for tbody
+		if (angular.isDefined(rowScope.field) && angular.isDefined(rowScope.item)){
+			e.preventDefault();
+			field = rowScope.field;
+			item = rowScope.item;
+			fieldVal = item[field].value;
+
+			var items = [
+				['${Show Matching}', function(){
+					ctrl.createQueryTerm(scope.data.table, field, item.sys_id, '=').then(function(term){
+						ctrl.showMatching(field, term);
+					});
+				}],
+				['${Filter Out}', function(){
+					ctrl.createQueryTerm(scope.data.table, field, item.sys_id, '!=').then(function(term){
+						ctrl.filterOut(field, term);
+					});
+				}]
+			];
+
+			renderContextMenu(items);
+			setContextMenuPosition(e);
+		}
+	});
+
+	function renderContextMenu(items){
+		var scrollHeight = $('body').get(0).scrollHeight;
+		$contextMenu = angular.element('<div>', {'class': 'dropdown clearfix context-dropdown open'});
+
+		$contextMenu.on('click', function (e) {
+			if ($(e.target).hasClass('dropdown')) {
+				_clearContextMenus(event);
+			}
+		});
+		$contextMenu.on('contextmenu', function (event) {
+			event.preventDefault();
+			_clearContextMenus(event);
+		});
+
+		$contextMenu.css({
+			position: 'absolute',
+			top: 0,
+			height: scrollHeight,
+			left: 0,
+			right: 0,
+			zIndex: 9999
+		});
+
+		$('body').append($contextMenu);
+
+		$ul = angular.element('<ul>', {
+			'class': 'dropdown-menu',
+			'role': 'menu'
+		});
+		renderItems();
+		$contextMenu.append($ul);
+
+		function renderItems(){
+			angular.forEach(items, function (item) {
+				var $li = angular.element('<li>');
+
+				if (item === null) {
+					$li.addClass('divider');
+				} else {
+					var $a = angular.element('<a>');
+					$a.attr({tabindex: '-1', href:'#'});
+					$a.text(item[0]);
+					$li.append($a);
+					$li.on('click', function (e) {
+						e.preventDefault();
+						scope.$apply(function () {
+							_clearContextMenus(e);
+							item[1].call(item, item);
+						});
+					});
+				}
+
+				$ul.append($li);
+			});
+		}
+	}
+
+	function _clearContextMenus(event){
+		if (!event){
+			return;
+		}
+
+		angular.element(event.currentTarget).removeClass('context');
+
+		var els = angular.element(".context-dropdown");
+		angular.forEach(els, function(el){
+			angular.element(el).remove();
+		});
+	}
+
+	var contextMenuItemHeight = 0;
+	function setContextMenuPosition(event){
+		if (contextMenuItemHeight === 0)
+			contextMenuItemHeight = $ul.children(0).height();
+
+		// Why not just call .width() and .height() on the container? Because those calculations cause browsers to reflow
+		// that can cause IE10 to take 200ms to render a context menu.
+		var cmWidth = 150;
+		var cmHeight = contextMenuItemHeight * $ul.children().length;
+		var startX = event.pageX + cmWidth >= window.innerWidth ? event.pageX - cmWidth : event.pageX;
+		var startY = event.pageY + cmHeight >= window.innerHeight ? event.pageY - cmHeight : event.pageY;
+
+		$ul.css({
+			display: 'block',
+			position: 'absolute',
+			left: startX,
+			top: startY,
+			'min-width': cmWidth
+		});
+	}
+}]]></link>
+        <name>Livestock Data Tag Station</name>
+        <option_schema>[{"hint":"If enabled, show the list filter in the breadcrumbs of the data table","name":"enable_filter","default_value":"false","section":"Behavior","label":"Enable Filter","type":"boolean"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	data.title = '';
+	data.table = 'x_cria_livestock_t_batchfill_tagging';
+	data.filter = 'session_id='+gs.getSessionID() + '^commited=false^parentISEMPTY';
+	data.table_label = '';
+	data.fields_array = [];
+	data.view = 'default view';
+	data.action = undefined;
+	data.updated = '';
+	data.deleteLine = '';
+	data.sys_ids = [];
+
+	
+	if (!data.fields) {
+		if (data.view){
+			console.log("using the view");
+			data.fields = $sp.getListColumns(data.table, data.view);
+		}
+			else
+			data.fields = $sp.getListColumns(data.table);
+	}
+	
+	//console.log("data.fields = " + data.fields);
+	
+	data.column_labels = {};
+	data.fields_array = data.fields.split(',');
+	
+	var gr = new GlideRecord(data.table);
+	gr.addEncodedQuery(data.filter);
+	gr.orderBy('number');
+	gr.query();
+	
+		data.list = [];
+		while (gr._next()) {
+			data.sys_ids.push(gr.sys_id.toString());
+			var record = {};
+			$sp.getRecordElements(record, gr, data.fields);
+			record.sys_id = gr.getValue('sys_id');
+			data.list.push(record);
+		}
+	
+		// use GlideRecord to get field labels vs. GlideRecordSecure
+	var grForLabels = new GlideRecord(data.table);
+	for (var i in data.fields_array) {
+		var field = data.fields_array[i];
+		var ge = grForLabels.getElement(field);
+		if (ge == null)
+			continue;
+
+		data.column_labels[field] = ge.getLabel();
+	}
+	
+		if(input.deleteLine){
+		
+		//console.log("input.deleteLine is true" + ", Grabing" + input.toBeDeleted);
+		
+		data.sys_ids = [];
+		
+		gr.initialize();
+		gr.get(input.toBeDeleted);
+		gr.deleteRecord();
+	  data.deleteLine = false;
+			
+			gr.initialize();
+	gr.addEncodedQuery(data.filter);
+	gr.orderBy('number');
+	gr.query();
+	
+		while (gr._next()) {
+			data.sys_ids.push(gr.sys_id.toString());
+			
+			
+	}
+	}
+	
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-08-23 20:57:19</sys_created_on>
+        <sys_id>020dad66db086700c64e5eea4b961901</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Livestock Data Tag Station</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_widget_020dad66db086700c64e5eea4b961901</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-08-28 17:09:10</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+  <div class="panel-body">
+   
+
+   <div class="panel-heading form-inline">
+      <span class="panel-title"><i ng-if="options.glyph" class="fa fa-{{options.glyph}} m-r"></i>{{data.title}}</span>
+  <button name="new" role="link" class="btn btn-primary btn-sm m-l-xs" ng-click="newRecord()" aria-label="${Create new record}">${New}</button>
+  <button name="batchfill" class="btn btn-primary btn-sm m-l-xs" ng-click="batchFill()" aria-label="${Batch Fill}">${Batch Fill}</button>
+  </div>
+  
+    <div class="alert alert-info" ng-if="!data.list.length && !data.num_pages && !data.invalid_table && !loadingData">
+        ${No records in {{data.table_label}} <span ng-if="data.filter">using that filter</span>}
+      </div>
+      <div class="alert alert-info" ng-if="loadingData">
+          <fa name="spinner" spin="true"></fa> ${Loading data}...
+       </div>
+      <table class="table table-striped table-responsive" ng-if="data.list.length">
+        <thead>
+          <tr>
+            <th class="sr-only"></th>
+            <th ng-repeat="field in data.fields_array track by $index" tabindex="0">
+              <div class="th-title" >{{data.column_labels[field]}}</div>
+            </th>
+            <th><span class="remove glyphicon glyphicon-remove"></span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="item in data.list">
+            <td class="sr-only" tabindex="0" role="link" ng-click="go(data.table, item)" aria-label="${Open record}"></td>
+            <td role="text" aria-label="{{item[field].display_value}}" class="pointer" ng-class="{selected: item.selected}" ng-click="go(data.table, item)" ng-repeat="field in ::data.fields_array" data-field="{{::field}}" data-th="{{::data.column_labels[field]}}">{{::item[field].display_value}}
+            <td>
+            <span class="delete glyphicon glyphicon-remove" style="color: #d9534f" ng-click="deleteTheLine(data.table , item)"></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

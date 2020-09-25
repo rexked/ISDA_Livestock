@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="item_option_new">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes>ref_qual_elements=trich_herdLoc</attributes>
@@ -33,7 +32,7 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value>user</lookup_value>
         <macro/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -60,20 +59,21 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-18 20:00:51</sys_created_on>
         <sys_id>0e0e97a9dba1d7409b2689584b9619b3</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Herd Owner</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_0e0e97a9dba1d7409b2689584b9619b3</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-22 23:32:02</sys_updated_on>
+        <sys_updated_on>2018-09-26 22:58:35</sys_updated_on>
         <table/>
         <tooltip/>
         <type>18</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>advanced</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set display_value="Veterinarian/Herd Owner">966c13a9dba1d7409b2689584b961912</variable_set>
         <variable_width/>

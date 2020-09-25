@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="x_cria_livestock_t_vaccination_record" label="Brucellosis Market Cattle Testing" max_length="40" name="x_cria_livestock_t_vaccinations_market_cattle" text_index="true" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_cria_livestock_t_vaccination_record" label="Brucellosis Market Cattle Testing" max_length="40" name="x_cria_livestock_t_vaccinations_market_cattle" sizeclass="222" text_index="true" type="collection">
         <element label="Accession #" max_length="255" name="accession" type="string"/>
         <element label="Animal info" max_length="256" name="animal_info" type="string"/>
-        <element choice="1" label=" Is this a Designated Surveillance Area (DSA) Herd?" mandatory="true" max_length="40" name="dsa_herd" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Draft" max_length="40" name="draft" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this a Designated Surveillance Area (DSA) Herd?" max_length="40" name="dsa_herd" type="choice">
             <choice>
-                <element label="No" value="No"/>
-                <element label="Yes" value="Yes"/>
+                <element inactive_on_update="false" label="No" value="No"/>
+                <element inactive_on_update="false" label="Yes" value="Yes"/>
             </choice>
         </element>
         <element label="City" max_length="255" name="mrkt_ownercity" type="string"/>
-        <element label="Owner" max_length="32" name="mrkt_ownername" reference="sys_user" reference_qual="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" reference_qual_condition="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" type="reference"/>
-        <element label="State" max_length="32" name="mrkt_ownerstate" reference="u_states" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Owner" max_length="32" name="mrkt_ownername" reference="sys_user" reference_qual="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" reference_qual_condition="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="32" name="mrkt_ownerstate" reference="u_states" type="reference"/>
         <element label="Street Address" max_length="255" name="mrkt_ownerstreet" type="string"/>
         <element label="Zip Code" max_length="10" name="mrkt_ownerzip" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="# Negative" max_length="40" name="negative" read_only="true" type="string"/>
@@ -21,16 +21,17 @@
         <element label="Slaughter Establishment Number" max_length="100" name="slaughter_estab_num" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="# Suspect" max_length="40" name="suspect" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Total # Tested" max_length="40" name="total_tested" read_only="true" type="string"/>
-        <element label="Date" max_length="40" name="u_date" type="glide_date"/>
-        <element label="Date Signed" max_length="40" name="u_date_signed" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="u_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Signed" max_length="40" name="u_date_signed" type="glide_date"/>
         <element label="Email" max_length="100" name="u_email" type="string"/>
         <element label="Laboratory" max_length="100" name="u_laboratory" type="string"/>
-        <element label="Lab Tech Signature" max_length="32" name="u_lab_tech_signature" reference="sys_user" reference_qual="x_cria_livestock_t_livestock_user=true^x_cria_livestock_t_u_usertype=lab tech^EQ" reference_qual_condition="x_cria_livestock_t_livestock_user=true^x_cria_livestock_t_u_usertype=lab tech^EQ" type="reference"/>
-        <element label="Livestock Market" max_length="32" name="u_livestock_market" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Lab Tech Signature" max_length="32" name="u_lab_tech_signature" reference="sys_user" reference_qual="x_cria_livestock_t_livestock_user=true^x_cria_livestock_t_u_usertype=lab tech^EQ" reference_qual_condition="x_cria_livestock_t_livestock_user=true^x_cria_livestock_t_u_usertype=lab tech^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Livestock Market" max_length="32" name="u_livestock_market" reference="cmn_location" type="reference"/>
         <element label="Phone Number" max_length="32" name="u_phone_number" type="string"/>
         <element label="Signature" max_length="100" name="u_signature" type="string"/>
         <element label="Testing Laboratory" max_length="100" name="u_testing_lab" type="string"/>
-        <element label="Veterinarian" max_length="32" name="u_veterinarian" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Veterinarian" max_length="32" name="u_veterinarian" reference="sys_user" type="reference"/>
+        <element label="Widget Records" max_length="10000" name="widget_records" type="string"/>
         <index name="index">
             <element name="u_lab_tech_signature"/>
         </index>

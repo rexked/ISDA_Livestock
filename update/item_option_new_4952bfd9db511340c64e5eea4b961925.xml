@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="item_option_new">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
@@ -24,7 +23,8 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <include_none>false</include_none>
-        <instructions/>
+        <instructions><![CDATA[<p><span style="color: black;">If you prefer to upload a list of animals, please download this template and attach the updated template to this record using the paper clip at the bottom. </span><strong><a title="Click Here" href="https://criadvantage.service-now.com/sys_attachment.do?sys_id&#61;69b1749ddb206300447b4b8b0b961989" target="_blank" rel="noopener noreferrer nofollow">Click Here</a></strong><span style="color: black;"> to download the template.</span></p>
+<p><strong><span style="color: #ff0000;">DO NOT CHANGE THE NAME OF THE TEMPLATE OR THE COLUMN NAMES.  </span></strong><span style="color: #ff0000;"><span style="color: #000000;">The template name and column names must remain the same to import the animals correctly.</span></span></p>]]></instructions>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
@@ -60,20 +60,21 @@
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-05 16:35:32</sys_created_on>
         <sys_id>4952bfd9db511340c64e5eea4b961925</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>saleyard_results</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Lab Results</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>item_option_new_4952bfd9db511340c64e5eea4b961925</sys_update_name>
-        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-05-15 08:30:00</sys_updated_on>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-14 14:28:58</sys_updated_on>
         <table/>
         <tooltip/>
         <type>14</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set display_value="Lab Results">09323fd9db511340c64e5eea4b9619af</variable_set>
         <variable_width/>

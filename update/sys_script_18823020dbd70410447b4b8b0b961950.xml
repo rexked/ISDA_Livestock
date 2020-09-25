@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sys_attachment</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sys_attachment">table_name=x_cria_livestock_t_vaccinations_cvi^content_type=text/xml^EQ<item endquery="false" field="table_name" goto="false" newquery="false" operator="=" or="false" value="x_cria_livestock_t_vaccinations_cvi"/>
+            <item endquery="false" field="content_type" goto="false" newquery="false" operator="=" or="false" value="text/xml"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>rest api</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+  //"x_cria_livestock_t_vaccinations_cvi";
+  var requestBody;
+  var responseBody;
+  var status;
+  var sm;
+  var StringUtil;
+  var smresponse;
+  var smresponseBody;
+  var smstatus;
+  var xresponseBodycatch;
+  var responseBodycatch;
+  var smresponseBodycatch;
+  var attachmentrec;
+  //attachmentrec = current.sys_id;
+  attachmentrec = "7982576edb97b700eb4e18df4b961919";
+  try{
+    var xrequest = new sn_ws.RESTMessageV2();
+    xrequest.setEndpoint('https://criadvantage.service-now.com/api/now/attachment/'+attachmentrec+'/file');
+    xrequest.setHttpMethod('GET');
+    var user = 'apiadmin';
+    var password = 'APIadmin1!';
+    xrequest.setBasicAuth(user,password);
+    xrequest.setRequestHeader("Accept","*/*");
+    var xresponse = xrequest.execute();
+    var xbody = xresponse.getBody();
+    gs.info(xbody);
+    if (xbody!="") {
+      try{
+        var r = new sn_ws.RESTMessageV2('x_cria_livestock_t.Get Token', 'post');
+        var response = r.execute();
+        responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+        var tokenString = responseBody.toString();
+        var token = tokenString.slice(17, 359);
+        gs.info(token);
+        if (token!="") {
+          try {
+            sm = new sn_ws.RESTMessageV2("x_cria_livestock_t.Add External Message", "post");
+            sm.setRequestHeader("Authorization:","bearer " + token);
+            smresponse = sm.execute();
+            smresponseBody = smresponse.getBody();
+            smstatus = smresponse.getStatusCode();
+            gs.info(smresponseBody);
+          }
+		  catch(ex) {
+	        smresponseBodycatch = ex.getMessage();
+          }
+        }
+      }
+      catch(ex2) {
+	    responseBodycatch = ex2.getMessage();
+      }
+    }
+  }
+  catch(ex3) {
+	xresponseBodycatch = ex3.getMessage();
+  }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-27 17:20:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>18823020dbd70410447b4b8b0b961950</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>rest api</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_18823020dbd70410447b4b8b0b961950</sys_update_name>
+        <sys_updated_by>tsears@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-03-01 01:25:38</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=18823020dbd70410447b4b8b0b961950"/>
+</record_update>

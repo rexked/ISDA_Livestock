@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="57615f4cdb33e300c64e5eea4b9619be" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>num_beef_cattle</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Flag for review:red</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+//Change the description label to 'My New Label' with bold red text
+changeFieldLabel('flagged_for_review', 'Flagged for review', 'red', 'bold');
+}
+
+function changeFieldLabel(field, label, color, weight){
+try{
+var labelElement = $('label.' + g_form.getControl(field).id);
+labelElement.select('.label-text').each(function(elmt) {
+elmt.innerHTML = label + ':';
+if(color)
+elmt.style.color = color;
+if(weight)
+elmt.style.fontWeight = weight;
+});
+}catch(e){};
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-06-10 20:10:13</sys_created_on>
+        <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+        <sys_domain_path/>
+        <sys_id>0f9804d0dbc6f7009b2689584b961988</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Flag for review:red</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_client_0f9804d0dbc6f7009b2689584b961988</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-06-10 20:27:42</sys_updated_on>
+        <table>x_cria_livestock_t_import_cvi</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

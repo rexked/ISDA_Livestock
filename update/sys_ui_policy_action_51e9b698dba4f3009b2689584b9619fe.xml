@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_cvi_received</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-03-28 19:35:00</sys_created_on>
+        <sys_id>51e9b698dba4f3009b2689584b9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_cvi_received</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_51e9b698dba4f3009b2689584b9619fe</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-03-28 19:35:00</sys_updated_on>
+        <table>x_cria_livestock_t_vaccinations_cvi</table>
+        <ui_policy display_value="Signature Opt out logic">b1e83e58dba4f3009b2689584b96195b</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

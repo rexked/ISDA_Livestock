@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Saleyard Release Form">8d7a6d07db9c63009b2689584b9619d4</catalog_item>
+        <catalog_variable>IO:310f4a43db106300c64e5eea4b96199e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-06 23:08:00</sys_created_on>
+        <sys_id>3b11d687db106300c64e5eea4b961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>photos_label</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3b11d687db106300c64e5eea4b961979</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-06 23:08:00</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show horse markings field and label">3ac09a47db106300c64e5eea4b961977</ui_policy>
+        <variable>photos_label</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

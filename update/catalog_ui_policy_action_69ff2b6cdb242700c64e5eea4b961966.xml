@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:8a856e68db81d700c64e5eea4b961955</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-11 21:53:02</sys_created_on>
+        <sys_id>69ff2b6cdb242700c64e5eea4b961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>county</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_69ff2b6cdb242700c64e5eea4b961966</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-11 21:53:02</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make herd loc fields read only">8f5fa76cdb242700c64e5eea4b961938</ui_policy>
+        <variable>county</variable>
+        <variable_set display_value="Veterinarian/Herd Owner">966c13a9dba1d7409b2689584b961912</variable_set>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>trich_laboratory</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-03-22 21:52:49</sys_created_on>
+        <sys_id>c831a46adb1cbb409b2689584b96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trich_laboratory</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c831a46adb1cbb409b2689584b96196e</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-03-22 21:52:49</sys_updated_on>
+        <table>x_cria_livestock_t_vaccinations_cvi</table>
+        <ui_policy display_value="Show trich surveillance fields">4431a8e6db1cbb409b2689584b96197b</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

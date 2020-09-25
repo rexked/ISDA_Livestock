@@ -1,37 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_script_include">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
         <api_name>x_cria_livestock_t.ISDAScripts</api_name>
+        <caller_access/>
         <client_callable>true</client_callable>
         <description/>
         <name>ISDAScripts</name>
         <script><![CDATA[var ISDAScripts = Class.create();
 ISDAScripts.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
-	
+
 	generateID : function(type){
-		var result = '';
-		var padding = '';
-		var num ='';
-		var x = '';
-		var gt = new GlideDateTime().toString().slice(2,4); // get the year from the date
-		var gr = new GlideRecord('x_cria_livestock_t_numbers');
-		gr.addQuery('type', type);
-		gr.setLimit(1);
-		gr.query();
-		if (gr.next()){
-			padding = gr.padding;
-			num = gr.number.getDisplayValue();
-			gr.number++;
-			gr.update();
+		if(type != "T"){
+			var result = '';
+			var padding = '';
+			var num ='';
+			var x = '';
+			var gt = new GlideDateTime().toString().slice(2,4); // get the year from the date
+			var gr = new GlideRecord('x_cria_livestock_t_numbers');
+			gr.addQuery('type', type);
+			gr.setLimit(1);
+			gr.query();
+			if (gr.next()){
+				padding = gr.padding;
+				num = gr.number.getDisplayValue();
+				gr.number++;
+				gr.update();
+			}
+			x =num +'';
+			padding = padding.slice(x.length);
+			result = "82-" + gt + type + padding + x;
+			return result;
 		}
-		x =num +'';
-		padding = padding.slice(x.length);
-		result = "82-" + gt + type + padding + x;
-		return result;
+		else{
+			//Trich is broken out because of the offset year that rolls over sep 1.
+			var tresult = '';
+			var tpadding = '';
+			var tnum ='';
+			var tx = '';
+			var year = '';
+			var tgr = new GlideRecord('x_cria_livestock_t_numbers');
+			tgr.addQuery('type', type);
+			tgr.setLimit(1);
+			tgr.query();
+			if (tgr.next()){
+				tpadding = tgr.padding;
+				tnum = tgr.number.getDisplayValue();
+				year = tgr.u_year;
+				tgr.number++;
+				tgr.update();
+			}
+			tx =tnum +'';
+			tpadding = tpadding.slice(tx.length);
+			tresult = "82-" + year + type + tpadding + tx;
+			return tresult;
+		}
 	},
-	
+
 	generateFormID : function(){
 		var padding = "";
 		var x = '';
@@ -52,36 +77,50 @@ ISDAScripts.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		x =num +'';
 		padding = padding.slice(x.length);
 		result = "82-" + gt + typeLST + padding + x;
-		
+
 		return JSON.stringify(result);
 	},
+
+	transferAttachments: function(origTable , origSysID, destTable , destSysID){
+		var at = new GlideRecord('sys_attachment');
+		at.addQuery('table_name', origTable );
+		at.addQuery('table_sys_id', origSysID);
+		at.query();
+		while(at.next()){
+			at.table_name = destTable;
+			at.table_sys_id = destSysID;
+			at.update();
+		}
+	},
 	
-		transferAttachments: function(origTable , origSysID, destTable , destSysID){
-			var at = new GlideRecord('sys_attachment');
-			at.addQuery('table_name', origTable );
-			at.addQuery('table_sys_id', origSysID);
-			at.query();
-			while(at.next()){
-				at.table_name = destTable;
-				at.table_sys_id = destSysID;
-				at.update();
-			}
-},
-	
-	
+	animalRecordCheck: function(){
+		var batchTable = this.getParameter('sysparm_table');
+		var recordSysID = this.getParameter('sysparm_parent');
+		var ar = new GlideRecord(batchTable);
+		ar.addQuery('parent', recordSysID);
+		ar.query();
+		if(ar.next()){
+			return 'true';
+		}
+		else{
+			return 'false';
+		}
+	},
+
+
 	type: 'ISDAScripts'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-26 02:16:39</sys_created_on>
         <sys_id>c9e6740cdbb11f40c64e5eea4b9619f2</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_name>ISDAScripts</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_script_include_c9e6740cdbb11f40c64e5eea4b9619f2</sys_update_name>
-        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-19 22:40:25</sys_updated_on>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-10-18 20:39:34</sys_updated_on>
     </sys_script_include>
 </record_update>

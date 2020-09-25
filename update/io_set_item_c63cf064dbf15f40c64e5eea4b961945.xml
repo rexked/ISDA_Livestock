@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="io_set_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>99999</order>
-        <sc_cat_item display_value="Trichomoniasis Test and Report Form">0461879adb70d300c64e5eea4b96199a</sc_cat_item>
+        <sc_cat_item display_value="Trichomoniasis Test and Report Form - OLD">0461879adb70d300c64e5eea4b96199a</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-27 15:54:57</sys_created_on>

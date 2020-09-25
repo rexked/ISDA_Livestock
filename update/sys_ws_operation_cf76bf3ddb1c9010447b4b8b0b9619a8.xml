@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>tok</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	var testtest = "c26b6921dbdc5010eb4e18df4b9619a3";
+		//get token for authorization
+		
+		var token;
+		var reqtoken = new sn_ws.RESTMessageV2();
+		reqtoken.setHttpMethod('post');
+ 		reqtoken.setRequestHeader("Content-Type:","application/x-www-form-urlencoded");
+ 		reqtoken.setQueryParameter("Host:","corp-hbg-04.compaid.com");
+ 		reqtoken.setEndpoint('https://test.tnatc.org/usaherds.api/ks/authenticate');
+		reqtoken.setRequestBody('userName=criAdvKS&password=TERRYlee1216!&grant_type=password');
+		var resptoken = reqtoken.execute();
+		var tokenBody = resptoken.getBody();
+  		//var tokenString = tokenBody.toString();
+  		//token = tokenString.slice(17, 359);
+		var txt = tokenBody;
+                var obj = JSON.parse(txt);
+                var tobj = obj.access_token;
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_cria_livestock_t/test_rest_script_api_1</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>tsears@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-04-21 22:49:40</sys_created_on>
+        <sys_id>cf76bf3ddb1c9010447b4b8b0b9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tok</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_ws_operation_cf76bf3ddb1c9010447b4b8b0b9619a8</sys_update_name>
+        <sys_updated_by>tsears@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-04-21 22:49:40</sys_updated_on>
+        <web_service_definition display_value="Test_rest_script_api_1">4d4347f1dbb60c10eb4e18df4b96191e</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

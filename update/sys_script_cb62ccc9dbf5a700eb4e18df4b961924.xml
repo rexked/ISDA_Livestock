@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cria_livestock_t_lab_results_bruc_test</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update summary counts on parent record</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var prnt = current.parent;
+	var neg = 0;
+	var pos = 0;
+	var susp = 0;
+	var react = 0;
+	var tot = 0;
+	var gr = new GlideRecord('x_cria_livestock_t_lab_results_bruc_test');
+	gr.addQuery('parent', prnt);
+	gr.query();
+	while(gr.next()){
+		if(gr.test_interp == 'neg' || gr.test_interp == 'Negative'){
+			neg++;
+			tot++;
+		}
+		if(gr.test_interp == 'pos' || gr.test_interp == 'Positive'){
+			pos++;
+			tot++;
+		}
+		if(gr.test_interp == 'susp' || gr.test_interp == 'Suspect'){
+			susp++;
+			tot++;
+		}
+		if(gr.test_interp == 'react' || gr.test_interp == 'Reactor'){
+			react++;
+			tot++;
+		}
+	}
+	var gp = new GlideRecord('x_cria_livestock_t_vaccinations_brucellosis_test');
+	gp.addQuery('sys_id', current.parent);
+	gp.query();
+	if(gp.next()){
+		gp.num_negative = neg.toString();
+		gp.num_positive = pos.toString();
+		gp.reactor = react.toString();
+		gp.suspect = susp.toString();
+		gp.total_num_test = tot.toString();
+		gp.update();
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-11-13 21:25:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb62ccc9dbf5a700eb4e18df4b961924</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Update summary counts on parent record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_cb62ccc9dbf5a700eb4e18df4b961924</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-11-13 21:49:29</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=cb62ccc9dbf5a700eb4e18df4b961924"/>
+</record_update>

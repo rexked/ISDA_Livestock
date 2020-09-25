@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="item_option_new">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
@@ -50,7 +49,7 @@
         <reference>cmn_location</reference>
         <reference_qual>u_livestock=true^u_prem_type=producer unit/farm/ranch^EQ</reference_qual>
         <reference_qual_condition table="cmn_location">u_livestock=true^u_prem_type=producer unit/farm/ranch^EQ<item endquery="false" field="u_livestock" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="u_prem_type" goto="false" newquery="false" operator="=" or="false" value="producer unit/farm/ranch"/>
+            <item display_value="producer unit/farm/ranch" endquery="false" field="u_prem_type" goto="false" newquery="false" operator="=" or="false" value="producer unit/farm/ranch"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <scale_max>5</scale_max>
@@ -77,6 +76,7 @@
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set/>
         <variable_width/>

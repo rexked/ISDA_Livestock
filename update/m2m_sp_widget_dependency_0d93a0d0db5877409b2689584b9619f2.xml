@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="HeisenbergRetinaIcons">f7fdd25e87c50300e0ef0cf888cb0b7b</sp_dependency>
+        <sp_widget display_value="Copy of SC Catalog Item">24f640dcdbd477409b2689584b961924</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-03-15 22:16:56</sys_created_on>
+        <sys_id>0d93a0d0db5877409b2689584b9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HeisenbergRetinaIcons.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_0d93a0d0db5877409b2689584b9619f2</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-03-15 22:16:56</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:d6542e53db429b809b2689584b961922</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-08-16 22:31:40</sys_created_on>
+        <sys_id>417f7dd4db0063009b2689584b961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name_of_consignor</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_417f7dd4db0063009b2689584b961933</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-08-16 22:31:40</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show new consignor name box">144fb9d4db0063009b2689584b961917</ui_policy>
+        <variable>name_of_consignor</variable>
+        <variable_set display_value="Consignor/ Consginee Information CVI">e8b32e13db429b809b2689584b961975</variable_set>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

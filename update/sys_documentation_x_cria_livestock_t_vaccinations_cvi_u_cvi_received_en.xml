@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_cvi_received" label="Signed CVI has been Received" language="en" table="x_cria_livestock_t_vaccinations_cvi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_cvi_received</element>
+            <help/>
+            <hint/>
+            <label>Signed CVI has been Received</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <plural>Signed CVI has been Received</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-03-28 19:24:45</sys_created_on>
+            <sys_id>75d8ba58dba4f3009b2689584b961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Signed CVI has been Received</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_vaccinations_cvi_u_cvi_received_en</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-03-28 19:24:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

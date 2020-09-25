@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_embedded_help_content">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
     <sys_embedded_help_content action="INSERT_OR_UPDATE">
         <active>true</active>
         <category/>
         <content><![CDATA[    <h1 class="title topictitle1">Create an inbound email action</h1>        <div class="body taskbody">        <ol class="ol steps" id="sysevent_in_email_action-normal__s_CreateCredAndTest"><li class="li step">                <span class="ph cmd"><span class="ph">Enter a descriptive name                                            for this email action.</span></span>            </li><li class="li step">                <span class="ph cmd"><span class="ph">Select the table where the                                            action will add or update records.</span></span>            </li><li class="li step">                <span class="ph cmd"><span class="ph">Select the type of action                                            the instance takes</span></span>            </li><li class="li step">                <span class="ph cmd">Complete the rest of the form.</span>            </li></ol>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Inbound_Email_Actions&amp;version&#61;kingston" target="_blank">Inbound email actions</a></div></div></div></div>]]></content>
-        <last_sync>2018-08-02 14:51:07</last_sync>
+        <last_sync>2019-08-27 15:07:10</last_sync>
         <modifier>normal</modifier>
         <name>sysevent_in_email_action-normal</name>
         <page>sysevent_in_email_action</page>
@@ -19,14 +18,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6cbada1fdbaed7009b2689584b9619f6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>sysevent_in_email_action-normal</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_embedded_help_content_6cbada1fdbaed7009b2689584b9619f6</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-02 14:51:07</sys_updated_on>
+        <sys_updated_on>2019-08-27 15:07:10</sys_updated_on>
         <version>k</version>
     </sys_embedded_help_content>
     <sys_translated_text action="delete_multiple" query="documentkey=6cbada1fdbaed7009b2689584b9619f6"/>

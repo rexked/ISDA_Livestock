@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Batchfill Tagging" max_length="40" name="x_cria_livestock_t_batchfill_tagging" sizeclass="7623" text_index="true" type="collection">
+        <element label="Age" max_length="5" name="age" type="string"/>
+        <element label="Breed" max_length="40" name="breed" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Official Identification" max_length="40" name="official_id" type="string"/>
+        <element label="City" max_length="40" name="owner_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Herd Owner Name (select existing contact)" max_length="32" name="owner_name" reference="x_cria_livestock_t_frequent_destinations" reference_qual="assoc_vetDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ" reference_qual_condition="assoc_vetDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="32" name="owner_state" reference="u_states" type="reference"/>
+        <element label="Address" max_length="100" name="owner_street" type="string"/>
+        <element label="Zip" max_length="10" name="owner_zip" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Parent" max_length="32" name="parent" reference="x_cria_livestock_t_tagging_station_records" type="reference"/>
+        <element label="Record ID" max_length="40" name="record_id" type="string"/>
+        <element label="Remarks" max_length="255" name="remarks" type="string"/>
+        <element default="javascript: gs.getSessionID()" label="Session ID" max_length="100" name="session_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sex" max_length="40" name="sex" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="female"/>
+                <element inactive_on_update="false" label="Male" value="male"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="owner_name"/>
+        </index>
+        <index name="index3">
+            <element name="official_id"/>
+        </index>
+        <index name="index4">
+            <element name="owner_state"/>
+        </index>
+    </element>
+</database>

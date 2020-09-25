@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Vet Certification" section_id="4ad8ba58dba4f3009b2689584b9619e5" sys_domain="57615f4cdb33e300c64e5eea4b9619be" table="x_cria_livestock_t_vaccinations_cvi" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vet_ref</element>
+            <position>0</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-07-25 20:02:46</sys_created_on>
+            <sys_id>3eb67766dbbabf009b2689584b9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Certification" display_value="Vet Certification" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">4ad8ba58dba4f3009b2689584b9619e5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-25 20:02:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_veterinarian</element>
+            <position>1</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-07-25 20:02:46</sys_created_on>
+            <sys_id>b2b67766dbbabf009b2689584b9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Certification" display_value="Vet Certification" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">4ad8ba58dba4f3009b2689584b9619e5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-25 20:02:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vet_cred_num</element>
+            <position>2</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-07-25 20:02:46</sys_created_on>
+            <sys_id>36b67766dbbabf009b2689584b9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Certification" display_value="Vet Certification" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">4ad8ba58dba4f3009b2689584b9619e5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-25 20:02:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_st_lic_num</element>
+            <position>3</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-07-25 20:02:46</sys_created_on>
+            <sys_id>b6b67766dbbabf009b2689584b9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Certification" display_value="Vet Certification" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">4ad8ba58dba4f3009b2689584b9619e5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-25 20:02:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-07-25 20:02:46</sys_created_on>
+            <sys_id>3ab67766dbbabf009b2689584b9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Certification" display_value="Vet Certification" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">4ad8ba58dba4f3009b2689584b9619e5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-25 20:02:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signature_date</element>
+            <position>5</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-07-25 20:02:46</sys_created_on>
+            <sys_id>bab67766dbbabf009b2689584b9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vet Certification" display_value="Vet Certification" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">4ad8ba58dba4f3009b2689584b9619e5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-25 20:02:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Vet Certification</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-03-28 19:24:46</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path/>
+            <sys_id>4ad8ba58dba4f3009b2689584b9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Vet Certification</sys_name>
+            <sys_overrides caption="Vet Certification" display_value="Vet Certification" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="2e0a3304db77e300c64e5eea4b961960" view="46dbeec8db2cb3009b2689584b9619d6">3f6c260cdb2cb3009b2689584b96195e</sys_overrides>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_4ad8ba58dba4f3009b2689584b9619e5</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-03-28 19:24:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

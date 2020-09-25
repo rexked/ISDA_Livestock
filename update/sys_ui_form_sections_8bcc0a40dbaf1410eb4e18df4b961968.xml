@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8bcc0a40dbaf1410eb4e18df4b961968" sys_domain="global" table="" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-09-24 17:04:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bcc0a40dbaf1410eb4e18df4b961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="" name="NULL" sys_domain="global" view="689cd97dd7103100b7490ee60e610333">8bcc0a40dbaf1410eb4e18df4b961968</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="global" view="689cd97dd7103100b7490ee60e610333">18e0814547330200d2937eaecb9a7149</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-09-24 17:04:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-09-24 17:04:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bcc0a40dbaf1410eb4e18df4b96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="" name="NULL" sys_domain="global" view="689cd97dd7103100b7490ee60e610333">8bcc0a40dbaf1410eb4e18df4b961968</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-09-24 17:04:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name/>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-09-24 17:04:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bcc0a40dbaf1410eb4e18df4b961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_overrides/>
+            <sys_package display_value="Program Management" source="com.snc.program_management">26e84d1cdbfddb409b2689584b96194b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8bcc0a40dbaf1410eb4e18df4b961968</sys_update_name>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-09-24 17:04:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="New" name="new">689cd97dd7103100b7490ee60e610333</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

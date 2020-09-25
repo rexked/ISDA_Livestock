@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>400</order>
+        <question display_value="Laboratory">fb28fd8cdb896f009b2689584b9619ec</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-04 20:33:07</sys_created_on>
+        <sys_id>f04afd00dbc96f009b2689584b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Montana Veterinary Diagnostic Lab</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>question_choice_f04afd00dbc96f009b2689584b9619fc</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-04 20:33:07</sys_updated_on>
+        <text>Montana Veterinary Diagnostic Lab</text>
+        <value>montana_vet_diag_lab</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f04afd00dbc96f009b2689584b9619fc"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>f04afd00dbc96f009b2689584b9619fc</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-04 20:33:07</sys_created_on>
+        <sys_id>344afd00dbc96f009b2689584b9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-04 20:33:07</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>f04afd00dbc96f009b2689584b9619fc</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-04 20:33:07</sys_created_on>
+        <sys_id>f84afd00dbc96f009b2689584b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-04 20:33:07</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

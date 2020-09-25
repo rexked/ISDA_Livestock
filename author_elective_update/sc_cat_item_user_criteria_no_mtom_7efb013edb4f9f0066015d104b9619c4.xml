@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Brucellosis Vaccination Record">ca37af2adbb8d300c64e5eea4b9619a9</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-07-05 20:08:37</sys_created_on>
+        <sys_id>7efb013edb4f9f0066015d104b9619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Brucellosis Vaccination Record.ISDA read only users</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_7efb013edb4f9f0066015d104b9619c4</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-07-05 20:08:37</sys_updated_on>
+        <user_criteria display_value="ISDA read only users">975b0dfadb4f9f0066015d104b96195e</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_7efb013edb4f9f0066015d104b9619c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Brucellosis Vaccination Record">ca37af2adbb8d300c64e5eea4b9619a9</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-07-05 20:08:37</sys_created_on><sys_id>7efb013edb4f9f0066015d104b9619c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Brucellosis Vaccination Record.ISDA read only users</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_7efb013edb4f9f0066015d104b9619c4</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-07-05 20:08:37</sys_updated_on><user_criteria display_value="ISDA read only users">975b0dfadb4f9f0066015d104b96195e</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-952785933</payload_hash>
+        <record_name>Brucellosis Vaccination Record.ISDA read only users</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-07-05 20:08:37</sys_created_on>
+        <sys_id>f6fb013edb4f9f0066015d104b9619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1646c0f92f80000001</sys_recorded_at>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-07-05 20:08:37</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>fefb013eb74f9f000f202a2c9bf947c6</update_guid>
+        <update_guid_history>fefb013eb74f9f000f202a2c9bf947c6:-952785933</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 09/05/2018 09:12:35 AM">becad3eedbd86b00eb4e18df4b9619de</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-05 15:12:35</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>3660a2894c8f4cd6865b415acafcc0a4</sys_id>
+        <sys_metadata>7efb013edb4f9f0066015d104b9619c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Brucellosis Vaccination Record.ISDA read only users</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_7efb013edb4f9f0066015d104b9619c4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_7efb013edb4f9f0066015d104b9619c4">f6fb013edb4f9f0066015d104b9619c7</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-05 15:12:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

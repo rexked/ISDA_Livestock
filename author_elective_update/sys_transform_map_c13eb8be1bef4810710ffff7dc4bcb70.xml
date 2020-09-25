@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>Import CVI Temp Batch Transform Map</name>
+        <order>200</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_cria_livestock_t_import_cvi_temp_batch</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-18 04:13:55</sys_created_on>
+        <sys_id>c13eb8be1bef4810710ffff7dc4bcb70</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Import CVI Temp Batch Transform Map</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_transform_map_c13eb8be1bef4810710ffff7dc4bcb70</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-25 22:09:11</sys_updated_on>
+        <target_table>x_cria_livestock_t_batchfill_import_cvi</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_transform_map_c13eb8be1bef4810710ffff7dc4bcb70</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;No&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Import CVI Temp Batch Transform Map&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;run_business_rules&gt;true&lt;/run_business_rules&gt;&lt;run_script&gt;false&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_cria_livestock_t_import_cvi_temp_batch&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;tsears&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-03-18 04:13:55&lt;/sys_created_on&gt;&lt;sys_id&gt;c13eb8be1bef4810710ffff7dc4bcb70&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Import CVI Temp Batch Transform Map&lt;/sys_name&gt;&lt;sys_package display_value="Livestock Tracking" source="x_cria_livestock_t"&gt;7b1a2026dba09700df68f2b6ae96198c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Livestock Tracking"&gt;7b1a2026dba09700df68f2b6ae96198c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_c13eb8be1bef4810710ffff7dc4bcb70&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;tsears&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-25 22:09:11&lt;/sys_updated_on&gt;&lt;target_table&gt;x_cria_livestock_t_batchfill_import_cvi&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>788520722</payload_hash>
+        <record_name>Import CVI Temp Batch Transform Map</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-25 22:09:11</sys_created_on>
+        <sys_id>71973c11dbffc010447b4b8b0b9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17113be02870000001</sys_recorded_at>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-25 22:09:11</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>39973c1184ffc010760a7ec0bf3cf5d8</update_guid>
+        <update_guid_history>39973c1184ffc010760a7ec0bf3cf5d8:788520722,b3428b45467bc0109359641ee403a4c6:1419232763,57b745b60e238810b5a4f173a9c36fc6:788520722,9a5e74becdef48105d06f8e12a97a0e2:1753895377,1657057a4feb4450aebe60bce77a1e95:1789101149,07c04dfe8eab445012f42deb7f6206c9:1953532145</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-26 00:46:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>07ef6bad795c4252806da0e6b8633199</sys_id>
+        <sys_metadata>c13eb8be1bef4810710ffff7dc4bcb70</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import CVI Temp Batch Transform Map</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_transform_map_c13eb8be1bef4810710ffff7dc4bcb70</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_c13eb8be1bef4810710ffff7dc4bcb70">71973c11dbffc010447b4b8b0b9619d9</sys_update_version>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-26 00:46:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

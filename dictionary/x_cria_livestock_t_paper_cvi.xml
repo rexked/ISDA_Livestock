@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Paper Export CVIs" max_length="40" name="x_cria_livestock_t_paper_cvi" sizeclass="71468" type="collection">
+        <element label="Certificate Number" max_length="100" name="certificate_number" type="string"/>
+        <element label="Consignee City" max_length="100" name="consignee_city" type="string"/>
+        <element label="Consignee Name" max_length="100" name="consignee_name" type="string"/>
+        <element label="Consignee State" max_length="100" name="consignee_state" type="string"/>
+        <element label="Consignor City" max_length="100" name="consignor_city" type="string"/>
+        <element label="Consignor Name" max_length="100" name="consignor_name" type="string"/>
+        <element label="Description" max_length="100" name="description" type="string"/>
+        <element label="ID" max_length="100" name="id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Bulls" max_length="32" name="number_of_bulls" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Cows" max_length="32" name="number_of_cows" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Heifers" max_length="32" name="number_of_heifers" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of Steers" max_length="32" name="number_of_steers" type="integer"/>
+        <element label="OTHER ID" max_length="100" name="other_id" type="string"/>
+        <element label="Shipment date" max_length="100" name="shipment_date" type="string"/>
+        <element label="TAT" max_length="100" name="tat" type="string"/>
+        <element label="Veterinarian" max_length="100" name="veterinarian" type="string"/>
+    </element>
+</database>

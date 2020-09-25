@@ -1,101 +1,156 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Consignee Information" section_id="7b851f2bdb6a1b009b2689584b961978" sys_domain="global" table="x_cria_livestock_t_saleyard_release" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>slyd_consignee_name</element>
             <position>0</position>
-            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 17:33:45</sys_created_on>
-            <sys_id>b7851f2bdb6a1b009b2689584b9619c0</sys_id>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-01-11 01:47:57</sys_created_on>
+            <sys_id>4f6a5b4ddbda8850eb4e18df4b96191e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Consignee Information" display_value="Consignee Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">7b851f2bdb6a1b009b2689584b961978</sys_ui_section>
-            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 17:33:45</sys_updated_on>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-01-11 01:47:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>slyd_consignee_street</element>
             <position>1</position>
-            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 17:33:45</sys_created_on>
-            <sys_id>3b851f2bdb6a1b009b2689584b9619c0</sys_id>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-01-11 01:47:57</sys_created_on>
+            <sys_id>c36a5b4ddbda8850eb4e18df4b96191f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Consignee Information" display_value="Consignee Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">7b851f2bdb6a1b009b2689584b961978</sys_ui_section>
-            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 17:33:45</sys_updated_on>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-01-11 01:47:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>slyd_consignee_city</element>
             <position>2</position>
-            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 17:33:45</sys_created_on>
-            <sys_id>bb851f2bdb6a1b009b2689584b9619c0</sys_id>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-01-11 01:47:57</sys_created_on>
+            <sys_id>4b6a5b4ddbda8850eb4e18df4b96191f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Consignee Information" display_value="Consignee Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">7b851f2bdb6a1b009b2689584b961978</sys_ui_section>
-            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 17:33:45</sys_updated_on>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-01-11 01:47:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>slyd_consignee_state</element>
             <position>3</position>
-            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 17:33:45</sys_created_on>
-            <sys_id>3f851f2bdb6a1b009b2689584b9619c0</sys_id>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-01-11 01:47:57</sys_created_on>
+            <sys_id>cf6a5b4ddbda8850eb4e18df4b96191f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Consignee Information" display_value="Consignee Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">7b851f2bdb6a1b009b2689584b961978</sys_ui_section>
-            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 17:33:45</sys_updated_on>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-01-11 01:47:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>slyd_consignee_zip</element>
             <position>4</position>
-            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 17:33:45</sys_created_on>
-            <sys_id>bf851f2bdb6a1b009b2689584b9619c0</sys_id>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-01-11 01:47:57</sys_created_on>
+            <sys_id>476a5b4ddbda8850eb4e18df4b961920</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Consignee Information" display_value="Consignee Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">7b851f2bdb6a1b009b2689584b961978</sys_ui_section>
-            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 17:33:45</sys_updated_on>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-01-11 01:47:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>5</position>
-            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 17:33:45</sys_created_on>
-            <sys_id>33851f2bdb6a1b009b2689584b9619c1</sys_id>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-01-11 01:47:57</sys_created_on>
+            <sys_id>cb6a5b4ddbda8850eb4e18df4b961920</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Consignee Information" display_value="Consignee Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">7b851f2bdb6a1b009b2689584b961978</sys_ui_section>
-            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 17:33:45</sys_updated_on>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-01-11 01:47:57</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>consignee_phone</element>
             <position>6</position>
-            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-            <sys_created_on>2018-06-13 17:33:45</sys_created_on>
-            <sys_id>b3851f2bdb6a1b009b2689584b9619c1</sys_id>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-01-11 01:47:57</sys_created_on>
+            <sys_id>436a5b4ddbda8850eb4e18df4b961921</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Consignee Information" display_value="Consignee Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">7b851f2bdb6a1b009b2689584b961978</sys_ui_section>
-            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-            <sys_updated_on>2018-06-13 17:33:45</sys_updated_on>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-01-11 01:47:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dest_address_different</element>
+            <position>7</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-01-11 01:47:57</sys_created_on>
+            <sys_id>c76a5b4ddbda8850eb4e18df4b961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignee Information" display_value="Consignee Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">7b851f2bdb6a1b009b2689584b961978</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-01-11 01:47:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dest_address</element>
+            <position>8</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-01-11 01:47:57</sys_created_on>
+            <sys_id>4f6a5b4ddbda8850eb4e18df4b961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignee Information" display_value="Consignee Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">7b851f2bdb6a1b009b2689584b961978</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-01-11 01:47:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dest_state</element>
+            <position>9</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-01-11 01:47:58</sys_created_on>
+            <sys_id>c36a5b4ddbda8850eb4e18df4b961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignee Information" display_value="Consignee Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">7b851f2bdb6a1b009b2689584b961978</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-01-11 01:47:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_destination_zip</element>
+            <position>10</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-01-11 01:47:58</sys_created_on>
+            <sys_id>4b6a5b4ddbda8850eb4e18df4b961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Consignee Information" display_value="Consignee Information" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="Default view">7b851f2bdb6a1b009b2689584b961978</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-01-11 01:47:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

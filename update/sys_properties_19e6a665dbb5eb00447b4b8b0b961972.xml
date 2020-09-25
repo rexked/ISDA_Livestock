@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Brucellosis Vaccination Record activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_cria_livestock_t_brucellosis_vaccination_record_activity.fields</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-11-15 22:26:05</sys_created_on>
+        <sys_id>19e6a665dbb5eb00447b4b8b0b961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_cria_livestock_t_brucellosis_vaccination_record_activity.fields</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_properties_19e6a665dbb5eb00447b4b8b0b961972</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-11-15 22:26:05</sys_updated_on>
+        <type>string</type>
+        <value>record_id,herd_owner_name,herd_loc,u_veterinarian,sys_created_on,official_ids,date_of_vaccination,vacc_date,sys_created_by,sys_updated_on,sys_updated_by,herd_owner_address,herd_owner_city,sys_class_name,u_county,dosage,draft,u_herd_owner_info,herd_owner,herd_type,lab_result_table,number,parent_ritm,u_phone_number,premise_id_number,rb51_vacc_serial_num,serial_number_expiration_date,herd_owner_state,sys_tags,sys_mod_count,vaccination_tattoo,vacc_expire_date,vaccine_mfg_and_strain,herd_owner_zip,*Email*,*Relations*,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=19e6a665dbb5eb00447b4b8b0b961972"/>
+</record_update>

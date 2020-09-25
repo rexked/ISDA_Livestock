@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="57615f4cdb33e300c64e5eea4b9619be" table="x_cria_livestock_t_batchfill_cvi" version="2" view="print_cvi">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>official_identification</element>
+            <list_id display_value="x_cria_livestock_t_batchfill_cvi" element="NULL" name="x_cria_livestock_t_batchfill_cvi" parent="NULL" relationship="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="e2396df3db9a5300c64e5eea4b9619ab">7bf8e297dbc9f3409b2689584b961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-01 22:28:42</sys_created_on>
+            <sys_id>73f8e297dbc9f3409b2689584b961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-01 22:28:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>alt_id</element>
+            <list_id display_value="x_cria_livestock_t_batchfill_cvi" element="NULL" name="x_cria_livestock_t_batchfill_cvi" parent="NULL" relationship="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="e2396df3db9a5300c64e5eea4b9619ab">7bf8e297dbc9f3409b2689584b961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-01 22:28:42</sys_created_on>
+            <sys_id>f3f8e297dbc9f3409b2689584b961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-01 22:28:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>age</element>
+            <list_id display_value="x_cria_livestock_t_batchfill_cvi" element="NULL" name="x_cria_livestock_t_batchfill_cvi" parent="NULL" relationship="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="e2396df3db9a5300c64e5eea4b9619ab">7bf8e297dbc9f3409b2689584b961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-01 22:28:42</sys_created_on>
+            <sys_id>77f8e297dbc9f3409b2689584b961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-01 22:28:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sex</element>
+            <list_id display_value="x_cria_livestock_t_batchfill_cvi" element="NULL" name="x_cria_livestock_t_batchfill_cvi" parent="NULL" relationship="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="e2396df3db9a5300c64e5eea4b9619ab">7bf8e297dbc9f3409b2689584b961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-01 22:28:42</sys_created_on>
+            <sys_id>f7f8e297dbc9f3409b2689584b961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-01 22:28:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>breed</element>
+            <list_id display_value="x_cria_livestock_t_batchfill_cvi" element="NULL" name="x_cria_livestock_t_batchfill_cvi" parent="NULL" relationship="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="e2396df3db9a5300c64e5eea4b9619ab">7bf8e297dbc9f3409b2689584b961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-01 22:28:42</sys_created_on>
+            <sys_id>7bf8e297dbc9f3409b2689584b961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-01 22:28:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_disease_surveillance</element>
+            <list_id display_value="x_cria_livestock_t_batchfill_cvi" element="NULL" name="x_cria_livestock_t_batchfill_cvi" parent="NULL" relationship="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="e2396df3db9a5300c64e5eea4b9619ab">7bf8e297dbc9f3409b2689584b961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-01 22:28:42</sys_created_on>
+            <sys_id>fbf8e297dbc9f3409b2689584b961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-01 22:28:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-01 22:28:42</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path/>
+            <sys_id>7bf8e297dbc9f3409b2689584b961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cria_livestock_t_batchfill_cvi</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_list_x_cria_livestock_t_batchfill_cvi_print_cvi_7bf8e297dbc9f3409b2689584b961938</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-01 22:28:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Print CVI" name="print_cvi">e2396df3db9a5300c64e5eea4b9619ab</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="My Homepage 1">2556ed2cdb5b0410447b4b8b0b9619cc</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>2</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-27 21:07:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2276ad6cdb5b0410447b4b8b0b961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2556ed2cdb5b0410447b4b8b0b9619cc</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_2276ad6cdb5b0410447b4b8b0b961904</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-27 21:07:12</sys_updated_on>
+        <tab display_value="ISDA">6676ad6cdb5b0410447b4b8b0b961902</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

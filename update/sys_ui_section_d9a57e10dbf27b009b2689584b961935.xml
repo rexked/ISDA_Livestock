@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Testing Laboratory" section_id="d9a57e10dbf27b009b2689584b961935" sys_domain="global" table="x_cria_livestock_t_vaccinations_market_cattle" version="3" view="Draft">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_testing_lab</element>
+            <position>0</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-07-18 15:38:35</sys_created_on>
+            <sys_id>38273690dbf27b009b2689584b9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Testing Laboratory" display_value="Testing Laboratory" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">d9a57e10dbf27b009b2689584b961935</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-18 15:38:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-07-18 15:38:35</sys_created_on>
+            <sys_id>b8273690dbf27b009b2689584b9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Testing Laboratory" display_value="Testing Laboratory" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">d9a57e10dbf27b009b2689584b961935</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-18 15:38:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dsa_herd</element>
+            <position>2</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-07-18 15:38:35</sys_created_on>
+            <sys_id>3c273690dbf27b009b2689584b9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Testing Laboratory" display_value="Testing Laboratory" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">d9a57e10dbf27b009b2689584b961935</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-18 15:38:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Testing Laboratory</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_vaccinations_market_cattle</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-07-18 15:32:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9a57e10dbf27b009b2689584b961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Testing Laboratory</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_d9a57e10dbf27b009b2689584b961935</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-07-18 15:32:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Draft" name="Draft">394b2aa5dbe0a700c64e5eea4b961987</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

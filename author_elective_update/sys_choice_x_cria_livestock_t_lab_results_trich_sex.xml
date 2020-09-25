@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="sex" table="x_cria_livestock_t_lab_results_trich" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Female</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sequence/>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-20 23:15:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01dd5e1edb215b40c64e5eea4b961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-20 23:15:15</sys_updated_on>
+            <value>female</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Male</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sequence/>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-20 23:14:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40cd9a5edb215b40c64e5eea4b961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-20 23:14:52</sys_updated_on>
+            <value>male</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>B</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sequence>0</sequence>
+            <sys_created_by>tallen</sys_created_by>
+            <sys_created_on>2020-02-03 17:19:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>594c0174dbbec410447b4b8b0b9619bd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-31 21:17:52</sys_updated_on>
+            <value>B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bull</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sequence>0</sequence>
+            <sys_created_by>rraymond</sys_created_by>
+            <sys_created_on>2020-01-02 23:25:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>251d652adb0a4450447b4b8b0b9619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rraymond</sys_updated_by>
+            <sys_updated_on>2020-01-02 23:25:27</sys_updated_on>
+            <value>Bull</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>M</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sequence>0</sequence>
+            <sys_created_by>ddownum</sys_created_by>
+            <sys_created_on>2019-10-07 14:30:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a4033dadbd80090eb4e18df4b96198f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-31 21:17:55</sys_updated_on>
+            <value>M</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sex</element>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-20 23:14:52</sys_created_on>
+            <sys_id>ec968564db192b40eb4e18df4b9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sex</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_trich_sex</sys_update_name>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-20 23:14:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_lab_results_trich_sex</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="sex" table="x_cria_livestock_t_lab_results_trich" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>false</inactive><label>Female</label><language>en</language><name>x_cria_livestock_t_lab_results_trich</name><sequence/><sys_created_by>dyoung</sys_created_by><sys_created_on>2018-04-20 23:15:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>01dd5e1edb215b40c64e5eea4b961944</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dyoung</sys_updated_by><sys_updated_on>2018-04-20 23:15:15</sys_updated_on><value>female</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>false</inactive><label>Male</label><language>en</language><name>x_cria_livestock_t_lab_results_trich</name><sequence/><sys_created_by>dyoung</sys_created_by><sys_created_on>2018-04-20 23:14:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>40cd9a5edb215b40c64e5eea4b961931</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dyoung</sys_updated_by><sys_updated_on>2018-04-20 23:14:52</sys_updated_on><value>male</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>true</inactive><label>B</label><language>en</language><name>x_cria_livestock_t_lab_results_trich</name><sequence>0</sequence><sys_created_by>tallen</sys_created_by><sys_created_on>2020-02-03 17:19:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>594c0174dbbec410447b4b8b0b9619bd</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-31 21:17:52</sys_updated_on><value>B</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>false</inactive><label>Bull</label><language>en</language><name>x_cria_livestock_t_lab_results_trich</name><sequence>0</sequence><sys_created_by>rraymond</sys_created_by><sys_created_on>2020-01-02 23:25:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>251d652adb0a4450447b4b8b0b9619d2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rraymond</sys_updated_by><sys_updated_on>2020-01-02 23:25:27</sys_updated_on><value>Bull</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>true</inactive><label>M</label><language>en</language><name>x_cria_livestock_t_lab_results_trich</name><sequence>0</sequence><sys_created_by>ddownum</sys_created_by><sys_created_on>2019-10-07 14:30:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9a4033dadbd80090eb4e18df4b96198f</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-31 21:17:55</sys_updated_on><value>M</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>sex</element><name>x_cria_livestock_t_lab_results_trich</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>dyoung</sys_created_by><sys_created_on>2018-04-20 23:14:52</sys_created_on><sys_id>ec968564db192b40eb4e18df4b9619d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sex</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_choice_x_cria_livestock_t_lab_results_trich_sex</sys_update_name><sys_updated_by>dyoung</sys_updated_by><sys_updated_on>2018-04-20 23:14:52</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>631173542</payload_hash>
+        <record_name>Batchfill Trich.Sex</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-31 21:17:55</sys_created_on>
+        <sys_id>d5652bcbdbff4810eb4e18df4b961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1713275398a0000001</sys_recorded_at>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-31 21:17:55</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>9d652bcb4eff4810ad1e2419fcb23b07</update_guid>
+        <update_guid_history>9d652bcb4eff4810ad1e2419fcb23b07:631173542,2065e7cbcfff4810f5e8b932dfed6b33:-519469279,9d4c0174bebec41078afff77019420c0:-1769601774,a11d652a6b0a4450b74ffb5580990bd5:1419407262,da4033da64d800907933bfa5eb67a892:-1612843860,46d2991ae08484101c0271def4656b6a:664675288,79d2991af4848410c06aa9685f68b142:-2138965684,7dd2991ae98484102940f885c1a5c226:-391260968,9469f7be34b93b001d9f37e9fe8a0a94:410772396,f4f5f3b37245674041f072c3a3112056:1856382776,ee08cf891b7ce700c668b658e03fe727:-1612843860,40c17ec9fa306b00c40b71df2ed1b78c:755717048,cd152abef06427008c899c9cc7ac9e81:-2138965684,890edd96497a5700d5ec3ea72135ab98:0,739b5dde233a570071481de79ccc651e:1316660622,339b5dde403a570078c7303f5230551b:-16031439,7fdd925efc215b40db054f570c22b886:664675288,86cdd25ecd215b40381adefbf97fd6bb:-16031439</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>ec968564db192b40eb4e18df4b9619d4</sys_id>
+        <sys_metadata>ec968564db192b40eb4e18df4b9619d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sex</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_trich_sex</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_lab_results_trich_sex">d5652bcbdbff4810eb4e18df4b961908</sys_update_version>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

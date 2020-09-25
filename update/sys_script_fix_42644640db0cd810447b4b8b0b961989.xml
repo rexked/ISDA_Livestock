@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description>Do not run in production</description>
+        <flush_cache>false</flush_cache>
+        <name>Remove zeros from date ISDN</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[gs.info("Debug");
+var count = 0;
+var shipment_date;
+var remainder;
+var zero_start;
+var new_date;
+
+var gr = new GlideRecord('x_cria_livestock_t_paper_cvi');
+//gr.addQuery('certificate_number', '287892');
+gr.query();
+
+while (gr.next()) 
+{
+		
+   count = count + 1;
+
+   shipment_date = gr.shipment_date;
+  
+   if (shipment_date != '')
+   {
+      zero_start = shipment_date.indexOf('00:00:00'); 
+   }
+
+   
+
+   // Check if the date has zeros (-1 = not found) 
+   if ((zero_start != -1)&&(shipment_date != ''))
+   {
+      // Extract the new truncated date
+      gs.info('zero_start = ' + zero_start);
+      new_date =  shipment_date.slice(0,zero_start);
+      gs.info('shipment_date = ' + shipment_date + ' zero_start = ' + zero_start);
+      gs.info('new_date = ' + new_date);
+      
+      // Set the new truncated date
+      gr.shipment_date = new_date;
+      gr.update();
+   }
+
+    
+
+}
+ 
+ 
+gs.info('count = ' + count);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>Imckirdy</sys_created_by>
+        <sys_created_on>2020-04-03 16:48:29</sys_created_on>
+        <sys_id>42644640db0cd810447b4b8b0b961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remove zeros from date ISDN</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_fix_42644640db0cd810447b4b8b0b961989</sys_update_name>
+        <sys_updated_by>Imckirdy</sys_updated_by>
+        <sys_updated_on>2020-04-03 16:48:29</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

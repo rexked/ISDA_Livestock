@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>ReImport Animals from Attachment</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2/>
+        <comments/>
+        <condition>gs.hasRole('x_cria_livestock_t.admin')</condition>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>ReImport Animals from Attachment</name>
+        <onclick>deleteAnimals()</onclick>
+        <order>50</order>
+        <script><![CDATA[deleteAnimals();
+function deleteAnimals(){
+
+	//BEGIN ANIMAL DISASSOCIATION
+	//Find animals with current record as parrent
+	var gd = new GlideRecord('x_cria_livestock_t_lab_results_bruc_vacc');
+	gd.addQuery('parent', current.sys_id);
+	gd.query();
+	while(gd.next()){
+		//set parent to none. animal will exist until monthly cleanup script executes
+		gd.parent = '';
+		gd.setWorkflow(false); 
+		gd.update();
+	}
+
+
+
+
+	//BEGIN IMPORT
+	// Set the following variables with the name of your import set table and task id column
+	var importSetTableName = "x_cria_livestock_t_bruc_vacc_temp";
+	var transformMapIDs = "e1dea5addb84e3009b2689584b961970";   //Use a comma to specify multiple transform maps
+	
+	// Create data source for attachment
+	var dataSource = new GlideRecord("sys_data_source");
+	dataSource.initialize();
+	dataSource.name = "Test Import";
+	dataSource.import_set_table_name = importSetTableName;
+	dataSource.file_retrieval_method = "Attachment";
+	dataSource.type = "File";
+	dataSource.format = "Excel";
+	dataSource.header_row = 1;
+	dataSource.sheet_number = 1;
+	var dataSourceID = dataSource.insert();
+	
+	// Copy the attachment to the data source
+	GlideSysAttachment.copy('x_cria_livestock_t_brucellosis_vaccination_record', current.sys_id, "sys_data_source", dataSourceID);
+	
+	// Process datasource file to import set table
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);
+	
+	// Update processed rows with parent value
+	var importSetRow = new GlideRecord(importSetTableName);
+	importSetRow.addQuery("sys_import_set", importSetRecID);
+	importSetRow.query();
+	while (importSetRow.next()) {
+		importSetRow.parent = current.sys_id;
+		importSetRow.update();
+	}
+	
+	// Transform the import set records
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-09-17 17:08:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>45c41dc8db4040509b2689584b9619cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ReImport Animals from Attachment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_ui_action_45c41dc8db4040509b2689584b9619cd</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-05 18:04:57</sys_updated_on>
+        <table>x_cria_livestock_t_brucellosis_vaccination_record</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

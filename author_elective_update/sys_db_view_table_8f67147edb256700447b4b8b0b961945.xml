@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="DELETE">
+        <active>true</active>
+        <left_join>true</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-11-06 22:59:05</sys_created_on>
+        <sys_id>8f67147edb256700447b4b8b0b961945</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>cmn_location</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_db_view_table_8f67147edb256700447b4b8b0b961945</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-11-06 23:25:35</sys_updated_on>
+        <table>cmn_location</table>
+        <variable_prefix>loc</variable_prefix>
+        <view display_value="x_cria_livestock_t_isda_locations_users">aa07d83edb256700447b4b8b0b9619ab</view>
+        <where_clause/>
+    </sys_db_view_table>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_db_view_table_8f67147edb256700447b4b8b0b961945</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table"><sys_db_view_table action="INSERT_OR_UPDATE"><active>true</active><left_join>true</left_join><order>100</order><sys_class_name>sys_db_view_table</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-11-06 22:59:05</sys_created_on><sys_id>8f67147edb256700447b4b8b0b961945</sys_id><sys_mod_count>5</sys_mod_count><sys_name>cmn_location</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_db_view_table_8f67147edb256700447b4b8b0b961945</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-11-06 23:25:35</sys_updated_on><table>cmn_location</table><variable_prefix>loc</variable_prefix><view display_value="x_cria_livestock_t_isda_locations_users">aa07d83edb256700447b4b8b0b9619ab</view><where_clause/></sys_db_view_table></record_update>]]></payload>
+        <payload_hash>-116434368</payload_hash>
+        <record_name>cmn_location</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-11-06 23:25:35</sys_created_on>
+        <sys_id>413e9032db656700447b4b8b0b961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>166eb5877f80000001</sys_recorded_at>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-11-06 23:25:35</sys_updated_on>
+        <type>View Table</type>
+        <update_guid>093e9032c06567007461b6cc563d5f04</update_guid>
+        <update_guid_history>093e9032c06567007461b6cc563d5f04:-116434368,bf4d1832fd656700cb78df4f4b1d8706:375239483,e21b94fe692567005666740100b51ede:-116434368,6b0b54be7f256700d2bb30b491b40ef1:375239483,77f810befc25670082e4112803e8276e:-1422457974,7028587e552567009fef94ac199a12f6:-23586475</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-11-06 23:26:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table">sys_db_view_table</sys_db_object>
+        <sys_id>1decfc505c404c2c85516142a4841190</sys_id>
+        <sys_metadata>8f67147edb256700447b4b8b0b961945</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmn_location</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_8f67147edb256700447b4b8b0b961945</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_8f67147edb256700447b4b8b0b961945">413e9032db656700447b4b8b0b961905</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-11-06 23:26:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

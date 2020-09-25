@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Vaccine Information" section_id="9a86aac2db2a9700c64e5eea4b9619eb" sys_domain="global" table="x_cria_livestock_t_brucellosis_vaccination_record" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>rb51_vacc_serial_num</element>

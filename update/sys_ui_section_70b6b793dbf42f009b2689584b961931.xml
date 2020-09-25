@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Injection Information" section_id="70b6b793dbf42f009b2689584b961931" sys_domain="global" table="x_cria_livestock_t_vaccinations_tuberculosis" version="3" view="Draft">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>injection_date</element>
+            <position>0</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-02 21:41:21</sys_created_on>
+            <sys_id>c5b6b793dbf42f009b2689584b961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Injection Information" display_value="Injection Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">70b6b793dbf42f009b2689584b961931</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-02 21:41:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>injection_time</element>
+            <position>1</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-02 21:41:21</sys_created_on>
+            <sys_id>49b6b793dbf42f009b2689584b961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Injection Information" display_value="Injection Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">70b6b793dbf42f009b2689584b961931</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-02 21:41:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-02 21:41:21</sys_created_on>
+            <sys_id>c9b6b793dbf42f009b2689584b961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Injection Information" display_value="Injection Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">70b6b793dbf42f009b2689584b961931</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-02 21:41:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_test_read</element>
+            <position>3</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-02 21:41:21</sys_created_on>
+            <sys_id>4db6b793dbf42f009b2689584b961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Injection Information" display_value="Injection Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">70b6b793dbf42f009b2689584b961931</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-02 21:41:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_test_read</element>
+            <position>4</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-02 21:41:21</sys_created_on>
+            <sys_id>cdb6b793dbf42f009b2689584b961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Injection Information" display_value="Injection Information" name="x_cria_livestock_t_vaccinations_tuberculosis" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">70b6b793dbf42f009b2689584b961931</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-02 21:41:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Injection Information</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-10-02 21:41:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70b6b793dbf42f009b2689584b961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Injection Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_70b6b793dbf42f009b2689584b961931</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-10-02 21:41:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Draft" name="Draft">394b2aa5dbe0a700c64e5eea4b961987</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

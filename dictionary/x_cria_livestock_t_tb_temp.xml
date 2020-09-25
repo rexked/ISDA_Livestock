@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="TB Temp" max_length="40" name="x_cria_livestock_t_tb_temp" sizeclass="25" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Parent" max_length="100" name="parent" reference="x_cria_livestock_t_vaccinations_tuberculosis" type="reference"/>
+        <element attributes="import_attribute_name=Age (In Months),edge_encryption_enabled=true" label="Age (In Months)" max_length="40" name="u_age__in_months_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Alternate ID" max_length="40" name="u_alternate_id" type="string"/>
+        <element attributes="import_attribute_name=Alternate Identification,edge_encryption_enabled=true" label="Alternate Identification" max_length="40" name="u_alternate_identification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="BAPA" max_length="40" name="u_bapa" type="string"/>
+        <element attributes="import_attribute_name=Breed,edge_encryption_enabled=true" label="Breed" max_length="40" name="u_breed" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Culture Result" max_length="40" name="u_culture_result" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Final Test Interp" max_length="40" name="u_final_test_interp" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="FPA" max_length="40" name="u_fpa" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="M" max_length="40" name="u_m" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="N" max_length="40" name="u_n" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="O" max_length="40" name="u_o" type="string"/>
+        <element attributes="import_attribute_name=Official Identification,edge_encryption_enabled=true" label="Official Identification" max_length="40" name="u_official_identification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Official Identification(id)" max_length="40" name="u_official_identification_id_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Tests" max_length="40" name="u_other_tests" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="P" max_length="40" name="u_p" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Q" max_length="40" name="u_q" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="R" max_length="40" name="u_r" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rap" max_length="40" name="u_rap" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="40" name="u_remarks" type="string"/>
+        <element attributes="Natural Addition or Purchased Addition)=true,import_attribute_name=Remarks (please indicate if Re-tag,edge_encryption_enabled=true" label="Remarks (please indicate if Re-tag, Natural Addition or Purchased Addition)" max_length="40" name="u_remarks__ple_ased_addition_" type="string"/>
+        <element attributes="import_attribute_name=Sex,edge_encryption_enabled=true" label="Sex" max_length="40" name="u_sex" type="string"/>
+        <element attributes="import_attribute_name=Test Interpretation,edge_encryption_enabled=true" label="Test Interpretation" max_length="40" name="u_test_interpretation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Trich Tag Number" max_length="40" name="u_trich_tag_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tube Number" max_length="40" name="u_tube_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tube #" max_length="40" name="u_tube__" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vaccination Tattoo" max_length="40" name="u_vaccination_tattoo" type="string"/>
+    </element>
+</database>

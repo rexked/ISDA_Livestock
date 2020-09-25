@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_lab_tech_signature" table="x_cria_livestock_t_vaccinations_tuberculosis">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -47,7 +46,7 @@
         <reference_key/>
         <reference_qual>x_cria_livestock_t_livestock_user=true^x_cria_livestock_t_u_usertype=lab tech^EQ</reference_qual>
         <reference_qual_condition table="sys_user">x_cria_livestock_t_livestock_user=true^x_cria_livestock_t_u_usertype=lab tech^EQ<item endquery="false" field="x_cria_livestock_t_livestock_user" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="x_cria_livestock_t_u_usertype" goto="false" newquery="false" operator="=" or="false" value="lab tech"/>
+            <item display_value="Lab Tech" endquery="false" field="x_cria_livestock_t_u_usertype" goto="false" newquery="false" operator="=" or="false" value="lab tech"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
@@ -64,8 +63,8 @@
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_dictionary_x_cria_livestock_t_vaccinations_tuberculosis_u_lab_tech_signature</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-19 15:31:00</sys_updated_on>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-09-24 16:56:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Livestock Tracking">731aa826dba09700df68f2b6ae961960</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="dmn_demand">idea.submitter=9289f1c2dbf49300c64e5eea4b9619e5^ORidea.submitter=d7eceb09db724810447b4b8b0b961989^ORidea.submitter=48d6e606db789300c64e5eea4b9619eb^EQ<item display_table="sys_user" display_value="JUKER, MIRANDA" endquery="false" field="idea.submitter" goto="false" newquery="false" operator="=" or="false" value="9289f1c2dbf49300c64e5eea4b9619e5"/>
+            <item display_table="sys_user" display_value="Juker, Miranda" endquery="false" field="idea.submitter" goto="false" newquery="false" operator="=" or="true" value="d7eceb09db724810447b4b8b0b961989"/>
+            <item display_table="sys_user" display_value="Leibsle, Scott" endquery="false" field="idea.submitter" goto="false" newquery="false" operator="=" or="true" value="48d6e606db789300c64e5eea4b9619eb"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>LT Demands</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>dmn_demand</name>
+        <order>1099</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_cria_livestock_t.admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-15 05:57:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>384128acdb830450eb4e18df4b961919</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Active Demands</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_app_module_384128acdb830450eb4e18df4b961919</sys_update_name>
+        <sys_updated_by>tsears@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-02-15 06:20:16</sys_updated_on>
+        <timeline_page/>
+        <title>Active Demands</title>
+        <uncancelable>false</uncancelable>
+        <view_name>ISDA</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

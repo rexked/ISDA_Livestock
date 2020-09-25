@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_slyd_srvy_other" table="x_cria_livestock_t_batchfill_saleyard_release" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slyd_srvy_other</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_saleyard_release</name>
+            <sequence>1</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-04 22:01:29</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>c3cfdbaedba83b009b2689584b9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-04 22:01:29</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slyd_srvy_other</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_saleyard_release</name>
+            <sequence>2</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-04 22:01:42</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>e2df17eedba83b009b2689584b96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-04 22:01:42</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slyd_srvy_other</element>
+            <name>x_cria_livestock_t_batchfill_saleyard_release</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-04 22:01:29</sys_created_on>
+            <sys_id>b9df13eedba83b009b2689584b961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slyd_srvy_other</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_batchfill_saleyard_release_u_slyd_srvy_other</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-04 22:01:29</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_batchfill_saleyard_release_u_slyd_srvy_other</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_slyd_srvy_other" table="x_cria_livestock_t_batchfill_saleyard_release" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_slyd_srvy_other</element><hint/><inactive>false</inactive><label>No</label><language>en</language><name>x_cria_livestock_t_batchfill_saleyard_release</name><sequence>1</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-04 22:01:29</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>c3cfdbaedba83b009b2689584b9619e2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-04-04 22:01:29</sys_updated_on><value>No</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_slyd_srvy_other</element><hint/><inactive>false</inactive><label>Yes</label><language>en</language><name>x_cria_livestock_t_batchfill_saleyard_release</name><sequence>2</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-04 22:01:42</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>e2df17eedba83b009b2689584b96199f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-04-04 22:01:42</sys_updated_on><value>Yes</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_slyd_srvy_other</element><name>x_cria_livestock_t_batchfill_saleyard_release</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-04 22:01:29</sys_created_on><sys_id>b9df13eedba83b009b2689584b961932</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_slyd_srvy_other</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_choice_x_cria_livestock_t_batchfill_saleyard_release_u_slyd_srvy_other</sys_update_name><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-04-04 22:01:29</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1215738877</payload_hash>
+        <record_name>Batchfill Saleyard Release.Other</record_name>
+        <reverted_from/>
+        <source>a415a093db52b700086c89584b9619c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-02 16:12:31</sys_created_on>
+        <sys_id>3975ecd3db52b700086c89584b961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bb375836a0000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-02 16:12:31</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>c9efdbae5fa83b006077599d2f65e3e7</update_guid>
+        <update_guid_history>c9efdbae5fa83b006077599d2f65e3e7:1215738877,bddf13eef0a83b00fd9f47bebf30f233:1244719067</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>3d75ecd3db52b700086c89584b961983</sys_id>
+        <sys_metadata>3d75ecd3db52b700086c89584b961983</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slyd_srvy_other</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_batchfill_saleyard_release_u_slyd_srvy_other</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_batchfill_saleyard_release_u_slyd_srvy_other">3975ecd3db52b700086c89584b961985</sys_update_version>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

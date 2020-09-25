@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="43ade452dbb9b3009b2689584b961949" sys_domain="57615f4cdb33e300c64e5eea4b9619be" table="" version="3" view="new">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_brucellosis</element>
+            <position>0</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>8bade452dbb9b3009b2689584b961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>0fade452dbb9b3009b2689584b961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bruc_lab</element>
+            <position>2</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>8fade452dbb9b3009b2689584b961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_date_bled</element>
+            <position>3</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>03ade452dbb9b3009b2689584b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bruc_results</element>
+            <position>4</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>83ade452dbb9b3009b2689584b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>07ade452dbb9b3009b2689584b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>87ade452dbb9b3009b2689584b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_trich</element>
+            <position>7</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>0bade452dbb9b3009b2689584b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>8bade452dbb9b3009b2689584b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_trich_lab</element>
+            <position>9</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>0fade452dbb9b3009b2689584b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_trich_date</element>
+            <position>10</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>8fade452dbb9b3009b2689584b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_trich_acc</element>
+            <position>11</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>03ade452dbb9b3009b2689584b96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_trich_result</element>
+            <position>12</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>83ade452dbb9b3009b2689584b96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>07ade452dbb9b3009b2689584b96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>14</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>87ade452dbb9b3009b2689584b96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tb</element>
+            <position>15</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>0bade452dbb9b3009b2689584b96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>16</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>8bade452dbb9b3009b2689584b96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tb_date</element>
+            <position>17</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>0fade452dbb9b3009b2689584b96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tb_result</element>
+            <position>18</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>47ade452dbb9b3009b2689584b961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>c7ade452dbb9b3009b2689584b961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>20</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>4bade452dbb9b3009b2689584b961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_eia</element>
+            <position>21</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>cbade452dbb9b3009b2689584b961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>22</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>4fade452dbb9b3009b2689584b961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_eia_lab</element>
+            <position>23</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>cfade452dbb9b3009b2689584b961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_eia_acc</element>
+            <position>24</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>43ade452dbb9b3009b2689584b961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_eia_date</element>
+            <position>25</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>c3ade452dbb9b3009b2689584b961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>26</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>47ade452dbb9b3009b2689584b961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>27</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>c7ade452dbb9b3009b2689584b961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_srvy_other</element>
+            <position>28</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>4bade452dbb9b3009b2689584b961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>29</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>cbade452dbb9b3009b2689584b961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_other_test</element>
+            <position>30</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>4fade452dbb9b3009b2689584b961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_other_test_date</element>
+            <position>31</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>cfade452dbb9b3009b2689584b961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_other_results</element>
+            <position>32</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>43ade452dbb9b3009b2689584b96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_other_lab</element>
+            <position>33</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:04</sys_created_on>
+            <sys_id>c3ade452dbb9b3009b2689584b96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="689cd97dd7103100b7490ee60e610333">43ade452dbb9b3009b2689584b961949</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name/>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-06-04 17:43:03</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path/>
+            <sys_id>43ade452dbb9b3009b2689584b961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_43ade452dbb9b3009b2689584b961949</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-04 17:43:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="New" name="new">689cd97dd7103100b7490ee60e610333</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

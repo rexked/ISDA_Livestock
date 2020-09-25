@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="x_cria_livestock_t_batchfill_saleyard_release">sys_created_onBETWEENjavascript:gs.dateGenerate('2020-06-10','20:00:00')@javascript:gs.dateGenerate('2020-06-10','22:00:00')^EQ^GROUPBYparent<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="BETWEEN" or="false" value="javascript:gs.dateGenerate('2020-06-10','20:00:00')@javascript:gs.dateGenerate('2020-06-10','22:00:00')"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="parent"/>
+        </filter>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-06-14 05:28:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b76bde871b959c10f2456576bc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sr by rel 8pm</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_filter_b76bde871b959c10f2456576bc4bcb0c</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-06-14 05:28:58</sys_updated_on>
+        <table>x_cria_livestock_t_batchfill_saleyard_release</table>
+        <title>sr by rel 8pm</title>
+        <user/>
+    </sys_filter>
+</record_update>

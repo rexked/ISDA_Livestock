@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="57615f4cdb33e300c64e5eea4b9619be" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>age_in_months</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name> Validate Age</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '' || newValue == '' || newValue == oldValue) {
+		return;
+	}
+	var age = g_form.getValue('age_in_months');
+	
+	if (isNaN(age) || (age.indexOf('.') > -1))    {
+		if(Number.isSafeInteger(parseInt(age))){
+			var ageInteger = parseInt(age);
+			if(age.indexOf('.') >= 0){
+				ageInteger = ageInteger.toString().replace('.', '');
+				g_form.setValue('age_in_months', ageInteger);
+			}
+			else{
+			g_form.setValue('age_in_months', parseInt(age, 10));
+			}
+		}
+		else{
+			alert("Age should be a whole number with no text.");
+			g_form.setValue('age_in_months', '');
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-01 15:55:05</sys_created_on>
+        <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+        <sys_domain_path/>
+        <sys_id>68e79fb6dbd2b3009b2689584b9619c3</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name> Validate Age</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_client_68e79fb6dbd2b3009b2689584b9619c3</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-23 21:32:33</sys_updated_on>
+        <table>x_cria_livestock_t_batchfill_saleyard_release</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="session_id" label="Session ID" language="en" table="x_cria_livestock_t_lab_results_tub">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>session_id</element>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="vaccination_status" table="x_cria_livestock_t_vaccinations_cvi" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vaccination_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>All officially vaccinated with legible tattoos</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-14 20:44:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0175d06db86d7809b2689584b961965</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-14 20:45:38</sys_updated_on>
+            <value>all_vacc_legible_tattoos</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vaccination_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mixed Vaccination Status</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-14 20:45:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88b1a906db86d7809b2689584b9619bd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-14 20:46:04</sys_updated_on>
+            <value>mixed_vacc_status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vaccination_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not vaccinated</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-14 20:45:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b91e14adb86d7809b2689584b961918</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-14 20:45:43</sys_updated_on>
+            <value>not_vaccinated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vaccination_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unknown Vaccination Status</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-14 20:45:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>caa12582db86d7809b2689584b96190e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-14 20:45:56</sys_updated_on>
+            <value>unknown_vacc_status</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>vaccination_status</element>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-14 20:44:56</sys_created_on>
+            <sys_id>2f912d0edb46d7809b2689584b96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>vaccination_status</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_cvi_vaccination_status</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-14 20:44:56</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_vaccinations_cvi_vaccination_status</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="vaccination_status" table="x_cria_livestock_t_vaccinations_cvi" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vaccination_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>All officially vaccinated with legible tattoos</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-14 20:44:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0175d06db86d7809b2689584b961965</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-14 20:45:38</sys_updated_on>
+            <value>all_vacc_legible_tattoos</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vaccination_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mixed Vaccination Status</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-14 20:45:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88b1a906db86d7809b2689584b9619bd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-14 20:46:04</sys_updated_on>
+            <value>mixed_vacc_status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vaccination_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not vaccinated</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-14 20:45:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b91e14adb86d7809b2689584b961918</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-14 20:45:43</sys_updated_on>
+            <value>not_vaccinated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vaccination_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unknown Vaccination Status</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-14 20:45:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>caa12582db86d7809b2689584b96190e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-14 20:45:56</sys_updated_on>
+            <value>unknown_vacc_status</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>vaccination_status</element>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-14 20:44:56</sys_created_on>
+            <sys_id>2f912d0edb46d7809b2689584b96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>vaccination_status</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_cvi_vaccination_status</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-14 20:44:56</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>-2113195035</payload_hash>
+        <record_name>CVI / Health Certificate.Vaccination Status</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:54:46</sys_created_on>
+        <sys_id>d50e11d6db7a570066015d104b961973</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1642457bb140000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:54:46</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>150e11d6d17a570005a98abb3d0ba473</update_guid>
+        <update_guid_history>150e11d6d17a570005a98abb3d0ba473:0,5963641e06b65700bbcb87242089b63f:-1386020528,1d63641e6cb6570032be61daae61ea3c:1679216489,5563641e40b657001f721206bd8e1e3a:606212519,5d63641e1cb65700c2b0e2bf67c74637:1364108532,9ce1258a3086d7808f7d81d7d84c4727:-1793692703,aad1a18ad686d78026040d2092084862:-1774018990,97c1e14ae386d780a83aac8949e2461c:-669932364,86c1a18a0586d78073e6253816deec5d:1998091165,a3b1a18a8286d780461c49fc66b87ccd:-418021191,02b1e18a6086d7806f6b53a2dd261609:-670858171,c4b1a18acd86d7807f3d84feccfcd308:1933428927,c6a1ed06d986d780c0d429e97150d996:-665410558,af912d0e6646d78062fcc62b3938c49d:-1723598069</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cervin@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>990e11d6db7a570066015d104b96196f</sys_id>
+        <sys_metadata>990e11d6db7a570066015d104b96196f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vaccination_status</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_cvi_vaccination_status</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_vaccinations_cvi_vaccination_status">d50e11d6db7a570066015d104b961973</sys_update_version>
+        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

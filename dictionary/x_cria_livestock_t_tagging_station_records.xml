@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Tagging Station Records" max_length="40" name="x_cria_livestock_t_tagging_station_records" sizeclass="322" text_index="true" type="collection">
+        <element label="City" max_length="40" name="herd_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="County" max_length="32" name="herd_county" reference="u_counties" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Herd Location" max_length="32" name="herd_loc" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Herd Owner" max_length="32" name="herd_owner" reference="sys_user" type="reference"/>
+        <element label="Phone" max_length="15" name="herd_phone" type="string"/>
+        <element label="Premises ID" max_length="40" name="herd_premid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="State" max_length="32" name="herd_state" reference="u_states" type="reference"/>
+        <element label="Physical Address" max_length="100" name="herd_street" type="string"/>
+        <element label="Zip" max_length="10" name="herd_zip" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Official IDs" max_length="10000" name="official_ids" type="string"/>
+        <element label="Record Number" max_length="40" name="record_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Signature" max_length="32" name="signature" reference="sys_user" type="reference"/>
+        <element label="City" max_length="40" name="tag_city" type="string"/>
+        <element label="Date of Tagging" max_length="40" name="tag_date" type="glide_date"/>
+        <element label="Email" max_length="100" name="tag_email" type="string"/>
+        <element label="Phone" max_length="15" name="tag_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Registered Tagging Site" max_length="32" name="tag_site" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="State" max_length="32" name="tag_state" reference="u_states" type="reference"/>
+        <element label="Address" max_length="100" name="tag_street" type="string"/>
+        <element label="Zip" max_length="10" name="tag_zip" type="string"/>
+        <index name="index">
+            <element name="tag_state"/>
+        </index>
+        <index name="index2">
+            <element name="herd_state"/>
+        </index>
+        <index name="index3">
+            <element name="tag_site"/>
+        </index>
+        <index name="index4">
+            <element name="signature"/>
+        </index>
+        <index name="index5">
+            <element name="herd_loc"/>
+        </index>
+        <index name="index6">
+            <element name="herd_owner"/>
+        </index>
+        <index name="index7">
+            <element name="herd_county"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>stethoscope</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item display_value="Certificate of Veterinary Inspection">295f584edbb69f00c64e5eea4b961991</sc_cat_item>
+        <sc_category/>
+        <short_description>Enter a new CVI record</short_description>
+        <size>md</size>
+        <sp_column display_value="3">e93c5ca0db1823009b2689584b961999</sp_column>
+        <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>dmorden</sys_created_by>
+        <sys_created_on>2018-03-15 19:56:10</sys_created_on>
+        <sys_id>1817d4f2db78d3009b2689584b96199c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Certificate of Veterinary Inspection</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_instance_link_1817d4f2db78d3009b2689584b96199c</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-26 17:37:43</sys_updated_on>
+        <title>Certificate of Veterinary Inspection</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=1817d4f2db78d3009b2689584b96199c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sp_instance_link_1817d4f2db78d3009b2689584b96199c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;stethoscope&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item display_value="Certificate of Veterinary Inspection"&gt;295f584edbb69f00c64e5eea4b961991&lt;/sc_cat_item&gt;&lt;sc_category/&gt;&lt;short_description&gt;Enter a new CVI record&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;e93c5ca0db1823009b2689584b961999&lt;/sp_column&gt;&lt;sp_page display_value="sc_cat_item"&gt;9f12251147132100ba13a5554ee490f4&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dmorden&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-03-15 19:56:10&lt;/sys_created_on&gt;&lt;sys_id&gt;1817d4f2db78d3009b2689584b96199c&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Certificate of Veterinary Inspection&lt;/sys_name&gt;&lt;sys_package display_value="Livestock Tracking" source="x_cria_livestock_t"&gt;7b1a2026dba09700df68f2b6ae96198c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Livestock Tracking"&gt;7b1a2026dba09700df68f2b6ae96198c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_1817d4f2db78d3009b2689584b96199c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;thigley@criadvantage.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-26 17:37:43&lt;/sys_updated_on&gt;&lt;title&gt;Certificate of Veterinary Inspection&lt;/title&gt;&lt;type&gt;sc_cat_item&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1817d4f2db78d3009b2689584b96199c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1013484839</payload_hash>
+        <record_name>Certificate of Veterinary Inspection</record_name>
+        <reverted_from/>
+        <source>d2a396c5dbad6300447b4b8b0b96199c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-11-01 21:30:18</sys_created_on>
+        <sys_id>6fd3d209dbad6300447b4b8b0b961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>166d12f20b90000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-11-01 21:30:18</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>4a15aa8f0859eb4011dd6d341d6e35af</update_guid>
+        <update_guid_history>4a15aa8f0859eb4011dd6d341d6e35af:1013484839,c0a2c2c9376d6300d3e45c12609d40ba:1894429450,44f08a85eb6d6300c19e0165449e049d:1471553750,a6cadc54389d67402b0717293b8cd686:1527933130,9e156ea4532cef00ce563f8cba152519:1894429450,07c72c283618230075f1a6204cfadd4c:-256847874,578c50e0ec182300c8b626a5f74a0423:1216971295,c45cdca0d0182300b5675a8086843016:-1675299604,020cd8a033182300030b1977dd9dc281:5094781,fbfd5d96d27a57008c6baf3be23a93e0:0,13b3ec9e2fb65700959116f4c37dcb6f:-1791278184,d596e1b4e4aad300d78e9c3302b1a78c:1892549609,59c7d4f6c278d3009e393d00d063d8a4:1082500872,e4b7d4f64078d3005788b30d0dde28a1:131912286,9817d4f23978d300d1212fa6dbf5fc9d:-2026509768</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 11/01/2018 03:31:27 PM">2c2452c5dbad6300447b4b8b0b961935</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-11-01 21:31:27</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>0e11711820d7442b836728ca3740d4d1</sys_id>
+        <sys_metadata>1817d4f2db78d3009b2689584b96199c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificate of Veterinary Inspection</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sp_instance_link_1817d4f2db78d3009b2689584b96199c</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_1817d4f2db78d3009b2689584b96199c">6fd3d209dbad6300447b4b8b0b961908</sys_update_version>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-11-01 21:31:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

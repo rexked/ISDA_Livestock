@@ -1,36 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_instance_link">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
     <sp_instance_link action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>default</color>
+        <color>success</color>
         <css/>
         <glyph>medkit</glyph>
         <id/>
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <order>1</order>
+        <order>2</order>
         <roles/>
         <sc_cat_item display_value="Brucellosis Vaccination Record">762797dddbb35f009b2689584b961955</sc_cat_item>
         <sc_category/>
         <short_description>Enter a new vaccination record for Brucellosis</short_description>
         <size>md</size>
-        <sp_column display_value="3">5096ed74dbaad300c64e5eea4b961982</sp_column>
+        <sp_column display_value="1">2d3c5ca0db1823009b2689584b961996</sp_column>
         <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>dmorden</sys_created_by>
         <sys_created_on>2018-03-15 19:54:22</sys_created_on>
         <sys_id>7da618f2db78d3009b2689584b96195a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Brucellosis Vaccination</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_instance_link_7da618f2db78d3009b2689584b96195a</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-08-08 19:47:39</sys_updated_on>
+        <sys_updated_on>2018-08-29 21:02:37</sys_updated_on>
         <title>Brucellosis Vaccination</title>
         <type>sc_cat_item</type>
         <url/>

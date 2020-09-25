@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Disease Surveillance" section_id="31dbbf3edbdaab00c64e5eea4b96190f" sys_domain="global" table="x_cria_livestock_t_batchfill_cvi" version="3" view="default">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bruc</element>
+            <position>0</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>96db377edbdaab00c64e5eea4b961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>1adb377edbdaab00c64e5eea4b961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bruc_lab</element>
+            <position>2</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>9adb377edbdaab00c64e5eea4b961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bruc_date</element>
+            <position>3</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>1edb377edbdaab00c64e5eea4b961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bruc_rap</element>
+            <position>4</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>9edb377edbdaab00c64e5eea4b961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bruc_bapa</element>
+            <position>5</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>12db377edbdaab00c64e5eea4b961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bruc_fpa</element>
+            <position>6</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>92db377edbdaab00c64e5eea4b961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bruc_other</element>
+            <position>7</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>16db377edbdaab00c64e5eea4b961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>96db377edbdaab00c64e5eea4b961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>9</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>1adb377edbdaab00c64e5eea4b961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trich</element>
+            <position>10</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>9adb377edbdaab00c64e5eea4b961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>1edb377edbdaab00c64e5eea4b961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trich_lab</element>
+            <position>12</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>9edb377edbdaab00c64e5eea4b961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trich_date</element>
+            <position>13</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>12db377edbdaab00c64e5eea4b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trich_acc</element>
+            <position>14</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>92db377edbdaab00c64e5eea4b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trich_type</element>
+            <position>15</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>16db377edbdaab00c64e5eea4b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trich_result</element>
+            <position>16</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>96db377edbdaab00c64e5eea4b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>17</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>1adb377edbdaab00c64e5eea4b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>18</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>9adb377edbdaab00c64e5eea4b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tb</element>
+            <position>19</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>1edb377edbdaab00c64e5eea4b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>20</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>aedb377edbdaab00c64e5eea4b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Disease Surveillance" display_value="Disease Surveillance" name="x_cria_livestock_t_batchfill_cvi" sys_domain="global" view="30174876cb811200aa871831794c9cc4">31dbbf3edbdaab00c64e5eea4b96190f</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Disease Surveillance</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31dbbf3edbdaab00c64e5eea4b96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Disease Surveillance</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_31dbbf3edbdaab00c64e5eea4b96190f</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default" name="default">30174876cb811200aa871831794c9cc4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

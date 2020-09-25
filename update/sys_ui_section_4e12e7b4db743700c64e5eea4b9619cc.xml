@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Shipment Info" section_id="4e12e7b4db743700c64e5eea4b9619cc" sys_domain="1070930cdb33e300c64e5eea4b961918" table="x_cria_livestock_t_import_cvi" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entry_permit_number</element>
+            <position>0</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-08-23 07:19:54</sys_created_on>
+            <sys_id>17145ba5dbb2dc90eb4e18df4b961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">4e12e7b4db743700c64e5eea4b9619cc</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-08-23 07:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>brand_inspection_number</element>
+            <position>1</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-08-23 07:19:54</sys_created_on>
+            <sys_id>9b145ba5dbb2dc90eb4e18df4b961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">4e12e7b4db743700c64e5eea4b9619cc</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-08-23 07:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>carrier_name_and_address</element>
+            <position>2</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-08-23 07:19:54</sys_created_on>
+            <sys_id>13145ba5dbb2dc90eb4e18df4b961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">4e12e7b4db743700c64e5eea4b9619cc</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-08-23 07:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>move_purpose</element>
+            <position>3</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-08-23 07:19:54</sys_created_on>
+            <sys_id>97145ba5dbb2dc90eb4e18df4b961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">4e12e7b4db743700c64e5eea4b9619cc</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-08-23 07:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-08-23 07:19:54</sys_created_on>
+            <sys_id>1f145ba5dbb2dc90eb4e18df4b961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">4e12e7b4db743700c64e5eea4b9619cc</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-08-23 07:19:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inspection_date</element>
+            <position>5</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-08-23 07:19:54</sys_created_on>
+            <sys_id>93145ba5dbb2dc90eb4e18df4b961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">4e12e7b4db743700c64e5eea4b9619cc</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-08-23 07:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shipment_date</element>
+            <position>6</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-08-23 07:19:54</sys_created_on>
+            <sys_id>1b145ba5dbb2dc90eb4e18df4b961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">4e12e7b4db743700c64e5eea4b9619cc</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-08-23 07:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_animals_shipped</element>
+            <position>7</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-08-23 07:19:54</sys_created_on>
+            <sys_id>9f145ba5dbb2dc90eb4e18df4b961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">4e12e7b4db743700c64e5eea4b9619cc</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-08-23 07:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Shipment Info</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_import_cvi</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-11 21:57:40</sys_created_on>
+            <sys_domain>1070930cdb33e300c64e5eea4b961918</sys_domain>
+            <sys_domain_path/>
+            <sys_id>4e12e7b4db743700c64e5eea4b9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Shipment Info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_4e12e7b4db743700c64e5eea4b9619cc</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-11 21:57:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

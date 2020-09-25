@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="reading_3" label="Reading 3" language="en" table="x_cria_livestock_t_lab_results_trich">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>reading_3</element>

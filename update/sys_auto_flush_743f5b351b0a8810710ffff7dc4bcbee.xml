@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auto_flush">
+    <sys_auto_flush action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <age>2592000</age>
+        <cascade_delete>false</cascade_delete>
+        <conditions table="x_cria_livestock_t_vaccinations_market_cattle">draft=true^EQ<item endquery="false" field="draft" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <force_optimize>false</force_optimize>
+        <matchfield>sys_created_on</matchfield>
+        <sys_class_name>sys_auto_flush</sys_class_name>
+        <sys_created_by>tsears@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-12-31 23:48:35</sys_created_on>
+        <sys_id>743f5b351b0a8810710ffff7dc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cria_livestock_t_vaccinations_market_cattle</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_auto_flush_743f5b351b0a8810710ffff7dc4bcbee</sys_update_name>
+        <sys_updated_by>tsears@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-12-31 23:48:35</sys_updated_on>
+        <tablename>x_cria_livestock_t_vaccinations_market_cattle</tablename>
+    </sys_auto_flush>
+</record_update>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9da6e0e0dbc30450eb4e18df4b961951" sys_domain="global" table="pm_project" version="3" view="isda">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_id>59a6e0e0dbc30450eb4e18df4b961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">32a3718b93f33200ea933007f67ffb7d</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>create_project_formatter</element>
+            <position>1</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_id>d1a6e0e0dbc30450eb4e18df4b961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Create Project From Template">df2d53d1c3222100b0449f2974d3ae4d</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_id>59a6e0e0dbc30450eb4e18df4b961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>3</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_id>dda6e0e0dbc30450eb4e18df4b961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_manager</element>
+            <position>4</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_id>55a6e0e0dbc30450eb4e18df4b961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>5</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_id>d9a6e0e0dbc30450eb4e18df4b961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_id>51a6e0e0dbc30450eb4e18df4b961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>7</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_id>d5a6e0e0dbc30450eb4e18df4b961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>percent_complete</element>
+            <position>8</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_id>5da6e0e0dbc30450eb4e18df4b961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_id>d1a6e0e0dbc30450eb4e18df4b961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_id>69a6e0e0dbc30450eb4e18df4b961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>11</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_id>eda6e0e0dbc30450eb4e18df4b961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>pm_project</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9da6e0e0dbc30450eb4e18df4b961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pm_project</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_9da6e0e0dbc30450eb4e18df4b961951</sys_update_name>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="ISDA" name="isda">b83926c6db789300c64e5eea4b961912</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

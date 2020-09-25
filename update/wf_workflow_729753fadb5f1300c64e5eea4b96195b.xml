@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="wf_workflow_version">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["b29793fadb5f1300c64e5eea4b9619e6"]}</activity_stages>
+        <activity_stages>{"ends":["bd50c5b7db78af00eb4e18df4b9619cd"],"activities":{},"subflows":[],"stages":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -10,10 +9,10 @@
         <condition/>
         <condition_type>run_match</condition_type>
         <description>Adds all of the associated animal official IDs to the parent certification for global searching purposes.</description>
-        <expected_sequences>369793fadb5f1300c64e5eea4b9619e5,369753fadb5f1300c64e5eea4b96195e,f29793fadb5f1300c64e5eea4b9619e4,b29793fadb5f1300c64e5eea4b9619e6</expected_sequences>
+        <expected_sequences>2550c5b7db78af00eb4e18df4b9619cd,e15045b7db78af00eb4e18df4b9619bf,b550c5b7db78af00eb4e18df4b9619ce,bd50c5b7db78af00eb4e18df4b9619cd</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>369793fadb5f1300c64e5eea4b9619e5,369753fadb5f1300c64e5eea4b96195e,f29793fadb5f1300c64e5eea4b9619e4,b29793fadb5f1300c64e5eea4b9619e6</full_sequences>
+        <full_sequences>2550c5b7db78af00eb4e18df4b9619cd,e15045b7db78af00eb4e18df4b9619bf,b550c5b7db78af00eb4e18df4b9619ce,bd50c5b7db78af00eb4e18df4b9619cd</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Add official ids to certs - Market Cattle</name>
@@ -28,13 +27,13 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">369793fadb5f1300c64e5eea4b9619e5</start>
+        <start display_value="Begin">2550c5b7db78af00eb4e18df4b9619cd</start>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>ba9753fadb5f1300c64e5eea4b96195b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 17:46:12</sys_updated_on>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>ed5045b7db78af00eb4e18df4b9619bd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>mnield</sys_updated_by>
+        <sys_updated_on>2018-10-04 15:49:15</sys_updated_on>
         <table>x_cria_livestock_t_vaccinations_market_cattle</table>
         <timezone/>
         <validated>true</validated>
@@ -80,67 +79,79 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>f29793fadb5f1300c64e5eea4b9619e4</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>b550c5b7db78af00eb4e18df4b9619ce</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:50</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:46</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Add official ids to certs - Market Cattle">ba9753fadb5f1300c64e5eea4b96195b</workflow_version>
+        <workflow_version display_value="Add official ids to certs - Market Cattle">ed5045b7db78af00eb4e18df4b9619bd</workflow_version>
         <x>196</x>
         <y>212</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=f29793fadb5f1300c64e5eea4b9619e4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b550c5b7db78af00eb4e18df4b9619ce"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f29793fadb5f1300c64e5eea4b9619e4</document_key>
+        <document_key>b550c5b7db78af00eb4e18df4b9619ce</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>f69793fadb5f1300c64e5eea4b9619e4</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>3950c5b7db78af00eb4e18df4b9619ce</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:50</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:46</sys_updated_on>
         <value>var gr = new GlideRecord('x_cria_livestock_t_lab_results_bruc_market_cattle');&#13;
 	gr.addQuery('parent', current.sys_id);&#13;
 	gr.query();&#13;
 	while(gr.next()){&#13;
 		if(current.official_ids == ''){&#13;
 			current.official_ids = gr.id;&#13;
+			if(gr.alt_id != ''){&#13;
+				current.official_ids = current.official_ids + ", " + gr.alt_id;&#13;
+			}&#13;
 		}else{&#13;
 			current.official_ids = current.official_ids + ", " + gr.id;&#13;
+			if(gr.alt_id != ''){&#13;
+				current.official_ids = current.official_ids + ", " + gr.alt_id;&#13;
+			}&#13;
 		}&#13;
 	}</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>f29793fadb5f1300c64e5eea4b9619e4</document_key>
+        <document_key>b550c5b7db78af00eb4e18df4b9619ce</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>f69793fadb5f1300c64e5eea4b9619e4</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>3950c5b7db78af00eb4e18df4b9619ce</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:50</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:46</sys_updated_on>
         <value>var gr = new GlideRecord('x_cria_livestock_t_lab_results_bruc_market_cattle');&#13;
 	gr.addQuery('parent', current.sys_id);&#13;
 	gr.query();&#13;
 	while(gr.next()){&#13;
 		if(current.official_ids == ''){&#13;
 			current.official_ids = gr.id;&#13;
+			if(gr.alt_id != ''){&#13;
+				current.official_ids = current.official_ids + ", " + gr.alt_id;&#13;
+			}&#13;
 		}else{&#13;
 			current.official_ids = current.official_ids + ", " + gr.id;&#13;
+			if(gr.alt_id != ''){&#13;
+				current.official_ids = current.official_ids + ", " + gr.alt_id;&#13;
+			}&#13;
 		}&#13;
 	}</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Add official ids to cert">f29793fadb5f1300c64e5eea4b9619e4</activity>
+        <activity display_value="Add official ids to cert">b550c5b7db78af00eb4e18df4b9619ce</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -154,11 +165,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>7e9793fadb5f1300c64e5eea4b9619e4</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>7d50c5b7db78af00eb4e18df4b9619ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -176,21 +187,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>369793fadb5f1300c64e5eea4b9619e5</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>2550c5b7db78af00eb4e18df4b9619cd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Add official ids to certs - Market Cattle">ba9753fadb5f1300c64e5eea4b96195b</workflow_version>
+        <workflow_version display_value="Add official ids to certs - Market Cattle">ed5045b7db78af00eb4e18df4b9619bd</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=369793fadb5f1300c64e5eea4b9619e5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2550c5b7db78af00eb4e18df4b9619cd"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">369793fadb5f1300c64e5eea4b9619e5</activity>
+        <activity display_value="Begin">2550c5b7db78af00eb4e18df4b9619cd</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -204,11 +215,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>fa9793fadb5f1300c64e5eea4b9619e5</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>2950c5b7db78af00eb4e18df4b9619cd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -226,19 +237,19 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>b29793fadb5f1300c64e5eea4b9619e6</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>bd50c5b7db78af00eb4e18df4b9619cd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Add official ids to certs - Market Cattle">ba9753fadb5f1300c64e5eea4b96195b</workflow_version>
+        <workflow_version display_value="Add official ids to certs - Market Cattle">ed5045b7db78af00eb4e18df4b9619bd</workflow_version>
         <x>362</x>
         <y>301</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=b29793fadb5f1300c64e5eea4b9619e6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bd50c5b7db78af00eb4e18df4b9619cd"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -255,443 +266,443 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>369753fadb5f1300c64e5eea4b96195e</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>e15045b7db78af00eb4e18df4b9619bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Add official ids to certs - Market Cattle">ba9753fadb5f1300c64e5eea4b96195b</workflow_version>
+        <workflow_version display_value="Add official ids to certs - Market Cattle">ed5045b7db78af00eb4e18df4b9619bd</workflow_version>
         <x>66</x>
         <y>109</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=369753fadb5f1300c64e5eea4b96195e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e15045b7db78af00eb4e18df4b9619bf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>2550c5b7db78af00eb4e18df4b9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>369753fadb5f1300c64e5eea4b961961</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>2950c5b7db78af00eb4e18df4b9619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>2d50c5b7db78af00eb4e18df4b9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value>1970-01-01 00:00:15</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>6150c5b7db78af00eb4e18df4b9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value/>
         <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>3a9753fadb5f1300c64e5eea4b961960</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>6550c5b7db78af00eb4e18df4b9619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value/>
         <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>320</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>3e9753fadb5f1300c64e5eea4b96195e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
         <order>3000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>3e9753fadb5f1300c64e5eea4b96195f</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>6950c5b7db78af00eb4e18df4b9619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1320</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>729753fadb5f1300c64e5eea4b961961</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>769753fadb5f1300c64e5eea4b961960</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value/>
-        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>350</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>7a9753fadb5f1300c64e5eea4b96195f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>b29753fadb5f1300c64e5eea4b961960</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
         <order>1350</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>b69753fadb5f1300c64e5eea4b96195f</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>6d5045b7db78af00eb4e18df4b9619bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value/>
         <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1350</order>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1310</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>ba9753fadb5f1300c64e5eea4b961961</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>a150c5b7db78af00eb4e18df4b9619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value/>
-        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1320</order>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>350</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>be9753fadb5f1300c64e5eea4b961960</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>a550c5b7db78af00eb4e18df4b9619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>f29753fadb5f1300c64e5eea4b96195f</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>a95045b7db78af00eb4e18df4b9619bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value/>
         <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>310</order>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1320</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>f69753fadb5f1300c64e5eea4b961961</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>ad50c5b7db78af00eb4e18df4b9619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value/>
-        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1360</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>fa9753fadb5f1300c64e5eea4b961960</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value/>
-        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>fe9753fadb5f1300c64e5eea4b96195f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value>1970-01-01 00:00:15</value>
-        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>f69753fadb5f1300c64e5eea4b961961</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value/>
-        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
         <order>320</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>3e9753fadb5f1300c64e5eea4b96195e</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>e55045b7db78af00eb4e18df4b9619bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value/>
         <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>350</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>7a9753fadb5f1300c64e5eea4b96195f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>f29753fadb5f1300c64e5eea4b96195f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value/>
-        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>769753fadb5f1300c64e5eea4b961960</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value/>
-        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>b29753fadb5f1300c64e5eea4b961960</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>fe9753fadb5f1300c64e5eea4b96195f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value>1970-01-01 00:00:15</value>
-        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1320</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>729753fadb5f1300c64e5eea4b961961</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1320</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>be9753fadb5f1300c64e5eea4b961960</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
         <order>1350</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>b69753fadb5f1300c64e5eea4b96195f</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>e550c5b7db78af00eb4e18df4b9619cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <value/>
-        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
-        <order>1350</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>ba9753fadb5f1300c64e5eea4b961961</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value/>
         <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>e950c5b7db78af00eb4e18df4b9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>ed50c5b7db78af00eb4e18df4b9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>2550c5b7db78af00eb4e18df4b9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>e55045b7db78af00eb4e18df4b9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>a550c5b7db78af00eb4e18df4b9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>a95045b7db78af00eb4e18df4b9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>a150c5b7db78af00eb4e18df4b9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>ed50c5b7db78af00eb4e18df4b9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>2d50c5b7db78af00eb4e18df4b9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value>1970-01-01 00:00:15</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>e950c5b7db78af00eb4e18df4b9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>ad50c5b7db78af00eb4e18df4b9619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>e550c5b7db78af00eb4e18df4b9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>6d5045b7db78af00eb4e18df4b9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>369753fadb5f1300c64e5eea4b961961</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>6150c5b7db78af00eb4e18df4b9619cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value/>
         <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>3a9753fadb5f1300c64e5eea4b961960</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>6550c5b7db78af00eb4e18df4b9619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value/>
         <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>fa9753fadb5f1300c64e5eea4b961960</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>2950c5b7db78af00eb4e18df4b9619cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value/>
         <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>369753fadb5f1300c64e5eea4b96195e</document_key>
+        <document_key>e15045b7db78af00eb4e18df4b9619bf</document_key>
         <order>3000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>3e9753fadb5f1300c64e5eea4b96195f</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>6950c5b7db78af00eb4e18df4b9619ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Wait for all records to finish attachment">369753fadb5f1300c64e5eea4b96195e</activity>
+        <activity display_value="Wait for all records to finish attachment">e15045b7db78af00eb4e18df4b9619bf</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -705,58 +716,58 @@ answer = 0;</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>329753fadb5f1300c64e5eea4b961962</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>2d50c5b7db78af00eb4e18df4b9619cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">fa9793fadb5f1300c64e5eea4b9619e5</condition>
-        <from display_value="Begin">369793fadb5f1300c64e5eea4b9619e5</from>
+        <condition display_value="Always">7d50c5b7db78af00eb4e18df4b9619ce</condition>
+        <from display_value="Add official ids to cert">b550c5b7db78af00eb4e18df4b9619ce</from>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:21</sys_created_on>
-        <sys_id>329793fadb5f1300c64e5eea4b9619e8</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>3550c5b7db78af00eb4e18df4b9619d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:21</sys_updated_on>
-        <to display_value="Wait for all records to finish attachment">369753fadb5f1300c64e5eea4b96195e</to>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <to display_value="End">bd50c5b7db78af00eb4e18df4b9619cd</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">329753fadb5f1300c64e5eea4b961962</condition>
-        <from display_value="Wait for all records to finish attachment">369753fadb5f1300c64e5eea4b96195e</from>
+        <condition display_value="Always">2950c5b7db78af00eb4e18df4b9619cd</condition>
+        <from display_value="Begin">2550c5b7db78af00eb4e18df4b9619cd</from>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:21</sys_created_on>
-        <sys_id>3e9793fadb5f1300c64e5eea4b9619e7</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>7150c5b7db78af00eb4e18df4b9619d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:21</sys_updated_on>
-        <to display_value="Add official ids to cert">f29793fadb5f1300c64e5eea4b9619e4</to>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <to display_value="Wait for all records to finish attachment">e15045b7db78af00eb4e18df4b9619bf</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">7e9793fadb5f1300c64e5eea4b9619e4</condition>
-        <from display_value="Add official ids to cert">f29793fadb5f1300c64e5eea4b9619e4</from>
+        <condition display_value="Always">2d50c5b7db78af00eb4e18df4b9619cc</condition>
+        <from display_value="Wait for all records to finish attachment">e15045b7db78af00eb4e18df4b9619bf</from>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:21</sys_created_on>
-        <sys_id>7a9793fadb5f1300c64e5eea4b9619e7</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>bd50c5b7db78af00eb4e18df4b9619cf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:21</sys_updated_on>
-        <to display_value="End">b29793fadb5f1300c64e5eea4b9619e6</to>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <to display_value="Add official ids to cert">b550c5b7db78af00eb4e18df4b9619ce</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-07-18 16:34:20</sys_created_on>
-        <sys_id>be9753fadb5f1300c64e5eea4b96195b</sys_id>
+        <sys_created_on>2018-10-03 21:41:33</sys_created_on>
+        <sys_id>615045b7db78af00eb4e18df4b9619be</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:34:20</sys_updated_on>
-        <workflow_version display_value="Add official ids to certs - Market Cattle">ba9753fadb5f1300c64e5eea4b96195b</workflow_version>
+        <sys_updated_on>2018-10-03 21:41:33</sys_updated_on>
+        <workflow_version display_value="Add official ids to certs - Market Cattle">ed5045b7db78af00eb4e18df4b9619bd</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=729753fadb5f1300c64e5eea4b96195b^sys_id!=ba9753fadb5f1300c64e5eea4b96195b">
+    <wf_workflow_version action="update_multiple" query="workflow=729753fadb5f1300c64e5eea4b96195b^sys_id!=ed5045b7db78af00eb4e18df4b9619bd">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

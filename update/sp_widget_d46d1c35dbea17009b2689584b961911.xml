@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_widget">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
         <client_script><![CDATA[function() {  /* widget controller */  var c = this;
@@ -140,24 +139,25 @@ if (articleGR.getValue('article_type') == 'wiki'){
 	t.tag_only = articleGR.getDisplayValue('num_tag_only');
 	t.totaltest = articleGR.getDisplayValue('total_num_tested');
 	t.signed_date = articleGR.getDisplayValue('vet_cert_date');
-	
-		//Check to see if attachments are present.
+	t.acc = articleGR.getDisplayValue('isda_accession');
+
+	//Check to see if attachments are present.
 	t.attachments = [];
- var rows = 0;
-	
+	var rows = 0;
+
 	var atta = new GlideRecord('sys_attachment');
 	atta.addQuery('table_sys_id' , $sp.getParameter('sys_id'));
 	atta.query()
 	rows = atta.getRowCount()/3;
 	console.log(rows)
 	rows = Math.ceil(rows);
-	 while(atta.next()){
-		 t.attachments.push('sys_attachment.do?sys_id='+ atta.sys_id);
-			
-	 }
-	
-	
-	
+	while(atta.next()){
+		t.attachments.push('sys_attachment.do?sys_id='+ atta.sys_id);
+
+	}
+
+
+
 	// Normalize numbers for Summary
 	if(t.test_interp_num_neg == ''){
 		t.test_interp_num_neg = "0";
@@ -168,9 +168,10 @@ if (articleGR.getValue('article_type') == 'wiki'){
 	if(t.tag_only == ''){
 		t.tag_only = "0";
 	}
-	
+
 	// Query for Vet information
 	t.vet = articleGR.getDisplayValue('u_veterinarian');
+	t.vsignature = articleGR.getDisplayValue('u_vet_signature');
 	var grvet = new GlideRecord('sys_user');
 	grvet.addQuery('sys_id', articleGR.getValue('u_veterinarian'));
 	grvet.query();
@@ -182,7 +183,7 @@ if (articleGR.getValue('article_type') == 'wiki'){
 		t.vet_usda = grvet.getDisplayValue('x_cria_livestock_t_u_usda_accred');
 		t.vet_lic = grvet.getDisplayValue('x_cria_livestock_t_u_state_lic');
 	}
-	
+
 	// Query for related vaccination records
 	var gr = new GlideRecord('x_cria_livestock_t_lab_results_trich');
 	gr.addQuery('parent', t.sys_id);
@@ -198,38 +199,38 @@ if (articleGR.getValue('article_type') == 'wiki'){
 		else
 			t.rFields = $sp.getListColumns(t.rTable);
 	}
-	
-	
+
+
 
 	t.column_labels =[];
 	t.rFields_array = t.rFields.split(',');
 	arr_length = t.rFields_array.length;
 
-		for(var i = 0; i < arr_length ; i++){
+	for(var i = 0; i < arr_length ; i++){
 		var field = t.rFields_array[i];
 		var ge = gr.getElement(field);
-			
+
 		if (ge == null)
-            continue;
+			continue;
 		t.column_labels[field] = ge.getLabel();
 
 	}
 }
 
-	
+
 while (gr.next()){
 	var y= [];
 
 
-for(var i = 0; i < arr_length ; i++){
+	for(var i = 0; i < arr_length ; i++){
 		var objKeys = Object.keys(t.column_labels);
 		var field = objKeys[i];
 		var col = t.column_labels.field;
 		y.push({label: t.column_labels[field],  value: gr.getDisplayValue(field)});
-}
-	
+	}
+
 	t.related.push(y);
-	
+
 }
 
 for(var i = 0; i < arr_length ; i++){
@@ -247,20 +248,20 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-07 17:39:41</sys_created_on>
         <sys_id>d46d1c35dbea17009b2689584b961911</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name>ISDA Trich Printable Form</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_widget_d46d1c35dbea17009b2689584b961911</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-08-09 19:53:47</sys_updated_on>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-11-13 22:36:39</sys_updated_on>
         <template><![CDATA[<style type="text/css" media="print">
   #Header, #Footer { display: none !important; }
   @page 
-    {
-        size: landscape;   /* auto is the initial value */
-    }
+  {
+    size: landscape;   /* auto is the initial value */
+  }
 </style>
 <!--<div ng-if="data.isvalid" class="panel panel-{{options.color}} b">-->
 <div ng-if="data.isvalid">
@@ -274,135 +275,136 @@ t.breadcrumbs = [{label: t.number, url: '#'}];]]></script>
   </table>
   <br>
   <!--<hr class="style1">-->
-	<img src="ISDA_Background.png" style="display:block; margin-left:auto; margin-right:auto; width:80%;"/>
+  <img src="ISDA_Background.png" style="display:block; margin-left:auto; margin-right:auto; width:80%;"/>
   <div align="center" style="position: absolute; top:175px; left:30px; width:95%;">
-  <div>
+    <div>
       <table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
-              <tr style="background-color: #cccccc;">
-                <th width="30%" style="padding:5px; text-align:center;"><b>${Owner Information}</b></th>
-                <th width="25%" style="padding:5px; text-align:center; "><b>${Sample Collection Information}</b></th>
-              	<th width="30%" style="padding:5px; text-align:center;"><b>${Herd Information}</b></th>
-                <th width="15%" style="padding:5px; text-align:center;"><b>${Summary}</b></th>
-              </tr>
-              <tr>
-                <td valign="top" style="text-align:left; padding:5px;">
-                  <label style="text-align:left; padding:5px; overflow-wrap: break-all; white-space: pre-wrap;"><strong>Name: </strong>{{::data.owner}}<br><strong>Physical Address: </strong>{{::data.owner_street}}<br><strong>City, State, Zip: </strong>{{::data.owner_city}}<br><strong>Premises ID: </strong>{{::data.prem_id}}<br><strong>Phone: </strong>{{::data.owner_phone}}<br><strong>County: </strong>{{::data.owner_county}}</label>
-                </td>
-                <td valign="top" style="text-align:left; padding:5px;">
-                  <label style="text-align:left; padding:5px; overflow-wrap: break-all; white-space: pre-wrap;"><strong>Date Collected: </strong>{{::data.test_collected}}<br><strong>Culture - Time Collected: </strong>{{::data.test_time}}<br><strong>Type of Test: </strong>{{::data.test_type}}<br><br>* All samples for culture must arrive at the laboratory within 48 hours of collection for valid official test.</label>
-                </td>
-              	<td valign="top" style="text-align:left; padding:5px;">
-                  <label style="text-align:left; padding:5px; overflow-wrap: break-all; white-space: pre-wrap;"><strong>Location of Animals During Next 12 Months: </strong>{{::data.loc_next}}<br><strong>Turnout Date(s): </strong>{{::data.turnout}}<br><strong>Trich Tag Color: </strong>{{::data.tag_color}}<br><strong>Does owner graze cattle on:</strong><br><input type="checkbox" ng-checked="{{::data.blm}} == true" disabled="disabled"> BLM<br><input type="checkbox" ng-checked="{{::data.forest}} == true" disabled="disabled"> Forest Service<br><input type="checkbox" ng-checked="{{::data.state_lands}} == true" disabled="disabled"> State Lands<br><input type="checkbox" ng-checked="{{::data.private_lands}} == true" disabled="disabled"> Private</label>
-                </td>
-                <td valign="top" style="text-align:left; padding:5px;">
-                  <label style="text-align:left; padding:5px; overflow-wrap: break-all; white-space: pre-wrap;"><strong>Negative: </strong>{{::data.test_interp_num_neg}}<br><strong>Positive: </strong>{{::data.test_interp_num_pos}}<br><strong>Tag Only: </strong>{{::data.tag_only}}<br><strong>Total Tested: </strong>{{::data.totaltest}}</label>
-                </td>
-              </tr>
-        </table>
-    <br>
-  </div>
-  <div>
-    <table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
-      <tr align="center" style="background-color: #cccccc;">
-        <th align="center" style="text-align:center; padding:5px;"><b>${Veterinarian Information}</b></th>
-      </tr>
-      <tr>
-        <td align="center" style="text-align: center; padding: 5px; font-size: 8pt;">The animals listed below have all been tested and identified with an approved seasonal Trich Tag, pursuant to IDAPA 02.04.29, Rules Governing Trichomoniasis.</td>
-      </tr>
-      <tr>
-        <table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" rules="box" border="1" cellspacing="1" cellpadding="10" font-size="8pt">
-          <tr>
-            <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Digitally Signed By: </strong>{{::data.vet}}</label>
-            </td>
-            <td width="25%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Address: </strong>{{::data.vet_street}}</label>
-            </td>
-            <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>City, State, Zip: </strong>{{::data.vet_city}}</label>
-            </td>
-            <td width="14%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Phone: </strong>{{::data.vet_phone}}</label>
-            </td>
-            <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Email: </strong>{{::data.vet_email}}</label>
-            </td>
-          </tr>
-          <tr>
-            <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Date: </strong>{{::data.signed_date}}</label>
-            </td>
-            <td width="25%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>USDA Accreditation #: </strong>{{::data.vet_usda}}</label>
-            </td>
-            <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>State License #: </strong>{{::data.vet_lic}}</label>
-            </td>
-          </tr>
-        </table>
-      </tr>
-    </table>
-    <br>
-  </div>
-  <!--<div>
-    <table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
-      <tr align="center" style="background-color: #cccccc;">
-        <th align="center" style="text-align:center; padding:5px;"><b>${Laboratory Information and Results}</b></th>
-      </tr>
-      <tr>
-        <table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" rules="box" border="1" cellspacing="1" cellpadding="10" font-size="8pt">
-          <tr>
-            <td width="33%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Laboratory: </strong>{{::data.lab}}</label>
-            </td>
-            <td width="33%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Date: </strong>{{::data.lab_signed}}</label>
-            </td>
-            <td width="33%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
-              <label font-size="8pt"><strong>Signature of Technician: </strong>{{::data.lab_tech}}</label>
-            </td>
-          </tr>
-        </table>
-      </tr>
-    </table>
-    <br>
-  </div>-->
-    <!----- Determin if there are attachments if so display them ---->
-  <div class="table" align="center" style="width: 99%;" ng-if='data.attachments.length'>
-    <h4 style="margin-left:25px;"><strong>Attachments</strong></h4>
-     <div  class="row">
-      <div ng-repeat='attach in data.attachments'>
-        <div class="clearfix" ng-if="$index % 3 == 0"></div>
-        <div class="col-sm-4">
-          <img ng-src="{{attach}}" height='150px' style='padding-top: 15px'>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="table" id="TDTable" align="center" style="width: 99%;" >
-    <h4 style="margin-left:25px;"><strong>Animal Information</strong></h4>
-    <!-- PLACE HOLDER FOR ANIMAL ARRAY INFORMATION -->
-    <table class="table table-striped table-bordered table-condensed" align="center" width="99%" style="margin-left: 5px;">
-      <thead>
+        <tr style="background-color: #cccccc;">
+          <th width="30%" style="padding:5px; text-align:center;"><b>${Owner Information}</b></th>
+          <th width="25%" style="padding:5px; text-align:center; "><b>${Sample Collection Information}</b></th>
+          <th width="30%" style="padding:5px; text-align:center;"><b>${Herd Information}</b></th>
+          <th width="15%" style="padding:5px; text-align:center;"><b>${Summary}</b></th>
+        </tr>
         <tr>
-          <th style="background-color: #cccccc; width: 16%;" ng-repeat="keys in data.column_labels track by $index" tabindex="0">
-            <div class="th-title" >{{keys}}</div>
-          </th>
+          <td valign="top" style="text-align:left; padding:5px;">
+            <label style="text-align:left; padding:5px; overflow-wrap: break-all; white-space: pre-wrap;"><strong>Name: </strong>{{::data.owner}}<br><strong>Physical Address: </strong>{{::data.owner_street}}<br><strong>City, State, Zip: </strong>{{::data.owner_city}}<br><strong>Premises ID: </strong>{{::data.prem_id}}<br><strong>Phone: </strong>{{::data.owner_phone}}<br><strong>County: </strong>{{::data.owner_county}}</label>
+          </td>
+          <td valign="top" style="text-align:left; padding:5px;">
+            <label style="text-align:left; padding:5px; overflow-wrap: break-all; white-space: pre-wrap;"><strong>Date Collected: </strong>{{::data.test_collected}}<br><strong>Culture - Time Collected: </strong>{{::data.test_time}}<br><strong>Type of Test: </strong>{{::data.test_type}}<br><br>* All samples for culture must arrive at the laboratory within 48 hours of collection for valid official test.</label>
+          </td>
+          <td valign="top" style="text-align:left; padding:5px;">
+            <label style="text-align:left; padding:5px; overflow-wrap: break-all; white-space: pre-wrap;"><strong>Location of Animals During Next 12 Months: </strong>{{::data.loc_next}}<br><strong>Turnout Date(s): </strong>{{::data.turnout}}<br><strong>Trich Tag Color: </strong>{{::data.tag_color}}<br><strong>Does owner graze cattle on:</strong><br><input type="checkbox" ng-checked="{{::data.blm}} == true" disabled="disabled"> BLM<br><input type="checkbox" ng-checked="{{::data.forest}} == true" disabled="disabled"> Forest Service<br><input type="checkbox" ng-checked="{{::data.state_lands}} == true" disabled="disabled"> State Lands<br><input type="checkbox" ng-checked="{{::data.private_lands}} == true" disabled="disabled"> Private</label>
+          </td>
+          <td valign="top" style="text-align:left; padding:5px;">
+            <label style="text-align:left; padding:5px; overflow-wrap: break-all; white-space: pre-wrap;"><strong>Negative: </strong>{{::data.test_interp_num_neg}}<br><strong>Positive: </strong>{{::data.test_interp_num_pos}}<br><strong>Tag Only: </strong>{{::data.tag_only}}<br><strong>Total Tested: </strong>{{::data.totaltest}}<br><strong>Accession #: </strong>{{::data.acc}}</label>
+          </td>
         </tr>
-      </thead>
-      <tbody>
-        <tr ng-repeat="item in data.related">
-          <td role="text" ng-repeat="field in item" aria-label="{{item[field].value}}" class="pointer" data-field="{{::keys}}"  data-th="{{data.column_labels[field]}}" style="width: 16%">{{field.value}}</td>
+      </table>
+      <br>
+    </div>
+    <div>
+      <table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
+        <tr align="center" style="background-color: #cccccc;">
+          <th align="center" style="text-align:center; padding:5px;"><b>${Veterinarian Information}</b></th>
+        </tr>
+        <tr>
+          <td align="center" style="text-align: center; padding: 5px; font-size: 8pt;">The animals listed below have all been tested and identified with an approved seasonal Trich Tag, pursuant to IDAPA 02.04.29, Rules Governing Trichomoniasis.</td>
+        </tr>
+        <tr>
+          <table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" rules="box" border="1" cellspacing="1" cellpadding="10" font-size="8pt">
+            <tr>
+              <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label ng-if="c.data.vsignature == ''" font-size="8pt"><strong>Digitally Signed By: </strong>{{::data.vet}}</label>
+                <label ng-if="c.data.vsignature != ''" font-size="8pt"><strong>Digitally Signed By: </strong>{{::data.vsignature}}</label>
+              </td>
+              <td width="25%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>Address: </strong>{{::data.vet_street}}</label>
+              </td>
+              <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>City, State, Zip: </strong>{{::data.vet_city}}</label>
+              </td>
+              <td width="14%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>Phone: </strong>{{::data.vet_phone}}</label>
+              </td>
+              <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>Email: </strong>{{::data.vet_email}}</label>
+              </td>
+            </tr>
+            <tr>
+              <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>Date: </strong>{{::data.signed_date}}</label>
+              </td>
+              <td width="25%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>USDA Accreditation #: </strong>{{::data.vet_usda}}</label>
+              </td>
+              <td width="20%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+                <label font-size="8pt"><strong>State License #: </strong>{{::data.vet_lic}}</label>
+              </td>
+            </tr>
+          </table>
+        </tr>
+      </table>
+      <br>
+    </div>
+    <!--<div>
+<table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="10" font-size="12pt">
+<tr align="center" style="background-color: #cccccc;">
+<th align="center" style="text-align:center; padding:5px;"><b>${Laboratory Information and Results}</b></th>
+</tr>
+<tr>
+<table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" rules="box" border="1" cellspacing="1" cellpadding="10" font-size="8pt">
+<tr>
+<td width="33%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+<label font-size="8pt"><strong>Laboratory: </strong>{{::data.lab}}</label>
+</td>
+<td width="33%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+<label font-size="8pt"><strong>Date: </strong>{{::data.lab_signed}}</label>
+</td>
+<td width="33%" style="text-align: left; font-size: 8pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;">
+<label font-size="8pt"><strong>Signature of Technician: </strong>{{::data.lab_tech}}</label>
+</td>
+</tr>
+</table>
+</tr>
+</table>
+<br>
+</div>-->
+    <!----- Determin if there are attachments if so display them 
+<div class="table" align="center" style="width: 99%;" ng-if='data.attachments.length'>
+<h4 style="margin-left:25px;"><strong>Attachments</strong></h4>
+<div  class="row">
+<div ng-repeat='attach in data.attachments'>
+<div class="clearfix" ng-if="$index % 3 == 0"></div>
+<div class="col-sm-4">
+<img ng-src="{{attach}}" height='150px' style='padding-top: 15px'>
+</div>
+</div>
+</div>
+</div>---->
+    <div class="table" id="TDTable" align="center" style="width: 99%;" >
+      <h4 style="margin-left:25px;"><strong>Animal Information</strong></h4>
+      <!-- PLACE HOLDER FOR ANIMAL ARRAY INFORMATION -->
+      <table class="table table-striped table-bordered table-condensed" align="center" width="99%" style="margin-left: 5px;">
+        <thead>
+          <tr>
+            <th style="background-color: #cccccc; width: 12%;" ng-repeat="keys in data.column_labels track by $index" tabindex="0">
+              <div class="th-title" >{{keys}}</div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="item in data.related">
+            <td role="text" ng-repeat="field in item" aria-label="{{item[field].value}}" class="pointer" data-field="{{::keys}}"  data-th="{{data.column_labels[field]}}" style="width: 12%">{{field.value}}</td>
 
-        </tr>
-      </tbody>
-   </table>
-  </div>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
   <br>
 
-<div ng-if="!data.isvalid">
-  ${Record not found}
-</div>]]></template>
+  <div ng-if="!data.isvalid">
+    ${Record not found}
+  </div>]]></template>
     </sp_widget>
 </record_update>

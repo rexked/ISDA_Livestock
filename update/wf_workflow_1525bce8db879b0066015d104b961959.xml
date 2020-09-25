@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="wf_workflow_version">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
         <activity_stages>{"ends":["b5a8e1f4db8f9b00086c89584b96195c"],"activities":{},"subflows":[],"stages":{}}</activity_stages>
@@ -928,20 +927,6 @@ answer = 0;</value>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-29 17:06:02</sys_created_on>
-        <sys_id>b9a8e5f4db8f9b00086c89584b961943</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-29 17:06:02</sys_updated_on>
-        <value/>
-        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>71a8e5f4db8f9b00086c89584b961942</document_key>
-        <order>1310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
-        <sys_created_on>2018-06-29 17:06:02</sys_created_on>
         <sys_id>f5a8e5f4db8f9b00086c89584b961943</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
@@ -952,16 +937,16 @@ answer = 0;</value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>71a8e5f4db8f9b00086c89584b961942</document_key>
-        <order>1320</order>
+        <order>1310</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-29 17:06:02</sys_created_on>
-        <sys_id>b5a8e5f4db8f9b00086c89584b961944</sys_id>
+        <sys_id>b9a8e5f4db8f9b00086c89584b961943</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
         <sys_updated_on>2018-06-29 17:06:02</sys_updated_on>
         <value/>
-        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -976,6 +961,20 @@ answer = 0;</value>
         <sys_updated_on>2018-06-29 17:06:02</sys_updated_on>
         <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
         <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>71a8e5f4db8f9b00086c89584b961942</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-29 17:06:02</sys_created_on>
+        <sys_id>b5a8e5f4db8f9b00086c89584b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-29 17:06:02</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1012,12 +1011,12 @@ answer = 0;</value>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-29 17:06:02</sys_created_on>
-        <sys_id>31a8e5f4db8f9b00086c89584b961944</sys_id>
+        <sys_id>7da8e5f4db8f9b00086c89584b961943</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
         <sys_updated_on>2018-06-29 17:06:02</sys_updated_on>
         <value/>
-        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -1040,12 +1039,12 @@ answer = 0;</value>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-29 17:06:02</sys_created_on>
-        <sys_id>7da8e5f4db8f9b00086c89584b961943</sys_id>
+        <sys_id>31a8e5f4db8f9b00086c89584b961944</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
         <sys_updated_on>2018-06-29 17:06:02</sys_updated_on>
         <value/>
-        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>

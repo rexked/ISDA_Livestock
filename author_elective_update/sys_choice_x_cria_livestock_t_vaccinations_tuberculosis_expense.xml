@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="expense" table="x_cria_livestock_t_vaccinations_tuberculosis" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Owners</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:41:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a302e200dbcad3809b2689584b96191c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 20:41:31</sys_updated_on>
+            <value>owners_expense</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>State/ Federal</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:41:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de47a200dbcad3809b2689584b961988</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 20:41:55</sys_updated_on>
+            <value>state_federal_expense</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>expense</element>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:41:27</sys_created_on>
+            <sys_id>9e476640dbcad3809b2689584b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>expense</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_tuberculosis_expense</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 20:41:27</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_vaccinations_tuberculosis_expense</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="expense" table="x_cria_livestock_t_vaccinations_tuberculosis" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Owners</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:41:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a302e200dbcad3809b2689584b96191c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 20:41:31</sys_updated_on>
+            <value>owners_expense</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>State/ Federal</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sequence/>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:41:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de47a200dbcad3809b2689584b961988</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 20:41:55</sys_updated_on>
+            <value>state_federal_expense</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>expense</element>
+            <name>x_cria_livestock_t_vaccinations_tuberculosis</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>cervin@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-05-08 20:41:27</sys_created_on>
+            <sys_id>9e476640dbcad3809b2689584b96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>expense</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_tuberculosis_expense</sys_update_name>
+            <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-05-08 20:41:27</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>-1105666250</payload_hash>
+        <record_name>Tuberculosis Test.Expense</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:54:47</sys_created_on>
+        <sys_id>d50e11d6db7a570066015d104b9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1642457bc970000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:54:47</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>150e11d63a7a5700067a5d38abb28fa1</update_guid>
+        <update_guid_history>150e11d63a7a5700067a5d38abb28fa1:0,0763281e83b657002286fd19bcc2ec17:1895043604,c363281e20b657003792cda3ffae1d14:-1537698662,4d67eeccdc8ad380166c4a574d36bb36:-1749971338,a457ee8047cad380a73b1fec0ccc03af:-708794173,9747ee8003cad380b76caa5b40e295f2:-20495276,5e47664035cad38072296d348ba5a54b:-651708636</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>cervin@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>990e11d6db7a570066015d104b96199f</sys_id>
+        <sys_metadata>990e11d6db7a570066015d104b96199f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>expense</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_vaccinations_tuberculosis_expense</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_vaccinations_tuberculosis_expense">d50e11d6db7a570066015d104b9619a1</sys_update_version>
+        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

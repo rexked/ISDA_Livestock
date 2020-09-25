@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>1810</height>
+        <image/>
+        <name>ISDA_Background_global.png</name>
+        <size_bytes>518583</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-08-12 22:35:43</sys_created_on>
+        <sys_id>b2564568dbdb7300447b4b8b0b961959</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ISDA_Background_global.png</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>db_image_b2564568dbdb7300447b4b8b0b961959</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-08-03 19:25:00</sys_updated_on>
+        <thumbnail/>
+        <width>2778</width>
+    </db_image>
+</record_update>

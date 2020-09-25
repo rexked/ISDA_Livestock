@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="trich_result" table="x_cria_livestock_t_batchfill_cvi" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>trich_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Negative</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>0</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56db377edbdaab00c64e5eea4b961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <value>negative</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>trich_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Positive</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>1</sequence>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96db377edbdaab00c64e5eea4b961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+            <value>positive</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>trich_result</element>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-12-14 22:21:04</sys_created_on>
+            <sys_id>52db377edbdaab00c64e5eea4b961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>trich_result</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_batchfill_cvi_trich_result</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-12-14 22:21:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_batchfill_cvi_trich_result</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="trich_result" table="x_cria_livestock_t_batchfill_cvi" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>trich_result</element><hint/><inactive>false</inactive><label>Negative</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>0</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-14 22:21:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>56db377edbdaab00c64e5eea4b961944</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-12-14 22:21:04</sys_updated_on><value>negative</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>trich_result</element><hint/><inactive>false</inactive><label>Positive</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>1</sequence><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-14 22:21:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>96db377edbdaab00c64e5eea4b961945</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-12-14 22:21:04</sys_updated_on><value>positive</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>trich_result</element><name>x_cria_livestock_t_batchfill_cvi</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-12-14 22:21:04</sys_created_on><sys_id>52db377edbdaab00c64e5eea4b961945</sys_id><sys_mod_count>0</sys_mod_count><sys_name>trich_result</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_choice_x_cria_livestock_t_batchfill_cvi_trich_result</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-12-14 22:21:04</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-625923755</payload_hash>
+        <record_name>BatchFill CVI.Result</record_name>
+        <reverted_from/>
+        <source>c3146013db52b700086c89584b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-02 16:06:42</sys_created_on>
+        <sys_id>a024e013db52b700086c89584b961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bb37031ba0000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-02 16:06:42</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>52db377eeedaab00fddd3e57c3618747</update_guid>
+        <update_guid_history>52db377eeedaab00fddd3e57c3618747:-625923755</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>e424e013db52b700086c89584b961926</sys_id>
+        <sys_metadata>e424e013db52b700086c89584b961926</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trich_result</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_batchfill_cvi_trich_result</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_batchfill_cvi_trich_result">a024e013db52b700086c89584b961928</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

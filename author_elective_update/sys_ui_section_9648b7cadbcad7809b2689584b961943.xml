@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="9648b7cadbcad7809b2689584b961943" sys_domain="global" table="x_cria_livestock_t_vaccinations_market_cattle" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>record_id</element>
+            <position>0</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-09-14 19:58:14</sys_created_on>
+            <sys_id>7272b6e9dbe0a700c64e5eea4b961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-09-14 19:58:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_livestock_market</element>
+            <position>1</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-09-14 19:58:14</sys_created_on>
+            <sys_id>f272b6e9dbe0a700c64e5eea4b961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-09-14 19:58:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_testing_lab</element>
+            <position>2</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-09-14 19:58:14</sys_created_on>
+            <sys_id>7672b6e9dbe0a700c64e5eea4b961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-09-14 19:58:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-09-14 19:58:14</sys_created_on>
+            <sys_id>f672b6e9dbe0a700c64e5eea4b961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-09-14 19:58:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>4</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-09-14 19:58:14</sys_created_on>
+            <sys_id>7a72b6e9dbe0a700c64e5eea4b961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-09-14 19:58:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slaughter_estab_num</element>
+            <position>5</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-09-14 19:58:14</sys_created_on>
+            <sys_id>fa72b6e9dbe0a700c64e5eea4b961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-09-14 19:58:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dsa_herd</element>
+            <position>6</position>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-09-14 19:58:14</sys_created_on>
+            <sys_id>7e72b6e9dbe0a700c64e5eea4b961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-09-14 19:58:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_cria_livestock_t_vaccinations_market_cattle</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-09-14 19:27:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9648b7cadbcad7809b2689584b961943</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_cria_livestock_t_vaccinations_market_cattle</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_9648b7cadbcad7809b2689584b961943</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-09-14 19:57:22</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_ui_section_9648b7cadbcad7809b2689584b961943</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="9648b7cadbcad7809b2689584b961943" sys_domain="global" table="x_cria_livestock_t_vaccinations_market_cattle" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>record_id</element><position>0</position><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-09-14 19:58:14</sys_created_on><sys_id>7272b6e9dbe0a700c64e5eea4b961993</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-09-14 19:58:14</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_livestock_market</element><position>1</position><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-09-14 19:58:14</sys_created_on><sys_id>f272b6e9dbe0a700c64e5eea4b961993</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-09-14 19:58:14</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_testing_lab</element><position>2</position><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-09-14 19:58:14</sys_created_on><sys_id>7672b6e9dbe0a700c64e5eea4b961993</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-09-14 19:58:14</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-09-14 19:58:14</sys_created_on><sys_id>f672b6e9dbe0a700c64e5eea4b961993</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-09-14 19:58:14</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_created_on</element><position>4</position><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-09-14 19:58:14</sys_created_on><sys_id>7a72b6e9dbe0a700c64e5eea4b961993</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-09-14 19:58:14</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>slaughter_estab_num</element><position>5</position><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-09-14 19:58:14</sys_created_on><sys_id>fa72b6e9dbe0a700c64e5eea4b961993</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-09-14 19:58:14</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>dsa_herd</element><position>6</position><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-09-14 19:58:14</sys_created_on><sys_id>7e72b6e9dbe0a700c64e5eea4b961993</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_market_cattle" sys_domain="global" view="Default view">9648b7cadbcad7809b2689584b961943</sys_ui_section><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-09-14 19:58:14</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_cria_livestock_t_vaccinations_market_cattle</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-09-14 19:27:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9648b7cadbcad7809b2689584b961943</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_cria_livestock_t_vaccinations_market_cattle</sys_name><sys_overrides/><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_ui_section_9648b7cadbcad7809b2689584b961943</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-09-14 19:57:22</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>534989576</payload_hash>
+        <record_name>Brucellosis Market Cattle Testing</record_name>
+        <reverted_from/>
+        <source>64738563dbe86700eb4e18df4b9619f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-20 17:01:21</sys_created_on>
+        <sys_id>52830d63dbe86700eb4e18df4b961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>165f7edcba30000001</sys_recorded_at>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-20 17:01:21</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>7a72b6e949e0a7006f68c44edda00595</update_guid>
+        <update_guid_history>7a72b6e949e0a7006f68c44edda00595:-479444856,da4236e968e0a700269656d8332f8d81:151122994,c64236e957e0a700d0256d5496b96d56:2004294158,eb0eea29e8e0a7005ff771ee385b4f02:-1216078403,180eaa29e8e0a700ed8d34c25abb887b:-786405948,8b7beea563e0a7001c6fd4b613cd688e:818533340,c72b1ae27cd3130089aee0a8eb85e0d0:1245453509,451b92a249d313001b2ff48fe540669f:-336567214,9b585eeeb193130072c1002b62ed2e4e:1245453509,9fbb04fea3ba9700906f3f385ae76745:914991473,7f3b88beffba9700535957a080047b7f:-1251552067,d91e95d6147a5700a0b461b7c2f642a8:0,f083205e92b657006d71d4a93269cb57:895053795,1c0a2a86da2a970030f418dcf95b0f6b:914991473,5d2862464c2a9700d2a9b084f8f6ee65:39452253,bf08ae06242a9700bd8e8cbce501fd2d:2064555324,69f76e06022a9700d0da693f73a3327e:-430743668,75d7aa06702a9700a4e264510dd2ee4a:1003534865,01c76a069c2a97002b6e13afd7a4d98e:-730037073,afa72a06832a97005f2782f42be8ad2c:105081168,49c69d0e6d26970060f00df49360ced8:-2006372713,ac76d50e9e26970002331b49a03ad2cc:-744644828,f346550e2a269700d37521610cc3016c:-264860605,a636510e5a2697006e7fe535a39b929f:1418047991,33ef7c4af5e297006c6962990306bf78:-1482889306,830f344a6fe297000298dd97be7164d9:-2120119567,6cfeb04a6de29700fc297072a27eec05:1699836068,18de704ad4e297004fb20310da92f61f:113823976,febefc0ad6e29700ebcf7c3ab3eaa9c4:-461135791,da9ebc0a10e29700327201ce5f9e6233:856625791,8e7e3c0afbe2970049f18c36b1c8d48d:-1578098536,f53e780ad2e297003e9037c6c858e7d7:-239542075,911e380aa1e297003527213e1a94933d:-1358888389,92ed740aa1e29700e5ef2b255afbc11e:230414146,6ecdf00a1de297000e76cbf65ec41081:677274414,738d7cc63ae2970026f3a679683d8ff3:-1302846164,466890f187ea17004f0ca131137d1914:-2006372713,81649431aeea170030c2424436924eb3:-1225861879,65749224bf5a1f80fe1b31d54035c18d:1291667526,ddf8b30e8ccad780e542feb799eb4106:-1775110973,d1f87fcaf8cad7804bbe4f08897dde17:1439977255</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-23 17:04:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>87f86d4ed55d4a44b2bbb3f1f1a22721</sys_id>
+        <sys_metadata>9648b7cadbcad7809b2689584b961943</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cria_livestock_t_vaccinations_market_cattle</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent display_value="Brucellosis Market Cattle Testing">e873bf86dbcad7809b2689584b96193d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_ui_section_9648b7cadbcad7809b2689584b961943</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_9648b7cadbcad7809b2689584b961943">52830d63dbe86700eb4e18df4b961965</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-23 17:04:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

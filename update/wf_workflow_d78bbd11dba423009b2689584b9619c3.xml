@@ -1,0 +1,3534 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <activity_stages>{"ends":["dd3a1539dbb06b009b2689584b961952"],"activities":{},"subflows":[],"stages":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="sys_attachment">table_name=x_cria_livestock_t_vaccinations_brucellosis_test^ORtable_name=x_cria_livestock_t_brucellosis_vaccination_record^ORtable_name=x_cria_livestock_t_vaccinations_cvi^ORtable_name=x_cria_livestock_t_lab_results_bruc_market_cattle^ORtable_name=x_cria_livestock_t_saleyard_release^ORtable_name=x_cria_livestock_t_tagging_station_records^ORtable_name=x_cria_livestock_t_vaccinations_tuberculosis^ORtable_name=x_cria_livestock_t_vaccinations_trichomoniasis^file_nameLIKETemplate^file_nameENDSWITH.xlsx^ORfile_nameENDSWITH.xls^EQ<item endquery="false" field="table_name" goto="false" newquery="false" operator="=" or="false" value="x_cria_livestock_t_vaccinations_brucellosis_test"/>
+            <item endquery="false" field="table_name" goto="false" newquery="false" operator="=" or="true" value="x_cria_livestock_t_brucellosis_vaccination_record"/>
+            <item endquery="false" field="table_name" goto="false" newquery="false" operator="=" or="true" value="x_cria_livestock_t_vaccinations_cvi"/>
+            <item endquery="false" field="table_name" goto="false" newquery="false" operator="=" or="true" value="x_cria_livestock_t_lab_results_bruc_market_cattle"/>
+            <item endquery="false" field="table_name" goto="false" newquery="false" operator="=" or="true" value="x_cria_livestock_t_saleyard_release"/>
+            <item endquery="false" field="table_name" goto="false" newquery="false" operator="=" or="true" value="x_cria_livestock_t_tagging_station_records"/>
+            <item endquery="false" field="table_name" goto="false" newquery="false" operator="=" or="true" value="x_cria_livestock_t_vaccinations_tuberculosis"/>
+            <item endquery="false" field="table_name" goto="false" newquery="false" operator="=" or="true" value="x_cria_livestock_t_vaccinations_trichomoniasis"/>
+            <item endquery="false" field="file_name" goto="false" newquery="false" operator="LIKE" or="false" value="Template"/>
+            <item endquery="false" field="file_name" goto="false" newquery="false" operator="ENDSWITH" or="false" value=".xlsx"/>
+            <item endquery="false" field="file_name" goto="false" newquery="false" operator="ENDSWITH" or="true" value=".xls"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>1d3a1539dbb06b009b2689584b961948,413a9df5dbb06b009b2689584b961975,993a1539dbb06b009b2689584b961946,d93a1539dbb06b009b2689584b961953,dd3a1539dbb06b009b2689584b961952</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>1d3a1539dbb06b009b2689584b961948,413a9df5dbb06b009b2689584b961975,993a1539dbb06b009b2689584b961946,d93a1539dbb06b009b2689584b961953,5d3a1539dbb06b009b2689584b961950,dd3a1539dbb06b009b2689584b961952,dd3a1539dbb06b009b2689584b961947,193a1539dbb06b009b2689584b96194f,dd3a1539dbb06b009b2689584b96194a,993a1539dbb06b009b2689584b961949,913a1539dbb06b009b2689584b961952,953a1539dbb06b009b2689584b96194d,1d3a1539dbb06b009b2689584b96194b,953a1539dbb06b009b2689584b961941,593a1539dbb06b009b2689584b961945,153a1539dbb06b009b2689584b961944,d93a1539dbb06b009b2689584b96194e,dd3a1539dbb06b009b2689584b961942,593a1539dbb06b009b2689584b96194c</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Import ISDA Attachments</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">1d3a1539dbb06b009b2689584b961948</start>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>453a9df5dbb06b009b2689584b961973</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-11-21 22:02:13</sys_updated_on>
+        <table>sys_attachment</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="Import ISDA Attachments">d78bbd11dba423009b2689584b9619c3</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Import ISDA Attachments</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-13 21:19:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d78bbd11dba423009b2689584b9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import ISDA Attachments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>wf_workflow_d78bbd11dba423009b2689584b9619c3</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-13 21:19:45</sys_updated_on>
+        <table>sys_attachment</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1d3a1539dbb06b009b2689584b961948"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">1d3a1539dbb06b009b2689584b961948</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>153a1539dbb06b009b2689584b961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Bruc Test Import</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d93a1539dbb06b009b2689584b961953</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:33:18</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>264</x>
+        <y>223</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d93a1539dbb06b009b2689584b961953"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d93a1539dbb06b009b2689584b961953</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>5d3a1539dbb06b009b2689584b961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_bruc_test_temp";&#13;
+	var transformMapIDs = "8bb98fbadbc0a700c64e5eea4b961987";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d93a1539dbb06b009b2689584b961953</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>5d3a1539dbb06b009b2689584b961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_bruc_test_temp";&#13;
+	var transformMapIDs = "8bb98fbadbc0a700c64e5eea4b961987";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Bruc Test Import">d93a1539dbb06b009b2689584b961953</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a1539dbb06b009b2689584b961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>13</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Bruc Test?</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>993a1539dbb06b009b2689584b961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>46</x>
+        <y>219</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=993a1539dbb06b009b2689584b961946"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>993a1539dbb06b009b2689584b961946</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_vaccinations_brucellosis_test^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>993a1539dbb06b009b2689584b961946</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a1539dbb06b009b2689584b961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>993a1539dbb06b009b2689584b961946</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>993a1539dbb06b009b2689584b961946</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_vaccinations_brucellosis_test^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>993a1539dbb06b009b2689584b961946</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>993a1539dbb06b009b2689584b961946</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a1539dbb06b009b2689584b961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Bruc Test?">993a1539dbb06b009b2689584b961946</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d53a1539dbb06b009b2689584b961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Bruc Test?">993a1539dbb06b009b2689584b961946</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>593a1539dbb06b009b2689584b961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Bruc Vacc Import</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>265</x>
+        <y>326</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=dd3a1539dbb06b009b2689584b961947"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dd3a1539dbb06b009b2689584b961947</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>513a1539dbb06b009b2689584b961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_bruc_vacc_temp";&#13;
+	var transformMapIDs = "e1dea5addb84e3009b2689584b961970";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dd3a1539dbb06b009b2689584b961947</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>513a1539dbb06b009b2689584b961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_bruc_vacc_temp";&#13;
+	var transformMapIDs = "e1dea5addb84e3009b2689584b961970";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Bruc Vacc Import">dd3a1539dbb06b009b2689584b961947</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>953a1539dbb06b009b2689584b961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>14</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Bruc Vacc?</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>5d3a1539dbb06b009b2689584b961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>47</x>
+        <y>323</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5d3a1539dbb06b009b2689584b961950"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5d3a1539dbb06b009b2689584b961950</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>553a1539dbb06b009b2689584b961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5d3a1539dbb06b009b2689584b961950</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a1539dbb06b009b2689584b961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5d3a1539dbb06b009b2689584b961950</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_brucellosis_vaccination_record^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5d3a1539dbb06b009b2689584b961950</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_brucellosis_vaccination_record^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5d3a1539dbb06b009b2689584b961950</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a1539dbb06b009b2689584b961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5d3a1539dbb06b009b2689584b961950</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>553a1539dbb06b009b2689584b961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Bruc Vacc?">5d3a1539dbb06b009b2689584b961950</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Bruc Vacc?">5d3a1539dbb06b009b2689584b961950</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>993a1539dbb06b009b2689584b961951</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>CVI Import</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>265</x>
+        <y>429</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=dd3a1539dbb06b009b2689584b96194a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dd3a1539dbb06b009b2689584b96194a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>513a1539dbb06b009b2689584b96194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>(function executeRule(current, previous /*null when async*/) {&#13;
+	// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_cvi_temp";&#13;
+	var transformMapIDs = "642849b7dbcce700c64e5eea4b9619f2";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);&#13;
+	&#13;
+})(current, previous);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dd3a1539dbb06b009b2689584b96194a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>513a1539dbb06b009b2689584b96194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>(function executeRule(current, previous /*null when async*/) {&#13;
+	// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_cvi_temp";&#13;
+	var transformMapIDs = "642849b7dbcce700c64e5eea4b9619f2";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);&#13;
+	&#13;
+})(current, previous);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="CVI Import">dd3a1539dbb06b009b2689584b96194a</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>953a1539dbb06b009b2689584b96194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>15</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>CVI?</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>193a1539dbb06b009b2689584b96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>47</x>
+        <y>428</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=193a1539dbb06b009b2689584b96194f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>193a1539dbb06b009b2689584b96194f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>113a1539dbb06b009b2689584b961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>193a1539dbb06b009b2689584b96194f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>5d3a1539dbb06b009b2689584b96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>193a1539dbb06b009b2689584b96194f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>993a1539dbb06b009b2689584b96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_vaccinations_cvi^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>193a1539dbb06b009b2689584b96194f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>993a1539dbb06b009b2689584b96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_vaccinations_cvi^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>193a1539dbb06b009b2689584b96194f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>5d3a1539dbb06b009b2689584b96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>193a1539dbb06b009b2689584b96194f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>113a1539dbb06b009b2689584b961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="CVI?">193a1539dbb06b009b2689584b96194f</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d53a1539dbb06b009b2689584b961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="CVI?">193a1539dbb06b009b2689584b96194f</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>553a1539dbb06b009b2689584b961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>215</x>
+        <y>1099</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=dd3a1539dbb06b009b2689584b961952"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Market Cattle Import</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a1539dbb06b009b2689584b961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>265</x>
+        <y>531</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=913a1539dbb06b009b2689584b961952"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>913a1539dbb06b009b2689584b961952</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>153a1539dbb06b009b2689584b961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>(function executeRule(current, previous /*null when async*/) {&#13;
+	// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_market_cattle_temp";&#13;
+	var transformMapIDs = "96bbf137db402b00c64e5eea4b961913";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);&#13;
+	&#13;
+})(current, previous);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>913a1539dbb06b009b2689584b961952</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>153a1539dbb06b009b2689584b961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>(function executeRule(current, previous /*null when async*/) {&#13;
+	// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_market_cattle_temp";&#13;
+	var transformMapIDs = "96bbf137db402b00c64e5eea4b961913";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);&#13;
+	&#13;
+})(current, previous);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Market Cattle Import">913a1539dbb06b009b2689584b961952</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>593a1539dbb06b009b2689584b961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>16</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Market Cattle?</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>993a1539dbb06b009b2689584b961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>47</x>
+        <y>531</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=993a1539dbb06b009b2689584b961949"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>993a1539dbb06b009b2689584b961949</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_vaccinations_market_cattle^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>993a1539dbb06b009b2689584b961949</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a1539dbb06b009b2689584b96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>993a1539dbb06b009b2689584b961949</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>993a1539dbb06b009b2689584b961949</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_vaccinations_market_cattle^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>993a1539dbb06b009b2689584b961949</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>993a1539dbb06b009b2689584b961949</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a1539dbb06b009b2689584b96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Market Cattle?">993a1539dbb06b009b2689584b961949</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d53a1539dbb06b009b2689584b96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Market Cattle?">993a1539dbb06b009b2689584b961949</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>593a1539dbb06b009b2689584b96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Saleyard Import</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b96194b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-16 21:15:17</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>265</x>
+        <y>643</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1d3a1539dbb06b009b2689584b96194b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1d3a1539dbb06b009b2689584b96194b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>9d3a1539dbb06b009b2689584b96194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>(function executeRule(current, previous /*null when async*/) {&#13;
+	// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_saleyard_temp";&#13;
+	var transformMapIDs = "4e90b57fdb002b00c64e5eea4b9619b2";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);&#13;
+	&#13;
+})(current, previous);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1d3a1539dbb06b009b2689584b96194b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>9d3a1539dbb06b009b2689584b96194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>(function executeRule(current, previous /*null when async*/) {&#13;
+	// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_saleyard_temp";&#13;
+	var transformMapIDs = "4e90b57fdb002b00c64e5eea4b9619b2";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);&#13;
+	&#13;
+})(current, previous);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Saleyard Import">1d3a1539dbb06b009b2689584b96194b</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d13a1539dbb06b009b2689584b96194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>17</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Saleyard?</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>953a1539dbb06b009b2689584b96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>47</x>
+        <y>641</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=953a1539dbb06b009b2689584b96194d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>953a1539dbb06b009b2689584b96194d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>193a1539dbb06b009b2689584b96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_saleyard_release^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>953a1539dbb06b009b2689584b96194d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>9d3a1539dbb06b009b2689584b96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>953a1539dbb06b009b2689584b96194d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d93a1539dbb06b009b2689584b96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>953a1539dbb06b009b2689584b96194d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>193a1539dbb06b009b2689584b96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_saleyard_release^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>953a1539dbb06b009b2689584b96194d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d93a1539dbb06b009b2689584b96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>953a1539dbb06b009b2689584b96194d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>9d3a1539dbb06b009b2689584b96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Saleyard?">953a1539dbb06b009b2689584b96194d</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d13a1539dbb06b009b2689584b96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Saleyard?">953a1539dbb06b009b2689584b96194d</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>553a1539dbb06b009b2689584b96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Tagging Import</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>593a1539dbb06b009b2689584b961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>267</x>
+        <y>749</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=593a1539dbb06b009b2689584b961945"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>593a1539dbb06b009b2689584b961945</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>5d3a1539dbb06b009b2689584b961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>(function executeRule(current, previous /*null when async*/) {&#13;
+	// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_tag_station_temp";&#13;
+	var transformMapIDs = "305c1798db5423009b2689584b9619fe";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);&#13;
+	&#13;
+})(current, previous);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>593a1539dbb06b009b2689584b961945</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>5d3a1539dbb06b009b2689584b961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>(function executeRule(current, previous /*null when async*/) {&#13;
+	// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_tag_station_temp";&#13;
+	var transformMapIDs = "305c1798db5423009b2689584b9619fe";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);&#13;
+	&#13;
+})(current, previous);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Tagging Import">593a1539dbb06b009b2689584b961945</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>153a1539dbb06b009b2689584b961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>18</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Tagging Station?</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>953a1539dbb06b009b2689584b961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>47</x>
+        <y>748</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=953a1539dbb06b009b2689584b961941"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>953a1539dbb06b009b2689584b961941</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>113a1539dbb06b009b2689584b961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>953a1539dbb06b009b2689584b961941</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>5d3a1539dbb06b009b2689584b961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>953a1539dbb06b009b2689584b961941</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>993a1539dbb06b009b2689584b961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_tagging_station_records^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>953a1539dbb06b009b2689584b961941</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>993a1539dbb06b009b2689584b961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_tagging_station_records^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>953a1539dbb06b009b2689584b961941</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>5d3a1539dbb06b009b2689584b961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>953a1539dbb06b009b2689584b961941</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>113a1539dbb06b009b2689584b961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Tagging Station?">953a1539dbb06b009b2689584b961941</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d53a1539dbb06b009b2689584b961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Tagging Station?">953a1539dbb06b009b2689584b961941</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>593a1539dbb06b009b2689584b961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>TB Import</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d93a1539dbb06b009b2689584b96194e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-16 16:21:12</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>264</x>
+        <y>857</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d93a1539dbb06b009b2689584b96194e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d93a1539dbb06b009b2689584b96194e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>5d3a1539dbb06b009b2689584b96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>(function executeRule(current, previous /*null when async*/) {&#13;
+	// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_tb_temp";&#13;
+	var transformMapIDs = "614082f7db402b00c64e5eea4b9619ae";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);&#13;
+	&#13;
+})(current, previous);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d93a1539dbb06b009b2689584b96194e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>5d3a1539dbb06b009b2689584b96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>(function executeRule(current, previous /*null when async*/) {&#13;
+	// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_tb_temp";&#13;
+	var transformMapIDs = "614082f7db402b00c64e5eea4b9619ae";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);&#13;
+	&#13;
+})(current, previous);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="TB Import">d93a1539dbb06b009b2689584b96194e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a1539dbb06b009b2689584b96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>19</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>TB?</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>153a1539dbb06b009b2689584b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>48</x>
+        <y>855</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=153a1539dbb06b009b2689584b961944"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>153a1539dbb06b009b2689584b961944</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>153a1539dbb06b009b2689584b961944</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>593a1539dbb06b009b2689584b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>153a1539dbb06b009b2689584b961944</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>953a1539dbb06b009b2689584b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_vaccinations_tuberculosis^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>153a1539dbb06b009b2689584b961944</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>953a1539dbb06b009b2689584b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_vaccinations_tuberculosis^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>153a1539dbb06b009b2689584b961944</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>593a1539dbb06b009b2689584b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>153a1539dbb06b009b2689584b961944</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="TB?">153a1539dbb06b009b2689584b961944</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d13a1539dbb06b009b2689584b961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="TB?">153a1539dbb06b009b2689584b961944</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>513a1539dbb06b009b2689584b961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Trich Import</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>593a1539dbb06b009b2689584b96194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>265</x>
+        <y>968</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=593a1539dbb06b009b2689584b96194c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>593a1539dbb06b009b2689584b96194c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d93a1539dbb06b009b2689584b96194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>(function executeRule(current, previous /*null when async*/) {&#13;
+	// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_trich_test_temp";&#13;
+	var transformMapIDs = "5dd6a5f7db002b00c64e5eea4b961936";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);&#13;
+	&#13;
+})(current, previous);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>593a1539dbb06b009b2689584b96194c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d93a1539dbb06b009b2689584b96194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>(function executeRule(current, previous /*null when async*/) {&#13;
+	// Set the following variables with the name of your import set table and task id column&#13;
+	var importSetTableName = "x_cria_livestock_t_trich_test_temp";&#13;
+	var transformMapIDs = "5dd6a5f7db002b00c64e5eea4b961936";   //Use a comma to specify multiple transform maps&#13;
+	&#13;
+	// Create data source for attachment&#13;
+	var dataSource = new GlideRecord("sys_data_source");&#13;
+	dataSource.initialize();&#13;
+	dataSource.name = "Test Import";&#13;
+	dataSource.import_set_table_name = importSetTableName;&#13;
+	dataSource.file_retrieval_method = "Attachment";&#13;
+	dataSource.type = "File";&#13;
+	dataSource.format = "Excel";&#13;
+	dataSource.header_row = 1;&#13;
+	dataSource.sheet_number = 1;&#13;
+	var dataSourceID = dataSource.insert();&#13;
+	&#13;
+	// Copy the attachment to the data source&#13;
+	GlideSysAttachment.copy(current.table_name, current.table_sys_id, "sys_data_source", dataSourceID);&#13;
+	&#13;
+	// Process datasource file to import set table&#13;
+	var importSetRecID = new global.FileImportUtils().processFile(dataSource);&#13;
+	&#13;
+	// Update processed rows with parent value&#13;
+	var importSetRow = new GlideRecord(importSetTableName);&#13;
+	importSetRow.addQuery("sys_import_set", importSetRecID);&#13;
+	importSetRow.query();&#13;
+	while (importSetRow.next()) {&#13;
+		importSetRow.parent = current.table_sys_id;&#13;
+		importSetRow.update();&#13;
+	}&#13;
+	&#13;
+	// Transform the import set records&#13;
+	new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);&#13;
+	&#13;
+})(current, previous);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Trich Import">593a1539dbb06b009b2689584b96194c</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>113a1539dbb06b009b2689584b96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>20</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Trich?</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>48</x>
+        <y>964</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=dd3a1539dbb06b009b2689584b961942"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dd3a1539dbb06b009b2689584b961942</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>153a1539dbb06b009b2689584b961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dd3a1539dbb06b009b2689584b961942</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>513a1539dbb06b009b2689584b961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_vaccinations_trichomoniasis^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dd3a1539dbb06b009b2689584b961942</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d53a1539dbb06b009b2689584b961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dd3a1539dbb06b009b2689584b961942</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>513a1539dbb06b009b2689584b961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>table_name=x_cria_livestock_t_vaccinations_trichomoniasis^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dd3a1539dbb06b009b2689584b961942</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>153a1539dbb06b009b2689584b961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>dd3a1539dbb06b009b2689584b961942</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d53a1539dbb06b009b2689584b961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Trich?">dd3a1539dbb06b009b2689584b961942</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Trich?">dd3a1539dbb06b009b2689584b961942</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>9d3a1539dbb06b009b2689584b961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for attachment to complete loading</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>413a9df5dbb06b009b2689584b961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+        <x>46</x>
+        <y>115</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=413a9df5dbb06b009b2689584b961975"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>153a1539dbb06b009b2689584b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>193a1539dbb06b009b2689584b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>193a9df5dbb06b009b2689584b961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>1970-01-01 00:00:30</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>513a1539dbb06b009b2689584b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>553a1539dbb06b009b2689584b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>553a9df5dbb06b009b2689584b961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a1539dbb06b009b2689584b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a9df5dbb06b009b2689584b961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>9d3a1539dbb06b009b2689584b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>c53a9df5dbb06b009b2689584b961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d53a1539dbb06b009b2689584b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d93a1539dbb06b009b2689584b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a9df5dbb06b009b2689584b961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>153a1539dbb06b009b2689584b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>c53a9df5dbb06b009b2689584b961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>553a9df5dbb06b009b2689584b961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a9df5dbb06b009b2689584b961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a1539dbb06b009b2689584b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>1970-01-01 00:00:30</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d93a1539dbb06b009b2689584b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>9d3a1539dbb06b009b2689584b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>913a9df5dbb06b009b2689584b961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d53a1539dbb06b009b2689584b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>193a1539dbb06b009b2689584b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>553a1539dbb06b009b2689584b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>513a1539dbb06b009b2689584b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>413a9df5dbb06b009b2689584b961975</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>193a9df5dbb06b009b2689584b961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for attachment to complete loading">413a9df5dbb06b009b2689584b961975</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>9d3a1539dbb06b009b2689584b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">113a1539dbb06b009b2689584b96194d</condition>
+        <from display_value="Trich Import">593a1539dbb06b009b2689584b96194c</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>113a1539dbb06b009b2689584b961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="End">dd3a1539dbb06b009b2689584b961952</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">993a1539dbb06b009b2689584b961951</condition>
+        <from display_value="Bruc Vacc?">5d3a1539dbb06b009b2689584b961950</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>153a1539dbb06b009b2689584b961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Bruc Vacc Import">dd3a1539dbb06b009b2689584b961947</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">1d3a1539dbb06b009b2689584b961943</condition>
+        <from display_value="Trich?">dd3a1539dbb06b009b2689584b961942</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>153a1539dbb06b009b2689584b961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="End">dd3a1539dbb06b009b2689584b961952</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">953a1539dbb06b009b2689584b961948</condition>
+        <from display_value="Bruc Vacc Import">dd3a1539dbb06b009b2689584b961947</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>153a1539dbb06b009b2689584b961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="End">dd3a1539dbb06b009b2689584b961952</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">553a1539dbb06b009b2689584b961950</condition>
+        <from display_value="CVI?">193a1539dbb06b009b2689584b96194f</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>193a1539dbb06b009b2689584b961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="CVI Import">dd3a1539dbb06b009b2689584b96194a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">153a1539dbb06b009b2689584b961949</condition>
+        <from display_value="Begin">1d3a1539dbb06b009b2689584b961948</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>1d3a1539dbb06b009b2689584b961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Wait for attachment to complete loading">413a9df5dbb06b009b2689584b961975</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">593a1539dbb06b009b2689584b96194a</condition>
+        <from display_value="Market Cattle?">993a1539dbb06b009b2689584b961949</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>513a1539dbb06b009b2689584b961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Market Cattle Import">913a1539dbb06b009b2689584b961952</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">9d3a1539dbb06b009b2689584b961940</condition>
+        <from display_value="Wait for attachment to complete loading">413a9df5dbb06b009b2689584b961975</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>513a1539dbb06b009b2689584b961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Bruc Test?">993a1539dbb06b009b2689584b961946</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">513a1539dbb06b009b2689584b961945</condition>
+        <from display_value="TB?">153a1539dbb06b009b2689584b961944</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>513a1539dbb06b009b2689584b961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="TB Import">d93a1539dbb06b009b2689584b96194e</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">953a1539dbb06b009b2689584b96194b</condition>
+        <from display_value="CVI Import">dd3a1539dbb06b009b2689584b96194a</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>593a1539dbb06b009b2689584b961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="End">dd3a1539dbb06b009b2689584b961952</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">d13a1539dbb06b009b2689584b96194e</condition>
+        <from display_value="Saleyard?">953a1539dbb06b009b2689584b96194d</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>593a1539dbb06b009b2689584b961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Tagging Station?">953a1539dbb06b009b2689584b961941</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">593a1539dbb06b009b2689584b961947</condition>
+        <from display_value="Bruc Test?">993a1539dbb06b009b2689584b961946</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>593a1539dbb06b009b2689584b961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Bruc Test Import">d93a1539dbb06b009b2689584b961953</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">d53a1539dbb06b009b2689584b961942</condition>
+        <from display_value="Tagging Station?">953a1539dbb06b009b2689584b961941</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>593a1539dbb06b009b2689584b961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="TB?">153a1539dbb06b009b2689584b961944</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">d13a1539dbb06b009b2689584b96194c</condition>
+        <from display_value="Saleyard Import">1d3a1539dbb06b009b2689584b96194b</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>5d3a1539dbb06b009b2689584b961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="End">dd3a1539dbb06b009b2689584b961952</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">1d3a1539dbb06b009b2689584b961951</condition>
+        <from display_value="Bruc Vacc?">5d3a1539dbb06b009b2689584b961950</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>953a1539dbb06b009b2689584b961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="CVI?">193a1539dbb06b009b2689584b96194f</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">9d3a1539dbb06b009b2689584b961943</condition>
+        <from display_value="Trich?">dd3a1539dbb06b009b2689584b961942</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>953a1539dbb06b009b2689584b961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Trich Import">593a1539dbb06b009b2689584b96194c</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">593a1539dbb06b009b2689584b961952</condition>
+        <from display_value="Market Cattle Import">913a1539dbb06b009b2689584b961952</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>953a1539dbb06b009b2689584b961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="End">dd3a1539dbb06b009b2689584b961952</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">d53a1539dbb06b009b2689584b961950</condition>
+        <from display_value="CVI?">193a1539dbb06b009b2689584b96194f</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>953a1539dbb06b009b2689584b961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Market Cattle?">993a1539dbb06b009b2689584b961949</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">913a1539dbb06b009b2689584b961954</condition>
+        <from display_value="Bruc Test Import">d93a1539dbb06b009b2689584b961953</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>9d3a1539dbb06b009b2689584b961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="End">dd3a1539dbb06b009b2689584b961952</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">153a1539dbb06b009b2689584b961946</condition>
+        <from display_value="Tagging Import">593a1539dbb06b009b2689584b961945</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>9d3a1539dbb06b009b2689584b961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="End">dd3a1539dbb06b009b2689584b961952</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">913a1539dbb06b009b2689584b96194f</condition>
+        <from display_value="TB Import">d93a1539dbb06b009b2689584b96194e</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d13a1539dbb06b009b2689584b961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="End">dd3a1539dbb06b009b2689584b961952</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">d13a1539dbb06b009b2689584b961945</condition>
+        <from display_value="TB?">153a1539dbb06b009b2689584b961944</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d13a1539dbb06b009b2689584b961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Trich?">dd3a1539dbb06b009b2689584b961942</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">d53a1539dbb06b009b2689584b961947</condition>
+        <from display_value="Bruc Test?">993a1539dbb06b009b2689584b961946</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d53a1539dbb06b009b2689584b961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Bruc Vacc?">5d3a1539dbb06b009b2689584b961950</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">553a1539dbb06b009b2689584b96194e</condition>
+        <from display_value="Saleyard?">953a1539dbb06b009b2689584b96194d</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d93a1539dbb06b009b2689584b961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Saleyard Import">1d3a1539dbb06b009b2689584b96194b</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">593a1539dbb06b009b2689584b961942</condition>
+        <from display_value="Tagging Station?">953a1539dbb06b009b2689584b961941</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>d93a1539dbb06b009b2689584b961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Tagging Import">593a1539dbb06b009b2689584b961945</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">d53a1539dbb06b009b2689584b96194a</condition>
+        <from display_value="Market Cattle?">993a1539dbb06b009b2689584b961949</from>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>dd3a1539dbb06b009b2689584b961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <to display_value="Saleyard?">953a1539dbb06b009b2689584b96194d</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-27 18:26:43</sys_created_on>
+        <sys_id>093a9df5dbb06b009b2689584b961973</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-27 18:26:43</sys_updated_on>
+        <workflow_version display_value="Import ISDA Attachments">453a9df5dbb06b009b2689584b961973</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=d78bbd11dba423009b2689584b9619c3^sys_id!=453a9df5dbb06b009b2689584b961973">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

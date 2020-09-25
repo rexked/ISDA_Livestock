@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element audit="true" extends="x_cria_livestock_t_lab_results_bruc" label="Batchfill Bruc Vacc" max_length="40" name="x_cria_livestock_t_lab_results_bruc_vacc" sizeclass="6050" text_index="true" type="collection"/>
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_cria_livestock_t_lab_results_bruc" label="Batchfill Bruc Vacc" max_length="40" name="x_cria_livestock_t_lab_results_bruc_vacc" sizeclass="1613940" text_index="true" type="collection">
+        <element label="Certificate number" max_length="40" name="cert_number" type="string"/>
+    </element>
 </database>

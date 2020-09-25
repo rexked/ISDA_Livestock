@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="57615f4cdb33e300c64e5eea4b9619be" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_idtype</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Verify Tag Type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+		var regex = '';
+		var result = false;
+		var tagtype = g_form.getValue('u_idtype');
+	
+		var Oid = g_form.getValue('official_identification');
+		if((tagtype == 'NUES9' || tagtype == 'NUES8') && (Oid != Oid.toUpperCase())){
+			g_form.setValue('official_identification', Oid.toUpperCase());
+			return;
+		}
+ 		switch(tagtype){
+			case 'AIN':
+				regex = new RegExp(/^(840)\d{12}$/);
+				break;
+			case 'MfrRFID':
+				regex = new RegExp(/^((9[0-8]\d)|(9\d[0-8])|(124)|(484))\d{12}$/);
+				break;
+			case 'NUES9':
+				regex = new RegExp(/^(\d{2}|MD|MN|NM|NY|US|WY)[A-Z]{3}\d{4}$/);
+				if(Oid.toUpperCase() != Oid){
+				Oid = Oid.toUpperCase();
+				g_form.setValue('official_identification', Oid);
+					return;
+				}
+				break;
+			case 'NUES8':
+				regex = new RegExp(/\d{2}[A-Z]{2}/);
+				if(Oid.toUpperCase() != Oid){
+				Oid = Oid.toUpperCase();
+				g_form.setValue('official_identification', Oid);
+					return;
+				}
+				break;
+			default:
+				result = true;
+				return;
+		}
+		result = regex.test(Oid);
+		if(result != true && Oid != ''){
+			g_form.setValue('u_idtype', 'OtherOfficialID');
+			alert('Official ID does not match the tag type. Please check that you have entered your Official ID correctly. Letters are Case sensitive');
+			return;
+		}
+		else{
+			return;
+		}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-05-08 15:50:56</sys_created_on>
+        <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+        <sys_domain_path/>
+        <sys_id>9111156ddb9d3b409b2689584b9619ae</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Verify Tag Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_client_9111156ddb9d3b409b2689584b9619ae</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-24 16:36:59</sys_updated_on>
+        <table>x_cria_livestock_t_batchfill_saleyard_release</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

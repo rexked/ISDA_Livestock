@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cria_livestock_t_saleyard_release</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_cria_livestock_t_saleyard_release">draft=false^EQ<item endquery="false" field="draft" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>PDF Generation On Insert</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	createAttachments();
+function createAttachments(){
+
+	var t = {};
+	t.related = [];
+	t.rFields = '';
+	t.rFields_array = [];
+	t.view = 'print';
+	t.table = 'x_cria_livestock_t_saleyard_release';
+	t.attachments = [];
+	var rows = 0;
+
+	// Lookup information for selected record
+	var articleGR = new GlideRecord(t.table);
+	articleGR.get(current.sys_id);
+	t.rTable ='x_cria_livestock_t_batchfill_saleyard_release';
+
+	t.sys_id = current.sys_id;
+	t.showAttachments = false;
+	if (articleGR.display_attachments)
+		t.showAttachments = true;
+	t.offercontent = articleGR.getValue('offercontent');
+
+	// Collect information from form
+	/*t.number = articleGR.getDisplayValue('record_id');
+	t.different_origin = articleGR.getDisplayValue('u_origin_address_different');
+	t.different_dest = articleGR.getDisplayValue('u_dest_address_different');
+	t.consignor = articleGR.getDisplayValue('consignor_name');
+	t.consignor_street = articleGR.getDisplayValue('consignor_street');
+	t.consignor_city = articleGR.getDisplayValue('consignor_city') + ", " + articleGR.getDisplayValue('consignor_state') + " " + articleGR.getDisplayValue('consignor_zip');
+	t.consignor_phone = articleGR.getDisplayValue('consignor_phone');
+	t.consignor_county = articleGR.getDisplayValue('origin_county');
+	t.origin_address = articleGR.getDisplayValue('u_origin_address') + ", " + articleGR.getDisplayValue('origin_state') + " " + articleGR.getDisplayValue('u_origin_zip');
+	t.consignee = articleGR.getDisplayValue('consignee_name');
+	t.consignee_street = articleGR.getDisplayValue('conisgnee_street');
+	t.consignee_city = articleGR.getDisplayValue('consignee_city') + ", " + articleGR.getDisplayValue('consignee_state') + " " + articleGR.getDisplayValue('consignee_zip');
+	t.consignee_phone = articleGR.getDisplayValue('consignee_phone');
+	t.dest_address = articleGR.getDisplayValue('u_dest_address') + ", " + articleGR.getDisplayValue('u_dest_state') + " " + articleGR.getDisplayValue('u_destination_zip');
+	t.entry_permit = articleGR.getDisplayValue('entry_permit_number');
+	t.inspection_date = articleGR.getDisplayValue('inspection_date');
+	t.ship_date = articleGR.getDisplayValue('shipment_date');
+	t.carrier = articleGR.getDisplayValue('carrier_name_and_address');
+	t.num_animals = articleGR.getDisplayValue('number_animals_shipped');
+
+	t.cert_num = articleGR.getDisplayValue('record_id');
+	t.brand_insp = articleGR.getDisplayValue('brand_inspection_number');
+	t.signed_date = articleGR.getDisplayValue('signature_date');
+	t.movement_purpose = articleGR.getDisplayValue('u_movement_purpose');
+	t.remarks = articleGR.getDisplayValue('cvi_remarks');
+	t.id_marks = articleGR.getDisplayValue('identifying_marks');
+	t.dsa_herd = articleGR.getDisplayValue('u_dsa_herd');
+*/
+t.number = articleGR.getDisplayValue('record_id');
+	t.different_origin = articleGR.getDisplayValue('u_origin_address_different');
+	t.different_dest = articleGR.getDisplayValue('u_dest_address_different');
+	t.consignor = articleGR.getDisplayValue('slyd_consignor_name');
+	t.consignor_street = articleGR.getDisplayValue('slyd_consignor_street');
+	t.consignor_city = articleGR.getDisplayValue('slyd_consignor_city') + ", " + articleGR.getDisplayValue('slyd_consignor_state') + " " + articleGR.getDisplayValue('slyd_consignor_zip');
+	t.consignor_phone = articleGR.getDisplayValue('consignor_phone');
+	t.consignor_county = articleGR.getDisplayValue('u_county');
+	t.origin_address = articleGR.getDisplayValue('u_origin_address') + ", " + articleGR.getDisplayValue('origin_state') + " " + articleGR.getDisplayValue('u_origin_zip');
+	t.consignee = articleGR.getDisplayValue('slyd_consignee_name');
+	t.consignee_street = articleGR.getDisplayValue('slyd_consignee_street');
+	t.consignee_city = articleGR.getDisplayValue('slyd_consignee_city') + ", " + articleGR.getDisplayValue('slyd_consignee_state') + " " + articleGR.getDisplayValue('slyd_consignee_zip');
+	t.consignee_phone = articleGR.getDisplayValue('consignee_phone');
+	t.dest_address = articleGR.getDisplayValue('u_dest_address') + ", " + articleGR.getDisplayValue('u_dest_state') + " " + articleGR.getDisplayValue('u_destination_zip');
+	t.entry_permit = articleGR.getDisplayValue('entry_permit_number');
+	t.inspection_date = articleGR.getDisplayValue('inspection_date');
+	//t.ship_date = articleGR.getDisplayValue('shipment_date');
+	//t.carrier = articleGR.getDisplayValue('carrier_name_and_address');
+	t.release = articleGR.getDisplayValue('slyd_release_date');
+	t.release_reason = articleGR.getDisplayValue('reason_for_release');
+	t.num_animals = articleGR.getDisplayValue('u_number_of_animals_shipped');
+	t.tb_free = articleGR.getDisplayValue('slyd_tb_free');
+	t.bruc_free = articleGR.getDisplayValue('slyd_brucellosis_free');
+	t.cert_num = articleGR.getDisplayValue('record_id');
+	t.brand_insp = articleGR.getDisplayValue('brand_inspection');
+	t.signed_date = articleGR.getDisplayValue('signature_date');
+	t.remarks = articleGR.getDisplayValue('slyd_area_remarks');
+	t.saleyrd = articleGR.getDisplayValue('u_saleyard');
+	t.id_marks = articleGR.getDisplayValue('identifying_marks');
+	t.dsa_herd = articleGR.getDisplayValue('dsa_herd');
+
+	//Check to see if attachments are present.
+	var atta = new GlideRecord('sys_attachment');
+	atta.addEncodedQuery('content_typeLIKEimage^table_sys_id=' + current.sys_id);
+	atta.query();
+	rows = atta.getRowCount()/3;
+	rows = Math.ceil(rows);
+	while(atta.next()){
+		t.attachments.push('sys_attachment.do?sys_id='+ atta.sys_id);
+
+	}
+
+	// Query for Vet information
+	t.vet = articleGR.getDisplayValue('u_veterinarian');
+	t.vet_sig = articleGR.getValue('u_vet_sig');
+	var grvet = new GlideRecord('sys_user');
+	grvet.addQuery('sys_id', articleGR.getValue('u_veterinarian'));
+	grvet.query();
+	if(grvet.next()){
+		t.vet_name = grvet.getDisplayValue('name');
+		t.vet_street = grvet.getDisplayValue('street');
+		t.vet_city = grvet.city + ", " + grvet.state + " " + grvet.zip;
+		t.vet_phone = grvet.getDisplayValue('phone');
+		t.vet_email = grvet.getDisplayValue('email');
+		t.vet_usda = grvet.getDisplayValue('x_cria_livestock_t_u_usda_accred');
+		t.vet_lic = grvet.getDisplayValue('x_cria_livestock_t_u_state_lic');
+	}
+
+	// check species check boxes and populate data
+	t.num_of_beef = articleGR.getDisplayValue('num_beef_cattle');
+	t.num_of_dairy = articleGR.getDisplayValue('num_dairy_cattle');
+	t.num_of_goats = articleGR.getDisplayValue('num_goats');
+	t.num_of_horses = articleGR.getDisplayValue('num_horses');
+	t.num_of_sheep = articleGR.getDisplayValue('num_sheep');
+	t.num_of_swine = articleGR.getDisplayValue('num_swine');
+	t.num_of_poultry = articleGR.getDisplayValue('num_poultry');
+	t.num_of_other = articleGR.getDisplayValue('num_other');
+	t.beef = articleGR.getValue('num_beef_cattle');
+	if(t.beef > 0){
+		if(t.species_field == null){
+			t.species_field = "Beef Cattle";
+		}else{
+			t.species_field = t.species_field + ", Beef Cattle";
+		}
+		t.cattle = true;
+		t.vaccination_status = articleGR.getDisplayValue('bruce_vacc_status');
+		t.num_of_cows = articleGR.getDisplayValue('num_of_cows');
+		t.num_of_bulls = articleGR.getDisplayValue('num_of_bulls');
+		t.num_of_heifers = articleGR.getDisplayValue('num_of_heifers');
+		t.num_of_calves = articleGR.getDisplayValue('num_of_calves');
+		t.num_of_steers = articleGR.getDisplayValue('num_of_steers');
+	}
+	t.dairy = articleGR.getValue('num_dairy_cattle');
+	if(t.dairy > 0){
+		if(t.species_field == null){
+			t.species_field = "Dairy Cattle";
+		}else{
+			t.species_field = t.species_field + ", Dairy Cattle";
+		}
+		t.cattle = true;
+		t.vaccination_status = articleGR.getDisplayValue('bruce_vacc_status');
+		t.num_of_bulls = articleGR.getDisplayValue('num_of_bulls');
+		t.num_of_cows = articleGR.getDisplayValue('num_of_cows');
+		t.num_of_heifers = articleGR.getDisplayValue('num_of_heifers');
+		t.num_of_calves = articleGR.getDisplayValue('num_of_calves');
+		t.num_of_steers = articleGR.getDisplayValue('num_of_steers');
+	}
+	t.goat = articleGR.getValue('num_goats');
+	if(t.goat > 0){
+		if(t.species_field == null){
+			t.species_field = "Goats";
+		}else{
+			t.species_field = t.species_field + ", Goats";
+		}
+	}
+	t.horses = articleGR.getValue('num_horses');
+	if(t.horses > 0){
+		if(t.species_field == null){
+			t.species_field = "Horses";
+		}else{
+			t.species_field = t.species_field + ", Horses";
+		}
+	}
+	t.sheep = articleGR.getValue('num_sheep');
+	if(t.sheep > 0){
+		if(t.species_field == null){
+			t.species_field = "Sheep";
+		}else{
+			t.species_field = t.species_field + ", Sheep";
+		}
+	}
+	t.swine = articleGR.getValue('num_swine');
+	if(t.swine > 0){
+		if(t.species_field == null){
+			t.species_field = "Swine";
+		}else{
+			t.species_field = t.species_field + ", Swine";
+		}
+	}
+	t.poultry = articleGR.getValue('num_poultry');
+	if(t.poultry > 0){
+		if(t.species_field == null){
+			t.species_field = "Poultry";
+		}else{
+			t.species_field = t.species_field + ", Poultry";
+		}
+	}
+	t.other_spec = articleGR.getValue('num_other');
+	if(t.other_spec > 0){
+		if(t.species_field == null){
+			t.species_field = "Other - " + articleGR.getDisplayValue('species_other');
+		}else{
+			t.species_field = t.species_field + ", Other - " + articleGR.getDisplayValue('species_other');
+		}
+	}
+
+	//End variable grab
+
+	var PDF_HTML = '';
+	var imggif = "data:image/gif;base64,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";
+
+	PDF_HTML = '<div class="panel-heading"><h4 class="panel-title" align="right">Saleyard Release Number: <font color="red" style="font-weight: bold;">' + t.number + '</font></h4></div><table width="100%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="0" cellspacing="0" cellpadding="3"><tr><td valign="top" width="25%" style="text-align:left; font-size: 6.5pt;">Idaho State Department of Agriculture<br>Division of Animal Industries<br>2270 Old Penitentiary Road<br>Boise, ID 83712<br>(208) 332-8540</td><td width="50%" style="padding:0px; text-align:center;"><b><font size="4"><center>SALEYARD RELEASE FORM</center></font></b></td><td width="25%"><img align="right" src="' + imggif + '" alt="logo"/></td></tr></table><div align="center" style="position: absolute; top:175px; left:30px; width:95%;">';
+
+	PDF_HTML = PDF_HTML + '<div><table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="3"><tr style="background-color: #cccccc;"><th width="33%" style="padding:5px; font-size:8; text-align:center;"><b>Consignor - Contact at Origin</b></th><th width="33%" style="padding:5px; font-size:8; text-align:center;"><b>Consignee - Contact at Destination</b></th><th width="33%" style="padding:5px; font-size:8; text-align:center;"><b>Shipment Information</b></th></tr><tr><td valign="top" style="text-align:left; font-size:7; padding:1px;"><label><strong>Name: </strong>' + t.consignor + '<br><strong>Physical Address: </strong>' + t.consignor_street + '<br><strong>City, State, Zip: </strong>' + t.consignor_city + '<br><strong>Phone: </strong>' + t.consignor_phone + '<br><strong>County: </strong>' + t.consignor_county;
+
+	if(t.different_origin == 'true'){
+		PDF_HTML = PDF_HTML + '<br><strong>Mailing Address: </strong>' + t.origin_address;
+	}
+	PDF_HTML = PDF_HTML + '</label></td><td valign="top" style="text-align:left; font-size:7; padding:1px;"><label><strong>Name: </strong>' + t.consignee + '<br><strong>Physical Address: </strong>' + t.consignee_street + '<br><strong>City, State, Zip: </strong>' + t.consignee_city + '<br><strong>Phone: </strong>' + t.consignee_phone;
+
+	if(t.different_origin == 'true'){
+		PDF_HTML = PDF_HTML + '<br><strong>Mailing Address: </strong>' + t.dest_address;
+	}
+
+	//PDF_HTML = PDF_HTML + '</label></td><td valign="top" style="text-align:left; font-size:7; padding:1px;"><label><strong>Carrier: </strong>' + t.carrier + '<br><strong>Entry Permit #: </strong>' + t.entry_permit + '<br><strong>Brand Inspection #: </strong>' + t.brand_insp + '<br><strong>Movement Purpose: </strong>' + t.movement_purpose + '<br><strong>Inspection Date: </strong>' + t.inspection_date + '<br><strong>Shipment Date: </strong>' + t.ship_date + '<br><strong>Total # of Animals: </strong>' + t.num_animals + '<br><strong>Species: </strong>' + t.species_field + '</label></td></tr></table></div>';
+	
+		PDF_HTML = PDF_HTML + '</label></td><td valign="top" style="text-align:left; font-size:7; padding:1px;"><label><strong>Saleyard: </strong>' + t.saleyrd + '<br><strong>Entry Permit #: </strong>' + t.entry_permit + '<br><strong>Brand Inspection #: </strong>' + t.brand_insp + '<br><strong>Reason for Release: </strong>' + t.release_reason + '<br><strong>Saleyard Release Date: </strong>' + t.release + '<br><strong>Inspection Date: </strong>' + t.inspection_date + '<br><strong>Total # of Animals: </strong>' + t.num_animals + '<br></label></td></tr></table></div>';
+
+	PDF_HTML = PDF_HTML + '<table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" border="0" cellspacing="1" cellpadding="3"><tr align="center" style="background-color: #cccccc;"><th align="center" style="text-align:center; font-size:8;"><b>Veterinary Certification</b></th></tr></table><table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="3"><tr><td style="text-align: center; font-size: 6pt;">I certify, as an accredited veterinarian, the animals in this shipment have been inspected and are free from signs of infectious disease (except where noted).</td></tr></table>';
+
+	PDF_HTML = PDF_HTML + '<table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="3"><tr><td width="50%" valign="top" style="text-align: left; font-size: 7pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;"><strong>Veterinarian: </strong>' + t.vet_name + '<br><strong>USDA Accreditation #: </strong>' + t.vet_usda + '<br><strong>State License #: </strong>' + t.vet_lic + '</td><td width="50%" valign="top" style="text-align: left; font-size: 7pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;"><strong>Address: </strong>' + t.vet_street + '<br><strong>City, State, Zip: </strong>' + t.vet_city + '><br><strong>Phone: </strong>' + t.vet_phone + '<br><strong>Email: </strong>' + t.vet_email + '</td></tr><tr><td style="text-align: left; font-size: 7pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;"><strong>Digital Signature: </strong>' + t.vet_sig + '</td><td style="text-align: left; font-size: 7pt; display: inline-block; overflow-wrap: break-all; white-space: pre-wrap;"><strong>Date: </strong>' + t.signed_date + '</td></tr></table></div><br>';
+
+	PDF_HTML = PDF_HTML + '<div><table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="3"><tr><th width="33%" style="padding:5px; text-align:center; font-size:8;"><b>Summary of Shipment</b></th><th width="33%" style="padding:5px; text-align:center; font-size:8;"><b>State / Area Status</b></th><th width="33%" style="padding:5px; text-align:center; font-size:8;"><b>Remarks</b></th></tr><tr><td valign="top" style="text-align:left;">';
+
+	if (t.num_of_beef > 0){
+		PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Beef Cattle: </strong>' + t.num_of_beef + '</p>';
+	}
+	if (t.num_of_dairy > 0){
+		PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Dairy Cattle: </strong>' + t.num_of_dairy + '</p>';
+	}
+	if (t.num_of_goats > 0){
+		PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Goats: </strong>' + t.num_of_goats + '</p>';
+	}
+	if (t.num_of_horses > 0){
+		PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Horses: </strong>' + t.num_of_horses + '</p>';
+	}	
+	if (t.num_of_sheep > 0){
+		PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Sheep: </strong>' + t.num_of_sheep + '</p>';
+	}
+	if (t.num_of_swine > 0){
+		PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Swine: </strong>' + t.num_of_swine + '</p>';
+	}
+	if (t.num_of_poultry > 0){
+		PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Poultry: </strong>' + t.num_of_poultry + '</p>';
+	}
+	if (t.num_of_other > 0){
+		PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Other: </strong>' + t.num_of_other + '</p>';
+	}
+
+	PDF_HTML = PDF_HTML + '<br>';
+	if (t.cattle == true){
+		PDF_HTML = PDF_HTML + '<p style="font-size:8pt;"><u><strong>Summary of Cattle       </strong></u></p>';
+		if (t.num_of_bulls > 0){
+			PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Bulls: </strong>' + t.num_of_bulls + '</p>';
+		}
+		if (t.num_of_steers > 0){
+			PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Steers: </strong>' + t.num_of_steers + '</p>';
+		}
+		if (t.num_of_cows > 0){
+			PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Cows: </strong>' + t.num_of_cows + '</p>';
+		}
+		if (t.num_of_heifers > 0){
+			PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Heifers: </strong>' + t.num_of_heifers + '</p>';
+		}
+		if (t.num_of_calves > 0){
+			PDF_HTML = PDF_HTML + '<p style="font-size:7pt;"><strong>Number of Calves: </strong>' + t.num_of_calves + '</p>';
+		}
+	}
+	PDF_HTML = PDF_HTML + '</td><td valign="top"  style="text-align:left; padding:5px; font-size:7pt;">';
+
+	PDF_HTML = PDF_HTML + '<div><strong>TB Free:</strong> Yes<br><strong>Brucellosis Free:</strong> Yes<br></div>';
+	if(t.dsa_herd == 'Yes'){
+		PDF_HTML = PDF_HTML + '<div><input type="checkbox" ng-checked="true" disabled="disabled"><strong>Designated Surveillance Area (DSA) origin: </strong>Yes<br></div>';
+	}
+	else if(t.dsa_herd == 'No' && (t.num_of_beef > 0 || t.num_of_dairy > 0)){
+		PDF_HTML = PDF_HTML + '<div><input type="checkbox" ng-checked="true" disabled="disabled"><strong>Designated Surveillance Area (DSA) origin:</strong> No<br></div>';
+	}
+	var remarks_HTML = '</td><td valign="top" style="padding:1px; text-align:left; font-size: 7pt; overflow-wrap: break-all; white-space: pre-wrap;">';
+	/*
+if(t.attachments.length > 0){
+	var ia;
+PDF_HTML = PDF_HTML + '<div align="center" style="width: 99%;"><h4 style="margin-left:25px;"><strong>Attachments</strong></h4><div>';
+	for(ia = 0; ia <= t.attachments.length || 3; ia++){
+		var sa = new GlideSysAttachment();
+		if(t.attachments[ia].size_bytes < 625000){
+        var binData =   sa.getBytes(t.attachments[ia]);
+		var encData =   StringUtil.base64Encode(binData);
+		var imgtype = t.attachments[ia].content_type;
+		var imgstr = imgtype + encData;
+		PDF_HTML = PDF_HTML + '<div class="col-sm-4"><img ng-src="' + binData + '" height="150px" style="padding-top: 15px"></div>';
+		}
+	}
+	PDF_HTML = PDF_HTML + '<br>';
+}
+*/	
+
+	var animal_HTML = '';
+	var OCV = {state:'false', value:'all_vacc_legible_tattoos', html:'All officially vaccinated with legible tattoos'};
+	var NV = {state:'false', value:'not_vaccinated', html:'Not Vaccinated'};
+	var MV = {state:'false', value:'mixed_vacc_status', html:'Mixed vaccination status'};
+	var UK = {state:'false', value:'unknown_vacc_status', html:'Unknown vaccination status'};
+	var breakcount = 0;
+
+	// Query for related animal records
+
+	var gr = new GlideRecord('x_cria_livestock_t_batchfill_saleyard_release');
+	gr.addQuery('parent', t.sys_id);
+	gr.orderBy('number');
+	gr.query();
+	while (gr.next()){
+		if(gr.u_vacc_status != '' && gr.u_vacc_status != null){
+			switch(gr.u_vacc_status.toString()){
+				case OCV.value:
+					OCV.state = 'true';
+					gs.log('OCV');
+					break;
+				case NV.value:
+					NV.state = 'true';
+					gs.log('NV');
+					break;
+				case MV.value:
+					MV.state = 'true';
+					gs.log('MV');
+					break;
+				case UK.value:
+					UK.state = 'true';
+					gs.log('UK');
+			}
+		}
+		if(breakcount != 1){
+			animal_HTML = animal_HTML + '<table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="3"><tr><td valign="top" style="font-size: 7pt; width: 25%; text-align:top;"><p><strong>Official Identification</strong></p><p>' + gr.official_identification + '</p></td><td valign="top" style="font-size: 7pt; width: 25%;"><p><strong>Alternate ID</strong></p><p>' + gr.alternate_identification + '</p></td><td valign="top" style="font-size: 7pt; width: 20%;"><p><strong>Age (In Months)</strong></p><p>' + gr.age_in_months + '</p></td><td valign="top" style="font-size: 7pt; width: 15%;"><p><strong>Sex</strong></p><p>' + gr.sex + '</p></td><td valign="top" style="font-size: 7pt; width: 15%;"><p><strong>Breed</strong></p><p>' + gr.breed + '</p></td></tr></table><table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="3"><tr><td valign="top" style="font-size: 7pt; width: 25%;"><Strong>Disease Surveillance: </strong>' + gr.u_disease_surveillance + '</td></tr></table><br>';
+			breakcount++;
+		}
+		else{
+			animal_HTML = animal_HTML + '<table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="3"><tr><td valign="top" style="font-size: 7pt; width: 25%; text-align:top;"><p><strong>Official Identification</strong></p><p>' + gr.official_identification + '</p></td><td valign="top" style="font-size: 7pt; width: 25%;"><p><strong>Alternate ID</strong></p><p>' + gr.alternate_identification + '</p></td><td valign="top" style="font-size: 7pt; width: 20%;"><p><strong>Age (In Months)</strong></p><p>' + gr.age_in_months + '</p></td><td style="font-size: 7pt; width: 15%;"><p><strong>Sex</strong></p><p>' + gr.sex + '</p></td><td valign="top" style="font-size: 7pt; width: 15%;"><p><strong>Breed</strong></p><p>' + gr.breed + '</p></td></tr></table><table width="99%" align="center" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="1" cellspacing="1" cellpadding="3"><tr><td valign="top" style="font-size: 7pt; width: 25%;"><Strong>Disease Surveillance: </strong>' + gr.u_disease_surveillance + '</td></tr></table><br><br>';
+			breakcount++;
+		}
+	}
+	if(OCV.state == 'true' || NV.state == 'true' || MV.state == 'true' || UK.state == 'true'){
+		remarks_HTML = remarks_HTML + '<strong>Vaccination Status:</strong>';
+		if(OCV.state == 'true' && (NV.state == 'false' && MV.state == 'false' && UK.state == 'false')){
+			remarks_HTML = remarks_HTML + OCV.html;
+		}
+		else if(MV.state == 'true' || OCV.state == 'true'){
+			remarks_HTML = remarks_HTML + MV.html;
+		}
+		else if(UK.state == 'true'){
+			remarks_HTML = remarks_HTML + UK.html;
+		}
+		else{
+			remarks_HTML = remarks_HTML + NV.html;
+		}
+		remarks_HTML = remarks_HTML + '<br>';
+	}
+	remarks_HTML = remarks_HTML + t.remarks + '</td></tr></table></div><br>' + '<table width="99%" align="center" style="table-layout:fixed; border-color: #000000; margin-left: auto; margin-right: auto;" border="0" cellspacing="1" cellpadding="3"><tr align="center" style="background-color: #cccccc;"><th align="center" style="text-align:center; font-size:8;"><strong>Animal Information</strong></th></tr></table>';
+
+	PDF_HTML = PDF_HTML + remarks_HTML;
+	PDF_HTML = PDF_HTML + animal_HTML;
+	var PDF = Class.create();
+
+	PDF.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+		_document : null,
+
+		example : function (){
+
+			this.createPDF(PDF_HTML,   //HTML to convert to PDF
+
+						   'x_cria_livestock_t_saleyard_release',   //Attach PDF to table
+
+						   current.sys_id, //Attach PDF to record/sys_id
+
+						   current.record_id + " " + current.getDisplayValue('slyd_consignor_name') + " " + current.signature_date + ".pdf");   //attachment filename
+
+		},
+
+		createPDF : function(html, table, sys_id, filename) {
+
+			var pdfDoc = new GeneralPDF.Document(true, null, null, null, null, null);
+
+			this._document = new GeneralPDF(pdfDoc);
+
+			this._document.startHTMLParser();
+
+			this._document.addHTML(html);
+
+			this._document.stopHTMLParser();
+
+			this._saveAs(table, sys_id, filename);
+
+		},
+
+		_saveAs : function (table, sys_id, filename){
+
+			var att = new GeneralPDF.Attachment();
+
+			att.setTableName(table);
+
+			att.setTableId(sys_id);
+
+			att.setName(filename);
+
+			att.setType('application/pdf');
+
+			att.setBody(this._document.get());
+
+			GeneralPDF.attach(att);
+
+
+		},
+
+
+
+		type: 'PDF'
+
+
+	});
+
+
+	PDF.prototype.example();
+
+	current.setWorkflow(false);
+}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-16 08:58:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bedbe3c2db2b4810c64e5eea4b961926</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PDF Generation On Insert</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_bedbe3c2db2b4810c64e5eea4b961926</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-16 09:43:45</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=bedbe3c2db2b4810c64e5eea4b961926"/>
+</record_update>

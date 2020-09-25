@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="57615f4cdb33e300c64e5eea4b9619be" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>official_identification</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Validate Official ID</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+if(g_form.getTableName() == 'x_cria_livestock_t_batchfill_import_cvi'){
+	return;
+}
+else{
+	    var Oid = g_form.getValue('official_identification');
+		var idtype = g_form.getValue('u_idtype');
+		if((idtype == 'NUES9' || idtype == 'NUES8') && (Oid != Oid.toUpperCase())){
+			g_form.setValue('official_identification', Oid.toUpperCase());
+			return;
+		}
+		var reg_AIN = new RegExp(/^(840)\d{12}$/);
+		var reg_MRF = new RegExp(/^((9[0-8]\d)|(9\d[0-8])|(124)|(484))\d{12}$/);
+		var reg_NU9 = new RegExp(/^(\d{2}|MD|MN|NM|NY|US|WY)[A-Z]{3}\d{4}$/);
+		var reg_NU8 = new RegExp(/^\d{2}[A-Z]{2}\d{4}/);
+	 
+			if(reg_AIN.test(Oid) == true){
+				g_form.setValue('u_idtype', 'AIN');
+			}
+			else if(reg_MRF.test(Oid) == true){
+				g_form.setValue('u_idtype', 'MfrRFID');
+			}
+			else if(reg_NU9.test(Oid.toUpperCase()) == true){
+				g_form.setValue('u_idtype', 'NUES9');
+			}
+			else if(reg_NU8.test(Oid.toUpperCase()) == true){
+				g_form.setValue('u_idtype', 'NUES8');
+			}
+			else if(g_form.getValue('u_idtype') == 'EquineDescription'){
+					 return;
+					 }
+			else{
+				g_form.setValue('u_idtype', 'OtherOfficialID');
+			}
+}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-05-06 17:52:09</sys_created_on>
+        <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+        <sys_domain_path/>
+        <sys_id>95465b3cdb95f7409b2689584b961901</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Validate Official ID</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_client_95465b3cdb95f7409b2689584b961901</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-24 14:53:16</sys_updated_on>
+        <table>x_cria_livestock_t_batchfill_cvi</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope,$timeout, spModal, $rootScope, $document) {
+	/* widget controller */
+	var c = this;
+	c.denied = function(){
+		alert('Please fill in the required fields before submitting the form');
+	}
+
+	c.datebled = {
+		displayValue: '',
+		value: '',
+		name: 'datebled'
+	};
+	$scope.$watch('c.datebled.value', function(oldVal, newVal) {
+		c.datebled = newVal;
+	});
+
+
+	c.dtsamcol = {
+		displayValue: '',
+		value: '',
+		name: 'dtsamcol'
+	};
+	$scope.$watch('c.dtsamcol.value', function(oldVal, newVal) {
+		c.dtsamcol = newVal;
+	});
+
+
+
+	c.dateread = {
+		displayValue: '',
+		value: '',
+		name: 'dateread'
+	};
+	$scope.$watch('c.dateread.value', function(oldVal, newVal) {
+		c.dateread = newVal;
+	});
+
+
+
+	c.eiadate = {
+		displayValue: '',
+		value: '',
+		name: 'eiadate'
+	};
+	$scope.$watch('c.eiadate.value', function(oldVal, newVal) {
+		c.eiadate = newVal;
+	});	
+
+
+	c.othdate = {
+		displayValue: '',
+		value: '',
+		name: 'othdate'
+	};
+	$scope.$watch('c.othdate.value', function(oldVal, newVal) {
+		c.othdate = newVal;
+	});
+
+	c.prefixClear = function(id){
+		c.data.start_number = '';
+		c.data.prefix = '';
+		c.data.startval = false;
+		c.data.prefixvalid = false;
+		if(id == 'AIN'){
+			c.data.prefix = 840;
+			c.data.prefixvalid = true;
+		}
+	}
+	c.Validation = function(prefix){
+		var match;
+		var regex = '';
+		var result = false;
+		var tagtype = c.data.idtype;
+		switch(tagtype){
+			case 'AIN':
+				regex = new RegExp(/^(840)/);
+				result = regex.test(prefix);
+				break;
+			case 'MfrRFID':
+				regex = new RegExp(/^(9[0-8]\d)|(9\d[0-8])|(124)|(484)/);
+				result = regex.test(prefix);
+				break;
+			case 'NUES9':
+				regex = new RegExp(/^(\d{2}|MD|MN|NM|NY|US|WY)[A-Z]{3}/);
+				prefix = prefix.toUpperCase();
+				result = regex.test(prefix);
+				break;
+			case 'NUES8':
+				regex = new RegExp(/^\d{2}[A-Z]{2}/);
+				prefix = prefix.toUpperCase();
+				result = regex.test(prefix);
+				break;
+			default:
+				result = true;
+		}
+		if(result != true){
+			c.data.prefixvalid = false;
+			return;
+		}
+		else{
+			c.data.prefixvalid = true;
+		}
+	}
+
+	c.batchVal = function(seqID, alert){
+		//Function that checks provided IDs separated by either , or ; against tag type.
+		//@SeqID: value of textarea field
+		//@alert: if true, generates window confirm alerts to inform user of validation status.
+		var tagAlertTextObject = {AIN:'840 RFID Tags must start with "840" and be 15 digits in length.', 
+															MfrRFID:"Canada/Mexicao Tags must start with 124 or 484 and be 15 digits in length.",
+															NUES9:"USDA Silver Brite/Orange Bang's Tags must begin with two digits + three letters or MD, MN, NM, NY, US, WY followed by three more letters. Tags must be 9 digits in length.",
+															NUES8:"USDA Pig Tags must begin with two digits + two letters and be 8 digits in length."};
+		var tagAlertText = ''
+		var idarray = [];
+		var invalidIdArray = []
+		//check for actual value being passed from textarea field
+		if(seqID != '' && seqID != null && seqID !== undefined){
+			//checks for delimiter value (, or ;) and create array from string
+			if(seqID.indexOf(',') != -1){
+				idarray = seqID.split(",");
+			}
+			else if(seqID.indexOf(';') != -1){
+				idarray = seqID.split(";");
+			}
+			else if(seqID.indexOf('\n') != -1){
+				idarray = seqID.split("\n");
+			}
+			else if(seqID.indexOf('\r') != -1){
+				idarray = seqID.split("\r");
+			}
+			else{
+				if(alert == true){
+					confirm('Please separate your animal IDs by commas.');
+				}
+
+				return;
+			}
+			var regex = '';
+			var result = false;
+			var tagtype = c.data.idtype;
+			for (i = 0 ; i <= idarray.length ; i++){
+				//iterate through the ID array and verify each ID against Regex for selected tag type
+				if(idarray[i] != '' && idarray[i] != null && idarray[i] != undefined){
+					switch(tagtype){
+						case 'AIN':
+							regex = new RegExp(/^(840)\d{12}$/);
+							result = regex.test(idarray[i].trim());
+							tagAlertText = tagAlertTextObject.AIN;
+							break;
+						case 'MfrRFID':
+							regex = new RegExp(/^((9[0-8]\d)|(9\d[0-8])|(124)|(484))\d{12}$/);
+							result = regex.test(idarray[i].trim());
+							tagAlertText = tagAlertTextObject.MfrRFID;
+							break;
+						case 'NUES9':
+							regex = new RegExp(/^(\d{2}|MD|MN|NM|NY|US|WY)[A-Z]{3}\d{4}$/);
+							var Nues9ID = idarray[i].toUpperCase();
+							result = regex.test(Nues9ID.trim());
+							tagAlertText = tagAlertTextObject.NUES9
+							break;
+						case 'NUES8':
+							regex = new RegExp(/^\d{2}[A-Z]{2}\d{4}$/);
+							var Nues8ID = idarray[i].toUpperCase();
+							result = regex.test(Nues8ID.trim());
+							tagAlertText = tagAlertTextObject.NUES8;
+							break;
+						default:
+							result = true;
+					}
+					//push falsy IDs to array for print on alert.
+					if(result != true){
+						invalidIdArray.push(idarray[i].trim());
+					}
+				}
+			}
+			//check array for entries. If any entries, set seqVal to false to prevent submit
+			if(invalidIdArray.length > 0){
+				c.data.seqVal = false;
+				if(alert == true){
+					confirm("The following Official ID's do not match the selected ID type:" + "\n\n" + invalidIdArray + "\n\n" + tagAlertText);
+				}
+			}
+			else{
+				c.data.seqVal = true;
+				if(alert == true){
+					confirm("All IDs are valid for selected tag type.");
+				}
+			}
+		}
+		else{
+			c.data.seqVal = false;
+		}
+	}
+
+	c.startLength = function(lng,stid){
+		var str_len = lng.length;
+
+		if(stid == 'AIN' || stid == 'MfrRFID'){
+			if(str_len == 12){
+
+				c.data.startval = true;
+
+			}
+			else{
+				c.data.startval = false;
+
+			}
+		}
+		else if(stid == 'NUES9' || stid == 'NUES8'){
+			if(str_len == 4){
+				c.data.startval = true;
+
+			}
+			else{
+				c.data.startval = false;
+
+			}
+		}
+		else{
+			c.data.startval = true;
+
+		}
+	}
+
+	/*
+	c.Decider = function(dprefix){
+		var reg_AIN = new RegExp(/^(840)/);
+		var reg_MRF = new RegExp(/^(9[0-8]\d)|(9\d[0-8])|(124)|(484)/);
+		var reg_NU9 = new RegExp(/^(\d{2}|MD|MN|NM|NY|US|WY)[A-Z]{3}/);
+		var reg_NU8 = new RegExp(/^\d{2}[A-Z]{2}/);
+
+		if (dprefix.length >= 3){
+      console.log('fired');
+			if(reg_AIN.test(dprefix) == true){
+				c.data.idtype = 'AIN';
+				console.log('AIN matched')
+			}
+			else if(reg_MRF.test(dprefix) == true){
+				c.data.idtype = 'MfrRFID';
+				console.log('MFR matched');
+			}
+			else if(reg_NU9.test(dprefix) == true){
+				c.data.idtype = 'MfrRFID';
+				console.log('N9 matched');
+			}
+			else if(reg_NU8.test(dprefix) == true){
+				c.data.idtype = 'NUES8Type';
+				console.log('N8 matched');
+			}
+			else{
+				c.data.idtype = 'OtherOfficialID';
+				console.log('no match');
+			}
+		}
+	}
+	*/
+
+	//test js
+
+	c.validate = function(){
+		if((c.data.age == null || c.data.age == 0) || c.data.species == null || c.data.sex == null || (c.data.idtype == null || (c.data.idtype == 'OtherOfficialID' && c.data.othidtype == null)) || (c.data.seqVal != true && c.data.nonSeq == true) || (c.data.nonSeq != true && (c.data.prefixvalid != true || c.data.startval != true)) || (c.data.brucellosis == true && c.data.datebled == null) || (c.data.trichomoniasis == true && c.data.dtsamcol == null) || (c.data.tuberculosis == true && c.data.dateread == null) || (c.data.eia == true && c.data.eiadate == null) || (c.data.othersurv == true && c.data.othdate == null) || ((c.data.species == 'BEF' || c.data.species == 'DAI') && (c.data.sex == 'Female' || c.data.sex == 'Mixed Group') && c.data.vac_status == null)){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	$scope.isEnter=function(evt){
+		var tagName = evt.target.tagName.toLowerCase();
+		if(evt.keyCode==13){
+			if(tagName == 'textarea'){
+				//console.log("Event cancelable is: " + evt.cancelable);
+				stopEvent(evt);
+				return false;
+			}
+			else{
+				if(c.validate() == false){
+					//console.log('validate is true');
+					c.submit()
+				}
+				else{
+					//console.log('denied fired');
+					c.denied();
+				}
+			}
+		}
+	}
+	c.submit = function(){
+		c.data.submit = true;
+		c.server.update().then(function(response){
+			c.data = {};
+			//c.closeModal();
+
+			$timeout(function(){
+				angular.element('[ng-click*="buttonClicked"]').triggerHandler('click');
+			});									 
+
+		});
+
+	}
+	angular.element('.modal-footer').css({display:'none'});
+}
+
+
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>Batchfill Saleyard - Draft</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	if (!input)
+		return;
+		var submit = false;
+	var ageInt = input.age;
+	var idlist = '';
+	var idarray = []
+	var startval = false;
+	var prefixvalid = false;
+	var idvalid = false;
+	var nonSeq = false;
+	var seqVal = false;
+	var m = input.start_number;
+	var d = '';
+	var y = '';
+	var ns = '';
+  var len = ''
+  if (input.nonSeq != true){
+	m = input.start_number;
+	len = m.length;
+	if (m.match(/^0+/)){
+		y = m.match(/^0+/);
+		d = m.substring(y[0].length);
+	}else{
+		d = m;
+	}
+
+	if(/^0*$/.test(y[0])) {
+
+		for(i = 0; i < len ; i++){
+			ns += '0'; 
+		}
+	}
+	
+	if(input.idtype == 'AIN'){
+			input.prefix = 840;
+		}
+	}
+	if(input.idlist != '' && input.idlist != null && input.idlist !== undefined){
+		if(input.idlist.indexOf(",") != -1){
+		idarray = input.idlist.split(",");
+		}
+		else if(input.idlist.indexOf(";") != -1){
+		idarray = input.idlist.split(";");
+		}
+		else if(input.idlist.indexOf('\n') != -1){
+			idarray = input.idlist.split('\n');
+		}
+		else if(input.idlist.indexOf('\r') != -1){
+			idarray = input.idlist.split('\r');
+		}
+		else{
+			return;
+		}
+	}
+	if(input.nonSeq != true){
+	for (i = 0 ; i < input.record_amount ; i++){
+		var gr = new GlideRecord('x_cria_livestock_t_batchfill_saleyard_release');
+		gr.initialize();
+		
+		if(i == 0){
+			result = ns.substring(d.length) + d
+			gr.official_identification = input.prefix + result;
+			d++;
+		}else{
+			d = d+''
+			result = ns.substring(d.length) + d
+			gr.official_identification = input.prefix + result;
+
+			d++;
+		}
+		
+		gr.sex = input.sex;
+		gr.vaccination_tattoo = input.vac_tattoo;
+		if(ageInt != '' && ageInt != undefined && ageInt != null){
+		if(ageInt.toString().indexOf(".") >= 0){
+			ageInt = input.age.toString();
+			var ageSlice = ageInt.slice(ageInt.indexOf("."));
+			ageInt = input.age.toString().replace(ageSlice,'');
+			gr.age_in_months = ageInt;
+		}
+		else{
+			gr.age_in_months = input.age;
+		}
+	}
+		gr.breed = input.breed;	
+		gr.parent = $sp.getParameter("sys_id");
+		gr.u_species = input.species;
+		gr.other_species = input.othspecies;
+		gr.u_idtype = input.idtype;
+		gr.u_vaccination_status = input.vac_status;
+		
+		if(input.idtype == 'OtherOfficialID'){
+			gr.u_othtagtype = input.othidtype;
+		}
+		
+		if(input.brucellosis == true){
+			gr.u_slyd_brucellosis = "Yes";
+		}
+		gr.u_slyd_srvy_bruc_results = input.brucresult;
+		gr.u_slyd_srvy_bruc_laboratory = input.bruclab;
+		gr.u_slyd_srvy_bruc_date_bled = input.datebled;
+		
+		if(input.trichomoniasis == true){
+			gr.u_slyd_trich = "Yes";
+		}
+		gr.u_slyd_srvy_trich_lab = input.trichlab;
+		gr.u_slyd_srvy_trich_date_collected = input.dtsamcol;
+		gr.trich_accession = input.trichacc;
+		gr.bull_tested_negative_for_trich = input.trichresult;
+		if(input.trichculture == true){
+			gr.u_slyd_trich_lab_culture = "Yes";
+		}
+		if(input.indpcr == true){
+			gr.u_trich_lab_in_pcr = "Yes";
+		}
+		if(input.poolpcr == true){
+			gr.trich_lab_pooled_pcr = "Yes";
+		}
+	
+		if(input.tuberculosis == true){
+			gr.u_slyd_tb = "Yes";
+		}
+		gr.u_slyd_srvy_tb_tested_negative = input.tbresult;
+		gr.u_slyd_srvy_tb_date_read = input.dateread;
+		
+		if(input.eia == true){
+			gr.u_slyd_eia = "Yes";
+		}
+		gr.eia_accession = input.eiaacc;
+		gr.u_slyd_srvy_eia_lab = input.eialab;
+		gr.u_slyd_srvy_eia_date_coggins_test = input.eiadate;
+		
+		if(input.othersurv == true){
+			gr.u_slyd_srvy_other = "Yes";
+		}
+		gr.u_slyd_srvy_other_test = input.othtest;
+		gr.u_slyd_srvy_other_results = input.othresults;
+		gr.u_slyd_srvy_other_lab = input.othlab;
+		gr.u_other_test_date = input.othdate;
+		
+		gr.insert();
+		//input.start_number++;
+
+
+	}
+	}
+	else{
+	for (i = 0 ; i <= idarray.length ; i++){
+		if(idarray[i] != '' && idarray[i] != null && idarray[i] != undefined){
+		var gb = new GlideRecord('x_cria_livestock_t_batchfill_saleyard_release');
+		gb.initialize();
+		gb.official_identification = idarray[i].trim();
+		gb.sex = input.sex;
+		gb.vaccination_tattoo = input.vac_tattoo;
+		if(ageInt != '' && ageInt != undefined && ageInt != null){
+		if(ageInt.toString().indexOf(".") >= 0){
+			ageInt = input.age.toString();
+			var ageSliceb = ageInt.slice(ageInt.indexOf("."));
+			ageInt = input.age.toString().replace(ageSliceb,'');
+			gb.age_in_months = ageInt;
+		}
+		else{
+			gb.age_in_months = input.age;
+		}
+	}
+		gb.breed = input.breed;	
+		gb.parent = $sp.getParameter("sys_id");
+		gb.u_species = input.species;
+		gb.other_species = input.othspecies;
+		gb.u_idtype = input.idtype;
+		gb.u_vaccination_status = input.vac_status;
+		
+		if(input.idtype == 'OtherOfficialID'){
+			gb.u_othtagtype = input.othidtype;
+		}
+		
+		if(input.brucellosis == true){
+			gb.u_slyd_brucellosis = "Yes";
+		}
+		gb.u_slyd_srvy_bruc_results = input.brucresult;
+		gb.u_slyd_srvy_bruc_laboratory = input.bruclab;
+		gb.u_slyd_srvy_bruc_date_bled = input.datebled;
+		
+		if(input.trichomoniasis == true){
+			gb.u_slyd_trich = "Yes";
+		}
+		gb.u_slyd_srvy_trich_lab = input.trichlab;
+		gb.u_slyd_srvy_trich_date_collected = input.dtsamcol;
+		gb.trich_accession = input.trichacc;
+		gb.bull_tested_negative_for_trich = input.trichresult;
+		if(input.trichculture == true){
+			gb.u_slyd_trich_lab_culture = "Yes";
+		}
+		if(input.indpcr == true){
+			gb.u_trich_lab_in_pcr = "Yes";
+		}
+		if(input.poolpcr == true){
+			gb.trich_lab_pooled_pcr = "Yes";
+		}
+	
+		if(input.tuberculosis == true){
+			gb.u_slyd_tb = "Yes";
+		}
+		gb.u_slyd_srvy_tb_tested_negative = input.tbresult;
+		gb.u_slyd_srvy_tb_date_read = input.dateread;
+		
+		if(input.eia == true){
+			gb.u_slyd_eia = "Yes";
+		}
+		gb.eia_accession = input.eiaacc;
+		gb.u_slyd_srvy_eia_lab = input.eialab;
+		gb.u_slyd_srvy_eia_date_coggins_test = input.eiadate;
+		
+		if(input.othersurv == true){
+			gb.u_slyd_srvy_other = "Yes";
+		}
+		gb.u_slyd_srvy_other_test = input.othtest;
+		gb.u_slyd_srvy_other_results = input.othresults;
+		gb.u_slyd_srvy_other_lab = input.othlab;
+		gb.u_other_test_date = input.othdate;
+		
+		gb.insert();
+		//input.start_number++;
+		}
+	}
+	}
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	/*
+	if (!input)
+		return;
+  var startval = false;
+	var prefixvalid = false;
+	var m = input.start_number;
+	var len = m.length;
+	var d = '';
+	var y = '';
+	var ns = '';
+
+	if (m.match(/^0+/)){
+		y = m.match(/^0+/);
+		d = m.substring(y[0].length);
+	}else{
+		d = m;
+	}
+
+	if(/^0*$/.test(y[0])) {
+
+		for(i = 0; i < len ; i++){
+			ns += '0'; 
+		}
+	}
+
+		if(input.idtype == 'AIN'){
+			input.prefix = 840;
+		}
+	for (i = 0 ; i < input.record_amount ; i++){
+		var gr = new GlideRecord('x_cria_livestock_t_batchfill_saleyard_release');
+		gr.initialize();
+		if(i == 0){
+			result = ns.substring(d.length) + d
+			gr.official_identification = input.prefix + result;
+			d++;
+		}else{
+			d = d+'';
+			result = ns.substring(d.length) + d;
+			gr.official_identification = input.prefix + result;
+
+			d++;
+		}
+
+		gr.sex = input.sex;
+		gr.vaccination_tattoo = input.vac_tattoo;
+		gr.age_in_months = input.age;
+		gr.breed = input.breed;	
+		gr.sessionID = gs.getSessionID();
+		gr.u_species = input.species;
+		gr.other_species = input.othspecies;
+		gr.u_idtype = input.idtype;
+		
+		if(input.idtype == 'OtherOfficialID'){
+			gr.u_othtagtype = input.othidtype;
+		}
+		
+		if(input.brucellosis == true){
+			gr.u_slyd_brucellosis = "Yes";
+		}
+		gr.u_slyd_srvy_bruc_results = input.brucresult;
+		gr.u_slyd_srvy_bruc_laboratory = input.bruclab;
+		gr.u_slyd_srvy_bruc_date_bled = input.datebled;
+		
+		if(input.trichomoniasis == true){
+			gr.u_slyd_trich = "Yes";
+		}
+		gr.u_slyd_srvy_trich_lab = input.trichlab;
+		gr.u_slyd_srvy_trich_date_collected = input.dtsamcol;
+		gr.trich_accession = input.trichacc;
+		gr.bull_tested_negative_for_trich = input.trichresult;
+		if(input.trichculture == true){
+			gr.u_slyd_trich_lab_culture = "Yes";
+		}
+		if(input.indpcr == true){
+			gr.u_trich_lab_in_pcr = "Yes";
+		}
+		if(input.poolpcr == true){
+			gr.trich_lab_pooled_pcr = "Yes";
+		}
+	
+		if(input.tuberculosis == true){
+			gr.u_slyd_tb = "Yes";
+		}
+		gr.u_slyd_srvy_tb_tested_negative = input.tbresult;
+		gr.u_slyd_srvy_tb_date_read = input.dateread;
+		
+		if(input.eia == true){
+			gr.u_slyd_eia = "Yes";
+		}
+		gr.eia_accession = input.eiaacc;
+		gr.u_slyd_srvy_eia_lab = input.eialab;
+		gr.u_slyd_srvy_eia_date_coggins_test = input.eiadate;
+		
+		if(input.othersurv == true){
+			gr.u_slyd_srvy_other = "Yes";
+		}
+		gr.u_slyd_srvy_other_test = input.othtest;
+		gr.u_slyd_srvy_other_results = input.othresults;
+		gr.u_slyd_srvy_other_lab = input.othlab;
+		gr.u_other_test_date = input.othdate;
+		
+		gr.insert();
+		//input.start_number++
+
+
+	}
+*/
+})();
+/*
+	for (i = 0 ; i < input.record_amount ; i++){
+		var gr = new GlideRecord('x_cria_livestock_t_batchfill_saleyard_release');
+		gs.info("log of the logs: " + gr.sys_class_name);
+		gr.initialize();
+		//gr.actual_sequence = "" + input.start_number;
+		if(i == 0){
+			result = ns.substring(d.length) + d;
+			gr.official_identification = input.prefix + result;
+			//console.log(result)
+			d++;
+		}else{
+			d = d+'';
+			result = ns.substring(d.length) + d;
+			gr.official_identification = input.prefix + result;
+
+			d++;
+			//console.log(result)
+		}
+		gr.sex = input.sex;
+		gr.age_in_months = input.age;
+		gr.breed = input.breed;
+		gr.parent = $sp.getParameter("sys_id");
+		gr.insert();
+		input.start_number++;
+
+	}
+
+})();
+*/]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-28 18:11:00</sys_created_on>
+        <sys_id>2430ee06dbf0ef00c64e5eea4b9619f4</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Batchfill Saleyard - Draft</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_widget_2430ee06dbf0ef00c64e5eea4b9619f4</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-11-02 06:42:38</sys_updated_on>
+        <template><![CDATA[<!--<form ng-keypress="isEnter($event)">--><!--ng-keypress="isEnter($event)"-->
+<div class="panel panel-default" ng-keypress="isEnter($event)">
+  <div class="panel-body">
+    <div>
+      <div class="input-group3 col-sm-6">
+        <label ng-if="c.data.age == null" style="color:red;"><strong>${* }</strong></label><label>Age</label>
+        <input type="number" ng-model="c.data.age" placeholder="In Months" class="form-control" aria-label="Age" tabindex="1" >
+        <label ng-if="c.data.age == 0" style="color:red;">Age must be a whole number greater than zero with no text.</label>
+      </div>
+
+      <div class="input-group2 col-sm-6">
+        <label>Breed</label>
+        <input type="text" ng-model="c.data.breed" class="form-control"  aria-describedby="basic-addon2" tabindex="2">
+      </div>
+
+      <div class="form-group4 col-sm-6">
+        <label ng-if="c.data.sex == null" style="color:red;"><strong>${* }</strong></label><label>Sex</label>
+        <select class="form-control col-sm-6" ng-model="c.data.sex" tabindex="3">
+          <option value="Male">Male</option>
+          <option value="Neutered Male">Neutered Male</option>
+          <option value="Female" selected>Female</option>
+          <option value="Spayed Female" selected>Spayed Female</option>
+          <option value="Mixed Group" selected>Mixed Group</option>
+          <option value="Other" selected>Other</option>
+        </select>
+      </div>
+      <div class="form-group5 col-sm-6">
+        <label ng-if="c.data.species == null" style="color:red;"><strong>${* }</strong></label><label>Species</label>
+        <select required class="form-control col-sm-6" ng-model="c.data.species" name="species" tabindex="4" id="species" ng-required="true">
+          <option value="" selected></option>
+          <option value="BEF" selected>Beef</option>
+          <option value="DAI" selected>Dairy</option>
+          <option value="CAP" selected>Caprine (Goats)</option>
+          <option value="OVI" selected>Ovine (Sheep)</option>
+          <option value="POR" selected>Porcine (Swine)</option>
+          <option value="CHI" selected>Chickens</option>
+          <option value="TUR" selected>Turkeys</option>
+          <option value="OTH" selected>Other</option>
+        </select>
+      </div>
+      <div class="input-group4 col-sm-6"  ng-if="c.data.species == 'OTH'">
+        <label >Other Species</label>
+        <input type="text" ng-model="c.data.othspecies" class="form-control"  aria-describedby="basic-addon2" tabindex="5">
+      </div>
+      <div class="form-group5 col-sm-6" ng-if="(c.data.species == 'BEF' || c.data.species == 'DAI') && (c.data.sex == 'Female' || c.data.sex == 'Mixed Group')">
+        <label ng-if="c.data.vac_status == null" style="color:red;"><strong>${* }</strong></label><label>Vaccination Status(If Females/Mixed Group)</label>
+        <select required class="form-control col-sm-6" ng-model="c.data.vac_status" name="vac_status" tabindex="6" id="vac_status" ng-required="true">
+          <option value="" selected></option>
+          <option value="all_vacc_legible_tattoos" selected>All officially vaccinated with legible tattoos</option>
+          <option value="not_vaccinated" selected>Not Vaccinated</option>
+          <option value="mixed_vacc_status" selected>Mixed vaccination status</option>
+          <option value="unknown_vacc_status" selected>Unknown vaccination status</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="form-group1">
+      <div class="col-sm-12">
+        <div class="checkbox">
+          <label style="line-height: 3"><input type="checkbox" ng-model="c.data.nonSeq" class="form-control" aria-describedby="basic-addon2" tabindex="15" style="line-height: 3">Official ID's are in non-sequential order
+            <div class="toggle-button"></div>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group1 col-sm-6">
+      <label ng-if="c.data.idtype == null" style="color:red;"><strong>${* }</strong></label><label>ID Type</label>
+      <select required class="form-control col-sm-6" ng-model="c.data.idtype" name="idtype" ng-change="c.prefixClear(c.data.idtype)" tabindex="6">
+        <option value="" selected></option>
+        <option value="AIN" selected>840 RFID</option>
+        <option value="NUES9" selected>USDA Silver Brite/Orange Bang's Tag (82ABC1234)</option>
+        <option value="MfrRFID" selected>Canada/Mexico (124 or 484 tag)</option>
+        <option value="NUES8" selected>USDA Pig Tag (82AB1234)</option>
+        <option value="OtherOfficialID" selected>Other Official ID</option>
+      </select>
+    </div>
+    <div class="form-group1 col-sm-6" ng-if="c.data.idtype == 'OtherOfficialID'">
+      <label ng-if="c.data.othidtype == null" style="color:red;"><strong>${* }</strong></label><label>Other ID Tag Type</label>
+      <select required class="form-control col-sm-6" ng-model="c.data.othidtype" name="othidtype" tabindex="7" id="othidtype">
+        <option value="" selected></option>
+        <option value="BT" selected>Backtag</option>
+        <option value="SGFLID" selected>Scrapie group flock ID</option>
+        <option value="NPIN" selected>Swine PIN Tag</option>
+        <option value="PINPLUS" selected>Swine PIN plus Management Tag</option>
+        <option value="OTHER" selected>Other</option>
+      </select>
+    </div>
+
+    <div ng-if="c.data.idtype != null && c.data.nonSeq != true">
+      <div class="input-group2 col-sm-6" ng-if="c.data.idtype == 'OtherOfficialID'">
+        <label>ID Prefix</label>
+        <input type="text" placeholder="82VAC" ng-model="c.data.prefix" id="OOID" ng-change="c.Validation(c.data.prefix)" class="form-control" aria-describedby="basic-addon2" tabindex="8">
+      </div>
+      <div class="input-group2 col-sm-6" ng-if="c.data.idtype == 'AIN'">
+        <label ng-hide="c.data.prefixvalid == true" style="color:red;"><strong>${* }</strong></label><label>ID Prefix</label>
+        <input type="text" placeholder="840" value="840" ng-model="c.data.prefix" ng-change="c.Validation(c.data.prefix)" maxlength="3" id="AIN" class="form-control" aria-describedby="basic-addon2" tabindex="9">
+        <label ng-hide="c.data.prefixvalid == true" style="color:red;">Tag prefix must be "840" and start from must be 12 digits</label>
+      </div>
+      <div class="input-group2 col-sm-6" ng-if="c.data.idtype == 'MfrRFID'">
+        <label ng-hide="c.data.prefixvalid == true" style="color:red;"><strong>${* }</strong></label><label>ID Prefix</label>
+        <input type="text" placeholder="124 or 484" ng-model="c.data.prefix" id="MfrRFID" ng-change="c.Validation(c.data.prefix)" maxlength="3" class="form-control" aria-describedby="basic-addon2" tabindex="10">
+        <label ng-hide="c.data.prefixvalid == true" style="color:red;">Tag prefix must be 124 or 484</label>
+      </div>
+      <div class="input-group2 col-sm-6" ng-if="c.data.idtype == 'NUES9'">
+        <label ng-hide="c.data.prefixvalid == true" style="color:red;"><strong>${* }</strong></label><label>ID Prefix</label>
+        <input type="text" placeholder="82ABC" ng-model="c.data.prefix" id="NUES9" ng-change="c.Validation(c.data.prefix)" onkeyup="this.value = this.value.toUpperCase();" maxlength="5" class="form-control" aria-describedby="basic-addon2" tabindex="11">
+        <label ng-hide="c.data.prefixvalid == true" style="color:red;">Tag prefix must begin with two digits + three letters or MD, MN, NM, NY, US, WY followed by three more letters</label>
+      </div>
+      <div class="input-group2 col-sm-6" ng-if="c.data.idtype == 'NUES8'">
+        <label ng-hide="c.data.prefixvalid == true" style="color:red;"><strong>${* }</strong></label><label>ID Prefix</label>
+        <input type="text" placeholder="82AB" ng-model="c.data.prefix" id="NUES8" ng-change="c.Validation(c.data.prefix)" onkeyup="this.value = this.value.toUpperCase();" maxlength="4" class="form-control" aria-describedby="basic-addon2" tabindex="12">
+        <label ng-hide="c.data.prefixvalid == true" style="color:red;">Tag prefix must begin with two digits + two letters</label>
+      </div>
+    </div>
+  </div>
+  <div class="panel-body">
+    <div ng-if="c.data.idtype != null  && c.data.nonSeq != true">
+      <div class="input-group2 col-sm-6" >
+        <label>How many Records</label>
+        <input type="text" ng-model="c.data.record_amount" class="form-control" aria-describedby="basic-addon2" tabindex="14">
+      </div>
+      <div ng-hide="c.data.idtype == 'AIN' || c.data.idtype == 'MfrRFID' || c.data.idtype == 'NUES9' || c.data.idtype == 'NUES8'" class="input-group2 col-sm-6">
+        <label ng-if="c.data.start_number == null || c.data.start_number ==''" style="color:red;"><strong>${* }</strong></label><label>Start From</label>
+        <input type="text" ng-model="c.data.start_number" class="form-control" ng-change="c.startLength(c.data.start_number,c.data.idtype)" pattern="[0-9]*" aria-describedby="basic-addon2" id="def_startfrom" maxlength="40" tabindex="14">
+      </div>
+      <div ng-if="c.data.idtype == 'AIN' || c.data.idtype == 'MfrRFID'" class="input-group2 col-sm-6">
+        <label ng-if="c.data.startval != true" style="color:red;"><strong>${* }</strong></label><label>Start From</label>
+        <input type="text" ng-model="c.data.start_number" class="form-control" ng-change="c.startLength(c.data.start_number,c.data.idtype)" pattern="[0-9]*" aria-describedby="basic-addon2" id="startfrom" maxlength="12" tabindex="14">
+        <label ng-hide="c.data.startval == true" style="color:red;">Start from must be 12 Digits</label>
+      </div>
+      <div ng-if="c.data.idtype == 'NUES9' || c.data.idtype == 'NUES8'" class="input-group2 col-sm-6">
+        <label ng-if="c.data.startval != true" style="color:red;"><strong>${* }</strong></label><label>Start From</label>
+        <input type="text" ng-model="c.data.start_number" class="form-control" ng-change="c.startLength(c.data.start_number,c.data.idtype)" pattern="[0-9]*" aria-describedby="basic-addon2" id="startfrom" maxlength="4" tabindex="14">
+        <label ng-hide="c.data.startval == true" style="color:red;">Start from must be 4 Digits</label>
+      </div>
+      <div class="input-group2 col-sm-6" ng-if="c.data.nonSeq == true">
+        <label>How many Records</label>
+        <input type="text" ng-model="c.data.record_amount" class="form-control" aria-describedby="basic-addon2" tabindex="14">
+      </div>
+    </div>
+  </div>
+  <div class="panel-body" ng-if="(c.data.nonSeq == true && c.data.idtype != null)">
+    <div class="col-lg-12">
+      <label ng-if="c.data.seqVal == false" style="color:red;"><strong>${* }</strong></label><label>Please list the Official IDs below, separated by a comma or semi-colon</label>
+      <textarea class="span6" rows="3" ng-model="c.data.idlist" onkeyup="this.value = this.value.toUpperCase();" ng-change="c.batchVal(c.data.idlist, false)" class="form-control" aria-describedby="basic-addon2" tabindex="14">
+      </textarea>
+      <div>
+        <button type="button" ng-click="c.batchVal(c.data.idlist, true)" class="btn btn-info btn-md btn-block" value="add" role="button" tabindex="40">Verify Animal IDs</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <div class="col-sm-12">
+        <div class="row">
+          <h4>
+            Disease Surveillance &amp; Testing Information
+          </h4>
+          <p>
+            Please check boxes of all required disease surveillance tests.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="checkbox">
+            <label style="line-height: 3"><input type="checkbox" ng-model="c.data.brucellosis" class="form-control" aria-describedby="basic-addon2" tabindex="15">Brucellosis
+              <div class="toggle-button"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div ng-if="c.data.brucellosis == true">
+        <div class="panel-body">
+          <div class="row">
+            <div class="input-group2 col-sm-6">
+              <label>Laboratory</label>
+              <select class ="input-group2 col-sm-6" ng-model="c.data.bruclab" class="form-control"  aria-describedby="basic-addon2" tabindex="16">
+                <option value="ISDA Animal Health Lab">ISDA Animal Health Lab</option>
+                <option value="Washington Animal Disease Diagnostic Lab">Washington Animal Disease Diagnostic Lab</option>
+                <option value="Utah Veterinary Diagnostic Lab">Utah Veterinary Diagnostic Lab</option>
+                <option value="Montana Veterinary Diagnostic Lab">Montana Veterinary Diagnostic Lab</option>
+                <option value="Wyoming State Veterinary Labratory">Wyoming State Veterinary Labratory</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="input-group2 col-sm-6">
+              <div class="form-group">
+                <label ng-if="c.data.datebled == null" style="color:red;"><strong>${* }</strong></label><label>Date Bled</label>
+                <sp-date-picker field="c.datebled" ng-model="c.data.datebled" placeholder="MM/DD/YYYY" ng-model-options="{getterSetter: true}" tabindex="17" sn-disabled="false"></sp-date-picker>
+              </div>
+            </div>
+            <div class="form-group4 col-sm-6">
+              <label>Results</label>
+              <select class="form-control col-sm-6" ng-model="c.data.brucresult" tabindex="18">
+                <option value="positive">Positive</option>
+                <option value="negative">Negative</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="checkbox">
+            <label style="line-height: 3"><input type="checkbox" ng-model="c.data.trichomoniasis" class="form-control" aria-describedby="basic-addon2" checked="Yes" tabindex="19">Trichomoniasis
+              <div class="toggle-button"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div ng-if="c.data.trichomoniasis == true">
+        <div class="panel-body">
+          <div class="row">
+            <div class="input-group2 col-sm-6">
+              <label>Laboratory</label>
+              <input type="text" ng-model="c.data.trichlab" class="form-control"  aria-describedby="basic-addon2" tabindex="20">
+            </div>
+            <div class="input-group2 col-sm-6">
+              <div class="form-group">
+                <label>Date Sample Collected:</label>
+                <label ng-if="c.data.dtsamcol == null" style="color:red;"><strong>${* }</strong></label>
+                <sp-date-picker field="c.dtsamcol" ng-model="c.data.dtsamcol" placeholder="MM/DD/YYYY" ng-model-options="{getterSetter: true}" tabindex="21" sn-disabled="false"></sp-date-picker>
+              </div>
+            </div>
+            <div class="input-group2 col-sm-6">
+              <label>Accession #</label>
+              <input type="text" ng-model="c.data.trichacc" class="form-control"  aria-describedby="basic-addon2" tabindex="22">
+            </div>
+            <div class="form-group4 col-sm-6">
+              <p>Results</p>
+              <select class="form-control col-sm-6" ng-model="c.data.trichresult" tabindex="23">
+                <option value="No">Positive</option>
+                <option value="Yes">Negative</option>
+              </select>
+            </div>
+            <div class="input-group2 col-sm-6">
+              <label style="line-height: 3">Type of Test</label>
+              <div class="checkbox">
+                <label style="line-height: 3"><input type="checkbox" ng-model="c.data.poolpcr" class="form-control" aria-describedby="basic-addon2" tabindex="24">Individual PCR</label>
+              </div>
+              <div class="checkbox">
+                <label style="line-height: 3"><input type="checkbox" ng-model="c.data.indpcr" class="form-control" aria-describedby="basic-addon2" tabindex="25">Pooled PCR</label>
+              </div>
+              <div class="checkbox">
+                <label style="line-height: 3"><input type="checkbox" ng-model="c.data.trichculture" class="form-control" aria-describedby="basic-addon2" tabindex="26">Culture</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="checkbox">
+            <label style="line-height: 3"><input type="checkbox" ng-model="c.data.tuberculosis" class="form-control" aria-describedby="basic-addon2" checked="Yes" tabindex="27">Tuberculosis
+              <div class="toggle-button"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div ng-if="c.data.tuberculosis == true">
+        <div class="panel-body">
+          <div class="row">
+            <div class="form-group4 col-sm-6">
+              <label>Results</label>
+              <select class="form-control col-sm-6" ng-model="c.data.tbresult" tabindex="28">
+                <option value="No">Positive</option>
+                <option value="Yes">Negative</option>
+              </select>
+            </div>
+            <div class="input-group2 col-sm-6">
+              <div class="form-group">
+                <label ng-if="c.data.dateread == null" style="color:red;"><strong>${* }</strong></label><label>Date Read</label>
+                <sp-date-picker field="c.dateread" ng-model="c.data.dateread" placeholder="MM/DD/YYYY" ng-model-options="{getterSetter: true}" tabindex="29" sn-disabled="false"></sp-date-picker>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="checkbox">
+            <label style="line-height: 3"><input type="checkbox" ng-model="c.data.eia" class="form-control" aria-describedby="basic-addon2" checked="Yes" tabindex="30">Equine Infectious Anemia
+              <div class="toggle-button"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div ng-if="c.data.eia == true">
+        <div class="panel-body">
+          <div class="row">
+            <div class="input-group2 col-sm-6">
+              <label>Laboratory</label>
+              <input type="text" ng-model="c.data.eialab" class="form-control"  aria-describedby="basic-addon2" tabindex="31">
+            </div>
+            <div class="input-group2 col-sm-6">
+              <label>Accession #</label>
+              <input type="text" ng-model="c.data.eiaacc" class="form-control"  aria-describedby="basic-addon2" tabindex="32">
+            </div>
+            <div class="input-group2 col-sm-6">
+              <div class="form-group">
+                <label ng-if="c.data.eiadate == null" style="color:red;"><strong>${* }</strong></label><label>Date of negative Coggins test:</label>
+                <sp-date-picker field="c.eiadate" ng-model="c.data.eiadate" placeholder="MM/DD/YYYY" ng-model-options="{getterSetter: true}" tabindex="33" sn-disabled="false"></sp-date-picker>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="checkbox">
+            <label style="line-height: 3"><input type="checkbox" ng-model="c.data.othersurv" class="form-control" aria-describedby="basic-addon2" checked="Yes" tabindex="34">Other
+              <div class="toggle-button"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div ng-if="c.data.othersurv == true">
+        <div class="panel-body">
+          <div class="row">
+            <div class="input-group2 col-sm-6">
+              <label>Test</label>
+              <input type="text" ng-model="c.data.othtest" class="form-control"  aria-describedby="basic-addon2" tabindex="35">
+            </div>
+            <div class="input-group2 col-sm-6">
+              <label>Results</label>
+              <input type="text" ng-model="c.data.othresults" class="form-control"  aria-describedby="basic-addon2" tabindex="36">
+            </div>
+            <div class="input-group2 col-sm-6">
+              <label>Laboratory</label>
+              <input type="text" ng-model="c.data.othlab" class="form-control"  aria-describedby="basic-addon2" tabindex="37">
+            </div>
+            <div class="input-group2 col-sm-6">
+              <div class="form-group">
+                <label ng-if="c.data.othdate == null" style="color:red;"><strong>${* }</strong></label><label>Test Date</label>
+                <sp-date-picker field="c.othdate" ng-model="c.data.othdate" placeholder="MM/DD/YYYY" ng-model-options="{getterSetter: true}" tabindex="38" sn-disabled="false"></sp-date-picker>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-----
+<script id="sp_form_field.xml" type="text/ng-template">
+
+
+</script>
+---->
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <footer>
+        <div ng-if="c.validate()" align="center" style="color: red;">
+          <button type="button" ng-click="c.denied()" class="btn btn-info btn-md btn-block disabled" value="add" role="button" tabindex="39">All required fields must be filled.</button>
+        </div>
+        <div ng-if="!c.validate() && c.data.submit != true" class="submit-button">
+          <button type="button" ng-click="c.submit()" class="btn btn-info btn-md btn-block" value="add" role="button" tabindex="40">Submit</button>
+        </div>
+        <div ng-if="c.data.submit == true" align="center" style="color: red;">
+          <button type="button" class="btn btn-info btn-md btn-block disabled" value="add" role="button" tabindex="41">Please Wait...</button>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+<!--</form>-->]]></template>
+    </sp_widget>
+</record_update>

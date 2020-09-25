@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="io_set_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>99999</order>
         <sc_cat_item display_value="Brucellosis Vaccination Record">762797dddbb35f009b2689584b961955</sc_cat_item>

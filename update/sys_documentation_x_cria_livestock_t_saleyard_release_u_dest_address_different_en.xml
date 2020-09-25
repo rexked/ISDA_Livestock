@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_dest_address_different" label="Mailing address different from Consignee" language="en" table="x_cria_livestock_t_saleyard_release">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_dest_address_different</element>
+            <help/>
+            <hint/>
+            <label>Mailing address different from Consignee</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_saleyard_release</name>
+            <plural>Mailing address different from Consignees</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:22:42</sys_created_on>
+            <sys_id>d44f8da51bbc8450984743fccd4bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Mailing address different from Consignee</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_saleyard_release_u_dest_address_different_en</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:22:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

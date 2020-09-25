@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="57615f4cdb33e300c64e5eea4b9619be" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_idtype</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Change ID label if Equine</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+
+	//Change label for Official and Alternate ID if tag type is Equine Description
+	if(g_form.getValue('u_idtype') == 'EquineDescription'){
+		g_form.setLabelOf('official_identification','Equine Description');
+		g_form.setLabelOf('alternate_identification', 'Equine Name');
+	}
+	if(g_form.getValue('u_idtype') != 'EquineDescription'){
+		g_form.setLabelOf('official_identification', 'Official Identification');
+		g_form.setLabelOf('alternate_identification', 'Alternate ID');
+	}
+  
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-05-17 18:03:41</sys_created_on>
+        <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+        <sys_domain_path/>
+        <sys_id>75c500e0db6177009b2689584b9619a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Change ID label if Equine</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_client_75c500e0db6177009b2689584b9619a6</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-05-17 18:03:53</sys_updated_on>
+        <table>x_cria_livestock_t_batchfill_saleyard_release</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

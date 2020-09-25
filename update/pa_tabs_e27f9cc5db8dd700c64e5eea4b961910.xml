@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_tabs">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page display_value="PA New Tab">e27f9cc5db8dd700c64e5eea4b96190e</canvas_page>
         <name>New Tab</name>
-        <page display_value="PA New Tab">e67f9cc5db8dd700c64e5eea4b96190d</page>
+        <page/>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-03-22 20:19:14</sys_created_on>

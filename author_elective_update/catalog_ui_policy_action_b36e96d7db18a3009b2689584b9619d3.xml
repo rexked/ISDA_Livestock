@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Saleyard Release Form - NEW">8d7a6d07db9c63009b2689584b9619d4</catalog_item>
+        <catalog_variable>IO:5e8c9297db18a3009b2689584b961925</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-07 18:44:26</sys_created_on>
+        <sys_id>b36e96d7db18a3009b2689584b9619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tbTesting_container</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b36e96d7db18a3009b2689584b9619d3</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-07 18:44:26</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide tb testing container">315e56d7db18a3009b2689584b96197a</ui_policy>
+        <variable>tbTesting_container</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>catalog_ui_policy_action_b36e96d7db18a3009b2689584b9619d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Saleyard Release Form - NEW">8d7a6d07db9c63009b2689584b9619d4</catalog_item><catalog_variable>IO:5e8c9297db18a3009b2689584b961925</catalog_variable><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2018-09-07 18:44:26</sys_created_on><sys_id>b36e96d7db18a3009b2689584b9619d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>tbTesting_container</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>catalog_ui_policy_action_b36e96d7db18a3009b2689584b9619d3</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-09-07 18:44:26</sys_updated_on><table/><ui_policy display_value="Hide tb testing container">315e56d7db18a3009b2689584b96197a</ui_policy><variable>tbTesting_container</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1344361002</payload_hash>
+        <record_name>tbTesting_container</record_name>
+        <reverted_from/>
+        <source>64738563dbe86700eb4e18df4b9619f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-20 17:01:05</sys_created_on>
+        <sys_id>ee734963dbe86700eb4e18df4b96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>165f7ed8eea0000001</sys_recorded_at>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-20 17:01:05</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>397e56d71018a3000372d3ccaf3ed980</update_guid>
+        <update_guid_history>397e56d71018a3000372d3ccaf3ed980:-1344361002</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 08/07/2019 11:19:10 AM">41fd86f6db8fbf40086c89584b961904</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-08-07 17:19:10</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>4b78d04bba794500b9fa3e95ee910000</sys_id>
+        <sys_metadata>b36e96d7db18a3009b2689584b9619d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tbTesting_container</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_b36e96d7db18a3009b2689584b9619d3</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_b36e96d7db18a3009b2689584b9619d3">ee734963dbe86700eb4e18df4b96191f</sys_update_version>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-08-07 17:19:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

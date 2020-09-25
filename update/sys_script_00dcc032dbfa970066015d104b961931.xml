@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_script">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
     <sys_script action="INSERT_OR_UPDATE">
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>true</action_insert>
+        <action_insert>false</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
-        <active>false</active>
+        <action_update>true</action_update>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -19,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Add official ids to certs</name>
+        <name>Update official ids to certs</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -29,17 +28,27 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	current.update();
+	var arr1 = [];
+	var arr2 = [];
 	var gr = new GlideRecord('x_cria_livestock_t_batchfill_saleyard_release');
 	gr.addQuery('parent', current.sys_id);
+	gr.orderBy('official_identification');
 	gr.query();
 	while(gr.next()){
-		if(current.official_ids == ''){
-			current.official_ids = gr.id;
-		}else{
-			current.official_ids = current.official_ids + ", " + gr.id;
+		arr2.push(gr.alternate_identification.getDisplayValue());
+		arr1.push(gr.official_identification.getDisplayValue());
+	}
+	if(arr1.length > -1){	
+		if(arr2.length == 0){
+			current.official_ids = arr1.toString();
+			current.update();
+		}
+		else{
+			current.official_ids = (arr1.toString() + ", " + arr2.toString());
+			current.update();
 		}
 	}
-	current.update();
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
@@ -47,17 +56,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>00dcc032dbfa970066015d104b961931</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Add official ids to certs</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Update official ids to certs</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_script_00dcc032dbfa970066015d104b961931</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-18 16:27:23</sys_updated_on>
+        <sys_updated_by>tsears@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-05-14 23:15:37</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=00dcc032dbfa970066015d104b961931"/>
 </record_update>

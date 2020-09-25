@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_index">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
     <sys_index action="INSERT_OR_UPDATE">
         <col_name_string>u_prem_id</col_name_string>
         <index_col_name element="u_prem_id" name="cmn_location">64822116dbba570066015d104b9619d7</index_col_name>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Numbers" max_length="40" name="x_cria_livestock_t_numbers" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Numbers" max_length="40" name="x_cria_livestock_t_numbers" sizeclass="8" type="collection">
         <element label="Label" max_length="40" name="label" type="string"/>
-        <element default="1" label="Number" max_length="10" name="number" type="integer"/>
+        <element attributes="format=none,edge_encryption_enabled=true" default="1" label="Number" max_length="10" name="number" type="integer"/>
         <element default="000000" label="Places" max_length="40" name="padding" type="string"/>
         <element label="Type" max_length="40" name="type" type="string"/>
+        <element label="Year" max_length="4" name="u_year" type="string"/>
     </element>
 </database>

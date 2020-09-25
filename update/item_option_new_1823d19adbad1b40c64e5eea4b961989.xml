@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="item_option_new">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
@@ -49,8 +48,8 @@
         <record_producer_table/>
         <reference>cmn_location</reference>
         <reference_qual>u_prem_type=Saleyard^ORu_prem_type=Slaughter plant^EQ</reference_qual>
-        <reference_qual_condition table="cmn_location">u_prem_type=Saleyard^ORu_prem_type=Slaughter plant^EQ<item endquery="false" field="u_prem_type" goto="false" newquery="false" operator="=" or="false" value="Saleyard"/>
-            <item endquery="false" field="u_prem_type" goto="false" newquery="false" operator="=" or="true" value="Slaughter plant"/>
+        <reference_qual_condition table="cmn_location">u_prem_type=Saleyard^ORu_prem_type=Slaughter plant^EQ<item display_value="Saleyard" endquery="false" field="u_prem_type" goto="false" newquery="false" operator="=" or="false" value="Saleyard"/>
+            <item display_value="Slaughter plant" endquery="false" field="u_prem_type" goto="false" newquery="false" operator="=" or="true" value="Slaughter plant"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <scale_max>5</scale_max>
@@ -77,6 +76,7 @@
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
         <variable_name/>
         <variable_set display_value="Veterinarian/Livestock Market Information">0091155adbad1b40c64e5eea4b96192a</variable_set>
         <variable_width/>

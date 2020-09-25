@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Saleyard Release Form">8d7a6d07db9c63009b2689584b9619d4</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-06 20:21:48</sys_created_on>
+        <sys_id>5a2be147db9c63009b2689584b961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Saleyard Release Form.ISDA Tagging Station Users</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_5a2be147db9c63009b2689584b961972</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-06 20:21:48</sys_updated_on>
+        <user_criteria display_value="ISDA Tagging Station Users">d6373cb8db9c2300c64e5eea4b961975</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>

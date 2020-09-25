@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Saleyard Release activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_cria_livestock_t_saleyard_release_activity.fields</name>
+        <read_roles/>
+        <suffix>x_cria_livestock_t</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-04-07 21:31:52</sys_created_on>
+        <sys_id>3dbb63d5db405050eb4e18df4b961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_cria_livestock_t_saleyard_release_activity.fields</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_properties_3dbb63d5db405050eb4e18df4b961984</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-04-07 21:31:52</sys_updated_on>
+        <type>string</type>
+        <value>record_id,slyd_consignor_name,number,entry_permit_number,slyd_consignee_name,sys_updated_on,u_saleyard,u_veterinarian,sys_created_on,u_dest_state,slyd_consignor_state,num_beef_cattle,num_of_bulls,num_of_calves,num_of_cows,num_dairy_cattle,num_goats,num_of_heifers,num_horses,num_other,num_poultry,num_sheep,num_of_steers,num_swine,slyd_srvy_eia_accession,slyd_srvy_trich_accession,slyd_srvy_tb_tested_negative,slyd_srvy_trich_tested_negative,brand_inspection,slyd_brucellosis,slyd_brucellosis_free,bruce_vacc_status,slyd_cattle,slyd_consignee_city,slyd_consignor_city,sys_class_name,u_consignee,u_consignor,u_county,sys_created_by,cvi_trich_lab_culture,dsa_herd,signature_date,slyd_srvy_bruc_date_bled,slyd_srvy_trich_date_collected,date_of_vaccination,slyd_srvy_eia_date_coggins_test,slyd_srvy_tb_date_read,identifying_marks,u_dest_address,u_destination_zip,u_vet_sig,dosage,draft,esig_ack,slyd_eia,slyd_goats,herd_owner,herd_type,slyd_horses,trich_lab_in_pcr,inspection_date,lab_result_table,slyd_srvy_bruc_laboratory,slyd_srvy_eia_lab,slyd_srvy_other_lab,slyd_srvy_trich_lab,u_dest_address_different,u_origin_address_different,u_number_of_animals_shipped,slyd_srvy_bruc_negative_cattle,slyd_srvy_bruc_test_eligible,official_ids,u_origin_address,origin_state,u_origin_zip,slyd_other,slyd_srvy_other,species_other,parent_ritm,consignee_phone,consignor_phone,trich_lab_pooled_pcr,slyd_poultry,premise_id_number,reason_for_release,slyd_area_remarks,slyd_srvy_bruc_results,slyd_srvy_other_results,slyd_release_date,u_saleyard_release_number,serial_number_expiration_date,slyd_sheep,u_form_received,u_species,slyd_consignee_state,slyd_consignee_street,slyd_consignor_street,slyd_swine,slyd_tb_free,u_slyd_tb_free,sys_tags,slyd_srvy_other_test,slyd_trich,slyd_tb,sys_updated_by,sys_mod_count,vaccination_tattoo,vaccine_mfg_and_strain,u_vet_opt_out,slyd_consignee_zip,slyd_consignor_zip,*Email*,*Relations*,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=3dbb63d5db405050eb4e18df4b961984"/>
+</record_update>

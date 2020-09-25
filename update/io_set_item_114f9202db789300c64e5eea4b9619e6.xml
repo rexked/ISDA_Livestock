@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="io_set_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>1100</order>
-        <sc_cat_item display_value="Certificate of Veterinary Inspection">44fe96cedb389300c64e5eea4b9619e6</sc_cat_item>
+        <sc_cat_item display_value="Certificate of Veterinary Inspection - OLD">44fe96cedb389300c64e5eea4b9619e6</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>dmorden</sys_created_by>
         <sys_created_on>2018-03-13 21:55:48</sys_created_on>

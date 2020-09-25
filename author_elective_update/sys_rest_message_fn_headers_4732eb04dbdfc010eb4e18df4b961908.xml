@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="DELETE">
+        <name>Content-Type:</name>
+        <rest_message_function display_value="post">0c016300dbdfc010eb4e18df4b9619ae</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-26 16:58:02</sys_created_on>
+        <sys_id>4732eb04dbdfc010eb4e18df4b961908</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Content-Type:</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_4732eb04dbdfc010eb4e18df4b961908</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-26 17:09:50</sys_updated_on>
+        <value>application/x-www-form-urlencoded</value>
+    </sys_rest_message_fn_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_rest_message_fn_headers_4732eb04dbdfc010eb4e18df4b961908</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-Type:</name><rest_message_function display_value="post">0c016300dbdfc010eb4e18df4b9619ae</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>tsears</sys_created_by><sys_created_on>2020-02-26 16:58:02</sys_created_on><sys_id>4732eb04dbdfc010eb4e18df4b961908</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Content-Type:</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_rest_message_fn_headers_4732eb04dbdfc010eb4e18df4b961908</sys_update_name><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-02-26 17:09:50</sys_updated_on><value>application/x-www-form-urlencoded</value></sys_rest_message_fn_headers></record_update>]]></payload>
+        <payload_hash>-1199779345</payload_hash>
+        <record_name>Content-Type:</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-26 17:09:50</sys_created_on>
+        <sys_id>338627c4dbdfc010eb4e18df4b961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1708279e3060000001</sys_recorded_at>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-26 17:09:50</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>f78627c44edfc01017f75b7e5892da23</update_guid>
+        <update_guid_history>f78627c44edfc01017f75b7e5892da23:-1199779345,42c46fc402dfc0109817cfcb288bcb25:-2137126708,3ed363c4c4dfc010790114f2a615d1eb:-439594618</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-02-26 17:35:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_headers">sys_rest_message_fn_headers</sys_db_object>
+        <sys_id>92dea21dd8c8490692995f1499645949</sys_id>
+        <sys_metadata>4732eb04dbdfc010eb4e18df4b961908</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type:</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_headers_4732eb04dbdfc010eb4e18df4b961908</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_headers_4732eb04dbdfc010eb4e18df4b961908">338627c4dbdfc010eb4e18df4b961924</sys_update_version>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-02-26 17:35:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Trichomoniasis Test and Report Form">30578a26dba02b00c64e5eea4b961907</catalog_item>
+        <catalog_variable>IO:d536a6f0dbd1e7409b2689584b961932</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-19 19:46:55</sys_created_on>
+        <sys_id>0c4f3e30db15e7409b2689584b961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>summary_of_animals</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_0c4f3e30db15e7409b2689584b961907</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-19 19:46:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show summary fields for culture">b82ef230db15e7409b2689584b96191f</ui_policy>
+        <variable>summary_of_animals</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

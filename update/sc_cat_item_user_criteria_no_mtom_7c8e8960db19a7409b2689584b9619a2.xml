@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Brucellosis Test Form">3e0bd8d4db9d67409b2689584b961941</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-18 16:54:37</sys_created_on>
+        <sys_id>7c8e8960db19a7409b2689584b9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bruc Test - New.ISDA Tagging Station Users</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_7c8e8960db19a7409b2689584b9619a2</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-18 16:54:37</sys_updated_on>
+        <user_criteria display_value="ISDA Tagging Station Users">d6373cb8db9c2300c64e5eea4b961975</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>

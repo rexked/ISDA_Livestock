@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>trich_test_and_report_cert_number_reset_sept_1st</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Trich Test and Report Cert Number reset sept 1st</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-01-03 05:19:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4b0e36aedbca4450447b4b8b0b96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trich Test and Report Cert Number reset sept 1st</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_hub_flow_4b0e36aedbca4450447b4b8b0b96195d</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-01-03 05:19:10</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=4b0e36aedbca4450447b4b8b0b96195d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4b0e36aedbca4450447b4b8b0b96195d^sys_idNOT IN070e36aedbca4450447b4b8b0b96195e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4b0e36aedbca4450447b4b8b0b96195d</id>
+        <name>Trich Test and Report Cert Number reset sept 1st</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-01-03 05:19:10</sys_created_on>
+        <sys_id>070e36aedbca4450447b4b8b0b96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trich Test and Report Cert Number reset sept 1st</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_070e36aedbca4450447b4b8b0b96195e</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-01-03 05:19:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

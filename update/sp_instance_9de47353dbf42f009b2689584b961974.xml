@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">95e4fbdfdbb42f009b2689584b961930</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-02 21:33:28</sys_created_on>
+        <sys_id>9de47353dbf42f009b2689584b961974</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sp_instance_9de47353dbf42f009b2689584b961974</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-04-20 16:39:42</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h1>Animal Information</h1><p>If you prefer to upload a list of animals, please download this template and attach the updated template to this record using the paper clip at the bottom. <strong><a href=\"sys_attachment.do?sys_id=ac23c19ddbe023009b2689584b961916\" target=\"_blank\">Click here</a></strong>&nbsp;to download the template.&nbsp; <strong>DO NOT CHANGE THE NAME OF THE TEMPLATE OR THE COLUMN NAMES</strong>.&nbsp; The template name and column names must remain the same to import the animals correctly.</p>",
+		"displayValue": "<h1>Animal Information</h1><p>If you prefer to upload a list of animals, please download this template and attach the updated template to this record using the paper clip at the bottom. <strong><a href=\"sys_attachment.do?sys_id=ac23c19ddbe023009b2689584b961916\" target=\"_blank\">Click here</a></strong>&nbsp;to download the template.&nbsp; <strong>DO NOT CHANGE THE NAME OF THE TEMPLATE OR THE COLUMN NAMES</strong>.&nbsp; The template name and column names must remain the same to import the animals correctly.</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=9de47353dbf42f009b2689584b961974"/>
+</record_update>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cria_livestock_t_vaccinations_trichomoniasis</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_cria_livestock_t_vaccinations_trichomoniasis">draft=true^sys_created_onRELATIVELT@hour@ago@719^EQ<item endquery="false" field="draft" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="RELATIVE" or="false" value="LT@hour@ago@719"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Livestock Application 30 draft del evnt</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+  gs.eventQueue("x_cria_livestock_t.draft_deleted", current.sys_created_by.getDisplayValue());
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>tsears@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-01-01 05:26:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d6ce48e1bca8810710ffff7dc4bcb53</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Livestock Application 30 draft del evnt</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_8d6ce48e1bca8810710ffff7dc4bcb53</sys_update_name>
+        <sys_updated_by>tsears@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-01-01 05:55:29</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=8d6ce48e1bca8810710ffff7dc4bcb53"/>
+</record_update>

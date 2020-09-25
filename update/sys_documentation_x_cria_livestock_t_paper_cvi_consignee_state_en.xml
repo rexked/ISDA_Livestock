@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="consignee_state" label="Consignee State" language="en" table="x_cria_livestock_t_paper_cvi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>consignee_state</element>
+            <help/>
+            <hint/>
+            <label>Consignee State</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_paper_cvi</name>
+            <plural>Consignee States</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Imckirdy</sys_created_by>
+            <sys_created_on>2020-03-17 20:20:57</sys_created_on>
+            <sys_id>9212976adbe7cc10eb4e18df4b9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Consignee State</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_paper_cvi_consignee_state_en</sys_update_name>
+            <sys_updated_by>Imckirdy</sys_updated_by>
+            <sys_updated_on>2020-03-17 20:20:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

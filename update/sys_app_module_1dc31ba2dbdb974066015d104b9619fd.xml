@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_app_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="Livestock Tracking">731aa826dba09700df68f2b6ae961960</application>
@@ -19,24 +18,24 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>admin</roles>
+        <roles>x_cria_livestock_t.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>dyoung@criadvantage.com</sys_created_by>
         <sys_created_on>2018-07-17 21:39:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1dc31ba2dbdb974066015d104b9619fd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Batchfills</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Batchfill Animal Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_app_module_1dc31ba2dbdb974066015d104b9619fd</sys_update_name>
-        <sys_updated_by>dyoung@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-07-17 21:39:58</sys_updated_on>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-04-13 13:17:45</sys_updated_on>
         <timeline_page/>
-        <title>Batchfills</title>
+        <title>Batchfill Animal Records</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

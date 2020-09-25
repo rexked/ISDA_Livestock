@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Update paper CVIs</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[gs.info("Debug");
+var count = 0;
+var gr = new GlideRecord('x_cria_livestock_t_paper_cvi');
+//gr.addQuery('veterinarian', current.);
+gr.query();
+while (gr.next()) {
+		
+count = count + 1;
+    // Closed Complete 
+    //gr.state = 3;
+    //gr.update();
+    //gs.info(gr.number + "---" + gr.state);
+}
+
+gs.info('count = ' + count);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>Imckirdy</sys_created_by>
+        <sys_created_on>2020-04-03 16:52:36</sys_created_on>
+        <sys_id>8d658e80db0cd810447b4b8b0b961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update paper CVIs</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_fix_8d658e80db0cd810447b4b8b0b961974</sys_update_name>
+        <sys_updated_by>Imckirdy</sys_updated_by>
+        <sys_updated_on>2020-04-03 16:52:36</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

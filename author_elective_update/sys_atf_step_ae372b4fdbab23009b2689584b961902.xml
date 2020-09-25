@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <description>Set the values on the form as follows:
+Origin County = Ada
+and # of Beef Cattle = 25
+and Vaccination Status = All officially vaccinated with legible tattoos
+and Number of Bulls = 15
+and Number of Steers = 10
+and Entry Permit Number = 9876543210
+and Carrier Name = Old Dominion Swift
+and Inspection Date = 06/11/2019
+and Shipment Date = 06/11/2019
+and Number of Animals Shipped = 25
+and Veterinarian Signature = a2135262dbb29700086c89584b9619ec
+and Date = 06/11/2019</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <order>3</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-02-15 18:47:56</sys_created_on>
+        <sys_id>ae372b4fdbab23009b2689584b961902</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_atf_step_ae372b4fdbab23009b2689584b961902</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-06-11 20:57:19</sys_updated_on>
+        <table>x_cria_livestock_t_vaccinations_cvi</table>
+        <test display_value="ISDA - Export CVI (Backend)">6407674fdbab23009b2689584b9619cb</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=ae372b4fdbab23009b2689584b961902"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ae372b4fdbab23009b2689584b961902</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-02-15 18:47:56</sys_created_on>
+        <sys_id>2a372b4fdbab23009b2689584b961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-02-15 18:47:56</sys_updated_on>
+        <value>x_cria_livestock_t_vaccinations_cvi</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ae372b4fdbab23009b2689584b961902</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-02-15 18:47:56</sys_created_on>
+        <sys_id>ea372b4fdbab23009b2689584b961903</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-06-11 20:57:19</sys_updated_on>
+        <value>origin_county=77be3abcdb925f809b2689584b96193c^num_beef_cattle=25^vaccination_status=all_vacc_legible_tattoos^num_of_bulls=15^num_of_steers=10^entry_permit_number=9876543210^carrier_name_and_address=Old Dominion Swift^inspection_date=02/14/2019^shipment_date=02/15/2019^number_animals_shipped=25^u_veterinarian=a2135262dbb29700086c89584b9619ec^signature_date=02/15/2019^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_atf_step_ae372b4fdbab23009b2689584b961902</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><description>Set the values on the form as follows:
+Origin County = Ada
+and # of Beef Cattle = 25
+and Vaccination Status = All officially vaccinated with legible tattoos
+and Number of Bulls = 15
+and Number of Steers = 10
+and Entry Permit Number = 9876543210
+and Carrier Name = Old Dominion Swift
+and Inspection Date = 06/11/2019
+and Shipment Date = 06/11/2019
+and Number of Animals Shipped = 25
+and Veterinarian Signature = a2135262dbb29700086c89584b9619ec
+and Date = 06/11/2019</description><display_name>Set Field Values</display_name><inputs/><order>3</order><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2019-02-15 18:47:56</sys_created_on><sys_id>ae372b4fdbab23009b2689584b961902</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_atf_step_ae372b4fdbab23009b2689584b961902</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-11 20:57:19</sys_updated_on><table>x_cria_livestock_t_vaccinations_cvi</table><test display_value="ISDA - Export CVI (Backend)">6407674fdbab23009b2689584b9619cb</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=ae372b4fdbab23009b2689584b961902"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ae372b4fdbab23009b2689584b961902</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2019-02-15 18:47:56</sys_created_on><sys_id>2a372b4fdbab23009b2689584b961903</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2019-02-15 18:47:56</sys_updated_on><value>x_cria_livestock_t_vaccinations_cvi</value><variable display_value="">424ca6465320220002c6435723dc34b5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ae372b4fdbab23009b2689584b961902</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>dmorden@criadvantage.com</sys_created_by><sys_created_on>2019-02-15 18:47:56</sys_created_on><sys_id>ea372b4fdbab23009b2689584b961903</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-11 20:57:19</sys_updated_on><value>origin_county=77be3abcdb925f809b2689584b96193c^num_beef_cattle=25^vaccination_status=all_vacc_legible_tattoos^num_of_bulls=15^num_of_steers=10^entry_permit_number=9876543210^carrier_name_and_address=Old Dominion Swift^inspection_date=02/14/2019^shipment_date=02/15/2019^number_animals_shipped=25^u_veterinarian=a2135262dbb29700086c89584b9619ec^signature_date=02/15/2019^EQ</value><variable display_value="">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1621983670</payload_hash>
+        <record_name>Set Field Values</record_name>
+        <reverted_from/>
+        <source>a415a093db52b700086c89584b9619c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-02 16:12:29</sys_created_on>
+        <sys_id>d575acd3db52b700086c89584b9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bb3757b7a0000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-02 16:12:29</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>784d5924ab463b00ec17bafaae6065f0</update_guid>
+        <update_guid_history>784d5924ab463b00ec17bafaae6065f0:1621983670,ad7c5de041463b004b24f13426cfeb96:1262547152,68d3941baf2f230022093bd65daf51c7:-1685209032,2ce96fcb72ab23001accf7cf21cf97cd:-297663629,ea372b4f20ab230080058e211a85b804:1654223069</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-08-29 20:34:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>19f005afdebf41f7a0ac901c2b0665c9</sys_id>
+        <sys_metadata>ae372b4fdbab23009b2689584b961902</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_atf_step_ae372b4fdbab23009b2689584b961902</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_ae372b4fdbab23009b2689584b961902">d575acd3db52b700086c89584b9619a5</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-08-29 20:34:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

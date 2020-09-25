@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="5e64a2c2db34ef00c64e5eea4b9619f9" sys_domain="global" table="x_cria_livestock_t_saleyard_release" version="3" view="Draft">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>record_id</element>
+            <position>0</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1611d5291bbc8450984743fccd4bcb74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9a11d5291bbc8450984743fccd4bcb74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>draft</element>
+            <position>2</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1211d5291bbc8450984743fccd4bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_saleyard</element>
+            <position>3</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9611d5291bbc8450984743fccd4bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1e11d5291bbc8450984743fccd4bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>5</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9211d5291bbc8450984743fccd4bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slyd_consignor_name</element>
+            <position>6</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1a11d5291bbc8450984743fccd4bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slyd_consignor_street</element>
+            <position>7</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9e11d5291bbc8450984743fccd4bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slyd_consignor_city</element>
+            <position>8</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1611d5291bbc8450984743fccd4bcb77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slyd_consignor_state</element>
+            <position>9</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9a11d5291bbc8450984743fccd4bcb77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slyd_consignor_zip</element>
+            <position>10</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1211d5291bbc8450984743fccd4bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignor_phone</element>
+            <position>11</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9611d5291bbc8450984743fccd4bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_county</element>
+            <position>12</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1e11d5291bbc8450984743fccd4bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_origin_address_different</element>
+            <position>13</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9211d5291bbc8450984743fccd4bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_origin_address</element>
+            <position>14</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1a11d5291bbc8450984743fccd4bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>origin_state</element>
+            <position>15</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9e11d5291bbc8450984743fccd4bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_origin_zip</element>
+            <position>16</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1611d5291bbc8450984743fccd4bcb7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9a11d5291bbc8450984743fccd4bcb7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slyd_consignee_name</element>
+            <position>18</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1211d5291bbc8450984743fccd4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slyd_consignee_street</element>
+            <position>19</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9611d5291bbc8450984743fccd4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slyd_consignee_city</element>
+            <position>20</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1e11d5291bbc8450984743fccd4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slyd_consignee_state</element>
+            <position>21</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9211d5291bbc8450984743fccd4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slyd_consignee_zip</element>
+            <position>22</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1a11d5291bbc8450984743fccd4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consignee_phone</element>
+            <position>23</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9e11d5291bbc8450984743fccd4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dest_address_different</element>
+            <position>24</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1611d5291bbc8450984743fccd4bcb7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dest_address</element>
+            <position>25</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9a11d5291bbc8450984743fccd4bcb7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dest_state</element>
+            <position>26</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>1211d5291bbc8450984743fccd4bcb7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_destination_zip</element>
+            <position>27</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-10-29 15:30:45</sys_created_on>
+            <sys_id>9611d5291bbc8450984743fccd4bcb7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_saleyard_release" sys_domain="global" view="394b2aa5dbe0a700c64e5eea4b961987">5e64a2c2db34ef00c64e5eea4b9619f9</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-10-29 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_cria_livestock_t_saleyard_release</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-09-28 18:29:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e64a2c2db34ef00c64e5eea4b9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cria_livestock_t_saleyard_release</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_5e64a2c2db34ef00c64e5eea4b9619f9</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-09-28 18:29:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Draft" name="Draft">394b2aa5dbe0a700c64e5eea4b961987</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

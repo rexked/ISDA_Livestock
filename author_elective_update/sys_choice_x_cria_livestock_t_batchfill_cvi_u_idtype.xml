@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_idtype" table="x_cria_livestock_t_batchfill_cvi" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_idtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>840 RFID / Microchip</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>0</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-22 19:35:10</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>ac7a2fdcdb093f009b2689584b961914</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-25 21:23:19</sys_updated_on>
+            <value>AIN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_idtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USDA Silver Brite/Orange Bang's Tag (82ABC1234)</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>1</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-22 19:36:21</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>5b3b2fdcdb093f009b2689584b96191f</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-25 15:39:55</sys_updated_on>
+            <value>NUES9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_idtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Equine Description</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>2</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-22 19:38:03</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>18ab6710db493f009b2689584b961915</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-25 15:39:55</sys_updated_on>
+            <value>EquineDescription</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_idtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada/Mexico (124 or 484 tag)</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>3</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-22 19:35:53</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>642bebdcdb093f009b2689584b9619f4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-25 15:39:55</sys_updated_on>
+            <value>MfrRFID</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_idtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USDA Pig Tag (82AB1234)</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>4</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-22 19:36:38</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>af4b2710db493f009b2689584b9619a4</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-25 15:39:55</sys_updated_on>
+            <value>NUES8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_idtype</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Official ID</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sequence>6</sequence>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-22 19:38:39</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path>
+            <sys_id>0dcb6b10db493f009b2689584b961935</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-06-25 15:39:55</sys_updated_on>
+            <value>OtherOfficialID</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_idtype</element>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-22 19:35:10</sys_created_on>
+            <sys_id>02fae3dcdb093f009b2689584b961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_idtype</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_batchfill_cvi_u_idtype</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-22 19:35:10</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_batchfill_cvi_u_idtype</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_idtype" table="x_cria_livestock_t_batchfill_cvi" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_idtype</element><hint/><inactive>false</inactive><label>840 RFID / Microchip</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>0</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-22 19:35:10</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>ac7a2fdcdb093f009b2689584b961914</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-25 21:23:19</sys_updated_on><value>AIN</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_idtype</element><hint/><inactive>false</inactive><label>USDA Silver Brite/Orange Bang's Tag (82ABC1234)</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>1</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-22 19:36:21</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>5b3b2fdcdb093f009b2689584b96191f</sys_id><sys_mod_count>5</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-25 15:39:55</sys_updated_on><value>NUES9</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_idtype</element><hint/><inactive>false</inactive><label>Equine Description</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>2</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-22 19:38:03</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>18ab6710db493f009b2689584b961915</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-25 15:39:55</sys_updated_on><value>EquineDescription</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_idtype</element><hint/><inactive>false</inactive><label>Canada/Mexico (124 or 484 tag)</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>3</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-22 19:35:53</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>642bebdcdb093f009b2689584b9619f4</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-25 15:39:55</sys_updated_on><value>MfrRFID</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_idtype</element><hint/><inactive>false</inactive><label>USDA Pig Tag (82AB1234)</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>4</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-22 19:36:38</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>af4b2710db493f009b2689584b9619a4</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-25 15:39:55</sys_updated_on><value>NUES8</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_idtype</element><hint/><inactive>false</inactive><label>Other Official ID</label><language>en</language><name>x_cria_livestock_t_batchfill_cvi</name><sequence>6</sequence><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-22 19:38:39</sys_created_on><sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain><sys_domain_path>!!!/!!#/!!*/!!!/</sys_domain_path><sys_id>0dcb6b10db493f009b2689584b961935</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-06-25 15:39:55</sys_updated_on><value>OtherOfficialID</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>u_idtype</element><name>x_cria_livestock_t_batchfill_cvi</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>thigley@criadvantage.com</sys_created_by><sys_created_on>2019-04-22 19:35:10</sys_created_on><sys_id>02fae3dcdb093f009b2689584b961977</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_idtype</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_choice_x_cria_livestock_t_batchfill_cvi_u_idtype</sys_update_name><sys_updated_by>thigley@criadvantage.com</sys_updated_by><sys_updated_on>2019-04-22 19:35:10</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-320387612</payload_hash>
+        <record_name>CVI Livestock Shipment.ID Type</record_name>
+        <reverted_from/>
+        <source>a415a093db52b700086c89584b9619c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-07-02 16:12:30</sys_created_on>
+        <sys_id>2d75ecd3db52b700086c89584b96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bb3757f0a0000001</sys_recorded_at>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-02 16:12:30</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>2679e94904da7300537b7121d7d2de00</update_guid>
+        <update_guid_history>2679e94904da7300537b7121d7d2de00:-320387612,da69ad491cda7300c82ca6cceac4b0c5:-538174045,fc19694914da73005a3fb772ae0424da:-256073842,7887290953da730026d67455506a765c:212795372,c123e54595da7300723000054d9b8a4f:-1272128594,843d98c5ff1a7300a72f19ae4d903dc4:212795372,d3fc18c5e51a7300c367b5f16624fdaa:-1588516414,2dfc18c5461a7300d56cd482d975c015:-749981910,a8ccd045e51a73009e09f9a93160e19e:-1879697836,410b5805cd1a7300fbb4e1669c573132:212795372,9dfa1405ef1a7300b36e27e858b9ae46:-1458593163,4cea94051f1a73008fd1bb1acb929cd8:178052843,4a98d4816b1a7300029a4a16c34cd7f4:-1901144565,ae78d481c71a7300021aa799967ca6eb:816922260,415d40fc0edaf300290dac3fdbb84d55:-1901144565,ce4d44fc7fdaf3003a392a63d7bb70ec:-1798115924,39fc40fc80daf300fb1519a4eca26f4e:701877682,f3ec40fcdfdaf300fc261fe379f8dc05:-2026578327,6f4ba5f4bbce3b00ff629b56c3c04b52:1171907592,3a2ba17849ce3b00635d829acb394c3b:1193147639,b10b69f4a5ce3b00bc662a441fe180a3:1285217155,910b6d705ece3b00c1169f395f70d6f4:-908078855,eafa21781bce3b00e739c883eb49553b:-643075839,69ca69f473ce3b005f16fbac0973749c:1665965679,d1baa5f465ce3b0082c1a6601977d83c:341309187,659ae938e8ce3b00e79435b12f51c11e:1498461236,5b7aedf0cace3b006fa6d50e5c35c269:-1844654723,597ae93892ce3b005c53e9bf39a7d317:-1079192646,122ecc014959f740d739294047eb6868:-23999585,6d2e88014a59f740e4eaa05e1e237268:-939588103,491df63ca455f7402a26924fad7e6b16:2088108350,6adbe31097493f000fbcb0b3f6350412:203350495,41cb6b10c4493f00e8a09a93e930ba39:-1281309769,20bb2b1098493f00c10b7d97dd364970:108362028,58ab671041493f00ec1400c6a3019f18:1116656980,a26ba7dc86093f0077038a528900e4fa:2072914988,eb4b2710d1493f00d3e23524b7e327a7:1215108783,173b2fdced093f00189cc2ce897a0c22:-1661317363,ac2bebdcea093f001029dc2b2da6d3f6:732098222,8afae3dc11093f0083085e6b18062a78:821199956</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>a975ecd3db52b700086c89584b961904</sys_id>
+        <sys_metadata>a975ecd3db52b700086c89584b961904</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_idtype</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_batchfill_cvi_u_idtype</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_batchfill_cvi_u_idtype">2d75ecd3db52b700086c89584b96190a</sys_update_version>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cria_livestock_t_import_cvi</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_cria_livestock_t_import_cvi">u_draft=false^EQ<item endquery="false" field="u_draft" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Import animals from attachments</name>
+        <order>1000</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var kids = "";
+	var children = new GlideRecord('x_cria_livestock_t_batchfill_import_cvi');
+	children.addQuery('parent', current.sys_id);
+	children.query();
+	kids = children.getRowCount();
+	if(kids == 0) {
+		//var ar = new GlideRecord('sys_attachment');
+		//ar.addQuery('table_sys_id', current.sys_id);
+		//ar.addQuery('content_type', "application/pdf");
+		//ar.query();
+		//while(ar.next()){
+		//	ar.deleteRecord();
+		//}
+		//BEGIN IMPORT
+		// Set the following variables with the name of your import set table and task id column
+		var importSetTableName = "x_cria_livestock_t_import_cvi_temp_batch";
+		//x_cria_livestock_t_import_cvi_batch_temp
+		var transformMapIDs = "d9a390271b370850710ffff7dc4bcb43";   //Use a comma to specify multiple transform maps
+		//f979b6391bf7c050710ffff7dc4bcb4f
+		// Create data source for attachment
+		var dataSource = new GlideRecord("sys_data_source");
+		dataSource.initialize();
+		dataSource.name = "Test1 Import";
+		dataSource.import_set_table_name = importSetTableName;
+		dataSource.file_retrieval_method = "Attachment";
+		dataSource.type = "File";
+		dataSource.format = "Excel";
+		dataSource.header_row = 1;
+		dataSource.sheet_number = 1;
+		var dataSourceID = dataSource.insert();
+
+		// Copy the attachment to the data source
+		GlideSysAttachment.copy('x_cria_livestock_t_import_cvi', current.sys_id, "sys_data_source", dataSourceID);
+
+		// Process datasource file to import set table
+		var importSetRecID = new global.FileImportUtils().processFile(dataSource);
+
+		// Update processed rows with parent value
+		var importSetRow = new GlideRecord(importSetTableName);
+		importSetRow.addQuery("sys_import_set", importSetRecID);
+		importSetRow.query();
+		while (importSetRow.next()) {
+			importSetRow.u_parent = current.sys_id;
+			importSetRow.update();
+		}
+
+		// Transform the import set records
+		new global.FileImportUtils().transformImportSet(importSetRecID, transformMapIDs);
+		
+		//current.update();
+	}
+	else{
+		gs.info("Has kids" + "");
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-25 14:06:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ae7cf49db7bc010447b4b8b0b96197f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Import animals from attachments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_0ae7cf49db7bc010447b4b8b0b96197f</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-04-03 04:59:45</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=0ae7cf49db7bc010447b4b8b0b96197f"/>
+</record_update>

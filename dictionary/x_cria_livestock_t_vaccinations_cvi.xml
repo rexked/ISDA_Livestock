@@ -1,101 +1,220 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="x_cria_livestock_t_vaccination_record" label="CVI / Health Certificate" max_length="40" name="x_cria_livestock_t_vaccinations_cvi" text_index="true" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_cria_livestock_t_vaccination_record" label="Export CVI" max_length="40" name="x_cria_livestock_t_vaccinations_cvi" sizeclass="13778" text_index="true" type="collection">
         <element label="Accession #" max_length="32" name="accession_num" type="string"/>
-        <element label="All Animals have tested negative for TB" max_length="40" name="all_animals_neg" type="boolean"/>
-        <element label="All Eligible bulls in this shipment tested negative" max_length="40" name="all_eligible_bulls_neg" type="boolean"/>
-        <element label="Brand Inspection Number" max_length="32" name="brand_inspection_number" type="string"/>
-        <element label="Brucellosis Free" max_length="40" name="brucellosis_free" type="boolean"/>
+        <element label="Brand Inspection Number" max_length="500" name="brand_inspection_number" type="string"/>
         <element label="Brucellosis Laboratory" max_length="100" name="brucellosis_lab" type="string"/>
         <element label="Carrier Name" max_length="255" name="carrier_name_and_address" type="string"/>
-        <element label="Cattle" max_length="40" name="cattle" type="boolean"/>
-        <element label="Conisgnee Street" max_length="255" name="conisgnee_street" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cattle" max_length="40" name="cattle" type="boolean"/>
+        <element label="Consignee Street" max_length="255" name="conisgnee_street" type="string"/>
         <element label="Consignee" max_length="256" name="consignee" type="string"/>
         <element label="Consignee City" max_length="255" name="consignee_city" type="string"/>
         <element label="Consignee Name" max_length="100" name="consignee_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Consignee Name" max_length="32" name="consignee_name_ref" reference="x_cria_livestock_t_frequent_destinations" type="reference"/>
         <element label="Consignee Phone" max_length="40" name="consignee_phone" type="string"/>
-        <element label="Consignee State" max_length="32" name="consignee_state" reference="u_states" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Consignee State" max_length="32" name="consignee_state" reference="u_states" type="reference"/>
         <element label="Consignee Zip" max_length="10" name="consignee_zip" type="string"/>
         <element label="Consignor" max_length="256" name="consigner" type="string"/>
         <element label="Consignor City" max_length="255" name="consignor_city" type="string"/>
         <element label="Consignor Name" max_length="100" name="consignor_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Consignor Name" max_length="32" name="consignor_name_ref" reference="x_cria_livestock_t_frequent_destinations" type="reference"/>
         <element label="Consignor Phone" max_length="40" name="consignor_phone" type="string"/>
-        <element label="Consignor State" max_length="32" name="consignor_state" reference="u_states" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="5674f34bdbcddb00c64e5eea4b961941" label="Consignor State" max_length="32" name="consignor_state" reference="u_states" type="reference"/>
         <element label="Consignor Street" max_length="255" name="consignor_street" type="string"/>
         <element label="Consignor Zip" max_length="10" name="consignor_zip" type="string"/>
-        <element label="Brucellosis" max_length="40" name="cvi_brucellosis" type="boolean"/>
-        <element label="Equine Infectious Anemia" max_length="40" name="cvi_equine_infectious_anemia" type="boolean"/>
-        <element label="Other" max_length="40" name="cvi_other" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="255" name="cvi_remarks" type="string"/>
-        <element label="Trichomonisis" max_length="40" name="cvi_trichomonisis" type="boolean"/>
-        <element label="Tuberculosis" max_length="40" name="cvi_tuberculosis" type="boolean"/>
-        <element label="Date Bled" max_length="40" name="date_bled" type="glide_date"/>
-        <element label="Date of Negative Coggins Test" max_length="40" name="date_of_coggins" type="glide_date"/>
-        <element label="Date Sample Collected" max_length="40" name="date_sample_collected" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Remarks" max_length="2500" name="cvi_remarks" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Bled" max_length="40" name="date_bled" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Negative Coggins Test" max_length="40" name="date_of_coggins" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Sample Collected" max_length="40" name="date_sample_collected" type="glide_date"/>
         <element label="Accession #" max_length="32" name="eia_accession" type="string"/>
         <element label="Laboratory" max_length="100" name="eia_laboratory" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Emailed" max_length="40" name="emailed" type="boolean"/>
         <element label="Entry Permit Number" max_length="32" name="entry_permit_number" type="string"/>
-        <element label="Goat" max_length="40" name="goat" type="boolean"/>
+        <element default="I certify, as an accredited veterinarian, that the above-described animals have been inspected by me and that they are not showing signs of infectious, contagious, and/or communicable disease (except where noted). The vaccinations and results of tests are as indicated on this certificate. To the best of my knowledge, the animals listed on this certificate meet the state of destination and federal interstate requirements. No further warranty is made or implied." label="E-Signature  Acknowledgement" max_length="1000" name="esig_acknowledgement" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Goat" max_length="40" name="goat" type="boolean"/>
         <element label="Health Certificate Number" max_length="32" name="health_certificate_number" type="string"/>
-        <element label="Horses" max_length="40" name="horses" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Horses" max_length="40" name="horses" type="boolean"/>
         <element label="Description of Markings" max_length="255" name="identifying_marks" type="string"/>
-        <element label="Inspection Date" max_length="40" name="inspection_date" type="glide_date"/>
-        <element choice="1" label="Laboratory" max_length="40" name="laboratory" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Inspection Date" max_length="40" name="inspection_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Laboratory" max_length="40" name="laboratory" type="choice">
             <choice>
-                <element label="ISDA Animal Health Lab" sequence="10" value="isda_animal_lab"/>
-                <element label="Washington Animal Disease Diagnostic Lab" sequence="20" value="wa_ani_dis_diag_lab"/>
-                <element label="Utah Veterinary Diagnostic Lab" sequence="30" value="ut_vet_diag_lab"/>
-                <element label="Montana Veterinary Diagnostic Lab" sequence="40" value="montana_vet_diag_lab"/>
-                <element label="Wyoming State Veterinary Laboratory" sequence="50" value="wy_state_vet_lab"/>
-                <element label="Other" sequence="60" value="other"/>
+                <element inactive_on_update="false" label="ISDA Animal Health Lab" sequence="10" value="isda_animal_lab"/>
+                <element inactive_on_update="false" label="Washington Animal Disease Diagnostic Lab" sequence="20" value="wa_ani_dis_diag_lab"/>
+                <element inactive_on_update="false" label="Utah Veterinary Diagnostic Lab" sequence="30" value="ut_vet_diag_lab"/>
+                <element inactive_on_update="false" label="Montana Veterinary Diagnostic Lab" sequence="40" value="montana_vet_diag_lab"/>
+                <element inactive_on_update="false" label="Wyoming State Veterinary Laboratory" sequence="50" value="wy_state_vet_lab"/>
+                <element inactive_on_update="false" label="Other" sequence="60" value="other"/>
             </choice>
         </element>
         <element label="Market" max_length="32" name="market" type="string"/>
         <element label="Number of Animals Shipped" max_length="32" name="number_animals_shipped" type="string"/>
         <element label="Number of Brucellosis negative Cattle" max_length="32" name="number_of_brucellosis_negative_cattle" type="string"/>
         <element label="Number of Test Eligible Cattle" max_length="32" name="number_of_test_eligible_cattle" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="# of Beef Cattle" max_length="40" name="num_beef_cattle" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="# of Dairy Cattle" max_length="40" name="num_dairy_cattle" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="# of Goats" max_length="4" name="num_goats" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="# of Horses" max_length="4" name="num_horses" type="integer"/>
         <element label="Number of Bulls" max_length="100" name="num_of_bulls" type="string"/>
         <element label="Number of Calves" max_length="100" name="num_of_calves" type="string"/>
         <element label="Number of Cows" max_length="100" name="num_of_cows" type="string"/>
         <element label="Number of Heifers" max_length="100" name="num_of_heifers" type="string"/>
         <element label="Number of Steers" max_length="100" name="num_of_steers" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="# of Other" max_length="4" name="num_other" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="# of Poultry" max_length="4" name="num_poultry" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="# of Sheep" max_length="4" name="num_sheep" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="# of Swine" max_length="4" name="num_swine" type="integer"/>
         <element label="Official IDs" max_length="10000" name="official_ids" type="string"/>
-        <element label="Origin County" max_length="32" name="origin_county" reference="u_counties" type="reference"/>
-        <element label="Other" max_length="40" name="other" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Origin County" max_length="32" name="origin_county" reference="u_counties" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Origin State" max_length="40" name="origin_state" reference="u_states" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="boolean"/>
         <element label="Lab" max_length="100" name="other_lab" type="string"/>
         <element label="Results" max_length="32" name="other_results" type="string"/>
         <element label="Test" max_length="100" name="other_test" type="string"/>
-        <element label="Poultry" max_length="40" name="poultry" type="boolean"/>
-        <element label="Sheep" max_length="40" name="sheep" type="boolean"/>
-        <element label="Shipment Date" max_length="40" name="shipment_date" type="glide_date"/>
-        <element label="Date" max_length="40" name="signature_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Poultry" max_length="40" name="poultry" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Sheep" max_length="40" name="sheep" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Shipment Date" max_length="40" name="shipment_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="signature_date" type="glide_date"/>
         <element label="Other" max_length="32" name="species_other" type="string"/>
-        <element label="Swine" max_length="40" name="swine" type="boolean"/>
-        <element label="TB Free" max_length="40" name="tb_free" type="boolean"/>
-        <element label="Culture" max_length="40" name="trich_culture" type="boolean"/>
-        <element label="Individual PCR" max_length="40" name="trich_individual_pcr" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Swine" max_length="40" name="swine" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Test CVI" max_length="40" name="test_cvi" type="boolean"/>
         <element label="Laboratory" max_length="32" name="trich_laboratory" type="string"/>
-        <element label="Pooled PCR" max_length="40" name="trich_pooled_pcr" type="boolean"/>
-        <element label="Date Test was Read" max_length="40" name="tub_date" type="glide_date"/>
-        <element label="Veterinarian" max_length="32" name="u_veterinarian" reference="sys_user" type="reference"/>
-        <element choice="1" label="Vaccination Status" max_length="40" name="vaccination_status" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Date Test was Read" max_length="40" name="tub_date" type="glide_date"/>
+        <element choice="3" default="No" label="All Animals have tested negative for TB" max_length="40" name="u_all_animals_neg" type="string">
             <choice>
-                <element label="All officially vaccinated with legible tattoos" value="all_vacc_legible_tattoos"/>
-                <element label="Mixed Vaccination Status" value="mixed_vacc_status"/>
-                <element label="Not vaccinated" value="not_vaccinated"/>
-                <element label="Unknown Vaccination Status" value="unknown_vacc_status"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="All Eligible bulls in this shipment tested negative" max_length="40" name="u_all_eligible_bulls_neg" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="Brucellosis Free" max_length="40" name="u_brucellosis_free" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="10" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="20" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="Brucellosis" max_length="40" name="u_cvi_brucellosis" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="Equine Infectious Anemia" max_length="40" name="u_cvi_equine_infectious_anemia" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="Other" max_length="40" name="u_cvi_other" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Signed CVI has been Received" max_length="40" name="u_cvi_received" type="boolean"/>
+        <element choice="3" default="No" label="Trichomonisis" max_length="40" name="u_cvi_trichomonisis" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="Tuberculosis" max_length="40" name="u_cvi_tuberculosis" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element label="Destination Zip" max_length="10" name="u_destination_zip" type="string"/>
+        <element label="Destination Mailing Address" max_length="100" name="u_dest_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mailing address different from Consignee" max_length="40" name="u_dest_address_different" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Destination State" max_length="32" name="u_dest_state" reference="u_states" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Draft" max_length="40" name="u_draft" type="boolean"/>
+        <element choice="1" label="DSA Herd" max_length="40" name="u_dsa_herd" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="0" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="1" label="Movement Purpose" max_length="40" name="u_movement_purpose" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Feeding to slaughter" sequence="1" value="Feeding to slaughter"/>
+                <element inactive_on_update="false" label="Exhibition/Show/Rodeo" sequence="2" value="Exhibition/Show/Rodeo"/>
+                <element inactive_on_update="false" label="Sale" sequence="3" value="Sale"/>
+                <element inactive_on_update="false" label="Grazing" sequence="4" value="Grazing"/>
+                <element inactive_on_update="false" label="Personal Travel/Transit" sequence="5" value="Personal Travel/Transit"/>
+                <element inactive_on_update="false" label="Breeding" sequence="6" value="Breeding"/>
+                <element inactive_on_update="false" label="Owner relocating" sequence="80" value="Owner relocating"/>
+                <element inactive_on_update="false" label="Slaughter" sequence="90" value="Slaughter"/>
+            </choice>
+        </element>
+        <element label="Origin Mailing Address" max_length="100" name="u_origin_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mailing address different from Consignor" max_length="40" name="u_origin_address_different" type="boolean"/>
+        <element label="Origin Zip" max_length="10" name="u_origin_zip" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State License #" max_length="40" name="u_st_lic_num" type="string"/>
+        <element choice="3" default="No" label="TB Free" max_length="40" name="u_tb_free" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="1" default="No" label="Culture" max_length="40" name="u_trich_culture" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="3" default="No" label="Individual PCR" max_length="40" name="u_trich_individual_pcr" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element choice="1" default="No" label="Pooled PCR" max_length="40" name="u_trich_pooled_pcr" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element label="Digital Signature" max_length="32" name="u_veterinarian" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="USDA Accreditation #" max_length="40" name="u_vet_cred_num" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vet opted to manually sign" max_length="40" name="u_vet_opt_out" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Veterinarian" max_length="40" name="u_vet_ref" reference="sys_user" reference_qual="x_cria_livestock_t_veterinarian=true^EQ" reference_qual_condition="x_cria_livestock_t_veterinarian=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Vaccination Status" max_length="40" name="vaccination_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="All officially vaccinated with legible tattoos" value="all_vacc_legible_tattoos"/>
+                <element inactive_on_update="false" label="Mixed Vaccination Status" value="mixed_vacc_status"/>
+                <element inactive_on_update="false" label="Not vaccinated" value="not_vaccinated"/>
+                <element inactive_on_update="false" label="Unknown Vaccination Status" value="unknown_vacc_status"/>
             </choice>
         </element>
         <index name="index">
             <element name="consignee_state"/>
         </index>
         <index name="index2">
-            <element name="consignor_state"/>
+            <element name="u_vet_ref"/>
         </index>
         <index name="index3">
-            <element name="origin_county"/>
+            <element name="consignor_state"/>
         </index>
         <index name="index4">
+            <element name="consignor_name_ref"/>
+        </index>
+        <index name="index5">
+            <element name="origin_state"/>
+        </index>
+        <index name="index6">
+            <element name="origin_county"/>
+        </index>
+        <index name="index7">
+            <element name="consignee_name_ref"/>
+        </index>
+        <index name="index8">
+            <element name="u_dest_state"/>
+        </index>
+        <index name="index9">
             <element name="u_veterinarian"/>
         </index>
     </element>

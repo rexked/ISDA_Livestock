@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="57615f4cdb33e300c64e5eea4b9619be" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cria_livestock_t_batchfill_cvi</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_cria_livestock_t_batchfill_cvi">parentVALCHANGES^sys_class_name=x_cria_livestock_t_batchfill_import_cvi^sys_created_byLIKEID-CVI^EQ<item endquery="false" field="parent" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_cria_livestock_t_batchfill_import_cvi"/>
+            <item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="LIKE" or="false" value="ID-CVI"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update Animal Count on Import CVI</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var par = current.parent;
+	var n_beef = 0;
+	var n_dairy = 0;
+	var n_goats = 0;
+	var n_horses = 0;
+	var n_sheep = 0;
+	var n_swine = 0;
+	var n_poultry = 0;
+	var n_other = 0;
+	var n_tot = 0;
+
+	var gr = new GlideRecord('x_cria_livestock_t_batchfill_import_cvi');
+	gr.addQuery('parent', par);
+	gr.query();
+	while(gr.next()){
+		var qt = 0;
+		var specstring = gr.species.toString();
+		var spec = specstring.toUpperCase();
+		//gs.info('Animal Found, n_tot is: ' + n_tot);
+		if(gr.u_gl_quantity != '' && gr.u_gl_quantity > 0){
+			//gs.info('Quant is: ' + gr.u_gl_quantity);
+			qt =  gr.u_gl_quantity;
+
+			if(spec == 'BEF' || spec == 'BEEF'){
+				n_beef = n_beef + qt;
+				n_tot = n_tot + qt;
+			}
+			else if(spec == 'DAI' || spec == 'DAIRY'){
+				n_dairy = n_dairy + qt;
+				n_tot = n_tot + qt;
+			}
+			else if(spec == 'CAP' || spec == 'CAPRINE' || spec == 'GOAT'){
+				n_goats = n_goats + qt;
+				n_tot = n_tot + qt;
+			}
+			else if(spec == 'EQU' || spec == 'EQUINE' || spec == 'HORSE'){
+				n_horses = n_horses + qt;
+				n_tot = n_tot + qt;
+			}
+			else if(spec == 'OVI' || spec == 'OVINE' || spec == 'SHEEP'){
+				n_sheep = n_sheep + qt;
+				n_tot = n_tot + qt;
+			}
+			else if(spec == 'POR' || spec == 'PORCINE' || spec == 'PIG' || spec == 'SWINE'){
+				n_swine = n_swine + qt;
+				n_tot = n_tot + qt;
+			}
+			else if(spec == 'CHI' || spec == 'CHICKEN' || spec == 'HEN' || spec == 'TUR' || spec == 'TURKEY'){
+				n_poultry = n_poultry + qt;
+				n_tot = n_tot + qt;
+			}
+			else{
+				n_other = n_other + qt;
+				n_tot = n_tot + qt;
+			}
+		}
+		else{
+
+			if(spec == 'BEF' || spec == 'BEEF'){
+				n_beef++;
+				n_tot++;
+			}
+			else if(spec == 'DAI' || spec == 'DAIRY'){
+				n_dairy++;
+				n_tot++;
+			}
+			else if(spec == 'CAP' || spec == 'CAPRINE' || spec == 'GOAT'){
+				n_goats++;
+				n_tot++;
+			}
+			else if(spec == 'EQU' || spec == 'EQUINE' || spec == 'HORSE'){
+				n_horses++;
+				n_tot++;
+			}
+			else if(spec == 'OVI' || spec == 'OVINE' || spec == 'SHEEP'){
+				n_sheep++;
+				n_tot++;
+			}
+			else if(spec == 'POR' || spec == 'PORCINE' || spec == 'PIG' || spec == 'SWINE'){
+				n_swine++;
+				n_tot++;
+			}
+			else if(spec == 'CHI' || spec == 'CHICKEN' || spec == 'HEN' || spec == 'TUR' || spec == 'TURKEY'){
+				n_poultry++;
+				n_tot++;
+			}
+			else{
+				n_other++;
+				n_tot++;
+			}
+		}
+	}
+	var gz = new GlideRecord('x_cria_livestock_t_import_cvi');
+	gz.addQuery('sys_id', par);
+	gz.query();
+	if(gz.next()){
+		gz.num_beef_cattle = n_beef;
+		gz.num_dairy_cattle = n_dairy;
+		gz.num_goats = n_goats;	
+		gz.num_sheep = n_sheep;
+		gz.num_horses = n_horses;
+		gz.num_swine = n_swine;
+		gz.num_poultry = n_poultry;
+		gz.num_other = n_other;
+		gz.number_animals_shipped = n_tot.toString();
+		gz.update();
+
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-05-31 21:56:26</sys_created_on>
+        <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+        <sys_domain_path/>
+        <sys_id>ff410581db7133409b2689584b96197f</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Update Animal Count on Import CVI</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_ff410581db7133409b2689584b96197f</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-11-21 19:25:22</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff410581db7133409b2689584b96197f"/>
+</record_update>

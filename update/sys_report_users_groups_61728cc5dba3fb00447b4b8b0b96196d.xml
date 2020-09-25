@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="2019 Trich Testing Season">8c6310bedb17b700447b4b8b0b96197d</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-08-26 17:11:44</sys_created_on>
+        <sys_id>61728cc5dba3fb00447b4b8b0b96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8c6310bedb17b700447b4b8b0b96197d</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_report_users_groups_61728cc5dba3fb00447b4b8b0b96196d</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-08-26 17:11:44</sys_updated_on>
+        <user_id display_value="Lawrence, Debra">04a7ea46db789300c64e5eea4b9619fe</user_id>
+    </sys_report_users_groups>
+</record_update>

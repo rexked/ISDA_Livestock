@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-09-24 17:03:14">
+    <sys_portal_page action="DELETE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-05 15:44:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1aafd8f2dbdb8810447b4b8b0b96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA ISDA Project Stories - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_portal_page_1aafd8f2dbdb8810447b4b8b0b96193b</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-05 15:44:08</sys_updated_on>
+        <title>PA ISDA Project Stories - New Tab</title>
+        <user/>
+        <view>pa_isda_project_stories_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA ISDA Project Stories - New Tab">1aafd8f2dbdb8810447b4b8b0b96193b</page>
+                <summary>Sprint Burndown</summary>
+                <sys_created_by>tsears</sys_created_by>
+                <sys_created_on>2020-03-05 15:44:53</sys_created_on>
+                <sys_id>e5df10b6dbdb8810447b4b8b0b9619e1</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>tsears</sys_updated_by>
+                <sys_updated_on>2020-03-05 15:44:54</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 03/05/2020 08:44:53 AM">e5df10b6dbdb8810447b4b8b0b9619e1</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-05 15:44:54</sys_created_on>
+                        <sys_id>21df10b6dbdb8810447b4b8b0b9619e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-05 15:44:54</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderJavascript</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 03/05/2020 08:44:53 AM">e5df10b6dbdb8810447b4b8b0b9619e1</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-05 15:44:54</sys_created_on>
+                        <sys_id>6ddf10b6dbdb8810447b4b8b0b9619e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-05 15:44:54</sys_updated_on>
+                        <value>Sprint Burndown</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>name</name>
+                        <portal_section display_value="Created 03/05/2020 08:44:53 AM">e5df10b6dbdb8810447b4b8b0b9619e1</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-05 15:44:54</sys_created_on>
+                        <sys_id>a9df10b6dbdb8810447b4b8b0b9619e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-05 15:44:54</sys_updated_on>
+                        <value>sdlc_sprint_burndown_frame</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer_id</name>
+                        <portal_section display_value="Created 03/05/2020 08:44:53 AM">e5df10b6dbdb8810447b4b8b0b9619e1</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-05 15:44:54</sys_created_on>
+                        <sys_id>e5df10b6dbdb8810447b4b8b0b9619e2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-05 15:44:54</sys_updated_on>
+                        <value>21e116309f332100598a5bb0657fcf81</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_portal_page_1aafd8f2dbdb8810447b4b8b0b96193b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-09-24 17:03:14"><sys_portal_page action="INSERT_OR_UPDATE"><layout/><order/><read_roles/><roles/><selectable>false</selectable><sys_class_name>sys_portal_page</sys_class_name><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-05 15:44:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1aafd8f2dbdb8810447b4b8b0b96193b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PA ISDA Project Stories - New Tab</sys_name><sys_overrides/><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_portal_page_1aafd8f2dbdb8810447b4b8b0b96193b</sys_update_name><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-05 15:44:08</sys_updated_on><title>PA ISDA Project Stories - New Tab</title><user/><view>pa_isda_project_stories_-_new_tab</view><related_items_node><sys_portal action="INSERT_OR_UPDATE"><dropzone/><offset/><page display_value="PA ISDA Project Stories - New Tab">1aafd8f2dbdb8810447b4b8b0b96193b</page><summary>Sprint Burndown</summary><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-05 15:44:53</sys_created_on><sys_id>e5df10b6dbdb8810447b4b8b0b9619e1</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-05 15:44:54</sys_updated_on><related_items_node><sys_portal_preferences action="INSERT_OR_UPDATE"><name>renderer</name><portal_section display_value="Created 03/05/2020 08:44:53 AM">e5df10b6dbdb8810447b4b8b0b9619e1</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-05 15:44:54</sys_created_on><sys_id>21df10b6dbdb8810447b4b8b0b9619e2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-05 15:44:54</sys_updated_on><value>com.glide.ui.portal.RenderJavascript</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>title</name><portal_section display_value="Created 03/05/2020 08:44:53 AM">e5df10b6dbdb8810447b4b8b0b9619e1</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-05 15:44:54</sys_created_on><sys_id>6ddf10b6dbdb8810447b4b8b0b9619e2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-05 15:44:54</sys_updated_on><value>Sprint Burndown</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>name</name><portal_section display_value="Created 03/05/2020 08:44:53 AM">e5df10b6dbdb8810447b4b8b0b9619e1</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-05 15:44:54</sys_created_on><sys_id>a9df10b6dbdb8810447b4b8b0b9619e2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-05 15:44:54</sys_updated_on><value>sdlc_sprint_burndown_frame</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>renderer_id</name><portal_section display_value="Created 03/05/2020 08:44:53 AM">e5df10b6dbdb8810447b4b8b0b9619e1</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-05 15:44:54</sys_created_on><sys_id>e5df10b6dbdb8810447b4b8b0b9619e2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-05 15:44:54</sys_updated_on><value>21e116309f332100598a5bb0657fcf81</value></sys_portal_preferences></related_items_node></sys_portal></related_items_node></sys_portal_page></record_update>]]></payload>
+        <payload_hash>-1219248537</payload_hash>
+        <record_name>PA ISDA Project Stories - New Tab</record_name>
+        <reverted_from/>
+        <source>08a40512db131010eb4e18df4b96190d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2020-09-19 01:19:50</sys_created_on>
+        <sys_id>448c4eccdb6f1410eb4e18df4b961908</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>174a3f226f00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Portal Page</type>
+        <update_guid>048c4ecce66f14108d0df36d2d2e6508</update_guid>
+        <update_guid_history>048c4ecce66f14108d0df36d2d2e6508:-1219248537</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-09-24 17:03:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_portal_page">sys_portal_page</sys_db_object>
+        <sys_id>04ba918301d34de892b42ac44723f040</sys_id>
+        <sys_metadata>1aafd8f2dbdb8810447b4b8b0b96193b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA ISDA Project Stories - New Tab</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_portal_page_1aafd8f2dbdb8810447b4b8b0b96193b</sys_update_name>
+        <sys_update_version display_value="sys_portal_page_1aafd8f2dbdb8810447b4b8b0b96193b">448c4eccdb6f1410eb4e18df4b961908</sys_update_version>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:03:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

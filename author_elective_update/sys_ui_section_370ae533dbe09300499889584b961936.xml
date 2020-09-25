@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Livestock" section_id="370ae533dbe09300499889584b961936" sys_domain="global" table="sys_user" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_cria_livestock_t_veterinarian</element>
+            <position>0</position>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-06 18:23:14</sys_created_on>
+            <sys_id>2b7b2573dbe09300499889584b9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Livestock" display_value="Livestock" name="sys_user" sys_domain="global" view="Default view">370ae533dbe09300499889584b961936</sys_ui_section>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-03-06 18:23:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_cria_livestock_t_herd_owner</element>
+            <position>1</position>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-06 18:23:14</sys_created_on>
+            <sys_id>237b2573dbe09300499889584b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Livestock" display_value="Livestock" name="sys_user" sys_domain="global" view="Default view">370ae533dbe09300499889584b961936</sys_ui_section>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-03-06 18:23:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_cria_livestock_t_herd_manager</element>
+            <position>2</position>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-06 18:23:14</sys_created_on>
+            <sys_id>a37b2573dbe09300499889584b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Livestock" display_value="Livestock" name="sys_user" sys_domain="global" view="Default view">370ae533dbe09300499889584b961936</sys_ui_section>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-03-06 18:23:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Livestock</caption>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-06 18:16:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>370ae533dbe09300499889584b961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Livestock</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_370ae533dbe09300499889584b961936</sys_update_name>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-03-06 18:16:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_ui_section_370ae533dbe09300499889584b961936</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Livestock" section_id="370ae533dbe09300499889584b961936" sys_domain="global" table="sys_user" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_cria_livestock_t_veterinarian</element>
+            <position>0</position>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-06 18:23:14</sys_created_on>
+            <sys_id>2b7b2573dbe09300499889584b9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Livestock" display_value="Livestock" name="sys_user" sys_domain="global" view="Default view">370ae533dbe09300499889584b961936</sys_ui_section>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-03-06 18:23:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_cria_livestock_t_herd_owner</element>
+            <position>1</position>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-06 18:23:14</sys_created_on>
+            <sys_id>237b2573dbe09300499889584b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Livestock" display_value="Livestock" name="sys_user" sys_domain="global" view="Default view">370ae533dbe09300499889584b961936</sys_ui_section>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-03-06 18:23:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_cria_livestock_t_herd_manager</element>
+            <position>2</position>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-06 18:23:14</sys_created_on>
+            <sys_id>a37b2573dbe09300499889584b9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Livestock" display_value="Livestock" name="sys_user" sys_domain="global" view="Default view">370ae533dbe09300499889584b961936</sys_ui_section>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-03-06 18:23:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Livestock</caption>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-03-06 18:16:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>370ae533dbe09300499889584b961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Livestock</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_370ae533dbe09300499889584b961936</sys_update_name>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-03-06 18:16:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>1986694347</payload_hash>
+        <record_name>User</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:55:01</sys_created_on>
+        <sys_id>3c1e95d6db7a570066015d104b96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1642457f4540000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:55:01</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>781e95d6d57a5700f0d8317155c00b0f</update_guid>
+        <update_guid_history>781e95d6d57a5700f0d8317155c00b0f:0,70eb9d12447a57008e6cfbf463e83f4d:-1855369787,6f7b25735de09300d3f62d51278df0c8:1213816713</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-09-04 18:29:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0a2bf7bdf94947e38339b1bcf4890d61</sys_id>
+        <sys_metadata>370ae533dbe09300499889584b961936</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Livestock</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent display_value="Sys User">b1c28a22db201300fc805eea4b96199e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_ui_section_370ae533dbe09300499889584b961936</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_370ae533dbe09300499889584b961936">3c1e95d6db7a570066015d104b96190f</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-09-04 18:29:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

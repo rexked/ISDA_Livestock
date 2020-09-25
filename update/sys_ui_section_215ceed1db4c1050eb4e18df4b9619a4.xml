@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="215ceed1db4c1050eb4e18df4b9619a4" sys_domain="global" table="x_cria_livestock_t_isda_loc_import" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a55caa15db4c1050eb4e18df4b961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_active_inactive</element>
+            <position>1</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>2d5caa15db4c1050eb4e18df4b961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_address1</element>
+            <position>2</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a15caa15db4c1050eb4e18df4b961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_address2</element>
+            <position>3</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>295caa15db4c1050eb4e18df4b961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cell</element>
+            <position>4</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>ad5caa15db4c1050eb4e18df4b961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_city</element>
+            <position>5</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>255caa15db4c1050eb4e18df4b96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_city__w_</element>
+            <position>6</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a95caa15db4c1050eb4e18df4b96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_county</element>
+            <position>7</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>215caa15db4c1050eb4e18df4b96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_county__x_</element>
+            <position>8</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a55caa15db4c1050eb4e18df4b96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email</element>
+            <position>9</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>2d5caa15db4c1050eb4e18df4b96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fax</element>
+            <position>10</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a15caa15db4c1050eb4e18df4b96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_first_name</element>
+            <position>11</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>295caa15db4c1050eb4e18df4b96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_last_name</element>
+            <position>12</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>ad5caa15db4c1050eb4e18df4b96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_lat</element>
+            <position>13</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>255caa15db4c1050eb4e18df4b96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_lng</element>
+            <position>14</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a95caa15db4c1050eb4e18df4b96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location_address</element>
+            <position>15</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>215caa15db4c1050eb4e18df4b96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_owner_address</element>
+            <position>16</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a55caa15db4c1050eb4e18df4b96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>2d5caa15db4c1050eb4e18df4b96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_owner_cell</element>
+            <position>18</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a15caa15db4c1050eb4e18df4b96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_owner_email</element>
+            <position>19</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>295caa15db4c1050eb4e18df4b96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_owner_fax</element>
+            <position>20</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>ad5caa15db4c1050eb4e18df4b96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_owner_name</element>
+            <position>21</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>255caa15db4c1050eb4e18df4b9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_owner_phone</element>
+            <position>22</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a95caa15db4c1050eb4e18df4b9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phone</element>
+            <position>23</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>215caa15db4c1050eb4e18df4b9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_premises_address1</element>
+            <position>24</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a55caa15db4c1050eb4e18df4b9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_premises_address2</element>
+            <position>25</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>2d5caa15db4c1050eb4e18df4b9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_premises_id</element>
+            <position>26</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a15caa15db4c1050eb4e18df4b9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_premises_name</element>
+            <position>27</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>295caa15db4c1050eb4e18df4b9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>28</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>ad5caa15db4c1050eb4e18df4b9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state__y_</element>
+            <position>29</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>255caa15db4c1050eb4e18df4b9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_zip</element>
+            <position>30</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a95caa15db4c1050eb4e18df4b9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_zip__z_</element>
+            <position>31</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>215caa15db4c1050eb4e18df4b9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_livestock</element>
+            <position>32</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>a55caa15db4c1050eb4e18df4b9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>33</position>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_id>2d5caa15db4c1050eb4e18df4b9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_isda_loc_import" sys_domain="global" view="Default view">215ceed1db4c1050eb4e18df4b9619a4</sys_ui_section>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_cria_livestock_t_isda_loc_import</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jolaniyan@criadvantage.com</sys_created_by>
+            <sys_created_on>2020-04-07 16:54:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>215ceed1db4c1050eb4e18df4b9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cria_livestock_t_isda_loc_import</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_215ceed1db4c1050eb4e18df4b9619a4</sys_update_name>
+            <sys_updated_by>jolaniyan@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2020-04-07 16:54:58</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

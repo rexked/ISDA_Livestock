@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_app_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="Livestock Tracking">731aa826dba09700df68f2b6ae961960</application>
@@ -26,17 +25,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>669ece6cdb1a1f809b2689584b9619f4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Animal Records</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Test/Vac/CVI/Tag/Release Forms</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_app_module_669ece6cdb1a1f809b2689584b9619f4</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-22 21:04:56</sys_updated_on>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-04-13 13:19:21</sys_updated_on>
         <timeline_page/>
-        <title>Animal Records</title>
+        <title>Test/Vac/CVI/Tag/Release Forms</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

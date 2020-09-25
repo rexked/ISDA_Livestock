@@ -1,26 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="catalog_ui_policy_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="Certificate of Veterinary Inspection">44fe96cedb389300c64e5eea4b9619e6</catalog_item>
+        <catalog_item display_value="Certificate of Veterinary Inspection - OLD">44fe96cedb389300c64e5eea4b9619e6</catalog_item>
         <catalog_variable>IO:d137d978db7013009b2689584b9619c0</catalog_variable>
+        <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
         <mandatory>ignore</mandatory>
+        <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>dyoung</sys_created_by>
         <sys_created_on>2018-04-04 00:13:38</sys_created_on>
         <sys_id>ca288370db91df00c64e5eea4b96192e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Brucellosis Testing</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>brucellosis_testing</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>catalog_ui_policy_action_ca288370db91df00c64e5eea4b96192e</sys_update_name>
-        <sys_updated_by>cervin@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-05-21 20:49:12</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-19 02:34:50</sys_updated_on>
         <table/>
         <ui_policy display_value="Show/Hide Brucelosis Section">ee08cf30db91df00c64e5eea4b96199c</ui_policy>
-        <variable>Brucellosis Testing</variable>
+        <variable>brucellosis_testing</variable>
         <variable_set/>
         <visible>true</visible>
     </catalog_ui_policy_action>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Brucellosis Market Cattle Testing activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_cria_livestock_t_vaccinations_market_cattle_activity.fields</name>
+        <read_roles/>
+        <suffix>x_cria_livestock_t</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-04-07 16:20:56</sys_created_on>
+        <sys_id>0f8462d5db80dc10447b4b8b0b961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_cria_livestock_t_vaccinations_market_cattle_activity.fields</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_properties_0f8462d5db80dc10447b4b8b0b961955</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-04-07 16:20:56</sys_updated_on>
+        <type>string</type>
+        <value>record_id,u_livestock_market,u_veterinarian,sys_created_on,dsa_herd,negative,positive,reactor,suspect,accession,animal_info,mrkt_ownercity,sys_class_name,sys_created_by,u_date,u_date_signed,date_of_vaccination,dosage,draft,u_email,herd_owner,herd_type,lab_result_table,u_lab_tech_signature,u_laboratory,number,official_ids,mrkt_ownername,parent_ritm,u_phone_number,premise_id_number,serial_number_expiration_date,u_signature,slaughter_estab_num,mrkt_ownerstate,mrkt_ownerstreet,sys_tags,u_testing_lab,total_tested,sys_updated_on,sys_updated_by,sys_mod_count,vaccination_tattoo,vaccine_mfg_and_strain,widget_records,mrkt_ownerzip,*Email*,*Relations*,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=0f8462d5db80dc10447b4b8b0b961955"/>
+</record_update>

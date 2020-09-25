@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sys_attachment</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sys_attachment">table_name=x_cria_livestock_t_import_cvi^content_type=text/xml^ORcontent_type=application/xml^EQ<item endquery="false" field="table_name" goto="false" newquery="false" operator="=" or="false" value="x_cria_livestock_t_import_cvi"/>
+            <item endquery="false" field="content_type" goto="false" newquery="false" operator="=" or="false" value="text/xml"/>
+            <item endquery="false" field="content_type" goto="false" newquery="false" operator="=" or="true" value="application/xml"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Import CVI XML</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var xmltemp = new GlideSysAttachment();
+	var xmldata = xmltemp.getBytes(current);
+	var xmlstring = String(Packages.java.lang.String(xmldata));
+	var animGroup = [];
+	var anim = {"age": {}, "breed": {}, "sex": {}, "inspection": {}, "species": {}, "id": {}, "test": []};
+	var animTestDet = {"TestCode": {}, "Name": {}, "Result": {}, "Date": {}, "Lab": {}, "AccNum": {}};
+	var accGroup = [];
+	var acc = {"id": {}, "date": {}, "num": {}, "lab": {}};
+	var acctemp;
+	var gr = new GlideRecord('x_cria_livestock_t_import_cvi');
+	gr.addQuery('sys_id', current.table_sys_id);
+	gr.query();
+	if(gr.next()){
+		var cvihelper = new global.XMLHelper(xmlstring.toString());
+		var cvidata = cvihelper.toObject();
+
+		// General eCVI information
+		gr.record_id = cvidata['@CviNumber'].toString();
+		gr.shipment_date = cvidata['@ShipmentDate'].toString();
+		gr.entry_permit_number = cvidata['@EntryPermitNumber'].toString();
+		if(cvidata.MovementPurposes.MovementPurpose.length !== undefined){
+			gr.move_purpose = cvidata.MovementPurposes.MovementPurpose[0].toString();
+		}else{
+			gr.move_purpose = cvidata.MovementPurposes.MovementPurpose.toString();
+		}
+
+		// Veterinarian information
+		gr.vet_lic_state = cvidata.Veterinarian['@LicenseState'].toString();
+		gr.vet_lic_num = cvidata.Veterinarian['@LicenseNumber'].toString();
+		gr.vet_nat_accred = cvidata.Veterinarian['@NationalAccreditationNumber'].toString();
+		gr.u_veterinarian = cvidata.Veterinarian.Person.Name.toString();
+		gr.signature_date = cvidata['@IssueDate'];
+		if(cvidata.Veterinarian.Person.Phone.length !== undefined){
+			gr.vet_phone = cvidata.Veterinarian.Person.Phone[0]['@Number'].toString();
+		}else{
+			gr.vet_phone = cvidata.Veterinarian.Person.Phone['@Number'].toString();
+		}
+		if(cvidata.Veterinarian.Person.Email.length !== undefined){
+			gr.vet_email = cvidata.Veterinarian.Person.Email[0]['@Address'].toString();
+		}else{
+			gr.vet_email = cvidata.Veterinarian.Person.Email['@Address'].toString();
+		}
+		gr.vet_address = cvidata.Veterinarian.AddressBlock.toString();
+
+		// Origin information - using this information instead of the Consignor information
+		if(cvidata.Origin.PremId !== undefined && cvidata.Origin.PremId !== null){
+			gr.consignor_premid = cvidata.Origin.PremId.toString();
+		}
+		if(cvidata.Origin.PremName !== undefined && cvidata.Origin.PremName !== null){
+			gr.consigner = cvidata.Origin.PremName.toString();
+		}
+		if(cvidata.Origin.Address.Line1 !== undefined && cvidata.Origin.Address.Line1 !== null){
+			gr.consignor_street = cvidata.Origin.Address.Line1.toString();
+		}
+		if(cvidata.Origin.Address.Line2 !== undefined && cvidata.Origin.Address.Line2 !== null){
+			gr.consignor_street = gr.consignor_street + '\n' + cvidata.Origin.Address.Line2.toString();
+		}
+		gr.consignor_city = cvidata.Origin.Address.Town.toString();
+		gr.consignor_county = cvidata.Origin.Address.County.toString();
+		gr.u_consignor_state = cvidata.Origin.Address.State.toString();
+		gr.consignor_zip = cvidata.Origin.Address.ZIP.toString();
+		gr.consignor_lat = cvidata.Origin.Address.GeoPoint['@Latitude'].toString();
+		gr.consignor_long = cvidata.Origin.Address.GeoPoint['@Longitude'].toString();
+		if(cvidata.Origin.StateZoneOrAreaStatus.length !== undefined){
+			for(var f=0; f<cvidata.Origin.StateZoneOrAreaStatus.length; f++){
+				if(cvidata.Origin.StateZoneOrAreaStatus[f].BrucellosisStateOrAreaStatus !== undefined){
+					if(cvidata.Origin.StateZoneOrAreaStatus[f].BrucellosisStateOrAreaStatus['@Status'] == 'Free'){
+						gr.u_brucellosis_free = 'Yes';
+					}else{
+						gr.u_brucellosis_free = 'No';
+					}
+				}
+				if(cvidata.Origin.StateZoneOrAreaStatus[f].TuberculosisStateOrZoneStatus !== undefined){
+					if(cvidata.Origin.StateZoneOrAreaStatus[f].TuberculosisStateOrZoneStatus['@Status'] == 'Free'){
+						gr.u_tb_free = 'Yes';
+					}else{
+						gr.u_tb_free = 'No';
+					}
+				}
+			}
+		}else{
+			if(cvidata.Origin.StateZoneOrAreaStatus.BrucellosisStateOrAreaStatus !== undefined){
+				if(cvidata.Origin.StateZoneOrAreaStatus.BrucellosisStateOrAreaStatus['@Status'] == 'Free'){
+					gr.u_brucellosis_free = 'Yes';
+				}else{
+					gr.u_brucellosis_free = 'No';
+				}
+			}
+			if(cvidata.Origin.StateZoneOrAreaStatus.TuberculosisStateOrZoneStatus !== undefined){
+				if(cvidata.Origin.StateZoneOrAreaStatus.TuberculosisStateOrZoneStatus['@Status'] == 'Free'){
+					gr.u_tb_free = 'Yes';
+				}else{
+					gr.u_tb_free = 'No';
+				}
+			}
+		}
+		if(cvidata.Origin.Person.length !== undefined){
+			gr.consignor_name = cvidata.Origin.Person[0].Name.toString();
+			if(cvidata.Origin.Person[0].Phone.length !== undefined){
+				gr.consignor_phone = cvidata.Origin.Person[0].Phone[0]['@Number'].toString();
+			}else{
+				gr.consignor_phone = cvidata.Origin.Person[0].Phone['@Number'].toString();
+			}
+			if(cvidata.Origin.Person[0].Email.length !== undefined){
+				gr.consignor_email = cvidata.Origin.Person[0].Email[0]['@Address'].toString();
+			}else{
+				gr.consignor_email = cvidata.Origin.Person[0].Email['@Address'].toString();
+			}
+		}else{
+			gr.consignor_name = cvidata.Origin.Person.Name.toString();
+			if(cvidata.Origin.Person.Phone.length !== undefined){
+				gr.consignor_phone = cvidata.Origin.Person.Phone[0]['@Number'].toString();
+			}else{
+				gr.consignor_phone = cvidata.Origin.Person.Phone['@Number'].toString();
+			}
+			if(cvidata.Origin.Person.Email !== undefined){
+				if(cvidata.Origin.Person.Email.length !== undefined){
+					gr.consignor_email = cvidata.Origin.Person.Email[0]['@Address'].toString();
+				}else{
+					gr.consignor_email = cvidata.Origin.Person.Email['@Address'].toString();
+				}
+			}
+		}
+
+		// Destination information - using this information instead of the Consignee information
+		if(cvidata.Destination.PremId !== undefined && cvidata.Destination.PremId !== null){
+			gr.consignee_premid = cvidata.Destination.PremId.toString();
+		}
+		if(cvidata.Destination.PremName !== undefined && cvidata.Destination.PremName !== null){
+			gr.consignee = cvidata.Destination.PremName.toString();
+		}
+		if(cvidata.Destination.Address.Line1 !== undefined && cvidata.Destination.Address.Line1 !== null){
+			gr.conisgnee_street = cvidata.Destination.Address.Line1.toString();
+		}
+		if(cvidata.Destination.Address.Line2 !== undefined && cvidata.Destination.Address.Line2 !== null){
+			gr.conisgnee_street = gr.conisgnee_street + '\n' + cvidata.Destination.Address.Line2.toString();
+		}
+		gr.consignee_city = cvidata.Destination.Address.Town.toString();
+		if(cvidata.Destination.Address.County !== undefined && cvidata.Destination.Address.County!== null){
+			gr.consignee_county = cvidata.Destination.Address.County.toString();
+		}
+		gr.u_consignee_state = cvidata.Destination.Address.State.toString();
+		gr.consignee_zip = cvidata.Destination.Address.ZIP.toString();
+		gr.consignee_lat = cvidata.Destination.Address.GeoPoint['@Latitude'].toString();
+		gr.consignee_long = cvidata.Destination.Address.GeoPoint['@Longitude'].toString();
+		if(cvidata.Destination.Person !== undefined){
+			if(cvidata.Destination.Person.length !== undefined){
+				gr.consignee_name = cvidata.Destination.Person[0].NameParts.FirstName.toString() + " " + cvidata.Destination.Person[0].NameParts.LastName.toString();
+				if(cvidata.Destination.Person[0].Phone.length !== undefined){
+					gr.consignee_phone = cvidata.Destination.Person[0].Phone[0]['@Number'];
+				}else{
+					gr.consignee_phone = cvidata.Destination.Person[0].Phone['@Number'];
+				}
+				if(cvidata.Destination.Person[0].Email.length !== undefined){
+					gr.consignee_email = cvidata.Destination.Person[0].Email[0]['@Address'];
+				}else{
+					if(cvidata.Destination.Person[0].Email !== undefined && cvidata.Destination.Person[0].Email !== null){
+						gr.consignee_email = cvidata.Destination.Person[0].Email['@Address'];
+					}
+				}
+			}else{
+				gr.consignee_name = cvidata.Destination.Person.NameParts.FirstName.toString() + " " + cvidata.Destination.Person.NameParts.LastName.toString();
+				if(cvidata.Destination.Person.Phone.length !== undefined){
+					gr.consignee_phone = cvidata.Destination.Person.Phone[0]['@Number'];
+				}else{
+					gr.consignee_phone = cvidata.Destination.Person.Phone['@Number'];
+				}
+				if(cvidata.Destination.Person.Email.length !== undefined){
+					gr.consignee_email = cvidata.Destination.Person.Email[0]['@Address'];
+				}else{
+					gr.consignee_email = cvidata.Destination.Person.Email['@Address'];
+				}
+			}
+		}
+
+		// Carrier information
+		if(cvidata.Carrier.Person.length !== undefined){
+			for(var g=0; cvidata.Carrier.Person.length; g++){
+				if(cvidata.Carrier.Person[g].NameParts !== undefined){
+					gr.carrier_name_and_address = cvidata.Carrier.Person[g].NameParts.BusinessName.toString();
+				}
+			}
+		}else{
+			gr.carrier_name_and_address = cvidata.Carrier.Person.NameParts.BusinessName.toString();
+		}
+
+		// Accession information
+		/*var acchelper = new XMLHelper();
+		var accdata = acchelper.toObject(current);*/
+		var accdata = cvidata;
+		if(accdata.Accessions.Accession.length !== undefined){
+			var accCount = accdata.Accessions.Accession.length;
+			for(var a = 0; a<accCount; a++){
+				if(accdata.Accessions.Accession[a].Laboratory !== undefined){
+					acc.num = accdata.Accessions.Accession[a].Laboratory['@AccessionNumber'];
+					acc.lab = accdata.Accessions.Accession[a].Laboratory.LabName;
+					acc.date = accdata.Accessions.Accession[a].Laboratory['@AccessionDate'];
+				}else{
+					acc.date = accdata.Accessions.Accession[a].Field['@AccessionDate'];
+				}
+				acc.id = accdata.Accessions.Accession[a]['@id'];
+				accGroup.push(acc);
+				acc = {"id": {}, "date": {}, "num": {}, "lab": {}};
+			}
+		}else{
+			if(accdata.Accessions.Accession.Laboratory !== undefined){
+				acc.num = accdata.Accessions.Accession.Laboratory['@AccessionNumber'];
+				acc.lab = accdata.Accessions.Accession.Laboratory.LabName;
+				acc.date = accdata.Accessions.Accession.Laboratory['@AccessionDate'];
+			}else{
+				acc.date = accdata.Accessions.Accession.Field['@AccessionDate'];
+			}
+			acc.id = accdata.Accessions.Accession['@id'];
+			accGroup.push(acc);
+			acc = {"id": {}, "date": {}, "num": {}, "lab": {}};
+		}
+
+		// Animal information
+		/*var animhelper = new XMLHelper();
+		var animdata = animhelper.toObject(current);*/
+		var animdata = cvidata;
+		if(animdata.Animal.length !== undefined){
+			var animCount = animdata.Animal.length;
+			for(var i = 0; i<animCount; i++){
+				anim.age = animdata.Animal[i]['@Age'];
+				anim.breed = animdata.Animal[i]['@Breed'];
+				anim.sex = animdata.Animal[i]['@Sex'];
+				anim.inspection = animdata.Animal[i]['@InspectionDate'];
+				if(animdata.Animal[i].SpeciesCode !== undefined && animdata.Animal[i].SpeciesCode['@Text'] !== ''){
+					anim.species = animdata.Animal[i].SpeciesCode['@Text'];
+				}else{
+					anim.species = animdata.Animal[i].SpeciesOther['@Text'];
+				}
+				if(animdata.Animal[i].AnimalTags.AIN !== undefined && animdata.Animal[i].AnimalTags.AIN !== null && animdata.Animal[i].AnimalTags.AIN['@Number'] !== ''){
+					anim.id = animdata.Animal[i].AnimalTags.AIN['@Number'].toString();
+				}
+				if(animdata.Animal[i].AnimalTags.MfrRFID !== undefined && animdata.Animal[i].AnimalTags.MfrRFID !== null && animdata.Animal[i].AnimalTags.MfrRFID['@Number'] !== ''){
+					anim.id = animdata.Animal[i].AnimalTags.MfrRFID['@Number'].toString();
+				}
+				if(animdata.Animal[i].AnimalTags.NUES9 !== undefined && animdata.Animal[i].AnimalTags.NUES9 !== null && animdata.Animal[i].AnimalTags.NUES9['@Number'] !== ''){
+					anim.id = animdata.Animal[i].AnimalTags.NUES9['@Number'].toString();
+				}
+				if(animdata.Animal[i].AnimalTags.NUES8 !== undefined && animdata.Animal[i].AnimalTags.NUES8 !== null && animdata.Animal[i].AnimalTags.NUES8['@Number'] !== ''){
+					anim.id = animdata.Animal[i].AnimalTags.NUES8['@Number'].toString();
+				}
+				if(animdata.Animal[i].AnimalTags.OtherOfficialID !== undefined && animdata.Animal[i].AnimalTags.OtherOfficialID !== null && animdata.Animal[i].AnimalTags.OtherOfficialID['@Number'] !== ''){
+					anim.id = animdata.Animal[i].AnimalTags.OtherOfficialID['@Number'].toString();
+				}
+				if(animdata.Animal[i].Test.length !== undefined){
+					if(animdata.Animal[i].Test.length >= 0){
+						for(var b = 0; b<animdata.Animal[i].Test.length; b++){
+							acctemp = animdata.Animal[i].Test[b]['@AccessionRef'];
+							for (var c=0; c<accGroup.length; c++){
+								if(accGroup[c].id == acctemp){
+									animTestDet.AccNum = accGroup[c].num;
+									animTestDet.Date = accGroup[c].date;
+									animTestDet.Lab = accGroup[c].lab;
+								}
+							}
+							animTestDet.TestCode = animdata.Animal[i].Test[b]['@TestCode'];
+							if(animdata.Animal[i].Test[b].Result.length !== undefined){
+								animTestDet.Name = animdata.Animal[i].Test[b].Result[0]['@ResultName'].toString();
+								if(animdata.Animal[i].Test[b].Result[0].ResultInteger !== undefined){
+									animTestDet.Result = animdata.Animal[i].Test[b].Result[0].ResultInteger.toString();
+								}
+								if(animdata.Animal[i].Test[b].Result[0].ResultFloat !== undefined){
+									animTestDet.Result = animdata.Animal[i].Test[b].Result[0].ResultFloat.toString();
+								}
+								if(animdata.Animal[i].Test[b].Result[0].ResultString !== undefined){
+									animTestDet.Result = animdata.Animal[i].Test[b].Result[0].ResultString.toString();
+								}
+								anim.test.push(animTestDet);
+								animTestDet = {"TestCode": {}, "Name": {}, "Result": {}, "Date": {}, "Lab": {}, "AccNum": {}};
+							}else{
+								animTestDet.Name = animdata.Animal[i].Test[b].Result['@ResultName'];
+								if(animdata.Animal[i].Test[b].Result.ResultInteger !== undefined){
+									animTestDet.Result = animdata.Animal[i].Test[b].Result.ResultInteger.toString();
+								}
+								if(animdata.Animal[i].Test[b].Result[0].ResultFloat !== undefined){
+									animTestDet.Result = animdata.Animal[i].Test[b].Result.ResultFloat.toString();
+								}
+								if(animdata.Animal[i].Test[b].Result[0].ResultString !== undefined){
+									animTestDet.Result = animdata.Animal[i].Test[b].Result.ResultString.toString();
+								}
+								anim.test.push(animTestDet);
+								animTestDet = {"TestCode": {}, "Name": {}, "Result": {}, "Date": {}, "Lab": {}, "AccNum": {}};
+							}
+						}
+					}
+				}else{
+					acctemp = animdata.Animal[i].Test['@AccessionRef'];
+					for (var h=0; h<accGroup.length; h++){
+						if(accGroup[h].id == acctemp){
+							animTestDet.AccNum = accGroup[h].num;
+							animTestDet.Date = accGroup[h].date;
+							animTestDet.Lab = accGroup[h].lab;
+						}
+					}
+					animTestDet.TestCode = animdata.Animal[i].Test['@TestCode'];
+					if(animdata.Animal[i].Test.Result.length !== undefined){
+						animTestDet.Name = animdata.Animal[i].Test.Result[0]['@ResultName'];
+						if(animdata.Animal[i].Test.Result[0].ResultInteger !== undefined){
+							animTestDet.Result = animdata.Animal[i].Test.Result[0].ResultInteger.toString();
+						}
+						if(animdata.Animal[i].Test.Result[0].ResultFloat !== undefined){
+							animTestDet.Result = animdata.Animal[i].Test.Result[0].ResultFloat.toString();
+						}
+						if(animdata.Animal[i].Test.Result[0].ResultString !== undefined){
+							animTestDet.Result = animdata.Animal[i].Test.Result[0].ResultString.toString();
+						}
+						anim.test.push(animTestDet);
+						animTestDet = {"TestCode": {}, "Name": {}, "Result": {}, "Date": {}, "Lab": {}, "AccNum": {}};
+					}else{
+						animTestDet.Name = animdata.Animal[i].Test.Result['@ResultName'].toString();
+						if(animdata.Animal[i].Test.Result.ResultInteger !== undefined){
+							animTestDet.Result = animdata.Animal[i].Test.Result.ResultInteger.toString();
+						}
+						if(animdata.Animal[i].Test.Result.ResultFloat !== undefined){
+							animTestDet.Result = animdata.Animal[i].Test.Result.ResultFloat.toString();
+						}
+						if(animdata.Animal[i].Test.Result.ResultString !== undefined){
+							animTestDet.Result = animdata.Animal[i].Test.Result.ResultString.toString();
+						}
+						anim.test.push(animTestDet);
+						animTestDet = {"TestCode": {}, "Name": {}, "Result": {}, "Date": {}, "Lab": {}, "AccNum": {}};
+					}
+				}
+				animGroup.push(anim);
+				anim = {"age": {}, "breed": {}, "sex": {}, "inspection": {}, "species": {}, "id": {}, "test": []};
+			}
+		}else{
+			anim.age = animdata.Animal['@Age'];
+			anim.breed = animdata.Animal['@Breed'];
+			anim.sex = animdata.Animal['@Sex'];
+			anim.inspection = animdata.Animal['@InspectionDate'];
+			if(animdata.Animal.SpeciesCode !== undefined){
+				animspecies = animdata.Animal.SpeciesCode['@Text'];
+			}else{
+				anim.species = animdata.Animal.SpeciesOther['@Text'];
+			}
+			if(animdata.Animal.AnimalTags.AIN !== undefined && animdata.Animal.AnimalTags.AIN !== null && animdata.Animal.AnimalTags.AIN['@Number'] !== ''){
+				anim.id = animdata.Animal.AnimalTags.AIN['@Number'].toString();
+			}
+			if(animdata.Animal.AnimalTags.MfrRFID !== undefined && animdata.Animal.AnimalTags.MfrRFID !== null && animdata.Animal.AnimalTags.MfrRFID['@Number'] !== ''){
+				anim.id = animdata.Animal.AnimalTags.MfrRFID['@Number'].toString();
+			}
+			if(animdata.Animal.AnimalTags.NUES9 !== undefined && animdata.Animal.AnimalTags.NUES9 !== null && animdata.Animal.AnimalTags.NUES9['@Number'] !== ''){
+				anim.id = animdata.Animal.AnimalTags.NUES9['@Number'].toString();
+			}
+			if(animdata.Animal.AnimalTags.NUES8 !== undefined && animdata.Animal.AnimalTags.NUES8 !== null && animdata.Animal.AnimalTags.NUES8['@Number'] !== ''){
+				anim.id = animdata.Animal.AnimalTags.NUES8['@Number'].toString();
+			}
+			if(animdata.Animal.AnimalTags.OtherOfficialID !== undefined && animdata.Animal.AnimalTags.OtherOfficialID !== null && animdata.Animal.AnimalTags.OtherOfficialID['@Number'] !== ''){
+				anim.id = animdata.Animal.AnimalTags.OtherOfficialID['@Number'].toString();
+			}
+			if(animdata.Animal.Test.length !== undefined){
+				if(animdata.Animal.Test.length >= 0){
+					for(var j = 0; j<animdata.Animal.Test.length; j++){
+						acctemp = animdata.Animal.Test[j]['@AccessionRef'];
+						for (var k=0; k<accGroup.length; k++){
+							if(accGroup[k].id == acctemp){
+								animTestDet.AccNum = accGroup[k].num;
+								animTestDet.Date = accGroup[k].date;
+								animTestDet.Lab = accGroup[k].lab;
+							}
+						}
+						animTestDet.TestCode = animdata.Animal.Test[j]['@TestCode'];
+						if(animdata.Animal.Test[j].Result.length !== undefined){
+							animTestDet.Name = animdata.Animal.Test[j].Result[0]['@ResultName'];
+							if(animdata.Animal.Test[j].Result[0].ResultInteger !== undefined){
+								animTestDet.Result = animdata.Animal.Test[j].Result[0].ResultInteger.toString();
+							}
+							if(animdata.Animal.Test[j].Result[0].ResultFloat !== undefined){
+								animTestDet.Result = animdata.Animal.Test[j].Result[0].ResultFloat.toString();
+							}
+							if(animdata.Animal.Test[j].Result[0].ResultString !== undefined){
+								animTestDet.Result = animdata.Animal.Test[j].Result[0].ResultString.toString();
+							}
+							anim.test.push(animTestDet);
+							animTestDet = {"TestCode": {}, "Name": {}, "Result": {}, "Date": {}, "Lab": {}, "AccNum": {}};
+						}else{
+							animTestDet.Name = animdata.Animal.Test[j].Result['@ResultName'].toString();
+							if(animdata.Animal.Test[j].Result.ResultInteger !== undefined){
+								animTestDet.Result = animdata.Animal.Test[j].Result.ResultInteger.toString();
+							}
+							if(animdata.Animal.Test[j].Result[0].ResultFloat !== undefined){
+								animTestDet.Result = animdata.Animal.Test[j].Result.ResultFloat.toString();
+							}
+							if(animdata.Animal.Test[j].Result[0].ResultString !== undefined){
+								animTestDet.Result = animdata.Animal.Test[j].Result.ResultString.toString();
+							}
+							anim.test.push(animTestDet);
+							animTestDet = {"TestCode": {}, "Name": {}, "Result": {}, "Date": {}, "Lab": {}, "AccNum": {}};
+						}
+					}
+				}
+			}else{
+				acctemp = animdata.Animal.Test['@AccessionRef'];
+				for (var l=0; l<accGroup.length; l++){
+					if(accGroup[l].id == acctemp){
+						animTestDet.AccNum = accGroup[l].num;
+						animTestDet.Date = accGroup[l].date;
+						animTestDet.Lab = accGroup[l].lab;
+					}
+				}
+				animTestDet.TestCode = animdata.Animal.Test['@TestCode'];
+				if(animdata.Animal.Test.Result.length !== undefined){
+					animTestDet.Name = animdata.Animal.Test.Result[0]['@ResultName'].toString();
+					if(animdata.Animal.Test.Result[0].ResultInteger !== undefined){
+						animTestDet.Result = animdata.Animal.Test.Result[0].ResultInteger.toString();
+					}
+					if(animdata.Animal.Test.Result[0].ResultFloat !== undefined){
+						animTestDet.Result = animdata.Animal.Test.Result[0].ResultFloat.toString();
+					}
+					if(animdata.Animal.Test.Result[0].ResultString !== undefined){
+						animTestDet.Result = animdata.Animal.Test.Result[0].ResultString.toString();
+					}
+					anim.test.push(animTestDet);
+					animTestDet = {"TestCode": {}, "Name": {}, "Result": {}, "Date": {}, "Lab": {}, "AccNum": {}};
+				}else{
+					animTestDet.Name = animdata.Animal.Test.Result['@ResultName'].toString();
+					if(animdata.Animal.Test.Result.ResultInteger !== undefined){
+						animTestDet.Result = animdata.Animal.Test.Result.ResultInteger.toString();
+					}
+					if(animdata.Animal.Test.Result[0].ResultFloat !== undefined){
+						animTestDet.Result = animdata.Animal.Test.Result.ResultFloat.toString();
+					}
+					if(animdata.Animal.Test.Result[0].ResultString !== undefined){
+						animTestDet.Result = animdata.Animal.Test.Result.ResultString.toString();
+					}
+					anim.test.push(animTestDet);
+					animTestDet = {"TestCode": {}, "Name": {}, "Result": {}, "Date": {}, "Lab": {}, "AccNum": {}};
+				}
+				animGroup.push(anim);
+				anim = {"age": {}, "breed": {}, "sex": {}, "inspection": {}, "species": {}, "id": {}, "test": []};
+			}
+		}
+
+		// Create animal records
+		var animal = new GlideRecord('x_cria_livestock_t_batchfill_import_cvi');
+		animal.initialize();
+		for(var d=0; d<animGroup.length; d++){
+			animal.official_identification = animGroup[d].id.toString();
+			animal.age = animGroup[d].age.toString();
+			animal.breed = animGroup[d].breed.toString();
+			animal.sex = animGroup[d].sex.toString();
+			animal.species = animGroup[d].species.toString();
+			animal.parent = gr.sys_id;
+			if(animGroup[d].test.length !== undefined && animGroup[d].test.length !== null){
+				for(var e=0; e<5; e++){
+					if(e === 0){
+						animal.acc_num_one = animGroup[d].test[e].AccNum.toString();
+						animal.acc_date_one = animGroup[d].test[e].Date;
+						if(animGroup[d].test[e].Lab !== undefined && animGroup[d].test[e].Lab !== null){
+							animal.acc_lab_one = animGroup[d].test[e].Lab.toString();
+						}
+						animal.acc_result_one = animGroup[d].test[e].Result.toString();
+						animal.acc_test_one = animGroup[d].test[e].TestCode.toString();
+						animal.acc_test_name_one = animGroup[d].test[e].Name.toString();
+					}
+					if(e === 1){
+						animal.acc_num_two = animGroup[d].test[e].AccNum.toString();
+						animal.acc_date_two = animGroup[d].test[e].Date;
+						if(animGroup[d].test[e].Lab !== undefined && animGroup[d].test[e].Lab !== null){
+							animal.acc_lab_two = animGroup[d].test[e].Lab.toString();
+						}
+						animal.acc_result_two = animGroup[d].test[e].Result.toString();
+						animal.acc_test_two = animGroup[d].test[e].TestCode.toString();
+						animal.acc_test_name_two = animGroup[d].test[e].Name.toString();
+					}
+					if(e === 2){
+						animal.acc_num_three = animGroup[d].test[e].AccNum.toString();
+						animal.acc_date_three = animGroup[d].test[e].Date;
+						if(animGroup[d].test[e].Lab !== undefined && animGroup[d].test[e].Lab !== null){
+							animal.acc_lab_three = animGroup[d].test[e].Lab.toString();
+						}
+						animal.acc_result_three = animGroup[d].test[e].Result.toString();
+						animal.acc_test_three = animGroup[d].test[e].TestCode.toString();
+						animal.acc_test_name_three = animGroup[d].test[e].Name.toString();
+					}
+					if(e === 3){
+						animal.acc_num_four = animGroup[d].test[e].AccNum.toString();
+						animal.acc_date_four = animGroup[d].test[e].Date;
+						if(animGroup[d].test[e].Lab !== undefined && animGroup[d].test[e].Lab !== null){
+							animal.acc_lab_four = animGroup[d].test[e].Lab.toString();
+						}
+						animal.acc_result_four = animGroup[d].test[e].Result.toString();
+						animal.acc_test_four = animGroup[d].test[e].TestCode.toString();
+						animal.acc_test_name_four = animGroup[d].test[e].Name.toString();
+					}
+					if(e === 4){
+						animal.acc_num_five = animGroup[d].test[e].AccNum.toString();
+						animal.acc_date_five = animGroup[d].test[e].Date;
+						if(animGroup[d].test[e].Lab !== undefined && animGroup[d].test[e].Lab !== null){
+							animal.acc_lab_five = animGroup[d].test[e].Lab.toString();
+						}
+						animal.acc_result_five = animGroup[d].test[e].Result.toString();
+						animal.acc_test_five = animGroup[d].test[e].TestCode.toString();
+						animal.acc_test_name_five = animGroup[d].test[e].Name.toString();
+					}
+				}
+			}else{
+				animal.acc_num_one = animGroup[d].test.AccNum.toString();
+				animal.acc_date_one = animGroup[d].test.Date;
+				if(animGroup[d].test.Lab !== undefined && animGroup[d].test.Lab !== null){
+					animal.acc_lab_one = animGroup[d].test.Lab.toString();
+				}
+				animal.acc_result_one = animGroup[d].test.Result.toString();
+				animal.acc_test_one = animGroup[d].test.TestCode.toString();
+				animal.acc_test_name_one = animGroup[d].test.Name.toString();
+			}
+			animal.insert();
+		}
+
+		// Update the gr record with XML values
+		gr.update();
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-04-11 20:24:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>559b0b34db343700c64e5eea4b9619a8</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>Import CVI XML</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_559b0b34db343700c64e5eea4b9619a8</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-07-01 20:25:30</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=559b0b34db343700c64e5eea4b9619a8"/>
+</record_update>

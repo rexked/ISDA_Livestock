@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="ISDA My Contacts Import" max_length="40" name="x_cria_livestock_t_isda_my_contacts_import" sizeclass="0" type="collection">
+        <element attributes="import_attribute_name=Associated Vet,edge_encryption_enabled=true" label="Associated Vet" max_length="40" name="u_associated_vet" type="string"/>
+        <element attributes="import_attribute_name=City,edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="import_attribute_name=County,edge_encryption_enabled=true" label="County" max_length="40" name="u_county" type="string"/>
+        <element attributes="import_attribute_name=Latitude,edge_encryption_enabled=true" label="Latitude" max_length="40" name="u_latitude" type="string"/>
+        <element attributes="import_attribute_name=Longitude,edge_encryption_enabled=true" label="Longitude" max_length="40" name="u_longitude" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="47" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Phone" label="Phone" max_length="40" name="u_phone" type="float"/>
+        <element attributes="import_attribute_name=State / Province,edge_encryption_enabled=true" label="State / Province" max_length="40" name="u_state___province" type="string"/>
+        <element attributes="import_attribute_name=Street,edge_encryption_enabled=true" label="Street" max_length="40" name="u_street" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Zip / Postal Code" label="Zip / Postal Code" max_length="40" name="u_zip___postal_code" type="integer"/>
+    </element>
+</database>

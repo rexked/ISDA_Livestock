@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Brucellosis Vaccination Record">762797dddbb35f009b2689584b961955</sc_cat_item>
         <sc_category display_value="Livestock">f71bdacadb389300c64e5eea4b961973</sc_category>

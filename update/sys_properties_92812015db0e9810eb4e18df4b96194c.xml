@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Batchfill Import CVI activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_cria_livestock_t_batchfill_import_cvi_activity.fields</name>
+        <read_roles/>
+        <suffix>x_cria_livestock_t</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-07-15 16:54:07</sys_created_on>
+        <sys_id>92812015db0e9810eb4e18df4b96194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_cria_livestock_t_batchfill_import_cvi_activity.fields</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_properties_92812015db0e9810eb4e18df4b96194c</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-07-15 16:54:07</sys_updated_on>
+        <type>string</type>
+        <value>official_identification,species,breed,sex,age,parent,u_eia_acc,u_trich_acc,acc_num_one,acc_num_two,acc_num_three,acc_num_four,acc_num_five,acc_date_one,acc_date_two,acc_date_three,acc_date_four,acc_date_five,actual_sequence,alt_id,u_brucellosis,sys_class_name,committed,sys_created_on,sys_created_by,u_trich_lab_culture,u_date_bled,u_tb_date,u_eia_date,u_disease_surveillance,u_eia_results,u_eia,u_grouplot,u_gl_quantity,u_idtype,u_trich_lab_in_pcr,u_inspection_date,u_bruc_lab,u_eia_lab,u_other_lab,u_trich_lab,acc_lab_one,acc_lab_two,acc_lab_three,acc_lab_four,acc_lab_five,number,u_srvy_other,other_species,u_othtagtype,u_other_test_date,u_trich_lab_pooled_pcr,acc_result_one,acc_result_two,acc_result_three,acc_result_four,acc_result_five,acc_test_name_one,acc_test_name_two,acc_test_name_three,acc_test_name_four,acc_test_name_five,u_bruc_results,u_other_results,session_id,u_tb_result,sys_tags,u_other_test,acc_test_one,acc_test_two,acc_test_three,acc_test_four,acc_test_five,u_trich_result,u_trich_date,u_trich,u_tb,sys_updated_on,sys_updated_by,sys_mod_count,vacc_date_one,vacc_date_two,vacc_date_three,vacc_date_four,vacc_date_five,u_vacc_status,vacc_type_one,vacc_type_two,vacc_type_three,vacc_type_four,vacc_type_five,*Email*,*Relations*,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=92812015db0e9810eb4e18df4b96194c"/>
+</record_update>

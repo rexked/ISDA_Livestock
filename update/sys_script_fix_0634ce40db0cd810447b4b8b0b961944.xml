@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description>Do ot run in prodcution</description>
+        <flush_cache>false</flush_cache>
+        <name>Expand range ISDN</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[gs.info("Debug");
+var count = 0;
+var range_found;
+var start_range = 0;
+var end_range = 0;
+var number_to_create = 0;
+var create_count = 0;
+var rfid_header;
+var id_number;
+
+// LocalTable variables
+var certificate_number;
+var consignee_city;
+var consignee_name;
+var consignee_state;
+var consignor_city;
+var consignor_name;
+var description;
+var id = '';
+var number_of_bulls;
+var number_of_cows;
+var number_of_heffers;
+var number_of_steers;
+var other_id;
+var shipment_date;
+var tat;
+var veterinarian;
+
+
+
+var gr = new GlideRecord('x_cria_livestock_t_paper_cvi');
+
+//gr.addQuery('id', '82AVD8001-82AVD8188');
+//gr.addQuery('id', '840003211444819-4968');
+
+gr.query();
+while (gr.next()) 
+{
+ 
+
+   id = gr.id;
+   if (id != '')
+   {
+      range_found = id.indexOf('-');
+   }
+
+   // Check that the ID does not begin with 84 (different format)
+ 
+   // Check if the date has zeros (-1 = not found) 
+   if ((range_found != -1)&&(id != ''))
+   {
+       // Set the VETS name to the records
+    //gr.veterinarian = vets_name;
+    //gr.update();
+
+    start_range =  id.slice((range_found - 4),range_found);
+    end_range =  id.slice(-4);
+    rfid_header = id.slice(0,(range_found - 4));
+
+    gs.info('rfid_header = ' + rfid_header);
+    number_to_create = (end_range - start_range) + 1;
+
+    for (create_count = 0; create_count < (number_to_create );  create_count++)
+    {
+       gs.info(' Created record ' + create_count);
+       // The + converts string to number for addition
+       id_number = rfid_header + (+start_range + +create_count);
+       gs.info(' id_number =  ' + id_number);
+
+       // Insert a new record for each new id_number
+        var gn = new GlideRecord('x_cria_livestock_t_paper_cvi');
+        gn.initialize();
+	gn.certificate_number = gr.certificate_number;
+	gn.consignee_city  = gr.consignee_city;
+	gn.consignee_name  = gr.consignee_name;
+	gn.consignee_state = gr.consignee_state;
+	gn.consignor_city  = gr.consignor_city;
+	gn.consignor_name  = gr.consignor_name;
+	gn.description  = gr.description;
+	gn.number_of_bulls = gr.number_of_bulls;
+	gn.number_of_cows = gr.number_of_cows;
+	gn.number_of_heffers = gr.number_of_heffers;
+	gn.number_of_steers = gr.number_of_steers;
+	gn.other_id = gr.other_id;
+	gn.shipment_date  = gr.shipment_date;
+	gn.tat = gr.tat;
+	gn.veterinarian = gr.veterinarian;
+        // Assign new id number
+        gn.id  = id_number;
+        gn.insert();
+        //gs.info('gn.certificate_number = ' + gn.certificate_number );
+        //gs.info('gn.consignee_city = ' + gn.consignee_city );
+        //gs.info('gn.consignee_name = ' + gn.consignee_name );
+        //gs.info('gn.consignee_state = ' + gn.consignee_state );
+        //gs.info('gn.consignor_city = ' + gn.consignor_city );
+        //gs.info('gn.consignor_name = ' + gn.consignor_name );
+	//gs.info('gn.description = ' + gn.description );
+	//gs.info('gn.number_of_bulls = ' + gn.number_of_bulls );
+	//gs.info('gn.number_of_cows = ' + gn.number_of_cows );
+	//gs.info('gn.number_of_heffers = ' + gn.number_of_heffers );
+	//gs.info('gn.number_of_steers = ' + gn.number_of_steers );
+	//gs.info('gn.other_id = ' + gn.other_id );
+	//gs.info('gn.shipment_date = ' + gn.shipment_date );
+	//gs.info('gn.tat = ' + gn.tat );
+	//gs.info('gn.veterinarian = ' + gn.veterinarian );
+	//gs.info('gn.id = ' + gn.id);
+
+    }      
+
+    
+    gs.info('id = ' + id  + '  range_found = ' + range_found + ' start_range = ' + start_range + ' end_range = ' + end_range + ' number_to_create = ' + number_to_create);
+    
+    count = count + 1;
+   }
+     
+ 
+}
+ 
+
+gs.info('count = ' + count);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>Imckirdy</sys_created_by>
+        <sys_created_on>2020-04-03 16:47:51</sys_created_on>
+        <sys_id>0634ce40db0cd810447b4b8b0b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expand range ISDN</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_fix_0634ce40db0cd810447b4b8b0b961944</sys_update_name>
+        <sys_updated_by>Imckirdy</sys_updated_by>
+        <sys_updated_on>2020-04-03 16:47:51</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

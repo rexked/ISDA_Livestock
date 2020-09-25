@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_instance_vlist">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
     <sp_instance_vlist action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -7,10 +6,11 @@
         <css/>
         <display_field>record_id</display_field>
         <field_list/>
-        <filter table="x_cria_livestock_t_vaccinations_trichomoniasis">sys_created_by=javascript:gs.getUserName()^ORu_veterinarianDYNAMIC90d1921e5f510100a9ad2572f2b477fe^record_idISNOTEMPTY^ORDERBYDESCsys_created_on<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName()"/>
+        <filter table="x_cria_livestock_t_vaccinations_trichomoniasis">sys_created_by=javascript:gs.getUserName()^ORu_veterinarianDYNAMIC90d1921e5f510100a9ad2572f2b477fe^record_idISNOTEMPTY^ORDERBYDESCsys_created_on^draft=false<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName()"/>
             <item endquery="false" field="u_veterinarian" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item endquery="false" field="record_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_created_on"/>
+            <item endquery="false" field="draft" goto="false" newquery="false" operator="=" or="false" value="false"/>
         </filter>
         <glyph/>
         <id/>
@@ -21,21 +21,21 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="2">a49af891dbde5f809b2689584b96196b</sp_column>
+        <sp_column display_value="3">689afcd1dbde5f809b2689584b961964</sp_column>
         <sp_page display_value="trich_printable_form">b4dd54b5dbea17009b2689584b96192a</sp_page>
         <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
         <sys_class_name>sp_instance_vlist</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-05-24 20:15:19</sys_created_on>
         <sys_id>9fba78d1dbde5f809b2689584b9619cb</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_instance_vlist_9fba78d1dbde5f809b2689584b9619cb</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-26 18:01:12</sys_updated_on>
+        <sys_updated_on>2019-04-19 15:37:29</sys_updated_on>
         <table>x_cria_livestock_t_vaccinations_trichomoniasis</table>
         <title/>
         <url/>

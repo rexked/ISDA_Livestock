@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_report_users_groups">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id display_value="ISDA Admins" name="ISDA Admins">971d3321dbf853009b2689584b96198e</group_id>
-        <report_id display_value="Brucellosis Test Results This Month">a920d673dbfa1b00086c89584b9619eb</report_id>
+        <report_id display_value="Brucellosis Testing 2020">a920d673dbfa1b00086c89584b9619eb</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-26 17:41:08</sys_created_on>

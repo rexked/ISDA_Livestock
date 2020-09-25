@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="sex" table="x_cria_livestock_t_lab_results_bruc" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>7</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>0</sequence>
+            <sys_created_by>ktalbot</sys_created_by>
+            <sys_created_on>2020-08-21 22:35:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e92541ddb36d410447b4b8b0b9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ktalbot</sys_updated_by>
+            <sys_updated_on>2020-08-21 22:35:56</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>F</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>0</sequence>
+            <sys_created_by>astone</sys_created_by>
+            <sys_created_on>2019-12-11 00:35:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93906fcbdb6d0050eb4e18df4b9619ca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-31 21:14:50</sys_updated_on>
+            <value>F</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>H</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>0</sequence>
+            <sys_created_by>ktalbot</sys_created_by>
+            <sys_created_on>2019-12-16 17:40:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b1bb88ddb71c410447b4b8b0b96191b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-31 21:14:52</sys_updated_on>
+            <value>H</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>S</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>0</sequence>
+            <sys_created_by>ktalbot</sys_created_by>
+            <sys_created_on>2020-01-03 00:05:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9463562db4a4450447b4b8b0b96191e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-31 21:14:55</sys_updated_on>
+            <value>S</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Male</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>1</sequence>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-05 20:24:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76e660a5dbd11340c64e5eea4b961947</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-23 21:42:17</sys_updated_on>
+            <value>male</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sex</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Female</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sequence>3</sequence>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-05 20:25:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4076865dbd11340c64e5eea4b961999</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-07-23 21:42:13</sys_updated_on>
+            <value>female</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sex</element>
+            <name>x_cria_livestock_t_lab_results_bruc</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-05 20:24:39</sys_created_on>
+            <sys_id>6040eaa0dbab9b4066015d104b9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sex</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_bruc_sex</sys_update_name>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-05 20:24:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_lab_results_bruc_sex</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="sex" table="x_cria_livestock_t_lab_results_bruc" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>false</inactive><label>7</label><language>en</language><name>x_cria_livestock_t_lab_results_bruc</name><sequence>0</sequence><sys_created_by>ktalbot</sys_created_by><sys_created_on>2020-08-21 22:35:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9e92541ddb36d410447b4b8b0b9619c3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ktalbot</sys_updated_by><sys_updated_on>2020-08-21 22:35:56</sys_updated_on><value>7</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>true</inactive><label>F</label><language>en</language><name>x_cria_livestock_t_lab_results_bruc</name><sequence>0</sequence><sys_created_by>astone</sys_created_by><sys_created_on>2019-12-11 00:35:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>93906fcbdb6d0050eb4e18df4b9619ca</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-31 21:14:50</sys_updated_on><value>F</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>true</inactive><label>H</label><language>en</language><name>x_cria_livestock_t_lab_results_bruc</name><sequence>0</sequence><sys_created_by>ktalbot</sys_created_by><sys_created_on>2019-12-16 17:40:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9b1bb88ddb71c410447b4b8b0b96191b</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-31 21:14:52</sys_updated_on><value>H</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>true</inactive><label>S</label><language>en</language><name>x_cria_livestock_t_lab_results_bruc</name><sequence>0</sequence><sys_created_by>ktalbot</sys_created_by><sys_created_on>2020-01-03 00:05:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b9463562db4a4450447b4b8b0b96191e</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-31 21:14:55</sys_updated_on><value>S</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>false</inactive><label>Male</label><language>en</language><name>x_cria_livestock_t_lab_results_bruc</name><sequence>1</sequence><sys_created_by>dyoung</sys_created_by><sys_created_on>2018-04-05 20:24:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>76e660a5dbd11340c64e5eea4b961947</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-07-23 21:42:17</sys_updated_on><value>male</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>sex</element><hint/><inactive>false</inactive><label>Female</label><language>en</language><name>x_cria_livestock_t_lab_results_bruc</name><sequence>3</sequence><sys_created_by>dyoung</sys_created_by><sys_created_on>2018-04-05 20:25:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e4076865dbd11340c64e5eea4b961999</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-07-23 21:42:13</sys_updated_on><value>female</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>sex</element><name>x_cria_livestock_t_lab_results_bruc</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>dyoung</sys_created_by><sys_created_on>2018-04-05 20:24:39</sys_created_on><sys_id>6040eaa0dbab9b4066015d104b9619ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sex</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_choice_x_cria_livestock_t_lab_results_bruc_sex</sys_update_name><sys_updated_by>dyoung</sys_updated_by><sys_updated_on>2018-04-05 20:24:39</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-969308147</payload_hash>
+        <record_name>Batchfill Bruc.Sex</record_name>
+        <reverted_from/>
+        <source>e166c66edb601300fc805eea4b9619e1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>ktalbot</sys_created_by>
+        <sys_created_on>2020-08-21 22:35:57</sys_created_on>
+        <sys_id>5692181ddb36d410447b4b8b0b96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174132a0cc80000001</sys_recorded_at>
+        <sys_updated_by>ktalbot</sys_updated_by>
+        <sys_updated_on>2020-08-21 22:35:57</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>da92181d9236d41097edc82f6f2df11c</update_guid>
+        <update_guid_history>da92181d9236d41097edc82f6f2df11c:-969308147,9db4678b2bff4810fe28c7c7288c7e2d:-232346553,2cb4e38b29ff4810b82d6ee9a7489486:1839704244,88b46b8b9aff4810245c0d017c6f420c:446077847,fd463562a64a44508cc368b5ff116721:-1182821044,a31bb88d1a71c410c61c8f525b21981f:-1408768758,1b906fcb4a6d00502902aa6aaf394bcd:687518578,3977511e50848410dbad7dbd9152609a:-725667754,b397903931d737001eb42d93a4f3ffd7:687518578,66be822c8ae31700b3b0f826ac0469e6:-725667754,92be822c6ee3170016666dfe7e7450da:1335645785,1ebe822cd6e317002b5dc58bbc1333cd:-1219908247,241e02e804e31700e1f6a024f779500e:1804543901,b70e4ae830e31700dae0845fd7a0443a:-310628639,4f0e82e84be31700361b0c1b34f5aa93:-1285828762,1e0e0ae8a1e3170015409eea405b5fb1:1266282653,910ecae8c6e31700e616d04b83ed5931:680543561,b3fd8ae878e317004bffde8c5e9f52f3:-1906999701,9ffd8ae842e3170003c351ec0f0521cf:1556506378,d2fd82e805e3170014b8371dfba29e3b:1685316960,74fd82e82ee317007b3220289ab0ab77:1362552953,b2edc6e86be31700230fd9ab96fd41ea:1607484587,fbdd4ae841e3170020ad8776a5006d97:576538277,780edd96ac7a57002b325b7adffbc080:0,a3ab11126a7a57005c2f9cc5db8e3357:-1666047938,67ab11121e7a5700dacc6f4020613754:-557641891,c217a0a54ed11340d93a787ff3c155f0:-1112477536,ff07286567d113408c8f10a519af45f8:-2005949206,d6f620615dd11340a86d51082b0a7996:-283401577</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>6040eaa0dbab9b4066015d104b9619ba</sys_id>
+        <sys_metadata>6040eaa0dbab9b4066015d104b9619ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sex</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_bruc_sex</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_lab_results_bruc_sex">5692181ddb36d410447b4b8b0b96191d</sys_update_version>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

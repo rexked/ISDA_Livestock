@@ -1,90 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="x_cria_livestock_t_vaccination_record" label="Tuberculosis Test" max_length="40" name="x_cria_livestock_t_vaccinations_tuberculosis" text_index="true" type="collection">
-        <element label="Date Test Was Read" max_length="40" name="date_test_read" type="glide_date"/>
-        <element choice="1" label="Expense" max_length="40" name="expense" type="choice">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="x_cria_livestock_t_vaccination_record" label="Tuberculosis Test" max_length="40" name="x_cria_livestock_t_vaccinations_tuberculosis" sizeclass="1118" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date Test Was Read" max_length="40" name="date_test_read" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Draft" max_length="40" name="draft" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Expense" max_length="40" name="expense" type="choice">
             <choice>
-                <element label="Owners" value="owners_expense"/>
-                <element label="State/ Federal" value="state_federal_expense"/>
+                <element inactive_on_update="false" label="Owners" value="owners_expense"/>
+                <element inactive_on_update="false" label="State/ Federal" value="state_federal_expense"/>
             </choice>
         </element>
-        <element label="Injection Date" max_length="40" name="injection_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Herd Location" max_length="32" name="herd_loc" reference="cmn_location" reference_qual="u_livestock=true^EQ" reference_qual_condition="u_livestock=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Injection Date" max_length="40" name="injection_date" type="glide_date"/>
         <element label="Injection Time" max_length="32" name="injection_time" type="string"/>
-        <element choice="1" label="Kind of herd" max_length="40" name="kind_of_herd" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Kind of herd" max_length="40" name="kind_of_herd" type="choice">
             <choice>
-                <element label="Bison" value="Bison"/>
-                <element label="Cattle" value="Cattle"/>
-                <element label="Deer" value="Deer"/>
-                <element label="Elk" value="Elk"/>
-                <element label="Goats" value="Goats"/>
-                <element label="Other" value="Other"/>
+                <element inactive_on_update="false" label="Bison" value="Bison"/>
+                <element inactive_on_update="false" label="Cattle" value="Cattle"/>
+                <element inactive_on_update="false" label="Deer" value="Deer"/>
+                <element inactive_on_update="false" label="Elk" value="Elk"/>
+                <element inactive_on_update="false" label="Goats" value="Goats"/>
+                <element inactive_on_update="false" label="Other" value="Other"/>
             </choice>
         </element>
         <element label="Negative" max_length="32" name="negative" type="string"/>
         <element label="Number of Animals Being Tested" max_length="32" name="num_of_animals_tested" type="string"/>
         <element label="Official IDs" max_length="10000" name="official_ids" type="string"/>
         <element label="Reactor" max_length="32" name="reactor" type="string"/>
-        <element choice="1" label="Reason for Test" max_length="40" name="reason_for_test" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reason for Test" max_length="40" name="reason_for_test" type="choice">
             <choice>
-                <element label="Area" value="Area"/>
-                <element label="Herd (Re)accredit" value="Herd (Re)accredit"/>
-                <element label="Imported" value="Imported"/>
-                <element label="Milk Ordinance" value="Milk Ordinance"/>
-                <element label="Other" value="Other"/>
-                <element label="Sale Show" value="Sale Show"/>
-                <element label="Tracing Exposed" value="Tracing Exposed"/>
-                <element label="Tracing Reactors" value="Tracing Reactors"/>
-                <element label="Tracing Reg. Kill" value="Tracing Reg. Kill"/>
+                <element inactive_on_update="false" label="Area" value="Area"/>
+                <element inactive_on_update="false" label="Herd (Re)accredit" value="Herd (Re)accredit"/>
+                <element inactive_on_update="false" label="Imported" value="Imported"/>
+                <element inactive_on_update="false" label="Milk Ordinance" value="Milk Ordinance"/>
+                <element inactive_on_update="false" label="Other" value="Other"/>
+                <element inactive_on_update="false" label="Sale Show" value="Sale Show"/>
+                <element inactive_on_update="false" label="Tracing Exposed" value="Tracing Exposed"/>
+                <element inactive_on_update="false" label="Tracing Reactors" value="Tracing Reactors"/>
+                <element inactive_on_update="false" label="Tracing Reg. Kill" value="Tracing Reg. Kill"/>
             </choice>
         </element>
         <element label="Other" max_length="255" name="reason_other" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="species_other" type="string"/>
         <element label="Suspect" max_length="32" name="suspect" type="string"/>
-        <element label="Owner" max_length="32" name="tb_owner" reference="sys_user" reference_qual="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" reference_qual_condition="x_cria_livestock_t_herd_manager=true^ORx_cria_livestock_t_herd_owner=true^ORx_cria_livestock_t_veterinarian=true^EQ" type="reference"/>
+        <element attributes="ref_qual_elements=herd_loc,edge_encryption_enabled=true" label="Owner" max_length="32" name="tb_owner" reference="sys_user" reference_qual="x_cria_livestock_t_livestock_user=true^EQ" reference_qual_condition="x_cria_livestock_t_livestock_user=true^EQ" type="reference"/>
         <element label="City" max_length="255" name="tb_owner_city" type="string"/>
         <element label="Phone" max_length="15" name="tb_owner_phone" type="string"/>
-        <element label="State" max_length="32" name="tb_owner_state" reference="u_states" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="32" name="tb_owner_state" reference="u_states" type="reference"/>
         <element label="Street Address" max_length="255" name="tb_owner_street" type="string"/>
         <element label="Zip Code" max_length="10" name="tb_owner_zip" type="string"/>
-        <element choice="1" label="Test Method" max_length="40" name="test_method" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test Method" max_length="40" name="test_method" type="choice">
             <choice>
-                <element label="Caudal Fold (CFT)" value="caudal_fold"/>
-                <element label="Single Cervical (CST) (Cervid)" value="sng_cervical"/>
+                <element inactive_on_update="false" label="Caudal Fold (CFT)" value="caudal_fold"/>
+                <element inactive_on_update="false" label="Single Cervical (CST) (Cervid)" value="sng_cervical"/>
             </choice>
         </element>
-        <element choice="1" label="Test Type" max_length="40" name="test_type" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test Type" max_length="40" name="test_type" type="choice">
             <choice>
-                <element label="Initial" value="Initial"/>
-                <element label="Retest" value="Retest"/>
+                <element inactive_on_update="false" label="Initial" value="Initial"/>
+                <element inactive_on_update="false" label="Retest" value="Retest"/>
             </choice>
         </element>
         <element label="Time test was read" max_length="32" name="time_test_read" type="string"/>
         <element label="Total" max_length="32" name="total" type="string"/>
-        <element label="County" max_length="32" name="u_county" reference="u_counties" type="reference"/>
-        <element label="Date Signed" max_length="40" name="u_date_signed" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="County" max_length="32" name="u_county" reference="u_counties" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Signed" max_length="40" name="u_date_signed" type="glide_date"/>
         <element label="Laboratory" max_length="100" name="u_laboratory" type="string"/>
-        <element label="Lab Tech Signature" max_length="32" name="u_lab_tech_signature" reference="sys_user" reference_qual="x_cria_livestock_t_livestock_user=true^x_cria_livestock_t_u_usertype=lab tech^EQ" reference_qual_condition="x_cria_livestock_t_livestock_user=true^x_cria_livestock_t_u_usertype=lab tech^EQ" type="reference"/>
-        <element label="Veterinarian" max_length="32" name="u_veterinarian" reference="sys_user" type="reference"/>
-        <element label="Vet Certification Date" max_length="40" name="vet_cert_date" type="glide_date"/>
-        <element choice="1" label="Is this a whole herd test" max_length="40" name="whole_herd_test" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Lab Tech Signature" max_length="32" name="u_lab_tech_signature" reference="sys_user" reference_qual="x_cria_livestock_t_livestock_user=true^x_cria_livestock_t_u_usertype=lab tech^EQ" reference_qual_condition="x_cria_livestock_t_livestock_user=true^x_cria_livestock_t_u_usertype=lab tech^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Veterinarian" max_length="32" name="u_veterinarian" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Vet Signature" max_length="40" name="u_vet_signature" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vet Certification Date" max_length="40" name="vet_cert_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this a whole herd test" max_length="40" name="whole_herd_test" type="choice">
             <choice>
-                <element label="No" value="no"/>
-                <element label="Yes" value="yes"/>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Yes" value="yes"/>
             </choice>
         </element>
         <index name="index">
-            <element name="u_lab_tech_signature"/>
+            <element name="herd_loc"/>
         </index>
         <index name="index2">
-            <element name="u_county"/>
+            <element name="u_lab_tech_signature"/>
         </index>
         <index name="index3">
-            <element name="tb_owner"/>
+            <element name="u_county"/>
         </index>
         <index name="index4">
-            <element name="tb_owner_state"/>
+            <element name="tb_owner"/>
         </index>
         <index name="index5">
+            <element name="tb_owner_state"/>
+        </index>
+        <index name="index6">
             <element name="u_veterinarian"/>
         </index>
     </element>

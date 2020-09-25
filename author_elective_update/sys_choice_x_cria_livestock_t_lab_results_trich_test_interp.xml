@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="test_interp" table="x_cria_livestock_t_lab_results_trich" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>test_interp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Negative</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sequence/>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-20 23:19:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7fae169edb215b40c64e5eea4b9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-20 23:19:03</sys_updated_on>
+            <value>neg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>test_interp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Positive</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sequence/>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-20 23:19:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0ce5e5edb215b40c64e5eea4b961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-20 23:19:17</sys_updated_on>
+            <value>pos</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>test_interp</element>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-20 23:19:03</sys_created_on>
+            <sys_id>dfbe569edb215b40c64e5eea4b961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>test_interp</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_trich_test_interp</sys_update_name>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-20 23:19:03</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_choice_x_cria_livestock_t_lab_results_trich_test_interp</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="test_interp" table="x_cria_livestock_t_lab_results_trich" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>test_interp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Negative</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sequence/>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-20 23:19:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7fae169edb215b40c64e5eea4b9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-20 23:19:03</sys_updated_on>
+            <value>neg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>test_interp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Positive</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sequence/>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-20 23:19:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0ce5e5edb215b40c64e5eea4b961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-20 23:19:17</sys_updated_on>
+            <value>pos</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>test_interp</element>
+            <name>x_cria_livestock_t_lab_results_trich</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dyoung</sys_created_by>
+            <sys_created_on>2018-04-20 23:19:03</sys_created_on>
+            <sys_id>dfbe569edb215b40c64e5eea4b961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>test_interp</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_trich_test_interp</sys_update_name>
+            <sys_updated_by>dyoung</sys_updated_by>
+            <sys_updated_on>2018-04-20 23:19:03</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>1960508069</payload_hash>
+        <record_name>Batchfill Trich.Final Test Interpetation</record_name>
+        <reverted_from/>
+        <source>a09d1916db7a570066015d104b9619c5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 21:54:45</sys_created_on>
+        <sys_id>890edd96db7a570066015d104b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1642457b5730000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-21 21:54:45</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>c50edd96877a570035feb0667a0e779e</update_guid>
+        <update_guid_history>c50edd96877a570035feb0667a0e779e:0,779b5dde2c3a570024ea69623611cb23:720181225,3b9b5dde8c3a5700c92861c380527520:-678456998,7ace5e5ec4215b4087b8ba9570d08427:927559213,57be569e06215b4077185640f8c09966:1812611282</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2020-09-24 17:02:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>cd0edd96db7a570066015d104b96199c</sys_id>
+        <sys_metadata>cd0edd96db7a570066015d104b96199c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_interp</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_choice_x_cria_livestock_t_lab_results_trich_test_interp</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_cria_livestock_t_lab_results_trich_test_interp">890edd96db7a570066015d104b96199e</sys_update_version>
+        <sys_updated_by>dyoung</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:02:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

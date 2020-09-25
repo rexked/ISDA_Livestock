@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_search_source">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_search_source">
     <sp_search_source action="INSERT_OR_UPDATE">
         <advanced_typeahead_config>false</advanced_typeahead_config>
         <condition/>
@@ -11,10 +10,12 @@
 })(query);]]></data_fetch_script>
         <display_fields>slyd_consignor_name,slyd_consignee_name,sys_created_on</display_fields>
         <enable_typeahead>true</enable_typeahead>
+        <facet_generation_script/>
         <id>saleyard</id>
         <is_scripted_source>false</is_scripted_source>
         <name>Saleyard Releases</name>
         <page display_value="isda_records_list">9ea17b23dbea1b009b2689584b96194d</page>
+        <pagination_supported>false</pagination_supported>
         <primary_display_field>record_id</primary_display_field>
         <roles>x_cria_livestock_t.AHL_User,x_cria_livestock_t.admin,x_cria_livestock_t.general_users,x_cria_livestock_t.read_only,x_cria_livestock_t.user</roles>
         <search_page_template><![CDATA[<div>

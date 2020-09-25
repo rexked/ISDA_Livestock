@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_script">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
     <sys_script action="INSERT_OR_UPDATE">
         <abort_action>false</abort_action>
         <access>package_private</access>
@@ -37,7 +36,7 @@
 			total: 0
 		};
 	
-		var gr = new GlideRecord(current.lab_result_table);
+		var gr = new GlideRecord('x_cria_livestock_t_lab_results_bruc_test');
 		var result = '';
 		gr.addQuery('parent', current.sys_id);
 		gr.query();
@@ -70,7 +69,7 @@ if (gr.test_interp.getDisplayValue() == 'Pos'){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb96990edb269700c64e5eea4b961923</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Update Test Summarys</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
@@ -78,7 +77,7 @@ if (gr.test_interp.getDisplayValue() == 'Pos'){
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_script_fb96990edb269700c64e5eea4b961923</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-26 17:16:10</sys_updated_on>
+        <sys_updated_on>2018-10-24 21:43:28</sys_updated_on>
         <template/>
         <when>before_display</when>
     </sys_script>

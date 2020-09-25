@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="15a6e0e0dbc30450eb4e18df4b96194f" sys_domain="global" table="pm_project" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15a6e0e0dbc30450eb4e18df4b961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">15a6e0e0dbc30450eb4e18df4b96194f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">9da6e0e0dbc30450eb4e18df4b961951</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6da6e0e0dbc30450eb4e18df4b96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">15a6e0e0dbc30450eb4e18df4b96194f</sys_ui_form>
+            <sys_ui_section caption="Dates" display_value="Dates" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">2da6e0e0dbc30450eb4e18df4b961959</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5a6e0e0dbc30450eb4e18df4b961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">15a6e0e0dbc30450eb4e18df4b96194f</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">a5a6e0e0dbc30450eb4e18df4b961961</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61a6e0e0dbc30450eb4e18df4b96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">15a6e0e0dbc30450eb4e18df4b96194f</sys_ui_form>
+            <sys_ui_section caption="Business Case" display_value="Business Case" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">21a6e0e0dbc30450eb4e18df4b961969</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65a6e0e0dbc30450eb4e18df4b961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">15a6e0e0dbc30450eb4e18df4b96194f</sys_ui_form>
+            <sys_ui_section caption="Financials" display_value="Financials" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961970</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61a6e0e0dbc30450eb4e18df4b96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">15a6e0e0dbc30450eb4e18df4b96194f</sys_ui_form>
+            <sys_ui_section caption="Score" display_value="Score" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">21a6e0e0dbc30450eb4e18df4b961979</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65a6e0e0dbc30450eb4e18df4b96197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">15a6e0e0dbc30450eb4e18df4b96194f</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b96197d</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65a6e0e0dbc30450eb4e18df4b961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">15a6e0e0dbc30450eb4e18df4b96194f</sys_ui_form>
+            <sys_ui_section caption="Preferences" display_value="Preferences" name="pm_project" sys_domain="global" view="b83926c6db789300c64e5eea4b961912">25a6e0e0dbc30450eb4e18df4b961982</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>pm_project</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-02-15 06:12:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15a6e0e0dbc30450eb4e18df4b96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pm_project</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_15a6e0e0dbc30450eb4e18df4b96194f</sys_update_name>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-02-15 06:12:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="ISDA" name="isda">b83926c6db789300c64e5eea4b961912</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

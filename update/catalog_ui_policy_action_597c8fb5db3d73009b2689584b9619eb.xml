@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Import Certificate of Veterinary Inspection">03532734db7dff009b2689584b9619b9</catalog_item>
+        <catalog_variable>IO:9b4a73b4dbbdff009b2689584b961957</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-06-03 16:00:03</sys_created_on>
+        <sys_id>597c8fb5db3d73009b2689584b9619eb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>consignee_name</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_597c8fb5db3d73009b2689584b9619eb</sys_update_name>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-06-10 17:04:45</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show new consignee name box">f7fb0bb5db3d73009b2689584b9619a5</ui_policy>
+        <variable>consignee_name</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

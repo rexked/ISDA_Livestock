@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="acc_test_two" label="Test #2" language="en" table="x_cria_livestock_t_batchfill_import_cvi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>acc_test_two</element>
+            <help/>
+            <hint/>
+            <label>Test #2</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_import_cvi</name>
+            <plural>Test #2s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-08 16:34:45</sys_created_on>
+            <sys_id>7e6b7a37dba87300c64e5eea4b9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Test #2</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_batchfill_import_cvi_acc_test_two_en</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-08 16:34:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

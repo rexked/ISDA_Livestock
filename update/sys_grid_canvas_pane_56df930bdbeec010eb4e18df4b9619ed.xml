@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Livestock - New Tab 2">70af130bdbeec010eb4e18df4b96194d</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 01/29/2020 10:35:13 AM">dadf5bc7dbeec010eb4e18df4b9619d5</portal_widget>
+        <posx>0</posx>
+        <posy>60</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-01-29 17:35:13</sys_created_on>
+        <sys_id>56df930bdbeec010eb4e18df4b9619ed</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>70af130bdbeec010eb4e18df4b96194d</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_56df930bdbeec010eb4e18df4b9619ed</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-01-29 17:36:57</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

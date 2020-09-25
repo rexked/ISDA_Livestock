@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="slyd_other" label="Other" language="en" table="x_cria_livestock_t_saleyard_release">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>slyd_other</element>

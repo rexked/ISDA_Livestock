@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="io_set_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>500</order>
-        <sc_cat_item display_value="Brucellosis Market Cattle Testing Form">4a38890adb749300c64e5eea4b9619be</sc_cat_item>
+        <sc_cat_item display_value="Brucellosis Market Cattle Testing Form - OLD">4a38890adb749300c64e5eea4b9619be</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>cervin@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-22 00:20:07</sys_created_on>

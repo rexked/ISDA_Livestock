@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Swap cert date with shipment number ISDN</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[gs.info("Debug");
+var count = 0;
+var shipment_date;
+var certificate_number;
+var remainder;
+var zero_start;
+var new_date;
+var new_shipment_date;
+var new_certificate_number;
+
+var gr = new GlideRecord('x_cria_livestock_t_paper_cvi');
+//gr.addQuery('certificate_number', '2019-11-13 00:00:00');
+gr.query();
+
+while (gr.next()) 
+{
+		
+   count = count + 1;
+
+   shipment_date = gr.shipment_date;
+   certificate_number = gr.certificate_number;
+  
+   if (certificate_number != '')
+   {
+      zero_start = certificate_number.indexOf('00:00:00'); 
+   }
+  
+
+   // Check if the date has zeros (-1 = not found) 
+   if ((zero_start != -1)&&(certificate_number != ''))
+   {
+      // Swap fields over
+      //gs.info('shipment_date = ' + shipment_date + ' certificate_number = ' + certificate_number + ' zero_start = ' + zero_start);
+      
+      new_shipment_date = '' + certificate_number ;
+      new_certificate_number = '' + shipment_date;
+
+      //gs.info('new_shipment_date = ' + new_shipment_date + '  new_certificate_number = ' + new_certificate_number);        
+  
+      
+      gr.certificate_number  = new_certificate_number;
+      gr.shipment_date = new_shipment_date;
+      
+      gr.update();
+      gs.info('2 ----- gr.shipment_date = ' + gr.shipment_date + ' gr.certificate_number = ' + gr.certificate_number);
+      
+
+   }
+
+    
+
+}
+ 
+ 
+gs.info('count = ' + count);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>Imckirdy</sys_created_by>
+        <sys_created_on>2020-04-03 16:48:58</sys_created_on>
+        <sys_id>ea84c640db0cd810447b4b8b0b96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Swap cert date with shipment number ISDN</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_fix_ea84c640db0cd810447b4b8b0b96190f</sys_update_name>
+        <sys_updated_by>Imckirdy</sys_updated_by>
+        <sys_updated_on>2020-04-03 16:48:58</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>false</active>
+        <application display_value="Livestock Tracking">731aa826dba09700df68f2b6ae961960</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Vaccination Records</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cria_livestock_t_vaccination_record</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_cria_livestock_t.user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>dyoung</sys_created_by>
+        <sys_created_on>2018-03-13 16:28:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>655495cadb749300c64e5eea4b961938</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Animal Records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_app_module_655495cadb749300c64e5eea4b961938</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-22 21:04:21</sys_updated_on>
+        <timeline_page/>
+        <title>Animal Records</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_app_module_655495cadb749300c64e5eea4b961938</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>false</active><application display_value="Livestock Tracking">731aa826dba09700df68f2b6ae961960</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Vaccination Records</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_cria_livestock_t_vaccination_record</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_cria_livestock_t.user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>dyoung</sys_created_by><sys_created_on>2018-03-13 16:28:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>655495cadb749300c64e5eea4b961938</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Animal Records</sys_name><sys_overrides/><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_app_module_655495cadb749300c64e5eea4b961938</sys_update_name><sys_updated_by>dmorden@criadvantage.com</sys_updated_by><sys_updated_on>2018-06-22 21:04:21</sys_updated_on><timeline_page/><title>Animal Records</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1817247562</payload_hash>
+        <record_name>Animal Records</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-06-22 21:04:21</sys_created_on>
+        <sys_id>ac1c1ee6dbb29700086c89584b961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>164294fecdf0000001</sys_recorded_at>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-06-22 21:04:21</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a41c1ee6bbb2970048348d4ad77d3557</update_guid>
+        <update_guid_history>a41c1ee6bbb2970048348d4ad77d3557:1817247562,a40e9d962c7a570054bb2783739889d3:0,f16b51deed3a570052c4f0f8da09b7ab:2061079739,e2c364de8db657001a4831d520f24e93:910453889,a54f0aac981a1f8066ac8e1e62100d42:771080096,695451cecb749300cdd39e07f14a5e98:910453889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 10/09/2018 11:53:48 AM">00c50729dbc5a340eb4e18df4b961954</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-09 17:53:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>03d917f663374eef871078a21576b411</sys_id>
+        <sys_metadata>655495cadb749300c64e5eea4b961938</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Animal Records</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_app_module_655495cadb749300c64e5eea4b961938</sys_update_name>
+        <sys_update_version display_value="sys_app_module_655495cadb749300c64e5eea4b961938">ac1c1ee6dbb29700086c89584b961957</sys_update_version>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-09 17:53:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

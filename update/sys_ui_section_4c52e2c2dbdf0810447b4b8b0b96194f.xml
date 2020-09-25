@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4c52e2c2dbdf0810447b4b8b0b96194f" sys_domain="global" table="x_cria_livestock_t_vaccinations_cvi" version="3" view="support">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>record_id</element>
+            <position>0</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>b56266c2dbdf0810447b4b8b0b961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>origin_county</element>
+            <position>1</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>3d6266c2dbdf0810447b4b8b0b961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>premise_id_number</element>
+            <position>2</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>b16266c2dbdf0810447b4b8b0b961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>396266c2dbdf0810447b4b8b0b961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num_beef_cattle</element>
+            <position>4</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>bd6266c2dbdf0810447b4b8b0b961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num_dairy_cattle</element>
+            <position>5</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>356266c2dbdf0810447b4b8b0b961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num_goats</element>
+            <position>6</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>b96266c2dbdf0810447b4b8b0b961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num_horses</element>
+            <position>7</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>316266c2dbdf0810447b4b8b0b961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num_sheep</element>
+            <position>8</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>b56266c2dbdf0810447b4b8b0b961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num_swine</element>
+            <position>9</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>3d6266c2dbdf0810447b4b8b0b961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num_poultry</element>
+            <position>10</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>b16266c2dbdf0810447b4b8b0b961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>num_other</element>
+            <position>11</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>396266c2dbdf0810447b4b8b0b961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>official_ids</element>
+            <position>12</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:54</sys_created_on>
+            <sys_id>bd6266c2dbdf0810447b4b8b0b961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="global" view="8852e2c2dbdf0810447b4b8b0b96194a">4c52e2c2dbdf0810447b4b8b0b96194f</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-03-03 17:19:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c52e2c2dbdf0810447b4b8b0b96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cria_livestock_t_vaccinations_cvi</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_4c52e2c2dbdf0810447b4b8b0b96194f</sys_update_name>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-03-03 17:19:31</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="support" name="support">8852e2c2dbdf0810447b4b8b0b96194a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

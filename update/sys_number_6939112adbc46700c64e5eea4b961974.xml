@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_cria_livestock_t_batchfill_tagging">x_cria_livestock_t_batchfill_tagging</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>BTAG</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-08-23 19:30:44</sys_created_on>
+        <sys_id>6939112adbc46700c64e5eea4b961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BTAG</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_number_6939112adbc46700c64e5eea4b961974</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-08-23 19:30:44</sys_updated_on>
+    </sys_number>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_test_interpretation" label="Test Interpretation" language="en" table="x_cria_livestock_t_tb_temp">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_test_interpretation</element>
+            <help/>
+            <hint/>
+            <label>Test Interpretation</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_tb_temp</name>
+            <plural>Test Interpretations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2018-09-04 18:13:40</sys_created_on>
+            <sys_id>3daaf2d2dbd0eb00447b4b8b0b96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Test Interpretation</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_tb_temp_u_test_interpretation_en</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2018-09-04 18:13:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

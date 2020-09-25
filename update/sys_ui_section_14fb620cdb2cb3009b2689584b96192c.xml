@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Shipment Info" section_id="14fb620cdb2cb3009b2689584b96192c" sys_domain="2e0a3304db77e300c64e5eea4b961960" table="x_cria_livestock_t_vaccinations_cvi" version="3" view="test_cvi_view">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entry_permit_number</element>
+            <position>0</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-04-21 00:46:55</sys_created_on>
+            <sys_id>6d059b21db109010447b4b8b0b9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="2e0a3304db77e300c64e5eea4b961960" view="46dbeec8db2cb3009b2689584b9619d6">14fb620cdb2cb3009b2689584b96192c</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-04-21 00:46:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>brand_inspection_number</element>
+            <position>1</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-04-21 00:46:55</sys_created_on>
+            <sys_id>29059b21db109010447b4b8b0b9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="2e0a3304db77e300c64e5eea4b961960" view="46dbeec8db2cb3009b2689584b9619d6">14fb620cdb2cb3009b2689584b96192c</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-04-21 00:46:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>carrier_name_and_address</element>
+            <position>2</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-04-21 00:46:55</sys_created_on>
+            <sys_id>ad059b21db109010447b4b8b0b9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="2e0a3304db77e300c64e5eea4b961960" view="46dbeec8db2cb3009b2689584b9619d6">14fb620cdb2cb3009b2689584b96192c</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-04-21 00:46:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-04-21 00:46:55</sys_created_on>
+            <sys_id>25059b21db109010447b4b8b0b9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="2e0a3304db77e300c64e5eea4b961960" view="46dbeec8db2cb3009b2689584b9619d6">14fb620cdb2cb3009b2689584b96192c</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-04-21 00:46:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inspection_date</element>
+            <position>4</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-04-21 00:46:55</sys_created_on>
+            <sys_id>a9059b21db109010447b4b8b0b9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="2e0a3304db77e300c64e5eea4b961960" view="46dbeec8db2cb3009b2689584b9619d6">14fb620cdb2cb3009b2689584b96192c</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-04-21 00:46:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shipment_date</element>
+            <position>5</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-04-21 00:46:55</sys_created_on>
+            <sys_id>21059b21db109010447b4b8b0b9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="2e0a3304db77e300c64e5eea4b961960" view="46dbeec8db2cb3009b2689584b9619d6">14fb620cdb2cb3009b2689584b96192c</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-04-21 00:46:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_animals_shipped</element>
+            <position>6</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-04-21 00:46:55</sys_created_on>
+            <sys_id>a5059b21db109010447b4b8b0b9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="2e0a3304db77e300c64e5eea4b961960" view="46dbeec8db2cb3009b2689584b9619d6">14fb620cdb2cb3009b2689584b96192c</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-04-21 00:46:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>test_cvi</element>
+            <position>7</position>
+            <sys_created_by>tsears</sys_created_by>
+            <sys_created_on>2020-04-21 00:46:55</sys_created_on>
+            <sys_id>2d059b21db109010447b4b8b0b9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Shipment Info" display_value="Shipment Info" name="x_cria_livestock_t_vaccinations_cvi" sys_domain="2e0a3304db77e300c64e5eea4b961960" view="46dbeec8db2cb3009b2689584b9619d6">14fb620cdb2cb3009b2689584b96192c</sys_ui_section>
+            <sys_updated_by>tsears</sys_updated_by>
+            <sys_updated_on>2020-04-21 00:46:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Shipment Info</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_vaccinations_cvi</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-03-27 23:52:05</sys_created_on>
+            <sys_domain>2e0a3304db77e300c64e5eea4b961960</sys_domain>
+            <sys_domain_path/>
+            <sys_id>14fb620cdb2cb3009b2689584b96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Shipment Info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_14fb620cdb2cb3009b2689584b96192c</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-03-27 23:52:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="test cvi view" name="test_cvi_view">46dbeec8db2cb3009b2689584b9619d6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

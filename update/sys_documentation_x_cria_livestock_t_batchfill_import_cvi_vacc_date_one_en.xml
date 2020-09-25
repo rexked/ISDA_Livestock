@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="vacc_date_one" label="Vaccination Date #1" language="en" table="x_cria_livestock_t_batchfill_import_cvi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>vacc_date_one</element>
+            <help/>
+            <hint/>
+            <label>Vaccination Date #1</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_import_cvi</name>
+            <plural>Vaccination Date #1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-15 20:14:07</sys_created_on>
+            <sys_id>1cc07b82dbb8f700c64e5eea4b961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Vaccination Date #1</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_batchfill_import_cvi_vacc_date_one_en</sys_update_name>
+            <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-15 20:14:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

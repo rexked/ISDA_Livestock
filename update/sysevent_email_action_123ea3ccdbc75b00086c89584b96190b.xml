@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>false</action_update>
-        <active>true</active>
+        <active>false</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
@@ -46,7 +45,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>5e8a7737db65db409b2689584b9619df,9289f1c2dbf49300c64e5eea4b9619e5</recipient_users>
+        <recipient_users>5e8a7737db65db409b2689584b9619df,9289f1c2dbf49300c64e5eea4b9619e5,ID-CVI@ISDA.IDAHO.GOV</recipient_users>
         <reply_to>miranda.juker@isda.idaho.gov</reply_to>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -59,15 +58,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>123ea3ccdbc75b00086c89584b96190b</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>CVI Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sysevent_email_action_123ea3ccdbc75b00086c89584b96190b</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-08-06 14:40:30</sys_updated_on>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-06-26 17:12:43</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

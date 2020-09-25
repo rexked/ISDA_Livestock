@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Livestock">f71bdacadb389300c64e5eea4b961973</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Import Certificate of Veterinary Inspection</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=03532734db7dff009b2689584b9619b9&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>907d3946dbf49300c64e5eea4b9619a9</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[var redirectURL = "isda?id=livestock_index";
+producer.portal_redirect = redirectURL;
+if(producer.new_consignor == 'true'){
+	var gemp = new GlideRecord('x_cria_livestock_t_frequent_destinations');
+	gemp.initialize();
+	gemp.setValue('name', producer.consignor_name);
+	gemp.setValue('street', producer.consignor_street);
+	gemp.setValue('city', producer.consignor_city);
+	gemp.setValue('state', producer.consignor_state.getDisplayValue());
+	gemp.setValue('zip', producer.consignor_zip);
+	gemp.setValue('phone', producer.consignor_phone);
+	gemp.setValue('assoc_vet', gs.getUserID());
+	gemp.setValue('isda_shared_contact', true);
+	gemp.insert();
+}
+if(producer.new_consignee == 'true'){
+	var gee = new GlideRecord('x_cria_livestock_t_frequent_destinations');
+	gee.initialize();
+	gee.setValue('name', producer.consignee_name);
+	gee.setValue('street', producer.conisgnee_street);
+	gee.setValue('city', producer.consignee_city);
+	gee.setValue('state', producer.consignee_state.getDisplayValue());
+	gee.setValue('zip', producer.consignee_zip);
+	gee.setValue('phone', producer.consignee_phone);
+	gee.setValue('u_county', producer.origin_county);
+	gee.setValue('assoc_vet', gs.getUserID());
+	gee.setValue('isda_shared_contact', true);
+	gee.insert();
+}
+if(producer.tb_free == 'true'){
+	current.setValue('u_tb_free', 'Yes');
+}
+
+if(producer.brucellosis_free == 'true'){
+	current.setValue('u_brucellosis_free', 'Yes');
+}
+if(producer.consignor_name_ref !== '' && producer.consignor_name == '') {
+	current.consignor_name = producer.consignor_name_ref.getDisplayValue();
+}
+if(producer.consignee_name_ref !== '' && producer.consignee_name == '') {
+	current.consignee_name = producer.consignee_name_ref.getDisplayValue();
+}
+current.u_consignor_state = producer.consignor_state.name.getDisplayValue();
+current.u_consignee_state = producer.consignee_state.name.getDisplayValue();
+
+]]></script>
+        <short_description>Import Certificate of Veterinary Inspection</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-05-31 15:05:58</sys_created_on>
+        <sys_id>03532734db7dff009b2689584b9619b9</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Import Certificate of Veterinary Inspection</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sc_cat_item_producer_03532734db7dff009b2689584b9619b9</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-09-21 16:41:34</sys_updated_on>
+        <table_name>x_cria_livestock_t_import_cvi</table_name>
+        <template/>
+        <type>item</type>
+        <u_omit_attachments_button>false</u_omit_attachments_button>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=03532734db7dff009b2689584b9619b9"/>
+    <fx_price action="delete_multiple" query="id=03532734db7dff009b2689584b9619b9"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>03532734db7dff009b2689584b9619b9</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-05-31 15:05:58</sys_created_on>
+        <sys_id>43532734db7dff009b2689584b9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-05-31 15:05:58</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>03532734db7dff009b2689584b9619b9</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-05-31 15:05:58</sys_created_on>
+        <sys_id>4f536ff4db7dff009b2689584b961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2019-05-31 15:05:58</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</content_type>
+        <file_name>Import_CVI_Template.xlsx</file_name>
+        <hash/>
+        <image_height/>
+        <image_width/>
+        <size_bytes>9711</size_bytes>
+        <size_compressed>7173</size_compressed>
+        <state>available</state>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-25 13:49:25</sys_created_on>
+        <sys_id>3c3587c5db7bc010447b4b8b0b961908</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-25 13:50:14</sys_updated_on>
+        <table_name>sc_cat_item_producer</table_name>
+        <table_sys_id>03532734db7dff009b2689584b9619b9</table_sys_id>
+        <u_sync_integration>false</u_sync_integration>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="Import_CVI_Template.xlsx" sys_id="3c3587c5db7bc010447b4b8b0b961908">3c3587c5db7bc010447b4b8b0b961908</sys_attachment>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-25 13:49:25</sys_created_on>
+        <sys_id>7c3587c5db7bc010447b4b8b0b961908</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>9552</length>
+        <position>1</position>
+        <sys_attachment display_value="Import_CVI_Template.xlsx" sys_id="3c3587c5db7bc010447b4b8b0b961908">3c3587c5db7bc010447b4b8b0b961908</sys_attachment>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-25 13:49:25</sys_created_on>
+        <sys_id>fc3587c5db7bc010447b4b8b0b961908</sys_id>
+    </sys_attachment_doc>
+</record_update>

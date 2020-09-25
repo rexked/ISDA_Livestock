@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Accession #3" section_id="54abf84cdb797f009b2689584b9619f5" sys_domain="57615f4cdb33e300c64e5eea4b9619be" table="x_cria_livestock_t_batchfill_import_cvi" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acc_num_three</element>
+            <position>0</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-28 18:57:42</sys_created_on>
+            <sys_id>d8abf84cdb797f009b2689584b9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accession #3" display_value="Accession #3" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">54abf84cdb797f009b2689584b9619f5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-28 18:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acc_date_three</element>
+            <position>1</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-28 18:57:42</sys_created_on>
+            <sys_id>5cabf84cdb797f009b2689584b9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accession #3" display_value="Accession #3" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">54abf84cdb797f009b2689584b9619f5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-28 18:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acc_lab_three</element>
+            <position>2</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-28 18:57:42</sys_created_on>
+            <sys_id>dcabf84cdb797f009b2689584b9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accession #3" display_value="Accession #3" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">54abf84cdb797f009b2689584b9619f5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-28 18:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-28 18:57:42</sys_created_on>
+            <sys_id>50abf84cdb797f009b2689584b9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accession #3" display_value="Accession #3" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">54abf84cdb797f009b2689584b9619f5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-28 18:57:42</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acc_test_three</element>
+            <position>4</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-28 18:57:42</sys_created_on>
+            <sys_id>d0abf84cdb797f009b2689584b9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accession #3" display_value="Accession #3" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">54abf84cdb797f009b2689584b9619f5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-28 18:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acc_test_name_three</element>
+            <position>5</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-28 18:57:42</sys_created_on>
+            <sys_id>54abf84cdb797f009b2689584b9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accession #3" display_value="Accession #3" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">54abf84cdb797f009b2689584b9619f5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-28 18:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acc_result_three</element>
+            <position>6</position>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-28 18:57:42</sys_created_on>
+            <sys_id>d4abf84cdb797f009b2689584b9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accession #3" display_value="Accession #3" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="57615f4cdb33e300c64e5eea4b9619be" view="Default view">54abf84cdb797f009b2689584b9619f5</sys_ui_section>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-28 18:57:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Accession #3</caption>
+            <header>false</header>
+            <name>x_cria_livestock_t_batchfill_import_cvi</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-05-28 18:57:42</sys_created_on>
+            <sys_domain>57615f4cdb33e300c64e5eea4b9619be</sys_domain>
+            <sys_domain_path/>
+            <sys_id>54abf84cdb797f009b2689584b9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Accession #3</sys_name>
+            <sys_overrides caption="Accession #3" display_value="Accession #3" name="x_cria_livestock_t_batchfill_import_cvi" sys_domain="1070930cdb33e300c64e5eea4b961918" view="Default view">7b1dff0ddbb837009b2689584b961944</sys_overrides>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_ui_section_54abf84cdb797f009b2689584b9619f5</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-05-28 18:57:42</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

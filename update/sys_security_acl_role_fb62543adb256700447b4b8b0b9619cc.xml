@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-11-06 22:34:28</sys_created_on>
+        <sys_id>fb62543adb256700447b4b8b0b9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cria_livestock_t_m2m_users_locations.x_cria_livestock_t.AHL_User</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_security_acl display_value="x_cria_livestock_t_m2m_users_locations">96d855c2db7a5f009b2689584b961948</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fb62543adb256700447b4b8b0b9619cc</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-11-06 22:34:28</sys_updated_on>
+        <sys_user_role display_value="x_cria_livestock_t.AHL_User" name="x_cria_livestock_t.AHL_User">41a00b68dbc1d700c64e5eea4b961941</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

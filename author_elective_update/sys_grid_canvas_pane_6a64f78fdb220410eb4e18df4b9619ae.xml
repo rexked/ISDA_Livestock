@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA My  Project Manager  - New Tab 2">bfe7566edb628010447b4b8b0b96194b</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 01/29/2020 12:05:04 PM">ea64b38fdb220410eb4e18df4b9619aa</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>mjuker</sys_created_by>
+        <sys_created_on>2020-01-29 19:05:04</sys_created_on>
+        <sys_id>6a64f78fdb220410eb4e18df4b9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bfe7566edb628010447b4b8b0b96194b</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_6a64f78fdb220410eb4e18df4b9619ae</sys_update_name>
+        <sys_updated_by>mjuker</sys_updated_by>
+        <sys_updated_on>2020-01-29 19:05:04</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_grid_canvas_pane_6a64f78fdb220410eb4e18df4b9619ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA My  Project Manager  - New Tab 2">bfe7566edb628010447b4b8b0b96194b</grid_canvas><height>10</height><portal_widget display_value="Created 01/29/2020 12:05:04 PM">ea64b38fdb220410eb4e18df4b9619aa</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>mjuker</sys_created_by><sys_created_on>2020-01-29 19:05:04</sys_created_on><sys_id>6a64f78fdb220410eb4e18df4b9619ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>bfe7566edb628010447b4b8b0b96194b</sys_name><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_grid_canvas_pane_6a64f78fdb220410eb4e18df4b9619ae</sys_update_name><sys_updated_by>mjuker</sys_updated_by><sys_updated_on>2020-01-29 19:05:04</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>-564984550</payload_hash>
+        <record_name>bfe7566edb628010447b4b8b0b96194b</record_name>
+        <reverted_from/>
+        <source>5e2e5592db7a570066015d104b961953</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>mjuker</sys_created_by>
+        <sys_created_on>2020-01-29 19:05:04</sys_created_on>
+        <sys_id>2664f78fdb220410eb4e18df4b9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ff2b1525d0000001</sys_recorded_at>
+        <sys_updated_by>mjuker</sys_updated_by>
+        <sys_updated_on>2020-01-29 19:05:04</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>2e64f78f8622041046911d6aed4d9caf</update_guid>
+        <update_guid_history>2e64f78f8622041046911d6aed4d9caf:-564984550</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-01-29 19:21:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>0983813c0a0a4aa08a19f53bab741ba1</sys_id>
+        <sys_metadata>6a64f78fdb220410eb4e18df4b9619ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bfe7566edb628010447b4b8b0b96194b</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_6a64f78fdb220410eb4e18df4b9619ae</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_6a64f78fdb220410eb4e18df4b9619ae">2664f78fdb220410eb4e18df4b9619b0</sys_update_version>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-01-29 19:21:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="sys_import_set_row" label="ISDA Loc Import" max_length="40" name="x_cria_livestock_t_isda_loc_import" sizeclass="100532" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="ISDA Loc Import" max_length="40" name="x_cria_livestock_t_isda_loc_import" sizeclass="0" type="collection">
         <element attributes="import_attribute_name=ACTIVE/INACTIVE,edge_encryption_enabled=true" label="ACTIVE/INACTIVE" max_length="40" name="u_active_inactive" type="string"/>
         <element attributes="import_attribute_name=ADDRESS1,edge_encryption_enabled=true" label="ADDRESS1" max_length="40" name="u_address1" type="string"/>
         <element attributes="import_attribute_name=ADDRESS2,edge_encryption_enabled=true" label="ADDRESS2" max_length="40" name="u_address2" type="string"/>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_cria_livestock_t_vaccinations_cvi</collection>
+        <condition table="x_cria_livestock_t_vaccinations_cvi">u_draft=false^consignee_state!=5674f34bdbcddb00c64e5eea4b961941^EQ<item endquery="false" field="u_draft" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item display_table="u_states" display_value="ID" endquery="false" field="consignee_state" goto="false" newquery="false" operator="!=" or="false" value="5674f34bdbcddb00c64e5eea4b961941"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_cria_livestock_t.cvi_attach</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>AnimalTracker@isda.idaho.gov</from>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>true</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 11pt; font-family: Cambria, serif; color: windowtext;">The attached Idaho interstate Certificate of Veterinary Inspection (iCVI) was issued for animals destined for your state.</span></p>
+<p><span style="font-size: 11pt; font-family: Cambria, serif; color: windowtext;">Please reply to this email if you have problems accessing the files, or need to change/add email addresses for CVI notifications.<br /><br />Thank you,<br /><br />Division of Animal Industries<br />Idaho State Department of Agriculture<br />(208) 332-8540</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>CVI Notification Vet</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>u_vet_ref.email,u_vet_ref.u_alternate_email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users>ID-CVI@ISDA.IDAHO.GOV</recipient_users>
+        <reply_to>miranda.juker@isda.idaho.gov</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Idaho CVI Number ${record_id}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>thigley@criadvantage.com</sys_created_by>
+        <sys_created_on>2019-06-26 16:22:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>232ea955db56b3009b2689584b961900</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>CVI Notification Vet</sys_name>
+        <sys_overrides display_value="CVI Notification">123ea3ccdbc75b00086c89584b96190b</sys_overrides>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sysevent_email_action_232ea955db56b3009b2689584b961900</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-05-06 22:26:59</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

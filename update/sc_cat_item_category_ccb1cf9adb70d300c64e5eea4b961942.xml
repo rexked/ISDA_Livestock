@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Trichomoniasis Test and Report Form">0461879adb70d300c64e5eea4b96199a</sc_cat_item>
+        <sc_cat_item display_value="Trichomoniasis Test and Report Form - OLD">0461879adb70d300c64e5eea4b96199a</sc_cat_item>
         <sc_category display_value="Livestock">f71bdacadb389300c64e5eea4b961973</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>cervin</sys_created_by>

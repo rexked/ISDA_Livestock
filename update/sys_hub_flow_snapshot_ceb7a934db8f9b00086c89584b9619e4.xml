@@ -1,24 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_hub_flow_snapshot">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow_snapshot">
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
         <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
         <description/>
+        <internal_name>contact/location_association</internal_name>
         <label_cache>[]</label_cache>
+        <master>false</master>
         <name>Contact/Location Association</name>
+        <natlang/>
+        <outputs/>
         <parent_flow/>
         <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-29 17:01:57</sys_created_on>
+        <sys_domain>global</sys_domain>
         <sys_id>ceb7a934db8f9b00086c89584b9619e4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Contact/Location Association</sys_name>
+        <sys_overrides/>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sys_hub_flow_snapshot_ceb7a934db8f9b00086c89584b9619e4</sys_update_name>
-        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-29 17:01:57</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-08-28 00:20:19</sys_updated_on>
+        <type>flow</type>
     </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=ceb7a934db8f9b00086c89584b9619e4"/>
 </record_update>

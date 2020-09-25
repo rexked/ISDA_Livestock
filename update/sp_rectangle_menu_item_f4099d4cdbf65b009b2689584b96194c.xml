@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_rectangle_menu_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
     <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
         <active>true</active>
         <color>default</color>
@@ -16,7 +15,7 @@
         <label>Brucellosis Market Cattle Testing</label>
         <order>100</order>
         <record_script/>
-        <sc_cat_item display_value="Brucellosis Market Cattle Testing Form">4a38890adb749300c64e5eea4b9619be</sc_cat_item>
+        <sc_cat_item display_value="Brucellosis Market Cattle Testing Form">c1d0e409dbac2700c64e5eea4b961924</sc_cat_item>
         <sc_category/>
         <short_description/>
         <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
@@ -26,14 +25,14 @@
         <sys_created_by>dmorden@criadvantage.com</sys_created_by>
         <sys_created_on>2018-06-14 21:46:59</sys_created_on>
         <sys_id>f4099d4cdbf65b009b2689584b96194c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Brucellosis Market Cattle Testing</sys_name>
         <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_f4099d4cdbf65b009b2689584b96194c</sys_update_name>
         <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
-        <sys_updated_on>2018-06-14 21:53:33</sys_updated_on>
+        <sys_updated_on>2018-09-12 22:16:20</sys_updated_on>
         <table/>
         <type>sc_cat_item</type>
         <url/>

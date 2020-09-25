@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-09-25 16:36:05">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-01-29 17:44:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f202af8bdbeec010eb4e18df4b96191a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA Main</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_portal_page_f202af8bdbeec010eb4e18df4b96191a</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-01-29 17:47:54</sys_updated_on>
+        <title>PA Main</title>
+        <user/>
+        <view>pa_new_tab_19</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Main">f202af8bdbeec010eb4e18df4b96191a</page>
+                <summary>Annual Trich Testing - # Negative  by  N. Idaho County (9/1/18 - 8/31/19)</summary>
+                <sys_created_by>tsears</sys_created_by>
+                <sys_created_on>2020-01-29 17:46:52</sys_created_on>
+                <sys_id>81822b4fdbeec010eb4e18df4b96192a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>tsears</sys_updated_by>
+                <sys_updated_on>2020-01-29 17:46:52</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:52 AM">81822b4fdbeec010eb4e18df4b96192a</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:52</sys_created_on>
+                        <sys_id>05822b4fdbeec010eb4e18df4b96192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:52</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:52 AM">81822b4fdbeec010eb4e18df4b96192a</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:52</sys_created_on>
+                        <sys_id>41822b4fdbeec010eb4e18df4b96192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:52 AM">81822b4fdbeec010eb4e18df4b96192a</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:52</sys_created_on>
+                        <sys_id>85822b4fdbeec010eb4e18df4b96192a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:52</sys_updated_on>
+                        <value>eb33604ddbe3fb00447b4b8b0b961916</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:52 AM">81822b4fdbeec010eb4e18df4b96192a</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:52</sys_created_on>
+                        <sys_id>8d822b4fdbeec010eb4e18df4b96192a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:52</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:52 AM">81822b4fdbeec010eb4e18df4b96192a</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:52</sys_created_on>
+                        <sys_id>c5822b4fdbeec010eb4e18df4b96192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:52</sys_updated_on>
+                        <value>Annual Trich Testing - # Negative  by  N. Idaho County (9/1/18 - 8/31/19)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:52 AM">81822b4fdbeec010eb4e18df4b96192a</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:52</sys_created_on>
+                        <sys_id>c9822b4fdbeec010eb4e18df4b96192a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:52</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Main">f202af8bdbeec010eb4e18df4b96191a</page>
+                <summary>Annual Trich Testing - Total # Positive (9/1/18 - 8/31/19)</summary>
+                <sys_created_by>tsears</sys_created_by>
+                <sys_created_on>2020-01-29 17:46:45</sys_created_on>
+                <sys_id>9772ab4fdbeec010eb4e18df4b96195c</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>tsears</sys_updated_by>
+                <sys_updated_on>2020-01-29 17:46:45</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:45 AM">9772ab4fdbeec010eb4e18df4b96195c</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:45</sys_created_on>
+                        <sys_id>1772ab4fdbeec010eb4e18df4b96195e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:45</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:45 AM">9772ab4fdbeec010eb4e18df4b96195c</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:45</sys_created_on>
+                        <sys_id>1b72ab4fdbeec010eb4e18df4b96195d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:45 AM">9772ab4fdbeec010eb4e18df4b96195c</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:45</sys_created_on>
+                        <sys_id>5772ab4fdbeec010eb4e18df4b96195d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:45 AM">9772ab4fdbeec010eb4e18df4b96195c</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:45</sys_created_on>
+                        <sys_id>9372ab4fdbeec010eb4e18df4b96195d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:45</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:45 AM">9772ab4fdbeec010eb4e18df4b96195c</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:45</sys_created_on>
+                        <sys_id>9b72ab4fdbeec010eb4e18df4b96195c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:45</sys_updated_on>
+                        <value>cd0458fedb17b700447b4b8b0b9619a6</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:45 AM">9772ab4fdbeec010eb4e18df4b96195c</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:45</sys_created_on>
+                        <sys_id>9f72ab4fdbeec010eb4e18df4b96195d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:45</sys_updated_on>
+                        <value>Annual Trich Testing - Total # Positive (9/1/18 - 8/31/19)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:45 AM">9772ab4fdbeec010eb4e18df4b96195c</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:45</sys_created_on>
+                        <sys_id>db72ab4fdbeec010eb4e18df4b96195d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:45</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:45 AM">9772ab4fdbeec010eb4e18df4b96195c</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:45</sys_created_on>
+                        <sys_id>df72ab4fdbeec010eb4e18df4b96195c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:45</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Main">f202af8bdbeec010eb4e18df4b96191a</page>
+                <summary>Export CVIs by destination this month</summary>
+                <sys_created_by>tsears</sys_created_by>
+                <sys_created_on>2020-01-29 17:46:24</sys_created_on>
+                <sys_id>de62274fdbeec010eb4e18df4b96196d</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>tsears</sys_updated_by>
+                <sys_updated_on>2020-01-29 17:46:24</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:24 AM">de62274fdbeec010eb4e18df4b96196d</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:24</sys_created_on>
+                        <sys_id>1662274fdbeec010eb4e18df4b96196e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:24</sys_updated_on>
+                        <value>c314248cdb765b009b2689584b961983</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:24 AM">de62274fdbeec010eb4e18df4b96196d</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:24</sys_created_on>
+                        <sys_id>1e62274fdbeec010eb4e18df4b96196e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:24</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:24 AM">de62274fdbeec010eb4e18df4b96196d</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:24</sys_created_on>
+                        <sys_id>5662274fdbeec010eb4e18df4b96196f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:24</sys_updated_on>
+                        <value>Export CVIs by destination this month</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:24 AM">de62274fdbeec010eb4e18df4b96196d</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:24</sys_created_on>
+                        <sys_id>5a62274fdbeec010eb4e18df4b96196e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:24</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:24 AM">de62274fdbeec010eb4e18df4b96196d</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:24</sys_created_on>
+                        <sys_id>9262274fdbeec010eb4e18df4b96196f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:24</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 01/29/2020 10:46:24 AM">de62274fdbeec010eb4e18df4b96196d</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-01-29 17:46:24</sys_created_on>
+                        <sys_id>de62274fdbeec010eb4e18df4b96196e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-01-29 17:46:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

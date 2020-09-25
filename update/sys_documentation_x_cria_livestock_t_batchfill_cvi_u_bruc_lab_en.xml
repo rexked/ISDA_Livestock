@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_bruc_lab" label="Laboratory" language="en" table="x_cria_livestock_t_batchfill_cvi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_bruc_lab</element>
+            <help/>
+            <hint/>
+            <label>Laboratory</label>
+            <language>en</language>
+            <name>x_cria_livestock_t_batchfill_cvi</name>
+            <plural>Laboratories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>thigley@criadvantage.com</sys_created_by>
+            <sys_created_on>2019-04-15 15:23:34</sys_created_on>
+            <sys_id>dc4e664adbbcb7009b2689584b9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Laboratory</sys_name>
+            <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+            <sys_update_name>sys_documentation_x_cria_livestock_t_batchfill_cvi_u_bruc_lab_en</sys_update_name>
+            <sys_updated_by>thigley@criadvantage.com</sys_updated_by>
+            <sys_updated_on>2019-04-15 15:23:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

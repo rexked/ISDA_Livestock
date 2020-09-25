@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-09-24 17:03:15">
+    <sys_portal_page action="DELETE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6a3f111dbb30410447b4b8b0b9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_ISDA_Catalog</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_portal_page_e6a3f111dbb30410447b4b8b0b9619a7</sys_update_name>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+        <title>catalog_ISDA_Catalog</title>
+        <user/>
+        <view>catalog_ISDA_Catalog</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="catalog_ISDA_Catalog">e6a3f111dbb30410447b4b8b0b9619a7</page>
+                <summary/>
+                <sys_created_by>tsears</sys_created_by>
+                <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+                <sys_id>aaa3f111dbb30410447b4b8b0b9619a8</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>tsears</sys_updated_by>
+                <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+                        <sys_id>2ea3f111dbb30410447b4b8b0b9619a8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+                        <value>f71bdacadb389300c64e5eea4b961973</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_title</name>
+                        <portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+                        <sys_id>62a3f111dbb30410447b4b8b0b9619aa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+                        <sys_id>62a3f111dbb30410447b4b8b0b9619ab</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+                        <value>Livestock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog</name>
+                        <portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+                        <sys_id>66a3f111dbb30410447b4b8b0b9619aa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+                        <value>907d3946dbf49300c64e5eea4b9619a9</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>macro</name>
+                        <portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+                        <sys_id>6aa3f111dbb30410447b4b8b0b9619a9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+                        <value>sc_catalog_homepage_category_list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link_class</name>
+                        <portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+                        <sys_id>6aa3f111dbb30410447b4b8b0b9619aa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+                        <value>category_title_link</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+                        <sys_id>6ea3f111dbb30410447b4b8b0b9619a9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+                        <value>com.glideapp.servicecatalog.RenderCategory</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link</name>
+                        <portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+                        <sys_id>6ea3f111dbb30410447b4b8b0b9619aa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+                        <value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;sysparm_parent=f71bdacadb389300c64e5eea4b961973&amp;amp;sysparm_catalog=907d3946dbf49300c64e5eea4b9619a9&amp;amp;sysparm_catalog_view=catalog_ISDA_Catalog</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+                        <sys_id>e6a3f111dbb30410447b4b8b0b9619ab</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+                        <value>category</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog_view</name>
+                        <portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+                        <sys_id>eaa3f111dbb30410447b4b8b0b9619ab</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+                        <value>catalog_ISDA_Catalog</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section>
+                        <sys_created_by>tsears</sys_created_by>
+                        <sys_created_on>2020-03-26 02:31:40</sys_created_on>
+                        <sys_id>eea3f111dbb30410447b4b8b0b9619ab</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>tsears</sys_updated_by>
+                        <sys_updated_on>2020-03-26 02:31:40</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</application>
+        <file_path/>
+        <instance_id>e0ad35a6dbec57c0b2e05d00cf9619e7</instance_id>
+        <instance_name>criadvantage</instance_name>
+        <name>sys_portal_page_e6a3f111dbb30410447b4b8b0b9619a7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-09-24 17:03:15"><sys_portal_page action="INSERT_OR_UPDATE"><layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout><order/><read_roles/><roles/><selectable>false</selectable><sys_class_name>sys_portal_page</sys_class_name><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e6a3f111dbb30410447b4b8b0b9619a7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>catalog_ISDA_Catalog</sys_name><sys_overrides/><sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package><sys_policy/><sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope><sys_update_name>sys_portal_page_e6a3f111dbb30410447b4b8b0b9619a7</sys_update_name><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><title>catalog_ISDA_Catalog</title><user/><view>catalog_ISDA_Catalog</view><related_items_node><sys_portal action="INSERT_OR_UPDATE"><dropzone>dropzone1</dropzone><offset>0</offset><page display_value="catalog_ISDA_Catalog">e6a3f111dbb30410447b4b8b0b9619a7</page><summary/><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_id>aaa3f111dbb30410447b4b8b0b9619a8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><related_items_node><sys_portal_preferences action="INSERT_OR_UPDATE"><name>sys_id</name><portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_id>2ea3f111dbb30410447b4b8b0b9619a8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><value>f71bdacadb389300c64e5eea4b961973</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>render_title</name><portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_id>62a3f111dbb30410447b4b8b0b9619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><value>true</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>title</name><portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_id>62a3f111dbb30410447b4b8b0b9619ab</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><value>Livestock</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>catalog</name><portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_id>66a3f111dbb30410447b4b8b0b9619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><value>907d3946dbf49300c64e5eea4b9619a9</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>macro</name><portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_id>6aa3f111dbb30410447b4b8b0b9619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><value>sc_catalog_homepage_category_list</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>title_link_class</name><portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_id>6aa3f111dbb30410447b4b8b0b9619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><value>category_title_link</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>renderer</name><portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_id>6ea3f111dbb30410447b4b8b0b9619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><value>com.glideapp.servicecatalog.RenderCategory</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>title_link</name><portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_id>6ea3f111dbb30410447b4b8b0b9619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;sysparm_parent=f71bdacadb389300c64e5eea4b961973&amp;amp;sysparm_catalog=907d3946dbf49300c64e5eea4b9619a9&amp;amp;sysparm_catalog_view=catalog_ISDA_Catalog</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>type</name><portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_id>e6a3f111dbb30410447b4b8b0b9619ab</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><value>category</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>catalog_view</name><portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_id>eaa3f111dbb30410447b4b8b0b9619ab</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><value>catalog_ISDA_Catalog</value></sys_portal_preferences><sys_portal_preferences action="INSERT_OR_UPDATE"><name>current_page</name><portal_section display_value="Created 03/25/2020 08:31:40 PM">aaa3f111dbb30410447b4b8b0b9619a8</portal_section><sys_created_by>tsears</sys_created_by><sys_created_on>2020-03-26 02:31:40</sys_created_on><sys_id>eea3f111dbb30410447b4b8b0b9619ab</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tsears</sys_updated_by><sys_updated_on>2020-03-26 02:31:40</sys_updated_on><value/></sys_portal_preferences></related_items_node></sys_portal></related_items_node></sys_portal_page></record_update>]]></payload>
+        <payload_hash>-1537646699</payload_hash>
+        <record_name>catalog_ISDA_Catalog</record_name>
+        <reverted_from/>
+        <source>08a40512db131010eb4e18df4b96190d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2020-09-19 01:19:50</sys_created_on>
+        <sys_id>a48c4eccdb6f1410eb4e18df4b961995</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>174a3f226f00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Portal Page</type>
+        <update_guid>648c4ecc4d6f1410a245261f3e37eb95</update_guid>
+        <update_guid_history>648c4ecc4d6f1410a245261f3e37eb95:-1537646699</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tsears</sys_created_by>
+        <sys_created_on>2020-09-24 17:03:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_portal_page">sys_portal_page</sys_db_object>
+        <sys_id>4587c2ca37d341088a5c31f582fb86c4</sys_id>
+        <sys_metadata>e6a3f111dbb30410447b4b8b0b9619a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_ISDA_Catalog</sys_name>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_scope_delete display_value="">0a9ea1241d954d4780e5f90c82e9f819</sys_scope_delete>
+        <sys_update_name>sys_portal_page_e6a3f111dbb30410447b4b8b0b9619a7</sys_update_name>
+        <sys_update_version display_value="sys_portal_page_e6a3f111dbb30410447b4b8b0b9619a7">a48c4eccdb6f1410eb4e18df4b961995</sys_update_version>
+        <sys_updated_by>tsears</sys_updated_by>
+        <sys_updated_on>2020-09-24 17:03:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

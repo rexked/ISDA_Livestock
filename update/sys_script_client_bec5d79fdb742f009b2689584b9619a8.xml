@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Updates the address information any time the location is changed</description>
+        <field>trich_location</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Update location address</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var ga = g_form.getReference('trich_location', fillInfo); // fillInfo is our callback function
+	}
+
+	function fillInfo(ga) { // set values on form with herd location info
+		g_form.setValue('trich_ownerstreet', ga.street);
+		g_form.setValue('trich_ownercity', ga.city);
+		g_form.setValue('trich_ownerzip', ga.zip);
+		g_form.setValue('u_phone_number', ga.phone);
+		g_form.setValue('u_county', ga.u_county);
+		var gr = new GlideRecord('u_states');
+		gr.addQuery('name', ga.state);
+		gr.query(locstate);
+		function locstate(gr){
+			if(gr.next()){
+				g_form.setValue('trich_ownerstate',gr.sys_id);
+			}
+		}
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>dmorden@criadvantage.com</sys_created_by>
+        <sys_created_on>2018-10-02 19:23:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bec5d79fdb742f009b2689584b9619a8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Update location address</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Livestock Tracking" source="x_cria_livestock_t">7b1a2026dba09700df68f2b6ae96198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Livestock Tracking">7b1a2026dba09700df68f2b6ae96198c</sys_scope>
+        <sys_update_name>sys_script_client_bec5d79fdb742f009b2689584b9619a8</sys_update_name>
+        <sys_updated_by>dmorden@criadvantage.com</sys_updated_by>
+        <sys_updated_on>2018-10-02 20:07:32</sys_updated_on>
+        <table>x_cria_livestock_t_vaccinations_trichomoniasis</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
